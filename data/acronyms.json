@@ -1,0 +1,1815 @@
+{
+ "groups": [
+  {
+   "g": "Systems - Oil, Fuel, Electrical and Powerplant",
+   "items": [
+    {
+     "t": "Detonation",
+     "x": "Not an acronym. The term is detonation, also called engine knock.",
+     "d": "Detonation is an uncontrolled, explosive ignition of the fuel-air mixture inside the cylinder's combustion chamber instead of a smooth, progressive burn. The Gold Seal guide lists three causes: using a fuel grade lower than recommended, running high manifold pressure with low RPM, and running high power with an excessively lean mixture. You discuss it whenever the examiner asks what can destroy an engine, and you avoid it with the correct fuel grade, a rich enough mixture, and a lower pitch attitude for better cooling airflow. The Warrior has no cowl flaps, so airspeed and mixture are the pilot's only cooling controls.",
+     "reg": "14 CFR Part 91, Subpart A, Section 91.9, Civil aircraft flight manual, marking, and placard requirements; Pilot's Handbook of Aeronautical Knowledge, FAA-H-8083-25",
+     "tier": 1,
+     "why": "Powerplant is his stated focus and detonation is the first question most systems-focused examiners ask."
+    },
+    {
+     "t": "Preignition",
+     "x": "Not an acronym. The term is preignition.",
+     "d": "Preignition occurs when the fuel-air mixture ignites before the normal ignition event, usually from a residual hot spot such as a glowing carbon deposit or a cracked spark plug insulator. It causes a loss of power and very high operating temperatures. Expect to be asked to distinguish it from detonation, since detonation is a timing-correct burn that goes explosive while preignition is an early light-off.",
+     "reg": "Pilot's Handbook of Aeronautical Knowledge, FAA-H-8083-25, Chapter 7, Aircraft Systems",
+     "tier": 1,
+     "why": "Always paired with detonation on a powerplant-focused oral."
+    },
+    {
+     "t": "Spark Plug Fouling",
+     "x": "Not an acronym. The term is spark plug fouling.",
+     "d": "Fouling occurs when low engine operating temperatures are combined with an over-rich mixture, so lead and carbon deposits bridge the spark plug electrodes and the plug stops firing. You prevent it by leaning aggressively for taxi and ground operations in the carbureted Lycoming O-320. It is the most common cause of a rough magneto drop at run-up, and the fix in flight is to lean the mixture and run at higher power briefly.",
+     "reg": "Pilot's Handbook of Aeronautical Knowledge, FAA-H-8083-25, Chapter 7, Aircraft Systems",
+     "tier": 1,
+     "why": "Directly in his ignition and powerplant focus, and it is the likely cause of a run-up discrepancy he will pose as a scenario."
+    },
+    {
+     "t": "Magneto",
+     "x": "Not an acronym. The term is magneto, from magneto-electric generator.",
+     "d": "A magneto is an engine-driven electrical generator that uses permanent magnets to produce periodic pulses of alternating current for the spark plugs. It generates current completely independently of the aircraft electrical system and it operates whenever the crankshaft is rotating, which is why a broken or disconnected P-lead can let the engine fire even with the ignition switch OFF. The Warrior has two magnetos feeding two plugs per cylinder, which gives redundancy, a more complete burn, and more power.",
+     "reg": "14 CFR Part 91, Subpart E, Section 91.409, Inspections; Pilot's Handbook of Aeronautical Knowledge, FAA-H-8083-25, Chapter 7, Aircraft Systems",
+     "tier": 1,
+     "why": "The classic electrical-versus-ignition trap question and squarely in his focus areas."
+    },
+    {
+     "t": "P-Lead",
+     "x": "P stands for primary. The P-lead is the primary lead, the ground wire between the magneto and the ignition switch.",
+     "d": "The P-lead grounds out the magneto's primary circuit so that the magneto stops producing spark when the ignition switch is in OFF or when the opposite magneto is selected. If the P-lead is broken or disconnected the magneto is hot at all times, and the Gold Seal guide warns that the engine could start if the propeller is moved with residual fuel in the lines. You check this with the magneto grounding check at idle before shutdown.",
+     "reg": "Pilot's Handbook of Aeronautical Knowledge, FAA-H-8083-25, Chapter 7, Aircraft Systems",
+     "tier": 1,
+     "why": "The standard follow-up to the magneto question and a hands-on safety item in his focus area."
+    },
+    {
+     "t": "Fuel-Air Mixture",
+     "x": "Not an acronym. The term is fuel-air mixture ratio.",
+     "d": "The fuel-air mixture is the ratio of the weight of fuel to the weight of air in the charge to be burned. Leaning at cruise altitude restores the correct ratio as air density falls and gives optimal engine performance and fuel economy, and leaning before taxi keeps the spark plugs from fouling. The Warrior's carburetor meters by volume, not by mass, so the pilot must lean manually as density altitude increases.",
+     "reg": "Pilot's Handbook of Aeronautical Knowledge, FAA-H-8083-25, Chapter 7, Aircraft Systems",
+     "tier": 1,
+     "why": "Fuel system management is one of his four named focus areas."
+    },
+    {
+     "t": "Carburetor Ice",
+     "x": "Not an acronym. The term is carburetor icing, countered by carburetor heat.",
+     "d": "Fuel vaporization and the pressure drop through the venturi of a float-type carburetor can cool the induction air by many degrees and freeze moisture into ice in the throat, which restricts airflow. In a fixed-pitch airplane such as the Warrior the first symptom is a gradual, unexplained drop in RPM with rough running. Carburetor heat routes unfiltered air warmed by an exhaust shroud into the induction system, and applying it causes an immediate further RPM drop followed by a rise and smoothing as the ice melts.",
+     "reg": "14 CFR Part 91, Subpart A, Section 91.9, Civil aircraft flight manual, marking, and placard requirements; Pilot's Handbook of Aeronautical Knowledge, FAA-H-8083-25, Chapter 7, Aircraft Systems",
+     "tier": 1,
+     "why": "The Warrior's Lycoming O-320 is carbureted, so an induction-system examiner will go here immediately."
+    },
+    {
+     "t": "Oil System",
+     "x": "Not an acronym. The Warrior uses a wet-sump, pressure lubrication system.",
+     "d": "Engine oil lubricates, cools, cleans, seals and cushions, and it carries contaminants to the full-flow filter. The Warrior II POH, Piper Report VB-1180, gives an engine oil capacity of 8 quarts with a minimum safe quantity of 2 quarts, oil and filter change every 50 hours not to exceed 4 months, maximum oil temperature 245 degrees Fahrenheit, oil pressure red lines at 25 PSI minimum and 100 PSI maximum, and a green arc of 60 to 90 PSI. Confirm these in this airplane's POH, because serial 28-8116257 is covered by the earlier Piper Report VB-880 rather than VB-1180.",
+     "reg": "14 CFR Part 91, Subpart A, Section 91.9, Civil aircraft flight manual, marking, and placard requirements; 14 CFR Part 43, Appendix A, Preventive maintenance",
+     "tier": 1,
+     "why": "Oil is the first of his four named focus areas and he will ask for capacities and red lines."
+    },
+    {
+     "t": "Fuel System",
+     "x": "Not an acronym. The Warrior uses a gravity-assisted, two-tank, selector-fed system with an engine-driven pump and an electric boost pump.",
+     "d": "The Warrior II POH, Piper Report VB-1180, gives a total fuel capacity of 50 US gallons, 2 gallons unusable, 48 gallons usable at 24 gallons per wing, minimum grade 100 or 100LL aviation gasoline, and fuel pressure red lines of 0.5 PSI minimum and 8 PSI maximum with a green arc of 0.5 to 8 PSI. The electric fuel pump is turned on for takeoff, landing and tank switching so that an engine-driven pump failure does not stop fuel flow. Confirm the figures in this airplane's POH, since serial 28-8116257 falls under the earlier Piper Report VB-880.",
+     "reg": "14 CFR Part 91, Subpart A, Section 91.9, Civil aircraft flight manual, marking, and placard requirements; 14 CFR Part 91, Subpart B, Section 91.151, Fuel requirements for flight in VFR conditions",
+     "tier": 1,
+     "why": "Fuel is a named focus area and quantities and grades are checkable facts."
+    },
+    {
+     "t": "Electrical System",
+     "x": "Not an acronym. The Warrior uses a 14-volt direct current, alternator-driven, single-bus system.",
+     "d": "The Warrior II POH, Piper Report VB-1180, describes a 14-volt, 60-amp alternator, a 12-volt battery mounted in a box on the forward right face of the firewall, a voltage regulator, an overvoltage relay and a master switch relay, with circuit breakers on the lower right instrument panel and an annunciator panel carrying alternator and low oil pressure lights. The alternator supplies all electrical load in flight and charges the battery, the regulator holds bus voltage steady, and the overvoltage relay trips the alternator offline if output runs away. Confirm the ratings in this airplane's POH, since serial 28-8116257 falls under the earlier Piper Report VB-880.",
+     "reg": "14 CFR Part 91, Subpart A, Section 91.9, Civil aircraft flight manual, marking, and placard requirements",
+     "tier": 1,
+     "why": "Electrical is a named focus area and he will want the alternator rating, the bus voltage and the failure indications."
+    },
+    {
+     "t": "GUMPS",
+     "x": "G - Gas. U - Undercarriage. M - Mixture. P - Propeller. S - Switches, seat belts and safety.",
+     "d": "GUMPS is the standard pre-landing flow, run on downwind and again on final, to make sure the airplane is configured to land. In the Warrior the gear is fixed and the propeller is fixed-pitch, so U becomes a confirmation that the gear is welded down and P is not applicable, but you still say the whole flow out loud because an examiner wants the habit pattern that transfers to a retractable. This mnemonic does not appear in the Gold Seal guide; it is a widely taught industry flow rather than a regulation.",
+     "reg": "",
+     "tier": 1,
+     "why": "He will fly the power-off 180 and he will want a verbalized pre-landing flow that covers fuel selector and mixture."
+    },
+    {
+     "t": "Fixed-Pitch Propeller",
+     "x": "Not an acronym. The term is fixed-pitch propeller.",
+     "d": "On a fixed-pitch propeller the blade angle is built into the blade itself and cannot be changed once the propeller is manufactured, so the pilot has one power control, the throttle, and engine RPM varies with airspeed and power. The Warrior II uses a Sensenich fixed-pitch propeller per Piper Report VB-1180. A fixed-pitch propeller is efficient only at one combination of airspeed and RPM, which is why it is specified as either a climb or a cruise propeller.",
+     "reg": "14 CFR Part 91, Subpart A, Section 91.9, Civil aircraft flight manual, marking, and placard requirements",
+     "tier": 1,
+     "why": "It is what he is flying and it sets up the contrast with the constant-speed propeller required for the complex training."
+    },
+    {
+     "t": "Constant-Speed Propeller",
+     "x": "Not an acronym. The term is constant-speed, or controllable-pitch, propeller.",
+     "d": "A constant-speed propeller is a controllable-pitch propeller whose blade angle is varied automatically in flight by a governor, so the pilot has two controls, the throttle for manifold pressure and the propeller control for RPM. Once an RPM is selected the governor adjusts blade angle to hold it as airspeed and power change. The commercial applicant must have at least 10 hours of complex or technically advanced airplane training, so expect the oval of manifold-pressure-and-RPM sequencing questions even in a fixed-pitch airplane.",
+     "reg": "14 CFR Part 61, Subpart F, Section 61.129, Aeronautical experience; 14 CFR Part 61, Subpart A, Section 61.31, Type rating requirements, additional training, and authorization requirements",
+     "tier": 1,
+     "why": "Commercial training requires complex or TAA time, and it is the natural powerplant follow-up to the fixed-pitch answer."
+    },
+    {
+     "t": "RPM",
+     "x": "R - Revolutions. P - Per. M - Minute.",
+     "d": "RPM is the rotational speed of the crankshaft and, on a fixed-pitch airplane, of the propeller. It is the Warrior pilot's only direct power indication, with a tachometer green arc of 500 to 2700 RPM and a red line of 2700 RPM at maximum continuous power per the POH. A magneto check on run-up is judged by the RPM drop on each magneto and the difference between them, and an unexplained RPM loss in cruise points toward carburetor ice.",
+     "reg": "14 CFR Part 91, Subpart C, Section 91.205, Powered civil aircraft with standard category U.S. airworthiness certificates: Instrument and equipment requirements",
+     "tier": 1,
+     "why": "It is the single power indication in his airplane and the measurement behind every run-up discrepancy question."
+    },
+    {
+     "t": "MP",
+     "x": "M - Manifold. P - Pressure.",
+     "d": "Manifold pressure is the absolute pressure of the air in the intake manifold downstream of the throttle, read in inches of mercury, and it is the power indication on a constant-speed installation. It is the M in A TOMATO FLAMES, but Section 91.205 requires a manifold pressure gauge only for each altitude engine, so a normally aspirated fixed-pitch Warrior does not carry one and is not required to. Knowing why your airplane lacks an item on the required list is a standard examiner probe.",
+     "reg": "14 CFR Part 91, Subpart C, Section 91.205, Powered civil aircraft with standard category U.S. airworthiness certificates: Instrument and equipment requirements",
+     "tier": 1,
+     "why": "The required-equipment list and his powerplant focus intersect exactly here."
+    },
+    {
+     "t": "AVGAS",
+     "x": "AV - Aviation. GAS - Gasoline.",
+     "d": "Aviation gasoline is the spark-ignition piston fuel, graded by octane and dyed by grade, with 100LL dyed blue and 100 dyed green. The Warrior II POH specifies AVGAS only, minimum grade 100 or 100LL, and warns that lower grades can cause serious engine damage. During preflight you sump each tank and the strainer to check for the right color, water and sediment.",
+     "reg": "14 CFR Part 91, Subpart A, Section 91.9, Civil aircraft flight manual, marking, and placard requirements",
+     "tier": 1,
+     "why": "Fuel grade and color is a near-certain question on a fuel-focused oral."
+    },
+    {
+     "t": "CIGAR",
+     "x": "C - Controls free and correct. I - Instruments set and checked. G - Gas, correct tank, quantity and fuel pump. A - Attitude, meaning trim and flaps set for takeoff. R - Run-up and radios complete.",
+     "d": "CIGAR is the traditional pre-takeoff check flow used to confirm the airplane is ready for departure. The common variant CIGARS or CIGARTIP adds S for seat belts and switches and TIP for transponder, interior and pitot heat. This mnemonic does not appear in the Gold Seal guide and it is not regulatory; it is a memory aid that backs up the POH checklist, which is the controlling document.",
+     "reg": "14 CFR Part 91, Subpart A, Section 91.9, Civil aircraft flight manual, marking, and placard requirements",
+     "tier": 2,
+     "why": "Likely as a flow question, but the POH checklist is what an examiner holds you to."
+    },
+    {
+     "t": "Vacuum System",
+     "x": "Not an acronym. The term is engine-driven vacuum, or suction, system.",
+     "d": "An engine-driven vacuum pump draws filtered cabin air across the rotors of the attitude indicator and heading indicator to spin them, and the gauge shows suction in inches of mercury. A vacuum failure takes those two gyroscopic instruments with it while the electrically driven turn coordinator and the pitot-static instruments keep working. The Warrior II POH lists a low vacuum annunciator light when the optional gyro system is installed.",
+     "reg": "14 CFR Part 91, Subpart C, Section 91.205, Powered civil aircraft with standard category U.S. airworthiness certificates: Instrument and equipment requirements",
+     "tier": 2,
+     "why": "A systems examiner uses it to test partial-panel reasoning, but it sits just outside his four named areas."
+    },
+    {
+     "t": "BHP",
+     "x": "B - Brake. H - Horse. P - Power.",
+     "d": "Brake horsepower is the actual power delivered at the propeller shaft, measured as the power the engine can deliver against a brake, as distinct from indicated or friction horsepower. The Warrior II POH lists a maximum of 160 horsepower at 2700 RPM for the Lycoming O-320-D2A or O-320-D3G. It matters because the high-performance endorsement threshold under Section 61.31 is an engine of more than 200 horsepower, which the Warrior is well under.",
+     "reg": "14 CFR Part 61, Subpart A, Section 61.31, Type rating requirements, additional training, and authorization requirements",
+     "tier": 2,
+     "why": "Listed on page 31 and it links his powerplant focus to the endorsement question."
+    },
+    {
+     "t": "GPH",
+     "x": "G - Gallons. P - Per. H - Hour.",
+     "d": "Gallons per hour is the volumetric fuel consumption rate used for endurance and range planning in a piston airplane. You use it with usable fuel to compute endurance, and with groundspeed to compute range, including the Section 91.151 VFR reserve of 30 minutes by day and 45 minutes at night at normal cruising speed. Read the figure from the POH cruise performance charts for the power setting and altitude you are actually flying.",
+     "reg": "14 CFR Part 91, Subpart B, Section 91.151, Fuel requirements for flight in VFR conditions",
+     "tier": 2,
+     "why": "Listed on page 31 and it is how a fuel-focused examiner moves from systems into planning."
+    },
+    {
+     "t": "TBO",
+     "x": "T - Time. B - Between. O - Overhaul.",
+     "d": "Time between overhaul is the manufacturer's recommended operating hours or calendar time before the engine is overhauled. Under Part 91 the TBO is a recommendation, not a limitation, so an engine past TBO can still be airworthy provided it meets its inspection requirements and remains in a condition for safe operation. This term is not in the Gold Seal guide, but a systems-focused examiner often uses it to test whether you know the difference between a manufacturer recommendation and a regulatory requirement.",
+     "reg": "14 CFR Part 91, Subpart E, Section 91.409, Inspections; 14 CFR Part 91, Subpart A, Section 91.7, Civil aircraft airworthiness",
+     "tier": 2,
+     "why": "A favorite trap for systems examiners because it separates recommendation from regulation."
+    },
+    {
+     "t": "EGT and CHT",
+     "x": "EGT: E - Exhaust. G - Gas. T - Temperature. CHT: C - Cylinder. H - Head. T - Temperature.",
+     "d": "Exhaust gas temperature measures the temperature of the exhaust stream and is used as the reference for leaning, since peak EGT marks the chemically correct mixture and you then set a specific number of degrees rich of peak or lean of peak. Cylinder head temperature measures the metal temperature of the cylinder head and is the limit that protects the engine from thermal damage. Neither is required equipment under Section 91.205 for this airplane, and the Warrior may or may not have them installed, so check the panel.",
+     "reg": "14 CFR Part 91, Subpart C, Section 91.205, Powered civil aircraft with standard category U.S. airworthiness certificates: Instrument and equipment requirements",
+     "tier": 2,
+     "why": "Leaning technique is a standard powerplant question even when the gauges are optional."
+    },
+    {
+     "t": "PPH",
+     "x": "P - Pounds. P - Per. H - Hour.",
+     "d": "Pounds per hour is the mass fuel consumption rate, used mainly for turbine airplanes and for weight and balance work where fuel burn must be converted to a weight change. For a piston airplane you convert from gallons per hour using 6 pounds per gallon for aviation gasoline. It appears on page 31 of the guide as a general abbreviation.",
+     "reg": "",
+     "tier": 3,
+     "why": "On the page 31 list but rarely asked on a piston single ride."
+    }
+   ]
+  },
+  {
+   "g": "Required Documents, Equipment and Preflight Action",
+   "items": [
+    {
+     "t": "A TOMATO FLAMES",
+     "x": "A - Altimeter. T - Tachometer for each engine. O - Oil temperature gauge for each engine. M - Manifold pressure gauge for each engine. A - Airspeed indicator. T - Temperature gauge for each liquid-cooled engine. O - Oil pressure gauge for each engine. F - Fuel quantity gauge for each fuel tank. L - Landing gear position lights. A - Anticollision lights. M - Magnetic compass. E - Emergency locator transmitter. S - Safety belts and shoulder harnesses.",
+     "d": "This is the minimum instrument and equipment list for day VFR flight in a standard category airplane. Several items are conditional: the manifold pressure gauge applies to each altitude engine, the liquid-cooled temperature gauge applies only to liquid-cooled engines, landing gear position lights apply only to retractable gear, and anticollision lights are required on aircraft certificated after 11 March 1996. The common variant is ATOMATOFLAMES run together, and some instructors use the longer TOMATO FLAMES A FLAPS; the Gold Seal guide prints A TOMATO FLAMES.",
+     "reg": "14 CFR Part 91, Subpart C, Section 91.205, Powered civil aircraft with standard category U.S. airworthiness certificates: Instrument and equipment requirements, paragraph (b)",
+     "tier": 1,
+     "why": "A checkoff item on every ride, and half its letters are oil, fuel and powerplant instruments he already wants to talk about."
+    },
+    {
+     "t": "FLAPS",
+     "x": "F - Fuses, a spare set, or circuit breakers. L - Landing light, required only if the aircraft is operated for hire. A - Anticollision lights. P - Position lights, also called navigation lights. S - Source of electrical power, such as a battery or alternator.",
+     "d": "FLAPS is what you add to the day VFR list for night VFR flight. The landing light requirement is conditional on operating for hire, which is precisely the commercial pilot's situation, so expect the follow-up about carrying passengers for compensation at night. The S for source of power ties straight into the Warrior's alternator and battery.",
+     "reg": "14 CFR Part 91, Subpart C, Section 91.205, Powered civil aircraft with standard category U.S. airworthiness certificates: Instrument and equipment requirements, paragraph (c)",
+     "tier": 1,
+     "why": "Required-item mnemonic, and the for-hire landing light clause plus the S for electrical source land in two of his focus areas."
+    },
+    {
+     "t": "GRABCARD",
+     "x": "G - Generator or alternator of adequate capacity. R - Radios, two-way communication and navigation equipment appropriate to the ground facilities to be used. A - Altimeter, pressure sensitive and adjustable. B - Ball, the slip-skid indicator. C - Clock, installed, showing hours, minutes and seconds with a sweep-second pointer or digital presentation. A - Attitude indicator. R - Rate of turn indicator. D - Directional gyro, the heading indicator.",
+     "d": "GRABCARD is what you add to the day VFR list, plus FLAPS if at night, for instrument flight. The G is an alternator or generator of adequate capacity for the installed equipment, which is why the Warrior's 60-amp alternator rating matters. Note that the regulation uses the phrase gyroscopic rate-of-turn indicator and a slip-skid indicator rather than the plain words ball and rate of turn.",
+     "reg": "14 CFR Part 91, Subpart C, Section 91.205, Powered civil aircraft with standard category U.S. airworthiness certificates: Instrument and equipment requirements, paragraph (d)",
+     "tier": 1,
+     "why": "Required-item mnemonic and the G is an electrical question in disguise."
+    },
+    {
+     "t": "ARROW",
+     "x": "A - Airworthiness certificate. R - Registration certificate. R - Radio station license, required only for international flights. O - Operating limitations and information, which is the approved flight manual, placards, markings and any required supplements. W - Weight and balance data specific to that aircraft.",
+     "d": "ARROW is the set of documents that must be aboard the aircraft. The Gold Seal guide heads this box with Sections 21.5, 91.103, 91.1 and 91.203, and that citation is partly wrong: the documents requirement is Section 91.203 for the airworthiness and registration certificates and Section 91.9 for the operating limitations, while Section 91.103 is preflight action and has nothing to do with onboard paperwork. Cite Sections 91.203 and 91.9, and Section 21.5 for the flight manual delivery requirement.",
+     "reg": "14 CFR Part 91, Subpart C, Section 91.203, Civil aircraft: Certifications required; 14 CFR Part 91, Subpart A, Section 91.9, Civil aircraft flight manual, marking, and placard requirements; 14 CFR Part 21, Subpart A, Section 21.5, Airplane or Rotorcraft Flight Manual",
+     "tier": 1,
+     "why": "Pure checkoff item, asked on essentially every practical test before the airplane is even looked at."
+    },
+    {
+     "t": "NW KRAFT",
+     "x": "N - NOTAMs. W - Weather reports and forecasts. K - Known air traffic delays advised by ATC. R - Runway lengths at the airports of intended use. A - Alternates available if the flight cannot be completed as planned. F - Fuel requirements. T - Takeoff and landing distance data.",
+     "d": "This is the preflight action required before beginning any flight, and for a flight not in the vicinity of an airport it adds the runway, alternate, fuel and performance items. The Gold Seal guide labels this box Preflight Info Required for IFR, which is too narrow; Section 91.103 applies to every flight, and the extended list applies to any IFR flight or any flight not in the vicinity of an airport. Common variants are NWKRAFT and WKRAFT run together; the guide prints NW KRAFT.",
+     "reg": "14 CFR Part 91, Subpart B, Section 91.103, Preflight action",
+     "tier": 1,
+     "why": "Required-item mnemonic with a regulation an examiner can read aloud, and its F and T feed fuel and performance questions."
+    },
+    {
+     "t": "ELT",
+     "x": "E - Emergency. L - Locator. T - Transmitter.",
+     "d": "The emergency locator transmitter is a crash-activated beacon required for most Part 91 airplanes, inspected every 12 calendar months. The battery must be replaced or recharged after more than 1 cumulative hour of use, or when 50 percent of its useful life has expired. It is the E in A TOMATO FLAMES and the E in AV1ATES.",
+     "reg": "14 CFR Part 91, Subpart C, Section 91.207, Emergency locator transmitters",
+     "tier": 1,
+     "why": "It appears in two required-item mnemonics and carries its own battery rule that examiners love to check."
+    },
+    {
+     "t": "MEL",
+     "x": "M - Minimum. E - Equipment. L - List.",
+     "d": "A minimum equipment list is an FAA-approved document, specific to the operator and aircraft, that permits flight with specified equipment inoperative under stated conditions and procedures. If the aircraft has an approved MEL you follow the MEL and the Section 91.213 paragraph (d) placard-or-remove path does not apply. Most Part 91 training airplanes, including a typical Warrior, have no MEL and operate under Section 91.213 paragraph (d) instead.",
+     "reg": "14 CFR Part 91, Subpart C, Section 91.213, Inoperative instruments and equipment",
+     "tier": 1,
+     "why": "Inoperative equipment is standard airworthiness territory and he will push on which path applies to this airplane."
+    },
+    {
+     "t": "KOEL",
+     "x": "K - Kinds. O - of. E - Equipment. L - List. The full title is Kinds of Operation Equipment List.",
+     "d": "The kinds of operation equipment list is the POH table, in Section 2 Limitations, that names the systems and equipment on which type certification for day VFR, night VFR, day IFR and night IFR was predicated and which must be installed and operable for each kind of operation. The Warrior II list for day VFR includes the airspeed indicator, altimeter, magnetic compass, tachometer, oil pressure and oil temperature indicators, fuel pressure and fuel quantity indicators, volt-ammeter, trim indicator, alternator and restraints. It is the fourth branch of the Section 91.213 inoperative equipment decision tree.",
+     "reg": "14 CFR Part 91, Subpart C, Section 91.213, Inoperative instruments and equipment; 14 CFR Part 91, Subpart A, Section 91.9, Civil aircraft flight manual, marking, and placard requirements",
+     "tier": 1,
+     "why": "It lives in his airplane's POH and it lists oil, fuel and electrical instruments by name."
+    },
+    {
+     "t": "Inoperative Equipment Decision Path",
+     "x": "Not an acronym.",
+     "d": "With an item inoperative and no MEL, you ask in turn whether the equipment is required by an airworthiness directive, by the regulations for the kind of operation being conducted, by the VFR-day type certification requirements in the KOEL, or by an operational equipment list. If the answer to any of those is yes, the airplane may not fly without a special flight permit. If all are no, the item must be removed or deactivated and placarded inoperative, and a pilot or mechanic must determine the aircraft is safe to fly.",
+     "reg": "14 CFR Part 91, Subpart C, Section 91.213, Inoperative instruments and equipment",
+     "tier": 1,
+     "why": "He will hand you a broken oil pressure gauge or a dead ammeter and ask whether you can go."
+    },
+    {
+     "t": "ADS-B Out",
+     "x": "A - Automatic. D - Dependent. S - Surveillance. B - Broadcast. Out means the aircraft transmits.",
+     "d": "ADS-B Out equipment automatically broadcasts the aircraft's GPS position, altitude, velocity and identity without pilot action or interrogation. It is required in Class A, B and C airspace, within the Mode C veil, in Class E at or above 10,000 feet MSL excluding airspace at and below 2,500 feet AGL, above the ceiling and within the lateral limits of Class B or Class C up to 10,000 feet MSL, and in Class E over the Gulf of Mexico at and above 3,000 feet MSL within 12 nautical miles of the coast.",
+     "reg": "14 CFR Part 91, Subpart C, Section 91.225, Automatic Dependent Surveillance-Broadcast (ADS-B) Out equipment and use",
+     "tier": 2,
+     "why": "An equipment rule he can check, though it is airspace rather than systems."
+    },
+    {
+     "t": "Mode C Veil",
+     "x": "Not an acronym. Mode C refers to the altitude-reporting transponder mode.",
+     "d": "The Mode C veil is the airspace within 30 nautical miles of a Class B primary airport, from the surface to 10,000 feet MSL, in which an altitude-reporting transponder and ADS-B Out are required. You need to know whether your home field sits inside one and what to do if the transponder fails en route.",
+     "reg": "14 CFR Part 91, Subpart C, Section 91.215, ATC transponder and altitude reporting equipment and use; 14 CFR Part 91, Subpart C, Section 91.225, Automatic Dependent Surveillance-Broadcast (ADS-B) Out equipment and use",
+     "tier": 2,
+     "why": "Standard airspace equipment follow-up, one step away from his focus."
+    },
+    {
+     "t": "Special Flight Permit",
+     "x": "Not an acronym. Also called a ferry permit.",
+     "d": "A special flight permit is issued by the FAA under Part 21 for an aircraft that does not currently meet applicable airworthiness requirements but is capable of safe flight, typically to fly the airplane to a base where repairs will be made. It is the exit the Section 91.213 flowchart points to when required equipment is inoperative. You apply through your Flight Standards District Office or a designated airworthiness representative.",
+     "reg": "14 CFR Part 21, Subpart H, Section 21.197, Special flight permits; 14 CFR Part 91, Subpart C, Section 91.213, Inoperative instruments and equipment",
+     "tier": 2,
+     "why": "The natural second half of the inoperative equipment answer."
+    }
+   ]
+  },
+  {
+   "g": "Required Inspections and Airworthiness",
+   "items": [
+    {
+     "t": "AV1ATES",
+     "x": "A - Annual inspection, every 12 calendar months. V - VOR equipment check, every 30 days, for IFR operations. 1 - 100-hour inspection, required when carrying persons for hire or giving flight instruction for hire in a provided aircraft. A - Altimeter and static pressure system, every 24 calendar months. T - Transponder, every 24 calendar months. E - Emergency locator transmitter, every 12 calendar months. S - Static system, every 24 calendar months.",
+     "d": "AV1ATES is the list of recurring inspections and checks that keep an aircraft legal. Two cautions the Gold Seal guide glosses over: the VOR check is only a requirement for IFR operations under Section 91.171 and is not an airworthiness inspection at all, and the altimeter and static system checks are the same Section 91.411 inspection, so the A and the S are not two independent items. Common variants are AVIATES and AV1ATE; the guide prints AV1ATES with the numeral one.",
+     "reg": "14 CFR Part 91, Subpart E, Section 91.409, Inspections; 14 CFR Part 91, Subpart E, Section 91.411, Altimeter system and altitude reporting equipment tests and inspections; 14 CFR Part 91, Subpart E, Section 91.413, ATC transponder tests and inspections; 14 CFR Part 91, Subpart C, Section 91.207, Emergency locator transmitters; 14 CFR Part 91, Subpart B, Section 91.171, VOR equipment check for IFR operations",
+     "tier": 1,
+     "why": "The single most reliable checkoff mnemonic on any practical test, and the 100-hour clause goes straight to commercial for-hire operations."
+    },
+    {
+     "t": "100-Hour Inspection",
+     "x": "Not an acronym.",
+     "d": "A 100-hour inspection is required when an aircraft is carrying any person other than a crewmember for hire, or when it is giving flight instruction for hire and the operator provides the aircraft. It may be exceeded by not more than 10 hours only to reach a place where the inspection can be done, and the excess is then subtracted from the next 100-hour interval. The 100-hour is the item that turns a private airplane into a commercial one, so it is the commercial applicant's inspection.",
+     "reg": "14 CFR Part 91, Subpart E, Section 91.409, Inspections, paragraph (b)",
+     "tier": 1,
+     "why": "It is the inspection that exists because of commercial privileges, and it has a 10-hour exception he can test."
+    },
+    {
+     "t": "Annual Inspection",
+     "x": "Not an acronym.",
+     "d": "No person may operate an aircraft unless, within the preceding 12 calendar months, it has had an annual inspection and been approved for return to service by a person authorized under Part 43. An annual satisfies the 100-hour requirement, but a 100-hour does not satisfy an annual, because only an inspection authorization holder may sign an annual. Twelve calendar months means through the last day of the twelfth month.",
+     "reg": "14 CFR Part 91, Subpart E, Section 91.409, Inspections, paragraph (a); 14 CFR Part 43, Section 43.7, Persons authorized to approve aircraft, airframes, aircraft engines, propellers, appliances, or component parts for return to service",
+     "tier": 1,
+     "why": "Checkoff item on every ride and the setup for the annual-versus-100-hour distinction."
+    },
+    {
+     "t": "AD",
+     "x": "A - Airworthiness. D - Directive.",
+     "d": "An airworthiness directive is a legally enforceable rule issued by the FAA under Part 39 to correct an unsafe condition in a product. Compliance is mandatory, ADs may be one-time or recurring, and an aircraft with an overdue AD is unairworthy. The pilot in command is responsible for determining the aircraft is airworthy, which means knowing that the AD status has been checked, though the records themselves are normally the owner's responsibility.",
+     "reg": "14 CFR Part 39, Section 39.3, Definition of airworthiness directives; 14 CFR Part 91, Subpart A, Section 91.403, General; 14 CFR Part 91, Subpart A, Section 91.7, Civil aircraft airworthiness",
+     "tier": 1,
+     "why": "It is the first branch of the Section 91.213 flowchart and a standard airworthiness certainty."
+    },
+    {
+     "t": "Airworthy",
+     "x": "Not an acronym. The two-part definition is conformity plus safe condition.",
+     "d": "An aircraft is airworthy when it conforms to its type certificate, including any supplemental type certificates and complied-with airworthiness directives, and when it is in a condition for safe operation. The pilot in command is responsible for determining whether the aircraft is in condition for safe flight and must discontinue the flight when unairworthy conditions occur. The Gold Seal guide states correctly that confirmation of airworthiness is the responsibility of the pilot in command.",
+     "reg": "14 CFR Part 91, Subpart A, Section 91.7, Civil aircraft airworthiness; 14 CFR Part 3, Section 3.5, Statements about products, parts, appliances and materials",
+     "tier": 1,
+     "why": "The umbrella question that every inspection and equipment answer hangs from."
+    },
+    {
+     "t": "STC",
+     "x": "S - Supplemental. T - Type. C - Certificate.",
+     "d": "A supplemental type certificate approves a major change to a type-certificated product, such as an avionics installation, an auto-gas approval or a gross weight increase, and it becomes part of the aircraft's approved configuration. An STC brings its own flight manual supplement, which then belongs with the O in ARROW. This term is not on pages 31 and 32 of the Gold Seal guide.",
+     "reg": "14 CFR Part 21, Subpart E, Section 21.113, Requirement for supplemental type certificate",
+     "tier": 2,
+     "why": "Likely when he asks what makes the airplane conform to its type design."
+    },
+    {
+     "t": "Preventive Maintenance",
+     "x": "Not an acronym.",
+     "d": "Preventive maintenance is the list of simple or minor preservation operations and small standard part replacements in Part 43 Appendix A paragraph (c), which a certificated pilot holding at least a private pilot certificate may perform on an aircraft they own or operate, provided the aircraft is not operated under Parts 121, 129 or 135. Servicing the battery, changing the oil and filter, replacing safety belts and replacing landing light bulbs are on the list, and the work must be recorded in the maintenance records. This term is not on pages 31 and 32 of the Gold Seal guide.",
+     "reg": "14 CFR Part 43, Appendix A, paragraph (c), Preventive maintenance; 14 CFR Part 43, Section 43.3, Persons authorized to perform maintenance, preventive maintenance, rebuilding, and alterations; 14 CFR Part 43, Section 43.9, Content, form, and disposition of maintenance, preventive maintenance, rebuilding, and alteration records",
+     "tier": 2,
+     "why": "Oil changes and battery servicing are preventive maintenance, which puts this directly in his oil and electrical focus."
+    },
+    {
+     "t": "TCDS",
+     "x": "T - Type. C - Certificate. D - Data. S - Sheet.",
+     "d": "The type certificate data sheet is the FAA document that defines the approved configuration and limitations of the type, including approved engines and propellers, fuel grades, placards and control surface travels. You use it to decide whether a given part or modification is approved for the airframe. This term is not on pages 31 and 32 of the Gold Seal guide.",
+     "reg": "14 CFR Part 21, Subpart B, Section 21.41, Type certificate",
+     "tier": 3,
+     "why": "Possible on a thorough airworthiness line of questioning, but usually left to maintenance."
+    },
+    {
+     "t": "Required Test Flight After Maintenance",
+     "x": "Not an acronym.",
+     "d": "When an aircraft has undergone maintenance, preventive maintenance, rebuilding or alteration that may have appreciably changed its flight characteristics or substantially affected its operation in flight, no person may carry any person other than a crewmember until an appropriately rated pilot holding at least a private pilot certificate has flown the aircraft, made an operational check and logged the flight in the maintenance records. The Gold Seal guide states this correctly on page 5.",
+     "reg": "14 CFR Part 91, Subpart E, Section 91.407, Operation after maintenance, preventive maintenance, rebuilding, or alteration, paragraph (b)",
+     "tier": 3,
+     "why": "A niche but checkable rule that a maintenance-minded examiner sometimes reaches for."
+    }
+   ]
+  },
+  {
+   "g": "V-Speeds",
+   "items": [
+    {
+     "t": "VA",
+     "x": "V - Velocity. A - Design maneuvering.",
+     "d": "Design maneuvering speed is the maximum speed at which full or abrupt movement of a single flight control will cause the airplane to stall before the structure is overstressed. It is airframe-dependent and also weight-dependent, decreasing as weight decreases. The Warrior II POH, Piper Report VB-1180, gives 111 KIAS at 2440 pounds and 88 KIAS at 1531 pounds with linear interpolation between, but serial 28-8116257 is covered by the earlier Piper Report VB-880, so confirm in this airplane's POH.",
+     "reg": "14 CFR Part 23, Section 23.2005, Certification of normal category airplanes; 14 CFR Part 91, Subpart A, Section 91.9, Civil aircraft flight manual, marking, and placard requirements",
+     "tier": 1,
+     "why": "The one V-speed that is weight-dependent and not marked on the airspeed indicator, so it is asked on nearly every ride."
+    },
+    {
+     "t": "VNE",
+     "x": "V - Velocity. N - Never. E - Exceed.",
+     "d": "Never exceed speed is the speed that may not be exceeded in any operation, marked by the red radial line at the top of the airspeed indicator. Above it structural failure or flutter is possible. It is airframe-dependent; the Warrior II POH, Piper Report VB-1180, gives 160 KIAS, which is 153 KCAS, but confirm in this airplane's POH because serial 28-8116257 falls under Piper Report VB-880.",
+     "reg": "14 CFR Part 91, Subpart A, Section 91.9, Civil aircraft flight manual, marking, and placard requirements",
+     "tier": 1,
+     "why": "Part of the airspeed indicator markings walk that opens most orals."
+    },
+    {
+     "t": "VNO",
+     "x": "V - Velocity. N - Normal. O - Operating. Also called maximum structural cruising speed.",
+     "d": "Maximum structural cruising speed is the top of the green arc and the bottom of the yellow caution arc, and it may be exceeded only in smooth air and then only with caution. It is airframe-dependent; the Warrior II POH, Piper Report VB-1180, gives 126 KIAS, which is 122 KCAS. Confirm in this airplane's POH, since serial 28-8116257 is covered by Piper Report VB-880.",
+     "reg": "14 CFR Part 91, Subpart A, Section 91.9, Civil aircraft flight manual, marking, and placard requirements",
+     "tier": 1,
+     "why": "Half of the arc explanation and a standard turbulence-penetration question."
+    },
+    {
+     "t": "VFE",
+     "x": "V - Velocity. F - Flap. E - Extended.",
+     "d": "Maximum flap extended speed is the highest speed at which the flaps may be flown in an extended position, marked by the top of the white arc. Exceeding it risks structural damage to the flaps and their attachments. It is airframe-dependent; the Warrior II POH, Piper Report VB-1180, gives 103 KIAS, which is 100 KCAS, and marks the white arc from 44 to 103 KIAS. Confirm in this airplane's POH.",
+     "reg": "14 CFR Part 91, Subpart A, Section 91.9, Civil aircraft flight manual, marking, and placard requirements",
+     "tier": 1,
+     "why": "Part of the arcs walk and directly relevant to the power-off 180 and short-field landings."
+    },
+    {
+     "t": "VSO",
+     "x": "V - Velocity. S - Stall. O - Zero, meaning flaps and gear in the landing configuration.",
+     "d": "Stall speed or minimum steady flight speed in the landing configuration, at maximum gross weight, is the bottom of the white arc. It is airframe-dependent and varies with weight, bank angle and load factor. The Warrior II POH, Piper Report VB-1180, marks the white arc beginning at 44 KIAS; confirm the published stall speeds in this airplane's POH, since serial 28-8116257 falls under Piper Report VB-880.",
+     "reg": "14 CFR Part 91, Subpart A, Section 91.9, Civil aircraft flight manual, marking, and placard requirements",
+     "tier": 1,
+     "why": "Bottom of the white arc, asked in the same breath as VFE."
+    },
+    {
+     "t": "VS1",
+     "x": "V - Velocity. S - Stall. 1 - A specified configuration, normally clean, with flaps and gear retracted.",
+     "d": "Stall speed in a specified configuration, normally the clean configuration at maximum gross weight, is the bottom of the green arc. The Warrior II POH, Piper Report VB-1180, marks the green arc beginning at 50 KIAS. It is airframe-dependent and rises with weight, bank and load factor, which is the point an examiner is driving at when he asks what happens to stall speed in a steep turn. Confirm in this airplane's POH.",
+     "reg": "14 CFR Part 91, Subpart A, Section 91.9, Civil aircraft flight manual, marking, and placard requirements",
+     "tier": 1,
+     "why": "Bottom of the green arc and the lead-in to accelerated stall questions on chandelles and lazy eights."
+    },
+    {
+     "t": "VX",
+     "x": "V - Velocity. X - Best angle of climb.",
+     "d": "Best angle of climb speed gives the greatest altitude gain per unit of horizontal distance, so it is the obstacle-clearance speed used on a short-field takeoff. It is airframe-dependent and increases slightly with altitude. The Warrior II POH, Piper Report VB-1180, Section 4, gives 63 KIAS; confirm in this airplane's POH, since serial 28-8116257 falls under Piper Report VB-880.",
+     "reg": "14 CFR Part 91, Subpart A, Section 91.9, Civil aircraft flight manual, marking, and placard requirements; FAA-S-ACS-7, Commercial Pilot for Airplane Category Airman Certification Standards",
+     "tier": 1,
+     "why": "Required for the short-field takeoff task and he will ask how VX and VY converge with altitude."
+    },
+    {
+     "t": "VY",
+     "x": "V - Velocity. Y - Best rate of climb.",
+     "d": "Best rate of climb speed gives the greatest altitude gain per unit of time, so it is the normal climb speed once obstacles are cleared. It is airframe-dependent and decreases slightly with altitude, converging with VX at the absolute ceiling. The Warrior II POH, Piper Report VB-1180, Section 4, gives 79 KIAS at gross weight; confirm in this airplane's POH.",
+     "reg": "14 CFR Part 91, Subpart A, Section 91.9, Civil aircraft flight manual, marking, and placard requirements; FAA-S-ACS-7, Commercial Pilot for Airplane Category Airman Certification Standards",
+     "tier": 1,
+     "why": "Flown on every takeoff and paired with VX in the convergence question."
+    },
+    {
+     "t": "VG",
+     "x": "V - Velocity. G - Glide. Commonly written as best glide speed rather than as a certification symbol.",
+     "d": "Best glide speed is the airspeed that produces the maximum lift-to-drag ratio and therefore the greatest glide distance per foot of altitude lost. It is airframe-dependent and varies with weight, decreasing as weight decreases. The Warrior II POH, Piper Report VB-1180, uses 73 KIAS for glide performance at 2440 pounds with the propeller windmilling and flaps up, and the engine power loss in flight procedure says to trim for 73 KIAS; confirm in this airplane's POH.",
+     "reg": "14 CFR Part 91, Subpart A, Section 91.9, Civil aircraft flight manual, marking, and placard requirements; FAA-S-ACS-7, Commercial Pilot for Airplane Category Airman Certification Standards",
+     "tier": 1,
+     "why": "The engine failure and steep spiral speed, and a powerplant-focused examiner reaches engine failure quickly."
+    },
+    {
+     "t": "VFE and the Airspeed Indicator Arcs",
+     "x": "Not an acronym. White arc, green arc, yellow arc, red radial line.",
+     "d": "The white arc is the flap operating range, from VSO at the bottom to VFE at the top. The green arc is the normal operating range, from VS1 at the bottom to VNO at the top. The yellow arc is the caution range, from VNO to VNE, to be flown only in smooth air and with caution. The red radial line is VNE. The Warrior II POH, Piper Report VB-1180, marks white 44 to 103, green 50 to 126, yellow 126 to 160 and red line 160 KIAS; confirm in this airplane's POH.",
+     "reg": "14 CFR Part 91, Subpart A, Section 91.9, Civil aircraft flight manual, marking, and placard requirements",
+     "tier": 1,
+     "why": "Nearly every oral begins by pointing at the airspeed indicator and asking what each color means."
+    },
+    {
+     "t": "VS",
+     "x": "V - Velocity. S - Stall.",
+     "d": "Stall speed, used generically for the stalling speed or minimum steady flight speed at which the airplane is controllable. The Gold Seal guide lists it as stall speed, clean configuration. In practice you quote VSO and VS1 because those are the two speeds the airspeed indicator actually marks. Airframe-dependent.",
+     "reg": "14 CFR Part 91, Subpart A, Section 91.9, Civil aircraft flight manual, marking, and placard requirements",
+     "tier": 2,
+     "why": "Usually subsumed by VSO and VS1, but the guide lists it so he may ask you to distinguish them."
+    },
+    {
+     "t": "VREF",
+     "x": "V - Velocity. REF - Reference, meaning the reference landing approach speed.",
+     "d": "VREF is the calculated final approach speed, normally a factor applied to the landing configuration stall speed. The Warrior II POH does not publish a figure labeled VREF; it publishes a landing final approach speed of 63 KIAS with flaps 40 degrees and an initial approach speed of about 70 KIAS, per Piper Report VB-1180, Section 4. Confirm in this airplane's POH, since serial 28-8116257 falls under Piper Report VB-880.",
+     "reg": "14 CFR Part 91, Subpart A, Section 91.9, Civil aircraft flight manual, marking, and placard requirements",
+     "tier": 2,
+     "why": "Likely on the landing tasks, though the Warrior POH does not use the term so the answer is the published approach speed."
+    },
+    {
+     "t": "VLE",
+     "x": "V - Velocity. L - Landing gear. E - Extended.",
+     "d": "Maximum landing gear extended speed is the highest speed at which the airplane may be flown with the landing gear down and locked. It is airframe-dependent and does not apply to the Warrior, which has fixed gear, but you must know it because the commercial certificate contemplates complex airplanes and the examiner may ask about the airplane you did your complex training in.",
+     "reg": "14 CFR Part 91, Subpart A, Section 91.9, Civil aircraft flight manual, marking, and placard requirements",
+     "tier": 2,
+     "why": "Listed in the guide and tied to complex training, but not applicable to the fixed-gear Warrior."
+    },
+    {
+     "t": "VLO",
+     "x": "V - Velocity. L - Landing gear. O - Operating.",
+     "d": "Maximum landing gear operating speed is the highest speed at which the gear may be extended or retracted, and it is often lower than VLE because the gear doors and actuating mechanism see loads during transit. It is airframe-dependent and does not apply to the fixed-gear Warrior. The Gold Seal guide lists VLE but omits VLO; the pair is standard and examiners commonly ask for both.",
+     "reg": "14 CFR Part 91, Subpart A, Section 91.9, Civil aircraft flight manual, marking, and placard requirements",
+     "tier": 2,
+     "why": "The guide omits it, which is exactly why an examiner who notices will ask."
+    },
+    {
+     "t": "VF",
+     "x": "V - Velocity. F - Flap, meaning design flap speed.",
+     "d": "Design flap speed is the certification speed used in designing the flap structure, as distinct from VFE, which is the operating limit shown to the pilot. You will normally never see VF in a POH; the number you fly to is VFE, the top of the white arc. Airframe-dependent and a certification value rather than an operating limitation.",
+     "reg": "14 CFR Part 23, Section 23.2005, Certification of normal category airplanes",
+     "tier": 3,
+     "why": "On the guide's list but it is a design value, not something he will hold you to."
+    }
+   ]
+  },
+  {
+   "g": "Commercial Privileges and Carriage",
+   "items": [
+    {
+     "t": "Holding Out",
+     "x": "Not an acronym.",
+     "d": "Holding out is advertising or otherwise making known to the public a willingness to furnish transportation to anyone who asks. The Gold Seal guide lists agents, word of mouth, advertising and signs, and the internet and social media as ways it can be done. Holding out is the single element that converts carriage for hire into common carriage, which requires an operating certificate.",
+     "reg": "Advisory Circular 120-12A, Private Carriage Versus Common Carriage of Persons or Property; 14 CFR Part 119, Subpart A, Section 119.1, Applicability",
+     "tier": 1,
+     "why": "The central concept of the commercial privileges area and he must hear it defined cleanly."
+    },
+    {
+     "t": "Common Carriage",
+     "x": "Not an acronym. The four elements are holding out, transporting persons or property, from place to place, for compensation.",
+     "d": "A carrier becomes a common carrier when it holds itself out to the public as willing to furnish transportation to those who want it. All four elements must be present. Common carriage requires an operating certificate under Part 119 and operation under Part 121 or Part 135, and the IFR takeoff minimums then apply, which they do not under Part 91.",
+     "reg": "Advisory Circular 120-12A, Private Carriage Versus Common Carriage of Persons or Property; 14 CFR Part 119, Subpart A, Section 119.1, Applicability; 14 CFR Part 135, Subpart I, Section 135.225, IFR: Takeoff, approach and landing minimums",
+     "tier": 1,
+     "why": "A near-certain commercial oral question and the four elements are a checkable recitation."
+    },
+    {
+     "t": "Private Carriage",
+     "x": "Not an acronym. Also called noncommon carriage.",
+     "d": "Private carriage is carriage for hire that does not involve holding out, typically carriage for one or a small number of contracted customers. The Gold Seal guide describes one aircraft operator working for one or two contracted clients. It can still require a Part 125 or Part 135 certificate depending on the aircraft size and payload, but it is not common carriage.",
+     "reg": "Advisory Circular 120-12A, Private Carriage Versus Common Carriage of Persons or Property; 14 CFR Part 119, Subpart A, Section 119.1, Applicability",
+     "tier": 1,
+     "why": "The other half of the carriage question and the one applicants usually fumble."
+    },
+    {
+     "t": "Compensation",
+     "x": "Not an acronym.",
+     "d": "Compensation is anything of value, including the sharing of expenses, profit or profit motive, goodwill in the form of expected future economic benefit, the accrual of flight time, and value delivered to a third party recipient. An actual exchange of funds is not required. The practical test the Gold Seal guide offers is that anything that would get you to make the flight when you otherwise would not can be compensation in the eyes of the FAA.",
+     "reg": "Advisory Circular 61-142, Sharing Aircraft Operating Expenses in Accordance with 14 CFR Section 61.113(c); 14 CFR Part 61, Subpart F, Section 61.133, Commercial pilot privileges and limitations",
+     "tier": 1,
+     "why": "Every commercial examiner probes whether the applicant understands that logging time can itself be compensation."
+    },
+    {
+     "t": "Operational Control",
+     "x": "Not an acronym.",
+     "d": "Operational control is the exercise of authority over initiating, conducting or terminating a flight. It is the hinge on which many commercial scenarios turn, because whoever holds operational control is the operator and therefore needs the certificate. A commercial pilot flying an airplane the customer provides, where the customer controls the flight, is in a different position from one who supplies the airplane as well.",
+     "reg": "14 CFR Part 1, Section 1.1, General definitions; 14 CFR Part 119, Subpart A, Section 119.1, Applicability",
+     "tier": 1,
+     "why": "It is how he will test whether you can reason about who needs the certificate."
+    },
+    {
+     "t": "Section 119.1(e) Exceptions",
+     "x": "Not an acronym.",
+     "d": "Section 119.1 paragraph (e) lists operations that may be conducted for compensation or hire without a Part 119 operating certificate. The Gold Seal guide lists student instruction, nonstop commercial air tours that begin and end at the same airport within 25 statute miles under a letter of authorization, ferry and training flights, aerial work such as crop dusting, banner towing, survey, aerial photography, firefighting, power line and pipeline patrol and parachute operations, and emergency mail service. These are the jobs a fresh commercial pilot can actually take.",
+     "reg": "14 CFR Part 119, Subpart A, Section 119.1, Applicability, paragraph (e)",
+     "tier": 1,
+     "why": "The direct answer to what a new commercial pilot may be paid to do, so it is asked on essentially every ride."
+    },
+    {
+     "t": "Section 61.133(b) Limitation",
+     "x": "Not an acronym.",
+     "d": "A commercial pilot who does not hold an instrument rating in the same category and class is limited by the certificate to not carrying passengers for compensation or hire on cross-country flights of more than 50 nautical miles, or at night. The limitation is placed on the certificate itself. If the applicant holds the instrument rating, the limitation does not appear.",
+     "reg": "14 CFR Part 61, Subpart F, Section 61.133, Commercial pilot privileges and limitations, paragraph (b)",
+     "tier": 1,
+     "why": "A certificate limitation an examiner reads straight off the plastic, and it links privileges to night and weather."
+    },
+    {
+     "t": "PIC",
+     "x": "P - Pilot. I - In. C - Command.",
+     "d": "The pilot in command is the person who has final authority and responsibility for the operation and safety of the flight, has been designated as pilot in command before or during the flight, and holds the appropriate category, class and type rating. The pilot in command is directly responsible for and is the final authority as to the operation of the aircraft and may deviate from any rule to the extent required to meet an in-flight emergency, with a written report on request.",
+     "reg": "14 CFR Part 1, Section 1.1, General definitions; 14 CFR Part 91, Subpart A, Section 91.3, Responsibility and authority of the pilot in command; 14 CFR Part 61, Subpart A, Section 61.51, Pilot logbooks, paragraph (e)",
+     "tier": 1,
+     "why": "The authority behind every airworthiness and go/no-go answer he will ask for."
+    },
+    {
+     "t": "Pro Rata Share",
+     "x": "Not an acronym.",
+     "d": "Under the private pilot rules a pilot may share the operating expenses of a flight with passengers provided the pilot pays at least a pro rata share, the expenses involve only fuel, oil, airport expenditures or rental fees, and there is a common purpose with a bona fide reason of the pilot's own for making the trip. If any holding out is involved, expense sharing becomes compensation and the flight becomes common carriage. Note that the pro rata rule is a Section 61.113 private pilot provision, not a commercial one.",
+     "reg": "14 CFR Part 61, Subpart E, Section 61.113, Private pilot privileges and limitations: Pilot in command, paragraph (c); Advisory Circular 61-142, Sharing Aircraft Operating Expenses in Accordance with 14 CFR Section 61.113(c)",
+     "tier": 1,
+     "why": "He will test whether you know this belongs to Section 61.113 and not to the commercial privileges section."
+    },
+    {
+     "t": "Second Class Medical",
+     "x": "Not an acronym.",
+     "d": "A second class medical certificate is required to exercise commercial pilot privileges and is valid for 12 calendar months regardless of the holder's age, after which it reverts to third class privileges for the remainder of the third class duration. Private pilot privileges require only a third class medical or BasicMed. This is the medical the candidate must be holding on checkride day.",
+     "reg": "14 CFR Part 61, Subpart A, Section 61.23, Medical certificates: Requirement and duration",
+     "tier": 1,
+     "why": "He will check the certificate and ask what class it must be, and it is the applicant's own paperwork."
+    },
+    {
+     "t": "Part 91 Operation",
+     "x": "Not an acronym.",
+     "d": "Part 91 contains the general operating and flight rules that apply to all civil aircraft operations in the United States unless a more restrictive part applies. Under Part 91 the IFR takeoff minimums do not apply to the pilot, there is no requirement for an operating certificate, and the pilot in command has wide latitude. The candidate's checkride is a Part 91 operation, and every answer should be framed that way unless the examiner changes the scenario.",
+     "reg": "14 CFR Part 91, Subpart A, Section 91.1, Applicability",
+     "tier": 1,
+     "why": "The stated context of this ride, and the baseline against which every carriage scenario is compared."
+    },
+    {
+     "t": "LOA",
+     "x": "L - Letter. O - of. A - Authorization.",
+     "d": "A letter of authorization is an FAA document issued to permit a specific operation, such as nonstop commercial air tours within 25 statute miles of the departure airport under the Section 119.1 paragraph (e) exception. The Gold Seal guide's privileges flowchart refers to it as a letter of approval or letter of authorization. It is not an operating certificate and it does not confer Part 135 authority.",
+     "reg": "14 CFR Part 119, Subpart A, Section 119.1, Applicability, paragraph (e); 14 CFR Part 136, Subpart A, National Air Tour Safety Standards",
+     "tier": 2,
+     "why": "Likely as a follow-up to the air tour exception, but secondary to the exception itself."
+    },
+    {
+     "t": "ATCO",
+     "x": "A - Air. T - Taxi. C - Commercial. O - Operator.",
+     "d": "Air taxi and commercial operator is an older term for an operator conducting on-demand passenger or cargo operations for compensation, now largely covered by Part 135 certificate holders. The abbreviation appears on page 31 of the Gold Seal guide's terms list. In current usage you would speak of a Part 135 on-demand operator.",
+     "reg": "14 CFR Part 119, Subpart A, Section 119.1, Applicability",
+     "tier": 3,
+     "why": "On the page 31 list but the modern phrasing is Part 135, so it is unlikely to be asked by name."
+    }
+   ]
+  },
+  {
+   "g": "Risk Management and Decision Making",
+   "items": [
+    {
+     "t": "IM SAFE",
+     "x": "I - Illness. M - Medication. S - Stress. A - Alcohol. F - Fatigue. E - Emotion, and in the Gold Seal guide's version also Eating.",
+     "d": "IM SAFE is the preflight self-assessment a pilot runs before every flight to decide whether he personally is fit to fly. It backs up Section 91.17, which prohibits acting as a crewmember within 8 hours of consuming alcohol, while under the influence, with a blood alcohol concentration of 0.04 percent or greater, or while using any drug that affects faculties contrary to safety. The common variant writes the E as Emotion only; the guide prints Emotion/Eating.",
+     "reg": "14 CFR Part 91, Subpart A, Section 91.17, Alcohol or drugs; 14 CFR Part 61, Subpart A, Section 61.53, Prohibition on operations during medical deficiency; Aeronautical Information Manual, Paragraph 8-1-1, Fitness for Flight",
+     "tier": 1,
+     "why": "A required-item mnemonic that appears in the ACS risk management elements, so it is asked on essentially every ride."
+    },
+    {
+     "t": "PAVE",
+     "x": "P - Pilot. A - Aircraft. V - EnVironment. E - External pressures.",
+     "d": "PAVE is the risk assessment checklist used during preflight planning to sort hazards into four categories so none is overlooked. The pilot element folds in IM SAFE, the aircraft element folds in airworthiness and performance, the environment element covers weather, terrain, airport and airspace, and external pressures covers schedule, passengers and get-there-itis. The Gold Seal guide labels this box Preflight General.",
+     "reg": "FAA-H-8083-2, Risk Management Handbook; FAA-S-ACS-7, Commercial Pilot for Airplane Category Airman Certification Standards",
+     "tier": 1,
+     "why": "The ACS builds risk management into every task, so he must be able to recite and apply it."
+    },
+    {
+     "t": "DECIDE",
+     "x": "D - Detect that a change has occurred. E - Estimate the need to counter or react to the change. C - Choose a desirable outcome. I - Identify actions which could successfully control the change. D - Do the necessary action. E - Evaluate the effect of the action.",
+     "d": "The DECIDE model is a continuous loop for in-flight decision making once something changes from the plan. It is deliberately cyclical: the final evaluate step feeds back into detect. You use it to narrate a diversion, an equipment failure or a weather deterioration in a way that shows structured reasoning rather than reaction.",
+     "reg": "FAA-H-8083-2, Risk Management Handbook; FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 2, Aeronautical Decision-Making",
+     "tier": 1,
+     "why": "The named aeronautical decision making model in the handbooks and a routine recite-and-apply item."
+    },
+    {
+     "t": "The 5 Ps",
+     "x": "P - Plan. P - Plane. P - Pilot. P - Passengers. P - Programming.",
+     "d": "The 5 Ps is a risk review applied at fixed decision points in the flight: before preflight, before takeoff, at cruise, before descent and before approach. Plan covers the mission, route, weather and fuel; Plane covers mechanical status and fuel state; Pilot covers IM SAFE; Passengers covers their comfort, experience and any pressure they create; Programming covers the avionics and autopilot setup. This mnemonic does not appear in the Gold Seal guide; it comes from the FAA risk management material.",
+     "reg": "FAA-H-8083-2, Risk Management Handbook; FAA-H-8083-16, Instrument Procedures Handbook",
+     "tier": 1,
+     "why": "Standard FAA risk model that examiners pair with PAVE, and he asked for it by name."
+    },
+    {
+     "t": "ADM",
+     "x": "A - Aeronautical. D - Decision. M - Making.",
+     "d": "Aeronautical decision making is the systematic approach to the mental process used by pilots to consistently determine the best course of action in response to a given set of circumstances. It encompasses hazard identification, risk assessment, the hazardous attitudes and their antidotes, and the structured models such as DECIDE, PAVE and the 3P model. It is the umbrella heading under which the ACS risk management elements sit.",
+     "reg": "FAA-H-8083-2, Risk Management Handbook; FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 2, Aeronautical Decision-Making",
+     "tier": 1,
+     "why": "Listed on page 31 and it is the heading for an entire ACS area of operation."
+    },
+    {
+     "t": "Hazardous Attitudes",
+     "x": "The five are Anti-Authority, Impulsivity, Invulnerability, Macho and Resignation.",
+     "d": "The five hazardous attitudes are the mental states that lead to poor decisions, each with a prescribed antidote: Anti-Authority is countered by follow the rules, they are usually right; Impulsivity by not so fast, think first; Invulnerability by it could happen to me; Macho by taking chances is foolish; and Resignation by I am not helpless, I can make a difference. You are expected to recognize them in a scenario and name the antidote. They do not appear in the Gold Seal guide.",
+     "reg": "FAA-H-8083-2, Risk Management Handbook; FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 2, Aeronautical Decision-Making",
+     "tier": 1,
+     "why": "An ACS risk management element with a fixed list of five and five antidotes, which is exactly what a checkoff examiner wants."
+    },
+    {
+     "t": "The 3P Model",
+     "x": "P - Perceive the given set of circumstances for a flight. P - Process by evaluating their impact on flight safety. P - Perform by implementing the best course of action.",
+     "d": "The 3P model is the practical risk management loop the FAA pairs with PAVE: you perceive hazards using PAVE, process them by asking what could hurt me, my passengers or my aircraft, and perform by mitigating, and then you repeat continuously. It is deliberately simpler than DECIDE so it can be run in flight without a written worksheet. This model does not appear in the Gold Seal guide.",
+     "reg": "FAA-H-8083-2, Risk Management Handbook",
+     "tier": 2,
+     "why": "Likely as the mitigation half of a PAVE answer, though DECIDE and PAVE come first."
+    },
+    {
+     "t": "SRM",
+     "x": "S - Single-pilot. R - Resource. M - Management.",
+     "d": "Single-pilot resource management is the art of managing all resources available to a single pilot, inside and outside the cockpit, to ensure a successful flight. It includes ADM, risk management, task management, automation management, controlled flight into terrain awareness and situational awareness. Crew resource management, CRM, is the multi-crew equivalent. Neither term appears in the Gold Seal guide.",
+     "reg": "FAA-H-8083-2, Risk Management Handbook; FAA-S-ACS-7, Commercial Pilot for Airplane Category Airman Certification Standards",
+     "tier": 2,
+     "why": "Named in the ACS but usually assessed in flight rather than quizzed on the ground."
+    },
+    {
+     "t": "Get-There-Itis",
+     "x": "Not an acronym. Also called plan continuation bias.",
+     "d": "Get-there-itis is the external pressure to complete a flight as planned despite deteriorating conditions, and it is the classic External factor in PAVE. For a commercial pilot it is sharper than for a private pilot because a paying customer is waiting. You counter it by setting personal minimums and hard decision points before departure.",
+     "reg": "FAA-H-8083-2, Risk Management Handbook",
+     "tier": 2,
+     "why": "Likely in a commercial carriage scenario where a customer is applying pressure."
+    },
+    {
+     "t": "Personal Minimums",
+     "x": "Not an acronym.",
+     "d": "Personal minimums are self-imposed limits on weather, currency, fatigue, fuel reserves and airport conditions that are more conservative than the regulations, set in advance and in writing so they are not negotiated in the moment. An examiner will usually ask what yours are and will expect numbers, not generalities. They do not appear in the Gold Seal guide.",
+     "reg": "FAA-H-8083-2, Risk Management Handbook; FAA-S-ACS-7, Commercial Pilot for Airplane Category Airman Certification Standards",
+     "tier": 2,
+     "why": "Commonly asked, and the answer must be specific numbers rather than a concept."
+    }
+   ]
+  },
+  {
+   "g": "Aeromedical and Human Factors",
+   "items": [
+    {
+     "t": "Hypoxia",
+     "x": "Not an acronym. From the Greek for under-oxygen.",
+     "d": "Hypoxia is a condition of the body in which the tissues are starved of oxygen. The four types are hypoxic, hypemic, stagnant and histotoxic. Symptoms include euphoria, impaired judgment, cyanosis, headache and tunnel vision, and the insidious danger is that judgment degrades before the pilot notices. The Gold Seal guide's solution is to don an oxygen mask if one is available and descend immediately to the lowest practical altitude.",
+     "reg": "14 CFR Part 91, Subpart C, Section 91.211, Supplemental oxygen; FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 17, Aeromedical Factors",
+     "tier": 1,
+     "why": "A fixed list of four types makes it a checkoff item, and it is in every aeromedical block."
+    },
+    {
+     "t": "Hypoxic Hypoxia",
+     "x": "Not an acronym. Also called altitude hypoxia.",
+     "d": "Hypoxic hypoxia results from insufficient oxygen available to the body as a whole, most commonly because the partial pressure of oxygen falls with altitude. It is the type the supplemental oxygen regulation is written to prevent. The remedy is supplemental oxygen or descent.",
+     "reg": "14 CFR Part 91, Subpart C, Section 91.211, Supplemental oxygen; FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 17, Aeromedical Factors",
+     "tier": 1,
+     "why": "He asked for the hypoxia types explicitly and this is the one tied to a regulation."
+    },
+    {
+     "t": "Hypemic Hypoxia",
+     "x": "Not an acronym. Hypemic means deficient in blood.",
+     "d": "Hypemic hypoxia occurs when the blood is not able to take up and transport a sufficient amount of oxygen to the cells, even though enough oxygen is being breathed. Causes include anemia, blood loss and carbon monoxide poisoning, because carbon monoxide binds to hemoglobin far more readily than oxygen does. This is the link between the hypoxia question and the exhaust-shroud cabin heat question.",
+     "reg": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 17, Aeromedical Factors",
+     "tier": 1,
+     "why": "It is the bridge from aeromedical straight into his powerplant and exhaust system focus."
+    },
+    {
+     "t": "Stagnant Hypoxia",
+     "x": "Not an acronym. Stagnant means not flowing.",
+     "d": "Stagnant hypoxia results when the oxygen-rich blood in the lungs is not moving, so oxygen is not delivered to the tissues. Causes include heart failure, shock, a constricted blood vessel and excessive acceleration forces pooling blood away from the brain. Cold temperatures causing vasoconstriction in the extremities is a common general aviation example.",
+     "reg": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 17, Aeromedical Factors",
+     "tier": 1,
+     "why": "Part of the four-type recitation he will be asked to complete."
+    },
+    {
+     "t": "Histotoxic Hypoxia",
+     "x": "Not an acronym. Histo means tissue and toxic means poisoned.",
+     "d": "Histotoxic hypoxia is the inability of the cells to effectively use oxygen that is in fact being delivered to them. It is caused by substances that poison cellular respiration, most commonly alcohol and certain drugs, and cyanide in the classic example. It is the one type that supplemental oxygen will not fix.",
+     "reg": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 17, Aeromedical Factors",
+     "tier": 1,
+     "why": "Completes the four and is the one that ties back to the alcohol rules."
+    },
+    {
+     "t": "Hyperventilation",
+     "x": "Not an acronym. Hyper means excessive and ventilation means breathing.",
+     "d": "Hyperventilation is an excessive rate and depth of respiration leading to an abnormal loss of carbon dioxide from the blood, usually triggered by stress, anxiety or fright. Its symptoms closely resemble those of hypoxia, and the Gold Seal guide correctly advises that when in doubt you treat it as hypoxia and descend. The remedy is to slow the breathing rate, talk aloud, or breathe into a bag to restore carbon dioxide.",
+     "reg": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 17, Aeromedical Factors",
+     "tier": 1,
+     "why": "Always paired with hypoxia because the two are deliberately confusable."
+    },
+    {
+     "t": "Carbon Monoxide Poisoning",
+     "x": "CO is the chemical symbol: C - Carbon. O - Oxygen, one atom.",
+     "d": "Carbon monoxide is a colorless, odorless, tasteless gas produced by the combustion of carbon-based materials, and in a light airplane it reaches the cabin through a crack in the exhaust system feeding the cabin heat muff. It binds to hemoglobin roughly 200 times more readily than oxygen, producing hypemic hypoxia, and symptoms begin with headache, drowsiness and dizziness. The remedy is to turn the cabin heat off, ventilate the cabin, open a window if able, use supplemental oxygen if available and land as soon as possible.",
+     "reg": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 17, Aeromedical Factors; 14 CFR Part 91, Subpart E, Section 91.409, Inspections",
+     "tier": 1,
+     "why": "The cabin heat shroud is an exhaust system component, so it sits inside his powerplant focus as well as aeromedical."
+    },
+    {
+     "t": "Eight Hours Bottle to Throttle",
+     "x": "Not an acronym.",
+     "d": "No person may act or attempt to act as a crewmember of a civil aircraft within 8 hours after the consumption of any alcoholic beverage, while under the influence of alcohol, while using any drug that affects the person's faculties in a way contrary to safety, or while having a blood alcohol concentration of 0.04 percent or greater. The Gold Seal guide adds that the body needs about 3 hours to eliminate the alcohol in one drink, so 8 hours is a floor and not a guarantee of fitness.",
+     "reg": "14 CFR Part 91, Subpart A, Section 91.17, Alcohol or drugs",
+     "tier": 1,
+     "why": "A numeric regulation an examiner can check off, and it is the A in IM SAFE."
+    },
+    {
+     "t": "Medical Certificate Classes",
+     "x": "Not an acronym.",
+     "d": "A first class medical is required for airline transport pilot privileges and is valid 12 calendar months under age 40 and 6 calendar months at age 40 and over, reverting to lower class privileges thereafter. A second class is required for commercial privileges and is valid 12 calendar months regardless of age, then reverts to third class privileges. A third class covers private pilot, flight instructor and student pilot privileges and is valid 60 calendar months under age 40 and 24 calendar months at age 40 and over.",
+     "reg": "14 CFR Part 61, Subpart A, Section 61.23, Medical certificates: Requirement and duration",
+     "tier": 1,
+     "why": "His own certificate must be a current second class, so this gets verified before the oral starts."
+    },
+    {
+     "t": "BasicMed",
+     "x": "Not an acronym. It is the common name for the alternative medical qualification.",
+     "d": "BasicMed lets a pilot fly without an FAA medical certificate provided he holds a US driver's license, has held an FAA medical after 14 July 2006, completes a physical with a state-licensed physician using the Comprehensive Medical Examination Checklist, and completes a BasicMed medical education course. The aircraft must be authorized to carry not more than 7 occupants with a maximum certificated takeoff weight not over 12,500 pounds, carrying not more than 6 passengers, at or below 18,000 feet, not exceeding 250 knots, within the United States, and not for compensation or hire. The Gold Seal guide cites Section 91.113 for BasicMed, which is wrong: Section 91.113 is the right-of-way rules; the correct citations are 14 CFR Part 68 and Section 61.113 paragraph (i).",
+     "reg": "14 CFR Part 68, Requirements for Operating Certain Small Aircraft Without a Medical Certificate; 14 CFR Part 61, Subpart E, Section 61.113, Private pilot privileges and limitations: Pilot in command, paragraph (i)",
+     "tier": 2,
+     "why": "Likely as the contrast to the second class medical, and the not-for-hire limit makes the commercial point for him."
+    },
+    {
+     "t": "The Leans",
+     "x": "Not an acronym.",
+     "d": "The leans is the most common spatial disorientation illusion. It is caused by a sudden return to level flight following a gradual, prolonged turn that went unnoticed by the vestibular system, so level flight feels like a bank in the opposite direction. The pilot may lean in the direction of the original turn in an attempt to regain the perception of correct vertical posture. The cure is to trust and fly the instruments.",
+     "reg": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 17, Aeromedical Factors; Aeronautical Information Manual, Paragraph 8-1-5, Illusions in Flight",
+     "tier": 2,
+     "why": "Likely if he goes to night or instrument scenarios, but outside his four stated focus areas."
+    },
+    {
+     "t": "Coriolis Illusion",
+     "x": "Not an acronym. Named for the Coriolis effect.",
+     "d": "The Coriolis illusion occurs when a pilot has been in a turn long enough for the fluid in the semicircular canals to move at the same speed as the canal, and then moves his head, which sets fluid moving in another canal and creates the overwhelming sensation of turning or accelerating on an entirely different axis. The disoriented pilot may maneuver the aircraft into a dangerous attitude trying to correct. It is considered the most dangerous of the illusions.",
+     "reg": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 17, Aeromedical Factors; Aeronautical Information Manual, Paragraph 8-1-5, Illusions in Flight",
+     "tier": 2,
+     "why": "Standard illusion list item, likely only if he works through night or hood scenarios."
+    },
+    {
+     "t": "Graveyard Spiral",
+     "x": "Not an acronym.",
+     "d": "The graveyard spiral occurs in a prolonged coordinated constant-rate turn when the vestibular fluid settles and the pilot stops sensing the turn. On recovering to level flight the pilot feels a turn in the opposite direction, returns the airplane to the original turn, and then responds to the resulting loss of altitude by pulling back, which tightens the spiral and increases the descent rate. Recovery requires leveling the wings by reference to instruments before arresting the descent.",
+     "reg": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 17, Aeromedical Factors; Aeronautical Information Manual, Paragraph 8-1-5, Illusions in Flight",
+     "tier": 2,
+     "why": "Likely if he asks about inadvertent VFR into IMC, which is a common commercial scenario."
+    },
+    {
+     "t": "Somatogravic Illusion",
+     "x": "Not an acronym. Somato means body and gravic refers to gravity.",
+     "d": "A rapid linear acceleration, such as on takeoff, stimulates the otolith organs in the same way a nose-up pitch would, creating the illusion of a nose-high attitude. The disoriented pilot may push the aircraft into a nose-low or diving attitude, which is lethal on a dark night takeoff over water or unlit terrain. A rapid deceleration produces the opposite illusion of a nose-low attitude.",
+     "reg": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 17, Aeromedical Factors; Aeronautical Information Manual, Paragraph 8-1-5, Illusions in Flight",
+     "tier": 2,
+     "why": "The illusion most tied to night takeoffs, which matter for commercial night carriage."
+    },
+    {
+     "t": "Supplemental Oxygen Requirements",
+     "x": "Not an acronym.",
+     "d": "At cabin pressure altitudes above 12,500 feet MSL up to and including 14,000 feet MSL, the required minimum flight crew must use supplemental oxygen for that part of the flight at those altitudes of more than 30 minutes duration. Above 14,000 feet MSL the required minimum flight crew must use it for the entire flight at those altitudes. Above 15,000 feet MSL each occupant must be provided with supplemental oxygen. All of these are cabin pressure altitudes.",
+     "reg": "14 CFR Part 91, Subpart C, Section 91.211, Supplemental oxygen",
+     "tier": 2,
+     "why": "A clean numeric rule he can check, though the Warrior will rarely see those altitudes."
+    },
+    {
+     "t": "Night Vision and Scanning",
+     "x": "Not an acronym.",
+     "d": "Rods in the periphery of the retina provide night vision and take about 30 minutes to fully dark-adapt, while cones in the fovea provide color and detail but are nearly useless at low light, which creates a night blind spot in the center of vision. You therefore use off-center viewing at night, scanning 10 degrees off the object, and you preserve adaptation with red or low white cabin lighting. This is not covered in the Gold Seal guide.",
+     "reg": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 17, Aeromedical Factors; Aeronautical Information Manual, Paragraph 8-1-6, Vision in Flight",
+     "tier": 2,
+     "why": "Likely because commercial night carriage is a named privilege limitation."
+    },
+    {
+     "t": "Inversion Illusion",
+     "x": "Not an acronym.",
+     "d": "An abrupt change from a climb to straight-and-level flight can stimulate the otolith organs enough to create the illusion of tumbling backward. The disoriented pilot may push the aircraft abruptly into a nose-low attitude, which may intensify the illusion.",
+     "reg": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 17, Aeromedical Factors; Aeronautical Information Manual, Paragraph 8-1-5, Illusions in Flight",
+     "tier": 3,
+     "why": "On the list but rarely singled out unless he works down the whole illusion set."
+    },
+    {
+     "t": "Elevator Illusion",
+     "x": "Not an acronym.",
+     "d": "An abrupt upward vertical acceleration, such as in an updraft, stimulates the otolith organs to create the illusion of being in a climb. The disoriented pilot may push the aircraft into a nose-low attitude. A downdraft produces the opposite illusion of descending.",
+     "reg": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 17, Aeromedical Factors; Aeronautical Information Manual, Paragraph 8-1-5, Illusions in Flight",
+     "tier": 3,
+     "why": "Completes the vestibular set but is seldom asked on its own."
+    },
+    {
+     "t": "False Horizon",
+     "x": "Not an acronym.",
+     "d": "The false horizon illusion arises from attempting to align the aircraft with a sloping cloud formation, an obscured horizon, an aurora, a dark scene spread with ground lights and stars, or certain geometric ground patterns. The disoriented pilot may place the aircraft in a dangerous attitude. It is a visual illusion rather than a vestibular one.",
+     "reg": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 17, Aeromedical Factors; Aeronautical Information Manual, Paragraph 8-1-5, Illusions in Flight",
+     "tier": 3,
+     "why": "Visual illusion, possible in a night scenario but not a focus area."
+    },
+    {
+     "t": "Autokinesis",
+     "x": "Not an acronym. Auto means self and kinesis means movement.",
+     "d": "Autokinesis occurs at night when a single stationary light stared at for several seconds appears to move. The disoriented pilot may attempt to align the aircraft with the perceived moving light and lose control. The remedy is to avoid fixating and to keep the eyes scanning.",
+     "reg": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 17, Aeromedical Factors; Aeronautical Information Manual, Paragraph 8-1-5, Illusions in Flight",
+     "tier": 3,
+     "why": "Classic night illusion, possible but not central to a systems-focused ride."
+    },
+    {
+     "t": "AME",
+     "x": "A - Aviation. M - Medical. E - Examiner.",
+     "d": "An aviation medical examiner is a physician designated by the FAA to perform medical examinations and issue medical certificates. You deal with one for the second class medical required for commercial privileges. The term is listed on page 31 of the Gold Seal guide.",
+     "reg": "14 CFR Part 61, Subpart A, Section 61.23, Medical certificates: Requirement and duration; 14 CFR Part 67, Medical Standards and Certification",
+     "tier": 3,
+     "why": "On the page 31 list but it is vocabulary rather than a question."
+    }
+   ]
+  },
+  {
+   "g": "Weather",
+   "items": [
+    {
+     "t": "METAR",
+     "x": "M - Meteorological. E - Terminal. A - Aviation. R - Report. The FAA expands it as Aviation Routine Weather Report, from the French message d'observation meteorologique regulier pour l'aviation.",
+     "d": "A METAR is a routine surface observation that gives a snapshot in time of weather at a terminal, issued hourly, normally between 55 and 59 minutes past the hour. The elements run in fixed order: station identifier, date and time in Zulu, wind, visibility, present weather, sky condition, temperature and dew point in Celsius, altimeter setting in inches of mercury, and remarks. A SPECI is the unscheduled special observation issued when conditions change significantly.",
+     "reg": "Aeronautical Information Manual, Paragraph 7-1-29, Key to Aviation Routine Weather Report (METAR) and Aerodrome Forecasts (TAF); Advisory Circular 00-45, Aviation Weather Services",
+     "tier": 1,
+     "why": "Every commercial oral has the applicant read a live METAR aloud."
+    },
+    {
+     "t": "TAF",
+     "x": "T - Terminal. A - Aerodrome. F - Forecast.",
+     "d": "A terminal aerodrome forecast gives expected conditions within 5 statute miles of an airport, issued at least four times a day and valid for a 24 or 30 hour period. Change groups include FM for a rapid from-group change, TEMPO for temporary conditions expected less than half the period and lasting less than an hour at a time, BECMG for a gradual change, and PROB for a probability group. The TAF drives the Section 91.169 alternate decision.",
+     "reg": "Aeronautical Information Manual, Paragraph 7-1-29, Key to Aviation Routine Weather Report (METAR) and Aerodrome Forecasts (TAF); 14 CFR Part 91, Subpart B, Section 91.169, IFR flight plan: Information required",
+     "tier": 1,
+     "why": "Paired with the METAR in the weather walk and it feeds the alternate rule."
+    },
+    {
+     "t": "PIREP",
+     "x": "PI - Pilot. REP - Report. The full name is Pilot Weather Report.",
+     "d": "A pilot report is an observation of actual conditions aloft filed by a pilot, coded UA for routine and UUA for urgent. It is the only direct observation of turbulence, icing, cloud tops and in-flight visibility, so it is the most valuable product for deciding whether a forecast is holding. You are expected to say that you will file one, particularly for icing or turbulence.",
+     "reg": "Aeronautical Information Manual, Paragraph 7-1-19, Pilot Weather Reports (PIREPs); Advisory Circular 00-45, Aviation Weather Services",
+     "tier": 1,
+     "why": "Examiners reliably ask what you would do after encountering unforecast conditions, and filing a PIREP is the answer."
+    },
+    {
+     "t": "AIRMET",
+     "x": "AIR - Airmen's. MET - Meteorological Information. Formally the Airmen's Meteorological Information advisory, also called a WA.",
+     "d": "An AIRMET advises of weather hazardous to aircraft with limited capability, affecting an area of at least 3,000 square miles, valid 6 hours. Sierra covers mountain obscuration and instrument flight rules conditions, Tango covers moderate turbulence and sustained surface winds of 30 knots or more and low-level wind shear, and Zulu covers moderate icing and freezing levels. These are the advisories that most directly limit a Warrior.",
+     "reg": "Aeronautical Information Manual, Paragraph 7-1-6, Inflight Aviation Weather Advisories; Advisory Circular 00-45, Aviation Weather Services",
+     "tier": 1,
+     "why": "Listed on page 31 and it is the advisory that governs go/no-go for a light single."
+    },
+    {
+     "t": "SIGMET",
+     "x": "SIG - Significant. MET - Meteorological Information. Formally Significant Meteorological Information, also called a WS.",
+     "d": "A SIGMET advises of weather significant to the safety of all aircraft, affecting at least 3,000 square miles, valid 4 hours, covering severe icing not associated with thunderstorms, severe or extreme turbulence or clear air turbulence not associated with thunderstorms, dust storms or sandstorms lowering visibility below 3 miles, and volcanic ash. A Convective SIGMET, issued hourly and valid 2 hours, covers embedded or lines of thunderstorms, severe thunderstorms and tornadoes, and it implies severe turbulence, severe icing and low-level wind shear.",
+     "reg": "Aeronautical Information Manual, Paragraph 7-1-6, Inflight Aviation Weather Advisories; Advisory Circular 00-45, Aviation Weather Services",
+     "tier": 1,
+     "why": "Listed on page 32 and the contrast with AIRMET is a near-certain question."
+    },
+    {
+     "t": "Temperature and Dew Point Spread",
+     "x": "Not an acronym.",
+     "d": "The closer the temperature and dew point, the higher the relative humidity and the greater the likelihood of fog, low ceilings and visible moisture. A spread of 4 degrees Celsius or less and narrowing is the usual warning sign for fog formation. The same figures tell you about carburetor icing risk, which can occur at ambient temperatures as high as the low 30s Celsius with sufficient humidity.",
+     "reg": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 13, Weather Theory; Special Airworthiness Information Bulletin CE-09-35, Carburetor Icing Prevention",
+     "tier": 1,
+     "why": "It is the one weather figure that feeds directly into his carburetor icing line of questions."
+    },
+    {
+     "t": "1-2-3 Rule",
+     "x": "1 - From 1 hour before to 1 hour after the estimated time of arrival. 2 - Ceiling at least 2,000 feet above airport elevation. 3 - Visibility at least 3 statute miles.",
+     "d": "An alternate airport must be filed on an IFR flight plan unless the destination has at least one instrument approach procedure and, for the period from 1 hour before to 1 hour after the estimated time of arrival, the forecast ceiling is at least 2,000 feet above the airport elevation and the forecast visibility is at least 3 statute miles. The commonly heard variant is the 3-2-1 rule or the 1-2-3 rule stated in either order; the Gold Seal guide prints 1-2-3. Standard alternate minimums are then 600 feet and 2 statute miles for a precision approach and 800 feet and 2 statute miles for a nonprecision approach.",
+     "reg": "14 CFR Part 91, Subpart B, Section 91.169, IFR flight plan: Information required",
+     "tier": 2,
+     "why": "A clean numeric rule, likely if he has the instrument rating, but this is a single-engine land commercial ride under Part 91."
+    },
+    {
+     "t": "Rime Ice",
+     "x": "Not an acronym.",
+     "d": "Rime ice is rough, milky, opaque ice formed by the instantaneous or very rapid freezing of small supercooled droplets as they strike the leading edges, which traps air in the ice. It is lighter than clear ice but its rough surface decreases aerodynamic efficiency. It typically forms in stratiform clouds at colder temperatures.",
+     "reg": "Aeronautical Information Manual, Paragraph 7-1-20, Pilot Weather Reports; FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 13, Weather Theory",
+     "tier": 2,
+     "why": "Likely in the winter-weather block, and the Warrior has no ice protection so the answer is always avoid."
+    },
+    {
+     "t": "Clear Ice",
+     "x": "Not an acronym. Also called glaze ice.",
+     "d": "Clear ice is glossy, transparent ice formed by the relatively slow freezing of large supercooled water droplets, which flow back before freezing. It is denser, harder and heavier than rime ice and much harder to remove. It typically forms in cumuliform clouds and in freezing rain, and it is the most dangerous airframe icing for a light airplane.",
+     "reg": "Aeronautical Information Manual, Paragraph 7-1-20, Pilot Weather Reports; FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 13, Weather Theory",
+     "tier": 2,
+     "why": "Paired with rime in the icing question."
+    },
+    {
+     "t": "Thunderstorm Stages",
+     "x": "Not an acronym. The three are cumulus, mature and dissipating.",
+     "d": "In the cumulus stage air warmer than its environment rises, cools and condenses, producing strong updrafts and supercooled water above the freezing level. The mature stage, which begins when precipitation reaches the surface, is characterized by both updrafts and downdrafts, evaporative cooling, outflow when the downdraft spreads at the ground, the anvil top, hail and intense cloud-to-ground lightning. In the dissipating stage downdrafts predominate, the anvil weakens and the cell rains itself out.",
+     "reg": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 13, Weather Theory; Aeronautical Information Manual, Paragraph 7-1-26, Thunderstorms",
+     "tier": 2,
+     "why": "A fixed three-item list that examiners use to test thunderstorm avoidance reasoning."
+    },
+    {
+     "t": "Microburst",
+     "x": "Not an acronym.",
+     "d": "A microburst is a localized, intense downdraft within a thunderstorm, usually 2.5 statute miles or less in diameter, with winds that can reach 100 miles per hour and a lifespan of around 15 minutes. An airplane entering one meets an increasing headwind, then a strong downdraft, then a sudden tailwind as it exits, which can exceed the climb performance of a light single. The answer is total avoidance.",
+     "reg": "Aeronautical Information Manual, Paragraph 7-1-24, Microbursts; FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 13, Weather Theory",
+     "tier": 2,
+     "why": "A standard low-level windshear scenario, likely if he works a summer-afternoon departure."
+    },
+    {
+     "t": "Wind Shear",
+     "x": "Not an acronym.",
+     "d": "Wind shear is a change in wind speed, wind direction, or both, over a short distance, which produces an abrupt headwind or tailwind change and alters the flight path. It is most dangerous at low levels near the ground, where there is no altitude to trade. Sources include thunderstorms, frontal zones, temperature inversions and strong surface winds past obstructions.",
+     "reg": "Aeronautical Information Manual, Paragraph 7-1-23, Wind Shear; FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 13, Weather Theory",
+     "tier": 2,
+     "why": "Appears in TAFs as a WS group and in the airport environment discussion."
+    },
+    {
+     "t": "MVFR",
+     "x": "M - Marginal. V - Visual. F - Flight. R - Rules.",
+     "d": "Marginal visual flight rules describes a ceiling of 1,000 to 3,000 feet inclusive and visibility of 3 to 5 statute miles inclusive. The categories run low IFR below 500 feet or less than 1 mile, IFR 500 to below 1,000 feet or 1 to less than 3 miles, MVFR, and VFR above 3,000 feet and greater than 5 miles. These are flight category labels used in briefings and on graphical products, not regulatory minimums.",
+     "reg": "Advisory Circular 00-45, Aviation Weather Services; 14 CFR Part 91, Subpart B, Section 91.155, Basic VFR weather minimums",
+     "tier": 2,
+     "why": "Listed on page 31 and it is how he will phrase a borderline go/no-go scenario."
+    },
+    {
+     "t": "ISA",
+     "x": "I - International. S - Standard. A - Atmosphere.",
+     "d": "The international standard atmosphere is the reference condition of 15 degrees Celsius and 29.92 inches of mercury at sea level, with a temperature lapse rate of 2 degrees Celsius per 1,000 feet and a pressure lapse of approximately 1 inch of mercury per 1,000 feet. All performance charts are built against it, so you correct for the difference between actual and standard conditions to get density altitude. Expect to be asked for the standard temperature at a given altitude.",
+     "reg": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 4, Principles of Flight; 14 CFR Part 91, Subpart B, Section 91.121, Altimeter settings",
+     "tier": 2,
+     "why": "Listed on page 31 and it underpins every performance chart he will make you run."
+    },
+    {
+     "t": "OAT",
+     "x": "O - Outside. A - Air. T - Temperature.",
+     "d": "Outside air temperature is the free air temperature at the aircraft, read from the cockpit gauge and used as the entry argument for density altitude, true airspeed and performance chart corrections. It is also the number you compare against the dew point to anticipate carburetor icing and visible moisture.",
+     "reg": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 11, Aircraft Performance",
+     "tier": 2,
+     "why": "Listed on page 31 and it is the chart input for the performance problems he will set."
+    },
+    {
+     "t": "Hg",
+     "x": "Hg is the chemical symbol for mercury, from the Latin hydrargyrum.",
+     "d": "Inches of mercury is the unit of the altimeter setting and of manifold pressure in the United States. Standard sea level pressure is 29.92 inches of mercury. An altimeter set to a pressure lower than actual reads low, and flying from high pressure to low pressure without resetting makes the altimeter over-read, which is the origin of the phrase high to low, look out below.",
+     "reg": "14 CFR Part 91, Subpart B, Section 91.121, Altimeter settings",
+     "tier": 2,
+     "why": "Listed on page 31 and it is the unit behind the altimeter setting question."
+    },
+    {
+     "t": "GFA",
+     "x": "G - Graphical. F - Forecast. A - for Aviation.",
+     "d": "The Graphical Forecast for Aviation is the web-based set of observation and forecast maps that replaced the textual area forecast for the contiguous United States, covering clouds, visibility, precipitation, icing, turbulence and winds aloft from 14 hours in the past to 18 hours ahead. It is the product you actually use for a cross-country briefing today. It is not listed in the Gold Seal guide.",
+     "reg": "Advisory Circular 00-45, Aviation Weather Services",
+     "tier": 2,
+     "why": "The live replacement for a product the guide still lists, which is exactly the gap an examiner probes."
+    },
+    {
+     "t": "METAR and TAF Weather Codes",
+     "x": "Not an acronym. The codes combine an intensity sign, a descriptor, and a precipitation or obscuration code.",
+     "d": "Intensity is shown by a minus sign for light, no sign for moderate and a plus sign for heavy. Descriptors include MI shallow, BL blowing, BC patches, SH showers, PR partial, DR drifting, TS thunderstorm and FZ freezing. Precipitation codes include DZ drizzle, RA rain, SN snow, PL ice pellets, GR hail, GS small hail or snow pellets, SG snow grains and IC ice crystals. Obscurations include BR mist, FG fog, HZ haze, FU smoke, SA sand, DU widespread dust, PY spray and VA volcanic ash.",
+     "reg": "Aeronautical Information Manual, Paragraph 7-1-29, Key to Aviation Routine Weather Report (METAR) and Aerodrome Forecasts (TAF)",
+     "tier": 2,
+     "why": "He will hand over a real METAR and expect the codes decoded without a legend."
+    },
+    {
+     "t": "Fog Types",
+     "x": "Not an acronym.",
+     "d": "Radiation fog forms on clear, calm nights as the ground cools by radiation and chills the air to its dew point. Advection fog forms when warm moist air moves over a cooler surface and requires wind. Upslope fog forms as moist stable air is lifted and cooled adiabatically. Steam fog forms when cold dry air moves over warm water. Precipitation-induced fog forms when warm rain falls through cooler air. Fog types are not covered in the Gold Seal guide.",
+     "reg": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 13, Weather Theory",
+     "tier": 2,
+     "why": "A standard weather block question and a gap in the guide he may land on."
+    },
+    {
+     "t": "Mixed Ice",
+     "x": "Not an acronym.",
+     "d": "Mixed ice is a combination of clear and rime ice, formed when droplets of varying size are present. Its roughness and weight both affect aerodynamics. It is the most commonly reported icing type in practice.",
+     "reg": "Aeronautical Information Manual, Paragraph 7-1-20, Pilot Weather Reports; FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 13, Weather Theory",
+     "tier": 3,
+     "why": "Completes the icing set but is seldom asked on its own."
+    },
+    {
+     "t": "Icing Intensities",
+     "x": "Not an acronym. The four are trace, light, moderate and severe.",
+     "d": "Trace icing is perceptible but not hazardous unless encountered for an extended period. Light icing is clearly visible and anti-icing or deicing equipment removes or prevents accumulation. Moderate icing means even short encounters can be hazardous and anti-icing or deicing equipment must be used or a diversion made. Severe icing means the rate of accumulation is such that deicing and anti-icing equipment fails to reduce the hazard and diversion is mandatory.",
+     "reg": "Aeronautical Information Manual, Paragraph 7-1-20, Pilot Weather Reports; Advisory Circular 00-45, Aviation Weather Services",
+     "tier": 3,
+     "why": "Reporting vocabulary rather than a decision rule for an airplane with no ice protection."
+    },
+    {
+     "t": "CAT",
+     "x": "C - Clear. A - Air. T - Turbulence.",
+     "d": "Clear air turbulence is turbulence occurring outside of convective clouds, typically associated with the jet stream, wind shear at high altitude and mountain waves. It is reported in SIGMETs when severe. It is largely a high-altitude concern and not a routine factor for a Warrior.",
+     "reg": "Aeronautical Information Manual, Paragraph 7-1-22, Turbulence; Advisory Circular 00-45, Aviation Weather Services",
+     "tier": 3,
+     "why": "On the page 31 list but outside the operating envelope of this airplane."
+    },
+    {
+     "t": "Mb",
+     "x": "M - Milli. B - Bar. A millibar, equivalent to a hectopascal.",
+     "d": "The millibar is the pressure unit used on surface analysis charts and in the sea level pressure remark in a METAR, where SLP127 means 1012.7 hectopascals. One inch of mercury is approximately 33.86 millibars. Outside the United States altimeter settings are given in hectopascals.",
+     "reg": "Advisory Circular 00-45, Aviation Weather Services",
+     "tier": 3,
+     "why": "On the page 31 list and only relevant when decoding the sea level pressure remark."
+    },
+    {
+     "t": "FA",
+     "x": "F - Forecast. A - Area. The product is the Area Forecast.",
+     "d": "The area forecast was a text forecast of general weather conditions over an area the size of several states, used to determine en route and destination weather where no TAF existed. It has been discontinued for the contiguous United States and replaced by the Graphical Forecast for Aviation. The Gold Seal guide still lists it on page 31 without noting that it is retired.",
+     "reg": "Advisory Circular 00-45, Aviation Weather Services",
+     "tier": 3,
+     "why": "On the page 31 list but a retired product, so it only comes up as a history question."
+    },
+    {
+     "t": "SD",
+     "x": "S - Radar. D - Weather Report. The guide gives SD as Radar Weather Report.",
+     "d": "SD was the identifier for the textual radar weather report, which described precipitation echo type, intensity, coverage and movement. These textual radar reports have been discontinued and replaced by graphical radar imagery. The Gold Seal guide lists it on page 32 without noting its retirement, and the letters SD are a product identifier rather than an expandable acronym.",
+     "reg": "Advisory Circular 00-45, Aviation Weather Services",
+     "tier": 4,
+     "why": "A retired textual product listed on page 32 for completeness only."
+    },
+    {
+     "t": "TWEB",
+     "x": "T - Transcribed. W - Weather. E - En route. B - Broadcast.",
+     "d": "The transcribed weather en route broadcast was a continuous recorded weather and aeronautical information broadcast over selected navigational aids. It has been discontinued in the contiguous United States. It appears on page 32 of the Gold Seal guide.",
+     "reg": "Aeronautical Information Manual, Paragraph 7-1-9, Flight Service Weather Products",
+     "tier": 4,
+     "why": "A retired service on the page 32 list, included only for completeness."
+    },
+    {
+     "t": "TIBS",
+     "x": "T - Telephone. I - Information. B - Briefing. S - Service.",
+     "d": "The telephone information briefing service was an automated recorded telephone briefing of area and route weather. It has been discontinued. It appears on page 32 of the Gold Seal guide.",
+     "reg": "Aeronautical Information Manual, Paragraph 7-1-9, Flight Service Weather Products",
+     "tier": 4,
+     "why": "A retired service on the page 32 list, included only for completeness."
+    },
+    {
+     "t": "AWS and AVW",
+     "x": "AWS: A - Aviation. W - Weather. S - Service. AVW: A - Aviation. V and W - Weather.",
+     "d": "Aviation Weather Service is the umbrella term for the weather products and services provided jointly by the National Weather Service and the FAA, and AVW is the Gold Seal guide's abbreviation for aviation weather generally. Both are listed on page 31 as general vocabulary rather than as specific products you would request.",
+     "reg": "Advisory Circular 00-45, Aviation Weather Services",
+     "tier": 4,
+     "why": "Generic page 31 vocabulary with no question attached to it."
+    },
+    {
+     "t": "WFO",
+     "x": "W - Weather. F - Forecast. O - Office.",
+     "d": "A weather forecast office is a National Weather Service field office responsible for forecasts and warnings in its area. It appears on page 32 of the Gold Seal guide as general vocabulary.",
+     "reg": "Advisory Circular 00-45, Aviation Weather Services",
+     "tier": 4,
+     "why": "Page 32 vocabulary, not an operational item."
+    }
+   ]
+  },
+  {
+   "g": "Performance, Airspeeds and Altitudes",
+   "items": [
+    {
+     "t": "Density Altitude",
+     "x": "Not an acronym.",
+     "d": "Density altitude is pressure altitude corrected for nonstandard temperature, and it is the altitude the airplane feels. High density altitude reduces engine power, propeller thrust and wing lift simultaneously, lengthening takeoff and landing distances and flattening climb. You compute it from pressure altitude and outside air temperature, and it is the governing number for every performance chart.",
+     "reg": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 11, Aircraft Performance; 14 CFR Part 91, Subpart B, Section 91.103, Preflight action",
+     "tier": 1,
+     "why": "It ties performance directly to engine power output, which is his focus, and it is asked on every ride."
+    },
+    {
+     "t": "Pressure Altitude",
+     "x": "Not an acronym.",
+     "d": "Pressure altitude is the altitude indicated when the altimeter is set to 29.92 inches of mercury, that is, altitude corrected for nonstandard pressure. It is the entry argument for performance charts and the altitude reference above 18,000 feet MSL. You obtain it by setting 29.92 in the Kollsman window or by computing it from field elevation and the altimeter setting.",
+     "reg": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 11, Aircraft Performance; 14 CFR Part 91, Subpart B, Section 91.121, Altimeter settings",
+     "tier": 1,
+     "why": "Required before any density altitude or performance answer."
+    },
+    {
+     "t": "IAS, CAS, EAS and TAS",
+     "x": "IAS: I - Indicated. A - Air. S - Speed. CAS: C - Calibrated. EAS: E - Equivalent. TAS: T - True.",
+     "d": "Indicated airspeed is what the airspeed indicator shows. Calibrated airspeed is indicated airspeed corrected for instrument and position error. Equivalent airspeed is calibrated airspeed corrected for compressibility error. True airspeed is the actual speed through the air, equivalent airspeed corrected for nonstandard temperature and pressure. Groundspeed is true airspeed corrected for wind. The Warrior II POH publishes both KIAS and KCAS columns for its airspeed limitations.",
+     "reg": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 8, Flight Instruments; 14 CFR Part 91, Subpart A, Section 91.9, Civil aircraft flight manual, marking, and placard requirements",
+     "tier": 1,
+     "why": "A four-step recitation an examiner can check, and the POH prints both columns so he can point at them."
+    },
+    {
+     "t": "CG",
+     "x": "C - Center. G - of Gravity.",
+     "d": "The center of gravity is the point at which the airplane would balance if suspended, and it must stay within the forward and rearward limits published in the POH for the loaded weight. A forward center of gravity gives higher stall speed, higher required elevator force, slower cruise and more stability, while an aft center of gravity gives lower stall speed and faster cruise but reduced longitudinal stability and a more difficult stall and spin recovery. The Warrior II POH, Piper Report VB-1180, publishes normal category limits of 88.3 to 93.0 inches aft of datum at 2440 pounds; confirm in this airplane's POH.",
+     "reg": "14 CFR Part 91, Subpart A, Section 91.9, Civil aircraft flight manual, marking, and placard requirements; 14 CFR Part 91, Subpart B, Section 91.103, Preflight action; FAA-H-8083-1, Aircraft Weight and Balance Handbook",
+     "tier": 1,
+     "why": "Weight and balance is computed on every ride and the effects of a forward or aft center of gravity are a certain question."
+    },
+    {
+     "t": "Maximum Weights",
+     "x": "Not an acronym.",
+     "d": "The Warrior II POH, Piper Report VB-1180, gives a maximum weight of 2440 pounds in the normal category and 2020 pounds in the utility category, a maximum ramp weight of 2447 and 2027 pounds respectively, and maximum baggage of 200 pounds in normal category and zero in utility. Flight load factors are 3.8 G positive in normal category and 4.4 G positive in utility, with no inverted maneuvers approved. Confirm every figure in this airplane's POH, since serial 28-8116257 is covered by the earlier Piper Report VB-880.",
+     "reg": "14 CFR Part 91, Subpart A, Section 91.9, Civil aircraft flight manual, marking, and placard requirements; FAA-H-8083-1, Aircraft Weight and Balance Handbook",
+     "tier": 1,
+     "why": "The commercial maneuvers must be flown in the utility category, so the weight limit decides whether the flight is legal."
+    },
+    {
+     "t": "Utility Category",
+     "x": "Not an acronym.",
+     "d": "The Warrior II must be operated as a normal or utility category airplane. The POH, Piper Report VB-1180, prohibits all acrobatic maneuvers including spins in the normal category, and approves steep turns, lazy eights and chandelles in the utility category at an entry speed of 111 KIAS with bank angles exceeding 60 degrees. The utility category weight limit of 2020 pounds and the zero baggage allowance are therefore part of planning a commercial maneuvers flight. Confirm in this airplane's POH.",
+     "reg": "14 CFR Part 91, Subpart A, Section 91.9, Civil aircraft flight manual, marking, and placard requirements; 14 CFR Part 91, Subpart B, Section 91.303, Aerobatic flight",
+     "tier": 1,
+     "why": "It is the direct intersection of his airplane's limitations with the commercial maneuvers he must fly."
+    },
+    {
+     "t": "Indicated, True and Absolute Altitude",
+     "x": "Not an acronym.",
+     "d": "Indicated altitude is the uncorrected altitude read from the altimeter with the current setting in the window. True altitude is the actual height above mean sea level, which is what airport and obstacle elevations are published as. Absolute altitude is the height above ground level. Indicated equals true only under standard conditions.",
+     "reg": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 8, Flight Instruments",
+     "tier": 2,
+     "why": "Standard altimetry vocabulary, likely as a quick definitions sweep."
+    },
+    {
+     "t": "L/D and L/D Max",
+     "x": "L - Lift. D - Drag. The ratio of lift to drag, and its maximum value.",
+     "d": "The lift-to-drag ratio expresses aerodynamic efficiency, and L over D max is the angle of attack at which lift is greatest relative to drag. L over D max gives the maximum glide range and corresponds to best glide speed, and it is also the point of minimum total drag where parasite and induced drag are equal. It is the aerodynamic basis for the steep spiral and for any engine-out glide.",
+     "reg": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 5, Aerodynamics of Flight",
+     "tier": 2,
+     "why": "Listed on page 31 and it is the theory behind the glide and steep spiral answers."
+    },
+    {
+     "t": "Maximum Airspeeds",
+     "x": "Not an acronym.",
+     "d": "Unless otherwise authorized, no person may operate an aircraft below 10,000 feet MSL at an indicated airspeed of more than 250 knots, at or below 2,500 feet AGL within 4 nautical miles of the primary airport of Class C or Class D airspace at more than 200 knots, or in the airspace underlying Class B or in a VFR corridor through Class B at more than 200 knots. No person may operate at or above 10,000 feet MSL at more than Mach 1. None of these constrain a Warrior, but the rule is a standard recitation.",
+     "reg": "14 CFR Part 91, Subpart B, Section 91.117, Aircraft speed",
+     "tier": 2,
+     "why": "A clean numeric rule from page 7 of the guide that examiners use as a warm-up."
+    },
+    {
+     "t": "NM and SM",
+     "x": "NM: N - Nautical. M - Mile. SM: S - Statute. M - Mile.",
+     "d": "A nautical mile is 6,076 feet, one minute of latitude, and is the unit of distance for navigation, airspeed in knots and the 50 nautical mile limit in Section 61.133 paragraph (b). A statute mile is 5,280 feet and is the unit for visibility in METARs, TAFs and the VFR weather minimums. Mixing the two is a classic error in the alternate and visibility rules.",
+     "reg": "14 CFR Part 91, Subpart B, Section 91.155, Basic VFR weather minimums; 14 CFR Part 61, Subpart F, Section 61.133, Commercial pilot privileges and limitations",
+     "tier": 2,
+     "why": "Listed on pages 31 and 32, and the unit distinction matters inside the commercial 50 nautical mile limitation."
+    },
+    {
+     "t": "TAS",
+     "x": "T - True. A - Air. S - Speed.",
+     "d": "True airspeed is the actual speed of the airplane through the air mass, equal to equivalent airspeed corrected for nonstandard temperature and pressure. It increases roughly 2 percent per 1,000 feet above indicated airspeed for a given indication. You compute it for flight planning and for the required reporting of a 5 percent or 10 knot change in cruise true airspeed on an IFR flight plan.",
+     "reg": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 8, Flight Instruments; 14 CFR Part 91, Subpart B, Section 91.183, IFR communications",
+     "tier": 2,
+     "why": "Listed on page 32 and used in every flight plan and cruise performance problem."
+    },
+    {
+     "t": "Critical Mach and Mach Number",
+     "x": "Not an acronym. Mach is named for the physicist Ernst Mach.",
+     "d": "The Mach number is the ratio of true airspeed to the local speed of sound. Critical Mach is the lowest Mach number at which airflow over any part of the aircraft first reaches the speed of sound. Neither is a practical concern in a Warrior, but both appear in the Gold Seal guide's speed review on page 7.",
+     "reg": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 5, Aerodynamics of Flight",
+     "tier": 4,
+     "why": "In the guide for completeness but has no bearing on a Warrior commercial ride."
+    }
+   ]
+  },
+  {
+   "g": "Commercial Maneuvers",
+   "items": [
+    {
+     "t": "Chandelle",
+     "x": "Not an acronym. The word is French for candle.",
+     "d": "A chandelle is a maximum performance 180 degree climbing turn that begins from approximately straight-and-level flight and ends in a wings-level, nose-high attitude just above stall speed. You establish approximately 30 degrees of bank, apply pitch and power together for the first 90 degrees at constant bank with increasing pitch, then begin a constant-rate rollout over the second 90 degrees while holding a constant pitch attitude so airspeed decays to just above a stall at the 180 degree point. ACS tolerances are a rollout heading within plus or minus 10 degrees and completion no lower than 1,500 feet AGL.",
+     "reg": "FAA-S-ACS-7, Commercial Pilot for Airplane Category Airman Certification Standards, Area of Operation VII, Performance Maneuvers and Ground Reference Maneuvers; FAA-H-8083-3, Airplane Flying Handbook, Chapter 10",
+     "tier": 1,
+     "why": "One of the four named commercial maneuvers and the oral briefing for it is part of the ride."
+    },
+    {
+     "t": "Lazy Eight",
+     "x": "Not an acronym.",
+     "d": "A lazy eight is two 180 degree turns in opposite directions with a continuously changing pitch, bank and airspeed, tracing a lazy figure eight against the horizon. Power is set for an airspeed at or below maneuvering speed, the climbing turn begins toward the 45 degree point, pitch decreases and bank increases to a maximum of approximately 30 degrees and slowest airspeed at the 90 degree point, the bank rolls out while the nose reaches its lowest pitch near the 135 degree point, and the airplane arrives at the 180 degree point straight and level on the original altitude and airspeed. ACS tolerances at the 180 degree point are altitude within 100 feet, airspeed within 10 knots and heading within 10 degrees, no lower than 1,500 feet AGL.",
+     "reg": "FAA-S-ACS-7, Commercial Pilot for Airplane Category Airman Certification Standards, Area of Operation VII, Performance Maneuvers and Ground Reference Maneuvers; FAA-H-8083-3, Airplane Flying Handbook, Chapter 10",
+     "tier": 1,
+     "why": "One of the four named commercial maneuvers with specific tolerances he will ask you to state."
+    },
+    {
+     "t": "Steep Spiral",
+     "x": "Not an acronym.",
+     "d": "A steep spiral is a gliding turn of at least three complete 360 degree turns at a constant radius around a ground reference point, flown at idle power and best glide airspeed with the bank adjusted for wind drift. It demonstrates the pilot's ability to manage a power-off descent over a chosen point, which is the core skill behind a forced landing. ACS tolerances are a maximum bank of 60 degrees, airspeed within 10 knots of the specified value and completion no lower than 1,500 feet AGL.",
+     "reg": "FAA-S-ACS-7, Commercial Pilot for Airplane Category Airman Certification Standards, Area of Operation VII, Performance Maneuvers and Ground Reference Maneuvers; FAA-H-8083-3, Airplane Flying Handbook, Chapter 10",
+     "tier": 1,
+     "why": "A named commercial maneuver flown at best glide, so it feeds straight into his engine failure questions."
+    },
+    {
+     "t": "Eights on Pylons",
+     "x": "Not an acronym. Also called pylon eights.",
+     "d": "Eights on pylons is the only ground reference maneuver flown at a specific altitude rather than a specific bank: you hold the lateral line of sight reference on the pylon by varying altitude to match the pivotal altitude as groundspeed changes. You enter downwind at a 45 degree angle between the pylons, roll into 30 to 40 degrees of bank abeam the first pylon, climb or descend to keep the wingtip reference on the pylon, then repeat on the opposite pylon. ACS tolerances cap bank at 40 degrees and require the line-of-sight reference to stay on the pylon.",
+     "reg": "FAA-S-ACS-7, Commercial Pilot for Airplane Category Airman Certification Standards, Area of Operation VII, Performance Maneuvers and Ground Reference Maneuvers; FAA-H-8083-3, Airplane Flying Handbook, Chapter 10",
+     "tier": 1,
+     "why": "A named commercial maneuver whose theory he will make you derive at the table."
+    },
+    {
+     "t": "Pivotal Altitude",
+     "x": "Not an acronym.",
+     "d": "Pivotal altitude is the altitude at which the aircraft's lateral line of sight extended from the wingtip appears to pivot on a ground point, and it depends only on groundspeed, not on bank angle or wind. The Gold Seal guide gives the formula as groundspeed squared divided by 11.3, plus the MSL elevation of the ground reference, with groundspeed in knots. Because groundspeed changes around the circle, the pivotal altitude changes continuously, which is why eights on pylons requires climbing and descending.",
+     "reg": "FAA-S-ACS-7, Commercial Pilot for Airplane Category Airman Certification Standards, Area of Operation VII, Performance Maneuvers and Ground Reference Maneuvers; FAA-H-8083-3, Airplane Flying Handbook, Chapter 10",
+     "tier": 1,
+     "why": "A formula he must produce from memory before being allowed to fly the pylons."
+    },
+    {
+     "t": "Power-Off 180 Degree Accuracy Approach and Landing",
+     "x": "Not an acronym.",
+     "d": "This is the commercial landing task in which the engine is brought to idle abeam the intended touchdown point on downwind and the airplane is landed within a specified distance beyond a designated point without adding power. It tests energy management, glide judgment and the use of flaps and slips as drag devices. It is a required ACS task that the Gold Seal guide does not cover in its maneuvers pages.",
+     "reg": "FAA-S-ACS-7, Commercial Pilot for Airplane Category Airman Certification Standards, Area of Operation IV, Takeoffs, Landings, and Go-Arounds; FAA-H-8083-3, Airplane Flying Handbook, Chapter 9",
+     "tier": 1,
+     "why": "A required commercial task the guide omits entirely, and it is the landing most applicants are briefed hardest on."
+    },
+    {
+     "t": "Steep Turns",
+     "x": "Not an acronym.",
+     "d": "A steep turn at the commercial level is a 360 or 720 degree turn at 50 degrees of bank, holding altitude, airspeed and bank while managing the load factor and the increase in stall speed. The Warrior II POH approves steep turns in the utility category for bank angles exceeding 60 degrees at an entry speed of 111 KIAS. The oral usually covers load factor, the increase in stall speed with the square root of the load factor, and overbanking tendency.",
+     "reg": "FAA-S-ACS-7, Commercial Pilot for Airplane Category Airman Certification Standards, Area of Operation VII, Performance Maneuvers and Ground Reference Maneuvers; 14 CFR Part 91, Subpart A, Section 91.9, Civil aircraft flight manual, marking, and placard requirements",
+     "tier": 1,
+     "why": "Flown on every commercial ride and the load factor discussion is a reliable oral question."
+    },
+    {
+     "t": "Accelerated Stall",
+     "x": "Not an acronym.",
+     "d": "An accelerated stall occurs when the critical angle of attack is exceeded at a speed higher than the unaccelerated stall speed, because load factor is increased by a turn or an abrupt pull. Stall speed increases with the square root of the load factor, so at 60 degrees of bank with a load factor of 2 the stall speed is about 1.41 times the wings-level figure. This is the risk that sits inside chandelles, lazy eights and steep turns.",
+     "reg": "FAA-S-ACS-7, Commercial Pilot for Airplane Category Airman Certification Standards, Area of Operation VII; FAA-H-8083-3, Airplane Flying Handbook, Chapter 4",
+     "tier": 2,
+     "why": "Likely as the risk management element attached to the performance maneuvers."
+    },
+    {
+     "t": "Spin Awareness",
+     "x": "Not an acronym. The phases are entry, incipient, developed and recovery, and the recovery acronym is PARE: P - Power idle. A - Ailerons neutral. R - Rudder full opposite. E - Elevator forward.",
+     "d": "A spin is an aggravated stall in which one wing is more stalled than the other, producing autorotation. The Warrior II POH prohibits all acrobatic maneuvers including spins in the normal category and publishes a spin recovery procedure in Section 3. PARE is a widely taught recovery mnemonic that does not appear in the Gold Seal guide, and the POH procedure for the specific airplane always takes precedence over any generic mnemonic.",
+     "reg": "14 CFR Part 91, Subpart B, Section 91.303, Aerobatic flight; 14 CFR Part 91, Subpart A, Section 91.9, Civil aircraft flight manual, marking, and placard requirements; FAA-H-8083-3, Airplane Flying Handbook, Chapter 4",
+     "tier": 2,
+     "why": "Likely as a knowledge item attached to the maneuvers, but spins are not demonstrated on a commercial airplane ride."
+    }
+   ]
+  },
+  {
+   "g": "Aerodynamics and Stability",
+   "items": [
+    {
+     "t": "Stall",
+     "x": "Not an acronym.",
+     "d": "A stall is a rapid decrease in lift caused by the separation of airflow from the wing surface, brought on by exceeding the critical angle of attack. It can occur at any pitch attitude and any airspeed. The Gold Seal guide names three situations in which the critical angle of attack is most commonly exceeded: low speed, high speed with an abrupt change in angle of attack, and turning flight where centrifugal force adds to weight and the required angle of attack rises with bank.",
+     "reg": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 5, Aerodynamics of Flight; FAA-H-8083-3, Airplane Flying Handbook, Chapter 4",
+     "tier": 1,
+     "why": "The definition must include critical angle of attack and any attitude or airspeed, and examiners listen for exactly that."
+    },
+    {
+     "t": "Load Factor",
+     "x": "Not an acronym. Expressed in G, the ratio of load supported to the actual weight.",
+     "d": "Load factor is the ratio of the load supported by the wings to the actual weight of the airplane, and in a level turn it rises with bank angle regardless of airspeed or weight. At 60 degrees of bank the load factor is 2 G. Stall speed increases with the square root of the load factor. The Warrior II POH, Piper Report VB-1180, gives maximum positive load factors of 3.8 G in normal category and 4.4 G in utility category with no inverted maneuvers approved.",
+     "reg": "14 CFR Part 91, Subpart A, Section 91.9, Civil aircraft flight manual, marking, and placard requirements; FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 5, Aerodynamics of Flight",
+     "tier": 1,
+     "why": "It links the POH limitations to the steep turns and chandelles he will watch you fly."
+    },
+    {
+     "t": "Parasite Drag and Induced Drag",
+     "x": "Not an acronym.",
+     "d": "Parasite drag is drag produced by the motion of an object through a fluid, made up of form drag, skin friction and interference drag, and it increases with the square of airspeed. Induced drag arises from the production of lift and decreases as airspeed increases. The two curves cross at L over D max, which is the speed of minimum total drag and therefore best glide and best endurance in a jet. Ground effect reduces induced drag by interfering with the formation of wingtip vortices.",
+     "reg": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 5, Aerodynamics of Flight",
+     "tier": 2,
+     "why": "Standard aerodynamics, likely as the theory behind the glide and best-speed answers."
+    },
+    {
+     "t": "Static Stability",
+     "x": "Not an acronym.",
+     "d": "Static stability is the initial tendency of the airplane to return toward equilibrium after a disturbance. Positive static stability is an initial tendency to return to the original state, neutral static stability is a tendency to remain in the new condition, and negative static stability is a tendency to continue away from the original state. A forward center of gravity increases longitudinal static stability; an aft center of gravity reduces it.",
+     "reg": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 5, Aerodynamics of Flight",
+     "tier": 2,
+     "why": "Likely as the theory behind the weight and balance consequences he will ask about."
+    },
+    {
+     "t": "Dynamic Stability",
+     "x": "Not an acronym.",
+     "d": "Dynamic stability describes the motion over time after a disturbance. Positive dynamic stability means the oscillation decreases in amplitude and the airplane returns to equilibrium, neutral dynamic stability means the amplitude neither grows nor decays, and negative dynamic stability means the motion diverges. An airplane can be statically stable but dynamically unstable, which is the distinction examiners test.",
+     "reg": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 5, Aerodynamics of Flight",
+     "tier": 2,
+     "why": "Always asked alongside static stability to see whether the applicant can separate the two."
+    },
+    {
+     "t": "Slipping, Skidding and Coordinated Turns",
+     "x": "Not an acronym.",
+     "d": "In a coordinated turn the horizontal component of lift exactly balances the centrifugal force and the ball is centered. In a slipping turn the centrifugal force is less than the horizontal component of lift, so the airplane slips toward the inside of the turn and the ball falls to the inside. In a skidding turn the centrifugal force exceeds the horizontal component of lift, the airplane skids toward the outside, and the ball moves to the outside. A skidding turn at low airspeed on base to final is the classic stall and spin accident.",
+     "reg": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 5, Aerodynamics of Flight; FAA-H-8083-3, Airplane Flying Handbook, Chapter 3",
+     "tier": 2,
+     "why": "Likely as the risk management discussion attached to the maneuvers and the pattern."
+    },
+    {
+     "t": "Bernoulli's Principle",
+     "x": "Not an acronym. Named for Daniel Bernoulli.",
+     "d": "Bernoulli's principle states that an increase in the speed of a fluid occurs simultaneously with a decrease in its pressure or potential energy. As air accelerates over the cambered upper surface of a wing it produces an area of lower pressure, while slower air beneath produces relatively higher pressure, and the difference contributes an upward force. Newton's third law, turning the airflow downward, is the complementary explanation and most examiners want both mentioned.",
+     "reg": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 5, Aerodynamics of Flight",
+     "tier": 3,
+     "why": "Possible as a warm-up theory question but rarely dwelt on at commercial level."
+    },
+    {
+     "t": "The Four Forces",
+     "x": "Not an acronym. Lift, weight, thrust and drag.",
+     "d": "Lift opposes weight and thrust opposes drag, and in unaccelerated straight-and-level flight the opposing pairs are in equilibrium. The Gold Seal guide's diagram on page 13 labels the downward force Gravity rather than Weight; the standard FAA term is weight, which is the force of gravity acting on the mass of the airplane. Equilibrium does not mean the forces are equal in pairs at all times, only that the sums balance in unaccelerated flight.",
+     "reg": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 5, Aerodynamics of Flight",
+     "tier": 3,
+     "why": "Basic theory, possible as an opener but well below his systems focus."
+    }
+   ]
+  },
+  {
+   "g": "Airspace and Operating Rules",
+   "items": [
+    {
+     "t": "Night, Civil Twilight and the Three Night Definitions",
+     "x": "Not an acronym.",
+     "d": "Night for logging purposes is the time between the end of evening civil twilight and the beginning of morning civil twilight, as published in the Air Almanac and converted to local time. Position lights must be on from sunset to sunrise. Night takeoff and landing currency for carrying passengers applies from 1 hour after sunset to 1 hour before sunrise. Civil twilight begins or ends when the geometric center of the sun is 6 degrees below the horizon, usually 20 to 35 minutes from sunset or sunrise.",
+     "reg": "14 CFR Part 1, Section 1.1, General definitions; 14 CFR Part 91, Subpart C, Section 91.209, Aircraft lights; 14 CFR Part 61, Subpart A, Section 61.57, Recent flight experience: Pilot in command, paragraph (b)",
+     "tier": 1,
+     "why": "Three different definitions of night is a standard trap, and night carriage is a commercial privilege limitation."
+    },
+    {
+     "t": "Section 91.209 Aircraft Lights",
+     "x": "Not an acronym.",
+     "d": "No person may operate an aircraft from sunset to sunrise unless it has lighted position lights, nor may an aircraft be parked or moved in a night-operating area unless it is lighted or its lights are on. The Gold Seal guide states that anticollision lights are required from sunset to sunrise, which is incomplete: anticollision lights are required for all operations, day and night, on aircraft certificated with them, and the pilot in command may turn them off only when he determines that in the interest of safety it is better to do so.",
+     "reg": "14 CFR Part 91, Subpart C, Section 91.209, Aircraft lights",
+     "tier": 2,
+     "why": "Likely on a night-carriage question, and the guide's version is wrong on anticollision lights."
+    },
+    {
+     "t": "VFR Cloud Clearances and Visibility",
+     "x": "Not an acronym. Commonly memorized as 3-152 and the 1-5-2 and 5-111 patterns.",
+     "d": "Class B requires 3 statute miles and clear of clouds. Class C, Class D and Class E below 10,000 feet MSL require 3 statute miles with 500 feet below, 1,000 feet above and 2,000 feet horizontal. Class E at or above 10,000 feet MSL requires 5 statute miles with 1,000 feet below, 1,000 feet above and 1 statute mile horizontal. Class G at or below 1,200 feet AGL requires 1 statute mile and clear of clouds by day, 3 statute miles with the 500-1,000-2,000 clearances at night; above 1,200 feet AGL and below 10,000 feet MSL it is 1 statute mile by day and 3 at night with 500-1,000-2,000; above 1,200 feet AGL and at or above 10,000 feet MSL it is 5 statute miles with 1,000-1,000 and 1 statute mile.",
+     "reg": "14 CFR Part 91, Subpart B, Section 91.155, Basic VFR weather minimums",
+     "tier": 2,
+     "why": "Memory-table recitation that most examiners spot-check rather than walk in full."
+    },
+    {
+     "t": "SVFR",
+     "x": "S - Special. V - Visual. F - Flight. R - Rules.",
+     "d": "Special VFR is an ATC clearance to operate within the lateral boundaries of controlled airspace at an airport, below 10,000 feet MSL, clear of clouds with at least 1 statute mile flight visibility, when conditions are below basic VFR. Between sunset and sunrise the pilot must hold an instrument rating and the aircraft must be equipped for instrument flight. Some airports prohibit it, as marked on the sectional.",
+     "reg": "14 CFR Part 91, Subpart B, Section 91.157, Special VFR weather minimums",
+     "tier": 2,
+     "why": "Listed on page 32 and the night restriction ties to the commercial instrument-rating limitation."
+    },
+    {
+     "t": "Light Gun Signals",
+     "x": "Not an acronym.",
+     "d": "Steady green means cleared for takeoff on the ground and cleared to land in flight. Flashing green means cleared to taxi on the ground and return for landing in flight. Steady red means stop on the ground and give way to other aircraft and continue circling in flight. Flashing red means taxi clear of the landing area on the ground and airport unsafe, do not land, in flight. Flashing white means return to the starting point on the airport and is not used for aircraft in flight. Alternating red and green is a general warning signal to exercise extreme caution.",
+     "reg": "14 CFR Part 91, Subpart B, Section 91.125, ATC light signals; Aeronautical Information Manual, Paragraph 4-3-13, Traffic Control Light Signals",
+     "tier": 2,
+     "why": "A table an examiner can quiz straight off the page, often triggered by an electrical failure scenario, which touches his focus."
+    },
+    {
+     "t": "Transponder Failure in Class B",
+     "x": "Not an acronym.",
+     "d": "To operate an aircraft not equipped with a transponder in Class B airspace, a request for deviation must be submitted to the controlling ATC facility at least 1 hour before the proposed operation. If the transponder fails in flight within Class B, an immediate request may obtain a deviation to allow the flight to continue. The same regulation also provides for deviations for the Mode C veil.",
+     "reg": "14 CFR Part 91, Subpart C, Section 91.215, ATC transponder and altitude reporting equipment and use",
+     "tier": 2,
+     "why": "An electrical failure scenario in disguise, which is the kind of question his focus produces."
+    },
+    {
+     "t": "NOTAM",
+     "x": "N - Notice. O - To. A - Air. M - Missions. Formerly Notice to Airmen.",
+     "d": "A NOTAM is a notice of information essential to personnel concerned with flight operations that was not known far enough in advance to be publicized by other means. Types include flight data center NOTAMs for regulatory changes such as amended procedures, distant and local NOTAMs, and pointer NOTAMs. Checking NOTAMs is the N in NW KRAFT and is required by Section 91.103.",
+     "reg": "14 CFR Part 91, Subpart B, Section 91.103, Preflight action; Aeronautical Information Manual, Paragraph 5-1-3, Notice to Air Missions (NOTAM) System",
+     "tier": 2,
+     "why": "Listed on page 31 and required by the preflight action regulation he will quote."
+    },
+    {
+     "t": "NAS",
+     "x": "N - National. A - Airspace. S - System.",
+     "d": "The national airspace system is the network of airspace, navigation facilities, airports, air traffic control facilities, rules, procedures and personnel that together support flight in the United States. The Gold Seal guide's page 15 diagram shows Class A from 18,000 feet MSL to flight level 600, Class B, C and D around airports, Class E as everywhere else including bases at 700 and 1,200 feet AGL, and Class G beneath.",
+     "reg": "14 CFR Part 71, Designation of Class A, B, C, D, and E Airspace Areas; Aeronautical Information Manual, Chapter 3, Airspace",
+     "tier": 2,
+     "why": "Listed on page 31, and the airspace walk is standard even when the examiner's heart is in systems."
+    },
+    {
+     "t": "MOA",
+     "x": "M - Military. O - Operations. A - Area.",
+     "d": "A military operations area is airspace established to separate certain military training activities from IFR traffic. VFR aircraft may transit a MOA without a clearance, but should exercise extreme caution when it is active and should contact the controlling agency for traffic advisories. Activity times are published on the chart and in the chart supplement.",
+     "reg": "Aeronautical Information Manual, Paragraph 3-4-5, Military Operations Areas",
+     "tier": 3,
+     "why": "On the page 31 list and part of a routine special-use airspace sweep."
+    },
+    {
+     "t": "MTR and IR",
+     "x": "MTR: M - Military. T - Training. R - Route. IR: I - IFR. R - Route.",
+     "d": "Military training routes are corridors used for military flight training at speeds above 250 knots. An IR is an IFR military training route and a VR is a VFR military training route. Routes with four-digit numbers operate entirely at or below 1,500 feet AGL, and routes with three-digit numbers include segments above 1,500 feet AGL.",
+     "reg": "Aeronautical Information Manual, Paragraph 3-5-2, Military Training Routes",
+     "tier": 3,
+     "why": "Page 31 and 32 vocabulary, possible in a chart review but unlikely to be dwelt on."
+    },
+    {
+     "t": "MEF",
+     "x": "M - Maximum. E - Elevation. F - Figure.",
+     "d": "The maximum elevation figure is the number printed in each quadrangle on a sectional chart showing the highest known feature in that quadrangle, including terrain and obstructions, in thousands and hundreds of feet MSL. It is a charting convention used for terrain avoidance planning, not a minimum safe altitude.",
+     "reg": "FAA Aeronautical Chart User's Guide; Aeronautical Information Manual, Chapter 9, Aeronautical Charts and Related Publications",
+     "tier": 3,
+     "why": "On the page 31 list and possible during a cross-country chart review."
+    },
+    {
+     "t": "NMAC",
+     "x": "N - Near. M - Midair. A - Collision.",
+     "d": "A near midair collision is an incident in which the possibility of collision occurs as a result of proximity of less than 500 feet between aircraft, or a report from a pilot or crewmember that a collision hazard existed. Pilots are urged to report them to the nearest FAA facility.",
+     "reg": "Aeronautical Information Manual, Paragraph 7-7-3, Near Midair Collision Reporting",
+     "tier": 4,
+     "why": "Page 31 vocabulary with no practical question attached on a commercial ride."
+    },
+    {
+     "t": "Section 91.21 Portable Electronic Devices",
+     "x": "Not an acronym.",
+     "d": "The prohibition on portable electronic devices applies to aircraft operated by an air carrier or commercial operator, or to any aircraft operated under IFR; it does not blanket all Part 91 VFR flying, which the Gold Seal guide's page 10 summary does not make clear. The exceptions are portable voice recorders, hearing aids, heart pacemakers, electric shavers and any other device the operator has determined will not interfere with navigation or communication systems.",
+     "reg": "14 CFR Part 91, Subpart A, Section 91.21, Portable electronic devices",
+     "tier": 4,
+     "why": "Included for completeness; it almost never comes up and the guide's framing is too broad."
+    }
+   ]
+  },
+  {
+   "g": "Certification, Currency and Recency",
+   "items": [
+    {
+     "t": "Section 61.57(a) and (b) Passenger Carrying Currency",
+     "x": "Not an acronym.",
+     "d": "To carry passengers you must have made 3 takeoffs and 3 landings within the preceding 90 days as sole manipulator of the controls in an aircraft of the same category, class and, if a type rating is required, type. In a tailwheel airplane the landings must be to a full stop. For passengers at night, between 1 hour after sunset and 1 hour before sunrise, the 3 takeoffs and landings must be to a full stop within the preceding 90 days.",
+     "reg": "14 CFR Part 61, Subpart A, Section 61.57, Recent flight experience: Pilot in command, paragraphs (a) and (b)",
+     "tier": 1,
+     "why": "A commercial pilot carries passengers for a living, so the currency rule is a near-certain question."
+    },
+    {
+     "t": "Section 61.129 Aeronautical Experience",
+     "x": "Not an acronym.",
+     "d": "The commercial single-engine airplane applicant needs 250 hours total time, including at least 100 hours in powered aircraft of which 50 are in airplanes, 100 hours pilot in command of which 50 are in airplanes and 50 are cross-country with 10 in airplanes, 20 hours of training in the Section 61.127(b)(1) areas of operation including 10 hours of instrument training, 10 hours in a complex or technically advanced airplane, and 3 hours of test preparation within the preceding 2 calendar months. The cross-country requirements include one flight of at least 300 nautical miles total with landings at a minimum of three points one of which is at least 250 nautical miles straight-line from the original departure point, a 2-hour day cross-country of more than 100 nautical miles straight-line distance, and a 2-hour night cross-country of more than 100 nautical miles. Night requires 5 hours in night VFR conditions with 10 takeoffs and 10 landings in the traffic pattern at an airport with an operating control tower.",
+     "reg": "14 CFR Part 61, Subpart F, Section 61.129, Aeronautical experience",
+     "tier": 2,
+     "why": "He will verify the logbook against this list before the oral, but it is paperwork rather than knowledge."
+    },
+    {
+     "t": "Section 61.123 Eligibility",
+     "x": "Not an acronym.",
+     "d": "To be eligible for a commercial pilot certificate you must be at least 18 years of age, be able to read, speak, write and understand English, receive and log the required ground and flight training with the required endorsements, pass the knowledge test on the Section 61.125 areas, pass the practical test on the Section 61.127 areas of operation, meet the Section 61.129 aeronautical experience requirements, and hold at least a private pilot certificate or meet the Section 61.73 requirements. An instrument rating alone does not satisfy the commercial training requirements.",
+     "reg": "14 CFR Part 61, Subpart F, Section 61.123, Eligibility requirements: General",
+     "tier": 2,
+     "why": "Verified at the paperwork stage, so it is checked but not usually discussed."
+    },
+    {
+     "t": "Section 61.56 Flight Review",
+     "x": "Not an acronym.",
+     "d": "No person may act as pilot in command unless, within the preceding 24 calendar months, he has accomplished a flight review consisting of at least 1 hour of flight training and 1 hour of ground training with an authorized instructor and received a logbook endorsement. It may be satisfied instead by a proficiency check, a practical test for a new certificate or rating, or completion of one or more phases of the FAA WINGS pilot proficiency program. Passing this commercial practical test satisfies the flight review.",
+     "reg": "14 CFR Part 61, Subpart A, Section 61.56, Flight review",
+     "tier": 2,
+     "why": "Likely as a currency sweep, and the fact that the checkride itself resets it is a nice answer."
+    },
+    {
+     "t": "Section 61.31 Endorsements",
+     "x": "Not an acronym.",
+     "d": "A complex airplane endorsement is required for an airplane with retractable landing gear, flaps and a controllable pitch propeller. A high-performance endorsement is required for an airplane with an engine of more than 200 horsepower. A high-altitude endorsement is required for a pressurized airplane with a service ceiling or maximum operating altitude, whichever is lower, above 25,000 feet MSL. A tailwheel endorsement is required for a tailwheel airplane and covers normal and crosswind takeoffs and landings, wheel landings and go-around procedures. None of these specify a minimum number of hours; all require ground and flight training and a logbook endorsement.",
+     "reg": "14 CFR Part 61, Subpart A, Section 61.31, Type rating requirements, additional training, and authorization requirements",
+     "tier": 2,
+     "why": "Likely because the Warrior is neither complex nor high-performance, which invites the question of what he trained in."
+    },
+    {
+     "t": "TAA",
+     "x": "T - Technically. A - Advanced. A - Airplane.",
+     "d": "A technically advanced airplane is one with an electronically advanced avionics system including a primary flight display, a multifunction display with moving map and navigation, and a two-axis autopilot integrated with navigation and heading guidance. Ten hours in a complex airplane, a turbine-powered airplane or a technically advanced airplane satisfies the Section 61.129 training requirement for the single-engine commercial certificate.",
+     "reg": "14 CFR Part 61, Subpart F, Section 61.129, Aeronautical experience, paragraph (j)",
+     "tier": 2,
+     "why": "It is how most applicants now satisfy the complex requirement, so he will ask which path was used."
+    },
+    {
+     "t": "6 HITS",
+     "x": "6 - Six instrument approaches. H - Holding procedures and tasks. I - Intercepting courses. T - Tracking courses. S - Using navigational electronic systems.",
+     "d": "Instrument currency requires that within the preceding 6 calendar months the pilot has performed and logged six instrument approaches, holding procedures and tasks, and intercepting and tracking courses using navigational electronic systems, in the appropriate category of aircraft or an approved simulator, flight training device or aviation training device. If currency lapses there is a further 6 months of grace in which it can be regained with a safety pilot or instructor, after which an instrument proficiency check is required.",
+     "reg": "14 CFR Part 61, Subpart A, Section 61.57, Recent flight experience: Pilot in command, paragraph (c)",
+     "tier": 3,
+     "why": "This is a single-engine land commercial ride under Part 91, so instrument currency is background rather than a test subject."
+    },
+    {
+     "t": "IPC",
+     "x": "I - Instrument. P - Proficiency. C - Check.",
+     "d": "An instrument proficiency check is required to regain instrument privileges once more than 12 calendar months have passed since currency lapsed, and it must be administered by an examiner, an authorized instructor with an instrument rating, or an FAA-approved person. Some tasks may be conducted in an approved aviation training device.",
+     "reg": "14 CFR Part 61, Subpart A, Section 61.57, Recent flight experience: Pilot in command, paragraph (d)",
+     "tier": 3,
+     "why": "Instrument housekeeping, outside the scope of a commercial single-engine land ride."
+    },
+    {
+     "t": "Safety Pilot",
+     "x": "Not an acronym.",
+     "d": "When a pilot operates in simulated instrument flight in an airplane, a safety pilot must occupy the other control seat. The safety pilot must hold at least a private pilot certificate with category and class ratings appropriate to the aircraft, hold a current medical certificate, and the aircraft must have dual controls and adequate forward and side vision for both pilots. The Gold Seal guide correctly notes the safety pilot need not be current.",
+     "reg": "14 CFR Part 91, Subpart B, Section 91.109, Flight instruction; Simulated instrument flight and certain flight tests; 14 CFR Part 61, Subpart A, Section 61.3, Requirement for certificates, ratings, and authorizations",
+     "tier": 3,
+     "why": "Possible as a logging question but not a commercial single-engine focus area."
+    },
+    {
+     "t": "Section 61.51 Logging Instrument Time",
+     "x": "Not an acronym.",
+     "d": "A person may log instrument time only for that flight time when the aircraft is operated solely by reference to instruments under actual or simulated instrument conditions, and an authorized instructor may log instrument time when conducting instrument flight instruction in actual instrument conditions. Each instrument approach logged must record the location and type of approach, the safety pilot's name if one was required, and the simulator or training device used.",
+     "reg": "14 CFR Part 61, Subpart A, Section 61.51, Pilot logbooks, paragraph (g)",
+     "tier": 3,
+     "why": "Logbook mechanics he may spot-check while reviewing the records."
+    },
+    {
+     "t": "CFI",
+     "x": "C - Certificated. F - Flight. I - Instructor.",
+     "d": "A certificated flight instructor holds a flight instructor certificate under Part 61 Subpart H and may give the training and endorsements required for certificates and ratings. Many commercial pilots go on to add the instructor certificate, and instruction given for hire in an aircraft the instructor provides is one of the Section 119.1 paragraph (e) operations.",
+     "reg": "14 CFR Part 61, Subpart H, Flight Instructors Other Than Flight Instructors With a Sport Pilot Rating; 14 CFR Part 119, Subpart A, Section 119.1, Applicability, paragraph (e)",
+     "tier": 3,
+     "why": "Page 31 vocabulary, relevant mainly as a career follow-up to the commercial certificate."
+    },
+    {
+     "t": "WINGS",
+     "x": "Not a letter-by-letter acronym. WINGS is the name of the FAA Pilot Proficiency Program.",
+     "d": "The WINGS program is a phased FAA-sponsored proficiency award program, and completing one or more phases substitutes for the Section 61.56 flight review. It is listed in the Gold Seal guide as one of the flight review substitutions.",
+     "reg": "14 CFR Part 61, Subpart A, Section 61.56, Flight review; Advisory Circular 61-91, WINGS - Pilot Proficiency Program",
+     "tier": 4,
+     "why": "A footnote in the flight review answer, almost never asked directly."
+    }
+   ]
+  },
+  {
+   "g": "Instruments and Navigation",
+   "items": [
+    {
+     "t": "DV MONA",
+     "x": "D - Deviation. V - Variation. M - Magnetic dip. O - Oscillation. N - North and south turning errors. A - Acceleration errors.",
+     "d": "DV MONA is the list of magnetic compass errors. Deviation is caused by magnetic fields within the airplane and is corrected by the compass correction card. Variation is the angular difference between true and magnetic north. Magnetic dip is the vertical pull of the earth's field near the poles, which causes the turning and acceleration errors. Oscillation is erratic swinging in turbulence.",
+     "reg": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 8, Flight Instruments",
+     "tier": 2,
+     "why": "A fixed list that examiners like, and a compass is required equipment under Section 91.205."
+    },
+    {
+     "t": "UNOS",
+     "x": "U - Undershoot. N - North. O - Overshoot. S - South.",
+     "d": "UNOS describes the northerly turning error of the magnetic compass: when turning to a northerly heading the compass lags and you must undershoot the target heading, and when turning to a southerly heading it leads and you must overshoot. The error is greatest at north and south and is nil at east and west. The Gold Seal guide prints it on page 5 alongside DV MONA.",
+     "reg": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 8, Flight Instruments",
+     "tier": 2,
+     "why": "Short, memorizable and the kind of thing an examiner asks right after naming the compass errors."
+    },
+    {
+     "t": "ANDS",
+     "x": "A - Accelerate. N - North. D - Decelerate. S - South.",
+     "d": "ANDS describes the acceleration error of the magnetic compass on east or west headings: accelerating produces an apparent turn to the north and decelerating produces an apparent turn to the south. Like the turning error it is caused by magnetic dip and it does not occur on north or south headings.",
+     "reg": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 8, Flight Instruments",
+     "tier": 2,
+     "why": "Paired with UNOS in the same breath, and it is the partial-panel follow-up."
+    },
+    {
+     "t": "VOR Equipment Check",
+     "x": "Not an acronym.",
+     "d": "No person may operate an aircraft under IFR using VOR unless the VOR has been operationally checked within the preceding 30 days. Permitted checks and tolerances are a VOT at plus or minus 4 degrees, a repair station signal at plus or minus 4 degrees, a designated ground checkpoint at plus or minus 4 degrees, a designated airborne checkpoint at plus or minus 6 degrees, a dual VOR cross-check at 4 degrees between the two, and an airborne check over a prominent ground landmark on a selected radial at least 20 nautical miles from the VOR at plus or minus 6 degrees. The date, place, bearing error and signature must be recorded.",
+     "reg": "14 CFR Part 91, Subpart B, Section 91.171, VOR equipment check for IFR operations",
+     "tier": 2,
+     "why": "It is the V in AV1ATES, so he will reach it from the inspections mnemonic even on a VFR ride."
+    },
+    {
+     "t": "IFR Fuel Requirements",
+     "x": "Not an acronym.",
+     "d": "No person may operate an aircraft in IFR conditions unless it carries enough fuel to complete the flight to the first airport of intended landing, then fly from that airport to the alternate if one is required, and then fly after that for 45 minutes at normal cruising speed. Under VFR the reserve is 30 minutes by day and 45 minutes at night at normal cruising speed.",
+     "reg": "14 CFR Part 91, Subpart B, Section 91.167, Fuel requirements for flight in IFR conditions; 14 CFR Part 91, Subpart B, Section 91.151, Fuel requirements for flight in VFR conditions",
+     "tier": 2,
+     "why": "Fuel planning is a named focus area even though the IFR half is secondary on this ride."
+    },
+    {
+     "t": "VOR",
+     "x": "V - Very high frequency. O - Omnidirectional. R - Range.",
+     "d": "A VHF omnidirectional range is a ground-based navigation aid transmitting radials outward in all directions, read in the cockpit on a course deviation indicator with an omnibearing selector. VOR signals are line of sight and are unaffected by the aircraft's heading, which is why the indication depends only on position relative to the selected radial. A VORTAC is a colocated VOR and TACAN, and a VOT is a VOR test facility.",
+     "reg": "Aeronautical Information Manual, Paragraph 1-1-3, VHF Omni-directional Range (VOR); 14 CFR Part 91, Subpart B, Section 91.171, VOR equipment check for IFR operations",
+     "tier": 3,
+     "why": "Page 32 vocabulary, usually only touched during the cross-country planning discussion."
+    },
+    {
+     "t": "CDI and OBS",
+     "x": "CDI: C - Course. D - Deviation. I - Indicator. OBS: O - Omnibearing. B - Selector, the omnibearing selector.",
+     "d": "The course deviation indicator is the needle that shows displacement left or right of the selected course, and the omnibearing selector is the knob and card used to select that course. On a VOR each dot of CDI deflection is normally 2 degrees, with full-scale deflection at 10 degrees. On an ILS the CDI is roughly four times as sensitive.",
+     "reg": "Aeronautical Information Manual, Paragraph 1-1-3, VHF Omni-directional Range (VOR)",
+     "tier": 3,
+     "why": "Page 31 and 32 vocabulary, incidental on a VFR commercial ride."
+    },
+    {
+     "t": "RNAV and WAAS",
+     "x": "RNAV: R - aRea. NAV - Navigation. WAAS: W - Wide. A - Area. A - Augmentation. S - System.",
+     "d": "Area navigation permits navigation on any desired path within the coverage of ground or space-based navigation aids, rather than directly to and from stations. The wide area augmentation system corrects GPS signals to allow vertically guided approaches. The alternate planning rule in the Gold Seal guide notes that without WAAS you may plan for RNAV approaches at either the destination or the alternate but not both, and with WAAS you may plan for RNAV at both.",
+     "reg": "14 CFR Part 91, Subpart B, Section 91.169, IFR flight plan: Information required; Aeronautical Information Manual, Paragraph 1-1-17, Global Positioning System (GPS)",
+     "tier": 3,
+     "why": "Page 32 vocabulary with an IFR planning rule attached, which is secondary on this ride."
+    },
+    {
+     "t": "Mandatory IFR Reports",
+     "x": "Not an acronym. Commonly memorized as MARVELOUS VFR C500.",
+     "d": "Reports to ATC without request include leaving a final approach fix inbound, a missed approach, any unforecast weather, any safety-of-flight information, vacating a previously assigned altitude or flight level, reaching a holding fix with time and altitude, leaving an assigned holding fix, an inability to climb or descend at least 500 feet per minute, loss of navigation or communication capability, and a change in average true airspeed at cruise of 5 percent or 10 knots from that filed. When not in radar contact, also report compulsory reporting points and the time and altitude reaching a holding fix or clearance limit.",
+     "reg": "14 CFR Part 91, Subpart B, Section 91.183, IFR communications; Aeronautical Information Manual, Paragraph 5-3-3, Additional Reports",
+     "tier": 3,
+     "why": "On pages 3 of the guide but it belongs to the instrument rating, not a single-engine land commercial ride."
+    },
+    {
+     "t": "HSI and RMI",
+     "x": "HSI: H - Horizontal. S - Situation. I - Indicator. RMI: R - Radio. M - Magnetic. I - Indicator.",
+     "d": "A horizontal situation indicator combines the heading indicator and the course deviation indicator into one display, so course deviation is always shown relative to the airplane's actual heading. A radio magnetic indicator combines a rotating compass card with one or more bearing pointers that always point to the station. Both reduce the mental rotation required for orientation.",
+     "reg": "FAA-H-8083-15, Instrument Flying Handbook, Chapter 5, Flight Instruments",
+     "tier": 4,
+     "why": "Page 31 and 32 vocabulary with no bearing on a VFR single-engine commercial ride."
+    },
+    {
+     "t": "RB, MB and MH",
+     "x": "RB: R - Relative. B - Bearing. MB: M - Magnetic. B - Bearing. MH: M - Magnetic. H - Heading.",
+     "d": "Relative bearing is the angle from the nose of the aircraft clockwise to the station. Magnetic bearing is the angle from magnetic north to the station. Magnetic heading is the direction the nose points relative to magnetic north. The relationship is magnetic heading plus relative bearing equals magnetic bearing, correcting by 360 degrees as needed, which is the classic ADF problem.",
+     "reg": "FAA-H-8083-15, Instrument Flying Handbook, Chapter 9, Navigation Systems",
+     "tier": 4,
+     "why": "Page 31 and 32 vocabulary from an era of ADF navigation, included for completeness."
+    },
+    {
+     "t": "ILS and IAP",
+     "x": "ILS: I - Instrument. L - Landing. S - System. IAP: I - Instrument. A - Approach. P - Procedure.",
+     "d": "An instrument landing system is a precision approach aid providing lateral guidance from a localizer and vertical guidance from a glideslope. An instrument approach procedure is the published series of predetermined maneuvers for the orderly transfer of an aircraft under instrument conditions from the beginning of the initial approach to a landing or to a point from which a visual landing may be made. The availability of at least one instrument approach is the first test in the Section 91.169 alternate decision.",
+     "reg": "14 CFR Part 91, Subpart B, Section 91.169, IFR flight plan: Information required; 14 CFR Part 97, Standard Instrument Procedures",
+     "tier": 4,
+     "why": "Page 31 vocabulary that belongs to the instrument rating, not to this ride."
+    },
+    {
+     "t": "TACAN, VORTAC and VOT",
+     "x": "TACAN: T - Tactical. A - Air. N - Navigation. VORTAC is a colocated VOR and TACAN. VOT: V - VOR. O and T - test facility.",
+     "d": "TACAN is the military ultra high frequency navigation system that provides bearing and distance, and a VORTAC is a facility where a civilian VOR and a military TACAN are colocated so that civil aircraft obtain VOR azimuth and DME distance from the TACAN component. A VOT is a VOR test facility that transmits a signal allowing a ground check of the VOR receiver with a tolerance of plus or minus 4 degrees.",
+     "reg": "Aeronautical Information Manual, Paragraph 1-1-5, Tactical Air Navigation (TACAN); 14 CFR Part 91, Subpart B, Section 91.171, VOR equipment check for IFR operations",
+     "tier": 4,
+     "why": "Page 32 vocabulary, reachable only through the VOR check item."
+    }
+   ]
+  },
+  {
+   "g": "General Abbreviations from the Guide's Terms and Definitions List",
+   "items": [
+    {
+     "t": "AGL and MSL",
+     "x": "AGL: A - Above. G - Ground. L - Level. MSL: M - Mean. S - Sea. L - Level.",
+     "d": "Above ground level is height measured from the terrain directly beneath the aircraft, and mean sea level is altitude measured from the average level of the sea. Airspace floors and ceilings, cloud clearances, and the commercial maneuver minimum of 1,500 feet AGL mix the two, so you must be precise about which is meant. Charted airport and obstacle elevations are MSL; obstacle heights in parentheses are AGL.",
+     "reg": "14 CFR Part 91, Subpart B, Section 91.119, Minimum safe altitudes: General; 14 CFR Part 91, Subpart B, Section 91.155, Basic VFR weather minimums",
+     "tier": 2,
+     "why": "On the page 31 list and mixing them up is the single most common applicant error."
+    },
+    {
+     "t": "AC",
+     "x": "A - Advisory. C - Circular.",
+     "d": "An advisory circular is FAA guidance material that explains an acceptable means, but not the only means, of complying with a regulation. Advisory circulars are not regulatory unless incorporated by reference into a rule. AC 120-12A on common versus private carriage and AC 61-142 on expense sharing are the two most relevant to commercial privileges.",
+     "reg": "Advisory Circular 00-2, Advisory Circular Checklist",
+     "tier": 2,
+     "why": "He will ask whether an advisory circular is binding, which is the standard trap."
+    },
+    {
+     "t": "AIM",
+     "x": "A - Aeronautical. I - Information. M - Manual.",
+     "d": "The Aeronautical Information Manual is the FAA's official guide to basic flight information and air traffic control procedures. It is not regulatory, but it describes the procedures pilots are expected to follow and it is the source for light gun signals, illusions, wake turbulence and weather advisory definitions. Several Gold Seal guide boxes cite AIM paragraphs rather than regulations, which is the right distinction to draw.",
+     "reg": "Aeronautical Information Manual",
+     "tier": 2,
+     "why": "He may ask whether a procedure you cite is regulatory or AIM guidance."
+    },
+    {
+     "t": "PHAK, AFH, IFH and ACL",
+     "x": "PHAK: P - Pilot's. H - Handbook of. A - Aeronautical. K - Knowledge. AFH: A - Airplane. F - Flying. H - Handbook. IFH: I - Instrument. F - Flying. H - Handbook. ACL: A - Aeronautical. C - Chart. L - Legend.",
+     "d": "These are the FAA handbooks and references the ACS lists as source material. The Pilot's Handbook of Aeronautical Knowledge is FAA-H-8083-25, the Airplane Flying Handbook is FAA-H-8083-3 and the Instrument Flying Handbook is FAA-H-8083-15. The aeronautical chart legend, now the Chart User's Guide, explains sectional symbology. Knowing which book answers which question is a credible way to handle an item you do not know.",
+     "reg": "FAA-S-ACS-7, Commercial Pilot for Airplane Category Airman Certification Standards, References",
+     "tier": 2,
+     "why": "Naming the right source when you are unsure is a technique that keeps an oral moving."
+    },
+    {
+     "t": "A/FD",
+     "x": "A - Airport. F - Facility. D - Directory. The guide prints Airport/Facility Director, which is a typographical error.",
+     "d": "The Airport Facility Directory was the regional booklet of airport data, communications frequencies, services and special notices. Two corrections to the Gold Seal guide entry: the final word is Directory, not Director, and the publication has been renamed the Chart Supplement, which is what you will actually be asked to produce for the cross-country planning portion.",
+     "reg": "Aeronautical Information Manual, Paragraph 9-1-4, General Description of each Chart Series; 14 CFR Part 91, Subpart B, Section 91.103, Preflight action",
+     "tier": 2,
+     "why": "He will ask for the Chart Supplement by its current name during the planning discussion, and the guide's entry is wrong twice over."
+    },
+    {
+     "t": "ATC",
+     "x": "A - Air. T - Traffic. C - Control.",
+     "d": "Air traffic control is the service operated to promote the safe, orderly and expeditious flow of air traffic. Under Part 91 the pilot in command remains the final authority and may deviate from an ATC clearance in an emergency, with a written report on request if a deviation from a rule was involved.",
+     "reg": "14 CFR Part 91, Subpart A, Section 91.3, Responsibility and authority of the pilot in command; 14 CFR Part 91, Subpart B, Section 91.123, Compliance with ATC clearances and instructions",
+     "tier": 2,
+     "why": "Page 31 vocabulary, but the authority-versus-clearance question behind it is commonly asked."
+    },
+    {
+     "t": "NTSB",
+     "x": "N - National. T - Transportation. S - Safety. B - Board.",
+     "d": "The National Transportation Safety Board investigates civil aviation accidents and is the body to which accidents and certain incidents must be reported under 49 CFR Part 830. Immediate notification is required for an accident and for listed serious incidents such as flight control system malfunction, in-flight fire, or complete loss of electrical power or inability of a required flight crewmember to perform duties. A report must be filed within 10 days of an accident.",
+     "reg": "49 CFR Part 830, Notification and Reporting of Aircraft Accidents or Incidents and Overdue Aircraft, and Preservation of Aircraft Wreckage, Mail, Cargo, and Records",
+     "tier": 2,
+     "why": "Listed on page 31, and the immediate-notification list includes an electrical failure item that sits in his focus area."
+    },
+    {
+     "t": "UTC",
+     "x": "U - Universal. T - Time. C - Coordinated. Written as Coordinated Universal Time and spoken as Zulu.",
+     "d": "Coordinated Universal Time is the time standard used for all aviation weather reports, forecasts, flight plans and NOTAMs, so that no conversion errors occur across time zones. METARs and TAFs carry it with a trailing Z. You must be able to convert local time to Zulu both ways without hesitation.",
+     "reg": "Aeronautical Information Manual, Paragraph 7-1-29, Key to Aviation Routine Weather Report (METAR) and Aerodrome Forecasts (TAF)",
+     "tier": 2,
+     "why": "He will hand over a METAR and ask what time it was issued in local terms."
+    },
+    {
+     "t": "VFR and IFR",
+     "x": "VFR: V - Visual. F - Flight. R - Rules. IFR: I - Instrument. F - Flight. R - Rules.",
+     "d": "Visual flight rules govern flight conducted by outside visual reference, subject to the Section 91.155 visibility and cloud clearance minimums. Instrument flight rules govern flight conducted by reference to instruments under an ATC clearance. An instrument rating is required to act as pilot in command under IFR, in Class A airspace, for Special VFR at night, and for carrying passengers for compensation or hire on cross-countries over 50 nautical miles or at night.",
+     "reg": "14 CFR Part 91, Subpart B, Section 91.155, Basic VFR weather minimums; 14 CFR Part 61, Subpart A, Section 61.3, Requirement for certificates, ratings, and authorizations; 14 CFR Part 61, Subpart F, Section 61.133, Commercial pilot privileges and limitations",
+     "tier": 2,
+     "why": "Page 31 and 32 vocabulary, but the list of when an instrument rating is required is a real commercial question."
+    },
+    {
+     "t": "FAA and FAR",
+     "x": "FAA: F - Federal. A - Aviation. A - Administration. FAR: F - Federal. A - Aviation. R - Regulation.",
+     "d": "The Federal Aviation Administration is the agency that regulates civil aviation in the United States. The regulations are properly cited as Title 14 of the Code of Federal Regulations, 14 CFR, and the older label FAR is ambiguous because it also denotes the Federal Acquisition Regulation. Cite part, subpart and section by number and title on the oral.",
+     "reg": "Title 14, Code of Federal Regulations, Aeronautics and Space",
+     "tier": 3,
+     "why": "On the page 31 list; good practice for citing cleanly, but not a question in itself."
+    },
+    {
+     "t": "FSS and FSDO",
+     "x": "FSS: F - Flight. S - Service. S - Station. FSDO: F - Flight. S - Standards. D - District. O - Office.",
+     "d": "A flight service station provides preflight briefings, flight plan filing, en route advisories and search and rescue initiation. A Flight Standards District Office is the local FAA field office responsible for certification, surveillance and enforcement, and it is where you go for a special flight permit or a certificate replacement. They are easy to confuse and serve entirely different functions.",
+     "reg": "Aeronautical Information Manual, Paragraph 4-1-3, Flight Service Stations; 14 CFR Part 21, Subpart H, Section 21.197, Special flight permits",
+     "tier": 3,
+     "why": "Page 31 vocabulary, reached mainly through the special flight permit answer."
+    },
+    {
+     "t": "ETE",
+     "x": "E - Estimated. T - Time. E - En route.",
+     "d": "Estimated time en route is the planned flight time between departure and destination, computed from groundspeed and distance, and it is a required element of a flight plan. It feeds directly into the fuel reserve calculation and into the Section 91.169 alternate window of 1 hour before to 1 hour after the estimated time of arrival.",
+     "reg": "14 CFR Part 91, Subpart B, Section 91.153, VFR flight plan: Information required; 14 CFR Part 91, Subpart B, Section 91.169, IFR flight plan: Information required",
+     "tier": 3,
+     "why": "Page 31 vocabulary, used in passing during the cross-country planning."
+    },
+    {
+     "t": "FL Comp",
+     "x": "FL - Flight. Comp - Computer.",
+     "d": "The flight computer is the mechanical E6B or electronic equivalent used to compute wind correction angle, groundspeed, time, fuel burn, density altitude and true airspeed. An examiner may hand you one and ask you to solve a wind triangle or a density altitude problem without an application.",
+     "reg": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 16, Navigation",
+     "tier": 3,
+     "why": "Page 31 vocabulary, but he may insist on a manual computation during the planning portion."
+    },
+    {
+     "t": "SFC, SL and ST",
+     "x": "SFC: Surface. SL: S - Sea. L - Level. ST: S - Standard. T - Temperature.",
+     "d": "Surface denotes ground level, used for airspace floors described as surface to a stated altitude and for the surface visibility remark in a METAR. Sea level is the reference datum for MSL altitudes and for standard pressure. Standard temperature is 15 degrees Celsius at sea level, decreasing approximately 2 degrees Celsius per 1,000 feet, and it is the baseline against which density altitude is computed.",
+     "reg": "FAA-H-8083-25, Pilot's Handbook of Aeronautical Knowledge, Chapter 11, Aircraft Performance",
+     "tier": 3,
+     "why": "Page 31 and 32 vocabulary; the standard temperature value itself does get asked."
+    },
+    {
+     "t": "VHF",
+     "x": "V - Very. H - High. F - Frequency.",
+     "d": "The very high frequency band, from 30 to 300 megahertz, carries aviation voice communications from 118.000 to 136.975 megahertz and VOR navigation from 108.00 to 117.95 megahertz. VHF is line of sight, so reception range increases with altitude, which is the practical point behind a radio failure at low altitude.",
+     "reg": "Aeronautical Information Manual, Paragraph 4-2-1, General, Radio Communications Phraseology and Techniques",
+     "tier": 3,
+     "why": "Page 32 vocabulary, reached only through a communications failure scenario."
+    },
+    {
+     "t": "FBO",
+     "x": "F - Fixed. B - Base. O - Operator. The guide prints Fixed-Based Operator.",
+     "d": "A fixed base operator is a business at an airport providing fuel, maintenance, hangarage, flight training or charter. The usual spelling is fixed base operator rather than the guide's fixed-based operator. For a commercial pilot the FBO is often the employer, which makes the carriage and operational control questions practical rather than theoretical.",
+     "reg": "",
+     "tier": 4,
+     "why": "Page 31 vocabulary with no question attached."
+    },
+    {
+     "t": "DUATS",
+     "x": "D - Direct. U - User. A - Access. T - Terminal. S - Service. The guide omits the final S.",
+     "d": "The Direct User Access Terminal Service was a government-funded online weather briefing and flight plan filing system. It was discontinued in 2018 and replaced by commercial providers and by the FAA's own online briefing service. The Gold Seal guide lists it on page 31 as Direct User Access Terminal, missing the Service, and does not note that it no longer exists.",
+     "reg": "Aeronautical Information Manual, Paragraph 7-1-2, FAA Weather Services",
+     "tier": 4,
+     "why": "A retired service on the page 31 list, included only for completeness."
+    },
+    {
+     "t": "AAF and AFB",
+     "x": "AAF: A - Army. A - Air. F - Field. AFB: A - Air. F - Force. B - Base.",
+     "d": "Army airfield and air force base are military airport designations appearing in airport names and on charts. They matter chiefly because military fields carry their own operating requirements and prior permission rules, which are published in the Chart Supplement.",
+     "reg": "Aeronautical Information Manual, Paragraph 4-1-5, Pilot Visits to Air Traffic Facilities",
+     "tier": 4,
+     "why": "Pure page 31 chart vocabulary with no question behind it."
+    }
+   ]
+  }
+ ]
+}

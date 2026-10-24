@@ -1,0 +1,794 @@
+[
+{
+"page": 11,
+"concept": "Ignition system - purpose and makeup on the candidate's engine",
+"s": "Aircraft Systems",
+"q": "What is the job of the ignition system on your Warrior's Lycoming O-320?",
+"a": "It delivers a timed, high-voltage spark to each cylinder to ignite the compressed fuel-air mixture. The O-320 carries two engine-driven magnetos, two spark plugs per cylinder for a total of <b>eight plugs</b>, two ignition harnesses, and a key switch reading OFF, R, L, BOTH and START. The magnetos are gear driven off the accessory case, so ignition is entirely independent of the battery and alternator, and dual ignition gives redundancy plus a faster, more complete burn.",
+"dup": "Why does a piston airplane engine have two magnetos?"
+},
+{
+"page": 11,
+"concept": "Detonation - definition",
+"s": "Aircraft Systems",
+"q": "What is detonation?",
+"a": "Detonation is an <b>uncontrolled, explosive ignition</b> of the fuel-air mixture within the cylinder's combustion chamber. Rather than burning smoothly outward from the spark plug, the charge explodes all at once and hammers the piston and cylinder head with a sudden pressure spike. The pilot sees roughness, a loss of power and very high cylinder head temperatures; left alone it cracks pistons, burns valves and destroys rings in short order.",
+"dup": "What is detonation, what causes it and how do you cure it?"
+},
+{
+"page": 11,
+"concept": "Detonation cause - fuel grade lower than recommended",
+"s": "Aircraft Systems",
+"q": "How can the wrong fuel grade cause detonation in your O-320?",
+"a": "A fuel of lower grade than recommended has less resistance to detonation, so it explodes under pressures the engine makes every day. Octane rating is simply a measure of that resistance. The Lycoming O-320 in the 1981 Warrior II is placarded for <b>100LL</b>, or the grade listed in the POH and at the filler cap, and nothing lower is acceptable. Check the placard and confirm the grade and color on the fuel truck before you accept a load.",
+"dup": "What happens if the wrong fuel grade is used?"
+},
+{
+"page": 11,
+"concept": "Detonation cause - extremely high manifold pressure with low RPM",
+"s": "Aircraft Systems",
+"q": "Why does high manifold pressure combined with low RPM cause detonation?",
+"a": "Operating with <b>extremely high manifold pressure in conjunction with low RPM</b> loads the cylinders heavily while the charge sits in the chamber a long time, so pressure and temperature climb past the fuel's detonation limit. On a constant-speed airplane that is the oversquare trap of pulling the propeller control back before the throttle. Your Warrior has a fixed-pitch propeller, so RPM follows the throttle and you cannot set that combination.",
+"dup": "What is detonation, what causes it and how do you cure it?"
+},
+{
+"page": 11,
+"concept": "Detonation cause - high power settings with an excessively lean mixture",
+"s": "Aircraft Systems",
+"q": "How does leaning the mixture cause detonation?",
+"a": "Operating the engine at <b>high power settings with an excessively lean mixture</b> causes detonation, because a lean charge burns hotter and drives cylinder head temperatures up until the remaining mixture self-ignites. That is why the mixture goes full rich for takeoff and climb in the Warrior, except where the POH permits leaning for a high-density-altitude departure, and why you lean only in cruise at reduced power. Enrich at the first sign of roughness or rising temperature.",
+"dup": "What happens if the mixture is far too rich or far too lean?"
+},
+{
+"page": 11,
+"concept": "Detonation - the four causes stated together and the cockpit cure",
+"s": "Aircraft Systems",
+"q": "Give me the four causes of detonation and the cure.",
+"a": "A fuel grade lower than recommended; extremely high manifold pressure in conjunction with low RPM; high power settings with an excessively lean mixture; and inadequate engine cooling, such as a prolonged full-power climb at too low an airspeed. The cure in every case is the same: <b>enrich the mixture, reduce power and lower the nose to increase cooling airflow</b>, then open cowl flaps on an airplane that has them and land to have the engine inspected.",
+"dup": "What is detonation, what causes it and how do you cure it?"
+},
+{
+"page": 11,
+"concept": "Preignition - definition",
+"s": "Aircraft Systems",
+"q": "What is preignition?",
+"a": "Preignition occurs when the fuel-air mixture ignites <b>prior to the engine's normal ignition event</b>, that is, before the spark plug is meant to fire. The charge is already burning and expanding while the piston is still rising on the compression stroke, so the engine is working against itself. It costs power immediately and sends cylinder head and oil temperatures up fast.",
+"dup": "What is pre-ignition, and how does it differ from detonation?"
+},
+{
+"page": 11,
+"concept": "Preignition - usual cause is a residual hot spot in the combustion chamber",
+"s": "Aircraft Systems",
+"q": "What causes preignition?",
+"a": "It is usually caused by a <b>residual hot spot in the combustion chamber</b> acting like a glow plug: a glowing carbon deposit, a cracked or overheated spark plug electrode, a damaged or sticking valve, or a fragment of ceramic left behind by earlier detonation. Anything hot enough to light the charge on its own will do it, which is why detonation and preignition so often appear together and feed one another.",
+"dup": "What is pre-ignition, and how does it differ from detonation?"
+},
+{
+"page": 11,
+"concept": "Preignition - effects on the engine",
+"s": "Aircraft Systems",
+"q": "What are the effects of preignition, and how do you handle it in flight?",
+"a": "Preignition causes the engine to <b>lose power and produce high operating temperatures</b>. In your fixed-pitch Warrior you would see an unexplained RPM drop, roughness, and rising cylinder head and oil temperatures. Treat it as an emergency, because sustained preignition will burn a hole through a piston crown in minutes: enrich the mixture, reduce power, lower the nose for cooling airflow, and land at the nearest suitable airport.",
+"dup": "How do you recognize and respond to pre-ignition in flight?"
+},
+{
+"page": 11,
+"concept": "Preignition compared with detonation",
+"s": "Aircraft Systems",
+"q": "What is the difference between detonation and preignition?",
+"a": "The difference is <b>timing</b>. Detonation is the charge exploding after the spark plug has fired, instead of burning smoothly away from it; preignition is the charge being lit before the spark plug fires at all, by a hot spot in the chamber. Both produce power loss, roughness and very high temperatures, and each causes the other, since detonation leaves hot spots and preignition raises pressures and temperatures. The cockpit response is identical for both.",
+"dup": "What is pre-ignition, and how does it differ from detonation?"
+},
+{
+"page": 11,
+"concept": "Spark plug fouling - low operating temperatures coupled with a rich mixture",
+"s": "Aircraft Systems",
+"q": "What causes spark plug fouling?",
+"a": "Fouling occurs when <b>low engine operating temperatures are coupled with running a rich mixture</b>, leaving unburned fuel, carbon and lead deposits bridging the electrodes so the plug can no longer spark. Long low-power taxi, extended idling, and idle descents on a cool day are the classic setup, and the lead in 100LL makes it worse. In the Warrior the first sign is usually a rough or excessive drop on one magneto at runup.",
+"dup": ""
+},
+{
+"page": 11,
+"concept": "Spark plug fouling - clearing a fouled plug at runup",
+"s": "Aircraft Systems",
+"q": "You get a rough magneto and an excessive drop at runup. What do you do?",
+"a": "Suspect a fouled plug and try to burn it clear: hold about <b>2,000 RPM</b>, lean the mixture until the engine runs just short of rough for roughly thirty seconds to a minute, then enrich and recheck the magnetos. The higher temperature and leaner charge burn the lead deposit off the electrodes. Typical Warrior limits are a drop of no more than 175 RPM on either magneto and no more than 50 RPM difference between them; confirm in the POH. If it will not clear, do not fly.",
+"dup": "What does an excessive magneto drop mean, and what does no drop at all mean?"
+},
+{
+"page": 11,
+"concept": "Leaning before taxiing prevents spark plug fouling",
+"s": "Aircraft Systems",
+"q": "Why do you lean the mixture for taxi?",
+"a": "Leaning before taxiing <b>prevents the spark plugs from fouling</b>, because at idle and taxi power the mixture is very rich and the engine runs cool, which is exactly the combination that leaves lead and carbon on the electrodes. Lean aggressively on the ground in the Warrior, to the point where the engine would quit if you opened the throttle. Remember to return the mixture to full rich before the runup and takeoff unless the POH allows otherwise.",
+"dup": ""
+},
+{
+"page": 11,
+"concept": "Fuel-air mixture - definition as a ratio of weights",
+"s": "Aircraft Systems",
+"q": "What exactly is the fuel-air mixture?",
+"a": "It is the ratio of the <b>weight of fuel to the weight of air</b> in the charge to be burned, not a ratio of volumes. A chemically correct or stoichiometric mixture is about one part fuel to fifteen parts air by weight. The mixture control meters fuel only and does nothing to the air, so as you climb and air density falls, the same fuel flow produces a progressively richer mixture, which is why leaning is a continuous job in the climb.",
+"dup": "Why must the mixture be leaned as you climb?"
+},
+{
+"page": 11,
+"concept": "Leaning at cruise altitude promotes optimal engine performance",
+"s": "Aircraft Systems",
+"q": "Why do you lean the mixture in cruise, and how do you do it in your Warrior?",
+"a": "Leaning the mixture at cruise altitude <b>promotes optimal engine performance</b>, restoring the correct fuel-to-air ratio as density falls so the engine makes smooth power, runs at proper temperatures, keeps the plugs clean and burns no more fuel than it needs. In the carbureted Warrior, with the POH typically allowing leaning at or below 75 percent power, pull the mixture back until RPM peaks and then just begins to fall or the engine roughens, and enrich slightly from there.",
+"dup": "What is the difference between best power and best economy leaning?"
+},
+{
+"page": 11,
+"concept": "Carbureted induction rather than fuel injection on the PA-28-161",
+"s": "Aircraft Systems",
+"q": "Is your Warrior carbureted or fuel injected, and what difference does that make?",
+"a": "The 1981 PA-28-161 Warrior II has a <b>carbureted</b> Lycoming O-320, with one float-type carburetor mounted below the engine feeding all four cylinders through a common intake manifold. Against fuel injection it is simpler, cheaper and has no hot-start difficulty, but it gives less even fuel distribution between cylinders, less precise leaning, and above all it is vulnerable to carburetor ice, which an injected engine is not.",
+"dup": "What is the difference between a carburettor and fuel injection?"
+},
+{
+"page": 11,
+"concept": "Carburetor ice - formation and cure on the candidate's airplane",
+"s": "Aircraft Systems",
+"q": "How does carburetor ice form in your Warrior, and what do you do about it?",
+"a": "Fuel vaporization and the pressure drop through the venturi can cool the induction air by as much as <b>70 degrees Fahrenheit</b>, so ice forms in the carburetor at outside air temperatures roughly between 20 and 70 degrees Fahrenheit with visible moisture or high humidity, and it is most likely at low power settings. With a fixed-pitch propeller the symptom is a gradual, unexplained loss of RPM and roughness. Apply full carburetor heat and expect a further drop and roughness before it clears.",
+"dup": "How does carburettor ice form, and in what conditions?"
+},
+{
+"page": 11,
+"concept": "Carburetor heat - what it does beyond melting ice, and its cost",
+"s": "Aircraft Systems",
+"q": "What else does carburetor heat do, and what does it cost you?",
+"a": "Carburetor heat routes induction air through a shroud around the exhaust muffler and bypasses the air filter, so it doubles as your <b>alternate air source</b> if the filter ices over or blocks. The cost is unfiltered air, which is why you avoid it on the ground, and a richer mixture, because hot air is less dense; expect to lose on the order of 100 RPM. Use it full on or full off, and select it before reducing power for descent rather than after ice has already formed.",
+"dup": "What does carburettor heat do besides melting ice?"
+},
+{
+"page": 11,
+"concept": "Piper fuel selector - LEFT and RIGHT tanks with no BOTH position",
+"s": "Aircraft Systems",
+"q": "Describe the fuel selector in your Warrior and how you manage it.",
+"a": "The PA-28-161 has a three-position selector on the left sidewall below the throttle quadrant reading LEFT, RIGHT and OFF; there is <b>no BOTH position</b>, unlike a high-wing Cessna, because this is a low-wing airplane with separate wing tanks. You must switch tanks manually, typically about every thirty minutes or per your checklist, to keep the fuel load laterally balanced, and you select the fuller tank for takeoff and landing. Capacity is 25 gallons a side, 24 usable; confirm in the POH.",
+"dup": "What fuel selector limitations do typical light airplanes carry?"
+},
+{
+"page": 11,
+"concept": "Fixed-pitch propeller - blade angle built into the blade itself",
+"s": "Aircraft Systems",
+"q": "What is a fixed-pitch propeller?",
+"a": "A fixed-pitch propeller is one whose <b>blade angle is built into the blade itself</b> when it is manufactured. It is a single piece of metal or wood with no moving parts, no governor, and no oil supply to the hub. Your Warrior has one, so you have a single power lever, the throttle, and the tachometer shows both engine speed and, with the manifold absent, your measure of power; propeller and crankshaft turn at the same speed on this direct-drive engine.",
+"dup": "What is the difference between a fixed pitch and a constant speed propeller?"
+},
+{
+"page": 11,
+"concept": "Fixed-pitch propeller - once built, the angle cannot be changed",
+"s": "Aircraft Systems",
+"q": "Can the blade angle of a fixed-pitch propeller be changed, and what does that mean for you?",
+"a": "No. Once the propeller has been built, the <b>angle cannot be changed</b>, so the designer must compromise. A climb propeller uses a lower pitch and gives better takeoff and climb performance at the cost of cruise speed; a cruise propeller uses a higher pitch and gives better cruise at the cost of climb. Either way the propeller is truly efficient at only one combination of airspeed and RPM, and your Warrior's propeller is a compromise between the two.",
+"dup": "What is the difference between a climb propeller and a cruise propeller?"
+},
+{
+"page": 11,
+"concept": "Constant-speed propeller - controllable pitch varied in flight by a governor",
+"s": "Aircraft Systems",
+"q": "What is a constant-speed propeller?",
+"a": "It is a <b>controllable-pitch propeller whose pitch is automatically varied in flight by a governor</b> to maintain the RPM the pilot has selected. The governor uses engine oil, boosted by its own pump, acting on a piston in the propeller hub against a spring or counterweights to twist the blades. Your Warrior does not have one, since it is fixed pitch, but a commercial applicant must be able to explain the system in full.",
+"dup": "What is the difference between a fixed pitch and a constant speed propeller?"
+},
+{
+"page": 11,
+"concept": "Constant-speed propeller - two controls, throttle and propeller control",
+"s": "Aircraft Systems",
+"q": "What controls does a constant-speed propeller installation give the pilot?",
+"a": "Two power controls rather than one: the <b>throttle and the propeller control</b>. The throttle sets manifold pressure, read on the manifold pressure gauge, and the propeller control selects RPM, read on the tachometer; with the mixture that makes three levers. Manifold pressure measures the power being produced and RPM measures how fast the engine turns. Your fixed-pitch Warrior has only throttle and mixture, and the tachometer alone tells you the power setting.",
+"dup": "In what order do you move throttle and propeller controls?"
+},
+{
+"page": 11,
+"concept": "Constant-speed propeller - governor adjusts the blade once an RPM is selected",
+"s": "Aircraft Systems",
+"q": "Once you select an RPM on a constant-speed propeller, what does the system do?",
+"a": "A <b>governor automatically adjusts the propeller blade angle</b> to hold that RPM. If the engine tries to overspeed the governor increases blade angle so the propeller takes a bigger bite and loads the engine down; if the engine slows, the governor decreases blade angle to unload it. RPM therefore stays constant across a range of airspeeds and power settings, keeping the blade at an efficient angle of attack. Reduce power throttle then propeller, and add power propeller then throttle.",
+"dup": "How does a constant speed propeller governor work?"
+},
+{
+"page": 11,
+"concept": "Magneto - definition as a permanent-magnet AC generator",
+"s": "Aircraft Systems",
+"q": "What is a magneto?",
+"a": "A magneto is an <b>electrical generator that uses permanent magnets to produce periodic pulses of alternating current</b>. A rotating magnet induces current in a primary coil; when the breaker points open, the collapsing magnetic field induces a very high voltage in the secondary coil, and the distributor sends that pulse to the correct spark plug in firing order. Your O-320 has two, each firing one plug in every cylinder through its own harness.",
+"dup": "What is a magneto and how does it make a spark?"
+},
+{
+"page": 11,
+"concept": "Magneto generates current independent of the aircraft electrical system",
+"s": "Aircraft Systems",
+"q": "Why does the engine keep running after a total electrical failure?",
+"a": "Because a magneto generates an electrical current <b>completely independent of the aircraft's electrical system</b>. It makes its own spark from a rotating permanent magnet and needs no battery, alternator or bus voltage at all. That is deliberate: losing the electrical system costs you radios, lights, flaps and most gauges, but it does not stop the engine. It is also why the only way to silence a magneto is to ground its primary circuit through the ignition switch.",
+"dup": "Why does a magneto keep the engine running with the master switch off?"
+},
+{
+"page": 11,
+"concept": "Magneto operates whenever the crankshaft is rotating",
+"s": "Aircraft Systems",
+"q": "When is a magneto capable of producing a spark?",
+"a": "Whenever the <b>crankshaft is rotating</b>, because the magneto is gear driven from the accessory case and turns with the engine. It makes no difference whether the engine is running under power, windmilling after a failure, being turned by the starter, or being pulled through by hand on the ramp. The ignition switch does not switch a magneto on; it can only switch it off, by grounding the primary circuit through the P-lead.",
+"dup": "Why does a magneto keep the engine running with the master switch off?"
+},
+{
+"page": 11,
+"concept": "Hot magneto hazard - broken or disconnected ground wire with the switch OFF",
+"s": "Aircraft Systems",
+"q": "Why must you treat every propeller as live, even with the key off?",
+"a": "Because even with the ignition switch in the <b>OFF</b> position, if the ground wire between the magneto and the ignition switch becomes disconnected or broken, that magneto is still live, and the engine could accidentally start if the propeller is moved with residual fuel in the lines. Never stand in the propeller arc, never use the blade as a handhold, keep passengers clear, and if you must move a propeller, move it as though the engine will fire.",
+"dup": ""
+},
+{
+"page": 11,
+"concept": "Checking for a hot magneto and what to do if you find one",
+"s": "Aircraft Systems",
+"q": "How do you check for a hot magneto, and what do you do if you find one?",
+"a": "At shutdown, with the engine at idle, momentarily turn the key to <b>OFF</b> and listen for the firing to stop, then return it to BOTH before the engine quits, and shut down with the mixture to idle cutoff. If the engine keeps running smoothly with the key off, a P-lead is broken. Shut down with the mixture, leave the key off and the master off, placard the airplane inoperative, tell maintenance, and warn anyone near the propeller that it is live.",
+"dup": "How do you carry out a magneto check and what are the limits?"
+},
+{
+"page": 12,
+"concept": "Light gun signals - governing regulation 91.125",
+"s": "National Airspace System",
+"q": "What regulation governs light gun signals, and when would a tower use them?",
+"a": "Title 14 CFR Part 91, Subpart B, Flight Rules, section <b>91.125, ATC light signals</b>. In plain English it sets out what each colored light a tower aims at you means when radio communication is not possible, whether your radio has failed, your airplane has none installed, or the tower's equipment is out. The table covers three columns: aircraft in flight, aircraft on the ground, and vehicles, equipment and personnel on the movement area.",
+"dup": "You lose the radio inbound to a towered field. What do the light gun signals mean in flight?"
+},
+{
+"page": 12,
+"concept": "Steady green - aircraft on the ground",
+"s": "National Airspace System",
+"q": "You are holding short with a failed radio and the tower shines a steady green at you. What does it mean?",
+"a": "To an aircraft on the ground, a steady green light means <b>cleared for takeoff</b>. Complete your pretakeoff checks, clear the final approach course and the runway visually yourself, then taxi into position and depart. Acknowledge the signal by rocking your wings in daylight or flashing your landing light at night. This is under 14 CFR Part 91, Subpart B, Flight Rules, section 91.125, ATC light signals.",
+"dup": "What do the tower light gun signals mean to an aircraft on the ground?"
+},
+{
+"page": 12,
+"concept": "Steady green - aircraft in flight",
+"s": "National Airspace System",
+"q": "What does a steady green light mean to an aircraft in flight?",
+"a": "It means <b>cleared to land</b>. You still have to fly a safe approach and clear the runway yourself, since the tower cannot talk to you about traffic or spacing, but the clearance to land is granted. Acknowledge by rocking your wings in daylight or flashing your landing light at night, and expect to receive further signals on the ground. Reference: 14 CFR Part 91, Subpart B, Flight Rules, section 91.125, ATC light signals.",
+"dup": "You lose the radio inbound to a towered field. What do the light gun signals mean in flight?"
+},
+{
+"page": 12,
+"concept": "Steady green - vehicles, equipment and ground personnel",
+"s": "National Airspace System",
+"q": "What does a steady green light mean to a vehicle or ground personnel on the movement area?",
+"a": "It means <b>cleared to cross, proceed or go</b>. The vehicle or person may cross the runway or taxiway or continue along the route they were waiting on. The signal parallels the takeoff clearance given to an aircraft, which is why a pilot should know the ground columns as well: if you see a vehicle receive a steady green while you are holding, expect it to move onto the surface ahead of you. See 14 CFR Part 91, Subpart B, section 91.125.",
+"dup": ""
+},
+{
+"page": 12,
+"concept": "Flashing green - aircraft on the ground",
+"s": "National Airspace System",
+"q": "What does a flashing green light mean to an aircraft on the ground?",
+"a": "It means <b>cleared to taxi</b>. You may begin taxiing, but you remain responsible for your own separation from other aircraft and vehicles and for staying clear of the active runway, because the tower cannot issue you taxi instructions or hold short instructions by light. Acknowledge the signal and watch for further lights as you proceed. Governed by 14 CFR Part 91, Subpart B, Flight Rules, section 91.125, ATC light signals.",
+"dup": "What do the tower light gun signals mean to an aircraft on the ground?"
+},
+{
+"page": 12,
+"concept": "Flashing green - aircraft in flight",
+"s": "National Airspace System",
+"q": "What does a flashing green light mean to an aircraft in flight?",
+"a": "It means <b>return for landing</b>, and it is to be followed by a steady green at the proper time. It is not a landing clearance by itself; it tells you to come back around and set yourself up for the approach, and the tower will give you a steady green when they are ready for you to land. Keep circling the pattern and watch for the next signal. Reference: 14 CFR Part 91, Subpart B, section 91.125, ATC light signals.",
+"dup": "You lose the radio inbound to a towered field. What do the light gun signals mean in flight?"
+},
+{
+"page": 12,
+"concept": "Flashing green - vehicles, equipment and ground personnel (not applicable)",
+"s": "National Airspace System",
+"q": "What does a flashing green light mean to a vehicle or ground personnel?",
+"a": "Nothing; the cell is <b>not applicable</b>. Flashing green is a signal aimed at aircraft only, meaning cleared to taxi on the ground or return for landing in the air, so the light gun table assigns it no meaning for vehicles, equipment or personnel on the movement area. A driver who sees it should not move and should await a signal that does apply. Per 14 CFR Part 91, Subpart B, Flight Rules, section 91.125, ATC light signals.",
+"dup": ""
+},
+{
+"page": 12,
+"concept": "Steady red - aircraft on the ground",
+"s": "National Airspace System",
+"q": "What does a steady red light mean to an aircraft on the ground?",
+"a": "It means <b>stop</b>. Bring the airplane to a halt where you are and hold until you receive another signal; do not continue taxiing and do not enter a runway. It is the direct counterpart of a hold short or a cancelled clearance given by radio, and it needs no interpretation. From 14 CFR Part 91, Subpart B, Flight Rules, section 91.125, ATC light signals.",
+"dup": "What do the tower light gun signals mean to an aircraft on the ground?"
+},
+{
+"page": 12,
+"concept": "Steady red - aircraft in flight",
+"s": "National Airspace System",
+"q": "What does a steady red light mean to an aircraft in flight?",
+"a": "It means <b>give way to other aircraft and continue circling</b>. You are not cleared to land; keep flying the pattern, look for the traffic the tower is sequencing ahead of you, and wait for a flashing or steady green. Mind your fuel and keep the airport in sight. Reference: 14 CFR Part 91, Subpart B, Flight Rules, section 91.125, ATC light signals, which tells you what a tower's light means when you cannot talk to them.",
+"dup": "You lose the radio inbound to a towered field. What do the light gun signals mean in flight?"
+},
+{
+"page": 12,
+"concept": "Steady red - vehicles, equipment and ground personnel",
+"s": "National Airspace System",
+"q": "What does a steady red light mean to a vehicle or ground personnel?",
+"a": "It means <b>stop</b>, exactly as it does for an aircraft on the ground. The vehicle or person must halt where they are and hold position until another signal is given, and must not cross or enter the runway or taxiway. Steady red is one of the signals that carries the same plain meaning in both ground columns, which makes it easy to remember. Per 14 CFR Part 91, Subpart B, section 91.125, ATC light signals.",
+"dup": ""
+},
+{
+"page": 12,
+"concept": "Flashing red - aircraft on the ground",
+"s": "National Airspace System",
+"q": "What does a flashing red light mean to an aircraft on the ground?",
+"a": "It means <b>taxi clear of the landing area or runway in use</b>. You are somewhere you should not be, or an arrival needs the surface you are occupying, so move off the landing area promptly and then hold for a further signal. Note that it is the only ground signal that orders you to keep moving rather than stop. Reference: 14 CFR Part 91, Subpart B, Flight Rules, section 91.125, ATC light signals.",
+"dup": "What do the tower light gun signals mean to an aircraft on the ground?"
+},
+{
+"page": 12,
+"concept": "Flashing red - aircraft in flight",
+"s": "National Airspace System",
+"q": "What does a flashing red light mean to an aircraft in flight?",
+"a": "It means the <b>airport is unsafe, do not land</b>. Something on or about the field makes landing dangerous, such as an obstruction, a disabled airplane, an animal or vehicle on the runway, or a surface problem. Do not attempt the landing; stay clear, consider your fuel state, and divert to an alternate if the condition does not clear. Governed by 14 CFR Part 91, Subpart B, Flight Rules, section 91.125, ATC light signals.",
+"dup": "You lose the radio inbound to a towered field. What do the light gun signals mean in flight?"
+},
+{
+"page": 12,
+"concept": "Flashing red - vehicles, equipment and ground personnel",
+"s": "National Airspace System",
+"q": "What does a flashing red light mean to a vehicle or ground personnel?",
+"a": "It means <b>clear the taxiway or runway</b> immediately. Unlike steady red, which says stop and hold, flashing red tells the driver or person to get off the movement area at once, normally because an aircraft needs that surface. A pilot should know this so that on a nonradio arrival he can predict what the vehicles he can see will do. From 14 CFR Part 91, Subpart B, section 91.125, ATC light signals.",
+"dup": ""
+},
+{
+"page": 12,
+"concept": "Flashing white - aircraft on the ground",
+"s": "National Airspace System",
+"q": "What does a flashing white light mean to an aircraft on the ground?",
+"a": "It means <b>return to your starting point on the airport</b>. Taxi back to the ramp, tiedown or wherever you began, and wait there for further instructions. It is the tower's way of recalling you when they cannot explain why by radio, and you should assume something about your flight or the field has changed. Reference: 14 CFR Part 91, Subpart B, Flight Rules, section 91.125, ATC light signals.",
+"dup": "What do the tower light gun signals mean to an aircraft on the ground?"
+},
+{
+"page": 12,
+"concept": "Flashing white - aircraft in flight (not applicable)",
+"s": "National Airspace System",
+"q": "Which light gun signal has no meaning for an aircraft in flight?",
+"a": "Flashing white; the in-flight cell is <b>not applicable</b>. Flashing white means return to your starting point on the airport, which can only be complied with on the surface, so it is a ground-only signal for both aircraft and vehicles. Knowing this is a favorite examiner question, because it is the one light that means nothing to you once you are airborne. Per 14 CFR Part 91, Subpart B, Flight Rules, section 91.125, ATC light signals.",
+"dup": "Which light gun signal means the same thing in the air and on the ground, and which one is ground only?"
+},
+{
+"page": 12,
+"concept": "Flashing white - vehicles, equipment and ground personnel",
+"s": "National Airspace System",
+"q": "What does a flashing white light mean to a vehicle or ground personnel?",
+"a": "It means <b>return to your starting point on the airport</b>, the same as it does for an aircraft on the ground. The driver or person is to go back to where they entered the movement area and hold there. Flashing white is the only signal whose two ground columns read identically while having no meaning at all in flight. Reference: 14 CFR Part 91, Subpart B, section 91.125, ATC light signals.",
+"dup": ""
+},
+{
+"page": 12,
+"concept": "Alternating red and green - all three columns",
+"s": "National Airspace System",
+"q": "What does an alternating red and green light mean?",
+"a": "It is a <b>general warning signal; exercise extreme caution</b>, and it means exactly the same thing in all three columns, to an aircraft in flight, an aircraft on the ground, and a vehicle or ground personnel. It is not a clearance and it is not a prohibition; it tells you that something is wrong or unusual and that you must be especially alert. Expect a more specific signal to follow. Per 14 CFR Part 91, Subpart B, Flight Rules, section 91.125, ATC light signals.",
+"dup": "Which light gun signal means the same thing in the air and on the ground, and which one is ground only?"
+},
+{
+"page": 12,
+"concept": "Acknowledging a light gun signal",
+"s": "National Airspace System",
+"q": "How do you acknowledge a light gun signal from the tower?",
+"a": "In daylight, by <b>rocking your wings</b>; at night, by flashing your landing light or navigation lights once. On the ground, move the ailerons or rudder during daylight hours, or flash the taxi or landing light at night. The tower has no other way of knowing you saw and understood the signal, so the acknowledgment matters. If a nonradio arrival is planned, call the tower by telephone beforehand where practical.",
+"dup": ""
+},
+{
+"page": 13,
+"concept": "The four forces of flight",
+"s": "Performance and Limitations",
+"q": "What are the four forces of flight and how do they act on the airplane?",
+"a": "Lift, gravity, thrust and drag. Lift acts upward through the center of pressure and opposes gravity, which acts downward through the center of gravity; thrust acts forward through the propeller and opposes drag, which acts rearward. In <b>unaccelerated straight and level flight</b> the opposing pairs are in equilibrium, so lift equals gravity and thrust equals drag; any imbalance produces an acceleration in that direction.",
+"dup": "What are the four forces acting on an airplane in flight?"
+},
+{
+"page": 13,
+"concept": "Lift opposed by gravity",
+"s": "Performance and Limitations",
+"q": "What is lift, and what opposes it?",
+"a": "Lift is the aerodynamic force produced by the wing acting perpendicular to the relative wind, and it is opposed by <b>gravity</b>, the weight of the airplane acting straight down through the center of gravity. Lift is varied by changing angle of attack or airspeed, and the pilot does that with pitch and power. When lift exceeds weight the airplane accelerates upward; when weight exceeds lift it descends.",
+"dup": "What is the lift equation and what does each term tell you?"
+},
+{
+"page": 13,
+"concept": "Thrust opposed by drag",
+"s": "Performance and Limitations",
+"q": "What is thrust, and what opposes it?",
+"a": "Thrust is the forward force produced by the propeller, and it is opposed by <b>drag</b>, the rearward retarding force of the air on the airplane. In your Warrior, thrust comes from the fixed-pitch propeller accelerating a mass of air rearward, and the throttle is your thrust control. Excess thrust over drag accelerates the airplane or allows a climb; when drag exceeds thrust the airplane slows or must descend to maintain speed.",
+"dup": "What are the four forces acting on an airplane in flight?"
+},
+{
+"page": 13,
+"concept": "Parasitic drag - definition",
+"s": "Performance and Limitations",
+"q": "What is parasitic drag?",
+"a": "Parasitic drag is <b>drag produced by the motion of an object through a fluid</b>, that is, by moving the airframe through the air, and it has nothing to do with producing lift. It is made up of form drag from the shape of the parts, skin friction from the roughness of the surfaces, and interference drag where airflows meet at joints such as the wing root. It increases with the square of airspeed, so it dominates at high speed.",
+"dup": "What is parasite drag and what are its three types?"
+},
+{
+"page": 13,
+"concept": "Induced drag - definition",
+"s": "Performance and Limitations",
+"q": "What is induced drag?",
+"a": "Induced drag is <b>drag that arises from the development of lift</b>. As the wing makes lift, high pressure under the wing spills around the tip into the low pressure above it, creating wingtip vortices that tilt the lift vector rearward. It is greatest at high angle of attack and low airspeed, and it varies inversely with the square of airspeed, so it is the dominant drag in slow flight, in the climb and in the landing flare.",
+"dup": "What is induced drag and what causes it?"
+},
+{
+"page": 13,
+"concept": "Forces in a turn - horizontal lift against centrifugal force",
+"s": "Performance and Limitations",
+"q": "What two forces balance each other horizontally in a turn?",
+"a": "The <b>horizontal component of lift and centrifugal force</b>. Banking tilts the lift vector so that part of it acts horizontally toward the inside of the turn; that horizontal component is the centripetal force that curves the flight path. The apparent outward force the occupants feel, centrifugal force, acts toward the outside of the turn and is equal and opposite to it in a coordinated turn. The remaining vertical component of lift must still balance gravity.",
+"dup": "What is centrifugal force in a turn and how does it relate to lift?"
+},
+{
+"page": 13,
+"concept": "Bernoulli's principle - the basic principle that allows the creation of lift",
+"s": "Performance and Limitations",
+"q": "Which principle explains how a wing creates lift?",
+"a": "<b>Bernoulli's principle</b> is the basic principle that allows for the creation of lift. It describes how a change in the speed of a fluid changes its pressure, and when applied to the airflow around an airfoil it accounts for the pressure difference between the upper and lower surfaces. It works together with Newton's third law, which explains lift as the reaction to the mass of air the wing deflects downward; both descriptions are correct.",
+"dup": "State Bernoulli's principle and how it applies to a wing."
+},
+{
+"page": 13,
+"concept": "Bernoulli's principle - formal statement",
+"s": "Performance and Limitations",
+"q": "State Bernoulli's principle.",
+"a": "It states that an <b>increase in the speed of a fluid occurs simultaneously with a decrease in pressure, or a decrease in the fluid's potential energy</b>. Total energy in the flow is conserved, so energy that goes into speeding the fluid up has to come out of its static pressure. The classic demonstration is a venturi tube, where the flow accelerates through the narrow throat and the static pressure there falls, which is also how your carburetor meters fuel.",
+"dup": "State Bernoulli's principle and how it applies to a wing."
+},
+{
+"page": 13,
+"concept": "Airflow above and below the wing",
+"s": "Performance and Limitations",
+"q": "What happens to the air passing above and below the wing?",
+"a": "As air passes above the wing it <b>speeds up and creates an area of low pressure</b>, because the camber and the angle of attack constrict and turn the flow; as the air passes below the wing it slows down and creates increased pressure. The result is lower static pressure on the upper surface and higher static pressure on the lower surface of the same airfoil at the same instant.",
+"dup": "State Bernoulli's principle and how it applies to a wing."
+},
+{
+"page": 13,
+"concept": "Pressure difference creates the upward lifting force",
+"s": "Performance and Limitations",
+"q": "How does the pressure difference around the wing become lift?",
+"a": "The <b>pressure difference creates an upward lifting force</b>. Lower pressure above the wing and higher pressure below it leave a net force acting upward over the whole wing area, which is why lift is proportional to wing area and to the square of airspeed as well as to angle of attack and air density. Roughly three quarters of the lift on a typical airfoil comes from the suction on the upper surface rather than from pressure underneath.",
+"dup": "What is the lift equation and what does each term tell you?"
+},
+{
+"page": 13,
+"concept": "Elements of an airfoil - overview",
+"s": "Performance and Limitations",
+"q": "Name the elements of an airfoil shown on a cross-section drawing.",
+"a": "The <b>chord line, the camber or mean camber line, the angle of attack and the relative wind</b>, along with the leading edge, the trailing edge and the upper and lower surfaces. The chord line and camber line describe the shape of the section itself; the relative wind and angle of attack describe how that section is meeting the air at any given moment, which is what actually determines how much lift it makes.",
+"dup": "What is an airfoil and which parts of the aircraft are airfoils?"
+},
+{
+"page": 13,
+"concept": "Chord line",
+"s": "Performance and Limitations",
+"q": "What is the chord line of an airfoil?",
+"a": "The chord line is the <b>straight line drawn from the leading edge to the trailing edge</b> of the airfoil section. It is the reference from which angle of attack and angle of incidence are both measured, and its length is the chord, used in calculating wing area and aspect ratio. It is a straight line, which is what distinguishes it from the camber line.",
+"dup": "What is angle of incidence?"
+},
+{
+"page": 13,
+"concept": "Camber line",
+"s": "Performance and Limitations",
+"q": "What is the camber line of an airfoil?",
+"a": "The mean camber line is the <b>curved line drawn halfway between the upper and lower surfaces</b>, from leading edge to trailing edge. How far it departs from the straight chord line is the camber of the airfoil; the greater that departure, the more curved the section. Camber is what makes the upper and lower surfaces different, and increasing it, as flaps do, increases the lift the section produces at a given angle of attack.",
+"dup": "What do flaps do, and what do they not do?"
+},
+{
+"page": 13,
+"concept": "Angle of attack",
+"s": "Performance and Limitations",
+"q": "What is angle of attack?",
+"a": "Angle of attack is the <b>acute angle between the chord line of the wing and the relative wind</b>. It is set by the pilot through pitch and flight path, it changes constantly in flight, and it is the single variable that determines whether the wing is flying or stalled. A wing always stalls at the same critical angle of attack regardless of airspeed, weight, bank angle or attitude; in a typical light airplane that angle is around 18 degrees.",
+"dup": "What is angle of attack?"
+},
+{
+"page": 13,
+"concept": "Relative wind",
+"s": "Performance and Limitations",
+"q": "What is relative wind?",
+"a": "Relative wind is the <b>airflow relative to the airfoil, parallel to and opposite the flight path</b> of the airplane. If the airplane is moving forward through the air, the relative wind comes from directly ahead; in a descent it comes from ahead and below, and in a climb from ahead and above. It has nothing to do with the wind reported on the ground, and it is the reference from which angle of attack is measured.",
+"dup": "What is relative wind?"
+},
+{
+"page": 14,
+"concept": "Normal turn - centrifugal force equals horizontal lift",
+"s": "Performance and Limitations",
+"q": "What defines a normal, coordinated turn?",
+"a": "In a normal turn the <b>centrifugal force equals the horizontal component of lift</b>. The two horizontal forces are in balance, so the airplane's longitudinal axis stays aligned with the flight path and there is no sideways force on the occupants. Rate of turn and bank angle agree with one another, and the vertical component of lift is still balancing gravity, with total lift and total load acting along the airplane's vertical axis.",
+"dup": "What is centrifugal force in a turn and how does it relate to lift?"
+},
+{
+"page": 14,
+"concept": "Normal turn - what the turn coordinator shows",
+"s": "Aircraft Systems",
+"q": "What does the turn coordinator show in a normal turn?",
+"a": "The miniature airplane is banked in the direction of turn and the <b>ball is centered</b> in the inclinometer. A centered ball is the whole definition of coordination: it tells you the resultant of gravity and centrifugal force is acting straight down through the airplane's vertical axis. If the miniature airplane's wingtip is on the index mark, you also have a standard rate turn of three degrees per second.",
+"dup": "What does the turn coordinator show, and what powers it?"
+},
+{
+"page": 14,
+"concept": "Slipping turn - centrifugal force less than horizontal lift",
+"s": "Performance and Limitations",
+"q": "What is a slipping turn?",
+"a": "A slipping turn is one in which the <b>centrifugal force is less than the horizontal component of lift</b>. There is too much bank for the rate of turn, usually because the pilot banked without enough rudder or held top rudder, so the excess horizontal lift pulls the airplane toward the inside of the turn. The airplane's nose points outside the turn and the occupants feel themselves pulled toward the low wing.",
+"dup": "What is a slipping turn, and how do you correct it?"
+},
+{
+"page": 14,
+"concept": "Slipping turn - what the turn coordinator shows",
+"s": "Aircraft Systems",
+"q": "What does the inclinometer show in a slipping turn?",
+"a": "The <b>ball is displaced toward the inside of the turn</b>, that is, toward the low wing and the direction of bank, because the net force on it acts in that direction. The miniature airplane still shows the bank and rate of turn, but the rate is low for the bank being held. The fix is to step on the ball: add rudder on the side the ball has moved to, or reduce the bank, until it centers.",
+"dup": "What does the turn coordinator show, and what powers it?"
+},
+{
+"page": 14,
+"concept": "Skidding turn - centrifugal force greater than horizontal lift",
+"s": "Performance and Limitations",
+"q": "What is a skidding turn?",
+"a": "A skidding turn is one in which the <b>centrifugal force is greater than the horizontal component of lift</b>. There is too much rate of turn for the bank being held, typically because the pilot used bottom rudder to tighten the turn without banking, so the airplane is pushed toward the outside of the turn. The nose points inside the turn and the occupants feel themselves thrown toward the high wing.",
+"dup": "What is a skidding turn, and how do you correct it?"
+},
+{
+"page": 14,
+"concept": "Skidding turn - what the turn coordinator shows",
+"s": "Aircraft Systems",
+"q": "What does the inclinometer show in a skidding turn?",
+"a": "The <b>ball is displaced toward the outside of the turn</b>, toward the high wing, away from the direction of bank. The miniature airplane shows a rate of turn that is high for the bank being held. Correct it the same way, by stepping on the ball, which here means easing off the inside rudder you are holding, or increasing bank to match the rate of turn.",
+"dup": "What does the turn coordinator show, and what powers it?"
+},
+{
+"page": 14,
+"concept": "Total lift resolving into vertical and horizontal components in a bank",
+"s": "Performance and Limitations",
+"q": "What happens to the lift vector when you bank the airplane?",
+"a": "Total lift stays perpendicular to the wings, so banking tilts it and splits it into two components: a <b>vertical component that opposes gravity and a horizontal component that turns the airplane</b>. The steeper the bank, the smaller the vertical component becomes for a given total lift, which is why back pressure and therefore more total lift is needed to hold altitude in a turn.",
+"dup": "How does load factor vary with bank angle in a level turn?"
+},
+{
+"page": 14,
+"concept": "Vertical lift must equal gravity in a level turn",
+"s": "Performance and Limitations",
+"q": "Why does a level turn require back pressure?",
+"a": "Because only the <b>vertical component of lift</b> opposes gravity, and banking reduces it. To hold altitude you must increase total lift by increasing angle of attack with back pressure until the vertical component again equals the weight of the airplane. That extra total lift is also extra load factor, and in a steep turn it may need power as well, since the increased angle of attack brings increased induced drag.",
+"dup": "How does load factor vary with bank angle in a level turn?"
+},
+{
+"page": 14,
+"concept": "Total load as the resultant of gravity and centrifugal force",
+"s": "Performance and Limitations",
+"q": "What is the total load acting on the airplane in a turn?",
+"a": "Total load is the <b>resultant of gravity and centrifugal force</b>, acting down and outward along the airplane's vertical axis, and total lift must equal and oppose it for the turn to be level and coordinated. Expressed as a multiple of weight it is the load factor: about 1.15 G at 30 degrees of bank, 1.41 G at 45 degrees and 2.0 G at 60 degrees, regardless of airspeed or airplane weight.",
+"dup": "What is load factor?"
+},
+{
+"page": 14,
+"concept": "Correcting a slip and a skid - step on the ball",
+"s": "Spin Awareness",
+"q": "How do you correct a slip and a skid, and why does the distinction matter near the ground?",
+"a": "<b>Step on the ball</b>: apply rudder on the side the ball has moved toward, or adjust bank, until it centers. The distinction matters because a skidding turn is the dangerous one; if the airplane stalls while skidding, the bottom rudder yaws it into an immediate spin entry toward the inside of the turn, and the classic accident is an overshooting base-to-final turn where the pilot adds bottom rudder rather than bank.",
+"dup": "What is the difference between a slipping and a skidding turn?"
+},
+{
+"page": 14,
+"concept": "What the turn coordinator instrument itself displays",
+"s": "Aircraft Systems",
+"q": "What two separate things does a turn coordinator display, and what drives each?",
+"a": "The miniature airplane shows <b>rate of roll and rate of turn</b>, driven by a gyroscope canted about 30 degrees from horizontal and usually electrically powered in a light airplane, so it keeps working after a vacuum failure. The ball in the inclinometer is not gyroscopic at all; it is simply a weight in a curved, fluid-filled glass tube that responds to gravity and centrifugal force, and it shows quality of turn, meaning slip or skid.",
+"dup": "What does the turn coordinator show, and what powers it?"
+},
+{
+"page": 15,
+"concept": "Class A airspace - 18,000 MSL up to and including FL600",
+"s": "National Airspace System",
+"q": "What are the vertical limits of Class A airspace?",
+"a": "Class A extends from <b>18,000 feet MSL up to and including FL600</b>, that is, 60,000 feet, over the contiguous United States and Alaska, and out to 12 nautical miles offshore. All operations are conducted under instrument flight rules with an instrument rating, an IFR clearance, a two-way radio and a Mode C transponder, so there is no VFR flight there at all. Designated under 14 CFR Part 71, Subpart B, Class A Airspace Areas.",
+"dup": "What are the vertical limits of Class A airspace?"
+},
+{
+"page": 15,
+"concept": "Above the top of Class A at 60,000 MSL",
+"s": "National Airspace System",
+"q": "What class of airspace lies above 60,000 feet MSL?",
+"a": "<b>Class E</b>. Class A stops at and includes FL600, and everything above that is Class E airspace, the controlled airspace that fills in wherever no other class is designated. In practice very few civil airplanes operate there, but the question is a favorite because the diagram only shows the 60,000 MSL line without labeling what is above it. Class E is designated under 14 CFR Part 71, Subpart E, Class E Airspace Areas.",
+"dup": "What is Class E airspace?"
+},
+{
+"page": 15,
+"concept": "Class B airspace - shape and dimensions",
+"s": "National Airspace System",
+"q": "What are the typical dimensions and shape of Class B airspace?",
+"a": "Class B surrounds the nation's busiest airports and runs from the <b>surface to typically 10,000 feet MSL</b>, laid out in two or more concentric layers whose shelves widen with height, giving the upside-down wedding cake profile shown in the drawing. It is individually tailored to each airport, so the radii and shelf altitudes vary; read them off the sectional, where Class B is drawn in solid blue lines with the ceiling and floor of each segment printed inside.",
+"dup": "What are the typical dimensions and shape of Class B airspace?"
+},
+{
+"page": 15,
+"concept": "Class C airspace - shape and dimensions",
+"s": "National Airspace System",
+"q": "What are the dimensions of Class C airspace?",
+"a": "Class C is normally two circles centered on the primary airport, extending to <b>4,000 feet above the airport elevation</b>: an inner core of 5 nautical miles radius from the surface up, and an outer shelf from 5 to 10 nautical miles radius whose floor is 1,200 feet AGL. That gives the smaller two-tier wedding cake shown in the drawing. It is charted in solid magenta lines, and altitudes are printed in hundreds of feet MSL.",
+"dup": "What are the dimensions of Class C airspace?"
+},
+{
+"page": 15,
+"concept": "Class D airspace - shape and dimensions",
+"s": "National Airspace System",
+"q": "What are the dimensions of Class D airspace?",
+"a": "Class D is normally a single cylinder of roughly 4 nautical miles radius around an airport with an operating control tower, extending from the surface to about <b>2,500 feet above the airport elevation</b>, with the ceiling charted in hundreds of feet MSL inside a dashed blue segmented box. The exact radius is tailored to the instrument procedures, and there are often keyhole-shaped extensions to protect final approach courses.",
+"dup": "What are the dimensions of Class D airspace?"
+},
+{
+"page": 15,
+"concept": "Class E as the catch-all controlled airspace",
+"s": "National Airspace System",
+"q": "What does it mean that Class E is the airspace everywhere else?",
+"a": "Class E is <b>all the controlled airspace that is not Class A, B, C or D</b>. It fills in everything above and around the other classes: federal airways, transition areas, surface areas at airports with instrument approaches but no tower, the airspace above 14,500 feet MSL, and everything above FL600. No clearance, radio or transponder is needed to fly VFR in it, only the weather minimums. See 14 CFR Part 71, Subpart E, Class E Airspace Areas.",
+"dup": "What is Class E airspace?"
+},
+{
+"page": 15,
+"concept": "Class E floor at 700 feet AGL",
+"s": "National Airspace System",
+"q": "Where does Class E airspace start at 700 feet AGL, and how is it charted?",
+"a": "Where a transition area supports an airport with an instrument approach, the Class E floor is lowered to <b>700 feet AGL</b>, charted by the soft, shaded magenta vignette whose fuzzy side faces in toward the airport. Below that floor the airspace is Class G, which matters because your required visibility and cloud clearance change as you climb through it. Designated under 14 CFR Part 71, Subpart E, Class E Airspace Areas.",
+"dup": "Where do the various floors of Class E airspace sit?"
+},
+{
+"page": 15,
+"concept": "Class E floor at 1,200 feet AGL",
+"s": "National Airspace System",
+"q": "Where does Class E airspace begin at 1,200 feet AGL?",
+"a": "Over most of the country Class E begins at <b>1,200 feet AGL</b>, which is the default floor of the en route transition areas and the federal airways. It is shown by the shaded blue vignette on a sectional, the fuzzy side facing the Class G side, and where no vignette is drawn at all over open country the 1,200 AGL floor is understood. Below it is Class G, with lower weather minimums by day.",
+"dup": "Where do the various floors of Class E airspace sit?"
+},
+{
+"page": 15,
+"concept": "Class G up to 14,500 MSL where no controlled airspace overlies it",
+"s": "National Airspace System",
+"q": "How high can Class G airspace extend?",
+"a": "Class G extends from the surface up to the base of the overlying controlled airspace, and where none is designated it reaches up to but <b>not including 14,500 feet MSL</b>, which is the tall column shown at the left of the drawing. Above 14,500 MSL the airspace becomes Class E. In most of the lower 48 states Class G is only the sliver below 700 or 1,200 feet AGL, but it still exists in parts of the west and in Alaska.",
+"dup": "What is Class G airspace and how far up does it extend?"
+},
+{
+"page": 15,
+"concept": "Class G below the 700 and 1,200 AGL Class E floors",
+"s": "National Airspace System",
+"q": "Where is the Class G airspace shown at the right-hand side of the airspace diagram?",
+"a": "It is the thin layer of uncontrolled airspace below the Class E floor, running from the surface up to <b>700 feet AGL</b> inside a magenta vignette or 1,200 feet AGL outside one. That is the Class G most pilots actually fly in, because you pass through it on every takeoff and landing at a nontowered field, and it is where the one statute mile and clear of clouds daytime minimum applies.",
+"dup": "Are there any entry or equipment requirements to fly VFR in Class G airspace?"
+},
+{
+"page": 15,
+"concept": "Nontowered airport with an instrument approach - Class E to the surface",
+"s": "National Airspace System",
+"q": "What airspace surrounds a nontowered airport that has an instrument approach?",
+"a": "Normally a <b>Class E surface area</b>, drawn as a dashed magenta line on the sectional, extending from the surface upward to protect arriving and departing IFR traffic when the weather is below VFR. No clearance or radio call is required of a VFR pilot, but the basic VFR minimums of 3 statute miles and 500 below, 1,000 above and 2,000 horizontal apply all the way to the ground, and a ceiling of 1,000 feet is needed to operate in the pattern.",
+"dup": "What are the types of Class E airspace?"
+},
+{
+"page": 15,
+"concept": "Reading the whole airspace stack from the diagram",
+"s": "National Airspace System",
+"q": "Working up from the ground in open country, what classes of airspace will you pass through?",
+"a": "Class G from the surface to <b>1,200 feet AGL</b>, or 700 feet AGL inside a magenta vignette; then Class E from that floor up to but not including 18,000 feet MSL; then Class A from 18,000 MSL to and including FL600; then Class E again above FL600. Over or near a busy airport, Class B, C or D replaces the lower Class E and reaches the surface, and Class G is then absent beneath them.",
+"dup": "Under a Class B shelf, how do you work out every layer of airspace above a nontowered airport?"
+},
+{
+"page": 15,
+"concept": "VFR cloud clearances - governing regulation 91.155",
+"s": "National Airspace System",
+"q": "What regulation sets the VFR visibility and cloud clearance requirements?",
+"a": "Title 14 CFR Part 91, Subpart B, Flight Rules, section <b>91.155, Basic VFR weather minimums</b>. In plain English, it tells you how far you must be able to see and how far you must stay from clouds in order to fly under visual flight rules, and the numbers depend on which class of airspace you are in, your altitude, and whether it is day or night. The table is one of the few things a commercial applicant is expected to know cold.",
+"dup": "What are the VFR weather minimums in Class E below 10,000 feet MSL?"
+},
+{
+"page": 15,
+"concept": "Class A - no VFR minimums, visibility none, cloud clearance none",
+"s": "National Airspace System",
+"q": "What are the VFR weather minimums in Class A airspace?",
+"a": "There are <b>none</b>, for either visibility or distance from clouds, because VFR flight is not permitted in Class A airspace at all. Every operation from 18,000 feet MSL to and including FL600 is conducted under instrument flight rules on an ATC clearance, so the question of visual minimums never arises. This is from 14 CFR Part 91, Subpart B, Flight Rules, section 91.155, Basic VFR weather minimums.",
+"dup": "What are the VFR weather minimums in Class A airspace?"
+},
+{
+"page": 15,
+"concept": "Class B - 3 statute miles and clear of clouds",
+"s": "National Airspace System",
+"q": "What are the VFR weather minimums in Class B airspace?",
+"a": "<b>3 statute miles visibility and clear of clouds</b>. Class B is the only airspace with a clear of clouds requirement other than Class G below 1,200 feet AGL by day, and the reason is that every aircraft inside Class B is individually sequenced and separated by ATC, so the controller is keeping you apart rather than the cloud clearance. From 14 CFR Part 91, Subpart B, Flight Rules, section 91.155, Basic VFR weather minimums.",
+"dup": "What are the VFR weather minimums in Class B airspace?"
+},
+{
+"page": 15,
+"concept": "Class C - 3 statute miles, 500 below, 1,000 above, 2,000 horizontal",
+"s": "National Airspace System",
+"q": "What are the VFR weather minimums in Class C airspace?",
+"a": "3 statute miles flight visibility, and <b>500 feet below, 1,000 feet above and 2,000 feet horizontally</b> from clouds. Those are the standard figures that apply in Class C, Class D and Class E below 10,000 feet MSL alike. Reference: 14 CFR Part 91, Subpart B, Flight Rules, section 91.155, Basic VFR weather minimums, which sets the visibility you need and how far you must stay from cloud.",
+"dup": "What are the VFR weather minimums in Class C airspace?"
+},
+{
+"page": 15,
+"concept": "Class D - 3 statute miles, 500 below, 1,000 above, 2,000 horizontal",
+"s": "National Airspace System",
+"q": "What are the VFR weather minimums in Class D airspace?",
+"a": "3 statute miles flight visibility, and <b>500 feet below, 1,000 feet above and 2,000 feet horizontally</b> from clouds. In addition, because Class D is a surface area, 14 CFR 91.155 paragraph (c) prohibits taking off, landing or entering the traffic pattern unless the ground visibility is at least 3 statute miles and the ceiling is at least 1,000 feet, unless you have a Special VFR clearance. From Part 91, Subpart B, section 91.155, Basic VFR weather minimums.",
+"dup": "How is Class D airspace depicted and what are its VFR weather minimums?"
+},
+{
+"page": 15,
+"concept": "Class E less than 10,000 MSL - 3 statute miles, 500, 1,000, 2,000",
+"s": "National Airspace System",
+"q": "What are the VFR weather minimums in Class E airspace below 10,000 feet MSL?",
+"a": "3 statute miles flight visibility, and <b>500 feet below, 1,000 feet above and 2,000 feet horizontally</b> from clouds. This is the standard set of numbers for controlled airspace and it applies to the great majority of cross-country flying you will do in the Warrior. Reference: 14 CFR Part 91, Subpart B, Flight Rules, section 91.155, Basic VFR weather minimums.",
+"dup": "What are the VFR weather minimums in Class E below 10,000 feet MSL?"
+},
+{
+"page": 15,
+"concept": "Class E at or above 10,000 MSL - 5 statute miles, 1,000, 1,000, 1 SM",
+"s": "National Airspace System",
+"q": "What are the VFR minimums in Class E at or above 10,000 feet MSL?",
+"a": "<b>5 statute miles</b> flight visibility, and 1,000 feet below, 1,000 feet above and 1 statute mile horizontally from clouds. The figures increase at 10,000 MSL because the 250-knot speed limit of 14 CFR 91.117 no longer applies above that altitude, so aircraft close much faster and need to see each other sooner. From Part 91, Subpart B, Flight Rules, section 91.155, Basic VFR weather minimums.",
+"dup": "What are the VFR weather minimums in Class E at and above 10,000 feet MSL?"
+},
+{
+"page": 15,
+"concept": "Class G up to 1,200 AGL, day - 1 statute mile, clear of clouds",
+"s": "National Airspace System",
+"q": "What are the VFR minimums in Class G at or below 1,200 feet AGL during the day?",
+"a": "<b>1 statute mile</b> flight visibility and clear of clouds. This is the single lowest requirement in the whole table, and it applies only in uncontrolled airspace at or below 1,200 feet AGL in daylight. Clear of clouds means exactly that; there is no numerical separation required. Reference: 14 CFR Part 91, Subpart B, Flight Rules, section 91.155, Basic VFR weather minimums.",
+"dup": "What are the VFR weather minimums in Class G below 1,200 feet AGL by day?"
+},
+{
+"page": 15,
+"concept": "Class G up to 1,200 AGL, night - 3 statute miles, 500, 1,000, 2,000",
+"s": "National Airspace System",
+"q": "What are the VFR minimums in Class G at or below 1,200 feet AGL at night?",
+"a": "<b>3 statute miles</b> flight visibility, and 500 feet below, 1,000 feet above and 2,000 feet horizontally from clouds. The minimums jump at night because clouds are far harder to see, and the exception is that in the traffic pattern within half a mile of the runway at an airport you may use 1 statute mile and clear of clouds. From Part 91, Subpart B, Flight Rules, section 91.155, Basic VFR weather minimums.",
+"dup": "What are the VFR weather minimums in Class G below 1,200 feet AGL at night?"
+},
+{
+"page": 15,
+"concept": "Class G more than 1,200 AGL and less than 10,000 MSL, day - 1 SM, 500, 1,000, 2,000",
+"s": "National Airspace System",
+"q": "What are the Class G minimums above 1,200 AGL but below 10,000 MSL in the daytime?",
+"a": "<b>1 statute mile</b> flight visibility, and 500 feet below, 1,000 feet above and 2,000 feet horizontally from clouds. Note that the visibility stays at one mile by day but the clear-of-clouds allowance is gone once you climb through 1,200 feet AGL, so you must now hold the standard separation. Reference: 14 CFR Part 91, Subpart B, Flight Rules, section 91.155, Basic VFR weather minimums.",
+"dup": "What are the VFR minimums in Class G from 1,200 AGL up to but not including 10,000 MSL?"
+},
+{
+"page": 15,
+"concept": "Class G more than 1,200 AGL and less than 10,000 MSL, night - 3 SM, 500, 1,000, 2,000",
+"s": "National Airspace System",
+"q": "What are the Class G minimums above 1,200 AGL but below 10,000 MSL at night?",
+"a": "<b>3 statute miles</b> flight visibility, and 500 feet below, 1,000 feet above and 2,000 feet horizontally from clouds. At night in this band the numbers are identical to controlled airspace below 10,000 feet, so there is no practical advantage to being in Class G after dark. From 14 CFR Part 91, Subpart B, Flight Rules, section 91.155, Basic VFR weather minimums.",
+"dup": "What are the VFR minimums in Class G from 1,200 AGL up to but not including 10,000 MSL?"
+},
+{
+"page": 15,
+"concept": "Class G more than 1,200 AGL and at or above 10,000 MSL - 5 SM, 1,000, 1,000, 1 SM",
+"s": "National Airspace System",
+"q": "What are the Class G minimums more than 1,200 AGL and at or above 10,000 feet MSL?",
+"a": "<b>5 statute miles</b> flight visibility, and 1,000 feet below, 1,000 feet above and 1 statute mile horizontally from clouds, day or night alike; the day and night distinction disappears in this one row. Both conditions must be met, more than 1,200 feet AGL and at or above 10,000 feet MSL. Reference: 14 CFR Part 91, Subpart B, Flight Rules, section 91.155, Basic VFR weather minimums.",
+"dup": "What are the VFR minimums in Class G at and above 10,000 MSL and more than 1,200 AGL?"
+},
+{
+"page": 15,
+"concept": "Why the minimums change at 10,000 feet MSL",
+"s": "National Airspace System",
+"q": "Why do the VFR visibility and cloud clearance requirements increase at 10,000 feet MSL?",
+"a": "Because the <b>250-knot</b> speed limit of 14 CFR Part 91, Subpart B, section 91.117, Aircraft speed, applies only below 10,000 feet MSL. Above that altitude aircraft may fly much faster, closure rates rise sharply, and a pilot needs to see traffic and cloud from farther away to avoid them, so the requirement goes to 5 statute miles with 1,000 feet below, 1,000 feet above and 1 statute mile horizontally.",
+"dup": "Is there a speed limit above 10,000 feet MSL?"
+},
+{
+"page": 15,
+"concept": "Memory aid for the whole cloud clearance table",
+"s": "National Airspace System",
+"q": "Give me a way to remember the whole VFR cloud clearance table.",
+"a": "Start from the standard case, <b>3 statute miles with 500 below, 1,000 above and 2,000 horizontal</b>, which covers Class C, Class D and Class E below 10,000 MSL; then learn the three exceptions. Class B is 3 miles clear of clouds. Class G below 1,200 AGL by day is 1 mile clear of clouds, and by day above 1,200 AGL it keeps 1 mile but takes the standard clearances, while night in Class G is simply the standard case. At or above 10,000 MSL everything becomes 5 miles with 1,000, 1,000 and 1 mile.",
+"dup": "What are the VFR weather minimums in Class E below 10,000 feet MSL?"
+}
+]

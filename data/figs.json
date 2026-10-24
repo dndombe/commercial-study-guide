@@ -1,0 +1,121 @@
+{
+ "gs-alternate": {
+  "cap": "Do you need an alternate? The 91.169 decision path",
+  "w": 1275,
+  "h": 1645,
+  "bytes": 106180,
+  "page": 6
+ },
+ "gs-asi": {
+  "cap": "Airspeed indicator markings, and the speed and altitude types",
+  "w": 1275,
+  "h": 1644,
+  "bytes": 227450,
+  "page": 7
+ },
+ "gs-oxygen": {
+  "cap": "Supplemental oxygen by cabin pressure altitude (91.211), with the ADS-B and transponder rules",
+  "w": 1279,
+  "h": 1644,
+  "bytes": 161066,
+  "page": 9
+ },
+ "gs-icing": {
+  "cap": "Types of aircraft icing and the four reporting intensities",
+  "w": 1279,
+  "h": 1645,
+  "bytes": 152866,
+  "page": 10
+ },
+ "gs-lightgun": {
+  "cap": "Light gun signals (91.125) \u2014 on the ground, in flight, and for vehicles",
+  "w": 1276,
+  "h": 1645,
+  "bytes": 74944,
+  "page": 12
+ },
+ "gs-fourforces": {
+  "cap": "The four forces, types of drag, forces in a turn, and the elements of an airfoil",
+  "w": 1277,
+  "h": 1645,
+  "bytes": 116614,
+  "page": 13
+ },
+ "gs-turns": {
+  "cap": "Normal, slipping and skidding turns, with what the turn coordinator shows",
+  "w": 1275,
+  "h": 1645,
+  "bytes": 85514,
+  "page": 14
+ },
+ "gs-airspace": {
+  "cap": "The national airspace system, and the VFR cloud clearance table (91.155)",
+  "w": 1276,
+  "h": 1615,
+  "bytes": 81078,
+  "page": 15
+ },
+ "gs-night": {
+  "cap": "Night operations \u2014 civil twilight, when night begins, and when landing currency applies",
+  "w": 1275,
+  "h": 1645,
+  "bytes": 183130,
+  "page": 19
+ },
+ "gs-amilegal": {
+  "cap": "Commercial privileges: am I legal? The 61.133 and 119.1 decision path",
+  "w": 1278,
+  "h": 1622,
+  "bytes": 175462,
+  "page": 21
+ },
+ "gs-metar": {
+  "cap": "Reading a METAR, field by field, with the remarks decoded",
+  "w": 1279,
+  "h": 1639,
+  "bytes": 135416,
+  "page": 23
+ },
+ "gs-taf": {
+  "cap": "Reading a TAF, field by field, with the change groups decoded",
+  "w": 1276,
+  "h": 1645,
+  "bytes": 155184,
+  "page": 24
+ },
+ "gs-tstorm": {
+  "cap": "Phases of a thunderstorm, microburst and wind shear",
+  "w": 1275,
+  "h": 1640,
+  "bytes": 165672,
+  "page": 26
+ },
+ "gs-chandelle": {
+  "cap": "Chandelle \u2014 execution in three stages, with the ACS standards",
+  "w": 1275,
+  "h": 1640,
+  "bytes": 95002,
+  "page": 27
+ },
+ "gs-lazy8": {
+  "cap": "Lazy eight \u2014 the four reference points, with the ACS standards",
+  "w": 1275,
+  "h": 1640,
+  "bytes": 105434,
+  "page": 28
+ },
+ "gs-steepspiral": {
+  "cap": "Steep spiral \u2014 execution, with the ACS standards",
+  "w": 1275,
+  "h": 1640,
+  "bytes": 102154,
+  "page": 29
+ },
+ "gs-pylons": {
+  "cap": "Eights on pylons \u2014 execution, pivotal altitude, and the ACS standards",
+  "w": 1275,
+  "h": 1640,
+  "bytes": 109106,
+  "page": 30
+ }
+}

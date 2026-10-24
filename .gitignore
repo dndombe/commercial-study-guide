@@ -1,0 +1,13 @@
+# Source documents are copyrighted third-party material — kept locally, never committed.
+*.pdf
+chs.pdf
+fi.pdf
+goldseal.pdf
+poh.pdf
+
+# Scratch
+build-recovered.html
+v-*.png
+shot-*.png
+__pycache__/
+*.pyc

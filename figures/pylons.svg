@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 880 470" class="v-py" role="img" aria-label="Eights on pylons: the figure eight ground track around two pylons, how the pivotal altitude formula works, and how to correct when the pylon appears to move ahead or behind the wingtip reference line">
+  <g class="d">
+  <defs><marker id="ah-py" viewbox="0 0 8 8" refx="7.2" refy="4" markerwidth="5.5" markerheight="5.5" orient="auto-start-reverse"><path class="ahd" d="M0 0 L8 4 L0 8 Z"></path></marker></defs>
+
+  <text class="ti" x="12" y="20">EIGHTS ON PYLONS — the only ground reference maneuver flown to an altitude, not a ground track</text>
+  <text class="tiny l" x="12" y="38">You are not holding a constant radius. You are holding the pivotal altitude, and letting the track fall where it falls.</text>
+
+  <!-- track -->
+  <text class="lb b l" x="14" y="66">SEEN FROM ABOVE</text>
+  <path class="trk" d="M250 240 C250 140 160 120 130 170 C96 226 112 300 175 312 C240 324 250 280 250 240
+                       C250 200 260 156 324 168 C388 180 402 254 368 310 C338 360 250 340 250 240 Z"></path>
+  <circle class="pyl" cx="140" cy="240" r="6"></circle>
+  <text class="lb b" x="140" y="264">PYLON 1</text>
+  <circle class="pyl" cx="358" cy="240" r="6"></circle>
+  <text class="lb b" x="358" y="264">PYLON 2</text>
+
+  <line class="ref" x1="140" y1="240" x2="358" y2="240"></line>
+  <text class="tiny" x="249" y="234">pylons abeam, roughly across the wind</text>
+
+  <circle class="pt" cx="250" cy="240" r="4"></circle>
+  <path class="ar" d="M250 342 V262"></path>
+  <text class="lb l" x="200" y="356">enter here, diagonally and</text>
+  <text class="lb l" x="200" y="370">downwind, between the two</text>
+
+  <text class="tiny l" x="14" y="356">Bank steepens as you</text>
+  <text class="tiny l" x="14" y="370">pass the upwind side</text>
+  <text class="tiny l" x="14" y="384">and shallows downwind,</text>
+  <text class="tiny l" x="14" y="398">because groundspeed</text>
+  <text class="tiny l" x="14" y="412">is changing.</text>
+
+  <!-- pivotal altitude -->
+  <rect class="bx u" x="450" y="56" width="410" height="150" rx="6"></rect>
+  <text class="lb b" x="655" y="78">PIVOTAL ALTITUDE</text>
+  <text class="lb" x="655" y="98">The height at which the wingtip reference line stays pinned to the</text>
+  <text class="lb" x="655" y="114">pylon with no drift correction at all. It depends only on groundspeed.</text>
+  <text class="fml" x="655" y="146">pivotal altitude, ft AGL  =  groundspeed in kt × groundspeed in kt  ÷  11.3</text>
+  <text class="lb" x="655" y="170">Using mph instead, divide by 15.</text>
+  <text class="lb" x="655" y="190">Worked: 90 kt → 90 × 90 = 8,100 ÷ 11.3 = <tspan class="k">717 ft AGL</tspan></text>
+
+  <rect class="bx s" x="450" y="220" width="410" height="76" rx="6"></rect>
+  <text class="lb b" x="655" y="242">IT IS AGL, SO ADD THE GROUND</text>
+  <text class="lb" x="655" y="262">717 ft AGL over terrain at 400 ft MSL is 1,117 ft MSL indicated.</text>
+  <text class="lb" x="655" y="282">Groundspeed changes round the turn, so the pivotal altitude does too.</text>
+
+  <!-- corrections -->
+  <rect class="bx warn" x="450" y="310" width="200" height="106" rx="6"></rect>
+  <text class="wt b" x="466" y="332">Pylon moves AHEAD</text>
+  <text class="wl2" x="466" y="352">of the wingtip line?</text>
+  <text class="wl2" x="466" y="374">You are too <tspan class="k">low</tspan>.</text>
+  <text class="wl2" x="466" y="394">Climb, and it comes</text>
+  <text class="wl2" x="466" y="410">back to you.</text>
+
+  <rect class="bx warn" x="660" y="310" width="200" height="106" rx="6"></rect>
+  <text class="wt b" x="676" y="332">Pylon moves BEHIND</text>
+  <text class="wl2" x="676" y="352">the wingtip line?</text>
+  <text class="wl2" x="676" y="374">You are too <tspan class="k">high</tspan>.</text>
+  <text class="wl2" x="676" y="394">Descend, and it comes</text>
+  <text class="wl2" x="676" y="410">back to you.</text>
+
+  <text class="wl" x="14" y="444">Correct with pitch and altitude, never with rudder. Yawing the nose to hold a pylon is a skid at low altitude in a steep turn, which is</text>
+  <text class="wl" x="14" y="460">the classic setup for a spin. Choose pylons that keep you clear of 91.119 minimum safe altitudes throughout.</text>
+  </g>
+</svg>

@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 900 604" class="v-av" role="img" aria-label="Two avionics architectures compared: an integrated flight deck, and a panel of standalone displays with a separate panel-mount navigator">
+  <g class="d">
+  <defs><marker id="ah-av" viewbox="0 0 8 8" refx="7.2" refy="4" markerwidth="5.5" markerheight="5.5" orient="auto-start-reverse"><path class="ahd" d="M0 0 L8 4 L0 8 Z"></path></marker></defs>
+
+  <text class="ti" x="12" y="20">A · INTEGRATED FLIGHT DECK</text>
+  <text class="ti" x="470" y="20">B · SEPARATE DISPLAYS + PANEL NAVIGATOR</text>
+  <line class="div" x1="452" y1="30" x2="452" y2="590"></line>
+
+  <!-- ================= A ================= -->
+  <rect class="bx scr" x="12" y="36" width="126" height="46" rx="4"></rect>
+  <text class="lb b" x="75" y="56">PFD</text>
+  <text class="lb" x="75" y="72">primary flight display</text>
+
+  <rect class="bx" x="152" y="36" width="112" height="46" rx="4"></rect>
+  <text class="lb b" x="208" y="56">AUDIO PANEL</text>
+  <text class="lb" x="208" y="72">intercom, mic select</text>
+
+  <rect class="bx scr" x="278" y="36" width="126" height="46" rx="4"></rect>
+  <text class="lb b" x="341" y="56">MFD</text>
+  <text class="lb" x="341" y="72">map, engine, charts</text>
+
+  <text class="tiny l" x="12" y="102">reversionary mode — either screen can take over the other's picture</text>
+
+  <rect class="bx u" x="12" y="118" width="186" height="88" rx="4"></rect>
+  <text class="lb b" x="105" y="138">AVIONICS UNIT No. 1</text>
+  <text class="lb" x="105" y="156">GPS / WAAS</text>
+  <text class="lb" x="105" y="172">VHF NAV, LOC, glideslope</text>
+  <text class="lb" x="105" y="188">VHF COM No. 1</text>
+  <text class="lb" x="105" y="200">flight-director steering</text>
+
+  <rect class="bx u" x="218" y="118" width="186" height="88" rx="4"></rect>
+  <text class="lb b" x="311" y="138">AVIONICS UNIT No. 2</text>
+  <text class="lb" x="311" y="156">GPS / WAAS</text>
+  <text class="lb" x="311" y="172">VHF NAV, LOC, glideslope</text>
+  <text class="lb" x="311" y="188">VHF COM No. 2</text>
+  <text class="lb" x="311" y="200">the redundant half</text>
+
+  <path class="ar" d="M75 118 V82"></path>
+  <path class="ar" d="M341 118 V82"></path>
+
+  <rect class="bx s" x="118" y="230" width="180" height="58" rx="4"></rect>
+  <text class="lb b" x="208" y="250">AIR DATA COMPUTER</text>
+  <text class="lb" x="208" y="266">pitot and static in</text>
+  <text class="lb" x="208" y="281">airspeed, altitude, VSI, OAT</text>
+
+  <rect class="bx s" x="118" y="304" width="180" height="58" rx="4"></rect>
+  <text class="lb b" x="208" y="324">AHRS</text>
+  <text class="lb" x="208" y="340">solid state, no vacuum pump</text>
+  <text class="lb" x="208" y="355">attitude, rate of turn, slip/skid</text>
+
+  <rect class="bx s" x="118" y="378" width="180" height="44" rx="4"></rect>
+  <text class="lb b" x="208" y="398">MAGNETOMETER</text>
+  <text class="lb" x="208" y="414">heading reference, out in a wing</text>
+
+  <path class="ar2" d="M118 252 H86 V206"></path>
+  <path class="ar2" d="M298 252 H330 V206"></path>
+  <path class="ar2" d="M118 326 H68 V206"></path>
+  <path class="ar2" d="M298 326 H348 V206"></path>
+  <path class="ar2" d="M208 378 V362"></path>
+
+  <rect class="bx t" x="12" y="438" width="124" height="44" rx="4"></rect>
+  <text class="lb b" x="74" y="458">TRANSPONDER</text>
+  <text class="lb" x="74" y="474">Mode S, ADS-B Out</text>
+
+  <rect class="bx t" x="150" y="438" width="124" height="44" rx="4"></rect>
+  <text class="lb b" x="212" y="458">ENGINE / AIRFRAME</text>
+  <text class="lb" x="212" y="474">all engine indications</text>
+
+  <rect class="bx t" x="288" y="438" width="124" height="44" rx="4"></rect>
+  <text class="lb b" x="350" y="458">AUTOPILOT SERVOS</text>
+  <text class="lb" x="350" y="474">pitch, roll, trim</text>
+
+  <text class="note" x="12" y="516">One system, wired together. Lose an avionics unit and that</text>
+  <text class="note" x="12" y="532">side's GPS, nav and com go together — the other unit carries</text>
+  <text class="note" x="12" y="548">on, and reversionary puts the full picture on the good screen.</text>
+  <text class="note" x="12" y="564">Lose the AHRS and both screens lose attitude at once.</text>
+
+  <!-- ================= B ================= -->
+  <rect class="bx scr" x="470" y="36" width="132" height="62" rx="4"></rect>
+  <text class="lb b" x="536" y="54">ATTITUDE DISPLAY</text>
+  <text class="lb" x="536" y="70">its own AHRS and air data</text>
+  <text class="lb" x="536" y="85">its own back-up battery</text>
+
+  <rect class="bx scr" x="614" y="36" width="132" height="62" rx="4"></rect>
+  <text class="lb b" x="680" y="54">HSI DISPLAY</text>
+  <text class="lb" x="680" y="70">its own AHRS and battery</text>
+  <text class="lb" x="680" y="85">heading, course, bearing</text>
+
+  <rect class="bx" x="758" y="36" width="130" height="62" rx="4"></rect>
+  <text class="lb b" x="823" y="54">AUDIO PANEL</text>
+  <text class="lb" x="823" y="70">a separate box, with</text>
+  <text class="lb" x="823" y="85">its own failure mode</text>
+
+
+  <rect class="bx u" x="536" y="134" width="248" height="82" rx="4"></rect>
+  <text class="lb b" x="660" y="154">PANEL-MOUNT NAVIGATOR</text>
+  <text class="lb" x="660" y="172">GPS / WAAS, LPV approaches</text>
+  <text class="lb" x="660" y="188">VHF NAV, LOC, glideslope</text>
+  <text class="lb" x="660" y="204">VHF COM, flight plan and map</text>
+
+  <path class="ar" d="M566 134 V98"></path>
+  <path class="ar" d="M700 134 V98"></path>
+
+  <rect class="bx s" x="470" y="240" width="156" height="58" rx="4"></rect>
+  <text class="lb b" x="548" y="260">PITOT AND STATIC</text>
+  <text class="lb" x="548" y="276">plumbed straight into</text>
+  <text class="lb" x="548" y="291">each display</text>
+
+  <rect class="bx s" x="644" y="240" width="156" height="58" rx="4"></rect>
+  <text class="lb b" x="722" y="260">MAGNETOMETER</text>
+  <text class="lb" x="722" y="276">one per display, or one</text>
+  <text class="lb" x="722" y="291">shared — check the POH</text>
+
+  <path class="ar2" d="M494 240 V98"></path>
+  <path class="ar2" d="M800 264 H826 V112 H734 V98"></path>
+
+  <rect class="bx t" x="470" y="316" width="156" height="44" rx="4"></rect>
+  <text class="lb b" x="548" y="336">TRANSPONDER</text>
+  <text class="lb" x="548" y="352">separate box, ADS-B Out</text>
+
+  <rect class="bx t" x="644" y="316" width="156" height="44" rx="4"></rect>
+  <text class="lb b" x="722" y="336">ENGINE GAUGES</text>
+  <text class="lb" x="722" y="352">often still round dials</text>
+
+  <rect class="bx t" x="470" y="378" width="330" height="44" rx="4"></rect>
+  <text class="lb b" x="635" y="398">STANDBY INSTRUMENTS — if fitted</text>
+  <text class="lb" x="635" y="414">a mechanical ASI, an altimeter and a compass</text>
+
+  <text class="note" x="470" y="446">There is no reversionary button here — the two displays</text>
+  <text class="note" x="470" y="462">already duplicate each other, so there is nothing to swap.</text>
+  <text class="note" x="470" y="486">A different failure tree. Lose the navigator and both displays</text>
+  <text class="note" x="470" y="502">stay alive on their own batteries, but GPS and VHF course</text>
+  <text class="note" x="470" y="518">guidance go with it. Lose one display and the other keeps</text>
+  <text class="note" x="470" y="534">flying, because each carries its own AHRS and air data.</text>
+  <text class="note b" x="470" y="560">Know which of these you are flying. Be able to say what</text>
+  <text class="note b" x="470" y="576">every box feeds, what you lose when it quits, and what is</text>
+  <text class="note b" x="470" y="592">left to fly the approach on.</text>
+  </g>
+</svg>

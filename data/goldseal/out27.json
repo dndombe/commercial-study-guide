@@ -1,0 +1,1138 @@
+[
+ {
+  "page": 27,
+  "concept": "Purpose and definition of the chandelle",
+  "s": "Commercial Maneuvers",
+  "q": "What is a chandelle and what is it meant to show the examiner?",
+  "a": "A chandelle is a maximum performance 180 degree climbing turn, begun from approximately straight-and-level flight and finished wings level in a nose-high attitude just above stall speed. It is graded on planning, smoothness and coordination rather than on how much altitude I gain, and it shows I can manage a large, continuous change of pitch, bank and airspeed while holding the airplane right at the edge of its climb performance. The ACS task is <b>CA.V.C</b>.",
+  "dup": "What is a chandelle and what is it meant to demonstrate?"
+ },
+ {
+  "page": 27,
+  "concept": "What the chandelle demonstrates - why a commercial maneuver",
+  "s": "Commercial Maneuvers",
+  "q": "Why is the chandelle on the commercial certificate rather than the private?",
+  "a": "Because it demands precise, planned control of the airplane through its full speed range in one continuous maneuver. The chandelle shows coordination as the airspeed decays and the left-turning tendencies grow, shows I can divide attention between attitude, airspeed and a ground reference, and shows I can arrive at a planned point with the airplane at a planned energy state. The standard asks for <b>maximum performance</b>, meaning the most altitude gained for the 180 degrees of turn with the airplane still under full control.",
+  "dup": "What is a chandelle and what is it meant to demonstrate?"
+ },
+ {
+  "page": 27,
+  "concept": "Clearing the area and pre-maneuver checks before a chandelle",
+  "s": "Commercial Maneuvers",
+  "q": "What do you do in the Warrior before you start a chandelle?",
+  "a": "Clearing turns and a scan for traffic first; then a pre-maneuver flow: fuel on the fullest tank, electric fuel pump on, mixture rich, engine gauges green, seat belts and loose items secured, and carburetor heat checked. I confirm I am high enough that the maneuver finishes no lower than <b>1,500 feet AGL</b>, pick a prominent reference off the wingtip, and set up with the wind perpendicular to the entry heading.",
+  "dup": "What do you do before starting any of the commercial performance maneuvers?"
+ },
+ {
+  "page": 27,
+  "concept": "Entry configuration and entry airspeed for the chandelle, Warrior II specific",
+  "s": "Commercial Maneuvers",
+  "q": "What airspeed and configuration do you enter a chandelle at in the Warrior?",
+  "a": "Clean, flaps up, and at or below maneuvering speed. For the 1981 PA-28-161 Warrior II the POH Section 2 gives design maneuvering speed as <b>111 KIAS at 2,440 lb</b>, falling to 88 KIAS at 1,531 lb, so I enter at or just below that figure for my weight. The ACS wording is to establish the manufacturer's recommended entry airspeed, or if none is published, no more than maneuvering speed. The airplane is trimmed and in balanced, level flight at the entry.",
+  "dup": "What are the entry configuration and airspeed for a chandelle?"
+ },
+ {
+  "page": 27,
+  "concept": "Why maneuvering speed is the ceiling for the entry speed",
+  "s": "Commercial Maneuvers",
+  "q": "Why must the chandelle entry speed not exceed maneuvering speed?",
+  "a": "Because the chandelle begins with an abrupt, large pitch input and the airplane must be slow enough that it stalls before it can be overstressed. The Warrior II POH Section 2 says do not make full or abrupt control movements above <b>111 KIAS</b> at 2,440 lb, and it cautions that maneuvering speed decreases at lighter weight, so I interpolate down toward the 88 KIAS figure given for 1,531 lb rather than using the gross weight number at light weight.",
+  "dup": "Where does the entry airspeed for a chandelle, lazy eight or steep turn come from?"
+ },
+ {
+  "page": 27,
+  "concept": "Minimum altitude for the chandelle - 1,500 feet AGL",
+  "s": "Commercial Maneuvers",
+  "q": "What is the minimum altitude for a chandelle and why that number?",
+  "a": "The ACS requires an altitude that allows the maneuver to be completed no lower than <b>1,500 feet AGL</b>. The chandelle finishes just above stall speed with a high nose and low energy, so the number exists to leave room for a stall recovery or an inadvertent spin entry with altitude to spare. In practice I enter well above that because the chandelle is a climbing maneuver, so the finish is higher than the entry.",
+  "dup": ""
+ },
+ {
+  "page": 27,
+  "concept": "ACS task code for the chandelle",
+  "s": "Commercial Maneuvers",
+  "q": "Which ACS task is the chandelle and in which area of operation?",
+  "a": "It is Task C in Area of Operation V, Performance and Ground Reference Maneuvers, of the Commercial Pilot Airman Certification Standards FAA-S-ACS-7B; the task code is <b>CA.V.C</b>. The neighboring tasks in the same area are steep turns CA.V.A, steep spiral CA.V.B, lazy eight CA.V.D and eights on pylons CA.V.E.",
+  "dup": ""
+ },
+ {
+  "page": 27,
+  "concept": "ACS tolerance - bank angle approximately 30 degrees",
+  "s": "Commercial Maneuvers",
+  "q": "What bank angle does the ACS call for in a chandelle?",
+  "a": "Approximately <b>30 degrees</b> of bank, established at the entry and held constant through the first 90 degrees of turn. The ACS says approximately rather than giving a plus-or-minus band, but a bank much shallower than 30 degrees makes the airplane take too long to turn 180 degrees and it runs out of airspeed early, while much steeper costs climb performance because more of the lift is turning the airplane instead of lifting it.",
+  "dup": ""
+ },
+ {
+  "page": 27,
+  "concept": "ACS tolerance - rollout complete at the 180 degree point, heading plus or minus 10 degrees",
+  "s": "Commercial Maneuvers",
+  "q": "What heading tolerance applies to the chandelle?",
+  "a": "The rollout must be complete at the 180 degree point, <b>plus or minus 10 degrees</b> of the reciprocal of the entry heading. That is the only plus-or-minus number in the whole task: the wings come level exactly as the airplane passes through the heading opposite the one it entered on, not before and not after.",
+  "dup": "What is the only numeric tolerance the ACS puts on a chandelle?"
+ },
+ {
+  "page": 27,
+  "concept": "ACS tolerance - the only numeric tolerance in the chandelle task",
+  "s": "Commercial Maneuvers",
+  "q": "Is there an altitude or airspeed tolerance on a chandelle?",
+  "a": "No. The chandelle has no altitude tolerance and no airspeed tolerance; the only plus-or-minus figure in the task is the <b>plus or minus 10 degrees</b> on the heading at the 180 degree point. The other standards are qualitative or limiting: approximately 30 degrees of bank, finish just above stall speed without stalling, and complete the maneuver no lower than 1,500 feet AGL.",
+  "dup": "What is the only numeric tolerance the ACS puts on a chandelle?"
+ },
+ {
+  "page": 27,
+  "concept": "ACS tolerance - finish just above stall speed, momentarily avoiding a stall",
+  "s": "Commercial Maneuvers",
+  "q": "What should the airspeed be as the chandelle finishes?",
+  "a": "<b>Just above stall speed</b>, with the airplane held momentarily at that airspeed and not allowed to stall. The ACS wording is to complete the rollout at the 180 degree point just above a stall airspeed and maintain that airspeed momentarily while avoiding a stall. A stall warning chirp at the top is acceptable; an actual break is a failure of the task, and finishing with a comfortable margin of extra speed means the maneuver was not flown at maximum performance.",
+  "dup": "What airspeed should the airplane be at when the chandelle is complete?"
+ },
+ {
+  "page": 27,
+  "concept": "ACS element - resume straight-and-level flight with minimum loss of altitude",
+  "s": "Commercial Maneuvers",
+  "q": "What does the ACS want after the 180 degree point of a chandelle?",
+  "a": "Resume straight-and-level flight with <b>minimum loss of altitude</b>. I lower the nose smoothly to the level attitude and let the airspeed build back to cruise while keeping the altitude I earned; dumping the nose and diving away throws away the altitude the maneuver just gained and is a common way to spoil an otherwise good chandelle.",
+  "dup": ""
+ },
+ {
+  "page": 27,
+  "concept": "Stage A - the entry: establishing bank, then pitch and power together",
+  "s": "Commercial Maneuvers",
+  "q": "Walk me through the entry to a chandelle.",
+  "a": "From level flight at or below maneuvering speed, I roll smoothly to approximately <b>30 degrees</b> of bank in the direction of the turn, then simultaneously begin increasing pitch and apply the power the airplane will use for the whole maneuver, keeping it coordinated. The bank is set first and then held; the pitch is increased progressively, not snatched, so the airspeed bleeds off smoothly over the first 90 degrees of turn.",
+  "dup": "How is a chandelle flown from entry to the 90 degree point?"
+ },
+ {
+  "page": 27,
+  "concept": "Stage A to B - entry to the 90 degree point",
+  "s": "Commercial Maneuvers",
+  "q": "What should the airplane be doing between the entry and the 90 degree point?",
+  "a": "Constant bank of approximately 30 degrees, steadily increasing pitch, steadily decreasing airspeed, and a continuous climb. The bank does not change at all during this half; only the pitch changes. The airplane reaches its <b>highest pitch attitude at the 90 degree point</b>, and from there the pitch is frozen while the bank starts coming out.",
+  "dup": "How is a chandelle flown from entry to the 90 degree point?"
+ },
+ {
+  "page": 27,
+  "concept": "Stage B - what happens at the 90 degree point",
+  "s": "Commercial Maneuvers",
+  "q": "What is the 90 degree point of a chandelle and what changes there?",
+  "a": "It is the halfway point of the turn and the hinge of the maneuver: the pitch attitude has reached its maximum and stops increasing, and I begin a <b>coordinated constant rate rollout</b> that will be finished exactly at the 180 degree point. Power stays where it was set. Nothing about the pitch changes from here on; the only thing changing is the bank coming out at a steady rate and the airspeed continuing to decay.",
+  "dup": "How is a chandelle flown from the 90 degree point to the 180 degree point?"
+ },
+ {
+  "page": 27,
+  "concept": "Stage B to C - the 90 degree point to the 180 degree point",
+  "s": "Commercial Maneuvers",
+  "q": "How do you fly the second half of a chandelle?",
+  "a": "Hold the pitch attitude established at the 90 degree point absolutely constant, hold the power, and roll out at a <b>constant rate</b> so the wings come level exactly as the airplane reaches the reciprocal heading. As the bank reduces, the vertical component of lift increases and the climb steepens while the airspeed keeps decaying; that combination is what makes the pitch feel like it wants to drop and is why holding it takes increasing back pressure and increasing right rudder.",
+  "dup": "How is a chandelle flown from the 90 degree point to the 180 degree point?"
+ },
+ {
+  "page": 27,
+  "concept": "Stage C - completion of the chandelle",
+  "s": "Commercial Maneuvers",
+  "q": "Describe the completion of the chandelle.",
+  "a": "At the 180 degree point the wings are level, the heading is the reciprocal of the entry heading within <b>plus or minus 10 degrees</b>, and the airplane is just above stall speed with the nose high. I hold that attitude and airspeed momentarily without stalling, then lower the nose gently to level flight and accelerate back to cruise with as little loss of altitude as possible, and reset power and trim.",
+  "dup": "What airspeed should the airplane be at when the chandelle is complete?"
+ },
+ {
+  "page": 27,
+  "concept": "Where the altitude gain is largest during the chandelle",
+  "s": "Commercial Maneuvers",
+  "q": "Does the airplane climb more in the first half or the second half of a chandelle?",
+  "a": "It climbs throughout, but the rate of climb is greatest in the <b>second 90 degrees</b>, because as the bank is rolled out the vertical component of lift increases and more of the airplane's energy goes into climbing instead of turning. The first half is where the pitch is being built and the airspeed traded away; the second half is where that traded energy shows up as altitude.",
+  "dup": ""
+ },
+ {
+  "page": 27,
+  "concept": "Reference selection - identifying the 90 and 180 degree points",
+  "s": "Commercial Maneuvers",
+  "q": "How do you know where the 90 and 180 degree points are in a chandelle?",
+  "a": "By picking a prominent ground reference off the wingtip before entry: a road, a section line or a lake edge lying 90 degrees to the entry heading. The reference is abeam at the start, and the airplane is pointed at it, or has it directly off the nose, at the <b>90 degree point</b>. The heading indicator backs it up for the 180 degree point, but the maneuver is flown by looking outside, with the instruments only cross-checked.",
+  "dup": "How do you identify the 90 degree and 180 degree points in a chandelle?"
+ },
+ {
+  "page": 27,
+  "concept": "Setting up with the wind perpendicular to the entry heading",
+  "s": "Commercial Maneuvers",
+  "q": "Which way do you line up relative to the wind before a chandelle?",
+  "a": "With the wind <b>perpendicular to the entry heading</b>, so the airplane turns into the wind. The chandelle has no ground-track requirement, but turning into the wind keeps the airplane from drifting away from the practice area during the slow, low-groundspeed part of the maneuver, and it keeps the chosen 90 degree reference in roughly the same place instead of sliding downwind.",
+  "dup": "Why do you set up with the wind perpendicular to your flight path before a chandelle or lazy eight?"
+ },
+ {
+  "page": 27,
+  "concept": "Power setting for the chandelle in a 160 hp fixed-pitch Warrior",
+  "s": "Commercial Maneuvers",
+  "q": "What do you do with the throttle during a chandelle in the Warrior?",
+  "a": "Apply full power as the pitch starts up and leave it there for the whole maneuver. The Warrior II has a fixed-pitch propeller and a <b>160 horsepower</b> Lycoming O-320, so there is no propeller control to set and no manifold pressure to manage: the throttle goes forward once, at the entry, and the mixture stays rich at these altitudes. Power is not changed at the 90 degree point and is only reduced after the maneuver is complete.",
+  "dup": "What power setting do you use for a chandelle?"
+ },
+ {
+  "page": 27,
+  "concept": "Right rudder requirement as airspeed decays",
+  "s": "Commercial Maneuvers",
+  "q": "Why does the chandelle need more and more right rudder as it goes on?",
+  "a": "Because the left-turning tendencies grow as the airspeed falls with full power applied. P-factor increases as the angle of attack increases, the descending blade on the right produces more thrust, and slipstream, torque and gyroscopic effects all add left yaw; the rudder's effectiveness falls at the same time because the airflow over it is slowing. The result is that <b>right rudder pressure must increase continuously</b> all the way to the 180 degree point, and more of it is needed in a left chandelle than a right one.",
+  "dup": "Why does a chandelle need steadily increasing right rudder?"
+ },
+ {
+  "page": 27,
+  "concept": "Recovery if the airplane stalls or buffets during the chandelle",
+  "s": "Commercial Maneuvers",
+  "q": "The stall warning is blaring and you feel buffet at the 170 degree point. What do you do?",
+  "a": "Relax back pressure immediately to reduce the angle of attack, keep the wings coming level with coordinated aileron and rudder, and keep the power in; once flying, level off and accept that the chandelle was flown with too much pitch. The one thing I will not do is pick up a dropping wing with aileron alone at that angle of attack, because the <b>yaw from an uncoordinated recovery is how a stall becomes a spin</b>. The 1,500 feet AGL floor exists for exactly this moment.",
+  "dup": ""
+ },
+ {
+  "page": 27,
+  "concept": "Common error - initial bank too steep or too shallow",
+  "s": "Commercial Maneuvers",
+  "q": "What goes wrong in a chandelle if the initial bank is wrong?",
+  "a": "Too shallow and the airplane will not have turned 180 degrees by the time the airspeed decays, so I either stall before the rollout or have to steepen late and ruin the constant-bank requirement. Too steep and the turn finishes early with too much airspeed left and far less altitude gained, because lift is being spent on turning instead of climbing. The target is <b>approximately 30 degrees</b>, set before the pitch starts up.",
+  "dup": "What are the common errors in a chandelle?"
+ },
+ {
+  "page": 27,
+  "concept": "Common error - allowing the bank to change during the first 90 degrees",
+  "s": "Commercial Maneuvers",
+  "q": "Why is a varying bank angle in the first half of a chandelle an error?",
+  "a": "Because the first 90 degrees is defined by a <b>constant bank</b> with only the pitch changing. If the bank wanders, the turn rate wanders with it, so the airplane does not arrive at the 90 degree point with the pitch and airspeed it should have, and the constant-rate rollout in the second half will not finish on the reciprocal heading. The usual cause is letting the overbanking tendency go uncorrected as the airplane slows.",
+  "dup": "What are the common errors in a chandelle?"
+ },
+ {
+  "page": 27,
+  "concept": "Common error - pitch not increasing continuously in the first half",
+  "s": "Commercial Maneuvers",
+  "q": "What happens if you set a pitch attitude at the entry and hold it to the 90 degree point?",
+  "a": "The maneuver becomes a shallow climbing turn rather than a chandelle, and the airplane arrives at the 180 degree point with far too much airspeed and too little altitude. The first 90 degrees requires a <b>continuously increasing pitch attitude</b>, reaching its maximum exactly at the 90 degree point; the airspeed should be falling steadily the entire time, not sitting on one number.",
+  "dup": "What are the common errors in a chandelle?"
+ },
+ {
+  "page": 27,
+  "concept": "Common error - excessive pitch rate, stalling before the 180",
+  "s": "Commercial Maneuvers",
+  "q": "What is the consequence of raising the nose too quickly in a chandelle?",
+  "a": "The airspeed decays before the turn is finished, so I reach the stall somewhere short of the 180 degree point and either stall the airplane or have to lower the nose and ruin the constant pitch attitude. The pitch must be fed in gradually so the airspeed arrives <b>just above stall speed exactly at the 180 degree point</b>, not sooner. Rushing the pitch is the most common cause of a failed chandelle.",
+  "dup": "What are the common errors in a chandelle?"
+ },
+ {
+  "page": 27,
+  "concept": "Common error - not holding a constant pitch attitude in the second half",
+  "s": "Commercial Maneuvers",
+  "q": "What is wrong with letting the nose drop between the 90 and 180 degree points?",
+  "a": "It defeats the maneuver. The second 90 degrees requires a <b>constant pitch attitude</b> while the bank comes out; if the nose sags, the airplane stops trading airspeed for altitude, arrives at the 180 with too much speed and too little altitude, and the examiner sees a steep turn rather than a chandelle. The nose sags because the back pressure required keeps increasing as the airspeed falls and the bank reduces.",
+  "dup": "What are the common errors in a chandelle?"
+ },
+ {
+  "page": 27,
+  "concept": "Common error - rollout rate not constant, or rollout not complete at the 180",
+  "s": "Commercial Maneuvers",
+  "q": "What is the error if you are still banked passing the reciprocal heading?",
+  "a": "The rollout rate was not constant, usually because it was started late or flown in steps rather than continuously. The requirement is a <b>coordinated constant rate rollout</b> begun at the 90 degree point and completed precisely at the 180 degree point; rolling out early leaves the airplane level and still turning short of the heading, and rolling out late blows through the plus or minus 10 degree heading tolerance.",
+  "dup": "What are the common errors in a chandelle?"
+ },
+ {
+  "page": 27,
+  "concept": "Common error - uncoordinated flight, insufficient right rudder",
+  "s": "Commercial Maneuvers",
+  "q": "What does the ball do in a badly flown chandelle and why does it matter?",
+  "a": "It slides to the right of center as the airplane slows at full power, because the pilot is not feeding in the increasing right rudder the left-turning tendencies demand. That skid costs climb performance, makes the maneuver untidy, and at an airspeed just above the stall it is the setup for a <b>spin</b>, since a skidding stall drops the inside wing. Coordination is a graded element in the task, not a nicety.",
+  "dup": "What are the common errors in a chandelle?"
+ },
+ {
+  "page": 27,
+  "concept": "Common error - finishing with excess airspeed or stalling the airplane",
+  "s": "Commercial Maneuvers",
+  "q": "Is a chandelle that finishes 15 knots above stall speed acceptable?",
+  "a": "It is safe but it is not the maneuver: the task asks for the airplane to finish <b>just above stall speed</b> and to hold that momentarily. Finishing fast means the pitch was too low or the rollout was flown early, so the airplane was never operating at maximum performance. The opposite error, an actual stall break at the top, is a disqualifying loss of control, so the target is the narrow band just above the stall with the warning horn just beginning.",
+  "dup": "What are the common errors in a chandelle?"
+ },
+ {
+  "page": 27,
+  "concept": "Common error - losing altitude after the maneuver is complete",
+  "s": "Commercial Maneuvers",
+  "q": "The chandelle is done and the airplane sinks 200 feet. What went wrong?",
+  "a": "The nose was lowered too far or too fast while the airplane was still slow, so it accelerated by descending. The ACS element is to resume straight-and-level flight with <b>minimum loss of altitude</b>: lower the nose only to the level attitude, hold that attitude, and let the airspeed build with power still applied, then reduce power and trim once at cruise speed.",
+  "dup": "What are the common errors in a chandelle?"
+ },
+ {
+  "page": 27,
+  "concept": "Common error - failing to clear the area or using a poor reference",
+  "s": "Commercial Maneuvers",
+  "q": "What are the two setup errors an examiner will catch before a chandelle even starts?",
+  "a": "Not clearing the area with proper clearing turns and a traffic scan, and picking a vague ground reference that cannot be seen once the nose comes up. The whole maneuver is flown by outside reference, so the 90 degree point needs to be something unmistakable such as a road or a shoreline; and because the airplane ends up slow and high-pitched with a long nose-high blind spot, the <b>clearing turns</b> are a graded part of the task, not a formality.",
+  "dup": "What do you do before starting any of the commercial performance maneuvers?"
+ },
+ {
+  "page": 28,
+  "concept": "Purpose and definition of the lazy eight",
+  "s": "Commercial Maneuvers",
+  "q": "What is a lazy eight?",
+  "a": "It is two 180 degree climbing and descending turns flown in opposite directions, with the nose tracing a symmetrical figure eight on its side against the horizon. Every control pressure, the pitch, the bank and the airspeed are changing continuously from start to finish; nothing is ever held constant. The ACS task is <b>CA.V.D</b>, and one complete lazy eight is the pair of 180 degree turns, one to each side.",
+  "dup": "What is a lazy eight and what does it demonstrate?"
+ },
+ {
+  "page": 28,
+  "concept": "What the lazy eight demonstrates",
+  "s": "Commercial Maneuvers",
+  "q": "What is the lazy eight actually testing?",
+  "a": "Mastery of the airplane through a continuously changing flight condition. It tests smooth, coordinated control through constantly varying pitch, bank, airspeed and load factor, planning so that each milestone arrives at the right place, and the ability to divide attention between outside references and the airplane. The examiner is watching for <b>symmetry</b>: the two halves must be mirror images in pitch, bank, altitude and airspeed.",
+  "dup": "What is a lazy eight and what does it demonstrate?"
+ },
+ {
+  "page": 28,
+  "concept": "ACS task code for the lazy eight",
+  "s": "Commercial Maneuvers",
+  "q": "What is the ACS task code for the lazy eight?",
+  "a": "<b>CA.V.D</b>, Task D in Area of Operation V, Performance and Ground Reference Maneuvers, of the Commercial Pilot Airman Certification Standards FAA-S-ACS-7B. It sits between the chandelle, CA.V.C, and eights on pylons, CA.V.E.",
+  "dup": ""
+ },
+ {
+  "page": 28,
+  "concept": "Entry configuration and airspeed for the lazy eight, Warrior II specific",
+  "s": "Commercial Maneuvers",
+  "q": "What airspeed and configuration do you set before a lazy eight in the Warrior?",
+  "a": "Clean, flaps up, trimmed and level, with power set for an airspeed at or below maneuvering speed. The 1981 PA-28-161 Warrior II POH Section 2 gives design maneuvering speed as <b>111 KIAS at 2,440 lb</b>, reducing to 88 KIAS at 1,531 lb, so I use that as the ceiling and interpolate for weight. That power setting is then left alone for the entire maneuver.",
+  "dup": "What is the entry configuration and airspeed for a lazy eight?"
+ },
+ {
+  "page": 28,
+  "concept": "Power is constant throughout the lazy eight",
+  "s": "Commercial Maneuvers",
+  "q": "Do you change power during a lazy eight?",
+  "a": "No. Power is set at the entry for an airspeed at or below maneuvering speed and <b>stays constant</b> for both halves; the airspeed changes come from trading altitude for speed and back again, not from the throttle. In the Warrior with its fixed-pitch propeller that means one throttle setting at the start, mixture rich, and hands off the throttle until the maneuver is finished.",
+  "dup": ""
+ },
+ {
+  "page": 28,
+  "concept": "Minimum altitude for the lazy eight",
+  "s": "Commercial Maneuvers",
+  "q": "What is the minimum altitude for a lazy eight?",
+  "a": "The ACS requires an entry altitude that allows the maneuver to be completed no lower than <b>1,500 feet AGL</b>. The lazy eight returns to its entry altitude at each 180 degree point, so in practice I pick an entry altitude comfortably above that and verify it before each eight, allowing for the descending portions between the 90 and 180 degree points.",
+  "dup": ""
+ },
+ {
+  "page": 28,
+  "concept": "Setting up the visual references for the lazy eight",
+  "s": "Commercial Maneuvers",
+  "q": "How do you set up references for a lazy eight?",
+  "a": "I pick a prominent point on the horizon <b>90 degrees</b> off the entry heading, which is the point the nose will cross at the steepest-bank part of each half, and note reference features at roughly 45 and 135 degrees as well. The entry heading and its reciprocal are the 0 and 180 degree marks. Having real objects to aim at is what makes the milestones repeatable instead of guesswork.",
+  "dup": "How do you set up the visual references for a lazy eight?"
+ },
+ {
+  "page": 28,
+  "concept": "Setting up with the wind perpendicular for the lazy eight",
+  "s": "Commercial Maneuvers",
+  "q": "Which way should the wind be before you start a lazy eight?",
+  "a": "<b>Perpendicular to the entry heading</b>, so the first climbing turn is into the wind. The lazy eight has no ground-track standard, so wind does not affect the grading, but entering crosswind keeps the airplane from drifting away from the practice area and keeps the 90 degree horizon reference from sliding as the maneuver repeats.",
+  "dup": "Why do you set up with the wind perpendicular to your flight path before a chandelle or lazy eight?"
+ },
+ {
+  "page": 28,
+  "concept": "The entry to the 45 degree point of the first half",
+  "s": "Commercial Maneuvers",
+  "q": "What is happening between the entry and the 45 degree point of a lazy eight?",
+  "a": "A gradual climbing turn: the pitch is being raised continuously and the bank is being rolled in slowly, so that the airplane arrives at the 45 degree point with its <b>highest pitch attitude</b> and roughly 15 degrees of bank. The airspeed is decreasing and the altitude is increasing the whole way. The roll-in must be slow; the usual mistake is to get the bank in early and the pitch in late.",
+  "dup": "What happens at the 45, 90, 135 and 180 degree points of a lazy eight?"
+ },
+ {
+  "page": 28,
+  "concept": "The 45 degree point - bank, pitch, airspeed and altitude",
+  "s": "Commercial Maneuvers",
+  "q": "What should bank, pitch, airspeed and altitude be at the 45 degree point?",
+  "a": "Bank about <b>15 degrees</b> and still increasing; pitch at its maximum nose-up for the whole maneuver; airspeed decreasing and roughly a third to halfway down from the entry speed toward the slowest speed of the maneuver; altitude climbing and roughly halfway to the apex. The ACS does not put a number on the 45 degree point, so it is graded on whether the pitch peaks there and whether the two halves match.",
+  "dup": "What happens at the 45, 90, 135 and 180 degree points of a lazy eight?"
+ },
+ {
+  "page": 28,
+  "concept": "The 45 to 90 degree segment of the lazy eight",
+  "s": "Commercial Maneuvers",
+  "q": "What are you doing between the 45 and 90 degree points?",
+  "a": "Letting the pitch come down toward the horizon while continuing to roll the bank in. The nose is still above the horizon so the airplane is still climbing, but more and more slowly, and the airspeed keeps falling. The whole segment is a single continuous blend of <b>decreasing pitch with increasing bank</b>, timed so that both arrive at their target values exactly at the 90 degree point.",
+  "dup": "What happens at the 45, 90, 135 and 180 degree points of a lazy eight?"
+ },
+ {
+  "page": 28,
+  "concept": "The 90 degree point - bank, pitch, airspeed and altitude",
+  "s": "Commercial Maneuvers",
+  "q": "What should the airplane be doing exactly at the 90 degree point of a lazy eight?",
+  "a": "Maximum bank of approximately <b>30 degrees</b>, the slowest airspeed of the maneuver, the highest altitude of the maneuver, and the nose passing down through the horizon, so the pitch is momentarily level and the rate of climb momentarily zero. The 90 degree point is the apex of the loop; everything after it is a descending turn with the bank coming out.",
+  "dup": "What happens at the 45, 90, 135 and 180 degree points of a lazy eight?"
+ },
+ {
+  "page": 28,
+  "concept": "Where the airspeed is lowest in the lazy eight",
+  "s": "Commercial Maneuvers",
+  "q": "Where is the airspeed lowest in a lazy eight and how slow should it get?",
+  "a": "At the <b>90 degree point</b>, where the airplane is at its apex with maximum bank. It should be the slowest speed of the maneuver but still comfortably above a stall with the wings at 30 degrees of bank; a stall warning at the apex means the pitch was too aggressive on the way up. The ACS does not name a speed for this point; it names only the entry airspeed plus or minus 10 knots at the 180 degree point.",
+  "dup": "Where is the airspeed lowest in a lazy eight and how slow should it get?"
+ },
+ {
+  "page": 28,
+  "concept": "The 90 to 135 degree segment of the lazy eight",
+  "s": "Commercial Maneuvers",
+  "q": "What is happening between the 90 and 135 degree points?",
+  "a": "The nose is continuing down through and below the horizon while the bank is being rolled out, so the airplane is descending and accelerating. It is the mirror image of the 45 to 90 segment: <b>decreasing bank with decreasing pitch</b>. The descent and the roll-out are blended so that both reach their extremes together at the 135 degree point.",
+  "dup": "What happens at the 45, 90, 135 and 180 degree points of a lazy eight?"
+ },
+ {
+  "page": 28,
+  "concept": "The 135 degree point - bank, pitch, airspeed and altitude",
+  "s": "Commercial Maneuvers",
+  "q": "What should bank, pitch, airspeed and altitude be at the 135 degree point?",
+  "a": "Bank back down to about <b>15 degrees</b> and still reducing, pitch at its lowest nose-down attitude of the maneuver, airspeed increasing back toward the entry speed, and altitude descending back toward the entry altitude. The 135 degree point mirrors the 45 degree point exactly, which is the test of whether the half is symmetrical.",
+  "dup": "What happens at the 45, 90, 135 and 180 degree points of a lazy eight?"
+ },
+ {
+  "page": 28,
+  "concept": "The 135 to 180 degree segment of the lazy eight",
+  "s": "Commercial Maneuvers",
+  "q": "How do you fly from the 135 degree point to the 180 degree point?",
+  "a": "Raise the nose back toward the horizon while taking out the last of the bank, so that the wings come level and the pitch reaches level flight attitude at the same instant the airplane passes through the <b>reciprocal of the entry heading</b>. The airspeed should be back to the entry speed and the altitude back to the entry altitude at that same moment. Everything has to arrive together; arriving level but off heading, or on heading but still descending, is the classic mis-timing.",
+  "dup": "What happens at the 45, 90, 135 and 180 degree points of a lazy eight?"
+ },
+ {
+  "page": 28,
+  "concept": "The 180 degree point - what the airplane must be doing",
+  "s": "Commercial Maneuvers",
+  "q": "What is the required picture at the 180 degree point of a lazy eight?",
+  "a": "Wings level, nose level, on the reciprocal of the entry heading within plus or minus 10 degrees, at the entry altitude within <b>plus or minus 100 feet</b> and the entry airspeed within plus or minus 10 knots. That instant is the only place in the maneuver the airplane is in level flight, and it is immediately the entry for the second half, flown in the opposite direction without a pause.",
+  "dup": "What happens at the 45, 90, 135 and 180 degree points of a lazy eight?"
+ },
+ {
+  "page": 28,
+  "concept": "The second half mirrors the first in the opposite direction",
+  "s": "Commercial Maneuvers",
+  "q": "What happens after the 180 degree point of a lazy eight?",
+  "a": "The second half begins immediately in the <b>opposite direction</b>, with no pause and no level segment: a climbing turn the other way, maximum pitch at its 45, maximum bank and minimum speed at its 90, lowest pitch at its 135, and level again at its 180, which puts the airplane back on the original entry heading, altitude and airspeed. The two halves together are one complete lazy eight, and they must be symmetrical.",
+  "dup": "What happens at the 45, 90, 135 and 180 degree points of a lazy eight?"
+ },
+ {
+  "page": 28,
+  "concept": "How many loops make one lazy eight",
+  "s": "Commercial Maneuvers",
+  "q": "How many 180 degree turns make up one lazy eight?",
+  "a": "<b>Two</b>, one in each direction, which together return the airplane to its original heading. The examiner will usually ask for a specified number of symmetrical loops, commonly two complete eights, and will be comparing them to each other as well as comparing the halves within each eight.",
+  "dup": ""
+ },
+ {
+  "page": 28,
+  "concept": "The concept of constant change in the lazy eight",
+  "s": "Commercial Maneuvers",
+  "q": "What does constant change mean in a lazy eight?",
+  "a": "It means no parameter is ever steady: pitch, bank, airspeed, altitude, turn rate and control pressures are all changing continuously throughout, and there is no point where the airplane holds an attitude. The only exception is <b>power, which is set once and not touched</b>. Any flat spot, any moment where the bank or the pitch is parked while something else catches up, is the error the examiner is looking for.",
+  "dup": "What does constant change mean in a lazy eight, and why does the examiner care?"
+ },
+ {
+  "page": 28,
+  "concept": "Why the examiner cares about constant change",
+  "s": "Commercial Maneuvers",
+  "q": "Why does the examiner care that nothing is held constant in a lazy eight?",
+  "a": "Because a maneuver with no steady state cannot be flown by chasing instruments or by memorizing a sight picture; it can only be flown by feel, planning and continuous coordination. That is exactly the skill a commercial certificate is meant to certify. If the pilot can hold symmetry through every combination of <b>pitch, bank and airspeed</b> the airplane can produce, the airplane is genuinely being flown rather than managed.",
+  "dup": "What does constant change mean in a lazy eight, and why does the examiner care?"
+ },
+ {
+  "page": 28,
+  "concept": "ACS tolerance - approximately 30 degrees of bank at the steepest point",
+  "s": "Commercial Maneuvers",
+  "q": "What bank does the ACS require in a lazy eight and where?",
+  "a": "Approximately <b>30 degrees</b>, at the steepest point, which is the 90 degree point of each half. The ACS says approximately, so there is no explicit plus-or-minus, but a bank significantly steeper or shallower than 30 degrees at the apex, or two halves that do not match each other, is a deviation.",
+  "dup": "State the ACS tolerances for a lazy eight."
+ },
+ {
+  "page": 28,
+  "concept": "ACS tolerance - altitude plus or minus 100 feet at the 180 degree point",
+  "s": "Commercial Maneuvers",
+  "q": "What is the altitude tolerance on a lazy eight and where is it applied?",
+  "a": "<b>Plus or minus 100 feet</b> of the entry altitude, measured at the 180 degree point. There is no altitude tolerance anywhere else in the maneuver; the altitude at the apex is free, so long as the airplane is back within 100 feet of where it started when it rolls level.",
+  "dup": "State the ACS tolerances for a lazy eight."
+ },
+ {
+  "page": 28,
+  "concept": "ACS tolerance - airspeed plus or minus 10 knots at the 180 degree point",
+  "s": "Commercial Maneuvers",
+  "q": "What airspeed tolerance applies to a lazy eight?",
+  "a": "<b>Plus or minus 10 knots</b> of the entry airspeed, checked at the 180 degree point. Like the altitude standard it only applies at that one place. Arriving fast means the nose stayed too low through the 135; arriving slow means the nose came up too early on the recovery.",
+  "dup": "State the ACS tolerances for a lazy eight."
+ },
+ {
+  "page": 28,
+  "concept": "ACS tolerance - heading plus or minus 10 degrees at the 180 degree point",
+  "s": "Commercial Maneuvers",
+  "q": "What heading tolerance applies to the lazy eight?",
+  "a": "<b>Plus or minus 10 degrees</b> at the 180 degree point, meaning the wings must come level within 10 degrees of the reciprocal of the entry heading. Missing it usually means the bank was rolled out too quickly through the second half, so the airplane stopped turning before it had used up the full 180 degrees.",
+  "dup": "State the ACS tolerances for a lazy eight."
+ },
+ {
+  "page": 28,
+  "concept": "ACS requirement - maintain coordination throughout",
+  "s": "Commercial Maneuvers",
+  "q": "Is coordination graded in a lazy eight?",
+  "a": "Yes; the ACS requires <b>coordinated flight throughout</b> the maneuver, not just at the checkpoints. Coordination is hardest at the apex where the airplane is slowest and the rudder least effective, and on the roll-in and roll-out where adverse yaw is largest, so rudder pressure is changing continuously along with everything else. A ball parked off center anywhere in the maneuver is a deviation.",
+  "dup": "State the ACS tolerances for a lazy eight."
+ },
+ {
+  "page": 28,
+  "concept": "ACS requirement - maneuver completed no lower than 1,500 feet AGL",
+  "s": "Commercial Maneuvers",
+  "q": "What altitude floor does the ACS put on the lazy eight?",
+  "a": "The maneuver must be completed no lower than <b>1,500 feet AGL</b>. Since the lazy eight is flown at a constant power setting and returns to the entry altitude at each 180 degree point, the floor is really about the descending segments between the 90 and 180 degree points and about having room if the airplane is mishandled at its slowest point.",
+  "dup": "State the ACS tolerances for a lazy eight."
+ },
+ {
+  "page": 28,
+  "concept": "Why the airspeed is lowest at the 90 and highest at the 180",
+  "s": "Commercial Maneuvers",
+  "q": "Why does the airspeed vary the way it does through a lazy eight?",
+  "a": "Because power is constant, so the airplane is trading kinetic energy for potential energy and back. Climbing from the entry through the 45 to the apex converts speed into height, so the speed is lowest at the <b>90 degree point</b> where the altitude is highest; descending from the apex through the 135 converts that height back into speed, so the airplane is fastest as it returns to the entry altitude at the 180 degree point.",
+  "dup": "Where is the airspeed lowest in a lazy eight and how slow should it get?"
+ },
+ {
+  "page": 28,
+  "concept": "How bank and pitch rates are blended through each half",
+  "s": "Commercial Maneuvers",
+  "q": "How are the pitch and bank changes timed against each other in a lazy eight?",
+  "a": "They are out of phase by 45 degrees of turn. Pitch peaks at the 45 and bottoms at the 135; bank peaks at the <b>90</b>, which is where the pitch is passing through level. So the first quarter is mostly pitch with a little bank, the second quarter is mostly bank with the pitch coming down, and the second half repeats that in reverse. Thinking of it that way stops the pilot from trying to do everything at once.",
+  "dup": ""
+ },
+ {
+  "page": 28,
+  "concept": "Difference between a lazy eight and a chandelle",
+  "s": "Commercial Maneuvers",
+  "q": "How is a lazy eight different from a chandelle?",
+  "a": "A chandelle is a single 180 degree <b>maximum performance climbing turn</b> flown with full power, ending slow and high, and it is a one-way maneuver. A lazy eight is two 180 degree turns in opposite directions at constant power, climbing then descending in each, returning to the entry altitude, heading and airspeed, and it is graded on symmetry and continuous change rather than on performance. The chandelle has one plus-or-minus number; the lazy eight has three.",
+  "dup": "How is a lazy eight different from a chandelle?"
+ },
+ {
+  "page": 28,
+  "concept": "Rudder requirements at the slow point of the lazy eight",
+  "s": "Commercial Maneuvers",
+  "q": "Where in the lazy eight do you need the most right rudder, and why?",
+  "a": "Climbing toward the apex, where the airspeed is lowest with power applied. P-factor and slipstream effect are at their strongest there while the rudder is least effective, so the left-turning tendencies need the most right rudder at the <b>90 degree point</b>. That is also why a left-hand half feels different from a right-hand half, and why many pilots find their two loops are not symmetrical until they fix the footwork.",
+  "dup": ""
+ },
+ {
+  "page": 28,
+  "concept": "Diagnosing too slow at the apex",
+  "s": "Commercial Maneuvers",
+  "q": "You are almost stalling at the 90 degree point. What did you do wrong and when?",
+  "a": "The pitch attitude at the <b>45 degree point</b> was too high, so too much airspeed was traded away before the apex. The fix is earlier in the maneuver, not at the apex: raise the nose more gradually from the entry and plan the maximum pitch at the 45 to be an attitude the airplane can carry around to the 90 with airspeed left over. Pulling the nose down at the apex to save it only makes the second half asymmetric.",
+  "dup": "What are the common errors in a lazy eight?"
+ },
+ {
+  "page": 28,
+  "concept": "Diagnosing too fast at the 180",
+  "s": "Commercial Maneuvers",
+  "q": "You arrive at the 180 degree point 15 knots fast. What caused it?",
+  "a": "The nose was too low through the 135 degree point, or it was held low too long, so the airplane spent too much of the descent accelerating. The cure is to make the lowest pitch attitude at the 135 shallower and to start raising the nose earlier, so the airplane arrives level and at the <b>entry airspeed plus or minus 10 knots</b> at the same instant the wings come level.",
+  "dup": "What are the common errors in a lazy eight?"
+ },
+ {
+  "page": 28,
+  "concept": "Diagnosing low at the 180",
+  "s": "Commercial Maneuvers",
+  "q": "You arrive at the 180 degree point 150 feet low. What caused it?",
+  "a": "Not enough climb in the first quarter, too much descent in the last quarter, or both; usually the apex was too low because the pitch at the 45 was too shallow, so there was no height to give back. The ACS allows <b>plus or minus 100 feet</b> at the 180, so the fix is a higher maximum pitch at the 45 degree point and a shallower minimum pitch at the 135 degree point, not a pull at the end.",
+  "dup": "What are the common errors in a lazy eight?"
+ },
+ {
+  "page": 28,
+  "concept": "Common error at the 45 - wrong pitch attitude or bank in too early",
+  "s": "Commercial Maneuvers",
+  "q": "What are the common errors at the 45 degree point of a lazy eight?",
+  "a": "Rolling the bank in too fast so the airplane is near its maximum bank before the pitch has peaked; failing to reach the <b>maximum pitch attitude</b> at the 45 at all, which flattens the whole loop; and using too much pitch, which bleeds the airspeed away so the apex is nearly a stall. The bank at the 45 should be only about 15 degrees and still increasing.",
+  "dup": "What are the common errors in a lazy eight?"
+ },
+ {
+  "page": 28,
+  "concept": "Common error at the 90 - bank wrong, apex misplaced, or airspeed too low",
+  "s": "Commercial Maneuvers",
+  "q": "What are the common errors at the 90 degree point?",
+  "a": "Exceeding approximately <b>30 degrees</b> of bank, which turns the half into a steep turn; reaching the highest altitude before or after the 90 rather than at it; letting the airspeed get so low that the stall warning sounds; and failing to let the nose pass through the horizon at that point, which leaves the airplane climbing into the second quarter. Loss of coordination is common here too, because the rudder is least effective at the slowest speed.",
+  "dup": "What are the common errors in a lazy eight?"
+ },
+ {
+  "page": 28,
+  "concept": "Common error at the 135 - pitch not low enough or rollout rushed",
+  "s": "Commercial Maneuvers",
+  "q": "What are the common errors at the 135 degree point?",
+  "a": "Not reaching the <b>lowest pitch attitude</b> there, so the airplane cannot recover the altitude and speed it needs by the 180; rolling the wings level too early, which stops the turn short of the reciprocal heading; and letting the nose stay down too long, which arrives at the 180 fast and low. The bank at the 135 should still be about 15 degrees, mirroring the 45.",
+  "dup": "What are the common errors in a lazy eight?"
+ },
+ {
+  "page": 28,
+  "concept": "Common error at the 180 - not level, off heading, altitude or airspeed",
+  "s": "Commercial Maneuvers",
+  "q": "What are the common errors at the 180 degree point?",
+  "a": "Arriving with the wings not quite level, arriving on a heading more than <b>10 degrees</b> off the reciprocal, being outside 100 feet of the entry altitude or 10 knots of the entry airspeed, and pausing in level flight before starting the second half when the second half should begin immediately. All four tolerances apply at that one instant, so everything has to converge there at once.",
+  "dup": "What are the common errors in a lazy eight?"
+ },
+ {
+  "page": 28,
+  "concept": "Common error - unequal loops, the two halves not symmetrical",
+  "s": "Commercial Maneuvers",
+  "q": "Your two loops do not look the same. Why is that an error?",
+  "a": "Because <b>symmetry</b> is what the maneuver is grading. Unequal loops mean the pilot is flying one direction better than the other, almost always because the rudder work differs between left and right turns, or because the pilot is working from the heading indicator rather than from outside references. The apex altitude, the maximum pitch and the maximum bank should be the same in both halves.",
+  "dup": "What are the common errors in a lazy eight?"
+ },
+ {
+  "page": 28,
+  "concept": "Common error - uncoordinated use of the controls",
+  "s": "Commercial Maneuvers",
+  "q": "What does poor coordination look like in a lazy eight?",
+  "a": "The ball sliding out on the roll-in from adverse yaw, the nose yawing left as the airplane slows toward the apex with no corresponding right rudder, and a skid in the descending turn as the pilot uses rudder to hurry the rollout. Because every control pressure is changing throughout, coordination here means <b>continuously changing rudder pressure</b>, not one setting held through the turn.",
+  "dup": "What are the common errors in a lazy eight?"
+ },
+ {
+  "page": 28,
+  "concept": "Common error - poor selection of reference points",
+  "s": "Commercial Maneuvers",
+  "q": "How does picking the wrong references spoil a lazy eight?",
+  "a": "Without a solid outside reference at the 90 degree point the pilot ends up flying the maneuver on the heading indicator, which lags and is behind the airplane, so the milestones all arrive late and the halves do not match. The reference should be something unmistakable on the horizon <b>90 degrees</b> off the entry heading, visible even when the nose is high, and chosen before the entry.",
+  "dup": "What are the common errors in a lazy eight?"
+ },
+ {
+  "page": 28,
+  "concept": "Common error - constant pitch or flying it as a steep turn",
+  "s": "Commercial Maneuvers",
+  "q": "What is the single most common way pilots turn a lazy eight into something else?",
+  "a": "By parking an attitude: rolling into a bank, holding it, and then pulling the nose around, which is a <b>steep turn</b>, not a lazy eight. The symptoms are a flat spot in the pitch change, a bank that sits at one angle for several seconds, and an airspeed that stops moving. In a correct lazy eight the pitch and the bank are both changing every second of the maneuver.",
+  "dup": "What are the common errors in a lazy eight?"
+ },
+ {
+  "page": 28,
+  "concept": "Common error - altitude creeping between successive eights",
+  "s": "Commercial Maneuvers",
+  "q": "You fly three lazy eights and finish 200 feet above where you started. What is wrong?",
+  "a": "Each eight is gaining a little altitude, which means the climbing portions are not being balanced by the descending portions: usually the pitch at the 45 is higher than the nose-down pitch at the 135. The maneuver should return to the <b>entry altitude</b> at every 180 degree point, so I compare the altimeter at each one and make the low pitch attitude as far below the horizon as the high one is above it.",
+  "dup": "What are the common errors in a lazy eight?"
+ },
+ {
+  "page": 29,
+  "concept": "Purpose and definition of the steep spiral",
+  "s": "Commercial Maneuvers",
+  "q": "What is a steep spiral and what does it demonstrate?",
+  "a": "It is a gliding, constant radius descending turn of at least three complete 360 degree turns around a ground reference point, flown at idle power at a specified airspeed. It demonstrates that I can lose a lot of altitude over one spot while keeping the glide speed exact and correcting for wind drift, which is the real-world skill of spiraling down over a field after an engine failure. The ACS task is <b>CA.V.B</b>.",
+  "dup": "What is a steep spiral and what does it demonstrate?"
+ },
+ {
+  "page": 29,
+  "concept": "ACS task code for the steep spiral",
+  "s": "Commercial Maneuvers",
+  "q": "What is the ACS task code for the steep spiral?",
+  "a": "<b>CA.V.B</b>, Task B in Area of Operation V, Performance and Ground Reference Maneuvers, of the Commercial Pilot Airman Certification Standards FAA-S-ACS-7B. It is the only one of the performance maneuvers flown power-off, which is why it is grouped with the emergency descent skills in practice even though it sits in the performance area of operation.",
+  "dup": ""
+ },
+ {
+  "page": 29,
+  "concept": "Entry to the steep spiral - power idle, best glide airspeed, Warrior II specific",
+  "s": "Commercial Maneuvers",
+  "q": "How do you enter a steep spiral in the Warrior?",
+  "a": "Carburetor heat on, throttle closed to idle, and trim for the glide, then roll into a bank that will give a constant radius circle around the chosen ground reference. The Warrior II POH Section 3 power-off procedure says to <b>trim for 73 KIAS</b>, which is the airplane's best glide speed, so unless the examiner specifies another number that is the airspeed I fly and announce. The entry is made on the downwind side so the first part of the circle is the fastest part.",
+  "dup": "What airspeed do you fly in a steep spiral and what is the tolerance?"
+ },
+ {
+  "page": 29,
+  "concept": "Airspeed tolerance in the steep spiral",
+  "s": "Commercial Maneuvers",
+  "q": "What is the airspeed tolerance in a steep spiral?",
+  "a": "The ACS requires the specified airspeed <b>plus or minus 10 knots</b> throughout. In the Warrior that means 73 KIAS plus or minus 10 if I am flying best glide. Note that the Gold Seal page prints the tolerance with a degree symbol; the ACS standard is in knots. Holding it is the hard part, because in a descending turn the airspeed wants to build steadily and the pitch has to be worked continuously against it.",
+  "dup": "What airspeed do you fly in a steep spiral and what is the tolerance?"
+ },
+ {
+  "page": 29,
+  "concept": "Carburetor heat during the steep spiral - Warrior II specific",
+  "s": "Commercial Maneuvers",
+  "q": "Why does the Warrior need carburetor heat in a steep spiral?",
+  "a": "Because the Lycoming O-320 is carbureted and a long descent at closed throttle is the classic induction icing condition: low power, low carburetor temperature and plenty of time. The POH Section 4 power-off descent checklist lists carburetor heat <b>ON if required</b> before closing the throttle, and I will apply it before reducing power rather than after ice has already formed, since carburetor heat is far less effective once ice is present.",
+  "dup": "What must you do with the engine during a steep spiral and why?"
+ },
+ {
+  "page": 29,
+  "concept": "Clearing the engine during the steep spiral - the 30 second rule",
+  "s": "Commercial Maneuvers",
+  "q": "How often do you clear the engine in a steep spiral and where does that come from?",
+  "a": "At least every 30 seconds. The Warrior II POH Section 4 power-off descent checklist says to <b>verify power with the throttle every 30 seconds</b>, and the ACS expects the engine to be cleared periodically during the spiral. The reason is that a long idle descent cools the cylinders, can load the plugs and can allow carburetor ice to build unnoticed, so the airplane could be left without the power it needs at the bottom.",
+  "dup": "What must you do with the engine during a steep spiral and why?"
+ },
+ {
+  "page": 29,
+  "concept": "Selecting the ground reference point for a steep spiral",
+  "s": "Commercial Maneuvers",
+  "q": "How do you choose the reference point for a steep spiral?",
+  "a": "A small, distinct, stationary object that can be seen from a steep bank, such as an isolated building, a road intersection or a silo, in an area clear of congestion and other traffic, and ideally with a landing field within gliding distance since the maneuver is flown power-off. A <b>small</b> point is better than a large one, because a big feature such as a whole field gives no precise center to judge the radius against.",
+  "dup": "How do you choose the entry altitude and entry point for a steep spiral?"
+ },
+ {
+  "page": 29,
+  "concept": "Choosing the entry altitude so the maneuver finishes above 1,500 AGL",
+  "s": "Commercial Maneuvers",
+  "q": "How do you pick the entry altitude for a steep spiral?",
+  "a": "Work backward from the floor: the maneuver must finish no lower than <b>1,500 feet AGL</b> after at least three complete 360 degree turns, so I need enough altitude to lose all three turns' worth and still be above that. I use the altitude lost in the first turn to predict the rest; if after two turns I will not have room for the third above the floor, I say so and terminate. In practice this means entering several thousand feet AGL.",
+  "dup": "How do you choose the entry altitude and entry point for a steep spiral?"
+ },
+ {
+  "page": 29,
+  "concept": "ACS standard - at least three complete 360 degree turns",
+  "s": "Commercial Maneuvers",
+  "q": "How many turns does the ACS require in a steep spiral?",
+  "a": "At least <b>three complete 360 degree turns</b>, each one a constant radius circle around the same reference point. Fewer than three is an unsatisfactory task, and the pilot is expected to have selected an entry altitude high enough to complete all three above the altitude floor without rushing or steepening the descent to fit them in.",
+  "dup": "What are the ACS completion standards for the steep spiral?"
+ },
+ {
+  "page": 29,
+  "concept": "ACS standard - bank not to exceed 60 degrees",
+  "s": "Commercial Maneuvers",
+  "q": "How steep may the bank get in a steep spiral?",
+  "a": "The bank must not exceed <b>60 degrees</b> at the steepest point, which will be the downwind portion of each circle where the groundspeed is highest. That is a hard limit, not a target: the bank is whatever is needed to hold a constant radius, and if holding the radius would require more than 60 degrees then the circle chosen was too small and I should widen it rather than exceed the limit.",
+  "dup": "How steep may the bank get in a steep spiral?"
+ },
+ {
+  "page": 29,
+  "concept": "Stall margin at 60 degrees of bank in the Warrior",
+  "s": "Commercial Maneuvers",
+  "q": "What is the stall margin at 60 degrees of bank in a steep spiral?",
+  "a": "Thin, and that is the real reason for the 60 degree limit. A 60 degree level-flight bank is a load factor of <b>2.0 G</b>, which raises the stall speed by the square root of two, a factor of 1.41. The Warrior II's flaps-up stall speed at gross is the bottom of the green arc, 50 KIAS, so at 60 degrees it is about 71 KIAS, which is within a few knots of the 73 KIAS glide speed. If the bank approaches 60 degrees I add airspeed or widen the circle.",
+  "dup": ""
+ },
+ {
+  "page": 29,
+  "concept": "Wind drift correction - varying bank to hold a constant radius",
+  "s": "Commercial Maneuvers",
+  "q": "How do you hold a constant radius in a steep spiral with a wind blowing?",
+  "a": "By varying the bank continuously around the circle, steepening it where the groundspeed is high and shallowing it where the groundspeed is low. The airplane is flying a <b>constant airspeed</b> but its groundspeed changes with its heading relative to the wind, and because turn radius grows with the square of groundspeed, only a changing bank keeps the ground track circular. The adjustment is continuous, not four discrete settings.",
+  "dup": ""
+ },
+ {
+  "page": 29,
+  "concept": "Where the bank is steepest and shallowest in a steep spiral",
+  "s": "Commercial Maneuvers",
+  "q": "Where in a steep spiral is the bank steepest and where is it shallowest?",
+  "a": "Steepest on the <b>downwind</b> portion, where the tailwind gives the highest groundspeed and therefore the largest radius for a given bank, and shallowest on the upwind portion, where the headwind gives the lowest groundspeed. The bank passes through intermediate values on the crosswind portions, changing smoothly all the way around. The steepest point is where the 60 degree limit bites, so it is the point to watch.",
+  "dup": "Where in a steep spiral is the bank steepest and where is it shallowest?"
+ },
+ {
+  "page": 29,
+  "concept": "Dividing attention and maintaining coordination in the steep spiral",
+  "s": "Commercial Maneuvers",
+  "q": "What is the division of attention problem in a steep spiral?",
+  "a": "I have to watch the ground track and the reference point outside, keep the airspeed within <b>plus or minus 10 knots</b>, keep the ball centered, watch the altimeter against the 1,500 foot AGL floor, clear for traffic through three full circles, and clear the engine every 30 seconds. It is deliberately more to manage than the pilot can do by staring at any one thing, which is why the ACS lists division of attention as a graded element.",
+  "dup": ""
+ },
+ {
+  "page": 29,
+  "concept": "Completion of the steep spiral - rollout on a specified heading or object",
+  "s": "Commercial Maneuvers",
+  "q": "How do you finish a steep spiral?",
+  "a": "After the third complete turn I roll out toward a specified object or heading, within <b>plus or minus 10 degrees</b>, leading the rollout so the wings come level on that heading rather than past it. Then I recover from the glide: carburetor heat off as power comes back in, smoothly add power and raise the nose to level flight without letting the airspeed build or ballooning the airplane, and re-trim.",
+  "dup": "What are the ACS completion standards for the steep spiral?"
+ },
+ {
+  "page": 29,
+  "concept": "Avoiding excessive airspeed during the recovery",
+  "s": "Commercial Maneuvers",
+  "q": "What must you avoid as you recover from a steep spiral?",
+  "a": "Letting the airspeed build in the dive or snatching the airplane out of it. The recovery is a smooth, coordinated rollout and a gentle level-off; pulling hard at a steep bank and high speed loads the airframe and can over-G it. The Warrior II POH Section 2 gives maximum structural cruising speed as <b>126 KIAS</b> and never exceed as 160 KIAS, so the airspeed is monitored throughout the spiral and the pitch is used to keep it on the assigned number.",
+  "dup": ""
+ },
+ {
+  "page": 29,
+  "concept": "Difference between a steep spiral and a spiral dive",
+  "s": "Commercial Maneuvers",
+  "q": "How is a steep spiral different from a spiral dive?",
+  "a": "A steep spiral is a controlled, deliberate, constant-airspeed gliding turn at a planned bank around a point. A spiral dive is a loss of control: the bank is too steep, the nose drops, the <b>airspeed and the rate of descent increase rapidly</b>, and pulling back tightens the spiral and increases the load factor instead of recovering. The recovery from a spiral dive is to reduce power, roll the wings level and then raise the nose, in that order.",
+  "dup": "How is a steep spiral different from a spiral dive?"
+ },
+ {
+  "page": 29,
+  "concept": "Operational purpose - descending over a field after an engine failure",
+  "s": "Commercial Maneuvers",
+  "q": "When would you actually use a steep spiral outside a checkride?",
+  "a": "Any time I need to lose a lot of altitude over one spot: holding over a chosen field after an engine failure while I run the checklist and plan the pattern, descending over an airport beneath a layer or inside a tight area, or getting down quickly for any reason while staying over a known landing site. The practice value is that it keeps the airplane at a <b>known glide speed</b> and over the field instead of drifting away from it.",
+  "dup": "What is a steep spiral and what does it demonstrate?"
+ },
+ {
+  "page": 29,
+  "concept": "Common error - airspeed not constant, increasing during the descent",
+  "s": "Commercial Maneuvers",
+  "q": "What is the most common airspeed error in a steep spiral?",
+  "a": "Letting the airspeed creep up as the spiral develops, because in a steep descending turn the nose keeps wanting to drop and the pitch pressure required keeps changing with the bank. The standard is the specified airspeed <b>plus or minus 10 knots</b>, which in the Warrior is 73 KIAS plus or minus 10, so the pitch has to be worked continuously and the airspeed indicator scanned every few seconds, not once a turn.",
+  "dup": "What are the common errors in a steep spiral?"
+ },
+ {
+  "page": 29,
+  "concept": "Common error - radius not constant, poor wind drift correction",
+  "s": "Commercial Maneuvers",
+  "q": "What does it look like when the wind correction is wrong in a steep spiral?",
+  "a": "The ground track becomes an oval or a spiral that drifts downwind instead of a circle around the point, because the bank was held at one angle all the way around rather than varied with the <b>groundspeed</b>. The symptom is that the reference point slides out from under the wing on one side of the circle and is cut too close on the other. The fix is a continuously changing bank, steepest downwind, shallowest upwind.",
+  "dup": "What are the common errors in a steep spiral?"
+ },
+ {
+  "page": 29,
+  "concept": "Common error - exceeding 60 degrees of bank",
+  "s": "Commercial Maneuvers",
+  "q": "Why do pilots exceed 60 degrees of bank in a steep spiral, and what should they do instead?",
+  "a": "Because they chose a circle that is too small for the wind, then steepened to keep the radius as the groundspeed built on the downwind side. Exceeding <b>60 degrees</b> is a direct violation of the standard and puts the airplane near its accelerated stall speed at glide speed. The correct answer is to fly a larger circle from the start, sized so the steepest bank needed on the downwind side stays inside the limit.",
+  "dup": "What are the common errors in a steep spiral?"
+ },
+ {
+  "page": 29,
+  "concept": "Common error - failing to clear the engine or use carburetor heat",
+  "s": "Commercial Maneuvers",
+  "q": "What engine handling errors will an examiner catch in a steep spiral?",
+  "a": "Never touching the throttle through three full turns, and gliding at idle in a carbureted airplane without carburetor heat. The Warrior II POH Section 4 power-off descent checklist calls for carburetor heat on if required and verifying power with the throttle <b>every 30 seconds</b>; skipping either risks arriving at the bottom of the spiral with a cold, iced or loaded-up engine that will not make power when it is needed.",
+  "dup": "What are the common errors in a steep spiral?"
+ },
+ {
+  "page": 29,
+  "concept": "Common error - fixation on the reference point, failure to clear for traffic",
+  "s": "Commercial Maneuvers",
+  "q": "What is the attention error in a steep spiral?",
+  "a": "Staring at the reference point and flying the whole maneuver through the side window, which means the airspeed drifts, the ball goes out, the altimeter is not checked against the floor, and nobody is looking for traffic through three complete <b>360 degree</b> turns in a descending spiral. The scan has to keep rotating between the point, the airspeed, the ball, the altimeter and the airspace, and clearing turns are required before the entry.",
+  "dup": "What are the common errors in a steep spiral?"
+ },
+ {
+  "page": 29,
+  "concept": "Common error - slipping or skidding through the spiral",
+  "s": "Commercial Maneuvers",
+  "q": "Why does coordination slip in a steep spiral and why does it matter?",
+  "a": "Because the bank is changing constantly, so the rudder pressure must change constantly, and pilots tend to hold one setting. In a descending turn with the bank changing, a steady foot produces a slip on the way in and a skid on the way out. It matters because a <b>skidding turn near the accelerated stall speed</b> is how a steep spiral becomes a spin, and the maneuver is being flown at a bank where the stall speed is already much higher than normal.",
+  "dup": "What are the common errors in a steep spiral?"
+ },
+ {
+  "page": 29,
+  "concept": "Common error - descending below 1,500 feet AGL or poor altitude planning",
+  "s": "Commercial Maneuvers",
+  "q": "You are about to finish the third turn at 1,300 feet AGL. What went wrong and what do you do?",
+  "a": "The entry altitude was too low for three turns, so the maneuver is already outside the standard of completing no lower than <b>1,500 feet AGL</b>. The right action is to recognize it before it happens, roll out and terminate the maneuver, tell the examiner why, climb and reposition rather than pressing on. Judging the altitude needed from the loss in the first turn is the part that should have been done earlier.",
+  "dup": "What are the common errors in a steep spiral?"
+ },
+ {
+  "page": 29,
+  "concept": "Common error - rolling out past the assigned heading or object",
+  "s": "Commercial Maneuvers",
+  "q": "Why do pilots miss the rollout heading on a steep spiral?",
+  "a": "Because they start the rollout as the nose reaches the target instead of leading it, and at a steep bank the turn rate is high, so the airplane sweeps past. The rollout must finish on the specified object or heading within <b>plus or minus 10 degrees</b>, so I lead it by roughly half the bank angle in degrees of heading and make the rollout smooth rather than abrupt.",
+  "dup": "What are the common errors in a steep spiral?"
+ },
+ {
+  "page": 30,
+  "concept": "Purpose and definition of eights on pylons",
+  "s": "Commercial Maneuvers",
+  "q": "What are eights on pylons and what do they demonstrate?",
+  "a": "They are a figure eight flown around two ground points, holding a line of sight from the pilot's eye out over the wingtip onto each pylon by varying altitude around pivotal altitude. They demonstrate the highest level of attention division and outside reference flying in the commercial maneuvers: the airplane is controlled from a visual reference while the pilot manages altitude, bank and coordination. The ACS task is <b>CA.V.E</b>.",
+  "dup": "What are eights on pylons and what do they demonstrate?"
+ },
+ {
+  "page": 30,
+  "concept": "ACS task code for eights on pylons",
+  "s": "Commercial Maneuvers",
+  "q": "What is the ACS task code for eights on pylons?",
+  "a": "<b>CA.V.E</b>, Task E in Area of Operation V, Performance and Ground Reference Maneuvers, of the Commercial Pilot Airman Certification Standards FAA-S-ACS-7B. It is the last task in that area and is unique among the ground reference maneuvers in that it is not flown at a constant altitude and is not a constant radius maneuver.",
+  "dup": ""
+ },
+ {
+  "page": 30,
+  "concept": "Definition of pivotal altitude",
+  "s": "Commercial Maneuvers",
+  "q": "What is pivotal altitude?",
+  "a": "Pivotal altitude is the altitude at which, for a given groundspeed, the line of sight from the pilot over the wingtip appears to <b>pivot</b> on a fixed point on the ground: the airplane's rate of turn exactly matches the rate at which the bearing to the point changes, so the point neither moves ahead of nor behind the reference line. It depends only on groundspeed, not on the bank angle, the airplane type or the distance from the point.",
+  "dup": "What is pivotal altitude?"
+ },
+ {
+  "page": 30,
+  "concept": "Pivotal altitude formula in knots, with a worked example",
+  "s": "Commercial Maneuvers",
+  "q": "Give me the pivotal altitude formula in knots and work an example.",
+  "a": "Pivotal altitude in feet above the point equals groundspeed in knots squared divided by <b>11.3</b>. At 100 knots groundspeed: 100 squared is 10,000; 10,000 divided by 11.3 is 885 feet above the pylon. At 90 knots: 8,100 divided by 11.3 is 717 feet. The Gold Seal page adds the elevation of the ground reference, so with a pylon at 800 feet MSL and 100 knots groundspeed I would fly 885 plus 800, which is 1,685 feet MSL.",
+  "dup": "What is the formula for pivotal altitude in knots? Work an example."
+ },
+ {
+  "page": 30,
+  "concept": "Pivotal altitude formula in miles per hour, with a worked example",
+  "s": "Commercial Maneuvers",
+  "q": "What is the pivotal altitude formula if the groundspeed is in miles per hour?",
+  "a": "Groundspeed in miles per hour squared divided by <b>15</b>. For example, 115 mph groundspeed: 115 squared is 13,225; divided by 15 is 882 feet above the pylon. Cross-checking, 115 mph is almost exactly 100 knots, and the knots formula gave 885 feet for 100 knots, so the two forms agree. Older texts and older airspeed indicators use the mph form, which is why both are worth knowing.",
+  "dup": "What is the pivotal altitude formula if your groundspeed is in miles per hour?"
+ },
+ {
+  "page": 30,
+  "concept": "Where the divisors 11.3 and 15 come from",
+  "s": "Commercial Maneuvers",
+  "q": "Where does the divisor 11.3 come from?",
+  "a": "From the physics. Pivotal altitude is velocity squared divided by the acceleration of gravity with the velocity in feet per second, and <b>gravity is 32.2 feet per second squared</b>. One knot is 1.6878 feet per second, so squaring that gives 2.849, and 32.2 divided by 2.849 is 11.3. For miles per hour, one mph is 1.4667 feet per second, squared is 2.151, and 32.2 divided by 2.151 is 14.97, which is rounded to 15.",
+  "dup": "Where does the divisor 11.3 come from?"
+ },
+ {
+  "page": 30,
+  "concept": "The formula gives height above the pylon, not MSL",
+  "s": "Commercial Maneuvers",
+  "q": "The formula gives you 885 feet. Is that what you set on the altimeter?",
+  "a": "No. The formula gives the height <b>above the pylon</b>, so it is an AGL figure referenced to the ground at the pylon, and I have to add the elevation of the ground reference to get the altitude to fly on the altimeter. The Gold Seal page states it that way: groundspeed squared divided by 11.3, plus the MSL elevation of the ground reference. Getting this wrong by the field elevation is a common way to start the maneuver hundreds of feet off.",
+  "dup": ""
+ },
+ {
+  "page": 30,
+  "concept": "Pivotal altitude depends on groundspeed, not airspeed",
+  "s": "Commercial Maneuvers",
+  "q": "Does pivotal altitude depend on airspeed or groundspeed?",
+  "a": "<b>Groundspeed</b>. The maneuver is a geometric relationship between the airplane's turn rate and the rate at which the bearing to a fixed point on the ground changes, and that depends on how fast the airplane is moving over the ground. Two airplanes at the same indicated airspeed but in different winds have different pivotal altitudes, and the same airplane has a different pivotal altitude on every heading around the circuit.",
+  "dup": "Why does the pivotal altitude change during eights on pylons?"
+ },
+ {
+  "page": 30,
+  "concept": "Why pivotal altitude changes during the maneuver",
+  "s": "Commercial Maneuvers",
+  "q": "Why does the pivotal altitude change as you go around a pylon?",
+  "a": "Because the groundspeed changes with heading in a wind, and pivotal altitude varies with the <b>square</b> of the groundspeed. Heading downwind the groundspeed is highest so the pivotal altitude is highest; heading upwind it is lowest so the pivotal altitude is lowest. The airplane therefore climbs slightly as it turns downwind and descends as it comes back upwind, and that climb and descent is how the pylon is held.",
+  "dup": "Why does the pivotal altitude change during eights on pylons?"
+ },
+ {
+  "page": 30,
+  "concept": "Magnitude of the pivotal altitude change with wind - worked example",
+  "s": "Commercial Maneuvers",
+  "q": "How much does pivotal altitude actually change in a 15 knot wind at 90 knots true?",
+  "a": "Downwind the groundspeed is 105 knots, so 105 squared is 11,025 divided by 11.3, which is 976 feet; upwind the groundspeed is 75 knots, so 5,625 divided by 11.3 is 498 feet. That is a swing of nearly <b>480 feet</b> between the upwind and downwind sides of the circuit, which shows why the maneuver cannot be flown at one fixed altitude and why a strong wind makes it much harder.",
+  "dup": "Why does the pivotal altitude change during eights on pylons?"
+ },
+ {
+  "page": 30,
+  "concept": "Working out the groundspeed to use before flying the maneuver",
+  "s": "Commercial Maneuvers",
+  "q": "How do you work out the groundspeed to use before flying eights on pylons?",
+  "a": "I compute an approximate entry pivotal altitude from an average groundspeed, then refine it in flight. On the ground I take the planned true airspeed and the forecast wind and work out the groundspeed, or I use the <b>average of the upwind and downwind groundspeeds</b>, which is close to the true airspeed. In the airplane I check groundspeed on the GPS on the downwind entry leg and use that number, then let the pylon itself tell me whether I am high or low.",
+  "dup": "How do you work out the groundspeed to use before flying eights on pylons?"
+ },
+ {
+  "page": 30,
+  "concept": "Pivotal altitude is independent of bank angle and distance from the pylon",
+  "s": "Commercial Maneuvers",
+  "q": "Does a steeper bank or flying closer to the pylon change the pivotal altitude?",
+  "a": "No. Pivotal altitude is a function of <b>groundspeed alone</b>; the bank angle and the distance from the pylon fall out of the derivation. What the distance and bank do determine is each other: flying closer requires a steeper bank to keep the wingtip line on the pylon. That is why the pylons are chosen so the required bank at the correct pivotal altitude comes out between 30 and 40 degrees.",
+  "dup": ""
+ },
+ {
+  "page": 30,
+  "concept": "Entry to eights on pylons",
+  "s": "Commercial Maneuvers",
+  "q": "How do you enter eights on pylons?",
+  "a": "Downwind, on a <b>45 degree</b> diagonal between the two pylons, at the approximate pivotal altitude computed for the entry groundspeed, with the airplane trimmed and the power set. Entering downwind means the first turn is at the highest groundspeed, so the highest pivotal altitude of the circuit is at the beginning where it is easiest to judge, and the maneuver then descends into the upwind portion.",
+  "dup": "How do you enter and fly eights on pylons?"
+ },
+ {
+  "page": 30,
+  "concept": "Rolling onto the first pylon",
+  "s": "Commercial Maneuvers",
+  "q": "What do you do when you come abeam the first pylon?",
+  "a": "Roll into a bank of <b>30 to 40 degrees</b> toward the pylon, placing the line of sight from my eye over the wingtip directly on it, and then stop using the controls to chase the pylon sideways: from that point the pylon is held by adjusting altitude, with the bank only varying as needed for the geometry of the turn. The roll-in is coordinated and smooth, not a snatch.",
+  "dup": "What bank angle should eights on pylons be flown at?"
+ },
+ {
+  "page": 30,
+  "concept": "Flying around the pylon and transitioning to the second",
+  "s": "Commercial Maneuvers",
+  "q": "Describe one complete circuit of eights on pylons.",
+  "a": "From the 45 degree downwind entry, roll onto the first pylon abeam and turn around it, varying altitude to hold the reference line; as the airplane comes back around, roll out onto the <b>diagonal between the pylons</b>, fly wings level briefly, then roll in the opposite direction onto the second pylon and turn around it the same way. Rolling out between the pylons and in again completes the figure eight, and the pattern then repeats.",
+  "dup": "How do you enter and fly eights on pylons?"
+ },
+ {
+  "page": 30,
+  "concept": "Establishing the wingtip line of sight reference line",
+  "s": "Commercial Maneuvers",
+  "q": "How do you establish the reference line for eights on pylons?",
+  "a": "It is the line from <b>my eye</b> out over a fixed point on the wing, usually the wingtip, extended to the ground, and because it starts at my eye it depends on where I sit. I establish it before the maneuver by setting the seat where it will be for the whole flight and noting, in a known bank, what part of the wing lines up with a ground point. In the low-wing Warrior the reference is below the horizon out over the wing, which is a different picture from a high-wing airplane.",
+  "dup": "How do you establish the wingtip reference line?"
+ },
+ {
+  "page": 30,
+  "concept": "The pylon moves ahead of the reference line - diagnosis and correction",
+  "s": "Commercial Maneuvers",
+  "q": "The pylon appears to move ahead of your reference line. What is wrong and what do you do?",
+  "a": "I am <b>above</b> pivotal altitude, so I descend. Above pivotal altitude the airplane's turn rate is greater than the rate at which the bearing to the pylon is changing, so the airplane is turning faster than the pylon is going by and the pylon creeps forward toward the nose. Lowering the nose slightly reduces the altitude, and at the lower altitude the geometry matches again and the pylon stops moving. The correction is altitude, never rudder.",
+  "dup": "The pylon appears to move ahead of your reference line. What is wrong and what do you do?"
+ },
+ {
+  "page": 30,
+  "concept": "The pylon moves behind the reference line - diagnosis and correction",
+  "s": "Commercial Maneuvers",
+  "q": "The pylon appears to drift back toward the tail. What is wrong and what do you do?",
+  "a": "I am <b>below</b> pivotal altitude, so I climb. Below pivotal altitude the airplane is not turning fast enough to keep up with the bearing change to the pylon, so the pylon falls back behind the reference line toward the tail. Raising the nose slightly climbs the airplane back to the pivotal altitude for the current groundspeed and the pylon stops moving aft. The correction is altitude, never rudder.",
+  "dup": "The pylon appears to move behind your reference line. What is wrong and what do you do?"
+ },
+ {
+  "page": 30,
+  "concept": "The reference line phrasing, and how to keep the two cases straight",
+  "s": "Commercial Maneuvers",
+  "q": "How do you keep straight which way to correct when the pylon moves?",
+  "a": "I use one sentence: the pylon moves the way the airplane needs to <b>not</b> go. If the pylon moves forward, the airplane is high and must come down; if the pylon moves aft, the airplane is low and must climb. The Airplane Flying Handbook states it from the other side, in terms of the reference line moving relative to the pylon, which says the same thing inverted, so I always say which one I mean before answering.",
+  "dup": "The pylon appears to move ahead of your reference line. What is wrong and what do you do?"
+ },
+ {
+  "page": 30,
+  "concept": "Never using rudder to hold the pylon",
+  "s": "Commercial Maneuvers",
+  "q": "Why must you never use rudder to hold the pylon?",
+  "a": "Because rudder only yaws the nose, which swings the reference line onto the pylon without correcting the altitude error that caused the problem, so the error is still there and it is now hidden. It also puts the airplane in a <b>slip or a skid</b>, and a skidding, steeply banked turn at low altitude with the pilot looking out of the side window is a classic stall and spin setup. The pylon is held with altitude and nothing else.",
+  "dup": "Why must you never use rudder to hold the pylon?"
+ },
+ {
+  "page": 30,
+  "concept": "Why bank varies around the circuit",
+  "s": "Commercial Maneuvers",
+  "q": "Why does the bank angle change as you go around a pylon?",
+  "a": "Because the airplane's path over the ground is not a circle. With a wind, the radius of turn for a given bank varies with the square of the groundspeed, so holding the wingtip line on the pylon produces a <b>steeper bank on the downwind side</b>, where the groundspeed and the radius are greatest, and a shallower bank on the upwind side. The bank is a result of the geometry, not something the pilot sets and holds.",
+  "dup": ""
+ },
+ {
+  "page": 30,
+  "concept": "Where the altitude is highest and lowest in the circuit",
+  "s": "Commercial Maneuvers",
+  "q": "Where in eights on pylons is your altitude highest and where is it lowest?",
+  "a": "Highest where the groundspeed is highest, which is <b>downwind</b>, and lowest where the groundspeed is lowest, which is upwind, because pivotal altitude rises and falls with the square of the groundspeed. So the airplane is climbing as it turns from upwind to downwind and descending as it comes back around into the wind. That matches the page's note that a descent will likely be required heading back into the wind.",
+  "dup": "Where in eights on pylons is your altitude lowest and where is it highest?"
+ },
+ {
+  "page": 30,
+  "concept": "Selecting the pylons",
+  "s": "Commercial Maneuvers",
+  "q": "How do you choose the two pylons?",
+  "a": "Two distinct, easily seen objects such as silos, isolated trees or road intersections, at the same elevation if possible, far enough apart that there is a short straight-and-level segment between them but close enough that the eight is continuous, on a line roughly <b>perpendicular to the wind</b> so the airplane crosses between them on a downwind diagonal, over sparsely populated ground with landing options within gliding distance.",
+  "dup": "How do you choose the two pylons?"
+ },
+ {
+  "page": 30,
+  "concept": "Altitude limits that apply in practice - 91.119 and emergency landing",
+  "s": "Commercial Maneuvers",
+  "q": "What altitude limits apply to eights on pylons in practice?",
+  "a": "Pivotal altitude at normal training groundspeeds works out roughly between 600 and 1,000 feet above the pylons, which sits right against the regulatory floor. Under 14 CFR <b>91.119</b> I must stay at least 500 feet from any person, vessel, vehicle or structure over other than congested areas, and I must be able to make an emergency landing without undue hazard, so the pylons are chosen over open, sparsely populated terrain with fields available.",
+  "dup": "What altitude limits apply to eights on pylons in practice?"
+ },
+ {
+  "page": 30,
+  "concept": "ACS standard - determine the approximate pivotal altitude",
+  "s": "Commercial Maneuvers",
+  "q": "What does the ACS require you to determine before eights on pylons?",
+  "a": "The <b>approximate pivotal altitude</b>. The examiner will expect me to state the formula, apply it to the groundspeed I expect, add the elevation of the ground reference, and give a number for the altitude I intend to enter at, before the maneuver starts. The word approximate matters: the computed figure is an entry value, and the pylon itself is the real instrument once the maneuver begins.",
+  "dup": "What are the ACS completion standards for eights on pylons?"
+ },
+ {
+  "page": 30,
+  "concept": "ACS standard - select suitable pylons",
+  "s": "Commercial Maneuvers",
+  "q": "What does the ACS say about pylon selection?",
+  "a": "It requires suitable pylons, judged on the distance between them and their <b>orientation to the wind</b>, so that the airplane can fly a short straight-and-level segment between them and enter each turn on a downwind diagonal. The examiner is also judging whether the chosen area allows an emergency landing and keeps the airplane legal and safe at the low altitude the maneuver requires.",
+  "dup": "What are the ACS completion standards for eights on pylons?"
+ },
+ {
+  "page": 30,
+  "concept": "ACS standard - bank angle not to exceed 40 degrees",
+  "s": "Commercial Maneuvers",
+  "q": "What bank angle does the ACS allow in eights on pylons?",
+  "a": "The entry is at approximately 30 to 40 degrees of bank at the steepest point, and the bank must <b>not exceed 40 degrees</b>. If holding the pylon demands more than that, the airplane is too close to the pylon and the next circuit should be flown further out; if the bank comes out much shallower than 30 degrees, the airplane is too far away.",
+  "dup": "What are the ACS completion standards for eights on pylons?"
+ },
+ {
+  "page": 30,
+  "concept": "ACS standard - apply corrections so the line of sight reference line stays on the pylon",
+  "s": "Commercial Maneuvers",
+  "q": "What is the central performance standard in eights on pylons?",
+  "a": "Applying the necessary corrections so that the <b>line of sight reference line remains on the pylon</b> throughout each turn. That is the whole maneuver: every other standard, the pivotal altitude, the bank limit and the pylon choice, exists to make that possible. The corrections are made with pitch and power to change altitude, and never with rudder.",
+  "dup": "What are the ACS completion standards for eights on pylons?"
+ },
+ {
+  "page": 30,
+  "concept": "ACS standard - divide attention between airplane control and the outside reference",
+  "s": "Commercial Maneuvers",
+  "q": "What does the ACS say about attention in eights on pylons?",
+  "a": "It requires dividing attention between accurate, coordinated airplane control and the outside visual reference. In practice that means holding the pylon while also keeping the ball centered, watching the airspeed, clearing for traffic, and watching the ground clearance at an altitude near <b>500 feet</b> above obstacles. Fixating on the pylon to the exclusion of all that is the failure mode the standard is written against.",
+  "dup": "What are the ACS completion standards for eights on pylons?"
+ },
+ {
+  "page": 30,
+  "concept": "Eights on pylons is not a constant radius or constant altitude maneuver",
+  "s": "Commercial Maneuvers",
+  "q": "How are eights on pylons different from turns about a point?",
+  "a": "Turns about a point is a constant altitude, constant radius maneuver where the bank is varied to hold the ground track. Eights on pylons has <b>no radius requirement at all</b>: the airplane's altitude is varied to hold a line of sight, the ground track is whatever the geometry produces, and the altitude changes continuously around the circuit. It is the only ground reference maneuver in which the pilot deliberately climbs and descends.",
+  "dup": ""
+ },
+ {
+  "page": 30,
+  "concept": "Clearing the area and emergency planning before eights on pylons",
+  "s": "Commercial Maneuvers",
+  "q": "What do you check before starting eights on pylons?",
+  "a": "Clearing turns and a traffic scan, the pre-maneuver flow with the fuel on the fullest tank and the pump on, the elevation of the pylons so the pivotal altitude can be converted to an altimeter setting, the wind direction so the entry is downwind on the diagonal, and a forced landing option within glide range, because the whole maneuver is flown low. I also confirm I can stay <b>500 feet</b> from persons, vessels, vehicles and structures.",
+  "dup": "What do you do before starting any of the commercial performance maneuvers?"
+ },
+ {
+  "page": 30,
+  "concept": "Common error - selecting unsuitable pylons",
+  "s": "Commercial Maneuvers",
+  "q": "What goes wrong when the pylons are badly chosen?",
+  "a": "Pylons too close together leave no straight-and-level segment between them, so the airplane rolls from one steep bank straight into the other; too far apart and the eight becomes two separate turns with a long cruise between them. Pylons lined up with the wind rather than across it make the entry diagonal impossible to fly downwind. Pylons at different elevations give two different <b>pivotal altitudes</b>, which confuses the whole maneuver.",
+  "dup": "What are the common errors in eights on pylons?"
+ },
+ {
+  "page": 30,
+  "concept": "Common error - not entering at the correct pivotal altitude",
+  "s": "Commercial Maneuvers",
+  "q": "What is the effect of entering eights on pylons at the wrong altitude?",
+  "a": "The pylon starts moving along the reference line immediately and the pilot spends the first circuit chasing it instead of flying the maneuver. The entry altitude should be the computed pivotal altitude for the <b>downwind entry groundspeed</b> plus the pylon elevation, so the airplane is close to correct when the first turn begins and only small corrections are needed. Entering at a guessed altitude is the most common reason the first eight is unsatisfactory.",
+  "dup": "What are the common errors in eights on pylons?"
+ },
+ {
+  "page": 30,
+  "concept": "Common error - using rudder to hold the pylon",
+  "s": "Commercial Maneuvers",
+  "q": "What is the most dangerous error in eights on pylons?",
+  "a": "Yawing the airplane with rudder to drag the reference line back onto the pylon. It looks like it works, so pilots keep doing it, but it produces a <b>skid at low altitude in a steep bank</b> with the pilot's attention outside the cockpit, which is the classic stall and spin accident. It also hides the altitude error instead of correcting it, so the airplane drifts further from pivotal altitude.",
+  "dup": "What are the common errors in eights on pylons?"
+ },
+ {
+  "page": 30,
+  "concept": "Common error - fixation on the pylon and failure to clear",
+  "s": "Commercial Maneuvers",
+  "q": "What is the attention failure in eights on pylons?",
+  "a": "Locking onto the pylon through the side window and losing everything else: airspeed drifts, the ball goes out, the bank wanders past 40 degrees, and nobody is looking ahead for traffic or obstacles at <b>low altitude</b>. The ACS explicitly grades division of attention; the pylon is checked often but the scan still has to come back inside to the airspeed and the ball and outside to the airspace ahead.",
+  "dup": "What are the common errors in eights on pylons?"
+ },
+ {
+  "page": 30,
+  "concept": "Common error - bank too steep or too shallow",
+  "s": "Commercial Maneuvers",
+  "q": "Your bank keeps coming out at 45 degrees around the pylon. What is wrong?",
+  "a": "I am flying too close to the pylon. Pivotal altitude is fixed by groundspeed, so the only variable left is the distance from the pylon, and the closer I am the steeper the bank needed to put the wingtip line on it. The ACS limits the bank to <b>40 degrees</b>, so the correction is to roll out a little earlier on the entry diagonal and fly the next turn at a greater distance from the pylon.",
+  "dup": "What are the common errors in eights on pylons?"
+ },
+ {
+  "page": 30,
+  "concept": "Common error - not entering downwind at 45 degrees",
+  "s": "Commercial Maneuvers",
+  "q": "What happens if you do not enter on the downwind diagonal?",
+  "a": "The maneuver starts out of phase with the wind, so the pivotal altitude is changing in the wrong direction relative to where the airplane is in the circuit, the two halves of the eight come out unequal, and the straight-and-level segment between the pylons does not line up. The entry is specifically a <b>downwind 45 degree</b> diagonal between the two pylons because that puts the highest pivotal altitude at the point where the maneuver begins.",
+  "dup": "What are the common errors in eights on pylons?"
+ },
+ {
+  "page": 30,
+  "concept": "Common error - over-controlling and chasing the pylon with large altitude changes",
+  "s": "Commercial Maneuvers",
+  "q": "What does over-controlling look like in eights on pylons?",
+  "a": "Large pitch inputs producing climbs and descents that overshoot the pivotal altitude, so the pylon swings forward, then aft, then forward again and the airplane porpoises around the circuit. The required corrections are <b>small and continuous</b>: a slight change of pitch attitude, held long enough to see the pylon stop moving, rather than a pull or a push big enough to feel.",
+  "dup": "What are the common errors in eights on pylons?"
+ },
+ {
+  "page": 30,
+  "concept": "Common error - loss of coordination in the turns",
+  "s": "Commercial Maneuvers",
+  "q": "Why is coordination hard in eights on pylons and what is the standard?",
+  "a": "Because the bank is changing continuously around the circuit, the pitch is being used for altitude, and the pilot's eyes are outside, so rudder pressures get forgotten. The ACS requires <b>accurate, coordinated airplane control</b> throughout, with the ball centered; the temptation is to let the airplane slip or skid because it momentarily puts the reference line where the pilot wants it, which is both a deviation and a hazard.",
+  "dup": "What are the common errors in eights on pylons?"
+ },
+ {
+  "page": 30,
+  "concept": "What happens if the whole eight is flown at one fixed altitude",
+  "s": "Commercial Maneuvers",
+  "q": "Could you fly the whole maneuver at one altitude in no wind?",
+  "a": "In a genuine zero-wind condition, yes: with no wind the groundspeed is the same on every heading, so the <b>pivotal altitude is constant</b> and the airplane could hold one altitude all the way around both pylons. With any wind at all the groundspeed varies with heading and so does the pivotal altitude, which is why the real maneuver is a continuous shallow climb and descent, highest downwind and lowest upwind.",
+  "dup": ""
+ }
+]

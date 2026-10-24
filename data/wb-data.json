@@ -1,0 +1,94 @@
+{
+ "_README": "Weight and balance inputs for N84054, Piper PA-28-161 Warrior II, s/n 28-8116257, 1981. This airframe is TCDS 2A13 item XVI-A (serials 28-7716001 through 28-8216300), NOT the 2440 lb item XVI-B airplane that POH report VB-1180 is written for. Gross weight and the top of the CG envelope are taken from the TCDS; the arms, the datum, the aft limit and the 6 lb/gal fuel figure are read from VB-1180 Section 6 and carry across because they are airframe geometry.",
+ "limits": {
+  "max_gross": 2325.0,
+  "max_utility": 2020.0,
+  "max_ramp": null,
+  "max_baggage": 200.0,
+  "baggage_arm": 142.8,
+  "fwd_limit_points": [
+   [
+    1950.0,
+    83.0
+   ],
+   [
+    2325.0,
+    87.0
+   ]
+  ],
+  "fwd_limit_defined_between_lb": [
+   1950.0,
+   2325.0
+  ],
+  "fwd_limit_below_1950": 83.0,
+  "fwd_limit_slope_in_per_lb": 0.0106667,
+  "aft_limit": 93.0,
+  "fwd_limit_points_utility": [
+   [
+    1950.0,
+    83.0
+   ],
+   [
+    2020.0,
+    83.8
+   ]
+  ],
+  "aft_limit_utility": 93.0,
+  "max_landing": null,
+  "datum": "78.4 inches ahead of the wing leading edge at the inboard intersection of the straight and tapered wing section",
+  "envelope_note": "AFT LIMIT 93.0 in, constant at every weight: read directly off POH VB-1180 Figure 6-15 and printed in POH 2.13(a); the TCDS gives the same 93.0, so this carries across to his airplane unchanged. FORWARD LIMIT 83.0 in at 1950 lb and below: also read off Figure 6-15 (the vertical 'FWD LIMIT 83' line) and printed in POH 2.13(a), and again identical in the TCDS, so it carries across. THE TOP OF THE SLOPED FORWARD LINE IS NOT FROM THE POH. VB-1180 2.13(a) ends that line at 88.3 in at 2440 lb and Figure 6-15 is captioned '2440 MAX. GROSS WT.', which is the item XVI-B airplane. For s/n 28-8116257 the line is bounded by TCDS 2A13 item XVI-A at 87.0 in at 2325 lb, and that is the point used here. Cross-check: extending the POH's own line (83.0 at 1950 to 88.3 at 2440, slope 0.0108163 in/lb) down to 2325 lb gives 87.06 in, within 0.06 in of the TCDS figure - the two documents describe essentially the same physical line, and his envelope is that line truncated at 2325 lb rather than 2440 lb. Interpolate straight-line between the points ('Straight line variation between points given', POH 2.13 NOTES). Using the POH line instead of the TCDS line is ~0.05 in more restrictive and changes no verdict in this file."
+ },
+ "arms": {
+  "front_seats": 80.5,
+  "rear_seats": 118.1,
+  "fuel": 95.0,
+  "baggage": 142.8,
+  "oil": 27.5,
+  "_note": "POH VB-1180 Figure 6-9/6-11 loading form and TCDS 2A13 agree on all four. These are seat and tank positions - airframe geometry - so they are the same on the 2325 lb and 2440 lb Warrior IIs. Oil at 27.5 in is already inside basic empty weight and is not a separate loading-form line."
+ },
+ "fuel": {
+  "gal_total": 50.0,
+  "gal_usable": 48.0,
+  "lb_per_gal": 6.0,
+  "arm": 95.0,
+  "unusable_gal": 2.0,
+  "_note": "POH 7.13/Section 1 gives 50 US gal total and 2.0 gal unusable (1.0 per wing), so 48 usable; the Section 6 loading form row reads 'Fuel (48 Gallon Maximum)'. The 6.0 lb/gal is the POH's own: the Loading Graph, Figure 6-13, labels the fuel line 'Fuel (6 lb/gal)'. Full usable fuel = 48 x 6.0 = 288.0 lb at 95.0 in = 27,360 in-lb."
+ },
+ "assumed_empty": {
+  "weight": 1463.99,
+  "arm": 87.39,
+  "moment": 127938.09,
+  "basis": "ASSUMED, NOT MEASURED, AND NOT N84054. These are the published basic empty weight and empty CG of N3572M, a 1978 Piper PA-28-161 Warrior II at the same 2325 lb gross weight, from the East Coast Aero Club fleet weight and balance summary dated 2026-05-15. It was chosen because it is the only equipped, in-service, 2325 lb Warrior II of the right era with BOTH a real basic empty weight and a real empty CG on record; a manufacturer 'standard empty weight' (1353 lb for a 1981 Warrior II) is a bare airframe and would understate an equipped trainer by 100-170 lb, and it comes with no CG at all. N84054's real figures come only from its own signed weight and balance record in the aircraft, as amended by any Form 337 since. Replace both numbers before this is used for a flight.",
+  "IS_ASSUMED": true,
+  "replace_with": "N84054's current signed Weight and Balance Record: basic empty weight, empty CG arm, and empty moment, plus the date and any later Form 337."
+ },
+ "loading": {
+  "pilot_lb": 220.0,
+  "examiner_lb": 280.0,
+  "front_total_lb": 500.0,
+  "baggage_lb": 25.0,
+  "_note": "Pilot 220 and examiner about 280, both in the front seats at 80.5 in. Baggage is a flight bag and a headset called 25 lb, plus whatever the examiner brings - every extra pound the examiner carries goes in at 142.8 in and moves the CG AFT, which on this loading is the helpful direction, but it also eats the 48 lb of gross-weight margin at a pound a pound."
+ },
+ "sources": [
+  "POH Piper Report VB-1180, PA-28-161 Warrior II, Section 6 Weight and Balance (PDF pp.112-128): 6.3 weighing procedure and the C.G. Arm = [N(A)+(R+L)(B)]/T formula with A=31.0 and B=109.7; Figure 6-9 sample loading problem; Figure 6-11 loading form (arms 80.5 / 118.1 / 95.0 / 142.8); Figure 6-13 Loading Graph, whose fuel line is labelled 'Fuel (6 lb/gal)'; Figure 6-15 C.G. Range and Weight, read off the rendered page - vertical FWD LIMIT 83 to 1950 lb, sloped forward line to 88.3 at the 2440 lb apex, AFT LIMIT 93 vertical at all weights, utility sub-box topping out near 2020 lb.",
+  "POH VB-1180 2.11 Weight Limits (PDF p.26): 2440 / 2447 / 200 lb normal, 2020 / 2027 / 0 lb utility. The 2440 and 2447 figures are the item XVI-B airplane's and DO NOT apply to s/n 28-8116257; recorded here only so he recognises them in the wrong book.",
+  "POH VB-1180 2.13 Center of Gravity Limits (PDF p.28): normal 88.3/93.0 at 2440 lb and 83.0/93.0 at 1950 lb and less; utility 83.0/93.0 at 1950 and less and 83.8/93.0 at 2020; NOTES - 'Straight line variation between points given' and the datum definition.",
+  "POH VB-1180 6.9 and Figure 6-15 caption: the envelope figure is captioned '2440 MAX. GROSS WT. NORMAL CATEGORY', which is why its upper end cannot be used for this airplane.",
+  "FAA TCDS 2A13, item XVI-A (PA-28-161 Warrior II, serials 28-7716001 through 28-8216300): maximum weight 2325 lb normal, 2020 lb utility; CG range (+83.0) to (+93.0) at 1950 lb or less and (+87.0) to (+93.0) at 2325 lb, see NOTE 27; 4 seats (2 at +80.5, 2 at +118.1); baggage 200 lb at +142.8; fuel 50 gal at +95; oil 8 qt at +27.5; datum 78.4 in forward of the inboard intersection of the straight and tapered wing sections. Confirmed identical in Revision 45 (2001-12-12) and Revision 48 (2006-08-07).",
+  "FAA aircraft registry, N84054: PIPER PA-28-161, serial 28-8116257, 1981, Standard airworthiness, categories Utility and Normal - which is what puts serial 28-8116257 inside TCDS item XVI-A and outside VB-1180's serial coverage.",
+  "/home/claude/cpl/pa28-systems.json - limitations.weight_limits_FOR_HIS_SERIAL, limitations.center_of_gravity_limits, limitations.weight_limits_AS_PRINTED_IN_VB1180, serial_caveats.",
+  "/home/claude/warrior-wb.json - FAA registry and TCDS findings, the XVI-A / XVI-B / XVI-C serial split, and the N3572M reference airframe used for the assumed empty weight."
+ ],
+ "caveats": [
+  "THE EMPTY WEIGHT AND EMPTY CG IN assumed_empty ARE NOT N84054'S. They are another airplane's (N3572M, a 1978 Warrior II). Every total, CG and margin computed from them is provisional. The real numbers come from N84054's own signed weight and balance record and nowhere else.",
+  "Maximum ramp weight is null, not zero and not 2325. TCDS 2A13 item XVI-A publishes a ramp weight only for the Cadet (2332 lb). VB-1180's 2447 lb is the 2440 lb airplane's figure. Piper's convention elsewhere is gross plus the 7 lb start/taxi/run-up allowance, which would give 2332 lb, but that is arithmetic and must not be quoted as a limit. Until VB-880 Section 2.11 is read, plan on ramp = takeoff = 2325 lb, i.e. be at or under 2325 lb at engine start, not just at brake release. No taxi fuel allowance is credited anywhere in this file.",
+  "Maximum landing weight is null. Neither the TCDS nor VB-1180 publishes a reduced landing weight for the PA-28-161 - VB-1180 1.11(c) sets landing equal to takeoff - so 2325 lb is expected, but confirm it in VB-880 Section 2.",
+  "The TCDS appends 'See NOTE 27' to the XVI-A CG range. Note 27's text could not be retrieved, so it may qualify the 83.0 / 87.0 / 93.0 envelope at the margin. Read Note 27 in the current TCDS revision. Also, the newest revision confirmed here is 48 (2006-08-07); a later one may exist.",
+  "The forward limit's 87.0 in endpoint at 2325 lb is from the TCDS, not from a chart in any POH. VB-880, the handbook that actually belongs to this serial, will have its own Figure 6-15 captioned 2325 lb. Read it and confirm the 87.0 in endpoint before the checkride.",
+  "VB-1180 defines no fuel tab quantity. There is no filler-neck tab figure in the handbook, so the 36 gal 'tabs' case in wb-worked.json is a chosen three-quarter-tanks stand-in, not a POH number. If N84054's tanks are tabbed, measure or read the tab quantity and rerun.",
+  "A gross-weight-increase STC exists for the PA-28-161 (adds 115 lb). If N84054 carries one, 2325 lb is wrong. Check the airframe's STC list, the Form 337s and the POH supplements.",
+  "The 6.0 lb/gal is a standard-temperature figure and is the POH's own (Figure 6-13 labels the fuel line 'Fuel (6 lb/gal)'). Cold, dense avgas weighs slightly more; on a 24 November morning this is worth maybe a pound or two across 48 gal and does not change any verdict here.",
+  "Basic empty weight on this airplane already includes full oil and the 2.0 gal of unusable fuel (POH 6.3(a)(3)-(4) and the Figure 6-5 footnote). Do not add oil or unusable fuel as separate loading-form lines, and do not subtract them.",
+  "Seat position affects the real arm. POH 6.3(a)(5) weighs the airplane with the front seats in the fourth notch aft of full forward, and 80.5 in is a single nominal station. Two large adults with the seats run full aft sit slightly aft of 80.5 in, which is conservative here."
+ ]
+}

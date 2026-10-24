@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 880 490" class="v-ch" role="img" aria-label="Cabin heating, ventilation and defrosting: ram air through a shroud around the exhaust muffler, past a heater control valve, then blended with outside air and split to the defroster and cabin outlets">
+  <g class="d">
+  <defs><marker id="ah-ch" viewbox="0 0 8 8" refx="7.2" refy="4" markerwidth="5.5" markerheight="5.5" orient="auto-start-reverse"><path class="ahd" d="M0 0 L8 4 L0 8 Z"></path></marker></defs>
+
+  <text class="ti" x="12" y="20">CABIN HEAT, VENTILATION AND DEFROST — TYPICAL SINGLE-ENGINE LAYOUT</text>
+
+  <line class="fw" x1="332" y1="42" x2="332" y2="318"></line>
+  <text class="tiny r" x="326" y="312">FIREWALL</text>
+
+  <text class="lb b l" x="14" y="58">HEAT SIDE</text>
+  <text class="tiny l" x="82" y="58">outside air warmed by the exhaust</text>
+
+  <rect class="bx air" x="14" y="72" width="100" height="46" rx="4"></rect>
+  <text class="lb b" x="64" y="92">RAM AIR</text>
+  <text class="lb" x="64" y="108">inlet in the cowl</text>
+
+  <rect class="bx hot" x="138" y="66" width="182" height="88" rx="4"></rect>
+  <text class="lb b" x="229" y="86">EXHAUST MUFFLER SHROUD</text>
+  <text class="lb" x="229" y="106">a jacket around the muffler</text>
+  <text class="lb" x="229" y="122">air picks up heat by conduction</text>
+  <text class="lb" x="229" y="138">and never touches exhaust gas</text>
+
+  <path class="ar" d="M114 95 H138"></path>
+
+  <rect class="bx val" x="356" y="66" width="156" height="62" rx="4"></rect>
+  <text class="lb b" x="434" y="86">HEATER CONTROL VALVE</text>
+  <text class="lb" x="434" y="104">meters how much of that</text>
+  <text class="lb" x="434" y="119">hot air reaches the cabin</text>
+
+  <path class="ar" d="M320 97 H356"></path>
+
+  <text class="lb b l" x="14" y="182">VENT SIDE</text>
+  <text class="tiny l" x="82" y="182">outside air, never heated</text>
+
+  <rect class="bx air" x="14" y="196" width="100" height="46" rx="4"></rect>
+  <text class="lb b" x="64" y="216">RAM AIR</text>
+  <text class="lb" x="64" y="232">wing root inlets</text>
+
+  <rect class="bx air" x="356" y="190" width="156" height="62" rx="4"></rect>
+  <text class="lb b" x="434" y="210">VENTILATING AIR DOOR</text>
+  <text class="lb" x="434" y="228">meters how much cold</text>
+  <text class="lb" x="434" y="243">air reaches the cabin</text>
+
+  <path class="ar" d="M114 219 H356"></path>
+
+  <rect class="bx mix" x="540" y="126" width="126" height="76" rx="4"></rect>
+  <text class="lb b" x="603" y="150">MIXING AND</text>
+  <text class="lb b" x="603" y="165">DISTRIBUTION</text>
+  <text class="lb" x="603" y="182">blended to the</text>
+  <text class="lb" x="603" y="196">temperature you set</text>
+
+  <path class="ar" d="M512 97  H526 V152 H540"></path>
+  <path class="ar" d="M512 221 H526 V176 H540"></path>
+
+  <rect class="bx out" x="700" y="58" width="166" height="48" rx="4"></rect>
+  <text class="lb b" x="783" y="78">DEFROSTER OUTLETS</text>
+  <text class="lb" x="783" y="94">up onto the windshield</text>
+
+  <rect class="bx out" x="700" y="140" width="166" height="48" rx="4"></rect>
+  <text class="lb b" x="783" y="160">CABIN FLOOR OUTLETS</text>
+  <text class="lb" x="783" y="176">forward and rear, at your feet</text>
+
+  <rect class="bx out" x="700" y="222" width="166" height="48" rx="4"></rect>
+  <text class="lb b" x="783" y="242">OVERHEAD EYEBALL VENTS</text>
+  <text class="lb" x="783" y="258">fed off the vent side only</text>
+
+  <path class="ar" d="M666 150 H682 V82  H700"></path>
+  <path class="ar" d="M666 164 H682 V164 H700"></path>
+  <path class="ar" d="M666 178 H682 V246 H700"></path>
+
+  <rect class="bx ctl" x="356" y="272" width="156" height="60" rx="4"></rect>
+  <text class="lb b" x="434" y="292">CABIN HT · pull on</text>
+  <text class="lb b" x="434" y="309">CABIN AIR · pull on</text>
+  <text class="lb" x="434" y="324">two cable-pulled knobs</text>
+  <path class="dash" d="M420 272 V252"></path>
+  <path class="dash" d="M448 272 V252 M448 190 V128"></path>
+
+  <rect class="bx warn" x="14" y="358" width="852" height="118" rx="6"></rect>
+  <text class="wt b" x="32" y="382">Why the examiner asks about this</text>
+  <text class="wl" x="32" y="406">Cabin heat is exhaust heat. The only thing between the exhaust gas and the air you breathe is the wall of the muffler.</text>
+  <text class="wl" x="32" y="426">A crack in the muffler or in the shroud lets carbon monoxide straight into the cabin. That is why the exhaust system</text>
+  <text class="wl" x="32" y="446">is inspected at every annual, why a carbon monoxide detector is worth carrying, and why the first actions for</text>
+  <text class="wl" x="32" y="466">suspected CO are heat off, fresh air vents open, and land as soon as practical.</text>
+  </g>
+</svg>

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 880 420" class="v-ch2" role="img" aria-label="Chandelle profile: a 180 degree climbing turn, bank set in the first 90 degrees and held, pitch increasing to the 90 degree point, then pitch held and bank rolled out so the wings are level at 180 degrees just above stall speed">
+  <g class="d">
+  <defs><marker id="ah-ch2" viewbox="0 0 8 8" refx="7.2" refy="4" markerwidth="5.5" markerheight="5.5" orient="auto-start-reverse"><path class="ahd" d="M0 0 L8 4 L0 8 Z"></path></marker></defs>
+
+  <text class="ti" x="12" y="20">CHANDELLE — maximum performance 180° climbing turn</text>
+  <text class="tiny l" x="12" y="38">One continuous maneuver in two halves. Entry speed is the manufacturer's recommendation, or no more than V<tspan class="sub">A</tspan> — read it from the POH or AFM.</text>
+
+  <!-- ground track, viewed from above -->
+  <text class="lb b l" x="14" y="70">GROUND TRACK, SEEN FROM ABOVE</text>
+  <path class="trk" d="M60 300 L60 200 A110 110 0 0 1 280 200 L280 300"></path>
+  <path class="ar" d="M60 320 V304"></path>
+  <circle class="pt" cx="60" cy="300" r="4"></circle>
+  <text class="lb l" x="14" y="336">ENTRY</text>
+  <text class="lb l" x="14" y="350">wings level,</text>
+  <text class="lb l" x="14" y="364">entry speed</text>
+
+  <circle class="pt hi" cx="170" cy="90" r="4"></circle>
+  <text class="lb" x="170" y="80">90° POINT</text>
+
+  <circle class="pt" cx="280" cy="300" r="4"></circle>
+  <text class="lb" x="286" y="336">180°</text>
+
+  <line class="ref" x1="60" y1="200" x2="280" y2="200"></line>
+  <text class="tiny" x="170" y="216">the turn reverses course</text>
+
+  <!-- the two halves -->
+  <rect class="bx half1" x="330" y="60" width="252" height="150" rx="6"></rect>
+  <text class="lb b" x="456" y="82">FIRST 90° — PITCH CHANGES</text>
+  <text class="lb" x="456" y="102">Roll smoothly to the bank you have</text>
+  <text class="lb" x="456" y="118">chosen and <tspan class="k">hold that bank constant</tspan>.</text>
+  <text class="lb" x="456" y="138">Add power to the setting the POH gives</text>
+  <text class="lb" x="456" y="154">and raise the nose steadily, so pitch is</text>
+  <text class="lb" x="456" y="170">still increasing all the way round.</text>
+  <text class="lb" x="456" y="192">Highest pitch attitude is at the 90° point.</text>
+
+  <rect class="bx half2" x="606" y="60" width="252" height="150" rx="6"></rect>
+  <text class="lb b" x="732" y="82">SECOND 90° — BANK CHANGES</text>
+  <text class="lb" x="732" y="102"><tspan class="k">Hold the pitch attitude constant</tspan> and</text>
+  <text class="lb" x="732" y="118">roll off the bank at a steady rate.</text>
+  <text class="lb" x="732" y="138">Airspeed bleeds off through this half,</text>
+  <text class="lb" x="732" y="154">so rudder pressure keeps increasing.</text>
+  <text class="lb" x="732" y="176">Wings level exactly at 180°, just above</text>
+  <text class="lb" x="732" y="192">a stall, and hold it a moment.</text>
+
+  <path class="ar" d="M582 135 H606"></path>
+
+  <!-- profile -->
+  <text class="lb b l" x="330" y="248">PITCH AND BANK THROUGH THE MANEUVER</text>
+  <line class="axis" x1="340" y1="360" x2="858" y2="360"></line>
+  <text class="tiny" x="348" y="376">0°</text>
+  <text class="tiny" x="600" y="376">90°</text>
+  <text class="tiny" x="850" y="376">180°</text>
+  <line class="grid" x1="600" y1="266" x2="600" y2="360"></line>
+
+  <path class="pitch" d="M348 352 Q470 306 600 276 L850 276"></path>
+  <text class="lb b pl" x="632" y="268">PITCH — rises, then held</text>
+
+  <path class="bank" d="M348 352 Q372 300 400 298 L600 298 L850 352"></path>
+  <text class="lb b bl" x="404" y="340">BANK — set, held, then rolled off</text>
+
+  <rect class="bx warn" x="14" y="386" width="844" height="0" rx="6"></rect>
+  <text class="wl" x="14" y="400">Completion standards: the rollout is complete at the 180° point <tspan class="k">±10°</tspan> of heading, at an airspeed just above a stall, and you</text>
+  <text class="wl" x="14" y="416">maintain that attitude momentarily. The ACS sets no altitude or airspeed number here — the grade is on the shape of the maneuver.</text>
+  </g>
+</svg>

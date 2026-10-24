@@ -1,0 +1,320 @@
+{
+  "_meta": {
+    "generated": "2026-10-24",
+    "for": "Commercial pilot checkride 24 November, N84054",
+    "rule_applied": "Every number below was read from a source fetched during this session. Nothing is from memory. Figures that could not be confirmed are null and are listed under 'unverified'.",
+    "warning": "All loading results in 'worked_case' are ESTIMATES built on a representative Warrior II empty weight from a DIFFERENT airframe. They are not valid for N84054 until replaced with N84054's own weight and balance record."
+  },
+
+  "aircraft": {
+    "n_number": "N84054",
+    "registry": {
+      "manufacturer": {"value": "PIPER", "src": "https://registry.faa.gov/AircraftInquiry/Search/NNumberResult?nNumberTxt=84054", "confidence": "high"},
+      "model_as_registered": {"value": "PA-28-161", "src": "https://registry.faa.gov/AircraftInquiry/Search/NNumberResult?nNumberTxt=84054", "confidence": "high"},
+      "serial_number": {"value": "28-8116257", "src": "https://registry.faa.gov/AircraftInquiry/Search/NNumberResult?nNumberTxt=84054", "confidence": "high"},
+      "year_of_manufacture": {"value": 1981, "src": "https://registry.faa.gov/AircraftInquiry/Search/NNumberResult?nNumberTxt=84054", "confidence": "high"},
+      "airworthiness_class": {"value": "Standard", "src": "https://registry.faa.gov/AircraftInquiry/Search/NNumberResult?nNumberTxt=84054", "confidence": "high"},
+      "airworthiness_category": {"value": "Utility, Normal", "src": "https://registry.faa.gov/AircraftInquiry/Search/NNumberResult?nNumberTxt=84054", "confidence": "high"},
+      "registered_owner_name": {"value": "FAR HORIZONS LLC", "src": "https://registry.faa.gov/AircraftInquiry/Search/NNumberResult?nNumberTxt=84054", "confidence": "high"},
+      "registered_owner_type": {"value": "LLC (Limited Liability Company)", "src": "https://registry.faa.gov/AircraftInquiry/Search/NNumberResult?nNumberTxt=84054", "confidence": "high"},
+      "engine": {"value": "Lycoming O-320 series, reciprocating", "src": "https://registry.faa.gov/AircraftInquiry/Search/NNumberResult?nNumberTxt=84054", "confidence": "high"},
+      "status": {"value": "Valid", "src": "https://registry.faa.gov/AircraftInquiry/Search/NNumberResult?nNumberTxt=84054", "confidence": "high"},
+      "certificate_issue_date": {"value": "2023-04-05", "src": "https://registry.faa.gov/AircraftInquiry/Search/NNumberResult?nNumberTxt=84054", "confidence": "high"},
+      "expiration_date": {"value": "2030-04-30", "src": "https://registry.faa.gov/AircraftInquiry/Search/NNumberResult?nNumberTxt=84054", "confidence": "high"}
+    },
+
+    "model_resolved": "Piper PA-28-161 Warrior II, TCDS 2A13 item XVI-A (the EARLY / 2,325 lb Warrior II), s/n 28-8116257",
+
+    "gross_weight_determination": {
+      "tcds": "FAA TCDS 2A13, Piper PA-28 series",
+      "tcds_revision_fetched": [
+        {"revision": 48, "date": "2006-08-07", "src": "https://touringmachine.com/Cherokee/PDFs/Cherokee%20Type%20Certificate%20Data%20Sheet%202A13.pdf"},
+        {"revision": 45, "date": "2001-12-12", "src": "https://corpora.tika.apache.org/base/docs/govdocs1/661/661034.pdf"}
+      ],
+      "note_on_currency": "FAA DRS (drs.faa.gov) would not return document text in this session, so a revision newer than 48 may exist. Both mirrors fetched (Rev 45 and Rev 48) give IDENTICAL PA-28-161 weights, CG ranges, serial ranges, arms, seats, baggage and fuel figures, which is strong corroboration for the values below.",
+
+      "serial_ranges": [
+        {
+          "tcds_item": "XVI-A",
+          "name": "PA-28-161 Warrior II (early)",
+          "type_certificate_approval_date": "1976-11-02",
+          "serial_numbers": "28-7716001 through 28-8216300, and 2841001 through 2841365 (Cadet only)",
+          "max_weight_normal_lb": 2325,
+          "max_weight_utility_lb": 2020,
+          "ramp_weight_lb": {"value": 2332, "applies_to": "Cadet only", "note": "TCDS text reads 'Ramp: 2332 lb. (Cadet only) See NOTE 27.'"},
+          "src": "https://corpora.tika.apache.org/base/docs/govdocs1/661/661034.pdf",
+          "confidence": "high"
+        },
+        {
+          "tcds_item": "XVI-B",
+          "name": "PA-28-161 Warrior II (late)",
+          "type_certificate_approval_date": "1982-07-01",
+          "serial_numbers": "28-8316001 through 28-8616057, and 2816001 through 2816109",
+          "max_ramp_normal_lb": 2447,
+          "max_takeoff_normal_lb": 2440,
+          "max_ramp_utility_lb": 2027,
+          "max_takeoff_utility_lb": 2020,
+          "src": "https://touringmachine.com/Cherokee/PDFs/Cherokee%20Type%20Certificate%20Data%20Sheet%202A13.pdf",
+          "confidence": "high"
+        },
+        {
+          "tcds_item": "XVI-C",
+          "name": "PA-28-161 Warrior III",
+          "type_certificate_approval_date": "1994-07-01",
+          "serial_numbers": "2816110 through 2816119, and 2842001 and up",
+          "max_ramp_normal_lb": 2447,
+          "max_takeoff_normal_lb": 2440,
+          "max_ramp_utility_lb": 2027,
+          "max_takeoff_utility_lb": 2020,
+          "src": "https://touringmachine.com/Cherokee/PDFs/Cherokee%20Type%20Certificate%20Data%20Sheet%202A13.pdf",
+          "confidence": "high"
+        }
+      ],
+
+      "which_range_applies": {
+        "serial": "28-8116257",
+        "falls_in": "XVI-A — 28-7716001 through 28-8216300",
+        "reasoning": "28-8116257 is numerically between 28-7716001 and 28-8216300. The 1982 serial-number break (28-8316001) is the start of XVI-B; a 1981 airplane with an 81-prefix serial is below it. This is independently corroborated by the Plane & Pilot published specification for the 1981 PA-28-161 Warrior II, which lists 'Gross weight (lbs.): 2325'.",
+        "corroborating_src": "https://planeandpilotmag.com/piper-1981-pa-28-161-warrior-ii/",
+        "confidence": "high"
+      },
+
+      "weights_that_apply_to_N84054": {
+        "max_takeoff_weight_normal_lb": {"value": 2325, "src": "https://corpora.tika.apache.org/base/docs/govdocs1/661/661034.pdf", "confidence": "high"},
+        "max_takeoff_weight_utility_lb": {"value": 2020, "src": "https://corpora.tika.apache.org/base/docs/govdocs1/661/661034.pdf", "confidence": "high"},
+        "max_ramp_weight_lb": {"value": null, "src": "https://corpora.tika.apache.org/base/docs/govdocs1/661/661034.pdf", "confidence": "high", "explanation": "TCDS 2A13 item XVI-A publishes a ramp weight of 2332 lb for the CADET ONLY. No separate ramp weight is published for the non-Cadet Warrior II in this serial range. Treat ramp = takeoff = 2325 lb unless this airframe's own POH states otherwise."},
+        "max_landing_weight_lb": {"value": null, "src": "https://corpora.tika.apache.org/base/docs/govdocs1/661/661034.pdf", "confidence": "high", "explanation": "TCDS 2A13 publishes no separate maximum landing weight for the PA-28-161. On the PA-28-161 max landing weight equals max takeoff weight, 2325 lb for this serial range. Confirm in the airplane's POH Section 2."}
+      },
+
+      "caveat": "Any STC on this particular airframe (for example a gross-weight-increase STC) would override the TCDS figure. Check N84054's STC list / FAA Form 337 records and the POH supplements."
+    }
+  },
+
+  "limits": {
+    "category": "Normal and Utility both approved (registry shows 'Utility, Normal')",
+    "cg_envelope_normal_category": {
+      "datum_reference": "inches aft of datum",
+      "breakpoints": [
+        {"weight_lb": 1950, "fwd_limit_in": 83.0, "aft_limit_in": 93.0, "note": "and at all weights 1950 lb or less"},
+        {"weight_lb": 2325, "fwd_limit_in": 87.0, "aft_limit_in": 93.0}
+      ],
+      "variation_rule": "Straight-line variation between the points given. Between 1950 lb and 2325 lb the forward limit moves AFT at 4.0 in per 375 lb = 0.0106667 in/lb. Forward limit at weight W (1950 < W <= 2325) = 83.0 + (W - 1950) x 0.0106667.",
+      "aft_limit_constant_in": 93.0,
+      "tcds_text": "(+83.0) to (+93.0) at 1950 lb. or less / (+87.0) to (+93.0) at 2325 lb. See NOTE 27.",
+      "src": "https://corpora.tika.apache.org/base/docs/govdocs1/661/661034.pdf",
+      "confidence": "high",
+      "caveat": "The TCDS appends 'See NOTE 27' to this CG range. Note 27's text could NOT be retrieved in this session (both TCDS mirrors truncate before the notes section). Read Note 27 in the current TCDS before relying on this envelope at the margin."
+    },
+    "cg_envelope_utility_category": {
+      "breakpoints": [
+        {"weight_lb": 1950, "fwd_limit_in": 83.0, "aft_limit_in": 93.0, "note": "and at all weights 1950 lb or less"},
+        {"weight_lb": 2020, "fwd_limit_in": 83.8, "aft_limit_in": 93.0}
+      ],
+      "src": "https://touringmachine.com/Cherokee/PDFs/Cherokee%20Type%20Certificate%20Data%20Sheet%202A13.pdf",
+      "confidence": "high",
+      "restriction": "Utility category: 2 seats only (both front, at +80.5). No baggage and no aft passengers allowed."
+    },
+    "datum": {
+      "location": "78.4 inches forward of the inboard intersection of the straight and tapered wing sections (semi-tapered wing, which is the Warrior wing). For the straight-wing PA-28 models the TCDS gives 78.4 inches forward of the wing leading edge.",
+      "tcds_text": "Datum 78.4\" forward of wing leading edge (straight wing only). / 78.4\" forward of inboard intersection of straight and tapered sections (semi-tapered wings).",
+      "src": "https://corpora.tika.apache.org/base/docs/govdocs1/661/661034.pdf",
+      "confidence": "high"
+    },
+    "leveling_means": {
+      "tcds": {"value": "Two screws left side fuselage below window.", "src": "https://corpora.tika.apache.org/base/docs/govdocs1/661/661034.pdf", "confidence": "high"},
+      "poh_procedure": {"value": "Block main gear oleo pistons fully extended, then deflate the nose wheel tire to centre the bubble on the level.", "src": "https://ou.edu/content/dam/ags/aviation/docs/resources/weights-and-balance/warrioriiisection6.pdf", "confidence": "medium", "note": "From the Warrior III POH Section 6; same airframe family, but verify against the Warrior II POH."}
+    },
+    "control_surface_movements": {
+      "value": "Wing flaps up 0 deg / down 40 deg; Ailerons up 25 / down 12.5; Rudder 27 left / 27 right; Stabilator up 14 / down 2; Stabilator tab up 3 / down 12; Nose wheel 30 left / 30 right",
+      "src": "https://touringmachine.com/Cherokee/PDFs/Cherokee%20Type%20Certificate%20Data%20Sheet%202A13.pdf",
+      "confidence": "high"
+    }
+  },
+
+  "arms": {
+    "units": "inches aft of datum",
+    "front_seats": {"value": 80.5, "src": "https://corpora.tika.apache.org/base/docs/govdocs1/661/661034.pdf", "confidence": "high", "corroborating_src": "https://ou.edu/content/dam/ags/aviation/docs/resources/weights-and-balance/warrioriiisection6.pdf", "note": "TCDS: 'Normal Category: 4 (2 at +80.5, 2 at +118.1)'. Warrior POH Section 6 loading form uses the same 80.5."},
+    "rear_seats": {"value": 118.1, "src": "https://corpora.tika.apache.org/base/docs/govdocs1/661/661034.pdf", "confidence": "high", "corroborating_src": "https://ou.edu/content/dam/ags/aviation/docs/resources/weights-and-balance/warrioriiisection6.pdf"},
+    "fuel": {"value": 95.0, "src": "https://corpora.tika.apache.org/base/docs/govdocs1/661/661034.pdf", "confidence": "high", "note": "TCDS: 'Fuel Capacity: 50 gallons at (+95) (2 wing tanks)'. POH loading form uses 95.0."},
+    "baggage": {"value": 142.8, "src": "https://corpora.tika.apache.org/base/docs/govdocs1/661/661034.pdf", "confidence": "high", "corroborating_src": "https://ou.edu/content/dam/ags/aviation/docs/resources/weights-and-balance/warrioriiisection6.pdf"},
+    "oil": {"value": 27.5, "src": "https://corpora.tika.apache.org/base/docs/govdocs1/661/661034.pdf", "confidence": "high", "note": "8 quarts at (+27.5), 6 quarts usable. The POH basic empty weight already includes full oil, so oil is normally NOT a separate line in the loading form."},
+    "baggage_compartment": {
+      "max_weight_lb": {"value": 200, "src": "https://corpora.tika.apache.org/base/docs/govdocs1/661/661034.pdf", "confidence": "high"},
+      "arm_in": {"value": 142.8, "src": "https://corpora.tika.apache.org/base/docs/govdocs1/661/661034.pdf", "confidence": "high"},
+      "tcds_text": "Maximum Baggage: Eligible Normal Category only: 200 lb. at (+142.8). 50 lb. (Cadet only)",
+      "restriction": "Normal category only. No baggage permitted in Utility category."
+    },
+    "seating": {
+      "max_seats_normal": {"value": 4, "src": "https://corpora.tika.apache.org/base/docs/govdocs1/661/661034.pdf", "confidence": "high"},
+      "max_seats_utility": {"value": 2, "src": "https://corpora.tika.apache.org/base/docs/govdocs1/661/661034.pdf", "confidence": "high", "note": "Both at +80.5, i.e. front seats only."},
+      "rear_seats_removable": {"value": null, "confidence": null, "note": "Could not be verified in this session. Utility category operation requires the rear seats to be EMPTY; the TCDS and the Warrior POH Section 6 fetched here say nothing about physical removability. See 'unverified'."}
+    }
+  },
+
+  "fuel": {
+    "total_capacity_gal": {"value": 50, "src": "https://corpora.tika.apache.org/base/docs/govdocs1/661/661034.pdf", "confidence": "high", "note": "TCDS: '50 gallons at (+95) (2 wing tanks)'"},
+    "usable_capacity_gal": {"value": 48, "src": "https://git.nayala.duckdns.org/fly/fgdata/raw/commit/759288135cd94ed5b380a0e559e4fad7d29e0722/Aircraft-yasim/README.pa28-161", "confidence": "medium", "corroborating": [
+      {"src": "https://planeandpilotmag.com/piper-1981-pa-28-161-warrior-ii/", "what": "1981 PA-28-161 spec sheet: 'Fuel (gals.): 48'"},
+      {"src": "https://ou.edu/content/dam/ags/aviation/docs/resources/weights-and-balance/warrioriiisection6.pdf", "what": "Warrior POH Section 6 loading form row reads 'Fuel (48 Gallon Maximum)'; manual states 2.0 gal unusable (1.0 per wing), consistent with 50 total - 2 unusable = 48 usable"}
+    ]},
+    "unusable_gal": {"value": 2.0, "src": "https://ou.edu/content/dam/ags/aviation/docs/resources/weights-and-balance/warrioriiisection6.pdf", "confidence": "medium", "note": "1.0 gallon per wing. From the Warrior III POH; verify in the Warrior II POH."},
+    "fuel_arm_in": {"value": 95.0, "src": "https://corpora.tika.apache.org/base/docs/govdocs1/661/661034.pdf", "confidence": "high"},
+    "pounds_per_gallon": {"value": 6.0, "src": "https://generalaviationnews.com/2024/04/15/questions-from-the-cockpit-fake-weight", "confidence": "medium", "note": "Standard weight for avgas is 6 lb/US gal. Cross-check: the Warrior POH Section 6 sample loading form shows a fuel line of 267.0 lb, which is exactly 44.5 gal x 6.0 lb/gal. The POH itself does not print a lb/gal figure in the pages retrieved.", "corroborating_src": "https://www.aviatize.com/tools/weight-balance-calculator/piper-pa28-161"},
+    "full_usable_fuel_weight_lb": {"value": 288.0, "derivation": "48 usable gal x 6.0 lb/gal = 288.0 lb", "confidence": "medium"},
+    "cruise_fuel_burn_gph": {
+      "at_75_percent": {"value": 8.4, "src": "https://planeandpilotmag.com/piper-1981-pa-28-161-warrior-ii/", "confidence": "medium", "note": "1981 PA-28-161 Warrior II published spec; cruise speed 127 kt at 75%"},
+      "at_65_percent": {"value": 7.3, "src": "https://planeandpilotmag.com/piper-1981-pa-28-161-warrior-ii/", "confidence": "medium", "note": "cruise speed 118 kt at 65%"},
+      "conservative_alternative": {"value": 10.0, "src": "https://git.nayala.duckdns.org/fly/fgdata/raw/commit/759288135cd94ed5b380a0e559e4fad7d29e0722/Aircraft-yasim/README.pa28-161", "confidence": "medium", "note": "Quoted as 75% power at 8000 ft. Materially higher than the Plane & Pilot figure; the endurance conclusion below is tested against this worse case too."}
+    },
+    "engine": {"value": "Lycoming O-320-D3G, 160 hp", "src": "https://planeandpilotmag.com/piper-1981-pa-28-161-warrior-ii/", "confidence": "medium", "note": "Registry confirms 'Lycoming O-320 series' but not the dash number."}
+  },
+
+  "empty_weight_typical": {
+    "IMPORTANT": "Empty weight and empty CG are AIRFRAME-SPECIFIC. Every number in this block is from a different airplane. The real figure for N84054 comes only from that airplane's own weight and balance record (the signed Form, the equipment list, and any Form 337 for subsequent equipment changes) carried in the aircraft. Do not plan the checkride on anything here.",
+    "manufacturer_standard_empty_weight_1981": {"value": 1353, "units": "lb", "src": "https://planeandpilotmag.com/piper-1981-pa-28-161-warrior-ii/", "confidence": "medium", "note": "This is the published STANDARD empty weight for a bare 1981 Warrior II. Real equipped trainers run roughly 100-170 lb heavier. Do not use this for planning."},
+    "manufacturer_useful_load_1981": {"value": 972, "units": "lb", "src": "https://planeandpilotmag.com/piper-1981-pa-28-161-warrior-ii/", "confidence": "medium", "note": "2325 - 1353 = 972. Corresponds to the standard (bare) empty weight above."},
+    "real_world_reference_airframe": {
+      "n_number": "N3572M",
+      "model": "PA-28-161 Warrior II",
+      "year": 1978,
+      "basic_empty_weight_lb": {"value": 1463.99, "src": "https://eastcoastaeroclub.com/wp-content/uploads/2026/07/2026.05.15-Updated-Weight-and-Balance.pdf", "confidence": "high"},
+      "empty_cg_in": {"value": 87.39, "src": "https://eastcoastaeroclub.com/wp-content/uploads/2026/07/2026.05.15-Updated-Weight-and-Balance.pdf", "confidence": "high"},
+      "useful_load_lb": {"value": 861.01, "src": "https://eastcoastaeroclub.com/wp-content/uploads/2026/07/2026.05.15-Updated-Weight-and-Balance.pdf", "confidence": "high"},
+      "max_gross_weight_lb": {"value": 2325.00, "src": "https://eastcoastaeroclub.com/wp-content/uploads/2026/07/2026.05.15-Updated-Weight-and-Balance.pdf", "confidence": "high"},
+      "why_used": "This is the only equipped, in-service, 2325-lb-gross Warrior II of the right era with a real published basic empty weight AND empty CG that could be verified in this session. It is used as the base case in 'worked_case'."
+    },
+    "comparison_later_warrior_iii_fleet": {
+      "note": "For context on how much an equipped Warrior can weigh and where its empty CG sits, the same club document lists 12 Warrior IIIs (1999-2004) with basic empty weights from 1544.57 to 1569.47 lb and empty CGs from 85.70 to 86.71 in. The later airframes are both heavier AND more forward in empty CG, which matters for the forward-limit question below.",
+      "src": "https://eastcoastaeroclub.com/wp-content/uploads/2026/07/2026.05.15-Updated-Weight-and-Balance.pdf",
+      "confidence": "high"
+    },
+    "plausible_range_for_an_equipped_1981_warrior_ii": {
+      "value": null,
+      "note": "No source fetched in this session establishes a statistical range for 1981 Warrior II empty weights. The single verified Warrior II data point is 1463.99 lb. Treat anything else as a guess."
+    }
+  },
+
+  "worked_case": {
+    "label": "ESTIMATE ONLY — depends entirely on the actual airframe's basic empty weight and empty CG",
+    "assumptions": [
+      "Max takeoff weight 2325 lb, Normal category (TCDS 2A13 item XVI-A, s/n 28-8116257). VERIFIED.",
+      "Forward CG limit 83.0 in at 1950 lb and below, rising linearly to 87.0 in at 2325 lb. Aft limit 93.0 in at all weights. VERIFIED (TCDS).",
+      "Front seat arm 80.5 in, fuel arm 95.0 in, baggage arm 142.8 in. VERIFIED (TCDS + POH).",
+      "Fuel 48 usable gal at 6.0 lb/gal = 288.0 lb. MEDIUM confidence.",
+      "Basic empty weight 1463.99 lb at empty CG 87.39 in. NOT N84054 — this is verified data from N3572M, a 1978 Warrior II at the same 2325 lb gross. SUBSTITUTE N84054'S OWN FIGURES BEFORE USE.",
+      "Pilot 180 lb and examiner 280 lb, both in the front seats, total 460 lb at 80.5 in.",
+      "Rear seats and baggage compartment empty.",
+      "No taxi/run-up fuel allowance applied (TCDS publishes no ramp weight for this serial range, so ramp = takeoff = 2325 lb)."
+    ],
+    "steps": [
+      {"n": 1, "what": "Empty moment", "arithmetic": "1463.99 lb x 87.39 in = 127,938.1 in-lb"},
+      {"n": 2, "what": "Front seat occupants", "arithmetic": "180 + 280 = 460.0 lb;  460.0 x 80.5 = 37,030.0 in-lb"},
+      {"n": 3, "what": "Zero-fuel weight", "arithmetic": "1463.99 + 460.00 = 1,923.99 lb"},
+      {"n": 4, "what": "Zero-fuel moment", "arithmetic": "127,938.1 + 37,030.0 = 164,968.1 in-lb"},
+      {"n": 5, "what": "Zero-fuel CG", "arithmetic": "164,968.1 / 1,923.99 = 85.74 in aft of datum"},
+      {"n": 6, "what": "Forward limit at zero-fuel weight", "arithmetic": "1,923.99 lb is below 1950 lb, so forward limit = 83.00 in", "result": "85.74 in is 2.74 in AFT of the forward limit — inside the envelope. Aft limit 93.00 in, so 7.26 in of aft margin."},
+      {"n": 7, "what": "Fuel available before hitting max gross weight", "arithmetic": "2325.00 - 1,923.99 = 401.01 lb;  401.01 / 6.0 = 66.84 gal", "result": "66.84 gal would be allowed by weight, but the tanks only hold 48 usable gal. Fuel is NOT the binding constraint — the airplane can take FULL FUEL."},
+      {"n": 8, "what": "Full fuel loading", "arithmetic": "48 gal x 6.0 = 288.0 lb;  288.0 x 95.0 = 27,360.0 in-lb"},
+      {"n": 9, "what": "Takeoff weight with full fuel", "arithmetic": "1,923.99 + 288.00 = 2,211.99 lb", "result": "2325.00 - 2,211.99 = 113.01 lb UNDER max gross."},
+      {"n": 10, "what": "Takeoff moment with full fuel", "arithmetic": "164,968.1 + 27,360.0 = 192,328.1 in-lb"},
+      {"n": 11, "what": "Takeoff CG with full fuel", "arithmetic": "192,328.1 / 2,211.99 = 86.95 in aft of datum"},
+      {"n": 12, "what": "Forward limit at 2,211.99 lb", "arithmetic": "83.0 + (2,211.99 - 1950) x (4.0 / 375) = 83.0 + 261.99 x 0.0106667 = 83.0 + 2.79 = 85.79 in"},
+      {"n": 13, "what": "CG check at full fuel", "arithmetic": "86.95 in vs forward limit 85.79 in and aft limit 93.00 in", "result": "INSIDE the envelope, with 1.16 in of forward margin and 6.05 in of aft margin. NO BALLAST REQUIRED in this base case."},
+      {"n": 14, "what": "Endurance from 48 usable gal", "arithmetic": "At 7.3 gph (65% power): 48 / 7.3 = 6.58 h. At 8.4 gph (75% power): 48 / 8.4 = 5.71 h. At the conservative 10.0 gph figure: 48 / 10.0 = 4.80 h."},
+      {"n": 15, "what": "Fuel required for 2.5 h cross-country + 0.5 h VFR day reserve (14 CFR 91.151(a)(1)) = 3.0 h", "arithmetic": "At 7.3 gph: 21.9 gal. At 8.4 gph: 25.2 gal. At 10.0 gph: 30.0 gal.", "result": "Worst case 30.0 gal against 48.0 gal usable — a surplus of 18.0 gal, 1.8 h beyond the legal reserve. The requirement is met with very large margin, and would still be met with less than two-thirds tanks."},
+      {"n": 16, "what": "Is the CG forward of the forward limit?", "arithmetic": "No, in the base case. CG 86.95 in vs limit 85.79 in.", "result": "Ballast = 0 lb. See the sensitivity cases below, where it is NOT zero."},
+      {"n": 17, "what": "Spare payload at full fuel", "arithmetic": "2325.00 - 2,211.99 = 113.01 lb could still go in the baggage compartment (limit 200 lb). Check: moment 192,328.1 + 113.01 x 142.8 = 208,465.9; CG = 208,465.9 / 2325.00 = 89.66 in, well inside the 93.00 in aft limit.", "result": "Legal, so there is genuine spare capacity, not just a paper margin."},
+      {"n": 18, "what": "Utility category check", "arithmetic": "Utility max weight 2020 lb. 1,923.99 lb zero-fuel + any fuel over 16.0 gal exceeds it.", "result": "This load cannot be flown in Utility category with meaningful fuel. Utility also forbids baggage and rear-seat occupants. Normal-category limits apply."}
+    ],
+    "sensitivity_this_is_the_part_that_matters": {
+      "why": "The forward CG limit climbs steeply — 4.0 in over the last 375 lb of weight. Putting 460 lb at the 80.5 in station pulls the CG forward at the same time as the weight pushes the forward limit aft. Whether this load is legal is decided by the airplane's EMPTY CG, not by its empty weight.",
+      "break_even_empty_cg_at_full_fuel": {"value": 85.65, "units": "in", "arithmetic": "Solving (1463.99 x EA + 37,030.0 + 27,360.0) / 2,211.99 = 85.79 gives EA = 85.65 in. If N84054's empty CG is aft of 85.65 in, this load is inside the envelope at full fuel. If it is forward of 85.65 in, it is NOT."},
+      "break_even_empty_weight_for_full_fuel": {"value": 1577, "units": "lb", "arithmetic": "2325 - 460 - 288 = 1577 lb. Any Warrior II with a basic empty weight below 1577 lb can carry 460 lb of front-seat occupants AND full fuel without exceeding gross."},
+      "cases": [
+        {"empty_weight_lb": 1463.99, "empty_cg_in": 87.39, "takeoff_weight_lb": 2212.0, "cg_in": 86.95, "fwd_limit_in": 85.79, "margin_in": 1.16, "verdict": "LEGAL, comfortable", "note": "The verified Warrior II reference airframe."},
+        {"empty_weight_lb": 1520, "empty_cg_in": 86.00, "takeoff_weight_lb": 2268.0, "cg_in": 86.03, "fwd_limit_in": 86.39, "margin_in": -0.36, "verdict": "NOSE-HEAVY — 0.36 in FORWARD of the limit at full fuel", "note": "Illustrative of a heavier, more forward airframe. Fix below."},
+        {"empty_weight_lb": 1550, "empty_cg_in": 85.70, "takeoff_weight_lb": 2298.0, "cg_in": 85.82, "fwd_limit_in": 86.71, "margin_in": -0.89, "verdict": "NOSE-HEAVY — 0.89 in forward of the limit, and only 27 lb under gross", "note": "Illustrative, typical of a late Warrior III empty CG."},
+        {"empty_weight_lb": 1463.99, "empty_cg_in": 84.00, "takeoff_weight_lb": 2212.0, "cg_in": 84.70, "fwd_limit_in": 85.79, "margin_in": -1.09, "verdict": "NOSE-HEAVY — 1.09 in forward of the limit", "note": "Illustrative of an unusually forward empty CG."}
+      ],
+      "ballast_solution_if_nose_heavy": {
+        "method": "Put weight B at the baggage station, arm 142.8 in. Solve (M + 142.8 B) / (W + B) = forward limit at (W + B), remembering the forward limit itself rises as B is added.",
+        "worked_example_case_2": {
+          "start": "EW 1520 @ 86.0, full fuel: W = 2268.0 lb, M = 195,113.0 in-lb, CG = 86.03 in, forward limit 86.39 in, deficit 0.36 in",
+          "ballast_required_lb": 25.9,
+          "check": "W = 2268.0 + 25.9 = 2293.9 lb;  M = 195,113.0 + 25.9 x 142.8 = 198,811.5 in-lb;  CG = 198,811.5 / 2293.9 = 86.67 in;  forward limit at 2293.9 lb = 83.0 + 343.9 x 0.0106667 = 86.67 in. Exactly on the limit, so round up to about 30 lb for a real margin.",
+          "does_ballast_break_the_weight_limit": "No. 2293.9 lb is 31.1 lb under the 2325 lb gross, and 25.9 lb is far under the 200 lb baggage limit. But the margin is thin — 30 lb of ballast leaves roughly 25 lb of gross-weight headroom."
+        },
+        "worked_example_case_4": {
+          "start": "EW 1463.99 @ 84.0, full fuel: W = 2212.0 lb, CG = 84.70 in, forward limit 85.79 in, deficit 1.09 in",
+          "ballast_required_lb": 73.9,
+          "check": "W = 2212.0 + 73.9 = 2285.9 lb, CG = 86.58 in = forward limit at that weight. 39.1 lb under gross, 73.9 lb against a 200 lb baggage limit.",
+          "does_ballast_break_the_weight_limit": "No, but it consumes most of the remaining gross-weight margin."
+        },
+        "better_alternative_than_ballast": {
+          "principle": "Reducing fuel is usually the better fix, because dropping weight lowers the forward limit faster than it moves the CG forward. For case 2 (EW 1520 @ 86.0): 48 gal gives margin -0.36 in; 40 gal gives -0.05 in; 35 gal gives +0.15 in (legal); 30 gal gives +0.34 in; 25 gal gives +0.53 in.",
+          "and_still_legal_on_fuel": "35 gal at 8.4 gph is 4.17 h endurance against a 3.0 h requirement, so reducing to 35 gal fixes a nose-heavy CG and still leaves over an hour beyond the legal reserve. This is the move to brief, not ballast."
+        },
+        "ballast_cautions": [
+          "Ballast must be secured so it cannot shift in flight or during a hard landing. Loose dumbbells on the baggage floor are not acceptable.",
+          "The baggage compartment floor has a structural loading limit as well as the 200 lb total; confirm in the POH.",
+          "Ballast is NOT permitted in Utility category (no baggage allowed)."
+        ]
+      }
+    },
+    "conclusion": "On the verified reference airframe the load WORKS with full fuel and comfortable margin: takeoff weight 2,211.99 lb (113 lb under the 2,325 lb gross), CG 86.95 in (1.16 in aft of the 85.79 in forward limit, 6.05 in forward of the 93.00 in aft limit), and 48 usable gal giving 5.7-6.6 h against a 3.0 h requirement. BUT the result is sensitive, and the decision turns on ONE number: N84054's empty CG. If it is aft of about 85.65 in, this load is legal at full fuel. If it is forward of 85.65 in, 460 lb of front-seat occupants will put the CG forward of the forward limit at full fuel, and he will need to either reduce fuel to roughly 35 gal or carry about 25-75 lb of secured ballast at the baggage station. Weight itself is not the problem for any Warrior II with a basic empty weight under 1,577 lb. Fuel endurance is not remotely the problem. VERDICT: feasible but CONDITIONAL — do not sign off until the actual empty CG is read off N84054's weight and balance record.",
+    "margin_notes": [
+      "Gross weight margin in the base case: 113.01 lb. Forward CG margin: 1.16 in. Aft CG margin: 6.05 in.",
+      "Decisive number: empty CG must be aft of about 85.65 in for full fuel with 460 lb up front.",
+      "Second number: basic empty weight must be under 1,577 lb to carry 460 lb of occupants plus full fuel at all.",
+      "Endurance is a non-issue. Even at the pessimistic 10.0 gph, 48 gal gives 4.8 h against a 3.0 h requirement.",
+      "Burning fuel moves the CG FORWARD on a PA-28 (fuel arm 95.0 is aft of the loaded CG of about 87). The CG is most forward at landing, not at takeoff. With a nose-heavy load, check the LANDING CG, not just the takeoff CG. For the base case at zero fuel: 1,923.99 lb at 85.74 in, forward limit 83.00 in — still inside, with 2.74 in to spare. This is the right check to brief with an examiner.",
+      "Utility category (2020 lb) is unusable with this load. If the checkride needs Utility-category manoeuvres, the numbers change completely.",
+      "No taxi/run-up fuel burn was credited. TCDS 2A13 publishes no ramp weight for this serial range, so the airplane must be at or under 2,325 lb at engine start, not just at brake release.",
+      "A gross-weight-increase STC exists for the PA-28-161 (adds 115 lb). If N84054 carries one, the limits above do not apply. Check the airplane's STC list."
+    ]
+  },
+
+  "what_he_must_get_from_the_actual_airplane": [
+    "N84054's current signed weight and balance record: BASIC EMPTY WEIGHT and EMPTY CG (arm) and empty moment. This is the one input that decides the case.",
+    "The date of that weight and balance record and whether any Form 337 / equipment change postdates it (new avionics, new interior, wheel fairings removed, ADS-B install — all shift both weight and CG).",
+    "The aircraft's actual equipment list, to confirm the empty weight includes full oil and unusable fuel.",
+    "The POH that belongs to THIS airplane — Section 2 (Limitations) for the max takeoff / ramp / landing weights, and Section 6 (Weight and Balance) for the printed CG envelope chart and the loading form. The TCDS governs, but the POH is what an examiner will ask him to open.",
+    "Confirmation of the usable fuel quantity in that POH (48 gal is expected; a Warrior with long-range or reduced tanks would differ).",
+    "The list of STCs and supplements for the airframe, specifically any gross-weight-increase STC, which would change the 2,325 lb figure.",
+    "Confirmation of whether the baggage compartment floor has a loading limit separate from the 200 lb total, if ballast turns out to be needed.",
+    "Whether the rear seats are installed, and their actual weight if they have been removed (removing them changes the empty weight AND empty CG, and the airplane must have been re-weighed or the change computed and recorded).",
+    "The actual fuel burn the operator plans on, rather than a published spec figure, if the cross-country is tight."
+  ],
+
+  "unverified": [
+    {"item": "TCDS 2A13 NOTE 27", "why": "Both accessible mirrors of TCDS 2A13 (Rev 45 and Rev 48) truncate before the notes section, and drs.faa.gov returned no document text in this session. NOTE 27 is explicitly cited by item XVI-A against BOTH the CG range and the ramp weight, so it may qualify the 83.0/87.0/93.0 envelope used throughout this file. This is the most important open item. Read Note 27 in the current TCDS."},
+    {"item": "TCDS 2A13 NOTE 26 and NOTE 1", "why": "Same truncation. NOTE 1 covers system fuel and system oil data (i.e. what is included in empty weight). NOTE 26 qualifies the XVI-B/XVI-C weights, which do not apply to N84054."},
+    {"item": "Current TCDS 2A13 revision number and date", "why": "The newest copy retrievable here is Revision 48, 2006-08-07. drs.faa.gov would not serve document text. A later revision may exist. The PA-28-161 figures were identical between Rev 45 (2001) and Rev 48 (2006), which suggests they are stable, but this is not proof."},
+    {"item": "Maximum ramp weight for the non-Cadet PA-28-161 in serial range 28-7716001 to 28-8216300", "why": "TCDS item XVI-A publishes a ramp weight of 2332 lb for the Cadet only. No ramp weight is published for the Warrior II itself. Recorded as null; treat ramp = takeoff = 2325 lb pending the POH."},
+    {"item": "Maximum landing weight", "why": "TCDS 2A13 publishes no separate landing weight for the PA-28-161. Recorded as null. Expected to equal 2325 lb; confirm in POH Section 2."},
+    {"item": "Pounds per gallon stated in the Warrior II POH", "why": "The POH Section 6 pages retrieved show a sample fuel line of 267.0 lb but never print a lb/gal figure. 6.0 lb/gal is the standard avgas figure (sourced) and is consistent with 267.0 = 44.5 x 6.0, but it was not read out of a POH in this session. Confidence medium."},
+    {"item": "Usable fuel quantity from a Warrior II (2325 lb) POH", "why": "48 usable of 50 total is supported by three sources (a flight-sim data file citing POH performance data, the 1981 Plane & Pilot spec sheet, and the Warrior III POH's 2.0 gal unusable), but not read directly from a Warrior II POH. Confidence medium."},
+    {"item": "Whether the rear seats are removable", "why": "Neither the TCDS nor the Warrior POH Section 6 pages retrieved address physical removability. The TCDS only establishes that Utility category permits 2 seats (both at +80.5), i.e. the rear seats must be unoccupied. Recorded as null."},
+    {"item": "Warrior II POH Section 6 printed CG envelope chart values", "why": "The Delaware State University POH scans are image-only PDFs with no text layer and could not be OCR'd in this session (direct download was blocked by the egress proxy). The Oklahoma University Warrior III POH Section 6 is text-extractable but its envelope figure is a graph whose numeric limits did not extract. The envelope used here therefore comes from the TCDS, which is the governing document, not from the POH chart. They should agree; verify visually against the chart in the airplane's POH."},
+    {"item": "Cruise fuel burn from the POH", "why": "Figures used (8.4 gph at 75%, 7.3 gph at 65%) are from the 1981 Plane & Pilot published specification, not the POH cruise performance tables. A flight-sim data file citing POH data gives 10.0 gph at 75% / 8000 ft, materially higher. The endurance conclusion holds under both. Confidence medium."},
+    {"item": "Typical equipped empty weight range for 1981 Warrior IIs", "why": "Only one verified Warrior II data point (N3572M, 1978, 1463.99 lb at 87.39 in) could be found. No statistical range is asserted. Recorded as null."},
+    {"item": "N84054's own empty weight, empty CG, equipment list and STCs", "why": "Not published anywhere retrievable. The FAA registry does not carry weight and balance data. This must come from the aircraft's own records, and it is the number that decides the case."},
+    {"item": "Engine dash number", "why": "The registry gives 'Lycoming O-320 series'. The O-320-D3G attribution is from the 1981 Plane & Pilot spec sheet for the model, not from N84054's records."}
+  ],
+
+  "sources": [
+    {"url": "https://registry.faa.gov/AircraftInquiry/Search/NNumberResult?nNumberTxt=84054", "what": "FAA N-Number Inquiry for N84054 — manufacturer, model PA-28-161, serial 28-8116257, year 1981, Standard airworthiness, Utility/Normal category, owner FAR Horizons LLC", "quality": "registry"},
+    {"url": "https://corpora.tika.apache.org/base/docs/govdocs1/661/661034.pdf", "what": "FAA TCDS 2A13 Revision 45, 2001-12-12 — item XVI-A PA-28-161 Warrior II: serial range, 2325 lb normal / 2020 lb utility, CG range, seats and arms, 200 lb baggage at +142.8, 50 gal fuel at +95, oil at +27.5, datum definition, leveling means", "quality": "TCDS"},
+    {"url": "https://touringmachine.com/Cherokee/PDFs/Cherokee%20Type%20Certificate%20Data%20Sheet%202A13.pdf", "what": "FAA TCDS 2A13 Revision 48, 2006-08-07 — independent confirmation of all XVI-A figures, plus items XVI-B (late Warrior II, 2440 lb, s/n 28-8316001 up) and XVI-C (Warrior III), control surface movements", "quality": "TCDS"},
+    {"url": "https://ou.edu/content/dam/ags/aviation/docs/resources/weights-and-balance/warrioriiisection6.pdf", "what": "Piper PA-28-161 Warrior III POH Section 6 (Weight and Balance) — station arms 80.5 / 118.1 / 95.0 / 142.8, 200 lb baggage, leveling procedure, 2.0 gal unusable fuel, sample loading form, Utility category 'no baggage or aft passengers' footnote. Warrior III, so weights differ from N84054; arms and procedures are the same airframe family.", "quality": "POH"},
+    {"url": "https://planeandpilotmag.com/piper-1981-pa-28-161-warrior-ii/", "what": "Published specification for the 1981 PA-28-161 Warrior II — gross weight 2325 lb (independent corroboration of the TCDS XVI-A determination), standard empty weight 1353 lb, useful load 972 lb, fuel 48 gal, 8.4 gph at 75% / 7.3 gph at 65%, Lycoming O-320-D3G 160 hp", "quality": "other"},
+    {"url": "https://eastcoastaeroclub.com/wp-content/uploads/2026/07/2026.05.15-Updated-Weight-and-Balance.pdf", "what": "Flying club weight and balance summary — N3572M, 1978 PA-28-161 Warrior II: basic empty weight 1463.99 lb, empty CG 87.39 in, useful load 861.01 lb, gross 2325.00 lb. Also 12 Warrior IIIs for empty-weight and empty-CG context. Used as the real-world base case.", "quality": "other"},
+    {"url": "https://git.nayala.duckdns.org/fly/fgdata/raw/commit/759288135cd94ed5b380a0e559e4fad7d29e0722/Aircraft-yasim/README.pa28-161", "what": "PA-28-161 Warrior II performance data file citing POH figures — total fuel 50 gal, usable fuel 48 gal, 10.0 gph at 75% / 8000 ft, 7.0 gph at 55% / 8000 ft", "quality": "other"},
+    {"url": "https://www.globalair.com/aircraft-for-sale/specifications?specid=139", "what": "PA-28-161 Warrior II specification — max takeoff weight 2325 lb, empty weight 1353 lb, useful load 972 lb, fuel 48 gal, Lycoming O-320-D3G. Page itself states it is 'not valid for flight planning'.", "quality": "other"},
+    {"url": "https://generalaviationnews.com/2024/04/15/questions-from-the-cockpit-fake-weight", "what": "Source for the 6 lb per US gallon standard weight of avgas", "quality": "other"},
+    {"url": "https://www.aviatize.com/tools/weight-balance-calculator/piper-pa28-161", "what": "PA-28-161 weight and balance reference — corroborates arms 80.5 / 118.1 / 95.0 / 142.8, 200 lb baggage, and the 6 lb/gal avgas basis. Lists Warrior III weights (2440/2447), not applicable to N84054.", "quality": "other"},
+    {"url": "https://www.desu.edu/academics/academic-affairs/aviation/flight-planning-manuals", "what": "Index of PA-28-161 Warrior POH section PDFs. The Section 6 Weight and Balance scan (warrior_161_section_6_weight_and_balance_200_pbi.pdf) is image-only and could not be read in this session — flagged for him to open manually, as it is a Warrior II POH.", "quality": "POH"},
+    {"url": "https://knots2u.net/piper-pa-28-161-gross-weight-increase-stc-adds-115-lbs", "what": "Existence of a gross-weight-increase STC for the PA-28-161 adding 115 lb — noted as a check item, not used in any calculation", "quality": "other"},
+    {"url": "https://avsec.govt.nz/assets/aircraft/type-acceptance-reports/Piper_PA-28.pdf", "what": "NZ CAA PA-28 type acceptance report — consulted for PA-28-161 weights; gave only the 2440 lb figure without serial ranges, so not used", "quality": "other"}
+  ]
+}

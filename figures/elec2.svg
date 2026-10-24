@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 880 620" class="v-el" role="img" aria-label="Typical single-engine electrical system: alternator and battery feeding a main bus through the master switch, then an essential bus and two avionics buses through the avionics master">
+  <g class="d">
+  <defs><marker id="ah-el" viewbox="0 0 8 8" refx="7.2" refy="4" markerwidth="5.5" markerheight="5.5" orient="auto-start-reverse"><path class="ahd" d="M0 0 L8 4 L0 8 Z"></path></marker></defs>
+
+  <text class="ti" x="12" y="20">ELECTRICAL SYSTEM — TYPICAL SINGLE-ENGINE LAYOUT</text>
+  <text class="tiny l" x="12" y="38">Every airplane is wired differently. Read the bus names, the switch names and what hangs off each bus from the POH for the one you fly.</text>
+
+  <rect class="bx src" x="12" y="58" width="152" height="72" rx="4"></rect>
+  <text class="lb b" x="88" y="78">ALTERNATOR</text>
+  <text class="lb" x="88" y="96">engine driven, 14 V or 28 V</text>
+  <text class="lb" x="88" y="112">carries the load in flight</text>
+  <text class="lb" x="88" y="126">and recharges the battery</text>
+
+  <rect class="bx src" x="12" y="152" width="152" height="72" rx="4"></rect>
+  <text class="lb b" x="88" y="172">BATTERY</text>
+  <text class="lb" x="88" y="190">starts the engine, and is</text>
+  <text class="lb" x="88" y="206">the entire supply if the</text>
+  <text class="lb" x="88" y="220">alternator drops off line</text>
+
+  <rect class="bx sw" x="198" y="60" width="122" height="44" rx="4"></rect>
+  <text class="lb b" x="259" y="79">ALT half</text>
+  <text class="lb" x="259" y="95">of the master switch</text>
+
+  <rect class="bx sm" x="198" y="112" width="122" height="30" rx="4"></rect>
+  <text class="lb" x="259" y="131">ALT FIELD breaker</text>
+
+  <rect class="bx sw" x="198" y="154" width="122" height="44" rx="4"></rect>
+  <text class="lb b" x="259" y="173">BAT half</text>
+  <text class="lb" x="259" y="189">of the master switch</text>
+
+  <rect class="bx sm" x="198" y="206" width="122" height="30" rx="4"></rect>
+  <text class="lb" x="259" y="225">over-voltage relay</text>
+
+  <path class="ar" d="M164 88  H198"></path>
+  <path class="ar" d="M164 182 H198"></path>
+  <path class="dash" d="M259 104 V112"></path>
+  <path class="dash" d="M259 198 V206"></path>
+
+  <rect class="bus" x="356" y="58" width="34" height="222" rx="6"></rect>
+  <text class="bl" transform="translate(379,169) rotate(-90)">MAIN BUS</text>
+
+  <path class="ar" d="M320 82  H356"></path>
+  <path class="ar" d="M320 176 H356"></path>
+
+  <text class="lb l" x="404" y="80">landing, taxi and recognition lights</text>
+  <text class="lb l" x="404" y="98">strobes, beacon, position lights</text>
+  <text class="lb l" x="404" y="116">pitot heat</text>
+  <text class="lb l" x="404" y="134">flaps and trim</text>
+  <text class="lb l" x="404" y="152">the electric fuel pump</text>
+  <text class="lb l" x="404" y="170">cabin and panel lighting</text>
+  <text class="tiny l" x="404" y="192">The heavy, non-essential loads. These are the</text>
+  <text class="tiny l" x="404" y="208">first things you shed when you are on the battery.</text>
+
+  <rect class="bx sm" x="404" y="226" width="212" height="46" rx="4"></rect>
+  <text class="lb b" x="510" y="246">AMMETER AND VOLTMETER</text>
+  <text class="lb" x="510" y="263">charge or discharge, and bus volts</text>
+
+  <rect class="bus ess" x="356" y="304" width="34" height="122" rx="6"></rect>
+  <text class="bl" transform="translate(379,365) rotate(-90)">ESSENTIAL BUS</text>
+  <path class="ar" d="M373 280 V304"></path>
+
+  <text class="lb l" x="404" y="324">the primary flight display</text>
+  <text class="lb l" x="404" y="342">air data computer and AHRS</text>
+  <text class="lb l" x="404" y="360">No. 1 navigator and No. 1 com</text>
+  <text class="lb l" x="404" y="378">engine indication</text>
+  <text class="tiny l" x="404" y="400">Stays powered when everything else is shed.</text>
+  <text class="tiny l" x="404" y="416">That is the whole point of having it.</text>
+
+  <rect class="bx src" x="12" y="330" width="152" height="72" rx="4"></rect>
+  <text class="lb b" x="88" y="350">STANDBY BATTERY</text>
+  <text class="lb" x="88" y="368">if fitted — holds the</text>
+  <text class="lb" x="88" y="384">essential bus up for a limited</text>
+  <text class="lb" x="88" y="398">time. The POH gives how long.</text>
+  <path class="ar" d="M164 366 H356"></path>
+
+  <rect class="bx sw" x="186" y="452" width="134" height="46" rx="4"></rect>
+  <text class="lb b" x="253" y="472">AVIONICS MASTER</text>
+  <text class="lb" x="253" y="489">off for start and shutdown</text>
+  <path class="ar" d="M373 426 V440 H160 V475 H186"></path>
+
+  <rect class="bus av" x="356" y="452" width="34" height="58" rx="6"></rect>
+  <text class="bl s" transform="translate(379,481) rotate(-90)">AVIONICS 1</text>
+  <rect class="bus av" x="356" y="530" width="34" height="58" rx="6"></rect>
+  <text class="bl s" transform="translate(379,559) rotate(-90)">AVIONICS 2</text>
+  <path class="ar" d="M320 475 H356"></path>
+  <path class="ar" d="M253 498 V553 H356"></path>
+
+  <text class="lb l" x="404" y="472">No. 1 navigator, No. 1 com, audio panel</text>
+  <text class="lb l" x="404" y="492">transponder</text>
+  <text class="lb l" x="404" y="550">multi-function display, No. 2 navigator</text>
+  <text class="lb l" x="404" y="570">No. 2 com, autopilot, datalink weather</text>
+
+  <rect class="bx warn" x="640" y="290" width="228" height="298" rx="6"></rect>
+  <text class="wt b" x="656" y="314">What to be able to say</text>
+  <text class="wl2" x="656" y="338">The alternator, not the battery,</text>
+  <text class="wl2" x="656" y="354">carries the load in flight.</text>
+  <text class="wl2" x="656" y="378">A discharging ammeter with the</text>
+  <text class="wl2" x="656" y="394">engine running means the alternator</text>
+  <text class="wl2" x="656" y="410">is off line and you are on a clock.</text>
+  <text class="wl2" x="656" y="434">Shed load in order: the heavy main-bus</text>
+  <text class="wl2" x="656" y="450">items first, then anything not being</text>
+  <text class="wl2" x="656" y="466">used to fly, navigate or be seen.</text>
+  <text class="wl2" x="656" y="490">The avionics master exists so the</text>
+  <text class="wl2" x="656" y="506">starter's voltage spike never reaches</text>
+  <text class="wl2" x="656" y="522">the boxes.</text>
+  <text class="wl2" x="656" y="546">A tripped breaker may be reset once,</text>
+  <text class="wl2" x="656" y="562">and only if that item is needed for safe</text>
+  <text class="wl2" x="656" y="578">flight. Never a second time.</text>
+  </g>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 880 380" class="v-ss" role="img" aria-label="Steep spiral: a gliding constant radius descending turn of at least three full turns around a ground reference point, with bank varying through each turn to hold the radius against the wind">
+  <g class="d">
+  <defs><marker id="ah-ss" viewbox="0 0 8 8" refx="7.2" refy="4" markerwidth="5.5" markerheight="5.5" orient="auto-start-reverse"><path class="ahd" d="M0 0 L8 4 L0 8 Z"></path></marker></defs>
+
+  <text class="ti" x="12" y="20">STEEP SPIRAL — a gliding, constant-radius descending turn</text>
+  <text class="tiny l" x="12" y="38">Power-off turns about a point, stacked. It is how you lose a lot of altitude over one spot, which is exactly the forced-landing problem.</text>
+
+  <!-- spiral -->
+  <ellipse class="ring" cx="220" cy="118" rx="130" ry="42"></ellipse>
+  <ellipse class="ring" cx="220" cy="180" rx="130" ry="42"></ellipse>
+  <ellipse class="ring" cx="220" cy="242" rx="130" ry="42"></ellipse>
+  <circle class="pyl" cx="220" cy="304" r="6"></circle>
+  <text class="lb b" x="220" y="330">GROUND REFERENCE POINT</text>
+  <line class="lead" x1="220" y1="284" x2="220" y2="298"></line>
+  <line class="lead" x1="220" y1="160" x2="220" y2="284"></line>
+
+  <path class="ar" d="M350 112 A130 42 0 0 1 340 138"></path>
+  <text class="lb l" x="360" y="112">turn 1</text>
+  <text class="lb l" x="360" y="176">turn 2</text>
+  <text class="lb l" x="360" y="240">turn 3</text>
+  <text class="tiny l" x="360" y="256">at least three, and</text>
+  <text class="tiny l" x="360" y="270">the radius identical</text>
+  <text class="tiny l" x="360" y="284">on every one</text>
+
+  <!-- wind -->
+  <path class="wind" d="M470 100 H560"></path>
+  <text class="tiny l" x="470" y="92">WIND</text>
+
+  <rect class="bx s" x="470" y="118" width="180" height="120" rx="6"></rect>
+  <text class="lb b" x="560" y="140">BANK VARIES</text>
+  <text class="lb" x="560" y="160">Steepest downwind,</text>
+  <text class="lb" x="560" y="176">where groundspeed</text>
+  <text class="lb" x="560" y="192">is highest.</text>
+  <text class="lb" x="560" y="214">Shallowest upwind,</text>
+  <text class="lb" x="560" y="230">where it is lowest.</text>
+
+  <rect class="bx warn" x="668" y="60" width="192" height="248" rx="6"></rect>
+  <text class="wt b" x="684" y="84">Standards</text>
+  <text class="wl2" x="684" y="108">Bank never more than</text>
+  <text class="wl2" x="684" y="124"><tspan class="k">60°</tspan> at the steepest point</text>
+  <text class="wl2" x="684" y="148">Airspeed the POH gives,</text>
+  <text class="wl2" x="684" y="164">or best glide, <tspan class="k">±10 kt</tspan></text>
+  <text class="wl2" x="684" y="188">A minimum of <tspan class="k">three</tspan></text>
+  <text class="wl2" x="684" y="204">full 360° turns</text>
+  <text class="wl2" x="684" y="228">Roll out on a chosen</text>
+  <text class="wl2" x="684" y="244">heading, <tspan class="k">±10°</tspan></text>
+  <text class="wl2" x="684" y="268">Finish no lower than</text>
+  <text class="wl2" x="684" y="284"><tspan class="k">1,500 ft AGL</tspan></text>
+
+  <text class="wl" x="14" y="362">Clear the engine periodically on the way down, and plan the entry altitude so three full turns still leave you 1,500 ft AGL at the bottom.</text>
+  </g>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 880 400" class="v-po" role="img" aria-label="Power-off 180 accuracy approach: abeam the touchdown point at or below 1000 feet AGL, throttle closed, and a glide through base and final to touch down within 200 feet beyond a chosen point">
+  <g class="d">
+  <defs><marker id="ah-po" viewbox="0 0 8 8" refx="7.2" refy="4" markerwidth="5.5" markerheight="5.5" orient="auto-start-reverse"><path class="ahd" d="M0 0 L8 4 L0 8 Z"></path></marker></defs>
+
+  <text class="ti" x="12" y="20">POWER-OFF 180 ACCURACY APPROACH AND LANDING</text>
+  <text class="tiny l" x="12" y="38">A judgment maneuver. From the abeam position the engine gives you nothing, and you arrive on a spot using configuration and geometry alone.</text>
+
+  <!-- runway -->
+  <rect class="rwy" x="120" y="292" width="620" height="26" rx="2"></rect>
+  <line class="rwyc" x1="140" y1="305" x2="720" y2="305"></line>
+  <circle class="tgt" cx="330" cy="305" r="7"></circle>
+  <text class="lb b" x="330" y="340">TOUCHDOWN POINT</text>
+  <text class="tiny" x="330" y="354">you nominate it before you start</text>
+  <line class="tol" x1="330" y1="284" x2="430" y2="284"></line>
+  <text class="tiny" x="392" y="278">200 ft</text>
+
+  <!-- downwind -->
+  <path class="glide" d="M700 120 H360"></path>
+  <circle class="pt hi" cx="360" cy="120" r="5"></circle>
+  <text class="lb b" x="360" y="106">ABEAM THE POINT</text>
+  <text class="tiny" x="360" y="92">at or below 1,000 ft AGL · throttle closed here</text>
+  <path class="ar" d="M720 120 H700"></path>
+  <text class="lb l" x="742" y="124">downwind</text>
+
+  <!-- base and final -->
+  <path class="glide" d="M360 120 C300 130 250 160 230 200 C214 232 240 262 268 278 L322 300"></path>
+  <text class="lb l" x="238" y="196">BASE</text>
+  <text class="lb l" x="286" y="266">FINAL</text>
+
+  <text class="tiny l" x="470" y="164">Fly best glide, then trade it: flaps and</text>
+  <text class="tiny l" x="470" y="180">the turn are your only energy controls.</text>
+  <text class="tiny l" x="470" y="196">Adjust the <tspan class="k">shape</tspan> of the pattern, not</text>
+  <text class="tiny l" x="470" y="212">the throttle — tighten it in if you are low,</text>
+  <text class="tiny l" x="470" y="228">widen or extend if you are high.</text>
+  <text class="tiny l" x="470" y="252">A slip is legitimate. Adding power is</text>
+  <text class="tiny l" x="470" y="268">an unsatisfactory approach.</text>
+
+  <rect class="bx s" x="14" y="60" width="196" height="192" rx="6"></rect>
+  <text class="lb b" x="112" y="82">HOW IT IS GRADED</text>
+  <text class="lb" x="112" y="104">Abeam at or below</text>
+  <text class="lb" x="112" y="120"><tspan class="k">1,000 ft AGL</tspan></text>
+  <text class="lb" x="112" y="144">Touch down at, or within</text>
+  <text class="lb" x="112" y="160"><tspan class="k">200 ft beyond</tspan>, your point</text>
+  <text class="lb" x="112" y="184">Approach speed the POH</text>
+  <text class="lb" x="112" y="200">gives, or no more than</text>
+  <text class="lb" x="112" y="216">1.3 V<tspan class="sub">SO</tspan>, <tspan class="k">+10 / −5 kt</tspan></text>
+  <text class="lb" x="112" y="240">Touch down on the centerline</text>
+
+  <text class="wl" x="14" y="382">Short of the point is a fail as surely as long. Pick a spot with room to spare, and be honest with yourself about a go-around.</text>
+  </g>
+</svg>

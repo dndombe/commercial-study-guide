@@ -1,0 +1,631 @@
+{
+ "_README": "Worked weight and balance cases for N84054, Piper PA-28-161 Warrior II, s/n 28-8116257, 1981, for the Commercial checkride on 24 November. Limits are TCDS 2A13 item XVI-A (2,325 lb normal / 2,020 lb utility), NOT the 2,440 lb figures printed in the POH in the airplane (Piper report VB-1180, which covers serials 28-8316001 and up). EVERY TOTAL BELOW IS PROVISIONAL: the basic empty weight and empty CG are ASSUMED (1,463.99 lb at 87.39 in, from a different airplane - see assumed_empty.basis in wb-data.json). Recompute all of it from N84054's own signed weight and balance record before flying. Arithmetic done in Python and verified by an independent recomputation using exact rational arithmetic and a different code path; all cases agreed exactly.",
+ "load_assumptions": {
+  "pilot_lb": 220.0,
+  "examiner_lb": 280.0,
+  "both_in_front_seats_at_arm": 80.5,
+  "fuel_gal_usable": 48.0,
+  "fuel_lb_per_gal": 6.0,
+  "fuel_arm": 95.0,
+  "baggage_lb": 25.0,
+  "baggage_arm": 142.8,
+  "empty_weight_lb_ASSUMED": 1463.99,
+  "empty_cg_in_ASSUMED": 87.39,
+  "max_gross_lb": 2325.0,
+  "max_utility_lb": 2020.0,
+  "fwd_limit_points": [
+   [
+    1950.0,
+    83.0
+   ],
+   [
+    2325.0,
+    87.0
+   ]
+  ],
+  "aft_limit_in": 93.0,
+  "ramp_allowance_credited": "none - no ramp weight is published for this serial"
+ },
+ "cases": [
+  {
+   "name": "Full fuel (48 gal), 25 lb baggage - the real checkride load",
+   "rows": [
+    {
+     "item": "Basic empty weight (ASSUMED - not N84054's own)",
+     "weight": 1463.99,
+     "arm": 87.39,
+     "moment": 127938.1
+    },
+    {
+     "item": "Pilot 220 + examiner 280, both front seats",
+     "weight": 500.0,
+     "arm": 80.5,
+     "moment": 40250.0
+    },
+    {
+     "item": "Fuel, 48 gal usable x 6.0 lb/gal",
+     "weight": 288.0,
+     "arm": 95.0,
+     "moment": 27360.0
+    },
+    {
+     "item": "Baggage (flight bag + headset)",
+     "weight": 25.0,
+     "arm": 142.8,
+     "moment": 3570.0
+    }
+   ],
+   "total_weight": 2276.99,
+   "total_arm": 87.45,
+   "total_moment": 199118.1,
+   "fwd_limit_at_weight": 86.49,
+   "aft_limit": 93.0,
+   "margin_in": 0.96,
+   "aft_margin_in": 5.55,
+   "under_gross_lb": 48.01,
+   "legal": true,
+   "verdict": "Legal. 2276.99 lb is 48.01 lb under the 2325 lb gross and the CG at 87.45 in sits 0.96 in aft of the 86.49 in forward limit and 5.55 in forward of the 93.0 in aft limit. This is the tightest case of the day, and it still fits."
+  },
+  {
+   "name": "Full fuel (48 gal), no baggage",
+   "rows": [
+    {
+     "item": "Basic empty weight (ASSUMED - not N84054's own)",
+     "weight": 1463.99,
+     "arm": 87.39,
+     "moment": 127938.1
+    },
+    {
+     "item": "Pilot 220 + examiner 280, both front seats",
+     "weight": 500.0,
+     "arm": 80.5,
+     "moment": 40250.0
+    },
+    {
+     "item": "Fuel, 48 gal usable x 6.0 lb/gal",
+     "weight": 288.0,
+     "arm": 95.0,
+     "moment": 27360.0
+    }
+   ],
+   "total_weight": 2251.99,
+   "total_arm": 86.83,
+   "total_moment": 195548.1,
+   "fwd_limit_at_weight": 86.22,
+   "aft_limit": 93.0,
+   "margin_in": 0.61,
+   "aft_margin_in": 6.17,
+   "under_gross_lb": 73.01,
+   "legal": true,
+   "verdict": "Legal, but with LESS forward margin than carrying the bag: 0.61 in instead of 0.96 in. Taking the 25 lb out of the baggage compartment removes weight at 142.8 in, which pulls the CG forward toward the limit. Leaving the bag in is the better loading."
+  },
+  {
+   "name": "Three-quarter tanks (36 gal), 25 lb baggage",
+   "note": "VB-1180 defines NO tab quantity. There is no filler-neck tab figure anywhere in the handbook, the Loading Graph runs only to 48 gal, and Section 8 gives no partial-fill mark. 36 gal is a chosen three-quarter-tanks stand-in, NOT a POH number. If N84054's tanks have tabs, read the tab quantity off the airplane or VB-880 and rerun.",
+   "rows": [
+    {
+     "item": "Basic empty weight (ASSUMED - not N84054's own)",
+     "weight": 1463.99,
+     "arm": 87.39,
+     "moment": 127938.1
+    },
+    {
+     "item": "Pilot 220 + examiner 280, both front seats",
+     "weight": 500.0,
+     "arm": 80.5,
+     "moment": 40250.0
+    },
+    {
+     "item": "Fuel, 36 gal usable x 6.0 lb/gal",
+     "weight": 216.0,
+     "arm": 95.0,
+     "moment": 20520.0
+    },
+    {
+     "item": "Baggage (flight bag + headset)",
+     "weight": 25.0,
+     "arm": 142.8,
+     "moment": 3570.0
+    }
+   ],
+   "total_weight": 2204.99,
+   "total_arm": 87.2,
+   "total_moment": 192278.1,
+   "fwd_limit_at_weight": 85.72,
+   "aft_limit": 93.0,
+   "margin_in": 1.48,
+   "aft_margin_in": 5.8,
+   "under_gross_lb": 120.01,
+   "legal": true,
+   "verdict": "Legal with more room than full fuel: 2204.99 lb, CG 87.20 in, 1.48 in of forward margin. Taking 12 gal out buys 0.52 in of forward margin, because the forward limit falls faster than the CG moves forward."
+  },
+  {
+   "name": "Landing after a 2.0 h flight at 8.4 gph (31.2 gal remaining), 25 lb baggage",
+   "rows": [
+    {
+     "item": "Basic empty weight (ASSUMED - not N84054's own)",
+     "weight": 1463.99,
+     "arm": 87.39,
+     "moment": 127938.1
+    },
+    {
+     "item": "Pilot 220 + examiner 280, both front seats",
+     "weight": 500.0,
+     "arm": 80.5,
+     "moment": 40250.0
+    },
+    {
+     "item": "Fuel, 31.2 gal usable x 6.0 lb/gal",
+     "weight": 187.2,
+     "arm": 95.0,
+     "moment": 17784.0
+    },
+    {
+     "item": "Baggage (flight bag + headset)",
+     "weight": 25.0,
+     "arm": 142.8,
+     "moment": 3570.0
+    }
+   ],
+   "total_weight": 2176.19,
+   "total_arm": 87.1,
+   "total_moment": 189542.1,
+   "fwd_limit_at_weight": 85.41,
+   "aft_limit": 93.0,
+   "margin_in": 1.69,
+   "aft_margin_in": 5.9,
+   "under_gross_lb": 148.81,
+   "legal": true,
+   "verdict": "Legal and MORE comfortable than takeoff: CG 87.10 in against an 85.41 in forward limit, 1.69 in of margin versus 0.96 in at brake release. Fuel burn improves this airplane's CG picture, so takeoff is the binding end of the flight, not landing."
+  },
+  {
+   "name": "Landing after 2.0 h at a pessimistic 10.0 gph (28 gal remaining), 25 lb baggage",
+   "rows": [
+    {
+     "item": "Basic empty weight (ASSUMED - not N84054's own)",
+     "weight": 1463.99,
+     "arm": 87.39,
+     "moment": 127938.1
+    },
+    {
+     "item": "Pilot 220 + examiner 280, both front seats",
+     "weight": 500.0,
+     "arm": 80.5,
+     "moment": 40250.0
+    },
+    {
+     "item": "Fuel, 28 gal usable x 6.0 lb/gal",
+     "weight": 168.0,
+     "arm": 95.0,
+     "moment": 15960.0
+    },
+    {
+     "item": "Baggage (flight bag + headset)",
+     "weight": 25.0,
+     "arm": 142.8,
+     "moment": 3570.0
+    }
+   ],
+   "total_weight": 2156.99,
+   "total_arm": 87.03,
+   "total_moment": 187718.1,
+   "fwd_limit_at_weight": 85.21,
+   "aft_limit": 93.0,
+   "margin_in": 1.82,
+   "aft_margin_in": 5.97,
+   "under_gross_lb": 168.01,
+   "legal": true,
+   "verdict": "Legal, 1.82 in of forward margin. Burning more fuel only helps. Even the fuel-burn assumption cannot make the landing case the critical one."
+  },
+  {
+   "name": "Tanks dry, 25 lb baggage - the extreme forward case",
+   "note": "Not a flyable condition; computed to prove the CG never leaves the envelope on the way down.",
+   "rows": [
+    {
+     "item": "Basic empty weight (ASSUMED - not N84054's own)",
+     "weight": 1463.99,
+     "arm": 87.39,
+     "moment": 127938.1
+    },
+    {
+     "item": "Pilot 220 + examiner 280, both front seats",
+     "weight": 500.0,
+     "arm": 80.5,
+     "moment": 40250.0
+    },
+    {
+     "item": "Fuel, 0 gal usable x 6.0 lb/gal",
+     "weight": 0.0,
+     "arm": 95.0,
+     "moment": 0.0
+    },
+    {
+     "item": "Baggage (flight bag + headset)",
+     "weight": 25.0,
+     "arm": 142.8,
+     "moment": 3570.0
+    }
+   ],
+   "total_weight": 1988.99,
+   "total_arm": 86.35,
+   "total_moment": 171758.1,
+   "fwd_limit_at_weight": 83.42,
+   "aft_limit": 93.0,
+   "margin_in": 2.94,
+   "aft_margin_in": 6.65,
+   "under_gross_lb": 336.01,
+   "legal": true,
+   "verdict": "Legal with the largest margin of all: 1988.99 lb, CG 86.35 in, forward limit back down to 83.42 in, 2.94 in of margin. The loading is inside the envelope from full tanks to dry tanks, so no in-flight CG excursion is possible on this load."
+  },
+  {
+   "name": "Utility category attempt: full fuel, no baggage, 2020 lb limit",
+   "rows": [
+    {
+     "item": "Basic empty weight (ASSUMED - not N84054's own)",
+     "weight": 1463.99,
+     "arm": 87.39,
+     "moment": 127938.1
+    },
+    {
+     "item": "Pilot 220 + examiner 280, both front seats",
+     "weight": 500.0,
+     "arm": 80.5,
+     "moment": 40250.0
+    },
+    {
+     "item": "Fuel, 48 gal usable x 6.0 lb/gal",
+     "weight": 288.0,
+     "arm": 95.0,
+     "moment": 27360.0
+    }
+   ],
+   "total_weight": 2251.99,
+   "total_arm": 86.83,
+   "total_moment": 195548.1,
+   "fwd_limit_at_weight": 86.22,
+   "aft_limit": 93.0,
+   "margin_in": 0.61,
+   "aft_margin_in": 6.17,
+   "under_gross_lb": -231.99,
+   "legal": false,
+   "verdict": "ILLEGAL in Utility category - 2251.99 lb is 231.99 lb over the 2020 lb utility maximum. Utility also forbids baggage and rear occupants entirely. Any utility-category manoeuvre on the commercial test would have to be flown far lighter, which two 250-lb-class adults up front makes impossible with useful fuel."
+  },
+  {
+   "name": "SENSITIVITY A - if the real empty weight is 1520 lb at 86.00 in: full fuel, 25 lb bag",
+   "note": "NOT N84054. A heavier, more forward airframe, shown so he knows what failure looks like.",
+   "rows": [
+    {
+     "item": "Basic empty weight (ASSUMED - not N84054's own)",
+     "weight": 1520.0,
+     "arm": 86.0,
+     "moment": 130720.0
+    },
+    {
+     "item": "Pilot 220 + examiner 280, both front seats",
+     "weight": 500.0,
+     "arm": 80.5,
+     "moment": 40250.0
+    },
+    {
+     "item": "Fuel, 48 gal usable x 6.0 lb/gal",
+     "weight": 288.0,
+     "arm": 95.0,
+     "moment": 27360.0
+    },
+    {
+     "item": "Baggage (flight bag + headset)",
+     "weight": 25.0,
+     "arm": 142.8,
+     "moment": 3570.0
+    }
+   ],
+   "total_weight": 2333.0,
+   "total_arm": 86.54,
+   "total_moment": 201900.0,
+   "fwd_limit_at_weight": 87.09,
+   "aft_limit": 93.0,
+   "margin_in": -0.54,
+   "aft_margin_in": 6.46,
+   "under_gross_lb": -8.0,
+   "legal": false,
+   "verdict": "ILLEGAL twice over: 2333.00 lb is 8.00 lb OVER gross, and the CG at 86.54 in is 0.54 in FORWARD of the 87.09 in forward limit. Both failures come from the same cause - a heavy airframe forces the forward limit aft while the nose-heavy load holds the CG forward."
+  },
+  {
+   "name": "SENSITIVITY B - if the real empty CG is 85.00 in at 1464 lb: full fuel, 25 lb bag",
+   "note": "NOT N84054. Same empty weight, forward empty CG, to isolate the empty-CG effect.",
+   "rows": [
+    {
+     "item": "Basic empty weight (ASSUMED - not N84054's own)",
+     "weight": 1463.99,
+     "arm": 85.0,
+     "moment": 124439.1
+    },
+    {
+     "item": "Pilot 220 + examiner 280, both front seats",
+     "weight": 500.0,
+     "arm": 80.5,
+     "moment": 40250.0
+    },
+    {
+     "item": "Fuel, 48 gal usable x 6.0 lb/gal",
+     "weight": 288.0,
+     "arm": 95.0,
+     "moment": 27360.0
+    },
+    {
+     "item": "Baggage (flight bag + headset)",
+     "weight": 25.0,
+     "arm": 142.8,
+     "moment": 3570.0
+    }
+   ],
+   "total_weight": 2276.99,
+   "total_arm": 85.91,
+   "total_moment": 195619.1,
+   "fwd_limit_at_weight": 86.49,
+   "aft_limit": 93.0,
+   "margin_in": -0.58,
+   "aft_margin_in": 7.09,
+   "under_gross_lb": 48.01,
+   "legal": false,
+   "verdict": "ILLEGAL on CG alone: weight is fine at 2276.99 lb but the CG at 85.91 in is 0.58 in FORWARD of the 86.49 in forward limit. Nothing about the weight warns you - only the CG check catches it. This is why empty CG matters more here than empty weight."
+  },
+  {
+   "name": "SENSITIVITY B, fixed: 30 gal instead of 48, 25 lb bag",
+   "note": "The fuel reduction that fixes sensitivity case B. NOT N84054.",
+   "rows": [
+    {
+     "item": "Basic empty weight (ASSUMED - not N84054's own)",
+     "weight": 1463.99,
+     "arm": 85.0,
+     "moment": 124439.1
+    },
+    {
+     "item": "Pilot 220 + examiner 280, both front seats",
+     "weight": 500.0,
+     "arm": 80.5,
+     "moment": 40250.0
+    },
+    {
+     "item": "Fuel, 30 gal usable x 6.0 lb/gal",
+     "weight": 180.0,
+     "arm": 95.0,
+     "moment": 17100.0
+    },
+    {
+     "item": "Baggage (flight bag + headset)",
+     "weight": 25.0,
+     "arm": 142.8,
+     "moment": 3570.0
+    }
+   ],
+   "total_weight": 2168.99,
+   "total_arm": 85.46,
+   "total_moment": 185359.1,
+   "fwd_limit_at_weight": 85.34,
+   "aft_limit": 93.0,
+   "margin_in": 0.12,
+   "aft_margin_in": 7.54,
+   "under_gross_lb": 156.01,
+   "legal": true,
+   "verdict": "Legal: 2168.99 lb, CG 85.46 in against an 85.34 in forward limit, +0.12 in. Dropping 18 gal recovers 0.70 in of forward margin. Reducing fuel, not adding ballast, is the fix for a nose-heavy Warrior, because weight off the nose-ward side drops the forward limit faster than it moves the CG."
+  }
+ ],
+ "questions": [
+  {
+   "q": "What is the datum on N84054 and where is it physically?",
+   "a": "It is a reference point <b>78.4 inches ahead of the wing leading edge</b> at the inboard intersection of the straight and tapered wing section, so it hangs in empty space out in front of the spinner. Nothing is bolted there. Every arm in Section 6 is measured aft of it, which is why all the arms on this airplane are positive numbers.",
+   "dup": ""
+  },
+  {
+   "q": "What is an arm?",
+   "a": "The horizontal distance in inches from the datum to the centre of a load. On this airplane the front seats are at <b>80.5 inches</b>, the rear seats 118.1, the fuel 95.0 and the baggage 142.8. An arm is a fixed property of where the seat or tank is, not of what you put in it, which is why the arms are the same on every Warrior II regardless of gross weight.",
+   "dup": ""
+  },
+  {
+   "q": "What is a moment and why do you work with it instead of just arms?",
+   "a": "A moment is weight times arm, in inch-pounds - a measure of turning effect about the datum. You use it because moments add and arms do not. Two 100 lb loads at 80.5 and 142.8 are not a 200 lb load at 111.65 by luck; you add their moments and divide by total weight. For the real load that total is <b>199,118 in-lb</b>, and 199,118 divided by 2,276.99 lb gives the CG.",
+   "dup": ""
+  },
+  {
+   "q": "How do you find the CG from a completed loading form?",
+   "a": "Divide total moment by total weight. For the real checkride load, 199,118.1 in-lb divided by 2,276.99 lb gives a CG of <b>87.45 inches</b> aft of datum. Then you check that single number against two limits: the forward limit interpolated at that same total weight, and the aft limit. Weight and CG must both pass; passing one proves nothing about the other.",
+   "dup": ""
+  },
+  {
+   "q": "What is your airplane's maximum takeoff weight, and why is it not the 2,440 lb in the handbook?",
+   "a": "<b>2,325 lb</b> normal category. The POH in the airplane is Piper report VB-1180, written for serials 28-8316001 and up, which is TCDS 2A13 item XVI-B at 2,440 lb. Serial 28-8116257 falls in item XVI-A, serials 28-7716001 through 28-8216300, which is certificated at 2,325 lb normal and 2,020 lb utility. The book in the cockpit is for a heavier airplane.",
+   "dup": ""
+  },
+  {
+   "q": "How do you know which TCDS item your airplane falls under?",
+   "a": "By serial number, not by year or model name. Serial <b>28-8116257</b> lies between 28-7716001 and 28-8216300, which is TCDS 2A13 item XVI-A at 2,325 lb. The 1982 break at 28-8316001 starts item XVI-B at 2,440 lb. The FAA registry confirms the serial and the 1981 build. When the TCDS and a handbook disagree, the TCDS governs.",
+   "dup": ""
+  },
+  {
+   "q": "What is the aft CG limit on your airplane and where does it come from?",
+   "a": "<b>93.0 inches</b> aft of datum, and it is constant at every weight from 1,200 lb to gross. It is read straight off the POH's own Figure 6-15 as the vertical line marked AFT LIMIT 93, it is printed in POH 2.13(a), and the TCDS gives the same figure for item XVI-A. Because it does not depend on gross weight, this one carries across from the 2,440 lb book unchanged.",
+   "dup": ""
+  },
+  {
+   "q": "What is the forward CG limit on your airplane?",
+   "a": "It is a sloped line: <b>83.0 inches</b> at 1,950 lb and anything lighter, moving aft in a straight line to 87.0 inches at 2,325 lb. The 83.0 end is read off the POH chart and printed in POH 2.13(a). The 87.0 end is from TCDS 2A13 item XVI-A, because the POH's line ends at 88.3 inches at 2,440 lb, which is not this airplane's gross weight.",
+   "dup": ""
+  },
+  {
+   "q": "Which parts of the POH CG envelope apply to your airplane and which do not?",
+   "a": "The aft limit of 93.0 inches and the forward limit of 83.0 inches at 1,950 lb and below apply, and so does the whole bottom half of the chart. The top does not: Figure 6-15 is captioned <b>2440 MAX. GROSS WT.</b> and its forward line runs to 88.3 inches at 2,440 lb. Above 2,325 lb the chart describes an airplane that is not his, so the envelope has to be cut off there.",
+   "dup": ""
+  },
+  {
+   "q": "Does using the POH's forward line instead of the TCDS one change your answer?",
+   "a": "Barely, and it is a useful cross-check. The POH's line runs 83.0 at 1,950 lb to 88.3 at 2,440 lb, a slope of 0.01082 in/lb; extended down to 2,325 lb it reads <b>87.06 inches</b> against the TCDS's 87.0. They describe the same physical line, and his envelope is that line truncated at 2,325 lb. At the real load the two differ by 0.05 inch of margin and change no verdict.",
+   "dup": ""
+  },
+  {
+   "q": "How do you interpolate the forward limit at a weight between the published points?",
+   "a": "Straight-line, as POH 2.13 NOTES instructs: Straight line variation between points given. The slope is 4.0 inches over 375 lb, which is <b>0.01067 inch per pound</b>. So forward limit equals 83.0 plus 0.01067 times weight minus 1,950. At 2,276.99 lb that is 83.0 plus 3.49, giving 86.49 inches. Below 1,950 lb it is flat at 83.0.",
+   "dup": ""
+  },
+  {
+   "q": "Why does the forward CG limit slope aft as weight increases?",
+   "a": "Because it is a stabilator authority limit, not a balance limit. At the forward CG the stabilator has to produce enough download to raise the nose at rotation and to hold the flare. The heavier the airplane, the more download is needed, and at some point the tail runs out of authority. So the allowable forward CG has to retreat aft as weight rises - <b>4.0 inches</b> of retreat over the last 375 lb on this airplane.",
+   "dup": ""
+  },
+  {
+   "q": "Why is the aft limit a straight vertical line when the forward limit slopes?",
+   "a": "Because the aft limit is set by longitudinal stability and spin recovery, and those are governed by how far the CG sits ahead of the neutral point, which does not move with gross weight. Static margin is a geometry question, so the answer is the same <b>93.0 inches</b> at 1,200 lb as at 2,325 lb. The forward limit is a control-power question, and control power does depend on weight.",
+   "dup": ""
+  },
+  {
+   "q": "What happens if you load forward of the forward CG limit?",
+   "a": "The airplane gets nose-heavy and the stabilator may not have enough authority to rotate on takeoff or to complete the flare, so you arrive flat or on the nosewheel. Stall speed rises because the tail download adds to the lift the wing must make, takeoff and landing distances grow, climb suffers, and cruise is slower from the extra trim drag. On this load the worst case is only <b>0.96 inch</b> of forward margin.",
+   "dup": ""
+  },
+  {
+   "q": "What happens if you load aft of the aft CG limit?",
+   "a": "Longitudinal stability falls away. The airplane becomes twitchy in pitch, may rotate prematurely on takeoff or pitch up in the climb, stall warning and buffet arrive later or not at all, and - the part the POH calls out by name - spin recovery becomes more difficult and may become impossible. The POH's exact words are that it can lead to inadvertent stalls and even spins. The limit is <b>93.0 inches</b>.",
+   "dup": ""
+  },
+  {
+   "q": "Which way does the CG move as fuel burns on this airplane, and why?",
+   "a": "Forward. The fuel sits at <b>95.0 inches</b>, which is aft of the loaded CG of about 87.4, so removing it takes away an aft-of-CG weight and the CG creeps forward. On the real load it moves from 87.45 inches full to 86.35 inches dry - 1.1 inches across all 48 gallons, which is why the POH can say fuel burn-off does not significantly affect the centre of gravity.",
+   "dup": ""
+  },
+  {
+   "q": "If burning fuel moves the CG forward, is landing the critical case on your flight?",
+   "a": "No, and this is the trap. The CG does move forward, but the forward limit drops faster. Each gallon burned moves the CG forward about 0.020 inch while dropping the forward limit <b>0.064 inch</b>, so the margin grows about 0.044 inch per gallon. Forward margin goes from 0.96 inch at brake release to 1.69 inches after two hours and 2.94 inches dry. Takeoff binds.",
+   "dup": ""
+  },
+  {
+   "q": "So which end of the flight do you have to check on this loading?",
+   "a": "Takeoff, at full fuel. That is where total weight is highest, the forward limit is furthest aft, and the margin is smallest at <b>+0.96 inch</b>. On an airplane whose fuel is aft of the CG you still check both ends, because a load that is aft-limit-critical at takeoff could in principle run forward in flight - but on this nose-heavy load every gallon burned helps.",
+   "dup": ""
+  },
+  {
+   "q": "Why are two adults of your size in the front seats the hard case on this airplane?",
+   "a": "Because 500 lb goes in at <b>80.5 inches</b>, the most forward station that carries people, and it does two bad things at once. It drags the CG toward the forward limit, and it adds weight, which drives the forward limit aft to meet it. Nothing else on the airplane loads that far forward. Four average adults are easier on CG than two heavy ones up front.",
+   "dup": ""
+  },
+  {
+   "q": "Is the real checkride load legal at full fuel?",
+   "a": "Yes, on the assumed empty weight. Takeoff weight <b>2,276.99 lb</b> against a 2,325 lb limit, so 48.01 lb spare, with the CG at 87.45 inches against a forward limit of 86.49 and an aft limit of 93.0 - inside by 0.96 inch forward and 5.55 inches aft. That verdict rests on an assumed empty weight and must be recomputed from the airplane's own record.",
+   "dup": ""
+  },
+  {
+   "q": "Counter-intuitively, does taking the 25 lb bag out help or hurt?",
+   "a": "It hurts the CG. The bag sits at 142.8 inches, well aft, so removing it pulls the CG forward toward the limit: margin falls from 0.96 inch with the bag to <b>0.61 inch</b> without it. It does buy 25 lb of gross-weight headroom. On a nose-heavy Warrior the baggage compartment is an ally, so leave the bag in and secure it.",
+   "dup": ""
+  },
+  {
+   "q": "What is the baggage limit and what does the placard say?",
+   "a": "<b>200 lb</b> in normal category at an arm of 142.8 inches, and zero in utility. The baggage door placard reads BAGGAGE MAXIMUM 200 LBS, and the utility placard reads UTILITY CATEGORY OPERATION - NO BAGGAGE OR AFT PASSENGERS ALLOWED. The 200 lb figure is a structural and volume limit on the floor and the tiedowns, not something derived from gross weight, so it is the same on his airplane as on the 2,440 lb one.",
+   "dup": ""
+  },
+  {
+   "q": "Can you ever reach the 200 lb baggage limit with this load?",
+   "a": "No, and that is the point of checking both limits. With 500 lb up front and full fuel you have only <b>48 lb</b> of gross-weight margin left, so weight stops you at about a quarter of the placarded baggage allowance. A placard being satisfied never means the loading is legal - the 200 lb baggage limit, the 2,325 lb gross and the CG envelope are three separate tests.",
+   "dup": ""
+  },
+  {
+   "q": "What does utility category allow on this airplane, and what does normal allow?",
+   "a": "Utility allows steep turns, lazy eights and chandelles beyond 60 degrees of bank, but only <b>2,020 lb</b>, two occupants both at 80.5 inches, no baggage and no rear passengers, with a forward limit of 83.8 inches at 2,020 lb. Normal allows four seats, 200 lb of baggage and 2,325 lb, but prohibits all acrobatic manoeuvres including spins and bank beyond 60 degrees.",
+   "dup": ""
+  },
+  {
+   "q": "Can you fly the commercial manoeuvres in utility category with this loading?",
+   "a": "No. Pilot and examiner alone are 500 lb, and with the assumed empty weight the airplane is already at 1,963.99 lb dry. Full fuel puts it at 2,251.99 lb, which is <b>231.99 lb</b> over the 2,020 lb utility maximum; even bone dry it only just fits. Chandelles and lazy eights at these weights have to be flown inside normal-category bank limits, or with a much lighter airplane.",
+   "dup": ""
+  },
+  {
+   "q": "What is a ramp weight allowance, and does your airplane have one?",
+   "a": "It is permission to be heavier at engine start than at brake release, covering the fuel burned in start, taxi and run-up - on the 2,440 lb Warrior that is <b>7 lb</b>, which is exactly why its ramp weight is 2,447 lb. For serial 28-8116257 no ramp weight is published anywhere available, so assume none: be at or under 2,325 lb at engine start, not just at brake release.",
+   "dup": ""
+  },
+  {
+   "q": "Where would 2,332 lb come from, and may you quote it as your ramp weight?",
+   "a": "It is 2,325 plus the 7 lb start, taxi and run-up allowance from the Section 6 loading form, and no, you may not quote it. TCDS item XVI-A publishes a 2,332 lb ramp weight for the <b>Cadet</b> only, not the Warrior II, and VB-1180's 2,447 lb belongs to the heavier airplane. Until VB-880 Section 2.11 says otherwise, that number is arithmetic, not a limitation.",
+   "dup": ""
+  },
+  {
+   "q": "What is your maximum landing weight?",
+   "a": "Not separately published, so plan on <b>2,325 lb</b>, the same as takeoff. VB-1180 1.11(c) sets landing weight equal to takeoff weight on the 2,440 lb airplane, and TCDS 2A13 publishes no reduced landing weight for any PA-28-161, so this airframe almost certainly follows the same convention. Confirm it in VB-880 Section 2 rather than asserting it.",
+   "dup": ""
+  },
+  {
+   "q": "How do you use the Loading Graph, Figure 6-13?",
+   "a": "Enter on the left at the weight of one item, run across to that item's diagonal line, then down to read moment over 1000 in pound-inches. Repeat for each station, add the moments to the empty moment, and divide by total weight. The four lines are pilot and front passenger, fuel labelled <b>6 lb/gal</b>, aft passengers and baggage - steepest to shallowest, because a steeper line means a shorter arm.",
+   "dup": ""
+  },
+  {
+   "q": "What is basic empty weight and what is already included in it?",
+   "a": "The weight of the airplane as it sits with all permanently installed equipment, full oil, and the <b>2.0 gallons</b> of unusable fuel - one gallon in each wing. POH 6.3 has you drain the tanks, put the unusable fuel back and fill the oil before weighing, and the Figure 6-5 footnote says so. So oil and unusable fuel are never separate lines on the loading form, and never subtracted.",
+   "dup": ""
+  },
+  {
+   "q": "What is the difference between standard empty weight and basic empty weight?",
+   "a": "Standard empty weight is the bare airplane with full oil and unusable fuel but no optional equipment; basic empty weight is that plus the optional equipment actually installed. Piper published about <b>1,353 lb</b> standard for a 1981 Warrior II, but a real equipped trainer runs 100 to 170 lb heavier. Only basic empty weight, from this airplane's own record, is any use for loading.",
+   "dup": ""
+  },
+  {
+   "q": "What empty weight and empty CG are you using, and are they this airplane's?",
+   "a": "No, they are assumed. The figures used are <b>1,463.99 lb at 87.39 inches</b>, which belong to N3572M, a 1978 PA-28-161 Warrior II at the same 2,325 lb gross, taken from a published flying club weight and balance summary. They were chosen because they are the only verified equipped 2,325 lb Warrior II with both a real weight and a real CG. N84054's own record replaces them.",
+   "dup": ""
+  },
+  {
+   "q": "What empty weight would make this loading stop working?",
+   "a": "On weight alone, <b>1,512 lb</b>: 2,325 minus 500 lb of occupants, 288 lb of fuel and 25 lb of bags. Drop the bags and it becomes 1,537 lb. But the CG fails first on an airframe whose empty CG is forward, and as empty weight rises the empty CG has to be further aft to pass: at 1,464 lb it must be aft of 85.90 inches, at 1,512 lb aft of 86.70 inches.",
+   "dup": ""
+  },
+  {
+   "q": "What do you do if the real numbers come back and the airplane is nose-heavy at full fuel?",
+   "a": "Take fuel out before you reach for ballast. Dropping weight lowers the forward limit by 0.064 inch per gallon while moving the CG forward only 0.020 inch, so you gain margin. On the worked nose-heavy case, going from 48 to <b>30 gallons</b> turns 0.58 inch outside into 0.12 inch inside. Baggage ballast also works but eats gross weight and must be secured against a hard landing.",
+   "dup": ""
+  },
+  {
+   "q": "Does the POH define a tab quantity for partial fuel on this airplane?",
+   "a": "No. VB-1180 mentions no filler-neck tab anywhere, the Loading Graph runs only to <b>48 gallons</b> and Section 8 gives no partial-fill mark. So tabs is not a POH quantity on a Warrior II, and any tab figure comes from the operator or from looking into the tank. If N84054's tanks are tabbed, measure the quantity and treat it as a local number, not a handbook one.",
+   "dup": ""
+  },
+  {
+   "q": "How much fuel can you actually carry, and how does that compare with what weight allows?",
+   "a": "<b>48 usable gallons</b> of 50 total, 2.0 unusable, which is 288 lb at 95.0 inches. Weight would allow more: with the occupants and bags aboard the airplane is 336 lb under gross, which is 56 gallons' worth. The tanks run out before the gross weight does, so on this flight fuel capacity binds, not weight - you simply cannot overfill yourself into an overweight airplane.",
+   "dup": ""
+  },
+  {
+   "q": "How does CG position affect stall speed?",
+   "a": "Forward CG raises it, aft CG lowers it. A forward CG needs more tail download to trim, and that download is extra weight the wing must carry, so the wing reaches its stalling angle at a higher airspeed. At the aft limit the download shrinks and the airplane stalls slower - but it also gives less warning. Note the POH's <b>44 KIAS</b> VSO is a 2,440 lb figure and is not his.",
+   "dup": ""
+  },
+  {
+   "q": "How does CG position affect cruise speed?",
+   "a": "Aft CG is faster. Moving the CG aft reduces the tail download needed to trim, so the wing carries less effective load, flies at a lower angle of attack and makes less induced drag, and the stabilator makes less trim drag. The gain is small on a Warrior - a knot or two over the whole <b>10-inch</b> envelope - but the direction is always the same: aft is faster, forward is safer.",
+   "dup": ""
+  },
+  {
+   "q": "How does CG position affect longitudinal stability?",
+   "a": "The further forward the CG, the more statically stable the airplane: a bigger arm between CG and the tail means stronger restoring pitch moments, heavier stick forces and a stronger tendency to return to trimmed speed. Moving aft shrinks that static margin until the airplane is neutral and then divergent. That is what the <b>93.0 inch</b> aft limit protects, and why spin recovery degrades beyond it.",
+   "dup": ""
+  },
+  {
+   "q": "What must you get from the airplane before any of this is a real weight and balance?",
+   "a": "Its current signed <b>Weight and Balance Record</b> - basic empty weight, empty CG arm and empty moment - plus the date of that record and any Form 337 since, because new avionics, an ADS-B install or a removed interior all move both numbers. Also the equipment list, VB-880 itself for the printed envelope and ramp weight, and the STC list in case of a gross-weight increase.",
+   "dup": ""
+  }
+ ],
+ "findings": [
+  "On the ASSUMED empty weight of 1,463.99 lb at 87.39 in, the real checkride load is LEGAL at full fuel: 2,276.99 lb takeoff weight (48.01 lb under the 2,325 lb gross), CG 87.45 in, forward limit 86.49 in, aft limit 93.0 in. Margins 0.96 in forward and 5.55 in aft. Change the empty weight and this verdict can change; it is the only genuinely uncertain input.",
+  "TAKEOFF AT FULL FUEL IS THE BINDING END OF THE FLIGHT, not landing. Fuel sits at 95.0 in, aft of the loaded CG of 87.45 in, so burning it moves the CG FORWARD (87.45 in full, 87.10 in after 2 h, 86.35 in dry). But the forward LIMIT falls faster than the CG does: 0.064 in per gallon burned against 0.020 in of CG travel, so the margin GROWS about 0.044 in per gallon. Forward margin is +0.96 in at brake release, +1.69 in after two hours and +2.94 in with the tanks dry. Every check that passes at takeoff passes for the rest of the flight.",
+  "FUEL CAPACITY BINDS BEFORE GROSS WEIGHT DOES. With pilot, examiner and 25 lb of bags aboard the airplane is 336.01 lb under gross, which is 56.0 gallons' worth; the tanks hold 48 usable. He physically cannot fill himself into an overweight airplane on this loading. No fuel reduction is required - the 'what fuel load makes it legal' case has no answer because full fuel already is.",
+  "ADDING THE 25 LB BAG IMPROVES THE CG. Baggage goes in at 142.8 in, far aft, so carrying it moves forward margin from +0.61 in (no bag) to +0.96 in (25 lb bag). The intuitive move of leaving baggage behind to 'save weight' makes the critical margin WORSE on this airplane. Leave the bag in and secure it.",
+  "EMPTY CG DECIDES THIS, NOT EMPTY WEIGHT. At the assumed 1,463.99 lb there are 48 lb of weight headroom, but the empty CG must be aft of 85.90 in or the airplane is forward of the limit at full fuel with the weight still perfectly legal (sensitivity case B: empty CG 85.00 in puts it 0.58 in outside, and nothing on the scale warns you). The required empty CG rises steeply with empty weight: aft of 85.90 in at 1,464 lb, aft of 86.50 in at 1,500 lb, aft of 86.70 in at 1,512 lb.",
+  "EMPTY-WEIGHT CEILINGS for this exact load: 1,512 lb with full fuel and 25 lb of baggage, 1,537 lb with full fuel and no baggage, 1,825 lb with no fuel and no baggage. The assumed 1,463.99 lb leaves 48 lb of room; an equipped 1981 trainer heavier than about 1,512 lb cannot do this trip with full tanks, and above roughly 1,520 lb at a typical empty CG it fails on weight AND CG at once (sensitivity case A: 8.00 lb over gross and 0.54 in forward of the limit simultaneously).",
+  "THE ENVELOPE IS A HYBRID AND HAS TO BE STATED AS ONE. Aft limit 93.0 in at all weights and forward limit 83.0 in at 1,950 lb and below are read off the POH's own Figure 6-15 and printed in POH 2.13(a), and carry across unchanged. The top of the sloped forward line does NOT: Figure 6-15 is captioned '2440 MAX. GROSS WT.' and POH 2.13(a) ends the line at 88.3 in at 2,440 lb, which is the item XVI-B airplane. For s/n 28-8116257 the line is bounded by TCDS 2A13 item XVI-A at 87.0 in at 2,325 lb.",
+  "THE POH AND THE TCDS DESCRIBE THE SAME PHYSICAL FORWARD LINE. The POH's line (83.0 at 1,950 to 88.3 at 2,440, slope 0.0108163 in/lb) extended down to 2,325 lb reads 87.06 in, within 0.06 in of the TCDS's 87.0 in. So his envelope is not a different shape - it is the same line truncated at 2,325 lb instead of 2,440 lb. Running every case against the POH line instead of the TCDS line costs about 0.05 in of margin and changes no verdict (real case: +0.91 in instead of +0.96 in).",
+  "UTILITY CATEGORY IS UNAVAILABLE. Pilot and examiner alone put the airplane at 1,963.99 lb dry on the assumed empty weight; with full fuel it is 2,251.99 lb, which is 231.99 lb over the 2,020 lb utility maximum, and it exceeds 2,020 lb with anything more than about 9 gallons aboard. Utility also forbids baggage and rear occupants outright. Chandelles and lazy eights on this checkride must be flown within normal-category limits.",
+  "THERE IS NO RAMP WEIGHT ALLOWANCE TO SPEND. VB-1180's 2,447 lb is the 2,440 lb airplane's figure (gross plus the 7 lb start/taxi/run-up allowance), and TCDS item XVI-A publishes a ramp weight only for the Cadet. So 2,325 lb applies at ENGINE START, not just at brake release, and no taxi fuel burn is credited anywhere in these cases. 2,332 lb is arithmetic, not a limitation.",
+  "VB-1180 DEFINES NO FUEL TAB QUANTITY. No filler-neck tab appears anywhere in the handbook, the Loading Graph runs only to 48 gal, and Section 8 gives no partial-fill mark. The 36-gallon 'tabs' case is a chosen three-quarter-tanks stand-in, clearly labelled as such, not a POH number.",
+  "THE 6.0 LB/GAL IS THE POH'S OWN, not an outside assumption. Figure 6-13, the Loading Graph, labels its fuel line 'Fuel (6 lb/gal)'. This closes the one soft input in the earlier research file, which had it at medium confidence from third-party sources.",
+  "IF THE REAL NUMBERS COME BACK NOSE-HEAVY, REDUCE FUEL RATHER THAN ADD BALLAST. Taking weight out drops the forward limit 0.064 in per gallon while moving the CG forward only 0.020 in, so margin improves 0.044 in per gallon. On sensitivity case B, going from 48 to 30 gallons turns 0.58 in outside into 0.12 in inside. Ballast at 142.8 in also works but consumes scarce gross weight and must be restrained against a hard landing."
+ ]
+}

@@ -1,0 +1,1370 @@
+[
+ {
+  "page": 21,
+  "concept": "Overall purpose of the 'Am I legal?' flowchart under 61.133",
+  "s": "Pilot Qualifications",
+  "q": "Walk me through how you decide whether a flight you are paid for is legal.",
+  "a": "Ask four questions in order: am I being paid; who provides the aircraft; is this one of the 119.1(e) excepted operations; and am I holding out. Only if I am paid, the aircraft comes from me or a third party, the job is not excepted, and I carry people or property do I need an operating certificate. The governing rule is <b>14 CFR Part 61, Subpart F, 61.133, 'Commercial pilot privileges and limitations'</b>, which says a commercial pilot may be paid to fly but only in an operation the rest of the regulations allow.",
+  "dup": "Being paid does not by itself make an operation legal. What else must be satisfied?"
+ },
+ {
+  "page": 21,
+  "concept": "61.133 itself - what a commercial certificate does and does not authorize",
+  "s": "Pilot Qualifications",
+  "q": "What does 61.133 actually allow you to do as a commercial pilot?",
+  "a": "It allows me to act as pilot in command of an aircraft carrying persons or property for compensation or hire, and to be paid as a pilot, provided the operation complies with every other applicable rule. <b>14 CFR Part 61, Subpart F, 61.133, 'Commercial pilot privileges and limitations'</b> is a pilot rule, not an operating rule; it never authorizes an air carrier operation by itself. Part 119 and Parts 121, 125, 129 or 135 decide whether the operation needs a certificate.",
+  "dup": "What privileges does a commercial pilot certificate give you?"
+ },
+ {
+  "page": 21,
+  "concept": "Root decision box: Are you being paid for this flight?",
+  "s": "Pilot Qualifications",
+  "q": "What is the very first question on the commercial privileges decision tree?",
+  "a": "<b>Are you being paid for this flight?</b> Everything else hangs off that answer. If the answer is no, the flight is an ordinary private pilot operation flown under Part 91. If the answer is yes, I move to the next question, which is who is providing the aircraft. Remember that compensation is read very broadly by the FAA, so 'paid' is not limited to cash changing hands.",
+  "dup": "Being paid does not by itself make an operation legal. What else must be satisfied?"
+ },
+ {
+  "page": 21,
+  "concept": "'No' branch from the pay question leads to Private Pilot Operation",
+  "s": "Pilot Qualifications",
+  "q": "If nobody is paying you for the flight, which branch of the chart do you take?",
+  "a": "The <b>no</b> branch, which goes straight to the Private Pilot Operation box inside the Part 91 block. No compensation means no commercial question arises at all, so I need only a private pilot certificate, a current medical, and compliance with Part 91. The two things the chart lists for that box are at least a third class medical and sharing, rather than being paid, the expense of the flight.",
+  "dup": "What does 61.113 say a private pilot may and may not do?"
+ },
+ {
+  "page": 21,
+  "concept": "Private Pilot Operation requires at least a third class medical",
+  "s": "Pilot Qualifications",
+  "q": "What class of medical does the chart show for a private pilot operation?",
+  "a": "<b>At least a third class medical certificate.</b> A private pilot exercising private pilot privileges needs no more than third class, and the certificate is valid for 60 calendar months if the holder was under 40 on the date of the exam, or 24 calendar months if 40 or older. The requirement comes from 14 CFR Part 61, Subpart A, 61.23, 'Medical certificates: Requirement and duration.' BasicMed may be used in place of it where it applies.",
+  "dup": "How long is a third class medical valid?"
+ },
+ {
+  "page": 21,
+  "concept": "Private Pilot Operation: share the expense",
+  "s": "Pilot Qualifications",
+  "q": "On the chart, what is the second thing listed under Private Pilot Operation?",
+  "a": "<b>Share the expense.</b> A private pilot may not be paid, but may let passengers carry part of the cost, so long as the pilot pays no less than a pro rata share. That allowance comes from 14 CFR Part 61, Subpart E, 61.113, 'Private pilot privileges and limitations: Pilot in command', at paragraph (c). Sharing expenses is the private pilot's only real route to having someone else contribute to the flight.",
+  "dup": "What are the main exceptions in 61.113 that let a private pilot accept some payment?"
+ },
+ {
+  "page": 21,
+  "concept": "Second decision box: Who is providing the aircraft?",
+  "s": "Pilot Qualifications",
+  "q": "You are being paid for the flight. What is the next question on the chart?",
+  "a": "<b>Who is providing the aircraft?</b> The chart gives two answers. If the passenger provides the aircraft, I am selling only my piloting services and the flight stays a Part 91 operation. If I or a third party provide the aircraft, I am providing transportation as well as pilot skill, and I must work through the 119.1(e) list and the holding out question to see whether an operating certificate is required.",
+  "dup": ""
+ },
+ {
+  "page": 21,
+  "concept": "Branch: the passenger provides the aircraft (pilot services only)",
+  "s": "Pilot Qualifications",
+  "q": "Your passenger owns the airplane and hires you to fly it. What kind of operation is that?",
+  "a": "A <b>Part 91 operation</b> in which I am selling piloting services only. Because the aircraft comes from the passenger, I am not furnishing transportation, so there is no common carriage and no operating certificate is needed. I do need a commercial pilot certificate and at least a second class medical, and if my commercial certificate carries the no instrument rating limitation, the 61.133(b) restrictions still apply.",
+  "dup": "Which operations may a commercial pilot be paid to fly without anyone holding a Part 119 certificate?"
+ },
+ {
+  "page": 21,
+  "concept": "Providing piloting service: commercial pilot certificate required",
+  "s": "Pilot Qualifications",
+  "q": "What certificate does the chart require for providing piloting service for pay?",
+  "a": "A <b>commercial pilot certificate</b>. The moment I accept compensation for acting as a pilot, 14 CFR Part 61, Subpart F, 61.133, 'Commercial pilot privileges and limitations' applies, and a private certificate is no longer enough. The chart shows this box on the passenger-provides-the-aircraft branch, but the same certificate requirement follows me down every paid branch of the tree.",
+  "dup": "What privileges does a commercial pilot certificate give you?"
+ },
+ {
+  "page": 21,
+  "concept": "Providing piloting service: at least a second class medical",
+  "s": "Pilot Qualifications",
+  "q": "What class of medical must you hold to be paid for piloting service?",
+  "a": "<b>At least a second class medical certificate.</b> Second class is required to exercise commercial pilot privileges and is good for 12 calendar months for those privileges, after which it drops down to third class privileges. The rule is 14 CFR Part 61, Subpart A, 61.23, 'Medical certificates: Requirement and duration.' BasicMed is not usable for compensation or hire operations.",
+  "dup": "What class of medical certificate does a commercial pilot need?"
+ },
+ {
+  "page": 21,
+  "concept": "Decision box: Do you have an instrument rating? Yes = no limitation",
+  "s": "Pilot Qualifications",
+  "q": "On the chart, what happens if you answer yes to 'Do you have an instrument rating?'",
+  "a": "The chart goes straight to a box reading <b>No Limitation</b>. A commercial certificate issued with an instrument airplane rating carries no night or distance restriction on carrying passengers for hire. If the rating is added later, the limitation is removed by applying for a replacement certificate; it does not fall away automatically just because the instrument rating has been earned.",
+  "dup": "How is the no-instrument-rating limitation removed from a commercial certificate?"
+ },
+ {
+  "page": 21,
+  "concept": "61.133(b): no instrument rating means no passengers for hire at night",
+  "s": "Pilot Qualifications",
+  "q": "Your commercial certificate says 'Carrying passengers for hire prohibited at night.' What does that mean?",
+  "a": "With no instrument rating, I may not carry passengers for hire <b>at night</b> in an airplane. The limitation sits in 14 CFR Part 61, Subpart F, 61.133, 'Commercial pilot privileges and limitations', paragraph (b). It bars carrying passengers for hire, not flying at night generally, and not carrying property; I may still fly at night and I may still carry passengers at night when nobody is paying.",
+  "dup": "What exact limitation is placed on a commercial certificate issued without an instrument rating?"
+ },
+ {
+  "page": 21,
+  "concept": "61.133(b): no instrument rating means no passengers for hire on cross-country over 50 NM",
+  "s": "Pilot Qualifications",
+  "q": "Without an instrument rating, how far may a commercial pilot carry passengers for hire?",
+  "a": "Not on any cross-country flight of more than <b>50 nautical miles</b>. The restriction is in 14 CFR Part 61, Subpart F, 61.133, 'Commercial pilot privileges and limitations', paragraph (b), and it is measured as a straight-line distance from the departure airport. Together with the night restriction it is the whole of the limitation placed on a commercial certificate issued without an instrument airplane rating.",
+  "dup": "What exact limitation is placed on a commercial certificate issued without an instrument rating?"
+ },
+ {
+  "page": 21,
+  "concept": "Passenger-supplied-aircraft branch ends at the Part 91 Operation block",
+  "s": "Pilot Qualifications",
+  "q": "Why does the passenger-provides-the-aircraft branch of the chart end at 'Part 91 Operation'?",
+  "a": "Because I am furnishing only pilot services, not transportation, so Part 119 certification is never triggered and the flight is conducted under <b>14 CFR Part 91, 'General Operating and Flight Rules'</b>. The chart groups the private pilot box, the instrument rating question and the piloting service requirements inside one shaded Part 91 block to show that all of them land in the same place.",
+  "dup": ""
+ },
+ {
+  "page": 21,
+  "concept": "Part 91 operations: IFR takeoff minimums do NOT apply",
+  "s": "Pilot Qualifications",
+  "q": "Do published IFR takeoff minimums apply to you on a Part 91 flight?",
+  "a": "<b>No.</b> Under 14 CFR Part 91, Subpart B, 91.175, 'Takeoff and landing under IFR', published takeoff minimums bind only operators who hold an operating certificate; a Part 91 pilot may legally depart in zero visibility. The chart puts 'IFR takeoff minimum does NOT apply' inside the Part 91 block and 'IFR takeoff minimum applies' under common carriage, so the contrast is the point. Legal is not the same as wise.",
+  "dup": ""
+ },
+ {
+  "page": 21,
+  "concept": "Branch: the aircraft comes from myself or a third party",
+  "s": "Pilot Qualifications",
+  "q": "You are paid and you are supplying the airplane. Where does the chart send you next?",
+  "a": "To the question <b>'Are you doing one of these things?'</b>, which points at the excepted operations list in 14 CFR Part 119, Subpart A, 119.1, 'Applicability', paragraph (e). Supplying both the aircraft and the pilot means I am furnishing transportation, so the chart now has to establish whether Part 119 certification is required or whether the job falls in one of the carve-outs.",
+  "dup": ""
+ },
+ {
+  "page": 21,
+  "concept": "The 119.1(e) excepted operations list as a concept",
+  "s": "Pilot Qualifications",
+  "q": "What is the 119.1(e) list and why does it matter to a commercial pilot?",
+  "a": "It is the list of operations that <b>14 CFR Part 119, Subpart A, 119.1, 'Applicability', paragraph (e)</b> excepts from the air carrier certification rules of Parts 119, 121 and 135. A commercial pilot may be paid for these without anyone holding an air carrier certificate, which is why most low-time commercial work - instructing, towing, patrol, jump pilot, aerial survey - lives on this list.",
+  "dup": "Which operations may a commercial pilot be paid to fly without anyone holding a Part 119 certificate?"
+ },
+ {
+  "page": 21,
+  "concept": "119.1(e) 'Yes' branch: potentially need a Letter of Approval",
+  "s": "Pilot Qualifications",
+  "q": "Your flight is on the 119.1(e) list. What does the chart say happens next?",
+  "a": "The chart says you <b>potentially need a Letter of Approval, otherwise you are good to go.</b> Most 119.1(e) operations need nothing more than a commercial certificate and a second class medical, but some, notably commercial air tours, require a letter of authorization from the FAA before the first flight. So being on the list clears you of Part 119 certification but not necessarily of all paperwork.",
+  "dup": ""
+ },
+ {
+  "page": 21,
+  "concept": "119.1(e) item: student instruction",
+  "s": "Pilot Qualifications",
+  "q": "Is flight instruction an operation requiring an air carrier certificate?",
+  "a": "No. <b>Student instruction</b> is the first item on the 119.1(e) list, so a flight instructor may be paid to instruct without anyone holding a Part 119 certificate. The exception exists because the student is buying instruction, not transportation from place to place, so the operation fails the common carriage test even though money changes hands.",
+  "dup": "Which operations may a commercial pilot be paid to fly without anyone holding a Part 119 certificate?"
+ },
+ {
+  "page": 21,
+  "concept": "119.1(e) item: commercial air tours begin and end at the same place",
+  "s": "Pilot Qualifications",
+  "q": "What is the first condition a commercial air tour must meet to stay inside 119.1(e)?",
+  "a": "The tour must <b>begin and end at the same place</b>. A sightseeing flight that returns to its departure airport is not transportation from place to place, so it fails one of the four elements of common carriage. If the flight drops the passengers somewhere else it becomes point to point transportation and the exception is lost.",
+  "dup": "Which operations may a commercial pilot be paid to fly without anyone holding a Part 119 certificate?"
+ },
+ {
+  "page": 21,
+  "concept": "119.1(e) item: commercial air tours within 25 statute miles",
+  "s": "Pilot Qualifications",
+  "q": "How far from the departure airport may a 119.1(e) commercial air tour go?",
+  "a": "Within <b>25 statute miles</b> of the departure airport. The chart lists the radius alongside the requirement that the flight begin and end in the same place. Note the chart uses statute miles here, not nautical miles. Go beyond that radius and the flight no longer fits the air tour exception in 14 CFR Part 119, Subpart A, 119.1, 'Applicability', paragraph (e).",
+  "dup": ""
+ },
+ {
+  "page": 21,
+  "concept": "119.1(e) item: commercial air tours need a letter of authorization",
+  "s": "Pilot Qualifications",
+  "q": "What paperwork does the chart show for a commercial air tour operation?",
+  "a": "A <b>letter of authorization</b> from the FAA. Air tours are the chart's example of a 119.1(e) operation that is excepted from air carrier certification but still needs FAA approval before the first flight, which is why the chart's yes branch says 'potentially need a Letter of Approval.' The operator also falls under the national air tour safety standards.",
+  "dup": ""
+ },
+ {
+  "page": 21,
+  "concept": "119.1(e) item: ferry or training flights",
+  "s": "Pilot Qualifications",
+  "q": "Can you be paid to ferry an airplane without an operating certificate?",
+  "a": "Yes. <b>Ferry or training flights</b> are on the 119.1(e) list, so repositioning an aircraft for an owner, or flying a training flight, needs no Part 119 certificate. No passengers or cargo are being carried for hire from place to place, so the operation is not common carriage. The pilot still needs a commercial certificate and at least a second class medical to be paid.",
+  "dup": "Which operations may a commercial pilot be paid to fly without anyone holding a Part 119 certificate?"
+ },
+ {
+  "page": 21,
+  "concept": "119.1(e) item: aerial work operations as a category",
+  "s": "Pilot Qualifications",
+  "q": "What does the chart mean by 'aerial work operations' in the 119.1(e) list?",
+  "a": "A family of jobs where the airplane is the <b>tool rather than the transport</b> - the customer buys a service performed by the aircraft, not a ride from A to B. The chart lists seven of them: crop dusting, banner towing, survey, aerial photography, fire fighting, power line and pipeline patrol, and parachute operations. None of them carries persons or property from place to place for compensation, so none is common carriage.",
+  "dup": "Why are banner towing, pipeline patrol and crop dusting exceptions to Part 119?"
+ },
+ {
+  "page": 21,
+  "concept": "119.1(e) aerial work: crop dusting",
+  "s": "Pilot Qualifications",
+  "q": "Why is crop dusting not an operation that needs an air carrier certificate?",
+  "a": "<b>Crop dusting</b> is named as an aerial work operation in 14 CFR Part 119, Subpart A, 119.1, 'Applicability', paragraph (e). The customer is buying chemical application to a field, not carriage of persons or property from place to place, so the operation fails the common carriage test. Agricultural aircraft operations do, however, require their own certificate under 14 CFR Part 137.",
+  "dup": "Why are banner towing, pipeline patrol and crop dusting exceptions to Part 119?"
+ },
+ {
+  "page": 21,
+  "concept": "119.1(e) aerial work: banner towing",
+  "s": "Pilot Qualifications",
+  "q": "Can a commercial pilot be paid to tow banners, and under what authority?",
+  "a": "Yes. <b>Banner towing</b> is an aerial work operation excepted by 14 CFR Part 119, Subpart A, 119.1, 'Applicability', paragraph (e). The banner is not a passenger or cargo being carried from place to place for a customer, so there is no common carriage. A certificate of waiver from the FAA is required for the towing itself under 14 CFR Part 91, Subpart D, 91.311.",
+  "dup": "Why are banner towing, pipeline patrol and crop dusting exceptions to Part 119?"
+ },
+ {
+  "page": 21,
+  "concept": "119.1(e) aerial work: survey",
+  "s": "Pilot Qualifications",
+  "q": "Is aerial survey work an operation that needs a Part 119 certificate?",
+  "a": "No. <b>Survey</b> is listed as an aerial work operation under 14 CFR Part 119, Subpart A, 119.1, 'Applicability', paragraph (e). The client is buying survey data gathered from the air, and nothing is being transported from place to place for hire, so the flight is not common carriage and no air carrier certificate is required.",
+  "dup": "Which operations may a commercial pilot be paid to fly without anyone holding a Part 119 certificate?"
+ },
+ {
+  "page": 21,
+  "concept": "119.1(e) aerial work: aerial photography",
+  "s": "Pilot Qualifications",
+  "q": "A client pays you to fly a photographer over a property. Does that need an operating certificate?",
+  "a": "No. <b>Aerial photography</b> is an aerial work operation excepted by 14 CFR Part 119, Subpart A, 119.1, 'Applicability', paragraph (e). The photographer is aboard to do a job, not to be transported somewhere, and the flight typically begins and ends at the same airport, so no element of common carriage is met and no Part 119 certificate is needed.",
+  "dup": "Which operations may a commercial pilot be paid to fly without anyone holding a Part 119 certificate?"
+ },
+ {
+  "page": 21,
+  "concept": "119.1(e) aerial work: fire fighting",
+  "s": "Pilot Qualifications",
+  "q": "Does aerial fire fighting require an air carrier operating certificate?",
+  "a": "No. <b>Fire fighting</b> is named as an aerial work operation in 14 CFR Part 119, Subpart A, 119.1, 'Applicability', paragraph (e). Dropping retardant or water on a fire is a service performed by the aircraft, not transportation of persons or property from place to place for compensation, so the common carriage test is not met.",
+  "dup": "Which operations may a commercial pilot be paid to fly without anyone holding a Part 119 certificate?"
+ },
+ {
+  "page": 21,
+  "concept": "119.1(e) aerial work: power line and pipeline patrol",
+  "s": "Pilot Qualifications",
+  "q": "Can a newly certificated commercial pilot be paid to fly pipeline patrol?",
+  "a": "Yes. <b>Power line and pipeline patrol</b> is an aerial work operation excepted by 14 CFR Part 119, Subpart A, 119.1, 'Applicability', paragraph (e). The utility is buying inspection of its infrastructure, not carriage from place to place, so there is no common carriage and no Part 119 certificate is required. A commercial certificate and at least a second class medical are still needed.",
+  "dup": "Why are banner towing, pipeline patrol and crop dusting exceptions to Part 119?"
+ },
+ {
+  "page": 21,
+  "concept": "119.1(e) aerial work: parachute operations",
+  "s": "Pilot Qualifications",
+  "q": "Jumpers pay for the lift. Why is a parachute operation not common carriage?",
+  "a": "Because the flight <b>begins and ends at the same place</b> and the jumpers buy the jump, not transportation to a destination, so the 'from place to place' element of common carriage is absent. Parachute operations is also expressly listed as an aerial work operation in 14 CFR Part 119, Subpart A, 119.1, 'Applicability', paragraph (e), so no air carrier certificate is required.",
+  "dup": "Why is a parachute jump operation not common carriage even though jumpers pay?"
+ },
+ {
+  "page": 21,
+  "concept": "119.1(e) item: emergency mail service",
+  "s": "Pilot Qualifications",
+  "q": "What is the last item on the chart's 119.1(e) list?",
+  "a": "<b>Emergency mail service.</b> It is the chart's final excepted operation, referring to emergency mail service conducted under 49 U.S.C. 41906, and it needs no air carrier certificate. It is a narrow exception for carrying U.S. mail when normal service is interrupted, and it rarely appears in a career path, but it is on the list and an examiner may ask you to name all the items.",
+  "dup": "Which operations may a commercial pilot be paid to fly without anyone holding a Part 119 certificate?"
+ },
+ {
+  "page": 21,
+  "concept": "119.1(e) 'No' branch: Are you carrying people or property?",
+  "s": "Pilot Qualifications",
+  "q": "Your paid flight is not on the 119.1(e) list. What does the chart ask next?",
+  "a": "<b>Are you carrying people or property?</b> This is the gate into the certificate-required side of the chart. If the answer is yes, I move on to the holding out question and then into Parts 121, 125, 129 or 135. Carrying persons or property for compensation is the second and third of the four elements of common carriage, so without it no air carrier rule can bite.",
+  "dup": ""
+ },
+ {
+  "page": 21,
+  "concept": "Decision box: Are you willing to take anyone? (Hold Out)",
+  "s": "Pilot Qualifications",
+  "q": "How does the chart phrase the holding out question?",
+  "a": "<b>'Are you willing to take anyone? (Hold Out)'</b> That one question splits the whole certificate side of the chart. Yes means I am offering my service to the public at large, which is common carriage, and the chart sends me to Part 121, 135 or 129. No means I serve one or a select few customers, which is private or noncommon carriage, and the chart sends me to the seats and payload question.",
+  "dup": "What does \"holding out\" mean, and how can it happen?"
+ },
+ {
+  "page": 21,
+  "concept": "Hold out = No leads to the 20 seat / 6,000 lb payload question",
+  "s": "Pilot Qualifications",
+  "q": "You carry people for hire but will not take just anyone. What does the chart ask then?",
+  "a": "Whether the aircraft has <b>20 seats or greater, or a payload capacity of 6,000 pounds or greater</b>. This question only appears on the no-holding-out branch, because it decides between Part 125 and Part 135 for private carriage. It is an either/or test: meeting either the seat threshold or the payload threshold is enough to push the operation into Part 125.",
+  "dup": ""
+ },
+ {
+  "page": 21,
+  "concept": "Under 20 seats and under 6,000 lb payload, private carriage: Part 135",
+  "s": "Pilot Qualifications",
+  "q": "Private carriage in an airplane with fewer than 20 seats and under 6,000 lb payload falls under which part?",
+  "a": "<b>Part 135</b>, and an operational certificate is required. The chart's no branch off the 20 seat / 6,000 pound question goes to 14 CFR Part 135, 'Operating Requirements: Commuter and On Demand Operations and Rules Governing Persons On Board Such Aircraft'. Most on demand charter in light twins and turboprops sits here, whether it is common or private carriage.",
+  "dup": ""
+ },
+ {
+  "page": 21,
+  "concept": "20 seats or more, or 6,000 lb payload or more, private carriage: Part 125",
+  "s": "Pilot Qualifications",
+  "q": "Which part governs a private carriage operation in a 20 seat airplane?",
+  "a": "<b>Part 125</b>, and an operational certificate is required. The chart's yes branch off the 20 seat / 6,000 pound question points to 14 CFR Part 125, 'Certification and Operations: Airplanes Having a Seating Capacity of 20 or More Passengers or a Maximum Payload Capacity of 6,000 Pounds or More'. Part 125 exists precisely for large airplanes flown in noncommon carriage.",
+  "dup": ""
+ },
+ {
+  "page": 21,
+  "concept": "Both outcomes of the no-hold-out branch are Private or Noncommon Carriage",
+  "s": "Pilot Qualifications",
+  "q": "The chart labels the Part 135 and Part 125 boxes on the left. What is that label?",
+  "a": "<b>Private Carriage or Noncommon Carriage.</b> Both boxes sit under it because the defining feature of that whole branch is that there is no holding out. Private carriage still requires an operating certificate when persons or property are carried for hire; the absence of holding out changes which part applies, not whether a certificate is needed.",
+  "dup": "What is private carriage, and what makes it private rather than common?"
+ },
+ {
+  "page": 21,
+  "concept": "Hold out = Yes leads to the Scheduled? question",
+  "s": "Pilot Qualifications",
+  "q": "You are holding out to the public. What does the chart ask you next?",
+  "a": "<b>Scheduled?</b> Once holding out is established the operation is common carriage, and the only remaining question is whether it runs to a published schedule. Yes sends me to Part 121, no sends me to Part 135. Either way an operational certificate is required and the published IFR takeoff minimums apply.",
+  "dup": ""
+ },
+ {
+  "page": 21,
+  "concept": "Scheduled common carriage: Part 121 operational certificate required",
+  "s": "Pilot Qualifications",
+  "q": "Scheduled common carriage requires a certificate under which part?",
+  "a": "<b>Part 121</b>. Scheduled operations holding out to the public fall under 14 CFR Part 121, 'Operating Requirements: Domestic, Flag, and Supplemental Operations', and an operational certificate is required. This is the airline branch of the chart: holding out, yes; scheduled, yes.",
+  "dup": ""
+ },
+ {
+  "page": 21,
+  "concept": "Unscheduled common carriage: Part 135 operational certificate required",
+  "s": "Pilot Qualifications",
+  "q": "Unscheduled common carriage requires a certificate under which part?",
+  "a": "<b>Part 135</b>. Holding out to the public but flying on demand rather than to a schedule puts the operation under 14 CFR Part 135, 'Operating Requirements: Commuter and On Demand Operations and Rules Governing Persons On Board Such Aircraft'. This is the charter branch, and an operational certificate is required.",
+  "dup": ""
+ },
+ {
+  "page": 21,
+  "concept": "Part 129 operational certificate: foreign air carriers and foreign operators of U.S. registered aircraft",
+  "s": "Pilot Qualifications",
+  "q": "What operations fall under Part 129?",
+  "a": "<b>Foreign air carriers and foreign operators of U.S. registered airplanes</b> engaged in common carriage. The rule is 14 CFR Part 129, 'Operations: Foreign Air Carriers and Foreign Operators of U.S.-Registered Aircraft Engaged in Common Carriage', and an operations specification is required. On the chart it hangs off the unscheduled side of the common carriage block alongside Part 135.",
+  "dup": ""
+ },
+ {
+  "page": 21,
+  "concept": "The whole hold-out = Yes branch is labeled Common Carriage",
+  "s": "Pilot Qualifications",
+  "q": "What single label does the chart put over the Part 121, 135 and 129 boxes?",
+  "a": "<b>Common Carriage.</b> All three sit in one shaded block because all three describe operators who hold themselves out to the public as willing to carry persons or property for compensation. The block carries two notes: you need an operational certificate, and the IFR takeoff minimum applies.",
+  "dup": "Why does the common carriage line matter so much to a new commercial pilot?"
+ },
+ {
+  "page": 21,
+  "concept": "Common carriage requires an operational certificate",
+  "s": "Pilot Qualifications",
+  "q": "Does common carriage always require an operating certificate?",
+  "a": "<b>Yes.</b> Any operation that holds itself out to the public to carry persons or property from place to place for compensation needs an air carrier or operating certificate issued under 14 CFR Part 119, 'Certification: Air Carriers and Commercial Operators', with the operation itself conducted under Part 121, 135 or 129. A commercial pilot certificate alone never authorizes common carriage.",
+  "dup": "Why does the common carriage line matter so much to a new commercial pilot?"
+ },
+ {
+  "page": 21,
+  "concept": "Common carriage: IFR takeoff minimums apply",
+  "s": "Pilot Qualifications",
+  "q": "When do published IFR takeoff minimums legally bind you?",
+  "a": "When I am operating under an <b>operating certificate</b> - that is, in common carriage under Part 121, 125, 129 or 135. 14 CFR Part 91, Subpart B, 91.175, 'Takeoff and landing under IFR' imposes published takeoff minimums on certificate holders, while a Part 91 pilot is not bound by them. The chart contrasts the two blocks directly: Part 91 says does NOT apply, common carriage says applies.",
+  "dup": ""
+ },
+ {
+  "page": 21,
+  "concept": "Flowchart detail the text does not show: the 'Are you carrying people or property?' box has no drawn No exit",
+  "s": "Pilot Qualifications",
+  "q": "On the chart, what happens if you are paid and supplying the airplane but carrying nothing and nobody?",
+  "a": "The chart draws <b>no exit at all</b> for the no answer, because without persons or property there is nothing for Parts 121, 125, 129 or 135 to regulate. In practice the flight is a Part 91 operation: with no carriage of persons or property for compensation, two of the four elements of common carriage are missing and no operating certificate can be required.",
+  "dup": ""
+ },
+ {
+  "page": 21,
+  "concept": "Flowchart detail the text does not show: only four regulatory endpoints exist on the paid side",
+  "s": "Pilot Qualifications",
+  "q": "How many certificate outcomes does the chart have, and what are they?",
+  "a": "<b>Four</b>: Part 121 for scheduled common carriage; Part 135 for unscheduled common carriage and for private carriage below the size threshold; Part 125 for private carriage at or above 20 seats or 6,000 pounds payload; and Part 129 for foreign air carriers and foreign operators of U.S. registered airplanes. Note Part 135 is the only one the chart reaches by two different routes.",
+  "dup": ""
+ },
+ {
+  "page": 22,
+  "concept": "AC 120-12A is the reference for common versus private carriage",
+  "s": "Pilot Qualifications",
+  "q": "Which advisory circular is the authority on common versus private carriage?",
+  "a": "<b>AC 120-12A</b>, 'Private Carriage Versus Common Carriage of Persons or Property'. It is the FAA's plain-English guidance explaining that the regulations do not define common carriage, so the agency relies on this circular and on case law. It gives the four elements test and explains that holding out is the distinguishing feature between common and private carriage.",
+  "dup": "Which advisory circular explains common carriage versus private carriage?"
+ },
+ {
+  "page": 22,
+  "concept": "Holding out defined as advertising yourself as a pilot for hire",
+  "s": "Pilot Qualifications",
+  "q": "In plain English, what is 'holding out'?",
+  "a": "<b>Advertising yourself as a pilot for hire</b> - signaling to the public that you are willing to carry anyone who comes to you. AC 120-12A, 'Private Carriage Versus Common Carriage of Persons or Property' treats holding out as the single element that turns carriage for hire into common carriage. No particular form of advertising is required; a reputation for taking all comers is enough.",
+  "dup": "What does \"holding out\" mean, and how can it happen?"
+ },
+ {
+  "page": 22,
+  "concept": "Holding out channel: agents",
+  "s": "Pilot Qualifications",
+  "q": "Can you hold out through someone else?",
+  "a": "Yes. <b>Agents</b> are the first of the four channels the guide lists. If a broker, a booking service, a flight school front desk or anyone else offers my flying services to the public on my behalf, I am holding out just as surely as if I advertised myself. The FAA looks at the effect on the public, not at who physically placed the advertisement.",
+  "dup": "What does \"holding out\" mean, and how can it happen?"
+ },
+ {
+  "page": 22,
+  "concept": "Holding out channel: word of mouth",
+  "s": "Pilot Qualifications",
+  "q": "Can you hold out without ever advertising?",
+  "a": "Yes. <b>Word of mouth</b> is one of the four channels listed. A reputation built among friends, at the airport or in a community that you will fly anyone who asks is holding out, even with no sign, no website and no money spent on advertising. AC 120-12A makes clear that any means by which the public learns you are available counts.",
+  "dup": "What does \"holding out\" mean, and how can it happen?"
+ },
+ {
+  "page": 22,
+  "concept": "Holding out channel: advertising and signs",
+  "s": "Pilot Qualifications",
+  "q": "Name the most obvious form of holding out.",
+  "a": "<b>Advertising and signs</b> - a printed advertisement, a business card, a poster on the FBO bulletin board or a banner on the hangar offering flights. This is the classic case the FAA contemplates in AC 120-12A, 'Private Carriage Versus Common Carriage of Persons or Property', and it is one of the four channels the guide lists.",
+  "dup": "What does \"holding out\" mean, and how can it happen?"
+ },
+ {
+  "page": 22,
+  "concept": "Holding out channel: internet and social media",
+  "s": "Pilot Qualifications",
+  "q": "Does posting on social media that you will fly people places count as holding out?",
+  "a": "Yes. <b>Internet and social media</b> is the fourth channel listed, and it is the one that catches new commercial pilots most often. A Facebook post, a flight sharing app listing, a classified advertisement or a website offering rides reaches the public exactly as a newspaper advertisement would, so the FAA treats it as holding out.",
+  "dup": "What does \"holding out\" mean, and how can it happen?"
+ },
+ {
+  "page": 22,
+  "concept": "Common carriage definition: holds itself out to the public as willing to furnish transportation",
+  "s": "Pilot Qualifications",
+  "q": "Define common carriage.",
+  "a": "A carrier becomes a common carrier when it <b>holds itself out to the public as willing to furnish transportation to those who want it</b>. That is the definition in AC 120-12A, 'Private Carriage Versus Common Carriage of Persons or Property'. The key is the open offer to the public at large; the operator does not choose its customers, the customers choose the operator.",
+  "dup": "Why does the common carriage line matter so much to a new commercial pilot?"
+ },
+ {
+  "page": 22,
+  "concept": "Common carriage consists of four elements",
+  "s": "Pilot Qualifications",
+  "q": "How many elements make up common carriage, and must they all be present?",
+  "a": "<b>Four</b>, and all four must be present. AC 120-12A, 'Private Carriage Versus Common Carriage of Persons or Property' lists them as holding out a willingness to, transport persons or property, from place to place, for compensation. Knock out any single element and the operation is not common carriage, which is exactly how the 119.1(e) exceptions work.",
+  "dup": "What are the four elements of common carriage under AC 120-12A?"
+ },
+ {
+  "page": 22,
+  "concept": "Common carriage element 1: holding out a willingness to",
+  "s": "Pilot Qualifications",
+  "q": "What is the first element of common carriage?",
+  "a": "<b>Holding out a willingness to.</b> The operator must signal to the public that it will carry whoever comes. This is the element the FAA leans on hardest, because it is the only one that distinguishes common carriage from private carriage; the other three elements are present in plenty of lawful private carriage operations as well.",
+  "dup": "What are the four elements of common carriage under AC 120-12A?"
+ },
+ {
+  "page": 22,
+  "concept": "Common carriage element 2: transport persons or property",
+  "s": "Pilot Qualifications",
+  "q": "What is the second element of common carriage?",
+  "a": "<b>Transport persons or property.</b> Something or someone must actually be carried. This is why aerial work such as crop dusting, survey, fire fighting and pipeline patrol escapes the definition: the airplane performs a service rather than carrying a customer's people or cargo, so the second element is never satisfied.",
+  "dup": "What are the four elements of common carriage under AC 120-12A?"
+ },
+ {
+  "page": 22,
+  "concept": "Common carriage element 3: from place to place",
+  "s": "Pilot Qualifications",
+  "q": "What is the third element of common carriage?",
+  "a": "<b>From place to place.</b> The carriage must get the passenger or cargo from one point to a different point. This is the element that fails for sightseeing air tours and parachute operations, which begin and end at the same airport, and it is why the 119.1(e) air tour exception is conditioned on returning to the departure point within 25 statute miles.",
+  "dup": "What are the four elements of common carriage under AC 120-12A?"
+ },
+ {
+  "page": 22,
+  "concept": "Common carriage element 4: for compensation",
+  "s": "Pilot Qualifications",
+  "q": "What is the fourth element of common carriage?",
+  "a": "<b>For compensation.</b> Something of value must flow to the operator. Compensation is read very broadly under AC 61-142, 'Sharing Aircraft Operating Expenses in Accordance with 14 CFR 61.113(c)', and includes shared expenses, good will, expected future economic benefit and even accrued flight time, so this element is far easier to satisfy than most pilots expect.",
+  "dup": "What are the four elements of common carriage under AC 120-12A?"
+ },
+ {
+  "page": 22,
+  "concept": "Private carriage: carriage for hire that does NOT involve holding out",
+  "s": "Pilot Qualifications",
+  "q": "Define private carriage.",
+  "a": "<b>Carriage for hire which does not involve holding out.</b> The operator is paid to carry persons or property, but it does not offer its services to the public at large. All four elements of common carriage are present except the first, which is the whole distinction. Private carriage still requires an operating certificate under Part 135 or Part 125 when persons or property are carried for hire.",
+  "dup": "What is private carriage, and what makes it private rather than common?"
+ },
+ {
+  "page": 22,
+  "concept": "Private carriage is for one or a select few customers",
+  "s": "Pilot Qualifications",
+  "q": "How many customers can a private carriage operator have?",
+  "a": "<b>One or a select few</b> - the guide's example is one aircraft operator working for one or two contracted clients. The FAA has treated as few as eighteen or twenty-four contracts as holding out, while one, two or three contracts have been accepted as genuine private carriage. There is no bright-line number; the test is whether the operator is in effect open to the public.",
+  "dup": "How few contracts has been accepted as genuine private carriage?"
+ },
+ {
+  "page": 22,
+  "concept": "Number of contracts as evidence of holding out",
+  "s": "Pilot Qualifications",
+  "q": "How many contracts has the FAA treated as enough to make an operator a common carrier?",
+  "a": "Eighteen to twenty-four contracts has been found to constitute holding out, while <b>one to three contracts</b> has been accepted as genuine private carriage. AC 120-12A, 'Private Carriage Versus Common Carriage of Persons or Property' stresses that the number alone is not decisive; the real question is whether the operator stands ready to serve the public generally.",
+  "dup": "How many contracts has the FAA treated as making an operator a common carrier?"
+ },
+ {
+  "page": 22,
+  "concept": "Operational control defined",
+  "s": "Pilot Qualifications",
+  "q": "What is operational control?",
+  "a": "<b>The authority to initiate, conduct, or terminate a flight.</b> Whoever holds operational control decides whether the flight goes, how it is conducted and when it stops, and therefore carries the regulatory responsibility for it. It is central to the carriage question because an illegal charter is usually one where the customer supplies the money but the pilot or operator quietly keeps operational control.",
+  "dup": ""
+ },
+ {
+  "page": 22,
+  "concept": "AC 61-142 is the reference for compensation",
+  "s": "Pilot Qualifications",
+  "q": "Which advisory circular explains what counts as compensation?",
+  "a": "<b>AC 61-142</b>, 'Sharing Aircraft Operating Expenses in Accordance with 14 CFR 61.113(c)'. It sets out the FAA's very broad reading of compensation and explains how expense sharing by a private pilot differs from being compensated. It is the circular to cite when an examiner asks why accrued flight time or good will can amount to compensation.",
+  "dup": ""
+ },
+ {
+  "page": 22,
+  "concept": "Compensation includes anything of value, including the sharing of expenses",
+  "s": "Pilot Qualifications",
+  "q": "What is the FAA's basic definition of compensation?",
+  "a": "<b>Anything of value</b>, including the sharing of expenses. AC 61-142, 'Sharing Aircraft Operating Expenses in Accordance with 14 CFR 61.113(c)' makes clear that compensation is not limited to money, and that having someone else pay part of the cost of the flight is itself value received. Only the narrow allowance of 14 CFR Part 61, Subpart E, 61.113(c) keeps lawful expense sharing out of trouble.",
+  "dup": "What are the main exceptions in 61.113 that let a private pilot accept some payment?"
+ },
+ {
+  "page": 22,
+  "concept": "Compensation is not to be confused with the 61.113(c) pro rata share allowance",
+  "s": "Pilot Qualifications",
+  "q": "If shared expenses are compensation, how can a private pilot legally share expenses?",
+  "a": "Because <b>14 CFR Part 61, Subpart E, 61.113(c)</b>, part of 'Private pilot privileges and limitations: Pilot in command', carves out a specific exception allowing a private pilot to share the operating expenses of a flight with passengers provided the pilot pays no less than a pro rata share. It is an exception to the general rule, not a statement that shared expenses are not compensation.",
+  "dup": "What are the main exceptions in 61.113 that let a private pilot accept some payment?"
+ },
+ {
+  "page": 22,
+  "concept": "Compensation includes profit or profit motive",
+  "s": "Pilot Qualifications",
+  "q": "Does the FAA consider a profit motive to be compensation?",
+  "a": "Yes. <b>Profit or profit motive</b> is one of the forms of compensation listed in AC 61-142. The intent to make money from the flight is itself enough; the FAA does not need to show that a profit was actually realized. This matters in cases where a pilot structures a flight hoping for business to follow even though no fee is charged for the flight itself.",
+  "dup": ""
+ },
+ {
+  "page": 22,
+  "concept": "Actual exchange of funds is not required for compensation",
+  "s": "Pilot Qualifications",
+  "q": "Does money have to change hands before the FAA calls something compensation?",
+  "a": "<b>No.</b> AC 61-142 states plainly that the actual exchanging of funds is not required to be considered compensation. Free fuel, a free hotel room, a favor, future business or even flight time logged can all be compensation. The practical test the guide gives is whether the benefit is what would get you to do the flight when you otherwise would not.",
+  "dup": ""
+ },
+ {
+  "page": 22,
+  "concept": "Compensation includes good will in the form of expected future economic benefits",
+  "s": "Pilot Qualifications",
+  "q": "What is 'good will' as a form of compensation?",
+  "a": "<b>Expected future economic benefit</b> - flying someone for nothing now in the hope of business, a job, a referral or a favorable relationship later. AC 61-142, 'Sharing Aircraft Operating Expenses in Accordance with 14 CFR 61.113(c)' names good will as compensation, which is why a private pilot flying clients or potential customers for free can still be in violation of 61.113.",
+  "dup": ""
+ },
+ {
+  "page": 22,
+  "concept": "Accruing flight time can be compensation",
+  "s": "Pilot Qualifications",
+  "q": "Can logging flight time itself be compensation?",
+  "a": "<b>Yes</b> - in certain situations. AC 61-142 states that accruing flight time can be considered compensation, because the hours have real economic value to a pilot building toward a rating or a job. This is the reason a pilot cannot simply offer to fly somebody's airplane somewhere for free just to log the time, and why certain 'free' ferry flights are scrutinized.",
+  "dup": ""
+ },
+ {
+  "page": 22,
+  "concept": "Compensation includes value for a third party recipient",
+  "s": "Pilot Qualifications",
+  "q": "What if the benefit from the flight goes to someone other than you?",
+  "a": "It can still be compensation. AC 61-142 lists <b>value for a third party recipient</b> as a form of compensation, so a benefit flowing to an employer, a charity, a business partner or a family member counts just as if it had come to me directly. The FAA follows the value, not the name on the check.",
+  "dup": ""
+ },
+ {
+  "page": 22,
+  "concept": "The practical test: anything that would get you to do the flight when you otherwise would not",
+  "s": "Pilot Qualifications",
+  "q": "Give the one-sentence rule of thumb for recognizing compensation.",
+  "a": "<b>Basically anything that would get you to do the flight when you otherwise would not can be considered compensation in the eyes of the FAA.</b> That is the note the guide ends the compensation box with, and it is the safest working test for an oral exam. If a benefit is the reason the flight is happening, assume the FAA will call it compensation.",
+  "dup": ""
+ },
+ {
+  "page": 22,
+  "concept": "61.113(c): which expenses may be shared",
+  "s": "Pilot Qualifications",
+  "q": "Which specific expenses may a private pilot share with passengers?",
+  "a": "Only <b>fuel, oil, airport expenditures, and aircraft rental fees</b>. That closed list comes from 14 CFR Part 61, Subpart E, 61.113, 'Private pilot privileges and limitations: Pilot in command', paragraph (c). Hotel rooms, meals, car rental, crew costs and the pilot's time are not shareable, and asking passengers to cover them turns the arrangement into compensation.",
+  "dup": "What are the main exceptions in 61.113 that let a private pilot accept some payment?"
+ },
+ {
+  "page": 22,
+  "concept": "61.113(c): the pilot must pay at least a pro rata share",
+  "s": "Pilot Qualifications",
+  "q": "How much of the cost must the pilot personally bear under 61.113(c)?",
+  "a": "At least a <b>pro rata share</b> - an equal share counted by the number of occupants including the pilot. With the pilot and three passengers, the pilot pays no less than one quarter. 14 CFR Part 61, Subpart E, 61.113(c) sets a floor, not a ceiling: the pilot may always pay more, but never less than that equal share of the allowable expenses.",
+  "dup": "What are the main exceptions in 61.113 that let a private pilot accept some payment?"
+ },
+ {
+  "page": 22,
+  "concept": "61.113(c): common purpose and the pilot's own reason for flying",
+  "s": "Pilot Qualifications",
+  "q": "Besides the pro rata share, what must be true of the flight to share expenses?",
+  "a": "There must be a <b>common purpose</b> between the pilot and the passengers, and the pilot must have a genuine reason of their own for making the flight. If the only reason the airplane leaves the ground is the passengers' need to get somewhere, the pilot is providing transportation rather than sharing a trip, and 14 CFR Part 61, Subpart E, 61.113(c) will not protect the arrangement.",
+  "dup": "What are the main exceptions in 61.113 that let a private pilot accept some payment?"
+ },
+ {
+  "page": 22,
+  "concept": "61.113(c): holding out converts expense sharing into compensation and common carriage",
+  "s": "Pilot Qualifications",
+  "q": "What happens to an expense sharing flight if the pilot holds out?",
+  "a": "The shared expenses become <b>compensation</b>, and the flight now falls under the requirements for common carriage. That is the trap in flight sharing apps and social media posts: the sharing itself is lawful under 14 CFR Part 61, Subpart E, 61.113(c), but offering seats to the public supplies the holding out element, and the operation then needs an air carrier certificate the private pilot cannot hold.",
+  "dup": "What does \"holding out\" mean, and how can it happen?"
+ },
+ {
+  "page": 23,
+  "concept": "METAR definition: aviation routine weather report, a snapshot of terminal weather",
+  "s": "Weather Reports",
+  "q": "What is a METAR?",
+  "a": "An <b>aviation routine weather report</b> - a snapshot in time of the weather observed at a terminal, that is at or near an airport. It is an observation of what is happening now, not a forecast, and it reports surface conditions only. A METAR is the first product most pilots read in a weather briefing because it anchors every forecast against what is actually there.",
+  "dup": "What is a METAR and how often is one issued?"
+ },
+ {
+  "page": 23,
+  "concept": "METAR issue schedule: hourly, usually 55 to 59 past the hour",
+  "s": "Weather Reports",
+  "q": "How often is a METAR issued and at what time?",
+  "a": "<b>Every hour, usually between :55 and :59 past the hour</b>. The observation is taken in the last few minutes of the hour and then disseminated, so the report you read at the top of the hour describes conditions from the previous few minutes. A special report, the SPECI, is issued between routine reports when conditions change significantly.",
+  "dup": "What is a METAR and how often is one issued?"
+ },
+ {
+  "page": 23,
+  "concept": "Order of the METAR fields",
+  "s": "Weather Reports",
+  "q": "In what order do the fields of a METAR appear?",
+  "a": "<b>Airport, date and time, wind, visibility, present weather, sky condition, temperature and dew point, altimeter setting, then remarks.</b> In the example on the page that order reads KATL, 171652Z, 31013KT, 1 1/2SM, -RA BR, BKN006 BKN012 OVC024, 13/12, A2991, then RMK and everything after it. Knowing the fixed order lets you decode any report even when a group is unfamiliar.",
+  "dup": "In what order do the fields of a METAR appear?"
+ },
+ {
+  "page": 23,
+  "concept": "METAR example field: KATL station identifier",
+  "s": "Weather Reports",
+  "q": "In METAR KATL 171652Z, what does KATL tell you?",
+  "a": "It is the <b>station identifier</b>, the four letter ICAO location code for the reporting station - here Hartsfield-Jackson Atlanta International Airport. In the contiguous United States the code is the three letter identifier with a K prefix. Alaska uses PA and Hawaii uses PH, so the leading letter also tells you roughly where in the world the report came from.",
+  "dup": "How are the station identifier and the date/time group written in a METAR?"
+ },
+ {
+  "page": 23,
+  "concept": "METAR example field: 171652Z date and time group",
+  "s": "Weather Reports",
+  "q": "Decode the METAR group 171652Z.",
+  "a": "The <b>17th of the month at 16:52 Zulu</b>. The first two digits are the day of the month, the next four are the hour and minute, and the Z confirms the time is UTC. All aviation weather is reported in Zulu time, so this observation was taken eight minutes before the hour, consistent with the normal :55 to :59 issue window.",
+  "dup": "How are the station identifier and the date/time group written in a METAR?"
+ },
+ {
+  "page": 23,
+  "concept": "METAR example field: 31013KT wind group",
+  "s": "Weather Reports",
+  "q": "Decode the METAR wind group 31013KT.",
+  "a": "Wind from <b>310 degrees true at 13 knots</b>. The first three digits are the direction the wind is blowing from, referenced to true north in a METAR, and the next two or three digits are the speed in knots. There is no G group here, so the wind is steady with no gusts reported, and no V group, so the direction is not variable.",
+  "dup": "How is the wind group encoded in a METAR?"
+ },
+ {
+  "page": 23,
+  "concept": "METAR example field: 1 1/2SM visibility",
+  "s": "Weather Reports",
+  "q": "What does 1 1/2SM mean in a METAR, and what kind of visibility is it?",
+  "a": "Prevailing visibility of <b>one and one half statute miles</b>. METAR visibility in the United States is always given in statute miles, written as a whole number, a fraction, or a whole number and fraction separated by a space, with SM appended. This is a surface observation of prevailing horizontal visibility, and at one and a half miles the field is below basic VFR in controlled airspace.",
+  "dup": "How are visibility and runway visual range reported in a METAR?"
+ },
+ {
+  "page": 23,
+  "concept": "METAR example field: -RA light rain",
+  "s": "Weather Reports",
+  "q": "In the present weather group -RA BR, what does -RA mean?",
+  "a": "<b>Light rain.</b> The minus sign is the intensity qualifier for light, no sign means moderate and a plus sign means heavy; RA is the precipitation code for rain. Present weather is built in a fixed order of intensity, then descriptor, then precipitation, then obscuration, then other phenomena, so -RA sits before BR in the group.",
+  "dup": "How is the present weather group built up in a METAR?"
+ },
+ {
+  "page": 23,
+  "concept": "METAR example field: BR mist",
+  "s": "Weather Reports",
+  "q": "In the present weather group -RA BR, what does BR mean?",
+  "a": "<b>Mist.</b> BR is an obscuration code, used when visibility is restricted by suspended water droplets but is still five eighths of a statute mile or more. Below five eighths of a mile the same phenomenon is reported as fog, FG. Seeing BR with visibility of one and a half miles, as in this report, is entirely consistent.",
+  "dup": "What are the METAR obscuration and other phenomena codes?"
+ },
+ {
+  "page": 23,
+  "concept": "METAR example field: BKN006 first ceiling layer",
+  "s": "Weather Reports",
+  "q": "Decode BKN006 in the METAR sky condition group.",
+  "a": "<b>Broken at 600 feet</b> above ground level. Sky condition heights in a METAR are given in hundreds of feet AGL, so 006 is 600 feet. Broken means five to seven eighths coverage, and because broken or overcast constitutes a ceiling, this is the ceiling for the airport - the lowest broken or overcast layer reported.",
+  "dup": "How is sky condition reported, and what makes a layer a ceiling?"
+ },
+ {
+  "page": 23,
+  "concept": "METAR example field: BKN012 second layer",
+  "s": "Weather Reports",
+  "q": "Decode BKN012 in the METAR sky condition group.",
+  "a": "<b>Broken at 1,200 feet</b> AGL - the second of three layers reported at KATL in this example. Layers are always listed from lowest to highest, and coverage is cumulative, so BKN012 means five to seven eighths of the sky is covered at or below 1,200 feet. It is a ceiling layer, but not the controlling one, since BKN006 is lower.",
+  "dup": "How is sky condition reported, and what makes a layer a ceiling?"
+ },
+ {
+  "page": 23,
+  "concept": "METAR example field: OVC024 third layer",
+  "s": "Weather Reports",
+  "q": "Decode OVC024 in the METAR sky condition group.",
+  "a": "<b>Overcast at 2,400 feet</b> AGL. Overcast means eight eighths, complete coverage. It is the third and highest of the three layers in this report, and although it is an overcast layer it is not the ceiling because the broken layer at 600 feet is lower. The guide counts all three - BKN006, BKN012 and OVC024 - as ceiling layers.",
+  "dup": "How is sky condition reported, and what makes a layer a ceiling?"
+ },
+ {
+  "page": 23,
+  "concept": "METAR example field: 13/12 temperature and dew point",
+  "s": "Weather Reports",
+  "q": "Decode the METAR group 13/12.",
+  "a": "<b>13 degrees Celsius air temperature and 12 degrees Celsius dew point.</b> Temperature and dew point are always reported in whole degrees Celsius, separated by a slash, and a negative value carries an M prefix such as M03. A one degree temperature and dew point spread means the air is nearly saturated, which fits the mist and low ceilings in the rest of this report.",
+  "dup": "How are temperature, dew point and the altimeter setting encoded in a METAR?"
+ },
+ {
+  "page": 23,
+  "concept": "METAR example field: A2991 altimeter setting",
+  "s": "Weather Reports",
+  "q": "Decode the METAR group A2991.",
+  "a": "An altimeter setting of <b>29.91 inches of mercury</b>. The A identifies the group as an altimeter setting in the United States and the four digits are the value with the decimal point assumed between the second and third digit. Outside the United States the same field often appears as a Q group giving the setting in hectopascals instead.",
+  "dup": "How are temperature, dew point and the altimeter setting encoded in a METAR?"
+ },
+ {
+  "page": 23,
+  "concept": "METAR remarks section introduced by RMK",
+  "s": "Weather Reports",
+  "q": "What does RMK mark in a METAR, and what kind of information follows?",
+  "a": "<b>RMK</b> begins the remarks section, everything after it being additional detail the observer or the automated station adds. In this example the remarks carry the station type, surface visibility, sea level pressure, a variable ceiling, hourly precipitation and precise temperature and dew point. Remarks can also include lightning, thunderstorm beginning and ending times, and significant cloud types.",
+  "dup": "What sort of information appears in the remarks section of a METAR?"
+ },
+ {
+  "page": 23,
+  "concept": "METAR remark: A02 automated with precipitation sensor",
+  "s": "Weather Reports",
+  "q": "What does the remark A02 tell you about the reporting station?",
+  "a": "The site is <b>automated and has a precipitation discriminator</b>, meaning it can tell the type of precipitation falling. A01 marks an automated station without a precipitation sensor, so an A01 station cannot distinguish rain from snow. Seeing A02 in this report means the -RA in the body was sensed by the equipment rather than observed by a person.",
+  "dup": "What do the modifiers AUTO and COR mean, and what are A01 and A02?"
+ },
+ {
+  "page": 23,
+  "concept": "METAR remark: SFC VIS 3 and which visibility controls",
+  "s": "Weather Reports",
+  "q": "The remarks say SFC VIS 3 but the body says 1 1/2SM. Which one controls?",
+  "a": "The <b>1 1/2 statute miles in the body controls</b>. SFC VIS 3 means surface visibility observed from a predetermined point is 3 statute miles, but the prevailing visibility in the body of the report is the operational value used for flight planning and for approach minimums. The remark simply tells you the observation is not uniform across the field.",
+  "dup": "What sort of information appears in the remarks section of a METAR?"
+ },
+ {
+  "page": 23,
+  "concept": "METAR remark: SLP127 sea level pressure",
+  "s": "Weather Reports",
+  "q": "Decode the remark SLP127.",
+  "a": "Sea level pressure of <b>1012.7 hectopascals</b>. The three digits are the last three of the pressure in tenths of a hectopascal, and you restore the leading digit by choosing 9 or 10 so the result lands near 1000 - so 127 becomes 1012.7, not 912.7. Values of 500 or more take a 9 prefix and values below 500 take a 10 prefix.",
+  "dup": "What sort of information appears in the remarks section of a METAR?"
+ },
+ {
+  "page": 23,
+  "concept": "METAR remark: CIG 004V008 variable ceiling",
+  "s": "Weather Reports",
+  "q": "Decode the remark CIG 004V008.",
+  "a": "The lowest ceiling layer is <b>400 feet but variable to 800 feet</b>. CIG identifies a ceiling remark, the V means variable, and both values are in hundreds of feet AGL. A variable ceiling matters on an approach because the reported ceiling can be below minimums at the moment you arrive even though the body of the report showed something higher.",
+  "dup": "What sort of information appears in the remarks section of a METAR?"
+ },
+ {
+  "page": 23,
+  "concept": "METAR remark: P0003 hourly precipitation amount",
+  "s": "Weather Reports",
+  "q": "Decode the remark P0003.",
+  "a": "An hourly precipitation amount of <b>0.03 inches</b> in the last hour. The P group is always four digits in hundredths of an inch with the decimal point assumed after the first two digits, so 0003 is three hundredths of an inch. It is a liquid equivalent measurement, so frozen precipitation is reported as its melted water content.",
+  "dup": "What sort of information appears in the remarks section of a METAR?"
+ },
+ {
+  "page": 23,
+  "concept": "METAR remark: T01280117 precise temperature and dew point",
+  "s": "Weather Reports",
+  "q": "Decode the remark T01280117.",
+  "a": "Air temperature <b>12.8 degrees Celsius</b> and dew point 11.7 degrees Celsius. T introduces the group, then each value is four digits: the first digit is the sign, 0 for positive and 1 for negative, and the remaining three are the temperature in tenths of a degree. It gives the precise values that the 13/12 group in the body of the report had rounded.",
+  "dup": "What sort of information appears in the remarks section of a METAR?"
+ },
+ {
+  "page": 23,
+  "concept": "Decoding the complete KATL METAR as one product",
+  "s": "Weather Reports",
+  "q": "Read me this whole report: KATL 171652Z 31013KT 1 1/2SM -RA BR BKN006 BKN012 OVC024 13/12 A2991.",
+  "a": "Atlanta Hartsfield-Jackson, the <b>17th at 1652 Zulu</b>; wind 310 at 13 knots; visibility one and a half statute miles; light rain and mist; broken 600, broken 1,200, overcast 2,400; temperature 13, dew point 12; altimeter 29.91. With a 600 foot ceiling and a mile and a half visibility this is low IFR territory, and the one degree spread says it is not improving soon.",
+  "dup": "Decode this: METAR KJAX 121853Z 24012G20KT 3SM -TSRA BR BKN012 OVC030 26/23 A2989 RMK TSB35."
+ },
+ {
+  "page": 24,
+  "concept": "TAF definition: Terminal Aerodrome Forecast of expected conditions at an airport",
+  "s": "Aviation Forecasts",
+  "q": "What is a TAF and what does it forecast?",
+  "a": "A <b>Terminal Aerodrome Forecast</b> - the expected weather conditions at an airport. It is a forecast rather than an observation, and it is deliberately narrow in scope: it describes conditions expected within five statute miles of the center of the airport's runway complex, not the surrounding area or the enroute weather.",
+  "dup": "What is a TAF, how often is it issued, and how long is it valid?"
+ },
+ {
+  "page": 24,
+  "concept": "TAF issue frequency: at least four times per day",
+  "s": "Aviation Forecasts",
+  "q": "How often is a TAF issued?",
+  "a": "<b>At least four times per day</b>, normally at 0000, 0600, 1200 and 1800 Zulu. Amended TAFs are issued whenever the forecaster decides the current one no longer represents the expected conditions, so always check the issue time in the report before relying on it.",
+  "dup": "What is a TAF, how often is it issued, and how long is it valid?"
+ },
+ {
+  "page": 24,
+  "concept": "TAF validity: a 24 or 30 hour period",
+  "s": "Aviation Forecasts",
+  "q": "How long is a TAF valid for?",
+  "a": "A <b>24 or 30 hour period</b>. Most airports get a 24 hour forecast; busier airports get 30 hours. The valid period is spelled out in the report itself as a date and time range, so you never have to assume it - in the KATL example the group 1715/1818 gives the exact window.",
+  "dup": "What is a TAF, how often is it issued, and how long is it valid?"
+ },
+ {
+  "page": 24,
+  "concept": "Order of the TAF fields",
+  "s": "Aviation Forecasts",
+  "q": "In what order do the elements of a TAF appear?",
+  "a": "<b>Airport, date and time of report, date and time range of validity, wind, visibility, present weather, sky condition, then any optional data such as wind shear</b>, followed by change groups. In the example that reads KATL, 171538Z, 1715/1818, 21010KT, 4SM, SHRA BR, BKN006 OVC025, WS020/22040KT, then the FM and TEMPO lines.",
+  "dup": "What are the elements of a TAF, in order?"
+ },
+ {
+  "page": 24,
+  "concept": "TAF example field: KATL station identifier",
+  "s": "Aviation Forecasts",
+  "q": "In the TAF beginning KATL 171538Z, what is KATL?",
+  "a": "The <b>ICAO station identifier</b> for the airport the forecast covers - Hartsfield-Jackson Atlanta International. The same four letter convention is used as in a METAR, with a K prefix for the contiguous United States, so a TAF and a METAR for the same field share an identifier.",
+  "dup": "What area does a TAF actually cover?"
+ },
+ {
+  "page": 24,
+  "concept": "TAF example field: 171538Z date and time of report",
+  "s": "Aviation Forecasts",
+  "q": "Decode the TAF group 171538Z.",
+  "a": "The forecast was <b>issued on the 17th of the month at 15:38 Zulu</b>. Two digits for the day, four for the hour and minute, Z for UTC. This is the issue time, which is distinct from the valid period that follows it, and it tells you how fresh the forecast is.",
+  "dup": "What are the elements of a TAF, in order?"
+ },
+ {
+  "page": 24,
+  "concept": "TAF example field: 1715/1818 valid date and time range",
+  "s": "Aviation Forecasts",
+  "q": "Decode the TAF valid period group 1715/1818.",
+  "a": "The forecast runs <b>from the 17th at 15:00 Zulu to the 18th at 18:00 Zulu</b>. Each half is two digits of day followed by two digits of hour. That is a 27 hour window here. Note it begins before the issue time's hour has fully elapsed, which is normal since the forecast is prepared slightly ahead of its valid period.",
+  "dup": "What is a TAF, how often is it issued, and how long is it valid?"
+ },
+ {
+  "page": 24,
+  "concept": "TAF example field: 21010KT wind",
+  "s": "Aviation Forecasts",
+  "q": "Decode the TAF wind group 21010KT.",
+  "a": "Wind forecast from <b>210 degrees at 10 knots</b>. Direction is in degrees true, as in a METAR, and speed is in knots. There is no G group so no gusts are forecast in the initial period, and no VRB prefix so the direction is not expected to be variable.",
+  "dup": "What are the elements of a TAF, in order?"
+ },
+ {
+  "page": 24,
+  "concept": "TAF example field: 4SM visibility",
+  "s": "Aviation Forecasts",
+  "q": "Decode the TAF visibility group 4SM.",
+  "a": "Prevailing visibility forecast of <b>4 statute miles</b>. TAF visibility is given in statute miles with SM appended, exactly as in a METAR. Anything better than six miles is written P6SM, meaning plus six statute miles, and when no significant weather is expected the group NSW may appear in a change line.",
+  "dup": "How are visibility and \"no significant weather\" written in a TAF?"
+ },
+ {
+  "page": 24,
+  "concept": "TAF example field: SHRA showers of rain",
+  "s": "Aviation Forecasts",
+  "q": "What does SHRA mean in the TAF present weather group?",
+  "a": "<b>Showering rain</b>, built from the descriptor SH for showers and the precipitation code RA for rain. There is no intensity sign, so the showers are forecast to be of moderate intensity. Shower activity implies convective, unstable air and therefore the possibility of turbulence and rapidly changing conditions.",
+  "dup": "What are the METAR descriptor and precipitation codes?"
+ },
+ {
+  "page": 24,
+  "concept": "TAF example field: BR mist in the present weather group",
+  "s": "Aviation Forecasts",
+  "q": "What does BR mean in the TAF group SHRA BR?",
+  "a": "<b>Mist</b> - an obscuration caused by suspended water droplets with visibility of five eighths of a statute mile or more. Below that it would be reported as fog, FG. Its presence alongside a 4 statute mile visibility forecast is consistent and signals moist, near-saturated air at the surface.",
+  "dup": "What are the METAR obscuration and other phenomena codes?"
+ },
+ {
+  "page": 24,
+  "concept": "TAF example field: BKN006 OVC025 sky condition",
+  "s": "Aviation Forecasts",
+  "q": "Decode the TAF sky condition group BKN006 OVC025.",
+  "a": "Ceilings forecast <b>broken at 600 feet and overcast at 2,500 feet</b> above ground level. Heights are in hundreds of feet AGL, layers run lowest to highest, and both broken and overcast constitute a ceiling, so the controlling ceiling here is the 600 foot broken layer.",
+  "dup": "What are the elements of a TAF, in order?"
+ },
+ {
+  "page": 24,
+  "concept": "TAF example field: WS020/22040KT low level wind shear",
+  "s": "Aviation Forecasts",
+  "q": "Decode the TAF group WS020/22040KT.",
+  "a": "Non-convective <b>low level wind shear at 2,000 feet, from 220 degrees at 40 knots</b>. WS identifies the wind shear group, the three digits after it are the height in hundreds of feet AGL, and after the slash comes the wind at that height in degrees true and knots. The group is only forecast for shear below 2,000 feet AGL.",
+  "dup": "How is low-level wind shear shown in a TAF?"
+ },
+ {
+  "page": 24,
+  "concept": "The FM change group: what it means",
+  "s": "Aviation Forecasts",
+  "q": "What does an FM group in a TAF tell you?",
+  "a": "<b>From</b> - a rapid and permanent change in conditions beginning at the stated time, usually within an hour. Everything in the main body before it is replaced wholesale by the new line, so an FM group restates the complete forecast; any element not mentioned, such as weather that has ended, is simply no longer expected.",
+  "dup": "What does the FM change group in a TAF mean?"
+ },
+ {
+  "page": 24,
+  "concept": "TAF change line: FM171700 21010G20KT 4SM BR OVC010",
+  "s": "Aviation Forecasts",
+  "q": "Decode FM171700 21010G20KT 4SM BR OVC010.",
+  "a": "From the <b>17th at 17:00 Zulu</b>: wind 210 degrees at 10 knots gusting 20, visibility 4 statute miles, mist, and overcast at 1,000 feet. Because it is an FM group the whole forecast is replaced from that moment, so the rain showers of the main body are no longer expected and the ceiling drops from 2,500 to 1,000 feet overcast.",
+  "dup": "What does the FM change group in a TAF mean?"
+ },
+ {
+  "page": 24,
+  "concept": "The TEMPO change group: what it means",
+  "s": "Aviation Forecasts",
+  "q": "What does TEMPO mean in a TAF?",
+  "a": "<b>Temporary</b> - conditions expected to last less than one hour at a time, and in total less than half of the stated period. The group is followed by a date and time range in the same day-hour format as the valid period. TEMPO describes a fluctuation around the prevailing forecast, not a replacement of it as FM does.",
+  "dup": "What do TEMPO and PROB30 mean in a TAF?"
+ },
+ {
+  "page": 24,
+  "concept": "TAF change line: TEMPO 1717/1721 3SM -SHRA BR OVC003",
+  "s": "Aviation Forecasts",
+  "q": "Decode TEMPO 1717/1721 3SM -SHRA BR OVC003.",
+  "a": "<b>Temporarily from the 17th at 17:00 Zulu to the 17th at 21:00 Zulu</b>: visibility 3 statute miles, light showering rain and mist, overcast at 300 feet. During that four hour window the ceiling may drop briefly to 300 feet, well below any approach minimum, which is exactly the sort of fluctuation that drives the decision to carry an alternate.",
+  "dup": "What do TEMPO and PROB30 mean in a TAF?"
+ },
+ {
+  "page": 24,
+  "concept": "TAF change line: FM180000 25005KT P6SM BKN015 and the P6SM group",
+  "s": "Aviation Forecasts",
+  "q": "Decode FM180000 25005KT P6SM BKN015.",
+  "a": "From the <b>18th at 00:00 Zulu</b>: wind 250 degrees at 5 knots, visibility greater than 6 statute miles, broken at 1,500 feet. P6SM is how a TAF writes unrestricted visibility, the P meaning plus - six statute miles is the highest value a TAF reports. No weather group means no significant precipitation or obscuration is forecast.",
+  "dup": "How are visibility and \"no significant weather\" written in a TAF?"
+ },
+ {
+  "page": 24,
+  "concept": "TAF change line: FM181100 25004KT 3SM BR OVC009",
+  "s": "Aviation Forecasts",
+  "q": "Decode FM181100 25004KT 3SM BR OVC009.",
+  "a": "From the <b>18th at 11:00 Zulu</b>: wind 250 degrees at 4 knots, visibility 3 statute miles, mist, overcast at 900 feet. This is the last line of the KATL example and it runs to the end of the valid period at 1818Z. Light wind, low visibility and a low overcast in the late morning is a classic signature of moisture trapped under stable air.",
+  "dup": "What does the FM change group in a TAF mean?"
+ },
+ {
+  "page": 24,
+  "concept": "Decoding the complete KATL TAF as one product",
+  "s": "Aviation Forecasts",
+  "q": "Read me the first line of this TAF: KATL 171538Z 1715/1818 21010KT 4SM SHRA BR BKN006 OVC025 WS020/22040KT.",
+  "a": "Atlanta, issued the 17th at 1538 Zulu, valid <b>17th 1500Z to 18th 1800Z</b>; wind 210 at 10; visibility 4 statute miles; showers of rain and mist; broken 600, overcast 2,500; low level wind shear at 2,000 feet from 220 at 40 knots. A 600 foot ceiling with 40 knots of shear just above pattern altitude is the headline here.",
+  "dup": "Decode this TAF line: TAF KTPA 121120Z 1212/1318 18008KT P6SM SCT035 TEMPO 1218/1222 3SM TSRA BKN025CB."
+ },
+ {
+  "page": 25,
+  "concept": "Intensity symbol: minus sign means light",
+  "s": "Weather Reports",
+  "q": "What does a minus sign in front of a weather code mean?",
+  "a": "<b>Light</b> intensity. The sign is attached directly to the front of the weather group, so -RA is light rain and -SHRA is light rain showers. Intensity is always the first thing in a present weather group, ahead of the descriptor and the precipitation code.",
+  "dup": "How is the present weather group built up in a METAR?"
+ },
+ {
+  "page": 25,
+  "concept": "Intensity symbol: no sign means moderate",
+  "s": "Weather Reports",
+  "q": "A METAR reports RA with no sign in front of it. What intensity is that?",
+  "a": "<b>Moderate.</b> The absence of a sign is itself the code for moderate intensity - there is no M or other marker. So RA is moderate rain, SHRA is moderate rain showers, and a pilot reading a bare precipitation code should not assume it means light.",
+  "dup": "How is the present weather group built up in a METAR?"
+ },
+ {
+  "page": 25,
+  "concept": "Intensity symbol: plus sign means heavy",
+  "s": "Weather Reports",
+  "q": "What does a plus sign in front of a weather code mean?",
+  "a": "<b>Heavy</b> intensity, so +RA is heavy rain and +TSRA is a thunderstorm with heavy rain. The one special case to remember is +FC, where the plus does not mean heavy funnel cloud but is the specific code for a tornado or waterspout.",
+  "dup": "How is the present weather group built up in a METAR?"
+ },
+ {
+  "page": 25,
+  "concept": "Precipitation code DZ - drizzle",
+  "s": "Weather Reports",
+  "q": "What does the code DZ mean?",
+  "a": "<b>Drizzle</b> - very small, uniformly distributed water droplets that appear to float with the air. Drizzle is associated with stratus cloud and stable air, and it often comes with poor visibility. Combined with FZ as FZDZ it becomes freezing drizzle, a serious icing hazard.",
+  "dup": "What are the METAR descriptor and precipitation codes?"
+ },
+ {
+  "page": 25,
+  "concept": "Precipitation code IC - ice crystals",
+  "s": "Weather Reports",
+  "q": "What does the code IC mean?",
+  "a": "<b>Ice crystals</b>, sometimes called diamond dust - tiny ice crystals suspended in the air, reported only in very cold conditions and generally in clear skies. It is distinct from snow, which is SN, and from snow grains, which is SG.",
+  "dup": "What are the METAR descriptor and precipitation codes?"
+ },
+ {
+  "page": 25,
+  "concept": "Precipitation code RA - rain",
+  "s": "Weather Reports",
+  "q": "What does the code RA mean?",
+  "a": "<b>Rain</b> - liquid precipitation in drops larger than drizzle. It is the most common precipitation code and combines freely with intensity signs and descriptors, giving -RA for light rain, +SHRA for heavy rain showers, FZRA for freezing rain and TSRA for a thunderstorm with rain.",
+  "dup": "What are the METAR descriptor and precipitation codes?"
+ },
+ {
+  "page": 25,
+  "concept": "Precipitation code PL - ice pellets",
+  "s": "Weather Reports",
+  "q": "What does the code PL mean?",
+  "a": "<b>Ice pellets</b> - raindrops that have frozen into transparent grains of ice before reaching the ground. They are an important report because they mean there is a layer of warmer air aloft with freezing rain in it, which is a severe icing hazard for an aircraft climbing through.",
+  "dup": "What are the METAR descriptor and precipitation codes?"
+ },
+ {
+  "page": 25,
+  "concept": "Precipitation code SN - snow",
+  "s": "Weather Reports",
+  "q": "What does the code SN mean?",
+  "a": "<b>Snow</b> - precipitation in the form of ice crystals, usually branched and in flakes. It takes the usual intensity signs, so -SN is light snow and +SN heavy snow, and it combines with descriptors to give SHSN for snow showers and BLSN for blowing snow.",
+  "dup": "What are the METAR descriptor and precipitation codes?"
+ },
+ {
+  "page": 25,
+  "concept": "Precipitation code GR - hail",
+  "s": "Weather Reports",
+  "q": "What does the code GR mean?",
+  "a": "<b>Hail</b> - balls or lumps of ice a quarter of an inch or more in diameter. Hail is a thunderstorm product and its presence in a report is a direct warning of a strong, mature cell with powerful updrafts. It is usually seen with TS, as in TSGR.",
+  "dup": "What are the METAR descriptor and precipitation codes?"
+ },
+ {
+  "page": 25,
+  "concept": "Precipitation code SG - snow grains",
+  "s": "Weather Reports",
+  "q": "What does the code SG mean?",
+  "a": "<b>Snow grains</b> - very small, white, opaque grains of ice, the frozen equivalent of drizzle. Like drizzle they fall from stratus cloud in stable air and seldom amount to much accumulation, but they signal saturated air at and below freezing.",
+  "dup": "What are the METAR descriptor and precipitation codes?"
+ },
+ {
+  "page": 25,
+  "concept": "Precipitation code GS - small hail and snow pellets",
+  "s": "Weather Reports",
+  "q": "What does the code GS mean?",
+  "a": "<b>Small hail or snow pellets</b> - white, opaque ice particles less than a quarter of an inch in diameter. GS is distinguished from GR purely by size: a quarter of an inch or more is hail, less is small hail or snow pellets. Both indicate convective activity.",
+  "dup": "What are the METAR descriptor and precipitation codes?"
+ },
+ {
+  "page": 25,
+  "concept": "Descriptor MI - shallow",
+  "s": "Weather Reports",
+  "q": "What does the descriptor MI mean?",
+  "a": "<b>Shallow</b>, used almost exclusively with fog as MIFG. Shallow fog is a layer less than six feet deep, so visibility at eye level can be good while the runway surface is obscured - which makes the landing flare and rollout far harder than the reported visibility suggests.",
+  "dup": "What are the METAR descriptor and precipitation codes?"
+ },
+ {
+  "page": 25,
+  "concept": "Descriptor BL - blowing",
+  "s": "Weather Reports",
+  "q": "What does the descriptor BL mean?",
+  "a": "<b>Blowing</b> - particles raised by the wind to a height of six feet or more above the ground. It appears as BLSN for blowing snow, BLDU for blowing dust and BLSA for blowing sand, all of which can reduce visibility at the surface to near zero during taxi, takeoff and landing.",
+  "dup": "What are the METAR descriptor and precipitation codes?"
+ },
+ {
+  "page": 25,
+  "concept": "Descriptor BC - patches",
+  "s": "Weather Reports",
+  "q": "What does the descriptor BC mean?",
+  "a": "<b>Patches</b>, used with fog as BCFG to indicate patchy fog rather than a continuous layer. Patchy fog is operationally awkward because visibility can be excellent on one part of the field and near zero on another, and because it tends to thicken quickly on calm, clear nights.",
+  "dup": "What are the METAR descriptor and precipitation codes?"
+ },
+ {
+  "page": 25,
+  "concept": "Descriptor SH - showers",
+  "s": "Weather Reports",
+  "q": "What does the descriptor SH mean?",
+  "a": "<b>Showers</b> - precipitation that starts, changes intensity and stops abruptly, falling from convective cloud. SHRA is rain showers and SHSN snow showers. A shower report is evidence of unstable air, so expect good visibility between showers but turbulence and rapid changes within them.",
+  "dup": "What are the METAR descriptor and precipitation codes?"
+ },
+ {
+  "page": 25,
+  "concept": "Descriptor PR - partial",
+  "s": "Weather Reports",
+  "q": "What does the descriptor PR mean?",
+  "a": "<b>Partial</b>, meaning a substantial part of the airport is covered by the phenomenon while the rest is not. It is used with fog as PRFG. Like BCFG it warns that the condition you can see from the ramp may not be the condition at the far end of the runway.",
+  "dup": "What are the METAR descriptor and precipitation codes?"
+ },
+ {
+  "page": 25,
+  "concept": "Descriptor DR - drifting",
+  "s": "Weather Reports",
+  "q": "What does the descriptor DR mean?",
+  "a": "<b>Drifting</b> - particles raised by the wind to less than six feet above the ground, as opposed to BL for blowing, which is six feet or more. It appears as DRSN for drifting snow, DRDU for drifting dust and DRSA for drifting sand. The six foot dividing line is the examiner's favorite detail here.",
+  "dup": "What are the METAR descriptor and precipitation codes?"
+ },
+ {
+  "page": 25,
+  "concept": "Descriptor TS - thunderstorm",
+  "s": "Weather Reports",
+  "q": "What does the descriptor TS mean?",
+  "a": "<b>Thunderstorm.</b> It may stand alone, meaning thunder heard or lightning seen with no precipitation reaching the station, or be combined as TSRA, TSGR or +TSRA. TS in any report means lightning, severe turbulence, hail, wind shear and microburst are all possible and the cell must be avoided.",
+  "dup": "What are the METAR descriptor and precipitation codes?"
+ },
+ {
+  "page": 25,
+  "concept": "Descriptor FZ - freezing",
+  "s": "Weather Reports",
+  "q": "What does the descriptor FZ mean?",
+  "a": "<b>Freezing</b> - supercooled liquid that freezes on contact with the surface it strikes. FZRA is freezing rain, FZDZ freezing drizzle and FZFG freezing fog. Any FZ group is a direct icing warning, and freezing rain in particular produces clear ice faster than most light aircraft can escape it.",
+  "dup": "What are the METAR descriptor and precipitation codes?"
+ },
+ {
+  "page": 25,
+  "concept": "Obscuration code BR - mist",
+  "s": "Weather Reports",
+  "q": "What does the code BR mean?",
+  "a": "<b>Mist</b> - visibility restricted by suspended water droplets, reported when the visibility is five eighths of a statute mile or more. Below five eighths of a mile the identical phenomenon is coded FG for fog, so BR and FG are separated only by the visibility value.",
+  "dup": "What are the METAR obscuration and other phenomena codes?"
+ },
+ {
+  "page": 25,
+  "concept": "Obscuration code SA - sand",
+  "s": "Weather Reports",
+  "q": "What does the code SA mean?",
+  "a": "<b>Sand</b> suspended in the air and restricting visibility. It is distinct from SS, which is a sandstorm, and it combines with descriptors to give BLSA for blowing sand and DRSA for drifting sand. It is mainly a desert and coastal report.",
+  "dup": "What are the METAR obscuration and other phenomena codes?"
+ },
+ {
+  "page": 25,
+  "concept": "Obscuration code FG - fog",
+  "s": "Weather Reports",
+  "q": "What does the code FG mean?",
+  "a": "<b>Fog</b> - suspended water droplets reducing visibility to less than five eighths of a statute mile. It takes descriptors to give MIFG shallow fog, BCFG patches of fog, PRFG partial fog and FZFG freezing fog. Fog is the single most common cause of an airport going below approach minimums.",
+  "dup": "What are the METAR obscuration and other phenomena codes?"
+ },
+ {
+  "page": 25,
+  "concept": "Obscuration code HZ - haze",
+  "s": "Weather Reports",
+  "q": "What does the code HZ mean?",
+  "a": "<b>Haze</b> - fine dry particles suspended in the air, too small to see individually but enough to give the air an opalescent appearance and cut slant range visibility. Haze typically sits under a temperature inversion in stable air, and it is far worse looking into the sun than away from it.",
+  "dup": "What are the METAR obscuration and other phenomena codes?"
+ },
+ {
+  "page": 25,
+  "concept": "Obscuration code FU - smoke",
+  "s": "Weather Reports",
+  "q": "What does the code FU mean?",
+  "a": "<b>Smoke</b> - products of combustion suspended in the air. It is reported from wildfires, industry and agricultural burning, and like haze it is worst in stable air under an inversion. Smoke can reduce visibility to IFR values under an otherwise clear sky.",
+  "dup": "What are the METAR obscuration and other phenomena codes?"
+ },
+ {
+  "page": 25,
+  "concept": "Obscuration code PY - spray",
+  "s": "Weather Reports",
+  "q": "What does the code PY mean?",
+  "a": "<b>Spray</b> - water droplets torn by the wind from the surface of a body of water and carried into the air. It is reported at coastal and lakeside stations in strong winds, and it tends to accompany the same conditions that produce low level turbulence and wind shear near the shore.",
+  "dup": "What are the METAR obscuration and other phenomena codes?"
+ },
+ {
+  "page": 25,
+  "concept": "Obscuration code VA - volcanic ash",
+  "s": "Weather Reports",
+  "q": "What does the code VA mean?",
+  "a": "<b>Volcanic ash.</b> Ash must be avoided entirely: it sandblasts the windscreen, abrades compressor blades, melts and refreezes in turbine hot sections and can cause total engine failure. It is not detected by weather radar, so reports, SIGMETs and volcanic ash advisories are the only warning.",
+  "dup": "What are the METAR obscuration and other phenomena codes?"
+ },
+ {
+  "page": 25,
+  "concept": "Obscuration code DU - widespread dust",
+  "s": "Weather Reports",
+  "q": "What does DU mean as an obscuration code?",
+  "a": "<b>Widespread dust</b> - fine particles of earth suspended over a large area and restricting visibility. Note DU appears twice on the guide's list: as widespread dust in the obscuration column and as dust storm in the other phenomena column, so read it in context.",
+  "dup": "What are the METAR obscuration and other phenomena codes?"
+ },
+ {
+  "page": 25,
+  "concept": "Other phenomena code SQ - squall",
+  "s": "Weather Reports",
+  "q": "What does the code SQ mean?",
+  "a": "<b>Squall</b> - a sudden increase in wind speed of at least 16 knots, sustained at 22 knots or more for at least one minute. A squall report means a violent shift in wind is occurring at the surface, and it commonly accompanies the gust front ahead of a thunderstorm.",
+  "dup": "What are the METAR obscuration and other phenomena codes?"
+ },
+ {
+  "page": 25,
+  "concept": "Other phenomena code FC - funnel cloud",
+  "s": "Weather Reports",
+  "q": "What does the code FC mean?",
+  "a": "<b>Funnel cloud</b> - a rotating column of air extending from the cloud base but not reaching the ground. If it touches down it becomes a tornado or waterspout and is reported as +FC. Either way the area must be avoided by the widest possible margin.",
+  "dup": "What are the METAR obscuration and other phenomena codes?"
+ },
+ {
+  "page": 25,
+  "concept": "Other phenomena code SS - sandstorm",
+  "s": "Weather Reports",
+  "q": "What does the code SS mean?",
+  "a": "<b>Sandstorm</b> - strong winds lifting large quantities of sand and severely restricting visibility, usually to less than five eighths of a statute mile. It is a more severe report than the plain sand code SA, and it is typically accompanied by strong, gusty surface winds.",
+  "dup": "What are the METAR obscuration and other phenomena codes?"
+ },
+ {
+  "page": 25,
+  "concept": "Other phenomena code +FC - tornado or waterspout",
+  "s": "Weather Reports",
+  "q": "What does +FC mean in a report?",
+  "a": "<b>Tornado or waterspout</b> - a funnel cloud that has reached the surface. This is the one case where the plus sign does not simply mean heavy intensity: +FC is its own distinct code. It represents the most violent weather an aircraft can encounter and demands maximum avoidance.",
+  "dup": "What are the METAR obscuration and other phenomena codes?"
+ },
+ {
+  "page": 25,
+  "concept": "Other phenomena code DU - dust storm",
+  "s": "Weather Reports",
+  "q": "What does DU mean in the 'other' column of the code tables?",
+  "a": "<b>Dust storm</b> - strong winds lifting dust over a wide area and severely reducing visibility. The guide lists DU in both the obscuration column, as widespread dust, and the other phenomena column, as dust storm; in current practice a dust storm is normally coded DS, with DU reserved for suspended dust.",
+  "dup": "What are the METAR obscuration and other phenomena codes?"
+ },
+ {
+  "page": 25,
+  "concept": "Other phenomena code PO - well developed dust and sand swirls",
+  "s": "Weather Reports",
+  "q": "What does the code PO mean?",
+  "a": "<b>Well developed dust or sand swirls</b> - dust devils. They are small, short-lived rotating columns of air lifting dust or sand from the surface, caused by intense surface heating. They are localized but can be strong enough to upset a light aircraft on takeoff, landing or taxi.",
+  "dup": "What are the METAR obscuration and other phenomena codes?"
+ },
+ {
+  "page": 26,
+  "concept": "The three phases of a thunderstorm",
+  "s": "Weather Theory",
+  "q": "Name the three phases of a thunderstorm in order.",
+  "a": "<b>Cumulus, mature, and dissipating.</b> The cumulus stage is dominated by updrafts, the mature stage has both updrafts and downdrafts together and is the most dangerous, and the dissipating stage is dominated by downdrafts. A single cell runs the full cycle in roughly twenty to ninety minutes.",
+  "dup": "What are the three stages of a thunderstorm?"
+ },
+ {
+  "page": 26,
+  "concept": "Cumulus stage: air warmer than its environment starts to rise",
+  "s": "Weather Theory",
+  "q": "What starts the cumulus stage of a thunderstorm?",
+  "a": "<b>Air that is warmer than its environment starts to rise.</b> Because the parcel is warmer, and therefore less dense, than the air around it, it is buoyant and keeps climbing as long as it stays warmer than its surroundings. That instability is one of the three ingredients a thunderstorm needs, alongside moisture and a lifting action.",
+  "dup": "What happens in the cumulus stage of a thunderstorm?"
+ },
+ {
+  "page": 26,
+  "concept": "Cumulus stage: warm moist air cools and condenses to form cumulus clouds",
+  "s": "Weather Theory",
+  "q": "How does the cloud itself form in the cumulus stage?",
+  "a": "As the warm, moist air rises it <b>cools and condenses to form cumulus clouds</b>. Rising air cools at the adiabatic lapse rate until it reaches its dew point, at which point the water vapor condenses into visible droplets. The latent heat released by that condensation warms the parcel further and drives it higher still.",
+  "dup": "What happens in the cumulus stage of a thunderstorm?"
+ },
+ {
+  "page": 26,
+  "concept": "Cumulus stage: creates strong updrafts",
+  "s": "Weather Theory",
+  "q": "What kind of vertical motion dominates the cumulus stage?",
+  "a": "<b>Strong updrafts</b>, and only updrafts. There is no downdraft yet, which is why precipitation does not reach the ground during this stage - the rising air holds the water droplets aloft. The appearance of rain at the surface is the signal that the cell has moved into the mature stage.",
+  "dup": "What happens in the cumulus stage of a thunderstorm?"
+ },
+ {
+  "page": 26,
+  "concept": "Cumulus stage: supercooled water forms above the freezing level",
+  "s": "Weather Theory",
+  "q": "What forms if the growing cumulus cloud reaches the freezing level?",
+  "a": "<b>Supercooled water molecules</b> - liquid water droplets existing at temperatures below zero Celsius. They freeze instantly on contact with an airframe, which is what makes the upper parts of a building cumulus a severe structural icing hazard as well as a turbulence hazard.",
+  "dup": "What happens in the cumulus stage of a thunderstorm?"
+ },
+ {
+  "page": 26,
+  "concept": "Mature stage: both updrafts AND downdrafts present",
+  "s": "Weather Theory",
+  "q": "What characterizes the mature stage of a thunderstorm?",
+  "a": "The presence of <b>both updrafts and downdrafts</b> at the same time. Adjacent columns of air moving violently in opposite directions produce the most extreme turbulence and wind shear found in any weather phenomenon, which is why the mature stage is the most dangerous of the three.",
+  "dup": "What happens in the mature stage of a thunderstorm, and why is it the most dangerous?"
+ },
+ {
+  "page": 26,
+  "concept": "Mature stage: downdrafts cause evaporative cooling",
+  "s": "Weather Theory",
+  "q": "Why does the downdraft in a mature thunderstorm accelerate downward?",
+  "a": "Because of <b>evaporative cooling</b>. As falling precipitation evaporates into the descending air it takes heat out of that air, making it colder and denser than its surroundings, so it sinks faster. That self-reinforcing process is what makes the downdraft strong enough to produce a microburst.",
+  "dup": "What happens in the mature stage of a thunderstorm, and why is it the most dangerous?"
+ },
+ {
+  "page": 26,
+  "concept": "Mature stage: the downdraft hits the ground and spreads out in all directions",
+  "s": "Weather Theory",
+  "q": "What happens when a thunderstorm downdraft reaches the ground?",
+  "a": "It has nowhere to go, so it <b>spreads out in all directions</b>. That outflow is the gust front, and it is the source of the sharp wind shift, the sudden temperature drop and the strong gusty surface winds felt ahead of an approaching storm - and of the dangerous shear across the approach path and departure end.",
+  "dup": "What happens in the mature stage of a thunderstorm, and why is it the most dangerous?"
+ },
+ {
+  "page": 26,
+  "concept": "Mature stage: anvil shape forms",
+  "s": "Weather Theory",
+  "q": "How does the anvil top of a thunderstorm form?",
+  "a": "The <b>anvil shape forms when water molecules are pushed into the higher parts of the cloud</b>. The updraft carries moisture up until it reaches the stable air of the tropopause and can rise no further, so it spreads horizontally, usually downwind. The anvil points the way the storm is moving and can throw hail many miles ahead of the cell.",
+  "dup": "What happens in the mature stage of a thunderstorm, and why is it the most dangerous?"
+ },
+ {
+  "page": 26,
+  "concept": "Mature stage: hail and intense cloud-to-ground lightning",
+  "s": "Weather Theory",
+  "q": "What hazards appear in the mature stage that were absent earlier?",
+  "a": "<b>Hail and intense cloud-to-ground lightning.</b> Hail forms when a droplet is cycled repeatedly between the freezing level and the warmer air below by the updraft, accreting a layer of ice each time, until it is too heavy to be supported. Both hazards mark the mature stage as the one to stay furthest from.",
+  "dup": "What happens in the mature stage of a thunderstorm, and why is it the most dangerous?"
+ },
+ {
+  "page": 26,
+  "concept": "Dissipating stage: downdrafts prominent",
+  "s": "Weather Theory",
+  "q": "What vertical motion dominates the dissipating stage?",
+  "a": "<b>Downdrafts</b> become prominent and eventually take over the whole cell. Once the downdraft spreads across the base of the storm it cuts off the inflow of warm moist air that was feeding the updraft, and without that supply the cell can no longer sustain itself.",
+  "dup": "What happens in the dissipating stage of a thunderstorm?"
+ },
+ {
+  "page": 26,
+  "concept": "Dissipating stage: anvil top begins to weaken",
+  "s": "Weather Theory",
+  "q": "What happens to the anvil during the dissipating stage?",
+  "a": "The <b>anvil top begins to weaken</b>. With the updraft no longer pushing moisture to the top of the cloud, the sharply defined anvil loses its crisp edge and starts to break up and spread. A ragged, softening anvil is a visual clue that the cell is past its peak.",
+  "dup": "What happens in the dissipating stage of a thunderstorm?"
+ },
+ {
+  "page": 26,
+  "concept": "Dissipating stage: towering cumulonimbus becomes wispy non-threatening cloud",
+  "s": "Weather Theory",
+  "q": "What does the cloud itself look like by the end of the dissipating stage?",
+  "a": "The <b>towering cumulonimbus turns into wispy, non-threatening clouds</b>. What is left is largely cirrus-like debris from the old anvil. Be careful though: a dissipating cell's outflow can still trigger a new cell nearby, so a weakening storm does not mean the area is safe.",
+  "dup": "What happens in the dissipating stage of a thunderstorm?"
+ },
+ {
+  "page": 26,
+  "concept": "Dissipating stage: downdrafts of cool air reduce temperature and convection from below",
+  "s": "Weather Theory",
+  "q": "Why does a thunderstorm eventually kill itself off?",
+  "a": "Because its <b>downdrafts of cool air reduce the temperature and the convection from below</b>. The cold outflow stabilizes the air at the surface and chokes off the warm, moist inflow the storm was feeding on. Without a continuing supply of warm unstable air the updraft collapses and the cell dies.",
+  "dup": "What happens in the dissipating stage of a thunderstorm?"
+ },
+ {
+  "page": 26,
+  "concept": "Microburst: localized column of sinking air within a thunderstorm, 2.5 miles or less in diameter",
+  "s": "Weather Theory",
+  "q": "What is a microburst and how big is one?",
+  "a": "A localized column of sinking air, a downdraft, within a thunderstorm, usually <b>less than or equal to 2.5 miles in diameter</b>. A typical microburst lasts only about 15 minutes, with the most intense winds in the first 5 minutes. Its small size is part of the danger: it can sit over the approach end of a runway while the rest of the field looks benign.",
+  "dup": "What is a microburst, and what is the performance sequence a pilot experiences flying into one?"
+ },
+ {
+  "page": 26,
+  "concept": "Microburst: winds can reach 100 mph or higher",
+  "s": "Weather Theory",
+  "q": "How strong can the winds in a microburst be?",
+  "a": "<b>100 miles per hour or higher.</b> Downdrafts can reach 6,000 feet per minute and the horizontal shear across the outflow can exceed 90 knots. Those numbers are far beyond the climb performance of any light aircraft, which is why a microburst encountered at low altitude on approach or departure is frequently unsurvivable.",
+  "dup": "What is a microburst, and what is the performance sequence a pilot experiences flying into one?"
+ },
+ {
+  "page": 26,
+  "concept": "Microburst: pilots should avoid these at all costs",
+  "s": "Weather Theory",
+  "q": "What is the correct response to a suspected microburst on your approach path?",
+  "a": "<b>Avoid it at all costs</b> - do not attempt to fly through it. Go around or delay the approach, and if an encounter begins, apply maximum power, pitch for the best escape attitude and do not chase the airspeed indicator. A microburst's performance-increasing headwind is followed by a downdraft and then a performance-destroying tailwind.",
+  "dup": "What is a microburst, and what is the performance sequence a pilot experiences flying into one?"
+ },
+ {
+  "page": 26,
+  "concept": "Wind shear: a change in wind speed and/or direction over a short distance",
+  "s": "Weather Theory",
+  "q": "Define wind shear.",
+  "a": "<b>A change in wind speed and/or direction over a short distance.</b> It can be horizontal or vertical, and it is produced by thunderstorms and their outflow, by frontal surfaces, by temperature inversions and by terrain. It is not confined to bad weather: a clear-air inversion can produce severe low level shear under a cloudless sky.",
+  "dup": "AIRMET Tango includes low-level wind shear; what is LLWS and where would you expect to meet it?"
+ },
+ {
+  "page": 26,
+  "concept": "Wind shear: causes headwind and tailwind change that alters the flight path",
+  "s": "Weather Theory",
+  "q": "What does wind shear actually do to the airplane?",
+  "a": "It causes a sudden <b>headwind or tailwind change</b> that quickly alters the flight path. A rapid loss of headwind means an immediate loss of indicated airspeed and lift, so the airplane sinks below the intended path; a gain in headwind does the opposite and causes it to balloon. The aircraft cannot accelerate fast enough to recover the lost energy.",
+  "dup": "AIRMET Tango includes low-level wind shear; what is LLWS and where would you expect to meet it?"
+ },
+ {
+  "page": 26,
+  "concept": "Wind shear: most dangerous at low levels near the ground",
+  "s": "Weather Theory",
+  "q": "Where is wind shear most dangerous?",
+  "a": "<b>At low levels near the ground</b> - on approach and shortly after takeoff. At altitude a shear encounter is uncomfortable but recoverable; close to the ground there is no height in which to trade altitude for airspeed and no time to spool up power, so the same shear can put the airplane into the terrain.",
+  "dup": "AIRMET Tango includes low-level wind shear; what is LLWS and where would you expect to meet it?"
+ }
+]

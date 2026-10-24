@@ -1,0 +1,1801 @@
+[
+ {
+  "s": "Aircraft Systems",
+  "q": "What engine is installed in this airplane?",
+  "a": "A Lycoming O-320 rated 160 horsepower at 2700 RPM. POH 1.3 and 2.7 both approve either the <b>O-320-D2A or the O-320-D3G</b>, exactly as TCDS 2A13 does, and the FAA registry records this airplane's engine only as 0-320 SERIES. So the installed dash number has to be read off the engine data plate rather than asserted from the book.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Your instructor says the type certificate names the D3G. Is that right?",
+  "a": "Only half right. The TCDS and the handbook both approve either engine; neither picks one. POH 1.3(c) and 2.7(c) print <b>O-320-D2A or O-320-D3G</b> side by side, and the registry entry for this airplane says only 0-320 SERIES. The correct answer in an oral is that both are approved for the model and mine is whichever is stamped on the data plate, which I would read before quoting it.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "How much power does this engine make, and at what RPM?",
+  "a": "<b>160 horsepower at 2700 RPM</b>. The handbook says it three times: 1.3 rated horsepower 160, 2.7 maximum horsepower 160, and 7.5 rated at 160 HP at 2700 RPM. The tachometer red line is also 2700 RPM and is labeled maximum continuous power, so there is no separate higher takeoff rating to manage and no time limit to watch.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Describe the engine's basic configuration.",
+  "a": "In the handbook's own words at 1.3, it is <b>four cylinder, direct drive, horizontally opposed, air cooled</b>. Direct drive means there is no reduction gearbox, so propeller RPM equals crankshaft RPM. Section 7.5 repeats it as a four cylinder, direct drive, horizontally opposed engine. It is carbureted rather than fuel injected, and normally aspirated.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What is the engine's displacement, and where does the name O-320 come from?",
+  "a": "<b>319.8 cubic inches</b>, POH 1.3. The Lycoming designation rounds that off: O for horizontally opposed, 320 for the approximate displacement in cubic inches. The absence of a prefix letter is the point worth making, because it says there is no gearing, no supercharging and no fuel injection, which is exactly the direct drive, carbureted, normally aspirated engine the handbook describes.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What is the compression ratio, and why does it matter on a Warrior?",
+  "a": "<b>8.5:1</b>, POH 1.3. It is the figure that separates the 160 hp D-series engine in this Warrior II from the 150 hp 7.00:1 engine in the earlier PA-28-151 Warrior, and the two airplanes look identical on the ramp. It also ties to the fuel: a higher compression ratio needs the higher octane, which is why the filler is placarded 100 or 100LL aviation grade and lower grades are not allowed.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "How is this engine cooled?",
+  "a": "By air. POH 7.5: engine air enters on either side of the propeller through openings in a nose cowling and is carried through the <b>engine baffling</b> around the engine and the oil cooler. The same baffled air cools the cylinders and the cooler, so there is no separate scoop for the oil. The preflight includes checking the engine baffle seals in the nose section.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Does this airplane have cowl flaps? If not, what controls engine temperature?",
+  "a": "No cowl flaps at all. The cooling air is ducted by fixed <b>baffling</b>, so temperature is controlled by what the pilot does: lowering the nose for more airspeed and more cooling flow, keeping the mixture rich in the climb, and reducing the climb angle. On a hot day the tools are a shallower climb and a richer mixture, not a lever.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What are the engine mounts made of, and what is a dynafocal mount for?",
+  "a": "POH 7.5: the engine mounts are constructed of steel tubing, and <b>dynafocal mounts</b> are provided to reduce vibration. Section 7.3 notes the steel tube engine mount is one of the few parts of the primary structure that is not aluminum alloy. A dynafocal arrangement aims the rubber isolators at the engine's center of gravity, so vibration is absorbed in the mounts instead of being fed into the airframe.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Trace the induction air path from outside the airplane to the cylinders.",
+  "a": "POH 7.5: carburetor induction air enters a <b>chin scoop on the lower right cowling</b> and is passed through a wetted polyurethane filter to the carburetor air box, then through the carburetor and the intake manifold to the cylinders. It is an updraft, carbureted, normally aspirated installation, so there is no turbocharger and no automatic alternate air door; the only alternate path is carburetor heat.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Tell me about the induction air filter.",
+  "a": "POH 8.11: a <b>wet-type polyurethane foam</b> filter, in the lower right front of the engine compartment behind four quarter-turn fasteners. It must be inspected at least once every 50 hours, and more frequently in dusty conditions. It is disposable, so if it is excessively dirty or shows any damage it is replaced rather than cleaned.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What do you know about the carburetor, and what does the handbook not tell you?",
+  "a": "It is a <b>float-type carburetor</b> fed from a carburetor air box, with the throttle and mixture acting at it and a screen at its inlet cleaned every 50 hours; Figure 7-9 simply labels it CARBURETOR. What the handbook never gives is the make, model or float type, and the TCDS gives only carburetor settings, so I would not name a manufacturer in the oral. That is a case where the honest answer is better than a confident guess.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Where does carburetor heat air come from?",
+  "a": "From a <b>shroud around the muffler</b>. POH 7.5: air for the muffler shroud is picked up from the nose cowling and carried through a duct to the shroud, and heated air enters the carburetor air box through a hose connected to the heater shroud. The same dual mufflers and heater shrouds supply cabin heat, the defroster and what Piper calls the carburetor deicing system.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Is the air you get with carburetor heat filtered?",
+  "a": "No, and the handbook says so. POH 4.19: <b>avoid prolonged ground operation with carburetor heat ON as the air is unfiltered</b>. The heated air comes off the muffler shroud, downstream of the induction filter, so with heat selected the engine is breathing whatever dust is around. That is why the ground check of carb heat is brief and why heat comes off before takeoff.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Describe the carburetor heat control.",
+  "a": "POH 7.11: a lever to the right of the control quadrant on the instrument panel, placarded with <b>two positions, ON down and OFF up</b>. It is an on-off control, not a modulating one. That is precisely why the handbook insists on full heat; there is no approved intermediate setting for the pilot to select.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Why does Piper say never to use partial carburetor heat?",
+  "a": "POH 3.41 NOTE: <b>partial carburetor heat may be worse than no heat at all</b>, since it may melt part of the ice which will refreeze in the intake system. The handbook's rule is that when using carburetor heat always use full heat, and when the ice is removed return the control to the full cold position. Section 3.29 says the same thing: heat should be full on when carburetor ice is encountered.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "In what conditions does this handbook say carburetor ice can form?",
+  "a": "POH 3.29: under certain moist atmospheric conditions at temperatures of <b>minus 5 degrees C to 20 degrees C</b>, it is possible for ice to form in the induction system, even in summer weather. The cause it gives is the high air velocity through the carburetor venturi and the heat absorbed by vaporization of the fuel. That band is type specific and it includes temperatures below freezing.",
+  "dup": "How does carburettor ice form, and in what conditions?",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What is the first indication of carburetor ice in this airplane?",
+  "a": "A <b>drop in RPM</b>. POH 3.41: engine roughness is usually due to carburetor icing, which is indicated by a drop in RPM and may be accompanied by a slight loss of airspeed or altitude. The propeller is fixed pitch and there is no manifold pressure gauge on the panel, so the tachometer is the instrument that moves first.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Why is the carburetor ice indication different in a constant speed airplane?",
+  "a": "Because a governor holds the RPM. With a <b>fixed pitch</b> propeller, a loss of power lets the propeller slow, so the tachometer falls and that is the cue. With a constant speed propeller the governor flattens the blades to hold the selected RPM, so the tachometer stays where it was and the loss appears as falling manifold pressure instead. This airplane has no manifold pressure gauge, so RPM is all there is.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "You suspect carburetor ice and apply full heat. What should happen?",
+  "a": "It gets worse before it gets better. POH 3.41: RPM will decrease slightly and roughness will increase; then wait for a decrease in roughness or an increase in RPM, indicating ice removal. <b>If there is no change in approximately one minute, return the carburetor heat to OFF.</b> Adjust the mixture for maximum smoothness meanwhile. If too much ice is allowed to accumulate, restoration of full power may not be possible.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Do you put carburetor heat on for every approach in this airplane?",
+  "a": "Piper says no. POH 4.31: <b>carburetor heat should not be applied unless there is an indication of carburetor icing</b>, since the use of carburetor heat causes a reduction in power which may be critical in case of a go-around, and full throttle operation with carburetor heat on can cause detonation. That is this handbook's position and it differs from the habit many pilots are taught.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What does the POH want you to do for a prolonged power-off descent?",
+  "a": "POH 4.29: apply <b>full carburetor heat before the power reduction</b> if icing conditions are suspected, retard the throttle, lean the mixture as required, and verify power response approximately every 30 seconds by partially opening and then closing the throttle, which is clearing the engine. Leveling off, enrich the mixture, set power as required and select carb heat off unless icing is still suspected.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What is detonation, and what does this handbook say can cause it?",
+  "a": "Detonation is uncontrolled, explosive burning of the charge after the spark instead of a smooth flame front, and it drives cylinder pressure and temperature up fast enough to damage pistons, rings and cylinders. This handbook names one cause directly, at 4.31: <b>full throttle operation with carburetor heat on can cause detonation</b>. The other guards are the placarded minimum fuel grade and not running lean at high power.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "How does preignition differ from detonation?",
+  "a": "Preignition is ignition of the charge before the spark, by a hot spot such as a glowing deposit or a damaged plug, so the mixture burns against a piston that is still rising; detonation is a violent burn after normal ignition. Preignition can destroy a cylinder very quickly. <b>This handbook does not discuss preignition at all</b>, so I would offer that as general engine knowledge and take the detail from the Lycoming operator's manual.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "How many magnetos does this engine have, and what else does the engine drive?",
+  "a": "<b>Two magnetos</b>. POH 7.5 lists the engine as equipped with a starter, a 60 amp 14 volt alternator, a shielded ignition, two magnetos, vacuum pump drive, a fuel pump and a wetted polyurethane foam induction air filter. That list is the right answer to what the engine drives, and it is what tells you the vacuum gyros and the ignition survive a loss of the electrical system.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Why does the engine have two magnetos?",
+  "a": "For redundancy and for power. Two independent ignition systems mean a failed magneto, lead or plug does not stop the engine, and firing the cylinder from two plugs gives two flame fronts, so the charge burns faster and more completely. <b>The handbook never states a plug count</b>, so the honest version is two per cylinder, one fired by each magneto, confirmed from the engine manual rather than claimed from the POH.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Why does the engine keep running with the master switch off?",
+  "a": "Because a magneto is <b>engine driven and self-exciting</b>: it makes its own current from a rotating magnet and needs nothing from the airplane's electrical system. That is why the ignition does not appear in the POH 7.15 list of standard electrical accessories, and why an alternator failure, a flat battery or an electrical fire handled with master off still leaves you with a running engine.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "How are the magnetos driven?",
+  "a": "Off the engine. POH 7.5 lists the two magnetos among the engine-driven accessories alongside the vacuum pump drive, which points to <b>accessory gear drive</b>, but the handbook never states the drive arrangement in words. The safe answer is the principle, that they are engine driven and self-exciting and so need no electrical power, with the gearing detail taken from the engine manual.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Does this engine have an impulse coupling, and what does it do?",
+  "a": "An impulse coupling winds a spring at cranking speed and snaps the magnet through, giving a late, hot spark for starting. <b>The words impulse coupling appear nowhere in this handbook.</b> What it does say, at Operating Tip 10.3(j), is that the magneto selector should be placed to LEFT during hand starting to reduce the probability of kick back, and the Lycoming parts catalog lists one plain and one impulse magneto, which points to the left one.",
+  "dup": "What is an impulse coupling and why is it needed?",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Which spark plugs does each magneto fire?",
+  "a": "The handbook does not say. POH 7.5 gives only a shielded ignition and two magnetos; there is <b>no plug count and no harness assignment anywhere in the book</b>. The right answer is two plugs per cylinder, one fired by each magneto, confirmed from the engine manual, rather than inventing a top-and-bottom split. That is a stronger answer than a confident wrong one.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What does a shielded ignition mean, and why is it fitted?",
+  "a": "POH 7.5 describes the installation as having <b>a shielded ignition</b>. Shielding is metal braid over the leads and plug caps that contains the radio frequency noise a magneto system throws off, so it does not reach the radios and navigation receivers as a buzz that rises and falls with engine speed. The handbook gives no further detail on the harness than that phrase.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "You pull the mixture to shut down and the engine keeps running. What does that mean?",
+  "a": "A magneto is not being grounded, normally a broken or disconnected P-lead, so that magneto is live no matter where the key is. <b>From then on the propeller is treated as hot</b>: nobody touches it, the mixture stays at idle cut-off, fuel selector and master go off, and the airplane is written up before any blade is turned. It is the same defect that shows as a zero drop in the run-up.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "At what RPM do you check the magnetos?",
+  "a": "<b>2000 RPM</b>. POH 4.19 says the magnetos should be checked at 2000 RPM, and the Section 4 GROUND CHECK list opens with throttle 2000 RPM. That is a published figure in this handbook rather than a school checklist number, and it is the same RPM at which the vacuum gauge should read 4.8 to 5.1 inches of mercury.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What are the magneto drop limits in the run-up?",
+  "a": "POH 4.19: drop off on either magneto should not exceed <b>175 RPM</b>, and the difference between the magnetos should not exceed 50 RPM. Both are on the GROUND CHECK list as max. drop 175 RPM and max. diff. 50 RPM. The handbook adds a limit hardly anyone quotes: operation on one magneto should not exceed 10 seconds.",
+  "dup": "How do you carry out a magneto check and what are the limits?",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Is there a time limit on running on one magneto?",
+  "a": "Yes. POH 4.19: <b>operation on one magneto should not exceed 10 seconds</b>. The handbook gives no reason, but the practical one is that extended single-magneto running at run-up power fouls the plugs that are not firing. It makes the check deliberately brisk: left, back to both, right, back to both, watching the drop and the split.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What does an excessive magneto drop tell you?",
+  "a": "That one ignition system is not carrying its share: fouled or failed plugs, a bad lead or a magneto out of time. A drop beyond <b>175 RPM</b>, or a split beyond 50 RPM, means the airplane does not go as it is. A rough-running magneto with a big drop usually points at a fouled plug, and the normal first attempt is to lean at higher RPM to burn the deposit off and recheck before calling maintenance.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What does no RPM drop at all on the magneto check mean?",
+  "a": "That the check did not actually isolate a magneto, which is a grounding fault in the switch or the P-lead, so that magneto is live all the time and the propeller is hot. <b>A zero drop is a defect, not a good sign.</b> The small drop is the evidence that the system was really switched off; without it the airplane is written up before flight.",
+  "dup": "What does an excessive magneto drop mean, and what does no drop at all mean?",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What RPM drop should you see on the carburetor heat check?",
+  "a": "<b>This handbook does not publish one.</b> The GROUND CHECK list says only carburetor heat check, and 4.19 gives the reasons without a number: to be sure the control is operating properly and to clear any ice formed during taxiing. So I look for a definite drop and a clean recovery, and I would say the POH specifies no figure rather than quote a school number as if it came from the book.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "How is the starter operated?",
+  "a": "From the ignition switch. POH 4.15: engage the starter by rotating the magneto switch clockwise, and when the engine fires release the magneto switch, so it is <b>spring loaded off the key</b> and not a separate button. Operating Tip 10.3(e) adds that radio, light and pitot heat switches should be checked off before engaging the starter so as not to create an overloaded condition.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Describe the exhaust system and what else it feeds.",
+  "a": "POH 7.5: the exhaust system is constructed of <b>stainless steel and incorporates dual mufflers with heater shrouds</b> to supply heated air for the cabin, the defroster system and the carburetor deicing system. So the exhaust is not just plumbing; everything warm on this airplane comes off it, which is why a cracked muffler is at once a carbon monoxide problem and a carburetor heat problem.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Describe the throttle control.",
+  "a": "POH 7.11: a lever on the <b>control quadrant in the lower center of the instrument panel</b>, accessible to both pilot and copilot, running on teflon-lined control cables, used to adjust engine RPM. On a fixed pitch airplane the throttle is the only power lever and the tachometer is the power instrument; there is no propeller control and no manifold pressure gauge to set.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What does the mixture control do, and how do you stop this engine?",
+  "a": "POH 7.11: the mixture control lever adjusts the air to fuel ratio, and <b>the engine is shut down by placing the mixture lever in the full lean position</b>, that is idle cut-off. Shutting down on the mixture leaves no combustible charge in the cylinders, so the magnetos can then be switched off into a dead engine. The control lock has to be disengaged before the lever will come back.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What is the friction lock for?",
+  "a": "POH 7.11: a friction adjustment lever on the <b>right side of the control quadrant</b> that increases or decreases the friction holding the throttle and mixture, or locks them in a selected position. It is set loose enough that the levers move deliberately and tight enough that they do not creep back on their own in the climb or in cruise.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Does this airplane have a primer, and why is it on the emergency checklists?",
+  "a": "POH 7.13 calls it an <b>optional</b> engine priming system, with the pump immediately to the left of the throttle quadrant; in practice it is fitted, since primer locked appears on the placarded takeoff checklist, in Before Takeoff and in both engine failure checklists. An unlocked primer can feed raw fuel into the induction system and run the engine rough or rich, which is why it gets checked when power is lost.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "How do you lean this engine in cruise?",
+  "a": "POH 4.27: reduce to the desired cruise power setting and <b>lean the mixture to peak RPM</b>, then adjust the throttle if necessary for the final RPM setting; leaning to peak engine RPM gives best fuel economy. There is no EGT as standard equipment, so peak RPM is the handbook's leaning reference on this airplane, and 7.11 and 7.5 both send the pilot to the Lycoming operator's manual for more.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Do you ever take off with the mixture less than full rich?",
+  "a": "POH 4.21 NOTE: the mixture should be set <b>FULL RICH</b>, but a minimum amount of leaning is permitted for smooth engine operation when taking off at high elevation. So full rich is the rule and leaning for takeoff is a density altitude exception, leaned only as far as smooth running. On approach 4.31 wants full rich as well, to ensure maximum acceleration if the throttle has to be opened again.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Tell me about the propeller.",
+  "a": "A Sensenich <b>two-blade fixed pitch</b> propeller of aluminum alloy construction, model 74DM6-0-60 or 74DM6-0-58 per POH 2.7. Section 7.5 gives a 74-inch diameter with a 58 or 60-inch pitch, the pitch determined at 75 percent of the diameter. Fixed pitch is why RPM is the power indication, why an RPM drop is the first sign of carb ice, and why there is no propeller lever in the cockpit.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What static RPM should this engine make, and why does it matter?",
+  "a": "POH 2.7 gives it by propeller model, at sea level in standard conditions at maximum permissible throttle: for the 74DM6-0-60, <b>not above 2430 RPM and not below 2330 RPM</b>; for the 74DM6-0-58, not above 2465 and not below 2365. It is the check that engine and propeller together are making rated power. The handbook refers to the maintenance manual for testing in non-standard conditions.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "How do you warm this engine up?",
+  "a": "POH 4.17: warm up at <b>800 to 1200 RPM for not more than two minutes</b>, and the handbook warns that prolonged idling at low RPM may result in fouled spark plugs. On start, when the engine is firing evenly the throttle is advanced to 800 RPM. The warm-up is not run to a temperature; it is run until the engine passes the throttle test in the ground check.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "How do you know the engine is warm enough for takeoff?",
+  "a": "It is a functional test, not a temperature. POH 4.19 and the GROUND CHECK list: <b>the engine is warm for takeoff when the throttle can be opened without the engine faltering</b>. That is a better answer than guessing an oil temperature, because the handbook sets no takeoff minimum; it publishes only the oil temperature green arc of 75 to 245 degrees F and the 245 degrees F red line.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "The engine runs rough in cruise. Walk me through the checklist.",
+  "a": "POH 3.3: carburetor heat ON; if roughness continues after one minute, carburetor heat OFF; mixture adjust for maximum smoothness; electric fuel pump ON; fuel selector switch tanks; engine gauges check; magneto switch <b>L then R then BOTH</b>; if operation is satisfactory on either one, continue on that magneto at reduced power and full rich mixture to the first airport; and prepare for a power-off landing. It works induction, then fuel, then ignition.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Is there anything special about shutting down after using alternate fuel?",
+  "a": "Yes, and it is in the NOTE to POH 4.33: when alternate fuels are used, the engine should be run up to <b>1200 RPM for one minute</b> prior to shutdown to clean out any unburned fuel. Alternate fuel here means the commercial grade 100/130 that 8.21 allows when 100 or 100LL is not available. The rest of the shutdown is mixture to idle cut-off with the throttle full aft, then magnetos and master off.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What type of oil system does this engine have?",
+  "a": "A <b>wet sump</b> pressure system: the sump is an integral part of the engine, so oil falls back into it and is picked up again by the engine-driven pressure pump, rather than being held in a separate tank and scavenged as in a dry sump. I attribute that to the engine type, because this handbook never uses the phrase wet sump; what it gives is an 8 quart engine oil capacity, a dipstick and an oil cooler, which are all wet sump features.",
+  "dup": "What is a wet sump system, and how is it different from a dry sump?",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What is the oil capacity of this engine?",
+  "a": "<b>8 US quarts</b>. POH 1.9 prints oil capacity 8 quarts and 8.19 opens with the oil capacity of the engine is 8 quarts. TCDS 2A13 agrees independently: oil capacity 8 quarts at plus 27.5 inches, 6 quarts usable. Note those are two different ideas, capacity and usable oil, and an examiner may well ask you to separate them.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What is the minimum oil quantity for flight, and what are the other numbers people quote?",
+  "a": "The POH figure is <b>2 quarts</b>: Section 8.19, first sentence, the oil capacity of the engine is 8 quarts, and the minimum safe quantity is 2 quarts. The other two numbers are different things. The TCDS 6 quarts is usable oil, a weight and balance figure. A 6 to 8 quart band is a school dispatch policy, not a certification limit. I would fly to the school minimum, not to 2 quarts.",
+  "dup": "How much oil must be in the engine before flight?",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "The type certificate says 6 quarts usable. Is that your minimum for flight?",
+  "a": "No. <b>6 quarts usable is a weight and balance figure</b> from TCDS 2A13, which reads oil capacity 8 quarts at plus 27.5, 6 quarts usable; it says how much of the oil is drainable and counted for loading, not how little you may dispatch with. The POH minimum safe quantity is 2 quarts, in Section 8.19. Mixing the two up is an easy way to get a follow-up question you do not want.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Why do some checklists say 6 to 8 quarts if the POH says 2?",
+  "a": "Because that is an operator policy, not a handbook figure. One school's PA-28-161 checklist prints oil quantity 6 to 8 quarts as its preflight acceptance band, which is a sensible dispatch rule for an engine that uses oil on a long flight. <b>The POH's own figure is the 2 quart minimum safe quantity</b> in 8.19. The good answer names all three figures and says which is which.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Where is the oil cooler, and how is it cooled?",
+  "a": "POH 7.5: the oil cooler is located on the <b>left rear of the engine</b>, mounted to the engine baffling, and the engine cooling air picked up in the nose section of the cowling and carried through the baffling is used on the left side for the oil cooler. There is no separate scoop for it; the same baffled air that cools the cylinders cools the oil.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What is the oil cooler winterization plate, and what is the rule for it?",
+  "a": "POH 7.5: a winterization plate is provided to restrict air during winter operation. The placard in Section 2.25 gives the rule: <b>oil cooler winterization plate to be removed when ambient temperature exceeds 50 degrees F</b>. For a late November ride I would look for it on the preflight, know whether it is fitted, and know that I have to take it off once the temperature goes above that figure.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Is there a thermostatic bypass in the oil system, and how does it work?",
+  "a": "There is one on the engine, but <b>this handbook does not describe it</b>. The words thermostat, bypass and vernatherm do not appear in the oil discussion; 7.5 covers the cooler and the winterization plate and 8.19 covers quantity, interval and grade. So the POH answer is the cooler and the plate, and I would say the thermostatic control of flow through the cooler is an engine-level detail I would confirm in the Lycoming manual rather than guess at the plumbing.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Is there an oil filter or a screen on this engine?",
+  "a": "POH 8.19 names a <b>full flow cartridge type oil filter</b> and says it should be replaced each 50 hours of operation. The handbook does not describe a screen-only configuration, but it also does not state that every airframe has the filter, so which is actually fitted comes from the engine logbook and the accessory housing. It matters because it decides whether Lycoming's 50 hour or 25 hour interval applies.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "How often is the oil changed on this airplane?",
+  "a": "POH 8.19: the oil should be drained and renewed every <b>50 hours</b>, and sooner under unfavorable operating conditions, with full flow cartridge type oil filters replaced each 50 hours as well. The full answer pairs that with the calendar limit on the same page: the interval between oil and oil filter change is not to exceed four months, whichever comes first.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Is there a calendar limit on the oil change as well as an hours limit?",
+  "a": "Yes. POH 8.19: the interval between oil and oil filter change is not to exceed <b>four months</b>. So a training airplane hits the 50 hours first and a lightly flown private airplane hits the four months first. Quoting both is what makes the answer complete, because an airplane that has flown 20 hours in six months is still out of limits.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Lycoming talks about a 25 hour oil change. Where does that come from?",
+  "a": "From Lycoming Service Bulletin 480, not from this handbook. It sets <b>25 hours</b> with screen cleaning for an engine with a pressure screen system only, against 50 hours where there is a full flow filter, with four months either way. POH 8.19 publishes only the 50 hour and four month figures, so I would offer the 25 hour qualifier as Lycoming's and say it applies if the airplane turns out to have a screen rather than a filter.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What oil does this engine take?",
+  "a": "The handbook deliberately does not freeze a brand. POH 1.9 and the NOTE at the end of 8.19 both refer the pilot to the latest issue of <b>Lycoming Service Instruction 1014</b>, Lubricating Oil Recommendations. What the POH does print is a viscosity table by average ambient temperature, with straight mineral grades under MIL-L-6082B in one column and ashless dispersant grades under MIL-L-22851 in the other.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "It is a cold November morning. What oil grade should be in the engine?",
+  "a": "The relevant row of the POH 8.19 table is 0 to 70 degrees F, which gives SAE <b>30</b> straight mineral, or 30, 40 or 20W-40 ashless dispersant. The all-temperature row allows 15W-50 or 20W-50 ashless dispersant, which is what most operators run year round. If the temperature ranges overlap, the table's own rule is to use the lighter grade oil.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What oil grade covers all temperatures?",
+  "a": "The top row of the POH 8.19 table: <b>15W-50 or 20W-50</b> ashless dispersant under MIL-L-22851. The straight mineral column for that row is a dash, meaning no single grade mineral oil is recommended for all temperatures, which is the whole point of a multigrade. That row is why most Warriors on a flight line are on a 20W-50 all year.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What oil grade does the handbook call for in hot weather?",
+  "a": "From the POH 8.19 table: above 80 degrees F, SAE <b>60</b> in either column; above 60 degrees F, SAE 50 straight mineral or 40 or 50 ashless dispersant; and 30 to 90 degrees F, SAE 40 in both columns. The rule printed with the table is that when operating temperatures overlap the indicated ranges, use the lighter grade oil.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What does the handbook call for below 10 degrees F?",
+  "a": "The bottom row of the POH 8.19 table: SAE <b>20</b> straight mineral under MIL-L-6082B, or 30 or 20W-30 ashless dispersant under MIL-L-22851. In practice the all-temperature multigrade row, 15W-50 or 20W-50, covers that case too. A thinner oil in cold weather is about getting pressure and flow at start, before the engine has warmed.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "The oil tables in Section 1 and Section 8 do not agree. Which one wins?",
+  "a": "They really do differ, and spotting it is worth more than reciting either. Section 1.9 prints a shorter starting-viscosity table with no all-temperature row and gives 20W-30 below 10 degrees F, where <b>8.19</b> gives 30 or 20W-30. Section 8.19 is the servicing table and is the one I would quote, and I would say plainly that the handbook disagrees with itself and that Lycoming SI 1014 is the tie-breaker both sections point to.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What is break-in oil, and does this handbook require it?",
+  "a": "<b>This handbook says nothing about break-in oil.</b> Section 8.19 refers the pilot to Lycoming Service Instruction 1014, and that document calls for non-dispersant mineral oil for the first 50 hours and after cylinder replacement until oil consumption stabilizes, for engines other than the O-320-H and O/LO-360-E series, so it does apply to this D-series engine. I would attribute the requirement to Lycoming, not to the POH.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What does the POH say about the dipstick?",
+  "a": "Very little, and the honest answer says so. POH 4.13, nose section of the walk-around: check the oil level, and <b>make sure that the dipstick has been properly seated</b>. The handbook does not describe the filler neck, the access door or the dipstick markings, so I would not describe a calibrated scale from memory; I would read the stick in the airplane and compare it with the 8 quart capacity and the school minimum.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Describe the crankcase breather on this engine.",
+  "a": "<b>The handbook does not describe one.</b> There is no mention of a crankcase breather or its routing anywhere in VB-1180. A breather does exist on the engine, venting blow-by and keeping crankcase pressure down, with the line routed so that it cannot freeze shut in cold weather, but that is engine manual material. I would say so rather than invent a routing, which is the same answer I would give for the thermostatic bypass.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What is the oil actually doing in the engine?",
+  "a": "<b>Lubrication first</b>, and then cooling, sealing between the rings and the cylinder walls, cleaning by carrying combustion byproducts and metal to the filter, protecting against corrosion, and cushioning the bearings and gears. On this engine the cooling job is substantial because there are no cowl flaps and the oil cooler shares the baffled cylinder air, so high oil temperature in a climb is managed the same way as cylinder temperature.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What is the oil pressure green arc on this airplane?",
+  "a": "POH 2.9: green arc, normal operating range, <b>60 to 90 PSI</b>. That is the band you want in cruise. The gauge also carries two yellow arcs and two red lines, which is unusual and is a favorite examiner question, so it is worth being able to give all six numbers rather than only the green arc.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "How many yellow arcs are on the oil pressure gauge, and what are they?",
+  "a": "<b>Two</b>, which catches people out. POH 2.9: a yellow caution arc at idle from 25 to 60 PSI, and a second yellow arc for ground warm-up from 90 to 100 PSI. So low pressure at idle and high pressure on a cold morning run-up are both expected, caution-range indications rather than failures, as long as they move into the 60 to 90 green band with warm oil at normal power.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What are the red lines on the oil pressure gauge?",
+  "a": "POH 2.7 and 2.9 agree: minimum red line <b>25 PSI</b> and maximum red line 100 PSI. Below 25 PSI the engine is outside its limit and the answer is the loss of oil pressure procedure; above 100 PSI it is also out of limits, which is usually cold, thick oil or a regulating fault. Between them sit the two yellow arcs and the 60 to 90 PSI green arc.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What are the oil temperature markings?",
+  "a": "POH 2.9: green arc, normal operating range, 75 to 245 degrees F, with the red line at <b>245 degrees F</b>. The same 245 degrees F appears in 2.7 as the maximum oil temperature limitation, so the limit and the red line agree. There is no yellow arc on this gauge, so the answer is simply green to 245 and red at 245.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "You get a low oil pressure light in flight. What does it actually tell you?",
+  "a": "That a system may not be operating properly and that I should look at the gauge. POH 7.15 is explicit that the annunciator lights are <b>provided only as a warning</b> that he should check and monitor the applicable system gauge to determine when or if any necessary action is required. So the light sends me to the oil pressure and oil temperature gauges, and what those show decides whether this is a gauge problem or an engine problem.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "You lose oil pressure in flight. What do you do?",
+  "a": "The checklist is two lines, POH 3.3: land as soon as possible and investigate the cause, and prepare for a power-off landing. The amplified text at 3.17 is the part worth knowing: a partial loss usually indicates a malfunction in the oil pressure regulating system; a complete loss may signify oil exhaustion or a faulty gauge, and <b>the engine may stop suddenly</b>. Maintain altitude, and do not change power settings unnecessarily as that may hasten complete power loss.",
+  "dup": "What does low oil pressure with rising oil temperature mean, and what do you do?",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "How do you tell a failed oil pressure gauge from a real loss of oil?",
+  "a": "By what the other indications do. POH 3.17 says a complete loss of indication may signify oil exhaustion or may be the result of a faulty gauge, and that it may be advisable to make an off-airport landing while power is still available, <b>particularly if other indications of actual oil pressure loss, such as sudden increases in temperatures, or oil smoke, are apparent</b>, and an airport is not close. Rising oil temperature or smoke makes it real.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What is the procedure for high oil temperature?",
+  "a": "POH 3.3, again only two lines: <b>land at the nearest airport and investigate the problem</b>, and prepare for a power-off landing. With no cowl flaps the only things that help on the way there are lowering the nose for more cooling airflow, reducing power, and enriching the mixture. If the pressure falls as the temperature rises, treat it as an impending engine failure and plan the landing accordingly.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Where are the oil gauges on the panel?",
+  "a": "POH 7.19: in an <b>engine cluster to the right of the pilot control wheel</b>, which contains a fuel pressure gauge, a right and a left main fuel quantity gauge, an oil temperature gauge and an oil pressure gauge. Four of the gauges you are likely to be asked about are in that one cluster, with the tachometer, ammeter and annunciator panel elsewhere on the panel.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What is the oil arm, and when would you use it?",
+  "a": "TCDS 2A13 gives oil capacity 8 quarts at <b>plus 27.5 inches</b> aft of datum, with 6 quarts usable. It is a weight and balance number for an airplane weighed with the oil drained. The Section 6 loading form in the POH does not list oil separately, because it treats the oil as part of the basic empty weight, so in normal loading I do not enter it at all.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "How much fuel does this airplane hold?",
+  "a": "<b>50 US gallons total, 48 usable</b>, in two 25 gallon wing tanks of which 24 gallons a side is usable. POH 7.13 puts it in one sentence: fuel is stored in two twenty-five gallon tanks giving the airplane a total capacity of fifty U.S. gallons, 48 gallons usable. Sections 1.7 and 2.21 and TCDS 2A13 all agree, and I plan with 48, never 50.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What is the difference between total, usable and unusable fuel here?",
+  "a": "Total is what the tanks hold, <b>50 gallons</b>; usable is what the engine can actually draw in flight, 48 gallons, 24 a side; unusable is the 2 gallons that stays behind. POH 2.21 defines it exactly: the unusable fuel has been determined as 1.0 gallon in each wing in critical flight attitude. The unusable is already excluded from the 48 and is carried in the empty weight, and it never counts toward a reserve.",
+  "dup": "What is the difference between total, usable and unusable fuel?",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Why does the handbook define unusable fuel at the critical flight attitude?",
+  "a": "Because fuel moves. POH 2.21: the unusable fuel has been determined as <b>1.0 gallon in each wing in critical flight attitude</b>, not in level flight. The figure is set in the attitude where the outlet is most likely to be uncovered, so it is a conservative number. It is also why Operating Tip 10.3(i) warns about prolonged slips and skids uncovering the fuel outlet when the tank in use is not full.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What is the indicator tab in the filler neck, and how much fuel is it?",
+  "a": "POH 7.13: each tank is equipped with a filler neck indicator tab to aid in determining fuel remaining when the tanks are not full, and the <b>usable capacity to the bottom of the indicator tab is 17 gallons</b>. So tabs is 17 a side, 34 gallons usable in total. On a weight-limited airplane that is how you fuel for a flight with four seats filled, instead of filling to the caps and leaving people behind.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What are the fuel selector positions?",
+  "a": "<b>Three: left tank, right tank and off.</b> The selector face in Figure 7-7 is placarded L TANK 24 GAL, R TANK 24 GAL and FUEL OFF. The handle is on the left side panel forward of the pilot's seat. The point an examiner is usually driving at is the one that is not there, because this airplane has no BOTH position.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Does this airplane have a BOTH position on the fuel selector?",
+  "a": "<b>No.</b> There are three positions only, left tank, right tank and off, confirmed on the Figure 7-7 selector face which is placarded L TANK 24 GAL, R TANK 24 GAL and FUEL OFF. So fuel management is an active job: run one tank, switch with the electric pump on, keep track of the time on each, and manage the lateral balance yourself.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Why is there no BOTH on a low-wing Piper?",
+  "a": "The handbook gives no rationale, so I would separate the mechanism from my own reasoning. The sourced part is the arrangement: the tanks are in the wings <b>below the engine</b>, so there is no gravity feed and fuel is drawn up by an engine-driven pump with an electric pump as backup. Drawing both tanks through one suction line invites unporting and uneven feeding, so Piper selects one tank at a time and makes the pilot manage balance.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Where is the fuel selector and how do you get it to OFF?",
+  "a": "POH 7.13: the selector is on the left side panel forward of the pilot's seat, and <b>a button on the selector cover must be depressed and held</b> while the handle is moved to the OFF position; the button releases automatically when the handle is moved back to ON. It is a guard against selecting OFF by accident in flight, and it is worth being able to find and work by feel.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What is the auxiliary electric fuel pump for?",
+  "a": "POH 7.13: an auxiliary electric fuel pump is provided <b>in case of the failure of the engine-driven pump</b>. Note what that does not say. It is not the normal supply and it is not a primer; it is a backup that is switched on for the phases where an engine-driven pump failure would be least survivable. The switch is in the switch panel above the throttle quadrant.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "When is the electric fuel pump on?",
+  "a": "The sentence is POH 7.13: <b>the electric pump should be ON for all takeoffs and landings and when switching tanks</b>. It is reinforced three more times in the same book: electric fuel pump on appears on the placarded takeoff checklist and the placarded landing checklist, and again in the Before Takeoff and Landing lists in Section 4. In the climb it comes off at the desired altitude.",
+  "dup": "When do you use the auxiliary or boost fuel pump?",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Why do you turn the electric fuel pump off during the run-up?",
+  "a": "POH 4.19 gives the reason outright: the electric fuel pump should be turned OFF after starting or during warm-up <b>to make sure that the engine driven pump is operating</b>. It is a functional check of the engine-driven pump, which is why the GROUND CHECK list has electric fuel pump OFF followed immediately by fuel pressure check. Prior to takeoff it goes on again to prevent loss of power during takeoff should the engine-driven pump fail.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "When does the electric fuel pump come off after takeoff?",
+  "a": "The Section 4 CLIMB checklist says <b>OFF at desired altitude</b>, not at a fixed height above the ground. The logic is the same as turning it on: it is there so an engine-driven pump failure in a critical phase does not become a power loss, so it stays on until the airplane is somewhere a power loss could be handled. It goes back on for the approach and landing.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Is there a fuel emergency where the electric pump goes off rather than on?",
+  "a": "Yes, and it is the trap. <b>Both engine fire checklists turn the electric fuel pump OFF</b>, with the fuel selector OFF as well: engine fire during start is starter crank, mixture idle cut-off, throttle open, electric fuel pump OFF, fuel selector OFF; engine fire in flight is fuel selector OFF, throttle closed, mixture idle cut-off, electric fuel pump check OFF. Every other fuel emergency turns it on.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Where is the engine-driven fuel pump in the system?",
+  "a": "POH 7.5 lists a fuel pump among the engine-driven accessories, and the Figure 7-9 schematic shows it labeled <b>ENGINE FUEL PUMP</b> in the line between the strainer and the carburetor, with the electric pump upstream of it. In normal operation it is the pump doing the work; the electric pump sits in parallel as the backup, which is why switching the electric one off in the run-up proves the engine-driven one is alive.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Trace the fuel from the tank to the cylinders.",
+  "a": "From Figure 7-9: left or right main tank, then the <b>fuel tank selector valve</b>, then the fuel strainer, then the electric fuel pump, then the engine fuel pump, then the carburetor and on into the induction system. The primer taps off the line between the strainer and the carburetor, the fuel pressure gauge reads at the carburetor, and the quantity gauges read the tanks.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What does the handbook call the gascolator, and where is it?",
+  "a": "It calls it the <b>fuel strainer</b>, and I would use the handbook's word. POH 7.13: a fuel strainer, located on the lower left front of the fire wall, has a drain which is accessible from outside the nose section. Section 8.21 puts the quick drain on the front lower corner of the fire wall, and the walk-around says to open the fuel strainer located on the left side of the fire wall.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "How many fuel screens are there, and how often are they cleaned?",
+  "a": "<b>Three</b>, and that detail scores. POH 8.21: at every 50-hour inspection, the fuel screens in the strainer, in the electric fuel pump, and at the carburetor inlet must be cleaned. Most candidates know only the strainer. The strainer itself is the one the pilot touches, through the quick drain on the front lower corner of the fire wall.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "How many fuel drains does this airplane have, and where are they?",
+  "a": "<b>Three drain points.</b> POH 8.21: each fuel tank is equipped with an individual quick drain located at the lower inboard rear corner of the tank, and the fuel strainer is equipped with a quick drain located on the front lower corner of the fire wall. So that is one per wing tank plus the strainer. I would still count them on the airplane, because the walk-around text uses the plural for the tank sumps.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What is the correct order for draining the fuel system?",
+  "a": "POH 8.21: <b>each of the fuel tank sumps should be drained first, then the fuel strainer should be drained twice, once with the fuel selector valve on each tank</b>. Each time, enough fuel should be allowed to flow to ensure removal of contaminants, collected in a suitable container, examined for contaminants and proper fuel, then discarded. Most candidates drain the strainer once; doing it on each tank selection is the scoring detail.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "When does the handbook require the fuel system to be drained?",
+  "a": "POH 8.21: the fuel system sumps and strainer should be drained <b>daily prior to the first flight and after refueling</b>, to avoid the accumulation of contaminants such as water or sediment and to check for proper fuel. Section 7.13 says the same: the fuel drains should be opened daily prior to first flight, and the strainer should also be drained before the first flight of the day.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Why do you drain fuel samples, and what are you looking for?",
+  "a": "Water, sediment and the wrong fuel. The POH's phrase is contaminants such as water or sediment, and proper fuel, so the sample is checked for the <b>blue color of 100LL</b>, for the smell of avgas rather than kerosene, and for water, which sits as clear beads or a separate layer in the bottom because it is denser than fuel. Water gets in from condensation, rain past a bad cap and from the truck.",
+  "dup": "Why do you drain fuel samples, and what are you looking for?",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What cautions does the handbook attach to draining fuel?",
+  "a": "Three, all in POH 8.21. When draining any amount of fuel, care should be taken to ensure that <b>no fire hazard exists before starting the engine</b>; after draining, each quick drain should be checked to make sure it has closed completely and is not leaking; and fuel additive cannot be used as a substitute for preflight draining of the fuel system drains. The leaking drain is the one that catches people out after a cold morning sample.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Is a fuel anti-icing additive approved on this airplane?",
+  "a": "Yes, with limits. POH 8.21: the additive must meet specification MIL-I-27686 and be uniformly blended with the fuel while refueling, <b>not exceeding .15 percent by volume and not less than .10 percent</b>, which is about one and one half liquid ounces per ten gallons. The CAUTION on the same page is the part to remember: fuel additive cannot be used as a substitute for preflight draining of the fuel system drains.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Tell me about the fuel tank vents.",
+  "a": "The walk-around checks one per wing: POH 4.13 says the fuel tank vent should be clear of obstructions on both the right and the left wing. <b>Section 7 does not describe the vents at all</b>, so I would not invent a type or a location beyond that. The purpose is standard reasoning: the vent keeps the space above the fuel at ambient pressure as fuel is drawn off, so no vacuum can build and starve the engine.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Where are the fuel quantity gauges, and what powers them?",
+  "a": "POH 7.13: the fuel quantity and fuel pressure gauges are mounted in a gauge cluster on the left side of the instrument panel to the right of the control wheel, a right and a left main gauge. They are <b>electrically powered</b>, because 7.15 lists the fuel gauge among the standard electrical accessories. That matters directly to the alternator failure answer: as the battery runs down, the fuel gauges are among the things you lose.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Are the fuel gauges only accurate at empty?",
+  "a": "<b>That claim is not in this handbook.</b> It comes from the certification rule, not from Piper, and the full text of VB-1180 makes no statement about gauge accuracy. What the POH does require is better: at 4.13 it has you open the fuel cap on each wing, visually check the fuel color, and confirm the quantity matches the indication on the gauge. So fuel is planned by known quantity and time, with the gauge as the cross-check.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What is the minimum fuel grade for this airplane?",
+  "a": "POH 2.7: AVGAS ONLY, minimum grade <b>100 or 100LL aviation grade</b>, and the filler placard reads FUEL 100 OR 100LL AVIATION GRADE. Section 8.21 puts it more bluntly: the minimum aviation grade fuel for the PA-28-161 is 100, and since the use of lower grades can cause serious engine damage in a short period of time, the engine warranty is invalidated by the use of lower octanes.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What are the aviation fuel grades and their colors?",
+  "a": "From POH 1.7 and the Section 8 fuel grade comparison chart: current grades are 80 red, <b>100LL blue</b> and 100 green; previous grades were 80/87 red, 91/96 blue, 100/130 green and 115/145 purple. There is a footnote worth knowing: grade 100LL in some overseas countries is colored green and designated 100L. The color check on the preflight is how you catch a misfueling.",
+  "dup": "What are the aviation fuel grades and their colors?",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "You land somewhere with no 100LL. What can you put in it?",
+  "a": "POH 8.21: whenever 100 or 100LL grade fuel is not available, <b>commercial grade 100/130</b> should be used, and the handbook refers to Lycoming Service Instruction 1070. Lower grades are not an option; the same paragraph says their use can cause serious engine damage in a short period and invalidates the engine warranty. If I use the alternate fuel, 4.33 wants 1200 RPM for one minute before shutdown to clean out unburned fuel.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What would happen if this airplane were fueled with jet fuel?",
+  "a": "It would not run on it. The airplane is placarded <b>AVGAS ONLY</b>, minimum grade 100, and jet fuel is kerosene, which is not an approved grade at all. In a spark-ignition engine with an 8.5:1 compression ratio it will not burn properly, giving severe detonation, roughness and power loss, usually shortly after takeoff. The defenses are the placard at the filler, watching the truck, and the handbook's own requirement to open the cap and check the fuel color at every preflight.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What is the difference between fuel starvation and fuel exhaustion?",
+  "a": "Exhaustion is no fuel left on board; starvation is fuel on board that is not reaching the engine, typically the selector on a tank that is dry while the other is full. Starvation is the one with a cure in the air: the first line of the engine power loss checklist is <b>fuel selector switch to a tank containing fuel</b>. POH 3.9 warns that the engine will not restart instantly, because the empty lines have to fill, which may require up to ten seconds.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "How long can this airplane fly on its fuel?",
+  "a": "That has to come from the airplane's own performance section, but the structure of the answer is fixed: start from <b>48 gallons usable</b> rather than the 50 gallon total, take off the regulatory reserve for the kind of flight, and divide what is left by the planned fuel flow at the chosen power setting. The cruise charts in the handbook I have are computed for a heavier airplane, so the fuel flow figures themselves must come from this airplane's own book.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Does slipping this airplane have any fuel implication?",
+  "a": "Yes, and it is in the Warrior's own Operating Tips at 10.3(i): <b>prolonged slips or skids which result in excess of 2000 ft of altitude loss</b>, or other radical or extreme maneuvers which could cause uncovering of the fuel outlet, must be avoided, as fuel flow interruption may occur when the tank being used is not full. That matters directly to steep spirals and to slipping off height on a power-off landing.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What do the fuel pressure markings on the gauge mean?",
+  "a": "POH 2.9: green arc, normal operating range, <b>0.5 to 8 PSI</b>, with the red line minimum at 0.5 PSI and the red line maximum at 8 PSI. Note that the minimum is half a PSI, not 5; the OCR of the handbook mangles it but the printed page reads .5. Those same two figures appear as power plant limitations in 2.7.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "You lose fuel pressure in flight. What is the drill?",
+  "a": "The checklist is two lines, POH 3.3: <b>electric fuel pump ON</b>, and fuel selector check on a full tank. That is the whole published procedure, and it makes sense because the two likely causes are an engine-driven pump failure, which the electric pump covers, and a selector on a tank that has run dry. If pressure and power do not come back, the next step is the engine power loss checklist and a power-off landing.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "The engine coughs and the fuel pressure stays normal. What does that suggest?",
+  "a": "Water. POH 3.11 makes the point directly: if power loss is due to water, <b>fuel pressure indications will be normal</b>, because the pump is delivering liquid, just not fuel. The handbook's advice is to allow the engine to windmill, and if the engine does not restart after a reasonable time, to try switching tanks. It is also the argument for draining the sumps and the strainer properly before the first flight of the day.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Which fuel filler placard belongs on this airplane?",
+  "a": "The plain one: <b>FUEL - 100 OR 100LL AVIATION GRADE</b>. The handbook prints a second, graphic AVGAS ONLY placard with GRADE 100LL and GRADE 100, but Section 2.25 restricts that version to serial numbers 28-8316037 and up. This airplane is 28-8116257, well below that, so it gets the first one. The handbook does the serial reasoning for you there, which is a cheap way to show you understand applicability.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Describe this airplane's electrical system in one sentence.",
+  "a": "POH 7.15: the electrical system includes a <b>14-volt, 60-amp alternator</b>, a 12-volt battery, a voltage regulator, an overvoltage relay and a master switch relay. The distinction an examiner may probe is in that sentence: it is a 14 volt charging system supplying a 12 volt battery, because the charging voltage has to sit above the battery's resting voltage for current to flow into it.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What is the alternator rated at, and how is it driven?",
+  "a": "<b>60 amps at 14 volts</b>, given in two places, POH 7.15 and 7.5. The handbook never states the drive in 7.5 or 7.15, but the walk-around at 4.13 says to check the alternator belt for proper tension in the nose section, so it is belt driven off the engine. The advantage over a generator worth stating is that an alternator gives useful output at low engine RPM, including on the ground at idle.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Where is the battery on this airplane?",
+  "a": "On this serial it is <b>aft of the main spar</b>, not on the firewall. VB-880, the handbook that applies to serials 28-7716001 through 28-8216300, says the battery is mounted in a thermoplastic box immediately aft of the main spar. The widely circulated VB-1180 handbook puts it on the forward right face of the fire wall, because Piper moved it between the serial blocks. I would open the airplane and look before answering in the oral.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Why does it matter where the battery is?",
+  "a": "Because the consequences differ. <b>Aft of the main spar</b> it is a weight and balance item behind the center of gravity, under the rear seat area, and it is not reachable in flight; on the firewall it is in the engine compartment under the right cowl, where the servicing instructions in 8.25 about raising the upper right cowl would apply. The online handbook for this model gives the firewall answer, and for this serial that is the wrong one.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What is the battery's capacity in amp hours?",
+  "a": "<b>The handbook does not give one.</b> VB-1180 prints the voltage only, 12 volts, and no amp-hour rating appears anywhere in it, so I would read the battery label or the equipment list rather than quote a figure. Warriors fly with both 25 and 35 amp hour batteries in service. The same gap means the handbook publishes no battery endurance after an alternator failure either.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What type of battery is it, and how is it serviced?",
+  "a": "The handbook never names the chemistry, but 8.25 describes servicing that only fits a <b>flooded lead-acid</b> cell: the battery should be checked for proper fluid level, do not fill above the baffle plates, do not fill with acid, use only water, and a hydrometer check will determine the percent of charge. A sealed battery may have been fitted since, so that is something to confirm on the airplane.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "How is the battery recharged, per the handbook?",
+  "a": "POH 8.25: if the battery is not up to charge, recharge <b>starting at a 4 amp rate and finishing with a 2 amp rate</b>, and quick charges are not recommended. The same section says the battery box has a drain tube, normally closed off with a cap, which should be opened occasionally to drain off any accumulation of liquid, although that description belongs to the firewall installation.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Is the master switch a single switch?",
+  "a": "No, it is <b>split into BAT and ALT halves</b>. The handbook does not describe the switch itself, but the Section 3 procedures operate the halves independently and in opposition, which only a split switch allows. Some airframes have the ALT half mechanically interlocked with the BAT half, so it is worth trying to move ALT alone on the ground to see which this one is.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Justify the split master switch from the handbook alone.",
+  "a": "From the two Section 3 procedures. ELECTRICAL FAILURES turns the <b>ALT switch OFF while the battery stays on</b>, sheds load, checks and resets the ALT breaker and then puts ALT back on. ELECTRICAL OVERLOAD does the opposite, ALT switch ON and BATT switch OFF, to shed a runaway regulator while keeping the alternator feeding the airplane. You cannot fly either checklist with a single-pole master, so the book justifies the switch.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What does the ammeter in this airplane tell you?",
+  "a": "POH 7.15, in its own words: <b>unlike previous generator systems, the ammeter as installed does not show battery discharge; rather, it indicates the electrical load on the alternator in amperes</b>. It is a loadmeter. If I answered that it shows whether the battery is charging or discharging, I would have described a different airplane, and everything else I said about the electrical system would get re-examined.",
+  "dup": "What is the ammeter or loadmeter telling you?",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "So the ammeter never shows a discharge?",
+  "a": "<b>Correct, it reads load, not charge or discharge.</b> POH 7.15 says the ammeter as installed does not show battery discharge; it indicates the electrical load on the alternator in amperes. There is no negative side to the scale to swing into. That is exactly why alternator failure shows as a zero reading rather than a discharge, which is the indication the Section 3 checklist tells you to look for.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What should the ammeter read on a normal night flight?",
+  "a": "POH 7.15 gives the example: the average continuous load for night flight with radios on is about <b>30 amperes</b>, and this 30 ampere value plus approximately 2 amperes for a fully charged battery will appear continuously under these flight conditions. So a steady reading in the low thirties on a night flight is the system working, not a problem, and on a 60 amp alternator that is comfortable.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What does the ammeter read with everything off and the master on?",
+  "a": "POH 7.15: with all the electrical equipment off and the master switch on, the ammeter will indicate <b>the charging rate of the battery</b>, and as each electrical unit is switched on it will indicate the total ampere draw of all the units including the battery. So the needle climbs as you add load, and with a fully charged battery and nothing on it sits at only a couple of amperes.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "How do you confirm from the ammeter that the alternator is working?",
+  "a": "By comparing the needle with what you have switched on. POH 7.15: the amount of current shown on the ammeter will tell immediately if the alternator system is operating normally, as <b>the amount of current shown should equal the total amperage drawn by the electrical equipment which is operating</b>. If I switch on the landing light and the pitot heat and the reading does not move, the alternator is not carrying the load.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What does a zero reading on the ammeter mean?",
+  "a": "Alternator failure. POH 3.23 says it flatly: <b>loss of alternator output is detected through zero reading on the ammeter</b>, and the Section 3 checklist is written as if ammeter shows zero. That indication is itself proof the gauge is a loadmeter, because a center-zero charge and discharge ammeter would swing to discharge instead. Everything on the airplane is then running off the battery alone.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "The handbook calls the same instrument three things. What are they?",
+  "a": "<b>Ammeter</b> in Section 7.15 and in the Section 3 procedures, volt-ammeter in the 2.19 Day VFR required equipment list, and alternator gauge on the Figure 7-15 instrument panel layout. They are the same gauge. The one to keep in mind for a legality question is the required equipment list, because a volt-ammeter is one of the twelve items the handbook requires for day VFR in this airplane.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Where are the voltage regulator and overvoltage relay?",
+  "a": "POH 7.15: the regulator and overvoltage relay are located on the <b>forward left side of the fuselage behind the instrument panel</b>. The regulator holds system voltage steady as engine speed and load change, and the overvoltage relay takes the alternator off line if the regulator runs away, which protects the radios and the battery from an overvoltage condition.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What is the overvoltage relay, and can you reset it in flight?",
+  "a": "It takes the alternator off line if the regulator fails high, and yes, cycling the ALT switch is the reset. POH 3.23: if the alternator failure was caused by a momentary overvoltage condition, <b>16.5 volts and up</b>, that procedure should return the system to normal. That is why the ELECTRICAL FAILURES checklist turns the ALT switch off, sheds load, checks the breaker and then turns ALT back on before giving up on it.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What lights are on the annunciator panel?",
+  "a": "POH 7.15: the annunciator panel includes <b>alternator and low oil pressure</b> indicator lights, and when the optional gyro system is installed it also includes a low vacuum indicator light. So three at most, and the third depends on whether this airplane has the vacuum system. Section 7.19 confirms the panel warns of a possible malfunction in the alternator, oil pressure or vacuum systems.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What does an annunciator light actually tell you?",
+  "a": "Less than people think, and the handbook says so. POH 7.15: the annunciator panel lights are <b>provided only as a warning to the pilot that a system may not be operating properly</b>, and that he should check and monitor the applicable system gauge to determine when or if any necessary action is required. The light is a prompt to look at a gauge, not a diagnosis, and that is exactly how the Section 3 checklists are written.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "The ALT light comes on in cruise with everything switched off. What now?",
+  "a": "Add a little load and watch. POH 7.15, repeated as the first NOTE of the Section 3 ELECTRICAL FAILURES checklist: when operating with light electrical load and a fully charged battery, the Alternator Inop. light may illuminate due to minimal alternator output, and <b>if the alternator is functional a slight increase in electrical load should extinguish the Inop. indication</b>. If it stays on, I check the ammeter for zero and run the checklist.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "How do you check the annunciator panel?",
+  "a": "With the <b>press-to-test button</b>. It is on the Section 4 GROUND CHECK list as annunciator panel press-to-test, and 4.19 repeats it: check the annunciator panel lights with the press-to-test button. The lights are also checked on the cockpit preflight with the master on, where the walk-around has you confirm the panel illuminates before turning the master off again.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What is on the standard electrical accessory list?",
+  "a": "POH 7.15: <b>starter, electric fuel pump, stall warning indicator, cigar lighter, fuel gauge, ammeter and annunciator panel</b>. That list is the direct answer to what you lose when the electrical system fails, and the two items on it that catch people out are the stall warning horn and the fuel quantity gauges. Just as important is what is not on the list, because the ignition is not.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What is on the optional electrical accessory list?",
+  "a": "POH 7.15: <b>navigation lights, wing tip recognition lights, anti-collision light, landing light, instrument lighting and cabin dome light</b>, with the note that the circuits will handle the addition of communications and navigational equipment. Lighting being optional in the certification sense does not make it optional for a night flight, where 2.19 requires position lights, instrument lights and anti-collision lights.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Does this airplane use fuses or circuit breakers, and where are they?",
+  "a": "<b>Circuit breakers</b>, on the lower right instrument panel, per POH 7.15 and Figure 7-13; no fuses are described anywhere in the handbook. Section 7.19 adds that the radios and the circuit breakers are on the upper and lower right panel respectively. The handbook's own airmanship on them is Operating Tip 10.3(d): before attempting to reset any circuit breaker, allow a two to five minute cooling off period.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "A circuit breaker pops in flight. What do you do?",
+  "a": "Decide first whether I need that circuit. If it is not needed, I leave it alone. If it is, Operating Tip 10.3(d) is the handbook's rule: before attempting to reset any circuit breaker, allow a <b>two to five minute cooling off period</b>. Then one reset only, and if it pops again I leave it out, because a breaker that trips twice is telling me there is a fault, and resetting into a fault is how an electrical fire starts.",
+  "dup": "How do you handle a circuit breaker that has popped?",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Is there an avionics bus on this airplane?",
+  "a": "POH 7.19 describes one. An optional radio master switch near the top of the instrument panel between the radio stacks controls power to all radios through the aircraft master switch, and <b>an emergency bus switch</b> supplies auxiliary power to the avionics bus in the event of a radio master switch circuit failure. That switch is behind the lower right shin guard, left of the circuit breaker panel, and the radio master is optional, so I would confirm what is actually fitted.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Does this airplane have an external power receptacle?",
+  "a": "Piper External Power is listed as <b>optional</b> in POH 7.33, through a receptacle on the right side of the fuselage forward of the wing, which lets an external battery crank the engine without getting at the airplane's own battery. The Section 4 procedure is master off and all electrical equipment off, connect the terminals, insert the plug, start normally, disconnect the plug, then master switch on and check the ammeter.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "The ALT light is on and the ammeter reads zero. Give me the checklist in order.",
+  "a": "POH 3.3 ELECTRICAL FAILURES: ammeter check to verify the alternator is inoperative; if the ammeter shows zero, <b>ALT switch OFF; reduce electrical loads to minimum</b>; ALT circuit breaker check and reset as required; ALT switch ON. If power is not restored, ALT switch OFF, reduce electrical loads and land as soon as practical, because the battery is the only remaining source of electrical power. Note that load shedding comes before the breaker reset.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What is the amplified reasoning behind the alternator failure checklist?",
+  "a": "POH 3.23: loss of alternator output is detected through zero reading on the ammeter; if no increase in the ammeter reading is noted, alternator failure can be confirmed; check the alternator circuit breakers for a popped circuit; then attempt to reset the overvoltage relay, which cures a momentary overvoltage condition of <b>16.5 volts and up</b>. If the ammeter continues to indicate zero, or the alternator will not remain reset, turn the alternator off, keep the load to a minimum and land as soon as practical.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "After an alternator failure, what keeps working?",
+  "a": "<b>The engine</b>, because the magnetos are self-exciting and need no electrical power; the vacuum gyros, because 7.17 makes the vacuum pump engine driven; the flaps, because 7.9 makes them manual, a cable and a handle; and the brakes, which are hydraulic through the toe pedals and the hand lever. None of those four depends on the battery, which is why this failure is a workload problem rather than an emergency.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "After an alternator failure, what do you lose as the battery runs down?",
+  "a": "Everything on the standard electrical list and the options: the electric fuel pump, the <b>stall warning horn</b>, the fuel quantity gauges, the ammeter, the annunciator panel, the cigar lighter, all the lighting, the radios and transponder, and the turn indicator, which 7.19 says is the electrically operated one. The stall warning is the one candidates forget, and 4.37 states it: the stall warning system is inoperative with the master switch OFF.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "How long will the battery last after an alternator failure?",
+  "a": "<b>The handbook publishes no figure</b>, and I would not invent minutes. No amp-hour rating appears anywhere in it either, so there is nothing to divide. The useful answer is the procedure: reduce electrical loads to a minimum, keep what I need for the approach, and land as soon as practical, treating whatever is left as a reserve of unknown size rather than planning a leg on it.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What is an electrical overload, and how would you recognize it?",
+  "a": "POH 3.24 defines it in its own heading: alternator output <b>more than 20 amps above the known electrical load</b>. So it is recognized on the ammeter, by the needle reading far more current than the equipment switched on can account for, which points at a regulator failing high and driving current into the battery. It is the one case where you fly with the alternator on and the battery off.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Give me the electrical overload checklist.",
+  "a": "POH 3.3: <b>ALT switch ON, BATT switch OFF</b>. If alternator loads are reduced, reduce the electrical load to minimum and land as soon as practical, with the NOTE that due to increased system voltage and radio frequency noise, operation with ALT on and BATT off should be made only when required by an electrical system failure. If loads are not reduced, ALT switch OFF, BATT as required, land as soon as possible and anticipate complete electrical failure.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Why are there two different urgencies in the overload procedure?",
+  "a": "Because the two outcomes are different problems. If turning the battery off reduces the alternator loads, the airplane is stable on alternator power and the handbook says land <b>as soon as practical</b>. If the loads do not reduce, the fault is not the battery and the handbook says land as soon as possible and anticipate complete electrical failure. Being able to explain why the wording changes is better than reciting the steps.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "You have an electrical fire in flight. What happens to the airplane when you do the drill?",
+  "a": "The drill is POH 3.3: <b>master switch OFF</b>, vents open, cabin heat off, land as soon as practical. On this airplane that means losing the electric fuel pump, the stall warning horn, the fuel gauges, the ammeter, the annunciator and the radios, while the engine keeps running on the magnetos and the vacuum gyros keep running off the engine-driven pump. Cabin heat goes off because its air comes off the muffler shroud.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What does the strobe light placard say, and why?",
+  "a": "The placard in full view of the pilot reads: <b>WARNING - TURN OFF STROBE LIGHTS WHEN IN CLOSE PROXIMITY TO GROUND OR DURING FLIGHT THROUGH CLOUD, FOG OR HAZE</b>. The same warning appears in 7.15 and in Operating Tip 10.3(f). The reason is disorientation: the strobes reflect off cloud or fog and off the ground on the taxiway and can be blinding to the pilot and to others.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What switches should be off before you engage the starter, and why?",
+  "a": "Operating Tip 10.3(e): check the <b>radio, light and pitot heat switches off</b> before engaging the starter, so as not to create an overloaded condition when the starter is engaged. The starter is the biggest single draw on the airplane, so everything else comes off first; it is also why the external power procedure has you start with the master and all electrical equipment off.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Describe this airplane in the handbook's own words.",
+  "a": "POH 7.1: the Warrior II is a <b>single-engine, fixed gear monoplane of all metal construction with low semi-tapered wings</b>; it has four place seating and a baggage capacity of two hundred pounds. That one sentence answers a surprising number of questions, including why there is no gear emergency procedure anywhere in Section 3.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What airfoil does the wing use, and how is the wing attached?",
+  "a": "POH 7.3: a <b>NACA 652415 laminar flow</b>, semi-tapered airfoil. The cantilever wings are attached to each side of the fuselage by inserting the butt ends of the main spars into a spar box carry-through located under the rear seat, which in effect gives a continuous main spar, plus an auxiliary front spar and a rear spar. The rear spar takes torque and drag loads and mounts the flaps and ailerons.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What is a stabilator, and what is the tab on its trailing edge?",
+  "a": "A stabilator is a one-piece, all-moving horizontal tail: the whole surface pivots rather than a hinged elevator on a fixed stabilizer. POH 7.3 describes the tab in its own words: <b>the stabilator incorporates an anti-servo tab which improves longitudinal stability and provides longitudinal trim; this tab moves in the same direction as the stabilator, but with increased travel</b>.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Why does a stabilator need an anti-servo tab?",
+  "a": "Because an all-moving surface is aerodynamically over-sensitive: the whole tail generates the force, so very little stick force is needed and the pilot can easily overcontrol it. The anti-servo tab deflects <b>the same way as the stabilator but with increased travel</b>, which pushes back against the pilot and raises the control force as deflection increases. POH 7.3 says it improves longitudinal stability and provides longitudinal trim.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "How does an anti-servo tab differ from a servo or balance tab?",
+  "a": "By which way it moves. A servo or balance tab deflects <b>opposite</b> to the surface to help the pilot move it and lighten the controls; an anti-servo tab deflects the same way as the surface, so it opposes the movement and increases the force the pilot feels. POH 7.3 states the same-direction movement explicitly, with increased travel, which is the half of the answer most candidates miss.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "How could you demonstrate the anti-servo tab on the walk-around?",
+  "a": "By moving the stabilator by hand and watching the tab. Push the stabilator trailing edge down and the tab goes <b>down with it</b>, not up, which is the whole distinction from a balance tab. The same check confirms the surface is free and that the tab linkage is connected, and 7.9 adds the handbook's other point about it: the tab serves the dual function of providing trim control and pitch control forces.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "How is pitch trim arranged on this airplane?",
+  "a": "Through the same anti-servo tab. POH 7.9: a <b>trim control wheel on the control console between the front seats</b>, where forward rotation gives nose down trim and aft rotation gives nose up trim. There is no separate trim tab, so the one surface both trims the airplane and supplies the pitch control forces, which is the dual function the handbook describes.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What kind of flaps does this airplane have?",
+  "a": "POH 7.9: <b>manually controlled</b> flaps, extended by a control cable from a handle between the two front seats, balanced and spring loaded to return to the retracted position. Section 7.3 calls them four-position wing flaps. Because they are mechanical rather than electric, they are one of the systems you keep after an electrical failure, and because they are spring loaded you feel the airplane want them back up.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What flap settings are available, and how do you select them?",
+  "a": "POH 7.9: the handle is pulled up to the desired flap setting of <b>10, 25 or 40 degrees</b>, with retracted making the fourth position. To retract, depress the button on the end of the handle and lower the control. Section 4 refers to 25 degrees as the second notch, which is the setting used for a short field takeoff over an obstacle and for both soft field takeoffs.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What happens to pitch when you move the flaps?",
+  "a": "POH 7.9: when extending or retracting flaps there is a <b>pitch change</b> in the airplane, and this pitch change can be corrected either by stabilator trim or by increased control wheel force. The handbook does not say which way, so I would fly it and trim it rather than recite a direction. It is also why the takeoff and landing checklists both have flaps set before the critical phase, not during it.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Why does Piper warn you about standing on the flap?",
+  "a": "Because only one of them is a step and only in one position. POH 7.9: when the flaps are retracted the <b>right flap, provided with an over-center lock mechanism, acts as a step</b>, and the NOTE adds that the right flap will support a load only in the fully retracted position. The warning is repeated five times in the handbook, in 7.9, 4.33, 4.35, the preflight caution and Operating Tip 10.3(c), which tells you how often it was ignored.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Describe the landing gear.",
+  "a": "POH 7.7: <b>fixed tricycle gear</b> with three air-oil struts, Cleveland 5.00 by 5 nose wheel and 6.00 by 6 main wheels, with four-ply tires of the same sizes. Normal static load extension is 3.25 inches on the nose strut and 4.50 inches on each main, and the walk-around gives both a plus or minus .25 inch tolerance. A shimmy dampener is included in the nose gear.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What are the tire pressures?",
+  "a": "POH 8.23: <b>30 psi for the nose gear and 24 psi for the main gear</b>. Section 7.7 gives the same two figures but qualifies them at gross weight. Section 8.23 adds that the wheels and tires are balanced before original installation and the relationship of tire, tube and wheel should be kept on reinstallation, and that unbalanced wheels can cause extreme vibration in the landing gear.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "How is this airplane steered on the ground?",
+  "a": "Through the nose wheel and the brakes. POH 7.7: the nose gear is steerable through a <b>30 degree arc each side of center</b> using the rudder pedals and brakes, with a bungee in the mechanism to reduce steering effort and damp bumps; later aircraft have the bungee removed and are steerable through a 20 degree arc each side. The handbook never defines later aircraft, so for a 1981 airplane I would give both and say I would confirm which this one is.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Describe the brake system.",
+  "a": "POH 7.7: <b>Cleveland single disc hydraulic brakes on the main gear only</b>, with no brake on the nose wheel. They are actuated either by toe brake pedals attached to the rudder pedals or by a hand lever and master cylinder located below and behind the center of the instrument sub panel, with hydraulic cylinders above each pedal and next to the hand lever. The fluid reservoir is on the top left front face of the fire wall.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "How does the parking brake work?",
+  "a": "POH 7.7: it is incorporated in the master cylinder, and it is set by <b>pulling back on the brake lever and depressing the knob attached to the left side of the handle</b>. To release it, pull back on the brake lever to disengage the catch mechanism and let the handle swing forward. Because it works through the same master cylinder as the hand brake, a leak that loses the brakes loses the parking brake too.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "How much warning does the stall warning give, and what powers it?",
+  "a": "POH 7.29 and 4.37: the indicator activates at <b>between five and ten knots above stall speed</b>, and the NOTE at 4.37 says the stall warning system is inoperative with the master switch OFF, because it is an electrical accessory. So in an electrical fire with the master off, or late in an alternator failure, the horn is gone and the only stall warning left is the airplane itself.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "How do you check the stall warning on the preflight?",
+  "a": "POH 4.13 and 4.37: turn the <b>master switch ON</b>, lift the detector and check that the horn sounds, then turn the master back off. That is the check the handbook gives. What it does not give is the mechanism, or which wing the detector is on; the lift detector on the left wing leading edge comes from the Piper maintenance manual rather than from this handbook, so I would attribute it rather than claim it as a POH fact.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Describe the pitot-static system on this airplane.",
+  "a": "POH 7.21: <b>pitot and static pressure are both picked up by a pitot head installed on the bottom of the left wing</b>, and carried through pitot and static lines within the wing and fuselage to the gauges on the instrument panel. That is the detail people miss: there are no fuselage static ports at all. The system supplies the airspeed indicator, the altimeter and the optional vertical speed indicator.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Where are the static ports on this airplane?",
+  "a": "There are none on the fuselage. POH 7.21 is explicit that pitot and static pressure are picked up by a <b>single pitot head on the bottom of the left wing</b>, so the static source is part of that combined head. The walk-around says to remove the cover from the pitot/static head on the underside of the wing and make sure the holes are open and clear. The static wicks on the wings are nothing to do with it.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What are the static wicks for?",
+  "a": "They are <b>precipitation static dischargers</b>, there to bleed off static charge the airframe picks up in cloud and rain so it does not interfere with the radios. The walk-around checks them on both wings for firm attachment and good condition. They have nothing to do with the static system, which is an easy trap on this airplane precisely because it has no fuselage static ports to point at.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Does this airplane have an alternate static source?",
+  "a": "It is <b>optional</b>. POH 7.21: an alternate static source is available as optional equipment, with the control valve located below the left side of the instrument panel. So the honest answer is that I would look under the left side of the panel in this airplane and confirm. If there is none, the fallback for a blocked static source is to break the glass of the vertical speed indicator, accepting the reversed VSI.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "If the alternate static source is fitted, how do you use it?",
+  "a": "POH 7.21: with the valve in the alternate position the altimeter, vertical speed indicator and airspeed indicator use cabin air for static pressure. The conditions are the scoring detail: the <b>storm window and cabin vents must be closed and the cabin heater and defroster must be on</b> during alternate static source operation, and the altimeter error is less than 50 feet unless otherwise placarded.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Does this airplane have pitot heat?",
+  "a": "POH 7.21 lists a heated pitot head as <b>optional</b> equipment, which alleviates problems with icing and heavy rain, with the switch on the electrical switch panel to the left of the right control wheel. It is a substantial electrical load, so it is one of the first things to shed after an alternator failure, and Operating Tip 10.3(e) wants it off before engaging the starter.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Does this airplane have a vacuum system?",
+  "a": "Section 7.17 is footnoted as <b>optional equipment</b>, and 7.19 lists the attitude gyro, directional gyro and suction gauge as panel options, so it has to be confirmed on this airplane. If it is there, 7.17 describes it: an engine driven vacuum pump, a vacuum regulator, a filter and the necessary plumbing. For IFR it is not optional at all, because POH 2.19 lists a vacuum pump and gyro suction indicator as day IFR equipment.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What does the vacuum system drive, and what is driven electrically?",
+  "a": "POH 7.17 and 7.19: the <b>attitude gyro and directional gyro are vacuum operated</b> through a vacuum pump installed on the engine, while the turn and slip indicator is electrically operated. The split is deliberate: a single failure, vacuum or electrical, cannot take all the gyros, so there is always a surviving source of attitude or heading information to fly on.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What kind of vacuum pump is it, and what protects it?",
+  "a": "POH 7.17: the vacuum pump is a <b>dry-type pump</b>, and a shear drive protects the pump from damage, so if the drive shears the gyros become inoperative. It is engine driven, which is the point for the oral: the gyros keep turning through an alternator failure or a master-off electrical fire, because the engine, not the battery, is driving them.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What should the suction gauge read, and when?",
+  "a": "POH 7.17: the regulator is set so the normal vacuum reads <b>4.8 to 5.1 inches of mercury</b>, which provides sufficient vacuum to operate all the gyros at their rated RPM. The ground check reads it at 2000 RPM and gives the same range. Note it is 5.1, not 5.2; three places in the handbook agree on 5.1, and the regulator that sets it is behind the instrument panel.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What does a gradual fall in vacuum mean, and what does zero mean?",
+  "a": "POH 7.17 gives the complete diagnosis. A decrease in pressure in a system that has been constant may indicate a <b>dirty filter, dirty screens, possibly a sticky vacuum regulator or a leak</b> in the system; zero pressure would indicate a sheared pump drive, a defective pump, possibly a defective gauge or a collapsed line. In either case the handbook wants a mechanic to check the system before further damage or failure.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Your suction is low in slow flight on the checkride. Is that a failure?",
+  "a": "Probably not. POH 7.17 says it outright: vacuum pressure, even though set correctly, can read lower at <b>very high altitude above 12,000 feet and at low engine RPM</b>, usually on approach or during training maneuvers, and this is normal and should not be considered a malfunction. So a low reading during slow flight or an approach is expected, and I would reassess it at cruise RPM before calling it a failure.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Where does cabin heat come from?",
+  "a": "POH 7.23: heat for the cabin interior and the defroster system is provided by a <b>shroud attached to the muffler</b>, and 7.5 adds that the dual mufflers with heater shrouds supply heated air for the cabin, the defroster and the carburetor deicing system. So all the warm air on this airplane is air that has been passed over the exhaust, which is exactly why a cracked muffler is a carbon monoxide problem.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Why is a cracked exhaust muffler dangerous in this airplane?",
+  "a": "Because cabin heat, defrost and carburetor heat all come off <b>shrouds on the muffler</b>, so a crack in the exhaust lets carbon monoxide into the air that is blown at the pilot. Carbon monoxide is colorless and odorless and shows as headache, drowsiness and poor judgment. The handbook's response to smoke or fumes in the cabin is in the Section 3 fire procedures: vents open, cabin heat off, and land.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Tell me about the seats and the restraints.",
+  "a": "POH 7.25: the front seats are adjustable fore and aft and the right front seat tilts forward for access to the rear, with optional headrests and vertical adjustment. <b>Shoulder harnesses with inertia reels are provided for each front seat occupant</b>, and for the rear seats as standard or optional depending on the model year, which is a live question for a 1981 airplane. The Day VFR equipment list requires a safety restraint for each occupant.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "How many cabin doors does this airplane have, and where?",
+  "a": "<b>One</b>, on the right side. POH 7.3: on the right side of the airplane is a cabin door for entrance and exit, plus a baggage door aft of the rear seat. That single door is worth thinking about for emergency egress and briefing passengers, and it is why the open door procedure in Section 3 matters more here than on an airplane with a door each side.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "A door pops open after takeoff. What do you do?",
+  "a": "Treat it as a nuisance, not an emergency. POH 3.27: the cabin door is double latched, a partially open door will not affect normal flight characteristics, and <b>a normal landing can be made with the door open</b>. To close it in flight, slow to 89 KIAS, close the cabin vents and open the storm window; if the top latch is open, latch it; if the side latch is open, pull on the arm rest while moving the latch handle. If both are open, side latch first, then top.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Tell me about the baggage compartment.",
+  "a": "POH 7.27: a <b>24 cubic foot</b> baggage area behind the rear seat, with a maximum capacity of 200 pounds and an arm of 142.8 inches aft of datum, accessible from the cabin or through a large 20 by 22 inch outside baggage door. Tie-down straps are available and the handbook says they should be used at all times, with the NOTE that it is the pilot's responsibility to be sure the center of gravity falls within the allowable range.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "There is a known typographical error in this handbook. Can you find it?",
+  "a": "Yes. Section 1.15 BAGGAGE SPACE prints <b>Maximum Ramp Weight (lbs) 22 and Maximum Landing Weight (lbs) 20</b>, which are plainly wrong. Those two labels have been copied from 1.11 by mistake; 22 and 20 are the baggage door dimensions, as 7.27 confirms with a large 20 by 22 inch outside baggage door. Knowing that the handbook has an error in it is better evidence of reading it than reciting ten correct numbers.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What instruments are listed as options on this panel?",
+  "a": "POH 7.19: a <b>suction gauge, vertical speed indicator, attitude gyro, directional gyro, clock, tru-speed indicator and a turn and slip indicator or turn coordinator</b>. Which of those are actually in this airplane has to come from the airplane and its equipment list, and it matters for a kinds-of-operation question, because the vacuum pump and gyro suction indicator are required for day IFR.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Does this airplane have an emergency locator transmitter?",
+  "a": "POH 7.35 lists it as <b>optional</b>, in the aft portion of the fuselage just below the stabilator leading edge, reached through a plate on the right side held by slotted-head nylon screws. There is a three-position ON, OFF and ARM switch on the unit, normally at ARM, and a pilot remote switch on the left side panel. The handbook documents two different NARCO units, so which one is fitted here is something to confirm.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Is there a carburetor ice detection system on this airplane?",
+  "a": "POH 7.39 describes one as <b>optional</b>: a control box on the instrument panel, a probe sensor mounted in the carburetor, and a red warning light to indicate the presence of ice. Its own WARNING is the part to quote: this instrument is approved as optional equipment only and flight operations should not be predicated on its use. If ice is present, the instruction is still to apply full carburetor heat.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Is there a gear-up landing procedure in this handbook?",
+  "a": "No, and there cannot be one, because the gear is <b>fixed</b>: POH 7.1 calls it a single-engine, fixed gear monoplane and 7.7 refers to the fixed-gear PA-28-161. Section 3 contains no landing gear emergency of any kind. The forced landing procedure is POWER OFF LANDING, and I would say that confidently rather than improvising a gear emergency for an airplane that cannot have one.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Is there a ditching procedure?",
+  "a": "No. Section 3 of this handbook contains engine fire during start, engine power loss during takeoff, engine power loss in flight, power off landing, fire in flight, loss of oil pressure, loss of fuel pressure, high oil temperature, electrical failures, electrical overload, spin recovery, open door, engine roughness and carburetor icing. <b>There is no ditching procedure</b>, so a water landing would be flown as a power off landing with the belts tight.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Which handbook actually applies to this airplane?",
+  "a": "Piper Report <b>VB-880</b>. This airplane is serial 28-8116257, which falls in TCDS 2A13 item XVI-A, serials 28-7716001 through 28-8216300, and that block is covered by VB-880. The handbook circulating online for the Warrior II is VB-1180, which covers serials 28-8316001 and up. It is the right model but the wrong revision, so the systems carry across and the weights and the speeds that depend on weight do not.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What is the maximum takeoff weight of this airplane?",
+  "a": "<b>2325 pounds</b> in the normal category and 2020 pounds in utility, from FAA TCDS 2A13 item XVI-A, the item whose serial range contains 28-8116257. The widely circulated Warrior II handbook prints 2440 pounds, but that is the later serial block from 28-8316001 up and it is not this airplane. I would confirm it against Section 2 of the book actually in the airplane.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Someone hands you a Warrior II POH that says 2440 pounds. What do you say?",
+  "a": "That it is the right model and the wrong serial block. <b>2440 pounds belongs to serials 28-8316001 and up</b>, covered by report VB-1180; this airplane is 28-8116257 and TCDS 2A13 item XVI-A gives 2325 pounds normal. Everything that scales with weight goes with it: maneuvering speed, the stall speeds behind the airspeed indicator arcs, the climb and approach speeds, and all of Section 5.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What is the maximum ramp weight of this airplane?",
+  "a": "<b>I would take that from Section 2 of the airplane's own handbook</b>, because it is not published anywhere I can verify. The TCDS gives no ramp weight, and the 2447 pounds in the later handbook is simply that book's 2440 pound gross plus the 7 pound start, taxi and run-up fuel allowance. I could do the same arithmetic on 2325 pounds, but the answer would be my arithmetic rather than a published limit.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Is the maximum landing weight the same as the takeoff weight?",
+  "a": "On the later serials it is: that handbook prints the same figure for both, so there is no reduced landing weight on this type. For this airplane the likely answer is that <b>takeoff and landing weight are both 2325 pounds</b>, but applying that convention to a different serial block is an assumption, so I would confirm it in Section 2 of this airplane's own handbook rather than state it flatly.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What is maneuvering speed on this airplane?",
+  "a": "<b>It has to come from this airplane's own handbook</b>, because maneuvering speed is quoted at a gross weight and this airplane's gross weight is not the one in the circulating book. That book gives 111 KIAS at 2440 pounds and 88 KIAS at 1531 pounds, with linear interpolation permitted; interpolating to 2325 pounds gives about 108 knots, which the square root of weight rule agrees with, but that is derived, not published.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Why does maneuvering speed change with weight?",
+  "a": "Because a lighter airplane accelerates to the limit load factor at a lower speed. The handbook puts it in one line: <b>maneuvering speed decreases at lighter weight as the effects of aerodynamic forces become more pronounced</b>, linear interpolation may be used for intermediate gross weights, and maneuvering speed should not be exceeded while operating in rough air. The same relationship is why this airplane's number is lower than the 2440 pound figure.",
+  "dup": "Why does Va increase with weight?",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What does the maneuvering speed placard in the cockpit say?",
+  "a": "On the later serials it reads Va equals 111 KIAS at 2440 pounds, see POH. <b>The placard physically in this airplane will name a different weight and a different speed</b>, because its gross weight is 2325 pounds, so I would read my own placard and quote that. Pointing out that the printed placard in the common handbook belongs to a different serial block is a good way to show I understand applicability.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What is turbulent air operating speed, and how does it relate to Va?",
+  "a": "They are the same speed under two names. The handbook lists turbulent air operating speed in Section 4 and refers you straight back to the design maneuvering speed paragraph in Section 2. So it carries exactly the same weight dependence, and <b>the figure for this airplane has to come from its own book</b> rather than from the 2440 pound number printed in the later handbook.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What is Vne on this airplane, and how is it marked?",
+  "a": "<b>160 KIAS</b>, 153 KCAS, marked by the red radial line at the top of the airspeed indicator. The handbook's wording is do not exceed this speed in any operation. It is a structural and flutter speed rather than a load-factor speed, so it does not vary with weight, which makes it one of the figures that carries across to this airplane unchanged.",
+  "dup": "What is Vne and how is it marked?",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What is Vno, and what does the yellow arc mean?",
+  "a": "Maximum structural cruising speed, <b>126 KIAS</b>, with the yellow caution arc running from 126 to 160 KIAS. The handbook's wording is do not exceed this speed except in smooth air and then only with caution. The yellow arc is the band where the airplane can be damaged by a gust or an abrupt input, so it is for smooth air only. Vno is defined at design gross weight, so I would confirm the arc against this airplane's own book.",
+  "dup": "What is Vno and what does the yellow arc mean?",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What is Vfe on this airplane?",
+  "a": "<b>103 KIAS</b>, 100 KCAS, the top of the white arc, with the handbook's wording being do not exceed this speed with the flaps extended. Operating Tip 10.3(c) adds the airmanship: flaps may be lowered at airspeeds up to 103 KIAS, but to reduce flap operating loads it is desirable to have the airplane at a slower speed before extending them. The placarded landing checklist says flaps set, white arc.",
+  "dup": "What is Vfe and what marks it on the airspeed indicator?",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What does the white arc on your airspeed indicator represent?",
+  "a": "The flap operating range: <b>44 to 103 KIAS</b> in the circulating handbook, bottom end being the stall speed in the landing configuration and top end Vfe. The caution for this airplane is that the bottom end is a stall speed at 2440 pounds, and this airplane is lighter, so the arc its own book specifies may start lower. I would read the arcs off the actual instrument and compare them with this airplane's handbook.",
+  "dup": "What does the white arc on the airspeed indicator represent?",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What does the green arc represent?",
+  "a": "The normal operating range, <b>50 to 126 KIAS</b> in the circulating handbook, from the clean stall speed up to maximum structural cruising speed. The bottom of the green arc is a stall speed defined at 2440 pounds, which is not this airplane's gross weight, so the arc start is one of the markings to check against the instrument and against this airplane's own book.",
+  "dup": "What does the green arc on the airspeed indicator represent?",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "How many markings are on this airspeed indicator, and is one of them blue?",
+  "a": "<b>Four markings and no blue line</b>: one red radial at 160 KIAS, a yellow arc 126 to 160, a green arc 50 to 126 and a white arc 44 to 103. A blue radial is single-engine best rate of climb on a twin, so it does not belong on a Warrior. The caution is that three of those four endpoints are weight dependent and were set at a heavier gross weight than this airplane's.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Where does the handbook print Vso and Vs1?",
+  "a": "It does not print them as named speeds at all. The stall speeds come out of the arcs and out of one sentence in Section 4: <b>the gross weight stalling speed with power off and full flaps is 44 KIAS</b>, which is also the bottom of the white arc, and 50 KIAS at the bottom of the green arc is Vs1 by convention. Both are gross weight figures at 2440 pounds, so this airplane stalls slower and its own book gives the numbers.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What are Vx and Vy on this airplane?",
+  "a": "The circulating handbook gives best rate of climb at <b>79 KIAS</b> and best angle at 63 KIAS, both explicitly at gross weight, and adds that at lighter than gross weight these speeds are reduced somewhat. Gross weight in that book means 2440 pounds, which is not this airplane's, so I would fly the speeds from this airplane's own handbook and expect them to be a little lower.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What approach speeds does the handbook give?",
+  "a": "An initial approach speed of about 70 KIAS and a <b>final approach speed of 63 KIAS with flaps extended to 40 degrees</b>, with flaps able to be lowered at speeds up to 103 KIAS. Section 4.5 says plainly that the Section 4 speeds are for standard airplanes flown at gross weight under standard conditions at sea level, and that gross weight is 2440 pounds, so this airplane's own figures will be a little lower.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What is the best glide speed in this airplane?",
+  "a": "The circulating handbook gives <b>73 KIAS</b>, prop windmilling, flaps up, no wind, and the glide chart states its weight as 2440 pounds. Since this airplane is lighter, its best glide speed is lower, and the correct number comes from its own handbook. The technique does not change: trim for the published best gliding angle, pick the field, and only slow further once the field is made.",
+  "dup": "What is best glide speed and how does it change with weight?",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What glide ratio does this airplane have?",
+  "a": "<b>No glide ratio is published anywhere in the handbook.</b> What is published is a glide performance chart at 73 KIAS with the propeller windmilling, flaps up and no wind, and the chart's own worked example loses 3000 feet of altitude over 5.6 nautical miles. I would present that as reading the chart rather than as a published ratio, and I would say that the chart itself is drawn at a weight this airplane does not operate at.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What is the maximum demonstrated crosswind component?",
+  "a": "<b>17 knots</b>, printed in Section 4.5 and on the cockpit placard as DEMO. X-WIND 17 KTS. It is a demonstrated value rather than a limitation, so it is what a test pilot showed on a particular day, not a line the airplane cannot cross. Whether I would accept 17 knots depends on my currency and the runway, and the handbook's crosswind technique is a faster approach with partial or no flaps.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What are the baggage limits?",
+  "a": "<b>200 pounds</b> in the normal category and zero in utility. The baggage door placard says BAGGAGE MAXIMUM 200 LBS and then UTILITY CATEGORY OPERATION, NO BAGGAGE OR AFT PASSENGERS ALLOWED. The 200 pounds is a structural limit, so it is the same across the Warrior II serial range, but on a 2325 pound airplane you run out of gross weight long before you run out of baggage allowance.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Where is the datum on this airplane?",
+  "a": "<b>78.4 inches ahead of the wing leading edge</b> at the inboard intersection of the straight and tapered section, which is a geometric definition and so is the same whatever the gross weight. The loading arms are geometry too and carry across: pilot and front passenger 80.5 inches, rear seats 118.1, fuel 95.0 and baggage 142.8, all aft of datum.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What are the center of gravity limits?",
+  "a": "The rearward limit is <b>93.0 inches aft of datum</b> throughout, and the forward limit varies with weight: 83.0 inches at 1950 pounds and less, with straight line variation above that. The upper anchor printed in the circulating handbook is 88.3 inches at 2440 pounds, which is not this airplane's gross weight, so the whole upper part of its envelope comes from its own book. The utility rows are 83.8 at 2020 pounds and 83.0 at 1950 and below.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Does the handbook publish a moment limit table?",
+  "a": "No. Section 2 gives the <b>CG limits in inches only</b>, and Section 6 works in weight and arm with a loading graph and a graphical center of gravity envelope. There is no moment envelope with inch-pound limits anywhere in the handbook, so any table in that form has come from another source and I would check it against the airplane's own weight and balance data before trusting it.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What maneuvers are prohibited in the normal category?",
+  "a": "Section 2.15: <b>all acrobatic maneuvers including spins are prohibited</b> in the normal category. The in-full-view-of-pilot placard says the same thing twice over, that no acrobatic maneuvers are approved for normal category operations and that spins are prohibited for normal and utility category. So the commercial maneuvers that need more than 60 degrees of bank have to be flown in the utility category.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What maneuvers are approved in the utility category?",
+  "a": "Three, for bank angles exceeding 60 degrees: <b>steep turns, lazy eights and chandelles</b>. Those three carry across to this airplane. What does not carry is the entry speed, because the 111 KIAS printed beside them in the circulating handbook is maneuvering speed at 2440 pounds; this airplane's entry speed is lower and comes from its own book and its own placard.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What else does utility category operation require?",
+  "a": "<b>No aft passengers and no baggage</b>, per the baggage door placard and the utility category placard, which also raises the positive limit load factor from 3.8 G to 4.4 G. Spins stay prohibited in both categories. In practice that means the commercial maneuvers are flown with two people in the front, nothing in the back, and a center of gravity inside the utility envelope.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What are the flight load factors?",
+  "a": "Section 2.17: positive <b>3.8 G in the normal category and 4.4 G in utility</b>. For negative G the handbook does not print a number at all; it writes no inverted maneuvers approved across both columns. It also publishes no separate flaps-up and flaps-down load factors, so the commonly taught 2.0 G flaps-down figure is from the certification rule and not from this handbook.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What kinds of operation is this airplane approved for?",
+  "a": "Section 2.19: <b>day or night VFR and day or night IFR, when the appropriate equipment is installed and operable</b>. There is no icing approval stated anywhere in Section 2, so flight into known icing is not approved. The handbook also carries an MEL statement, that certain operations may be authorized with listed equipment inoperative under a current FAA-approved Minimum Equipment List dated concurrently with or after the handbook.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What equipment does the handbook require for day VFR in this airplane?",
+  "a": "Twelve items in Section 2.19: airspeed indicator, altimeter, magnetic compass, tachometer, oil pressure indicator, oil temperature indicator, <b>fuel pressure indicator</b>, fuel quantity indicator for each tank, volt-ammeter, elevator and rudder trim indicator, alternator, and a safety restraint for each occupant. The two people forget are the fuel pressure indicator and the volt-ammeter, and that list is a better answer for this airplane than reciting the regulation.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What is added for night VFR, and for IFR?",
+  "a": "Section 2.19: night VFR adds <b>position lights, instrument lights and anti-collision strobe lights</b> to the day VFR list. Day IFR adds a vacuum pump and a gyro suction indicator, which is why the vacuum system being optional on this type matters. Night IFR is simply everything required for day and night VFR plus everything required for day IFR.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "If the handbook lists required equipment, why does 91.205 still matter?",
+  "a": "Because the handbook says so. The NOTE at the end of Section 2.19 reads that <b>the above system and equipment list does not include specific flight instruments and communication and navigation equipment required by the FAR Part 91 and 135 operating requirements</b>. So the POH list is the type certification basis and the operating rule sits on top of it; I need both to be satisfied before the airplane is legal.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Can you use the Section 5 performance charts out of the common handbook?",
+  "a": "No. <b>Every chart in that section is computed for a 2440 pound airplane</b>, including takeoff ground roll and distance, climb, cruise, landing distance, glide and the stall speed chart, whose weight axis is drawn to maximum weight 2440 pounds. This airplane plans from its own book. Some of those charts do read down to lighter weights, so entering them at 2325 pounds is not nonsense, but they are not approved data for this airplane.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What is the wing loading and power loading of this airplane?",
+  "a": "The handbook prints 14.4 pounds per square foot and 15.3 pounds per horsepower, but <b>both are computed at 2440 pounds</b> and are therefore not this airplane's. At 2325 pounds they work out around 13.7 and 14.5, but those are derived figures and are not published anywhere, so I would offer them as arithmetic rather than quote them as handbook values.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "How do you do a short field takeoff in this airplane?",
+  "a": "Here is the trap: the handbook's plain short field takeoff is accomplished <b>without flaps</b>, by applying full power before brake release, lifting off at 40 to 52 KIAS depending on weight and climbing out at 79 KIAS. It is the short field with an obstacle that uses 25 degrees, the second notch. Those speed bands are quoted at a heavier gross weight, so I would take the numbers from this airplane's own book.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "How do you do a soft field takeoff?",
+  "a": "Both soft field cases use <b>25 degrees of flap</b>, the second notch. The technique is to accelerate and lift the nose gear off as soon as possible, lift off at the lowest possible airspeed, and then with an obstacle accelerate just above the ground to 52 KIAS to climb past it, or without an obstacle accelerate just above the ground to the best rate of climb speed, retracting the flaps slowly while climbing out.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What is the handbook's technique for a short field landing?",
+  "a": "Section 4.31: the best technique for short and slow landings is to use <b>full flap and enough power</b> to maintain the desired airspeed and approach flight path, with mixture full rich, fuel on the fullest tank and the electric fuel pump on. Reduce speed during the flare and contact the ground close to the stalling speed, hold the nose wheel off as long as possible, then lower it gently and brake.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "How does the handbook want a crosswind landing flown?",
+  "a": "Section 4.31: in high wind conditions, particularly in strong crosswinds, it may be desirable to approach the ground at <b>higher than normal speeds with partial or no flaps</b>. That trades the lower touchdown speed for better control authority and less weathercocking, and it sits alongside the handbook's general guidance to vary the flap setting and touchdown speed with the surface, the wind and the loading.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Give me the power off landing procedure.",
+  "a": "Section 3.3: locate a suitable field, establish a spiral pattern, be <b>1000 feet above the field at the downwind position</b> for a normal landing approach, and when the field can easily be reached slow to the shortest-landing speed. Touch down at the lowest possible airspeed with full flaps. When committed, ignition off, master off, fuel selector off, mixture to idle cut-off and belts and harnesses tight.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "How do you lose extra height on a forced landing in this airplane?",
+  "a": "Section 3.13: excess altitude may be lost by <b>widening your pattern, using flaps or slipping, or a combination of these</b>. The caution that goes with slipping is Operating Tip 10.3(i): prolonged slips or skids resulting in more than 2000 feet of altitude loss can uncover the fuel outlet and interrupt the fuel flow when the tank in use is not full, which matters if the engine is still running.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "The engine fails just after takeoff. What does the handbook actually say?",
+  "a": "Section 3.3: if sufficient runway remains for a normal landing, <b>land straight ahead</b>; if not, maintain a safe airspeed, make only a shallow turn to avoid obstructions and use flaps as the situation requires. If enough altitude has been gained to attempt a restart: fuel selector to a tank containing fuel, electric fuel pump check on, mixture check rich, carburetor heat on, primer locked. There is no turn-back option in the book.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "The engine fails in cruise. Walk me through it.",
+  "a": "Section 3.3: <b>fuel selector to a tank containing fuel</b>, electric fuel pump on, mixture rich, carburetor heat on, engine gauges checked for the cause, primer checked locked, and if no fuel pressure is indicated check the selector is on a tank with fuel in it. If power returns, carb heat and pump off. If not, prepare for a power off landing and trim for best gliding angle, taking the speed from this airplane's own handbook.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Is there a spin recovery procedure, and what is the order?",
+  "a": "Intentional spins are prohibited in this airplane, but there is a recovery: <b>throttle idle, ailerons neutral, rudder full opposite to the direction of rotation, control wheel full forward</b>, then rudder neutral when rotation stops and control wheel as required to smoothly regain level flight. Note Piper's order, with throttle and ailerons first, and note the word smoothly, which is there to avoid a secondary stall or an overspeed.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What does the category placard in full view of the pilot say?",
+  "a": "<b>THIS AIRPLANE MUST BE OPERATED AS A NORMAL OR UTILITY CATEGORY AIRPLANE IN COMPLIANCE WITH THE OPERATING LIMITATIONS STATED IN THE FORM OF PLACARDS, MARKINGS AND MANUALS. ALL MARKINGS AND PLACARDS ON THIS AIRPLANE APPLY TO ITS OPERATION AS A UTILITY CATEGORY AIRPLANE. FOR NORMAL AND UTILITY CATEGORY OPERATION, REFER TO THE PILOT'S OPERATING HANDBOOK. NO ACROBATIC MANEUVERS ARE APPROVED FOR NORMAL CATEGORY OPERATIONS. SPINS ARE PROHIBITED FOR NORMAL AND UTILITY CATEGORY.</b>",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What does the placarded takeoff checklist say, word for word?",
+  "a": "<b>TAKEOFF CHECKLIST: Fuel on proper tank; Seat backs erect; Electric fuel pump on; Fasten belts/harness; Engine gauges checked; Trim tab set; Flaps set; Controls free; Carb. heat off; Door latched; Mixture set; Air conditioner off; Primer locked.</b> It is a two-column placard in full view of the pilot, and note that electric fuel pump on appears there, which makes the pump rule a placarded item rather than advice.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What does the placarded landing checklist say, word for word?",
+  "a": "<b>LANDING CHECKLIST: Fuel on proper tank; Flaps set (White Arc); Mixture rich; Fasten belts/harness; Electric fuel pump on; Air conditioner off; Seat backs erect.</b> Flaps set, white arc, is the placarded way of saying do not exceed the flap limiting speed of 103 KIAS. A footnote under both placards says the air conditioner off item is mandatory for air conditioned aircraft only.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What does the baggage compartment placard say?",
+  "a": "<b>BAGGAGE MAXIMUM 200 LBS. UTILITY CATEGORY OPERATION - NO BAGGAGE OR AFT PASSENGERS ALLOWED. NORMAL CATEGORY OPERATION - SEE PILOT'S OPERATING HANDBOOK WEIGHT AND BALANCE SECTION FOR BAGGAGE AND AFT PASSENGER LIMITATIONS.</b> It is on the inside of the baggage compartment door, and the 200 pound limit is structural, so it is the same for this serial as for any other Warrior II.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What does the utility category placard say?",
+  "a": "<b>UTILITY CATEGORY OPERATION ONLY. (1) NO AFT PASSENGERS ALLOWED. (2) ACROBATIC MANEUVERS ARE LIMITED TO THE FOLLOWING: SPINS PROHIBITED; STEEP TURNS; LAZY EIGHTS; CHANDELLES,</b> each with an entry speed printed beside it. The three maneuvers carry across to this airplane; the entry speeds printed in the common handbook are maneuvering speed at 2440 pounds, so this airplane's placard will show its own, lower figure.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What does the oil cooler winterization placard say?",
+  "a": "<b>OIL COOLER WINTERIZATION PLATE TO BE REMOVED WHEN AMBIENT TEMPERATURE EXCEEDS 50 DEGREES F.</b> It is in full view of the pilot when the winterization kit is installed, and Section 7.5 describes the plate as provided to restrict air during winter operation. For a late November checkride I would look for the plate on the preflight and know the removal rule.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What does the air conditioner placard say, and when does it apply?",
+  "a": "<b>WARNING - AIR CONDITIONER MUST BE OFF TO INSURE NORMAL TAKEOFF CLIMB PERFORMANCE.</b> It is in full view of the pilot near the air conditioner control panel, and only applies when air conditioning is installed. The matching footnote under the takeoff and landing checklist placards says the air conditioner off item in those checklists is mandatory for air conditioned aircraft only.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What does the fuel filler placard on this airplane say?",
+  "a": "<b>FUEL - 100 OR 100LL AVIATION GRADE</b>, adjacent to the fuel filler caps. The handbook prints a second, graphic AVGAS ONLY placard with GRADE 100LL and GRADE 100 lines, but restricts it to serial numbers 28-8316037 and up, and this airplane is 28-8116257, so it gets the first version. That is a case where the handbook does the serial-block reasoning for you.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Summarize the general limitations statement in Section 2.",
+  "a": "Section 2.1: <b>this airplane must be operated as a normal or utility category airplane in compliance with the operating limitations stated in the form of placards and markings and those given in this section and handbook</b>. The point for the oral is where limitations live: not only in Section 2 but in the placards and the instrument markings as well, and all three have to agree with the airplane in front of you.",
+  "dup": "",
+  "focus": false
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What are the power plant instrument markings, all of them?",
+  "a": "Tachometer, green arc <b>500 to 2700 RPM</b> with the red line at 2700. Oil temperature, green 75 to 245 degrees F, red line 245. Oil pressure, green 60 to 90 PSI, yellow 25 to 60 at idle, a second yellow 90 to 100 for ground warm-up, red lines at 25 and 100. Fuel pressure, green .5 to 8 PSI with red lines at .5 and 8. Those are the figures an examiner can ask for one at a time.",
+  "dup": "",
+  "focus": true
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "With a checkride in late November, which limitations would you check first?",
+  "a": "The ones the season touches. Whether the <b>oil cooler winterization plate</b> is fitted, and its 50 degrees F removal rule; the oil grade for the temperature, which in the 0 to 70 degrees F row is SAE 30 straight or 30, 40 or 20W-40 ashless dispersant; carburetor ice, since the handbook's band of minus 5 to 20 degrees C covers a November morning exactly; and the weight the airplane plans to, which is 2325 pounds and not 2440.",
+  "dup": "",
+  "focus": false
+ }
+]
