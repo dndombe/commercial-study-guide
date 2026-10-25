@@ -227,6 +227,16 @@ footer{margin-top:36px;padding-top:20px;border-top:1px solid var(--line);color:v
 details.sec{break-inside:avoid}details.sec>summary::before{display:none}
 body{background:#fff;color:#000}}
 
+/* ---- source chips: one scrolling line, not two wrapped rows ---- */
+.srow{flex-wrap:nowrap;gap:7px}
+.schips{display:flex;gap:5px;overflow-x:auto;flex:1;min-width:0;padding:2px 0;
+scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.schips::-webkit-scrollbar{display:none}
+.src{font-size:11.5px;padding:4px 9px;gap:5px;flex:none}
+.src::before{width:10px;height:10px;border-radius:3px}
+.slbl{flex:none}
+.shint:empty{display:none}
+.srow{padding:9px 0 0}
 /* ---- one thin toolbar -------------------------------------------------
    Ten controls will not fit across a phone, so: the search collapses to an
    icon, the three housekeeping buttons live behind the overflow dot, and the
@@ -407,9 +417,9 @@ figcaption{font-size:12.5px;color:var(--ink3);line-height:1.45;margin-top:6px;fo
 <header>
 <h1>Commercial Rating Study Guide</h1>
 <p class="sub">2,194 questions drawn from the CHS Flight School guide, CPL At A Glance, the Gold Seal
-commercial guide and the PA-28-161 handbook. Checkride 24 November 2026 &mdash; 30 days.
+commercial guide and the PA-28-161 handbook.
 Tap a question to see the answer, tick it when you own it. Progress is saved on this device.</p>
-<div class="srow"><span class="slbl">Sources</span><button class="src on" data-src="chs" title="CHS Flight School study guide">CHS</button><button class="src on" data-src="fi" title="CPL At A Glance">Flight Insight</button><button class="src on" data-src="gs" title="Commercial Certificate — Everything You Need To Know">Gold Seal</button><button class="src on" data-src="poh" title="PA-28-161 handbook, TCDS and registry">Warrior POH</button><button class="src on" data-src="aero" title="The aerodynamics behind each maneuver">Maneuver</button><button class="src on" data-src="gouge" title="Written to close gaps a real ride with this examiner exposed">Gouge</button><button class="src on" data-src="xc" title="The KRBW to 1A3 planning scenario">Cross-country</button><button class="src on" data-src="acs" title="Written in to close a gap">Added</button></div>
+<div class="srow"><span class="slbl">Sources</span><div class="schips"><button class="src on" data-src="chs" title="CHS Flight School study guide">CHS</button><button class="src on" data-src="fi" title="CPL At A Glance">Flight Insight</button><button class="src on" data-src="gs" title="Commercial Certificate — Everything You Need To Know">Gold Seal</button><button class="src on" data-src="poh" title="PA-28-161 handbook, TCDS and registry">Warrior POH</button><button class="src on" data-src="aero" title="The aerodynamics behind each maneuver">Maneuver</button><button class="src on" data-src="gouge" title="Written to close gaps a real ride with this examiner exposed">Gouge</button><button class="src on" data-src="xc" title="The KRBW to 1A3 planning scenario">Cross-country</button><button class="src on" data-src="acs" title="Written in to close a gap">Added</button></div></div>
 <p class="shint" id="shint"></p>
 </header>
 
