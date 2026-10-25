@@ -5,8 +5,8 @@ function save(){ try{ localStorage.setItem(LS,JSON.stringify(done)); }catch(e){}
 
 /* Which guides are switched on. `doc` is now a space-separated set, so a question
    that came from two guides shows while either of them is on. */
-var SRCK='cpl-guide-src', KEYS=['chs','fi','gs','poh','acs'];
-var on={chs:true, fi:true, gs:true, poh:true, acs:true};
+var SRCK='cpl-guide-src', KEYS=['chs','fi','gs','poh','aero','gouge','acs'];
+var on={chs:true, fi:true, gs:true, poh:true, aero:true, gouge:true, acs:true};
 try{
   var st0=JSON.parse(localStorage.getItem(SRCK)||'null');
   if(st0) KEYS.forEach(function(k){ if(k in st0) on[k]=!!st0[k]; });
@@ -17,9 +17,10 @@ function shows(d){
   return false;
 }
 
-var items=[].slice.call(document.querySelectorAll('.it'));
+var items=[].slice.call(document.querySelectorAll('.it:not(.rit)'));
+var ritems=[].slice.call(document.querySelectorAll('.it.rit'));
 var secs=[].slice.call(document.querySelectorAll('details.sec.qsec'));
-items.forEach(function(li){ if(done[li.dataset.k]) li.classList.add('done'); });
+items.concat(ritems).forEach(function(li){ if(done[li.dataset.k]) li.classList.add('done'); });
 
 var bar=document.querySelector('#prog i'), stat=document.getElementById('stat');
 var live=items.length, ticked=0;
@@ -59,10 +60,13 @@ function hydrate(root){
 document.addEventListener('click',function(e){
   var t=e.target.closest('.tick');
   if(t){ e.preventDefault();
-    var li=t.closest('.it');
-    li.classList.toggle('done');
-    if(li.classList.contains('done')) done[li.dataset.k]=1; else delete done[li.dataset.k];
-    save(); paint(); filter(); return; }
+    var li=t.closest('.it'), k=li.dataset.k, now=!li.classList.contains('done');
+    if(now) done[k]=1; else delete done[k];
+    /* The same question is rendered in the Study tab and again in the run-through,
+       so every copy has to move together or the two disagree. */
+    [].slice.call(document.querySelectorAll('.it[data-k="'+k+'"]')).forEach(function(x){
+      x.classList.toggle('done', now); });
+    save(); paint(); filter(); rpaint(); return; }
   var im=e.target.closest('.fg img');
   if(im){ im.closest('.fg').classList.toggle('zoom'); return; }
   var q=e.target.closest('.qb');
@@ -86,15 +90,22 @@ var nores=document.getElementById('nores'), nrq=document.getElementById('nrq');
 
 /* Highlight built from text nodes rather than innerHTML, so searching for "<" or
    "&" cannot break the markup. */
+var STOP={the:1,and:1,what:1,does:1,for:1,you:1,with:1,that:1,this:1,are:1,
+  from:1,how:1,why:1,its:1,was:1,were:1,can:1,your:1,when:1,where:1,which:1,
+  not:1,but:1,has:1,have:1,had:1,there:1,them:1,they:1,about:1,into:1,out:1};
+function marks(){
+  return toks.filter(function(t){ return t.length>2 && !STOP[t]; });
+}
 function highlight(li){
   var el=li.querySelector('.qt');
   if(el._o===undefined) el._o=el.textContent;
-  if(!toks.length){
+  var use=marks();
+  if(!use.length){
     if(el.childNodes.length!==1||el.firstChild.nodeType!==3) el.textContent=el._o;
     return;
   }
   var t=el._o, low=t.toLowerCase(), hits=[];
-  toks.forEach(function(k){
+  use.forEach(function(k){
     var i=low.indexOf(k);
     while(i>-1){ hits.push([i,i+k.length]); i=low.indexOf(k,i+k.length); }
   });
@@ -132,7 +143,9 @@ function filter(){
   items.forEach(function(li){
     var ok=shows(li.dataset.d);
     if(ok && mode==='todo' && li.classList.contains('done')) ok=false;
-    if(ok && mode==='focus' && li.dataset.f!=='1') ok=false;
+    if(ok && (mode==='sys'||mode==='aero') && li.dataset.f!==mode) ok=false;
+    if(ok && mode==='ride' && li.dataset.g!=='1') ok=false;
+    if(ok && mode==='fig' && li.dataset.img!=='1') ok=false;
     if(ok && toks.length){
       for(var i=0;i<toks.length;i++){ if(li._all.indexOf(toks[i])<0){ ok=false; break; } }
     }
@@ -229,8 +242,8 @@ rst.addEventListener('click',function(e){
   if(!armed){ armed=true; rst.classList.add('armed'); rst.textContent='Tap again to erase';
     clearTimeout(rt); rt=setTimeout(disarm,4000); return; }
   done={}; save();
-  items.forEach(function(l){ l.classList.remove('done'); });
-  paint(); filter(); disarm();
+  items.concat(ritems).forEach(function(l){ l.classList.remove('done'); });
+  paint(); filter(); rpaint(); disarm();
 });
 document.addEventListener('click',function(e){ if(armed && !e.target.closest('#reset')) disarm(); });
 
@@ -251,6 +264,51 @@ function showTab(p){
 }
 tabs.forEach(function(t){ t.addEventListener('click',function(){ showTab(t.dataset.p); }); });
 try{ var sv=localStorage.getItem(TBK); if(sv) showTab(sv); }catch(e){}
+
+/* ---- run the ride ----------------------------------------------------
+   Its own progress maths: these rows are copies of questions already counted
+   in the Study tab, so folding them into paint() would double every total. */
+var rstages=[].slice.call(document.querySelectorAll('.rstage'));
+var ritemsEls=[].slice.call(document.querySelectorAll('.ritem'));
+var rstat=document.getElementById('rstat'), rhideOn=false;
+function rpaint(){
+  var tot=0, dn=0;
+  ritemsEls.forEach(function(it){
+    var li=[].slice.call(it.querySelectorAll('.it'));
+    var d=li.filter(function(x){ return x.classList.contains('done'); }).length;
+    it.querySelector('.rdone').textContent=d;
+    it.classList.toggle('rdoneall', li.length>0 && d===li.length);
+    if(rhideOn) it.classList.toggle('hide', li.length>0 && d===li.length);
+  });
+  rstages.forEach(function(s){
+    var li=[].slice.call(s.querySelectorAll('.it'));
+    var d=li.filter(function(x){ return x.classList.contains('done'); }).length;
+    tot+=li.length; dn+=d;
+    s.querySelector('.rsdone').textContent=d;
+    s.querySelector('.sbar i').style.width=(li.length?d/li.length*100:0)+'%';
+    if(rhideOn){
+      var any=[].slice.call(s.querySelectorAll('.ritem')).some(function(i){
+        return !i.classList.contains('hide'); });
+      s.classList.toggle('hide', !any);
+    } else { s.classList.remove('hide'); }
+  });
+  if(rstat) rstat.textContent=dn+' of '+tot+' worked through';
+}
+var rh=document.getElementById('rhide');
+if(rh) rh.addEventListener('click',function(){
+  rhideOn=!rhideOn;
+  rh.classList.toggle('on',rhideOn);
+  rh.textContent=rhideOn?'Show everything':'Hide what I have ticked';
+  rpaint();
+});
+var rx=document.getElementById('rexp'), rxOn=false;
+if(rx) rx.addEventListener('click',function(){
+  rxOn=!rxOn;
+  ritemsEls.forEach(function(i){ i.open=rxOn; });
+  rstages.forEach(function(s){ s.open=true; });
+  rx.textContent=rxOn?'Collapse all':'Expand all';
+});
+rpaint();
 
 /* ---- acronym pane ---------------------------------------------------- */
 (function(){

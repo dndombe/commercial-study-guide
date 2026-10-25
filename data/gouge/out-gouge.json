@@ -1,0 +1,1591 @@
+[
+ {
+  "s": "Pilot Qualifications",
+  "q": "Where are the aircraft accident reporting rules actually written?",
+  "a": "In 49 CFR Part 830, Notification and Reporting of Aircraft Accidents or Incidents and Overdue Aircraft, and Preservation of Aircraft Wreckage, Mail, Cargo, and Records. It is an <b>NTSB rule in Title 49, not a Federal Aviation Regulation in Title 14</b>. The AIM summarizes the same material under safety of flight, which is a fine place to look it up in the airplane, but the rule itself is 49 CFR Part 830.",
+  "dup": "",
+  "topic": "NTSB Part 830"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "Who writes Part 830 and who does it apply to?",
+  "a": "The National Transportation Safety Board writes it, and it applies to the operator of any civil aircraft, and to certain public aircraft, within the United States and its territories. <b>The duty to notify and to report falls on the operator, not on the FAA and not on the airport</b>. On a rental or a flight you are conducting under Part 91, that is you as pilot in command and the owner between you; decide beforehand who makes the call.",
+  "dup": "",
+  "topic": "NTSB Part 830"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "Give me the Part 830 definition of an aircraft accident.",
+  "a": "An occurrence associated with the operation of an aircraft that takes place between the time any person boards the aircraft with the intention of flight and the time all such persons have disembarked, in which any person suffers <b>death or serious injury, or the aircraft receives substantial damage</b>. Three triggers only: death, serious injury, substantial damage. 49 CFR 830.2, Definitions.",
+  "dup": "",
+  "topic": "NTSB Part 830"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "What is an incident, as Part 830 uses the word?",
+  "a": "An occurrence other than an accident, associated with the operation of an aircraft, which <b>affects or could affect the safety of operations</b>. 49 CFR 830.2, Definitions. Every accident is also an occurrence affecting safety, but the word incident is reserved for the ones that fall short of death, serious injury or substantial damage. Only the listed incidents in 830.5 require immediate notification.",
+  "dup": "",
+  "topic": "NTSB Part 830"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "What is a fatal injury under Part 830, and why does the definition matter?",
+  "a": "Any injury that results in <b>death within 30 days of the accident</b>, per 49 CFR 830.2, Definitions. It matters because an occurrence that was classified as an incident on the day it happened becomes an accident if an injured person dies inside that 30-day window, and the reporting obligation follows the reclassification.",
+  "dup": "",
+  "topic": "NTSB Part 830"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "List the serious injuries in 49 CFR 830.2.",
+  "a": "Any injury that requires hospitalization for more than 48 hours beginning within 7 days of the injury; a fracture of any bone except simple fractures of fingers, toes or the nose; severe hemorrhage or nerve, muscle or tendon damage; injury to any internal organ; or <b>second or third degree burns, or any burn affecting more than 5 percent of the body surface</b>. Any one of the five makes the occurrence an accident.",
+  "dup": "",
+  "topic": "NTSB Part 830"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "A passenger breaks a finger getting out of the airplane after a hard landing. Accident?",
+  "a": "No. A simple fracture of a finger, toe or nose is <b>expressly carved out of the serious injury definition</b> in 49 CFR 830.2, so that injury alone does not make it an accident. Check the other two triggers before you relax: if the hard landing also caused substantial damage, it is an accident on that ground, and if the person is hospitalized more than 48 hours it is an accident on that ground.",
+  "dup": "",
+  "topic": "NTSB Part 830"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "Define substantial damage.",
+  "a": "Damage or failure that <b>adversely affects the structural strength, performance or flight characteristics of the aircraft and would normally require major repair or replacement of the affected component</b>. 49 CFR 830.2, Definitions. Note that it is a two-part test: the damage has to matter to the airplane's structure or how it flies, and it has to call for major repair or replacement.",
+  "dup": "",
+  "topic": "NTSB Part 830"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "What does Part 830 explicitly say is not substantial damage?",
+  "a": "Engine failure or damage limited to an engine if only one engine is damaged; bent fairings or cowling; dented skin; small punctured holes in the skin or fabric; ground damage to rotor or propeller blades; and <b>damage to landing gear, wheels, tires, flaps, engine accessories, brakes or wingtips</b>. 49 CFR 830.2, Definitions. That exclusion list is what makes most light airplane mishaps incidents rather than accidents.",
+  "dup": "",
+  "topic": "NTSB Part 830"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "You clip a runway light on landing. Is that reportable? Work it out for me.",
+  "a": "Start with the accident definition in 49 CFR 830.2. Was anyone killed or seriously injured? No. Did the airplane receive substantial damage? A scuffed wheel pant, a nicked tire or a bent gear leg is on the <b>express exclusion list, so it is not substantial damage</b>. On those facts it is an incident, not an accident, and nothing in 830.5 requires immediate notification, so there is no NTSB report unless the Board asks for one.",
+  "dup": "",
+  "topic": "NTSB Part 830"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "Same runway light, but the strike buckles the firewall and wrinkles the skin behind it. Now?",
+  "a": "Now it is an accident. Buckled structure affects the <b>structural strength of the airframe and normally requires major repair or replacement</b>, which is squarely the substantial damage definition in 49 CFR 830.2. That makes it an accident, which means immediate notification of the nearest NTSB office under 830.5, preservation of the wreckage under 830.10, and a written report within 10 days under 830.15.",
+  "dup": "",
+  "topic": "NTSB Part 830"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "The runway light you hit turns out to cost the airport $40,000 to repair. Does that change anything?",
+  "a": "Yes. 49 CFR 830.5, Immediate notification, lists damage to property other than the aircraft estimated to exceed <b>$25,000</b> for repair, or fair market value in the event of total loss, whichever is less. Above that figure you must notify the nearest NTSB office immediately even though the occurrence is only an incident, and you file a written report only if the Board requests one.",
+  "dup": "",
+  "topic": "NTSB Part 830"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "What is the honest short answer on whether hitting a runway light is reportable?",
+  "a": "That it depends, and here is the test. It is reportable as an accident only if someone was killed or seriously injured or the airplane took substantial damage, and <b>gear, wheels, tires, flaps and wingtips are excluded from substantial damage by name</b>. It is reportable as a listed incident if the damage to the light and its cabling exceeds $25,000. Otherwise you tell the airport and the operator, and nobody files with the NTSB.",
+  "dup": "",
+  "topic": "NTSB Part 830"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "Run the 49 CFR 830.5 immediate notification list for me.",
+  "a": "Any accident, plus these incidents: flight control system malfunction or failure; inability of any required flight crewmember to perform duties because of injury or illness; turbine engine failure releasing debris other than out the exhaust; <b>in-flight fire</b>; in-flight collision; property damage other than the aircraft over $25,000; release of a propeller blade other than by ground contact; loss of more than half the cockpit displays; and an overdue aircraft believed to have been in an accident.",
+  "dup": "",
+  "topic": "NTSB Part 830"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "Who exactly do you notify after an accident, and how fast?",
+  "a": "The operator must notify the <b>nearest NTSB field office immediately and by the most expeditious means available</b>, per 49 CFR 830.5. In practice that is a phone call; the NTSB publishes a 24-hour number and field office list, and a call to ATC or to the FSDO does not discharge the obligation even though both will certainly find out. Have the number in your flight bag, not on a website you cannot reach from a field.",
+  "dup": "",
+  "topic": "NTSB Part 830"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "What information does the NTSB want in that first notification?",
+  "a": "49 CFR 830.6 lists it: aircraft type, nationality and registration marks; names of the owner and operator; name of the pilot in command; date and time; last point of departure and intended point of landing; position with reference to an easily defined geographic point; number aboard, number killed and number seriously injured; nature of the accident, the weather and the extent of damage so far as known; and <b>a description of any explosives, radioactive materials or other dangerous articles carried</b>.",
+  "dup": "",
+  "topic": "NTSB Part 830"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "When is a written report due, and on what form?",
+  "a": "Within <b>10 days after an accident</b> the operator files NTSB Form 6120.1 with the Board, per 49 CFR 830.15, Reports. If an aircraft was overdue and is still missing, the report goes in after 7 days. For an incident, even one that required immediate notification, a written report is filed only when an authorized representative of the Board requests one.",
+  "dup": "",
+  "topic": "NTSB Part 830"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "Does reporting to the NTSB take care of your obligation to the FAA?",
+  "a": "No, they are separate. Part 830 is the NTSB's rule. Separately, 14 CFR 91.3, Responsibility and authority of the pilot in command, says that a pilot who deviates from a rule in an emergency must <b>send a written report to the Administrator on request</b>. The FAA may also open its own inquiry into airman and airworthiness issues, and a NASA ASRS report, filed within 10 days, is a separate voluntary action again.",
+  "dup": "",
+  "topic": "NTSB Part 830"
+ },
+ {
+  "s": "Emergency Equipment and Survival Gear",
+  "q": "What does Part 830 require you to do with the wreckage?",
+  "a": "49 CFR 830.10, Preservation of aircraft wreckage, mail, cargo and records, makes the operator responsible for preserving the wreckage, cargo, mail and all records until the NTSB takes custody. You may <b>disturb it only to rescue people, to protect the wreckage from further damage, or to protect the public from injury</b>, and if you do move anything you should make sketches, notes and photographs first.",
+  "dup": "",
+  "topic": "NTSB Part 830"
+ },
+ {
+  "s": "Emergency Equipment and Survival Gear",
+  "q": "You have just walked away from an off-airport landing. First actions?",
+  "a": "People first, then the airplane, then the phone calls. Account for everyone and treat injuries; get clear of fuel; <b>shut off the master, magnetos and fuel selector before you leave the cockpit</b>; make sure the ELT is transmitting or switch it on manually; stay with the airplane, which is far easier to find than you are. Then notify the nearest NTSB office if 49 CFR 830.5 requires it, and tell the operator and your insurer.",
+  "dup": "",
+  "topic": "NTSB Part 830"
+ },
+ {
+  "s": "Stage Check Questions",
+  "q": "The examiner asks where you would look up accident reporting in the airplane. What do you say?",
+  "a": "That the rule is 49 CFR Part 830 and I carry it on my tablet, and that the AIM repeats the substance of it in the safety of flight chapter, which is where it turns up if you search the FAR/AIM app. I would <b>name 49 CFR Part 830 first and the AIM second</b>, because an examiner asking this question is usually checking that you know the reporting rule is not in Part 91 at all.",
+  "dup": "",
+  "topic": "NTSB Part 830"
+ },
+ {
+  "s": "Human Factors and Aeromedical",
+  "q": "What are the two kinds of stress a pilot has to watch for?",
+  "a": "Acute and chronic. Acute stress is the <b>immediate, short-term response to a present demand</b>, and it ends when the demand ends. Chronic stress is a continuing level of demand that the person cannot resolve, carried for weeks or months. Some texts split out a third, episodic or intermittent stress, for recurring bouts of acute stress. The PHAK's aeronautical decision making chapter covers both.",
+  "dup": "",
+  "topic": "acute vs chronic stress"
+ },
+ {
+  "s": "Human Factors and Aeromedical",
+  "q": "Give me a real example of acute stress in the cockpit.",
+  "a": "An alternator light on a night cross country; a runway change on short final; a passenger getting sick; the gust that drops a wing in the flare. Each is a <b>single, identifiable demand that arrives and then passes</b>. In small doses acute stress sharpens you, raising heart rate and attention; in large doses it narrows attention to one thing and you stop flying the airplane while you solve the problem.",
+  "dup": "",
+  "topic": "acute vs chronic stress"
+ },
+ {
+  "s": "Human Factors and Aeromedical",
+  "q": "Give me a real example of chronic stress in a pilot's life.",
+  "a": "A marriage coming apart, a job in doubt, money trouble, a sick parent, or a certificate program you are behind on and paying for. <b>None of it is in the airplane and all of it comes with you</b>. Chronic stress is corrosive because it has no end point, it degrades sleep, and the pilot stops noticing it, which is exactly why IMSAFE asks the question out loud instead of leaving it to feel.",
+  "dup": "",
+  "topic": "acute vs chronic stress"
+ },
+ {
+  "s": "Human Factors and Aeromedical",
+  "q": "How does acute stress change the way you fly?",
+  "a": "It triggers the fight-or-flight response: heart rate and breathing rise, blood sugar rises, attention narrows. A moderate amount improves reaction time; past that the effects are <b>attention tunneling, fixation on one instrument or one problem, and loss of the big picture</b>. Classic symptoms are task saturation, missed radio calls, and reverting to the first action that comes to mind rather than the right one.",
+  "dup": "",
+  "topic": "acute vs chronic stress"
+ },
+ {
+  "s": "Human Factors and Aeromedical",
+  "q": "How does chronic stress change the way you fly?",
+  "a": "It shows up as fatigue, poor sleep, irritability, slow decisions, and a flat, indifferent approach to risk, and it <b>lowers the amount of acute stress you can absorb before you are overloaded</b>. A pilot carrying chronic stress has used up most of his margin before he gets to the airport, so a routine diversion or a stuck alternator pushes him straight into saturation.",
+  "dup": "",
+  "topic": "acute vs chronic stress"
+ },
+ {
+  "s": "Human Factors and Aeromedical",
+  "q": "How do the two kinds of stress interact?",
+  "a": "They stack. Chronic stress consumes the reserve you need for the acute events of a flight, so the same alternator failure that a rested pilot handles as a nuisance becomes an emergency for a pilot who has not slept properly in a month. <b>The dangerous combination is chronic stress plus a new acute demand</b>, which is the pattern behind a lot of loss of control accidents that read on paper as pilot error.",
+  "dup": "",
+  "topic": "acute vs chronic stress"
+ },
+ {
+  "s": "Human Factors and Aeromedical",
+  "q": "Where does stress sit in the IMSAFE check?",
+  "a": "S is for stress, and the question is not whether you feel stressed but whether anything is <b>occupying attention that belongs to the flight</b>. Illness, medication, alcohol, fatigue and emotion in the same checklist all feed stress, so a yes on any of them is usually a yes on S too. IMSAFE is a go/no-go check on the pilot and it has only one output: fly, or do not fly.",
+  "dup": "",
+  "topic": "acute vs chronic stress"
+ },
+ {
+  "s": "Human Factors and Aeromedical",
+  "q": "What do you actually do about stress before a flight?",
+  "a": "Treat it as a hazard with mitigations rather than a mood. Remove sources you can remove, build margin into the flight, add fuel and time, brief yourself on the things most likely to go wrong, and <b>set the no-go criteria before you are under pressure rather than during</b>. If the stress is chronic, the honest mitigation is to stop flying for a period and deal with the cause; a commercial pilot who cannot say that out loud will eventually say it to an investigator.",
+  "dup": "",
+  "topic": "acute vs chronic stress"
+ },
+ {
+  "s": "Human Factors and Aeromedical",
+  "q": "Why is stress more dangerous to a commercial pilot than to a private pilot?",
+  "a": "Because a commercial pilot is paid, and payment adds external pressure to every other source of stress: a customer waiting, a schedule, a reputation, an income. <b>The stress and the external pressure feed each other</b>, and the result is a pilot who launches into weather he would have declined as a private pilot. Naming the pay as a hazard on the PAVE checklist is the professional move.",
+  "dup": "",
+  "topic": "acute vs chronic stress"
+ },
+ {
+  "s": "Human Factors and Aeromedical",
+  "q": "How does stress relate to the hazardous attitudes?",
+  "a": "Stress is the fuel; the hazardous attitudes are how it comes out. A stressed pilot reaches for impulsivity because deciding fast ends the discomfort, or resignation because nothing he does seems to matter. The antidotes still work but you have to remember them, which is harder under load, so the defense is to <b>run the checklist rather than rely on judgment</b> when you can feel yourself under pressure.",
+  "dup": "",
+  "topic": "acute vs chronic stress"
+ },
+ {
+  "s": "Airworthiness Requirements",
+  "q": "What is a KOEL?",
+  "a": "The Kinds of Operation Equipment List. It is a table in the <b>Limitations section, Section 2, of a GAMA-format pilot's operating handbook and FAA approved airplane flight manual</b>, and it lists, by kind of operation, the equipment that must be installed and operable for that operation. Typical columns are VFR day, VFR night, IFR day, IFR night and sometimes flight into known icing, with the number of each item required.",
+  "dup": "",
+  "topic": "KOEL"
+ },
+ {
+  "s": "Airworthiness Requirements",
+  "q": "Where exactly do you look for the KOEL, and what else lives near it?",
+  "a": "Section 2, Limitations, of the AFM or POH, usually right after the weight, CG and maneuver limitations. Do not confuse it with the <b>equipment list in Section 6, which is an inventory of everything installed in that individual airplane with weights and arms</b>, nor with the airworthiness limitations in Section 4 of the maintenance manual. The KOEL says what is required; the equipment list says what is fitted.",
+  "dup": "",
+  "topic": "KOEL"
+ },
+ {
+  "s": "Airworthiness Requirements",
+  "q": "Does every airplane have a KOEL?",
+  "a": "No, and that is the point of the question. The kinds of operation equipment list arrived with the <b>GAMA standardized handbook format in the late 1970s</b>, so many older certificated airplanes have an airplane flight manual with no Section 2 table at all, and some handbooks print only a short kinds of operation paragraph instead. Open the book before you assert that the airplane has one.",
+  "dup": "",
+  "topic": "KOEL"
+ },
+ {
+  "s": "Airworthiness Requirements",
+  "q": "If the airplane has no KOEL, what governs required equipment?",
+  "a": "You fall back to the regulation and the paperwork. <b>14 CFR 91.205, Powered civil aircraft with standard category U.S. airworthiness certificates: Instrument and equipment requirements</b>, is the floor; then whatever the type certificate data sheet and the airplane's own equipment list require; then anything made mandatory by an airworthiness directive or required by the supplement to a supplemental type certificate; then any rule tied to the specific operation, such as 91.215 for a transponder.",
+  "dup": "",
+  "topic": "KOEL"
+ },
+ {
+  "s": "Airworthiness Requirements",
+  "q": "Does any regulation actually mention the KOEL by name?",
+  "a": "Yes. 14 CFR 91.213, Inoperative instruments and equipment, at paragraph (d)(2), requires that the inoperative item not be <b>indicated as required on the aircraft's equipment list or on the Kinds of Operations Equipment List for the kind of operation being conducted</b>. That is why the KOEL is not optional trivia: it is one of the four tests you have to pass before you fly with something inoperative and no minimum equipment list.",
+  "dup": "",
+  "topic": "KOEL"
+ },
+ {
+  "s": "Airworthiness Requirements",
+  "q": "An item is on the KOEL for VFR night but you are flying VFR day. Does it have to work?",
+  "a": "Not on that account. The list is organized <b>by kind of operation, so only the column for the operation you are conducting applies</b>. If the item is required only for VFR night and you fly day VFR, the KOEL does not require it, and you then go on to check 91.205 for day VFR, the equipment list, any applicable airworthiness directive, and finally 91.213(d) to placard and deactivate it properly.",
+  "dup": "",
+  "topic": "KOEL"
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Does your handbook have a kinds of operation list, and what does it say?",
+  "a": "Yes. Section 2.19 says the airplane may be operated <b>day or night VFR and day or night IFR when the appropriate equipment is installed and operable</b>, and then lists the equipment by kind of operation: twelve items for day VFR, with position, instrument and anti-collision lights added for night VFR, a vacuum pump and gyro suction indicator added for day IFR, and both sets combined for night IFR.",
+  "dup": "What kinds of operation is this airplane approved for?",
+  "topic": "KOEL"
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Read me the day VFR equipment list out of your handbook.",
+  "a": "Airspeed indicator; altimeter; magnetic compass; tachometer; oil pressure indicator; oil temperature indicator; fuel pressure indicator; fuel quantity indicator for each tank; volt-ammeter; elevator and rudder trim indicator; alternator; and a safety restraint for each occupant. <b>Twelve items</b>, and note that fuel pressure and the volt-ammeter are on this list even though 91.205 does not ask for them.",
+  "dup": "",
+  "topic": "KOEL"
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "If the handbook lists the equipment, why does 91.205 still apply?",
+  "a": "Because the handbook list is the type certification basis and the regulation is the operating rule, and you must satisfy both. The handbook says so itself: the note under Section 2.19 states that <b>the list does not include the flight instruments and communication and navigation equipment required by the Part 91 and Part 135 operating rules</b>. So an ELT, a transponder where required and shoulder harnesses come from the regulation, not from the handbook.",
+  "dup": "If the handbook lists required equipment, why does 91.205 still matter?",
+  "topic": "KOEL"
+ },
+ {
+  "s": "Airworthiness Requirements",
+  "q": "Is a flap position indicator required on this airplane?",
+  "a": "No. Walk it through: there is no minimum equipment list, so start with 14 CFR 91.205(b) for day VFR and run the mnemonic; <b>91.205 requires a landing gear position indicator on a retractable, and says nothing at all about flaps</b>. Then check the handbook's kinds of operation list, which does not list one, then the equipment list and any airworthiness directive. Nothing requires it, so the airplane is legal without it.",
+  "dup": "",
+  "topic": "flap position indicator"
+ },
+ {
+  "s": "Airworthiness Requirements",
+  "q": "Walk the 91.205 day VFR list and show me where a flap indicator would appear if it were required.",
+  "a": "Airspeed indicator, tachometer, oil pressure gauge, manifold pressure gauge for an altitude engine, altimeter, temperature gauge for each liquid-cooled engine, oil temperature gauge for each air-cooled engine, fuel gauge for each tank, <b>landing gear position indicator if the gear is retractable</b>, anticollision lights, magnetic direction indicator, ELT, and safety belts and shoulder harnesses. Gear position is in there. Flap position is not.",
+  "dup": "",
+  "topic": "flap position indicator"
+ },
+ {
+  "s": "Airworthiness Requirements",
+  "q": "Give me the general method for answering 'is this piece of equipment required?'",
+  "a": "Five places, in order. <b>14 CFR 91.205 and any other operating rule that applies to the flight</b>, such as 91.207 for the ELT or 91.215 for a transponder; then the kinds of operation equipment list in Section 2 of the handbook; then the airplane's own equipment list in Section 6; then any airworthiness directive or the flight manual supplement to an installed STC; and then, if it is inoperative, 91.213.",
+  "dup": "",
+  "topic": "flap position indicator"
+ },
+ {
+  "s": "Airworthiness Requirements",
+  "q": "What is the title of 91.205 and what does it actually cover?",
+  "a": "14 CFR 91.205, Powered civil aircraft with standard category U.S. airworthiness certificates: Instrument and equipment requirements. It applies to airplanes with a <b>standard airworthiness certificate</b>, which is why the rule does not govern an experimental or a limited category airplane in the same way. Paragraph (b) is VFR day, (c) adds VFR night, (d) adds IFR, and (e) covers flight at and above FL240.",
+  "dup": "",
+  "topic": "flap position indicator"
+ },
+ {
+  "s": "Airworthiness Requirements",
+  "q": "An item is inoperative and the airplane has no MEL. What does 91.213(d) require?",
+  "a": "Four tests. The item must not be part of the <b>VFR-day type certification requirements</b>; must not be listed as required on the equipment list or the kinds of operation equipment list for this operation; must not be required by 91.205 or any other rule for this flight; and must not be required to be operative by an airworthiness directive. Then it is removed or deactivated and placarded inoperative, and a pilot or mechanic determines it is not a hazard.",
+  "dup": "You find an item inoperative and the aircraft has no minimum equipment list. What does 91.213 require?",
+  "topic": "flap position indicator"
+ },
+ {
+  "s": "Airworthiness Requirements",
+  "q": "Who may remove or deactivate the inoperative item, and who placards it?",
+  "a": "Deactivation or removal is maintenance: it is done by a <b>certificated mechanic or repair station unless it happens to be preventive maintenance a pilot may do under 14 CFR Part 43, Appendix A</b>. The placard reading INOPERATIVE goes on in either case, and the determination that the airplane is still safe for the flight is made by the pilot in command or by a mechanic. 14 CFR 91.213, Inoperative instruments and equipment.",
+  "dup": "",
+  "topic": "flap position indicator"
+ },
+ {
+  "s": "Airworthiness Requirements",
+  "q": "Suppose the airplane did have a flap position indicator and it failed. May you fly?",
+  "a": "Probably yes, but you have to run 91.213(d) rather than assume it. Check the VFR-day type certification requirements, the kinds of operation list, the equipment list and any AD. If it clears all four, <b>deactivate or remove it, placard it INOPERATIVE and make the hazard determination</b>, and then satisfy yourself operationally: without the indicator you confirm flap position by the handle detent, by the control feel, and by looking at the wing.",
+  "dup": "",
+  "topic": "flap position indicator"
+ },
+ {
+  "s": "Airworthiness Requirements",
+  "q": "Why is 'the KOEL does not list it' not a complete answer on its own?",
+  "a": "Because the KOEL is only one of the four tests in 91.213(d), and because some airplanes have no KOEL at all. <b>An item can be absent from the KOEL and still be required by 91.205, by an airworthiness directive or by an STC supplement</b>. The complete answer names the regulation first, then the handbook, then the equipment list, then the AD and STC paperwork, and says which one actually decided the question.",
+  "dup": "",
+  "topic": "flap position indicator"
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "How do you know what the flaps are doing in this airplane without an indicator?",
+  "a": "By the handle and by the airplane. The flaps are <b>manually controlled by a handle between the front seats that locks into detents at 10, 25 and 40 degrees</b>, so the number of notches you have pulled is the flap setting; the pitch change and the speed decay confirm it; and on a low wing you can see the flap itself from the cockpit. There is no electric motor and no position light to fail.",
+  "dup": "",
+  "topic": "flap position indicator"
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Does the manual flap system change your answer on required equipment?",
+  "a": "It changes the practical answer, not the legal one. Legally you still work 91.205, the kinds of operation list, the equipment list and any AD. Practically, a <b>cable-operated flap handle with mechanical detents is its own position indicator</b>, which is why Piper never fitted one, and it is also why the flaps keep working after an alternator failure when the electric fuel pump, the stall warning horn and the radios are gone.",
+  "dup": "",
+  "topic": "flap position indicator"
+ },
+ {
+  "s": "Navigation Equipment",
+  "q": "An examiner points at a piece of avionics and asks whether it is required. How do you structure the answer?",
+  "a": "Name the sources in order rather than guessing. For this flight: 91.205 for day VFR, 91.207 for the ELT, 91.215 for the transponder, 91.225 and 91.227 for ADS-B Out where it is required, then the handbook's kinds of operation list, the equipment list, and any AD or STC supplement. <b>If it is on none of those, it is not required, and if it is inoperative I still owe 91.213(d) a placard</b>.",
+  "dup": "",
+  "topic": "flap position indicator"
+ },
+ {
+  "s": "Navigation Equipment",
+  "q": "Is a second navigation radio required for your VFR cross country?",
+  "a": "No. 14 CFR 91.205(b) requires no navigation radio at all for day VFR, and 91.205(c) adds nothing of the kind for night. Radios become required by the <b>airspace and the kind of operation rather than by the equipment rule</b>: two-way radio for Class B, C and D, a transponder with altitude reporting where 91.215 says so, and ADS-B Out where 91.225 says so. For VFR pilotage, a second radio is good practice, not a requirement.",
+  "dup": "",
+  "topic": "flap position indicator"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "What is a Restricted Radiotelephone Operator Permit?",
+  "a": "An operator permit for the person using an aircraft radio station, issued by the <b>Federal Communications Commission, not the FAA</b>, under 47 CFR Part 87, Aviation Services. It is a lifetime permit, it is held by the pilot rather than by the airplane, and it has nothing to do with your pilot certificate or medical. It is form FCC 605 and it is granted without a test.",
+  "dup": "",
+  "topic": "radiotelephone permit"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "When do you actually need a Restricted Radiotelephone Operator Permit?",
+  "a": "For <b>international operations</b>. A pilot flying outside the United States, or operating an aircraft radio station on an international flight, needs the permit, and that is why it is on the list for a trip to the Bahamas, Canada or Mexico. It is not required for domestic flight within the United States, so it does not belong on the list of what you must have on your person to fly locally.",
+  "dup": "",
+  "topic": "radiotelephone permit"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "The examiner asks what you must have on your person to fly. Should you say radiotelephone permit?",
+  "a": "No, and listing it is the classic giveaway. 14 CFR 61.3 requires a <b>pilot certificate, an appropriate medical certificate or BasicMed documentation, and a government-issued photo identification</b>, and that is the answer. Add the radiotelephone permit only if the examiner asks about international flight, and then say plainly that it is an FCC document required for operations outside the United States.",
+  "dup": "What three documents must you have on your person to act as pilot in command?",
+  "topic": "radiotelephone permit"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "Who issues the permit, how long is it good for, and what does it cost you to keep?",
+  "a": "The FCC issues it under 47 CFR Part 87, Aviation Services. It is valid for the <b>lifetime of the holder</b> and there is nothing to renew, no examination and no recurrent requirement. Because there is no expiry and no test, a pilot who does any international flying should simply get one and put it in the flight bag rather than try to time it against a trip.",
+  "dup": "",
+  "topic": "radiotelephone permit"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "What is the difference between the operator permit and the aircraft radio station license?",
+  "a": "The permit belongs to the person operating the radio; the <b>station license belongs to the aircraft and is also issued by the FCC</b>. On an international flight you need both: the airplane must hold a current aircraft radio station license and the pilot must hold the restricted operator permit. Domestically, neither is required of a U.S.-registered aircraft operating within the United States.",
+  "dup": "",
+  "topic": "radiotelephone permit"
+ },
+ {
+  "s": "Airworthiness Requirements",
+  "q": "Is an FCC aircraft radio station license required for your Warrior?",
+  "a": "Not for domestic flight. Since 1996 a U.S.-registered aircraft operating <b>within the United States has not needed an FCC station license</b>. It is required again as soon as the airplane leaves the country, so the Bahamas trip needs the station license in the airplane and the restricted radiotelephone operator permit in the pilot's pocket. 47 CFR Part 87, Aviation Services, is the FCC rule.",
+  "dup": "When is an FCC radio station license required?",
+  "topic": "radiotelephone permit"
+ },
+ {
+  "s": "Airworthiness Requirements",
+  "q": "Which of the documents in ARROW is an FCC document?",
+  "a": "None of them, and that is the trap. ARROW is the <b>airworthiness certificate, registration certificate, radio station license if required, operating limitations and weight and balance data</b>, and the R is the one that sometimes stands for the FCC station license, required only for international operations. The airworthiness and registration certificates are FAA documents; the operating limitations and weight and balance come from the manufacturer and the last weighing.",
+  "dup": "",
+  "topic": "radiotelephone permit"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "Define operational control.",
+  "a": "14 CFR 1.1, General definitions: operational control, with respect to a flight, means the <b>exercise of authority over initiating, conducting or terminating a flight</b>. It is not the same as holding the controls. The person with operational control decides whether the flight goes, where it goes, when it stops, and who flies it, and he carries the regulatory responsibility that goes with those decisions.",
+  "dup": "What is operational control?",
+  "topic": "operational control"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "How do you tell who has operational control in a real arrangement?",
+  "a": "Look at the decisions and the money, not the labels. Who decides whether the flight launches and whether to divert or cancel? Who selects, hires and pays the crew? Who holds the aircraft's maintenance responsibility and the insurance? Who bears the financial risk and takes the profit? <b>The party that initiates, conducts and terminates the flight has operational control</b>, whatever the contract calls itself.",
+  "dup": "",
+  "topic": "operational control"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "Why is operational control the hinge question in any lease or rental scenario?",
+  "a": "Because it decides which operating rule applies. If the <b>customer has operational control and you are merely a hired pilot, the flight is Part 91</b> and your commercial certificate is enough. If you have operational control and you are also furnishing the aircraft for compensation, you are holding yourself out as an air carrier and the flight needs a certificate under Part 119 and operations under Part 135.",
+  "dup": "",
+  "topic": "operational control"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "A customer who is not a pilot hires you to fly his own airplane. Legal on a commercial certificate?",
+  "a": "Yes. You are providing <b>pilot services only; the customer provides the aircraft and keeps operational control</b>, so it is a Part 91 flight and 14 CFR 61.133, Commercial pilot privileges and limitations, lets you be paid for it. Confirm the practical items: that you are named on his insurance, that you meet the policy's open pilot requirements, that you are current and qualified in type, and that the airplane is airworthy.",
+  "dup": "",
+  "topic": "operational control"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "You arrive and the owner's airplane is leaking oil and is not airworthy. He offers to rent one instead. May you fly it?",
+  "a": "Maybe, and the question to ask is <b>who will have operational control of the rented airplane</b>. If the customer rents it in his own name, satisfies the FBO's requirements and still decides the flight, you remain a hired pilot on a Part 91 flight. If you rent it and then carry him for compensation, you are supplying both the aircraft and the crew for hire, which is carriage for hire and needs a Part 119 certificate.",
+  "dup": "",
+  "topic": "operational control"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "Why can't the customer simply rent the airplane and hand you the keys?",
+  "a": "Because the rental agreement usually will not let him. Most FBOs will only rent to a <b>pilot who has been checked out and is named on the policy</b>, and your customer is not a pilot. If the FBO rents to him anyway, read the agreement: if it requires that the FBO approve the pilot, or if the FBO is really furnishing aircraft and crew together, the FBO may be the one holding operational control, and now it is their certificate problem.",
+  "dup": "",
+  "topic": "operational control"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "What is a dry lease?",
+  "a": "A lease of the <b>aircraft alone, with no crew</b>. The lessee takes possession of the airplane and holds operational control, provides or hires the pilots himself, and operates under Part 91 if the operation otherwise qualifies. A genuine dry lease is the normal, legal way for a non-pilot owner or a company to put an airplane and a hired pilot together without needing an air carrier certificate.",
+  "dup": "",
+  "topic": "operational control"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "What is a wet lease?",
+  "a": "14 CFR 110.2, Definitions, defines a wet lease as <b>any leasing arrangement whereby a person agrees to provide an entire aircraft and at least one crewmember</b>. Providing aircraft and crew together for compensation is carriage for hire, so a wet lease by someone without a Part 119 certificate is an illegal charter no matter what the paperwork calls it. The common dodge is a dry lease on paper with the lessor quietly supplying the pilot.",
+  "dup": "",
+  "topic": "operational control"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "What makes a 'dry lease' a sham in the FAA's eyes?",
+  "a": "When the paperwork says dry but the <b>lessor keeps control of who flies, when it flies and whether it goes</b>. Warning signs: the lessor supplies or approves the pilot, the lessor schedules and dispatches, the lessee pays a per-hour price that looks like a charter rate, the lessee never sees the maintenance decisions, and the lessee could not operate the airplane without the lessor's organization. The FAA looks at substance, not titles.",
+  "dup": "",
+  "topic": "operational control"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "Does a truth-in-leasing clause apply to a Warrior lease?",
+  "a": "No. 14 CFR 91.23, Truth-in-leasing clause requirement in leases and conditional sales contracts, applies to <b>large civil aircraft, meaning more than 12,500 pounds maximum certificated takeoff weight</b>. Your airplane is far below that. It is still worth knowing, because 91.23 is the rule that forces a lease to state who is responsible for operational control and for compliance, which is exactly the question you have to answer anyway.",
+  "dup": "",
+  "topic": "operational control"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "The scenario keeps getting more complicated. What is the right professional answer?",
+  "a": "To say out loud that the arrangement has become complex enough that I am not certain which rule applies, and then to <b>decline the flight or get official guidance from the FSDO before flying it</b>. An inspector will answer a question like this in writing. Guessing costs you a certificate; asking costs you a phone call, and a customer who will not wait for the answer is telling you something about the trip.",
+  "dup": "",
+  "topic": "operational control"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "Why is 'I am only the pilot' not a defense if the operation turns out to be an illegal charter?",
+  "a": "Because 14 CFR 91.3, Responsibility and authority of the pilot in command, makes you <b>directly responsible for, and the final authority as to, the operation of that aircraft</b>, and enforcement actions in illegal charter cases routinely reach the pilot as well as the operator. You are the one who must determine which part you are operating under before you launch; nobody else on the ramp is going to do it for you.",
+  "dup": "",
+  "topic": "operational control"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "What questions do you ask the customer before you accept a job like this?",
+  "a": "Who owns or is renting the airplane and in whose name; who is paying for the airplane and who is paying me; who decides whether the flight goes and where; who is responsible for maintenance and for the airworthiness determination; am I named on the insurance and what are the open pilot requirements; and is there a written agreement I can read. <b>If any answer is vague, the answer to the flight is not yet</b>.",
+  "dup": "",
+  "topic": "operational control"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "Which advisory circular would you point the customer at?",
+  "a": "AC 120-12A, Private Carriage Versus Common Carriage of Persons or Property, which is where the four elements of common carriage and the meaning of holding out come from. For leasing specifically, <b>AC 91-37, Truth in Leasing</b>, explains what the parties to a lease have to get right about operational control. Neither is a regulation, but both are how the FAA says it will read the arrangement.",
+  "dup": "Which advisory circular explains common carriage versus private carriage?",
+  "topic": "operational control"
+ },
+ {
+  "s": "National Airspace System",
+  "q": "You see a stadium symbol on the sectional. What does it mean to you?",
+  "a": "That there is a large stadium there, charted as a visual landmark, and that it carries a <b>standing flight restriction whenever a qualifying sporting event is in progress</b>. The chart does not draw the restricted airspace, because the restriction only exists while the event is on, so the symbol is a prompt to check NOTAMs for the day rather than an airspace boundary.",
+  "dup": "",
+  "topic": "stadium symbol"
+ },
+ {
+  "s": "National Airspace System",
+  "q": "State the standing sporting event flight restriction.",
+  "a": "No aircraft below <b>3,000 feet AGL within a 3 nautical mile radius</b> of any stadium with a seating capacity of 30,000 or more people during a qualifying event, effective from one hour before the scheduled event time until one hour after the end of the event. It is published as a standing FDC NOTAM rather than being charted, and it is reissued and renumbered periodically.",
+  "dup": "",
+  "topic": "stadium symbol"
+ },
+ {
+  "s": "National Airspace System",
+  "q": "Which events trigger the stadium restriction?",
+  "a": "Major League Baseball, National Football League and <b>NCAA Division One football</b> games, and major motor speedway events such as NASCAR Sprint, Indy Car and Champ series races, at stadiums or speedways seating 30,000 or more. A high school game, a minor league game, a concert or a Division Two football game does not trigger it, though a separate TFR can always be issued for any of them.",
+  "dup": "",
+  "topic": "stadium symbol"
+ },
+ {
+  "s": "National Airspace System",
+  "q": "What is the regulatory basis for the stadium restriction and for sporting event TFRs generally?",
+  "a": "The standing stadium NOTAM is issued as a special security instruction under <b>14 CFR 99.7, Special security instructions</b>. Separately, 14 CFR 91.145, Management of aircraft operations in the vicinity of aerial demonstrations and major sporting events, is the rule the FAA uses to put temporary restrictions around air shows and major sporting events by NOTAM. Cite both and say which one the stadium NOTAM uses.",
+  "dup": "",
+  "topic": "stadium symbol"
+ },
+ {
+  "s": "National Airspace System",
+  "q": "Who may operate inside a stadium restriction?",
+  "a": "Only the operations the NOTAM allows. Typically that is law enforcement and military aircraft supporting the event, air ambulance flights, aircraft operating <b>under an ATC clearance for arrival or departure at an airport inside the restricted area</b>, and approved event-related operations such as a broadcast or banner operator with a waiver. A transient VFR airplane without a reason to be there has none.",
+  "dup": "",
+  "topic": "stadium symbol"
+ },
+ {
+  "s": "National Airspace System",
+  "q": "You are a commercial pilot and someone offers you money to tow a banner over a game. What is your answer?",
+  "a": "That the stadium restriction forbids it unless the operation is specifically approved, so I would need the event's approval and an FAA waiver before I accepted the job. Banner towing is otherwise an operation a commercial pilot can be paid for without a Part 119 certificate, under the exception in <b>14 CFR 119.1(e)</b>, but the airspace restriction is a separate problem and the money does not solve it.",
+  "dup": "",
+  "topic": "stadium symbol"
+ },
+ {
+  "s": "National Airspace System",
+  "q": "How do you find out whether a stadium restriction is active on your route today?",
+  "a": "Check NOTAMs in the preflight briefing and look at the graphical TFR depiction, and read the FDC NOTAMs, not just the local field ones. <b>The stadium restriction is time-based and tied to the event schedule, so you have to know when the game is</b>. On a route that passes a charted stadium, the safe planning move is to route around it or above 3,000 feet AGL and not depend on the timing being what you expected.",
+  "dup": "",
+  "topic": "stadium symbol"
+ },
+ {
+  "s": "National Airspace System",
+  "q": "What happens if you blunder through an active stadium restriction?",
+  "a": "You may be intercepted, and you can expect a certificate action: a special security instruction issued under 14 CFR 99.7 has the force of a regulation, and 14 CFR 91.103, Preflight action, required you to become familiar with all available information concerning the flight. <b>The defense that you did not know is the admission that you did not check NOTAMs</b>. Squawk, listen on 121.5 and comply if you are intercepted.",
+  "dup": "",
+  "topic": "stadium symbol"
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Gusty wind splits two runways evenly. How do you choose the departure runway?",
+  "a": "Compare them on headwind, crosswind and gust, then on what is off the departure end. Take the runway with a <b>headwind component rather than any tailwind</b>, and if the headwinds are equal, look at crosswind magnitude including gusts, runway length and surface, obstacles and terrain, the traffic flow in use, and where you would go if the engine quit. Then decide whether the result is inside your personal limits, not just the airplane's.",
+  "dup": "",
+  "topic": "crosswind runway choice"
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "The wind is exactly between the two runways. What is left to decide it?",
+  "a": "Everything that is not the wind. Runway length and width, slope and surface, the obstacle picture off each end, where the emergency landing options are, which runway the traffic is using, how long the taxi is with the wind on the tail, and which side the crosswind will be on. <b>When the wind gives you no answer, the engine failure after takeoff should give you one</b>.",
+  "dup": "",
+  "topic": "crosswind runway choice"
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "On takeoff, does a crosswind from the left or from the right ask more of your right rudder?",
+  "a": "From the left. The fin is behind the main gear and the center of gravity, so the airplane weathervanes into the wind: a left crosswind swings the nose left, and you <b>hold the centerline with right rudder on top of the right rudder the left-turning tendencies already need</b>. A right crosswind swings the nose right, which partly offsets P-factor, torque and slipstream. Say it that way and reason out loud; the examiner is watching the reasoning.",
+  "dup": "",
+  "topic": "crosswind runway choice"
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "The prior candidate chose the runway with the wind from the left to save right rudder. Critique that.",
+  "a": "The conclusion is defensible on other grounds but that reason is backwards. Weathervaning turns the nose into the wind, so a <b>left crosswind increases the right rudder you need, it does not reduce it</b>. What a left crosswind does give you is left aileron into the wind, whose down-going right aileron adds a little right-yawing drag, and that is a small effect. Choose the runway on components, length and emergency options, and get the rudder argument the right way round.",
+  "dup": "",
+  "topic": "crosswind runway choice"
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What do you do with the controls on a crosswind takeoff roll?",
+  "a": "Full aileron into the wind as you start the roll, reducing it as the ailerons become effective, and rudder as needed to hold the centerline. Keep straight and keep the upwind wing down. <b>Accelerate slightly past the normal rotation speed and lift off positively so the airplane does not settle back on one wheel</b>, then establish a crab on the climbout. In this airplane the demonstrated crosswind is 17 knots.",
+  "dup": "",
+  "topic": "crosswind runway choice"
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Why does the emergency return matter when you pick the departure runway?",
+  "a": "Because the wind that is a 15-knot crosswind on takeoff is the same 15-knot crosswind if you have to come back, and you will be coming back with a problem, probably low, possibly with partial power, on whichever runway you can reach. <b>If the crosswind is marginal for a planned landing it is unacceptable for an unplanned one</b>. Also look at what is straight ahead off each end: fields, water, trees, a city.",
+  "dup": "",
+  "topic": "crosswind runway choice"
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Is the maximum demonstrated crosswind component a limitation?",
+  "a": "No. It is the <b>strongest 90-degree crosswind in which the airplane was actually flown and shown to be controllable during certification</b>, not a structural or regulatory limit, and on this airplane it is 17 knots from Section 4.5 and the cockpit placard. You may legally exceed it. Whether you should is a question about you, your currency and the day, and a school or an insurer may make it a hard limit anyway.",
+  "dup": "What is maximum demonstrated crosswind component, and is it a limitation?",
+  "topic": "crosswind runway choice"
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "How do you compute crosswind and headwind components from the wind and the runway?",
+  "a": "Find the angle between the wind direction and the runway heading, then crosswind equals wind speed times the sine of the angle and headwind equals wind speed times the cosine. <b>Thirty degrees gives half the wind as crosswind, forty-five gives about 70 percent, sixty gives about 90 percent</b>, and beyond sixty treat it as nearly all crosswind. The POH chart does the same thing graphically.",
+  "dup": "",
+  "topic": "crosswind and tailwind components"
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Wind 095 at 22 knots, runways 05 and 14. Work both.",
+  "a": "Runway 05 is 050 magnetic, so the wind is 45 degrees off to the right; runway 14 is 140, so the wind is 45 degrees off to the left. Sine and cosine of 45 are both 0.707, so each runway sees <b>a 15.6-knot crosswind and a 15.6-knot headwind</b>. The wind genuinely splits them, so the decision has to come from the gust, the runway lengths, the obstacles and the side you want the crosswind on.",
+  "dup": "",
+  "topic": "crosswind and tailwind components"
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Wind 095 at 22 gusting 30, runway 05. Does the gust change your decision?",
+  "a": "Yes, and it is the number that decides the flight. At 30 knots the crosswind component becomes 30 times 0.707, which is <b>21.2 knots, well above this airplane's 17-knot demonstrated crosswind</b>. The gust, not the steady wind, is what you will be flying in the flare. I would say no to a departure that commits me to that crosswind on the return, and wait for it to come down or move the flight.",
+  "dup": "",
+  "topic": "crosswind and tailwind components"
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Wind 200 at 16, runway 05. What are the components?",
+  "a": "Runway 05 is 050 and the wind is from 200, so the angle is 150 degrees, which means the wind is largely behind you. Crosswind is 16 times the sine of 150, which is 16 times 0.5, or <b>8 knots of crosswind and 13.9 knots of tailwind</b>. A 14-knot tailwind is a long way outside what a Warrior's takeoff chart covers, so that runway is out; take the reciprocal.",
+  "dup": "",
+  "topic": "crosswind and tailwind components"
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Wind 040 at 20 on runway 36. Work it, and tell me what it means.",
+  "a": "Forty degrees off the nose to the right. Crosswind is 20 times the sine of 40, which is 20 times 0.643, or 12.9 knots; headwind is 20 times the cosine of 40, which is 20 times 0.766, or 15.3 knots. So about <b>13 knots of crosswind and 15 knots of headwind</b>. The crosswind is inside the 17-knot demonstrated figure, the headwind shortens the takeoff roll, and that runway is a reasonable choice.",
+  "dup": "",
+  "topic": "crosswind and tailwind components"
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "How much does a tailwind hurt, and what does the handbook assume?",
+  "a": "A great deal, and it is not symmetric with a headwind. The general planning rule is that a <b>10 percent tailwind component relative to liftoff speed increases the takeoff distance by roughly 20 percent</b>, and landing distance grows the same way. The handbook's takeoff and landing charts are built for headwind components and usually only cover a small tailwind if any, so beyond that you are extrapolating, which you should not do.",
+  "dup": "",
+  "topic": "crosswind and tailwind components"
+ },
+ {
+  "s": "Stage Check Questions",
+  "q": "The crosswind works out near 15 knots, gusting over 20. Would you be comfortable departing?",
+  "a": "I would compute the components first and say the number out loud. With a steady crosswind near 15 knots and gusts putting it above the airplane's 17-knot demonstrated figure, my answer is no, for three reasons: <b>the gust spread, not the steady wind, is what I have to fly</b>; the same crosswind is waiting for me if I have to come straight back; and I have not flown a crosswind that strong recently enough to call myself proficient in it.",
+  "dup": "",
+  "topic": "crosswind runway choice"
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "How do you read a time, fuel and distance to climb chart?",
+  "a": "It is not a single lookup. The chart gives the time, fuel and distance accumulated in a climb <b>from sea level at standard conditions up to the altitude you enter with</b>, so you read it twice: once at the departure airport's pressure altitude and temperature, once at your cruise altitude and the temperature up there, and subtract the first set of numbers from the second. The difference is what the climb costs you.",
+  "dup": "",
+  "topic": "time fuel distance to climb"
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Work an example of a climb computation for me.",
+  "a": "Say the chart gives 4 minutes, 1.0 gallon and 6 nautical miles at the departure field's conditions, and 15 minutes, 3.2 gallons and 24 nautical miles at cruise altitude. Subtract: <b>11 minutes, 2.2 gallons and 18 nautical miles</b> for the climb segment. Then add the handbook's allowance for start, taxi and run-up, which on this airframe is the 7-pound fuel allowance, a little over a gallon, on top of that.",
+  "dup": "",
+  "topic": "time fuel distance to climb"
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Why do you have to subtract rather than just read the cruise altitude line?",
+  "a": "Because the chart is <b>cumulative from sea level and standard temperature, not from your airport</b>. If you depart from a field at 3,000 feet and read only the 8,000-foot line, you have charged yourself for 3,000 feet of climb you never flew, which overstates time, fuel and distance. On a short leg out of a high airport that error is large enough to change the altitude you pick.",
+  "dup": "",
+  "topic": "time fuel distance to climb"
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What does temperature do to the climb numbers?",
+  "a": "Hot air raises density altitude, which costs you both lift and power, so the rate of climb falls and <b>time, fuel and distance to climb all increase</b>. Most charts give a correction, typically a percentage increase in time, fuel and distance for each given number of degrees above standard; some are plotted with temperature lines you enter directly. If the chart has no correction for your temperature you must not extrapolate past it.",
+  "dup": "",
+  "topic": "time fuel distance to climb"
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What does altitude itself do to the climb?",
+  "a": "Rate of climb decreases steadily with altitude as the normally aspirated engine loses power and the wing needs a higher true airspeed for the same indicated airspeed, so each successive thousand feet takes longer, burns more and covers more ground. <b>Vx and Vy converge as you climb, and they meet at the absolute ceiling where rate of climb is zero</b>. The service ceiling is where the best rate has fallen to 100 feet per minute.",
+  "dup": "",
+  "topic": "time fuel distance to climb"
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What are the chart's assumptions, and what do you do about them?",
+  "a": "A climb at the published climb speed, full throttle, mixture leaned per the handbook, a clean airplane, <b>no wind, a level hard surface runway and a new airplane flown by a test pilot</b>. Your airplane is 40 years old, you are not a test pilot, and the chart distance is still air distance. Add a margin, correct the distance for wind using groundspeed, and treat the result as a plan, not a promise.",
+  "dup": "",
+  "topic": "time fuel distance to climb"
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "The climb chart says 18 nautical miles in 11 minutes. There is a 20-knot headwind. Now what?",
+  "a": "That 18 miles is a still air distance. Work it in groundspeed instead: at a climb speed of, say, 85 knots true with a 20-knot headwind, groundspeed is 65 knots, so 11 minutes covers <b>65 times 11 over 60, which is 11.9 nautical miles</b>. The fuel and time do not change, but you are 6 miles short of where the chart put you, which matters when the first checkpoint is inside the climb.",
+  "dup": "",
+  "topic": "time fuel distance to climb"
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "How does the climb segment fit into your navigation log?",
+  "a": "As its own leg. The climb has a different true airspeed, a different wind and a different fuel flow from cruise, so compute time, fuel and distance to climb from the chart, <b>plot where top of climb falls along the first leg</b>, and start the cruise calculation from there. If the whole first leg is inside the climb you never reach the cruise numbers at all, which is a common planning error on a short first leg.",
+  "dup": "",
+  "topic": "time fuel distance to climb"
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Do you work time, fuel and distance to climb at the destination too?",
+  "a": "Yes, if you are planning a climb there, and the examiner is likely to ask for both ends. At the destination you work the same chart with that field's pressure altitude and temperature to find what a <b>go-around, a missed approach or a departure on the return leg would cost</b>, and you work the takeoff and landing distances against the runway you will actually use there, in the conditions forecast for your arrival.",
+  "dup": "",
+  "topic": "time fuel distance to climb"
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Your loading is legal on weight but the CG is close to the forward limit. What are your options?",
+  "a": "Move weight aft or add weight aft. In order of preference: put the baggage in the baggage compartment instead of the back seat; move a passenger from the front to the rear seats; add ballast in the baggage compartment; or reduce weight that is forward of the CG. <b>On this airplane the baggage compartment arm is 142.8 inches, far aft of everything else you can load</b>, so it is the strongest lever you have.",
+  "dup": "",
+  "topic": "forward CG correction"
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Why is the baggage compartment such a powerful lever on this airplane?",
+  "a": "Because of how far aft it is. The loading arms are <b>80.5 inches for the front seats, 118.1 for the rear seats, 95.0 for fuel and 142.8 for baggage</b>, and the aft CG limit is 93.0 inches. Baggage sits almost 50 inches behind the aft limit, so every pound you put there moves the CG aft several times as effectively as the same pound in the back seat.",
+  "dup": "",
+  "topic": "forward CG correction"
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Work it: 1,900 pounds, CG at 83.2 inches, you add a 25-pound bag in the baggage compartment.",
+  "a": "Old moment is 1,900 times 83.2, which is 158,080 inch-pounds. The bag adds 25 times 142.8, which is 3,570. New weight 1,925 pounds, new moment 161,650, and new CG is 161,650 divided by 1,925, which is <b>83.97 inches</b>. That is 0.77 inches further aft, and at 1,925 pounds the forward limit is still 83.0 inches, so the loading now has nearly an inch of margin instead of two tenths.",
+  "dup": "",
+  "topic": "forward CG correction"
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "At 2,000 pounds with the CG at 84.0 inches, how much ballast in the baggage compartment moves the CG aft half an inch?",
+  "a": "Set the new CG to 84.5 and solve. Two thousand times 84.0 plus w times 142.8, all over 2,000 plus w, equals 84.5. That gives 168,000 plus 142.8w equals 169,000 plus 84.5w, so 58.3w equals 1,000 and <b>w is about 17 pounds</b>. Seventeen pounds in the baggage compartment buys half an inch, which tells you how little ballast it takes and how much a forgotten bag back there matters.",
+  "dup": "",
+  "topic": "forward CG correction"
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Give me the weight shift formula and use it.",
+  "a": "Weight shifted divided by total weight equals change in CG divided by distance shifted. Move a 25-pound bag from the rear seat at 118.1 to the baggage compartment at 142.8 in a 2,100-pound airplane: 25 times 24.7 equals 617.5, divided by 2,100 is <b>0.29 inches aft</b>. Nothing changes except the CG, because you did not add or remove any weight, which is why a shift is the cleanest fix.",
+  "dup": "How do you compute a weight shift?",
+  "topic": "forward CG correction"
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "How much does moving a passenger from the front to the back seat change things?",
+  "a": "A lot. A 170-pound passenger moving from the front seats at 80.5 inches to the rear seats at 118.1 inches shifts 37.6 inches. In a 2,200-pound airplane that is 170 times 37.6 divided by 2,200, which is <b>2.9 inches aft</b>. That is the biggest single lever on the airplane, so if the CG is forward, seat the heavier people in the back before you reach for ballast, and then check the aft limit.",
+  "dup": "",
+  "topic": "forward CG correction"
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What has to be checked after you add weight aft to fix a forward CG?",
+  "a": "Three things. That the new gross weight is still within <b>2,325 pounds for this serial number</b>; that the baggage does not exceed the 200-pound placarded limit and is secured; and that you have not now gone past the aft limit of 93.0 inches, in either the takeoff or the landing condition. Also confirm that you are still in the category you intend, since utility category on this airplane allows no baggage and no aft passengers.",
+  "dup": "",
+  "topic": "forward CG correction"
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Does fuel burn help you with a forward CG problem on this airplane?",
+  "a": "No, it makes it worse. The fuel arm is 95.0 inches, which is <b>aft of the aft CG limit of 93.0 and aft of any realistic loaded CG</b>, so burning fuel moves the center of gravity forward. That means the landing condition, not the takeoff condition, is the critical one when you are tight against the forward limit, and you must run the numbers for both.",
+  "dup": "",
+  "topic": "forward CG correction"
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What does a forward CG actually do to the airplane?",
+  "a": "It increases longitudinal stability and makes the airplane feel heavy in pitch. The tail carries a larger download, so the wing must produce more lift, which <b>raises the stall speed and increases cruise drag, costing you speed and range</b>. The nose is harder to raise in the flare and on a soft field takeoff, and at the extreme you may not be able to round out at all. The upside is docile stall behavior and easier recovery.",
+  "dup": "",
+  "topic": "forward CG correction"
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Could you simply put ballast in the back seat instead of the baggage compartment?",
+  "a": "You could, and it is legal if it is properly secured and within the seat's structural limit, but it is less effective: the rear seat arm is 118.1 against the baggage compartment's 142.8. You need <b>roughly twice as much weight in the back seat to achieve the same CG shift</b> once you account for the distance from the CG. Secure it either way, because unsecured ballast becomes a projectile and a moving CG.",
+  "dup": "",
+  "topic": "forward CG correction"
+ },
+ {
+  "s": "Navigation Equipment",
+  "q": "What is the difference between a TO and a FROM indication?",
+  "a": "It tells you which half of the VOR's 360 radials the airplane is in, relative to the course set in the OBS. FROM means the selected course points away from the station and you are on the <b>radial numbered the same as the course you have set</b>; TO means the selected course points at the station and you are on the reciprocal radial. The ambiguity meter does not know your heading, only your position.",
+  "dup": "",
+  "topic": "VOR position fixing"
+ },
+ {
+  "s": "Navigation Equipment",
+  "q": "Which indication do you use to fix your position, and why?",
+  "a": "FROM. A <b>radial is a magnetic course outward from the station, so the FROM radial is the line you draw on the chart</b>. Center the needle with a FROM flag, read the number under the index, find that radial on the VOR's compass rose and rule the line outward; you are somewhere on it. If you center the needle with a TO flag, the radial you are on is the reciprocal, and plotting the TO number puts you on the wrong side of the station.",
+  "dup": "",
+  "topic": "VOR position fixing"
+ },
+ {
+  "s": "Navigation Equipment",
+  "q": "Give me the full procedure for finding your position with one VOR.",
+  "a": "Tune the frequency, <b>identify the Morse code before you use it</b>, rotate the OBS until the needle centers with a FROM indication, and read the radial. Draw that radial out from the station on the chart. You now have a line of position. Convert it to a point with a second radial from another VOR, with DME distance, or by seeing where the line crosses a ground feature you can identify beneath you.",
+  "dup": "",
+  "topic": "VOR position fixing"
+ },
+ {
+  "s": "Navigation Equipment",
+  "q": "How do you fix a position from two VORs?",
+  "a": "Take a FROM radial from each and plot both; where they intersect is your position. Do them quickly and in succession so the airplane has not moved much between them. <b>The accuracy depends on the crossing angle: near 90 degrees is excellent, and below about 30 degrees the fix is unreliable</b> because a small bearing error smears the intersection a long way along both lines.",
+  "dup": "",
+  "topic": "VOR position fixing"
+ },
+ {
+  "s": "Navigation Equipment",
+  "q": "You are told you are over I-95 and asked where you are. How do you answer with one VOR?",
+  "a": "Use the VOR for a line of position and the highway for the other. Center the needle FROM, read the radial, and plot it outward from the station; <b>where that radial crosses the highway on the chart is your position</b>. One radial plus one identifiable line feature gives a fix just as surely as two radials, and the crossing angle rule applies the same way: a radial that lies nearly along the highway gives a poor answer.",
+  "dup": "",
+  "topic": "VOR position fixing"
+ },
+ {
+  "s": "Navigation Equipment",
+  "q": "What are the accuracy limits of a VOR fix?",
+  "a": "Line of sight, so reception depends on altitude and terrain, and the signal is unusable in the cone of confusion overhead. Bearing accuracy is limited by the permitted check tolerances: <b>plus or minus 4 degrees on a ground checkpoint and 6 degrees in the air</b>. Angular error becomes distance error with range, roughly one nautical mile per degree at 60 nautical miles, so a fix far from the station is a broad one.",
+  "dup": "",
+  "topic": "VOR position fixing"
+ },
+ {
+  "s": "Navigation Equipment",
+  "q": "How does DME turn one VOR into a fix?",
+  "a": "The radial gives you a line and the DME gives you a distance arc from the station, and the two cross at one point. It is the quickest single-station fix there is. Remember that DME measures <b>slant range, the straight line distance from the airplane to the station, not the distance over the ground</b>, and the error is largest when you are high and close: directly overhead at 6,000 feet the readout is about one mile when the ground distance is zero.",
+  "dup": "",
+  "topic": "VOR position fixing"
+ },
+ {
+  "s": "Navigation Equipment",
+  "q": "Before you plot a radial, what must you confirm?",
+  "a": "That the station is the one you think it is and is usable. <b>Identify the Morse code or the recorded voice identifier</b>, because an unmonitored or off-the-air VOR can still produce a stable, convincing and wrong needle; check for a NOTAM on the facility; confirm you are inside its service volume for your altitude; and confirm the receiver's last check is within 30 days if you intend to use it for IFR.",
+  "dup": "",
+  "topic": "VOR position fixing"
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "You are not sure where you are. Give me the lost procedure.",
+  "a": "Climb, communicate, confess, comply, conserve. <b>Climb for radio and radar coverage and a wider horizon</b>, hold a heading and note the time, then try to resolve it by pilotage against a big feature such as a highway, coastline or river. Get a VOR or GPS fix. If that fails, call ATC or 121.5 and ask for help; they can give you a position, a vector and a field. Watch fuel, and land while you still have options.",
+  "dup": "What is the standard procedure if you become lost on a cross country?",
+  "topic": "VOR position fixing"
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Why is a line feature the right thing to look for when you are uncertain of position?",
+  "a": "Because you cannot miss it and it converts a vague area into a line. A highway, a coast, a river, a railroad or a ridge runs for miles across your track, so <b>flying a heading that must cross it eventually turns 'somewhere around here' into 'somewhere on this line'</b>. Pair it with one VOR radial, a DME arc or a recognizable town along the feature and you have a point.",
+  "dup": "",
+  "topic": "linear chart features"
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What is the deliberate offset technique, and when would you use it?",
+  "a": "Aim deliberately to one side of a destination or a checkpoint that sits on a line feature, so that when you reach the feature you know <b>which way to turn</b> instead of guessing. Ten degrees of intentional error is better than zero degrees of uncertain error. It is an old pilotage technique and it is exactly the right tool when the checkpoint is a small airport on a long road or river.",
+  "dup": "",
+  "topic": "linear chart features"
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "You have fixed your position over the highway. What now?",
+  "a": "Mark it on the chart with the time. Measure the new course and distance to the next checkpoint or to the destination, work the heading for the wind you now know you have, recompute the estimate and the fuel, and <b>only then turn onto the new heading and start the clock</b>. Tell ATC if you are talking to anyone. Resuming the flight plan properly is what the examiner is grading, not the fix itself.",
+  "dup": "",
+  "topic": "VOR position fixing"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "What does the regulation actually require you to brief your passengers on?",
+  "a": "Less than you think. 14 CFR 91.107, Use of safety belts, shoulder harnesses, and child restraint systems, requires the pilot in command to ensure each person aboard has been <b>briefed on how to fasten and unfasten that person's safety belt and shoulder harness</b>, and to notify them to fasten them before taxi, before takeoff and before landing. For a light Part 91 airplane that is the whole legal requirement.",
+  "dup": "",
+  "topic": "passenger briefing"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "If the rule only requires belts, why give a full briefing?",
+  "a": "Because the rule is a floor and the passengers are your responsibility under 14 CFR 91.3. A passenger who does not know how to open the door, where the fire extinguisher is or that he should speak up about traffic is a liability in the one minute when it matters. <b>A paying passenger is also judging your professionalism from the briefing</b>, and on a checkride the examiner is the client and is grading exactly that.",
+  "dup": "",
+  "topic": "passenger briefing"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "Give me the SAFETY briefing.",
+  "a": "S, seat belts, shoulder harnesses and seat adjustment, how to fasten and unfasten them. A, air vents, environmental controls and air sickness bags. F, fire extinguisher, where it is and how to use it. E, exits and emergency equipment, including the ELT and survival kit. T, traffic, talking and the sterile cockpit. Y, your questions. <b>It is the standard content; 91.107 only compels the S</b>.",
+  "dup": "",
+  "topic": "passenger briefing"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "What does the E of SAFETY cover in a Warrior specifically?",
+  "a": "That there is <b>one cabin door, on the right side</b>, how the handle and the latch work, and that a passenger in the right seat may be the one who has to open it; where the emergency locator transmitter is and that it works automatically; where any survival gear and first aid kit are stowed; and that if we land off airport the plan is to get out, get clear of the airplane and stay together near it.",
+  "dup": "",
+  "topic": "passenger briefing"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "What else belongs in the briefing that SAFETY does not spell out?",
+  "a": "The plan for the flight and what the passenger should expect: route, time, altitude, what the airplane will sound and feel like, and anything unusual such as stalls or steep turns. Smoking, loose articles, electronic devices, and not touching the controls. <b>What to do if I become incapacitated: hold the wings level, press the push-to-talk and say mayday on the frequency</b>. And that the passenger may always say he is uncomfortable.",
+  "dup": "",
+  "topic": "passenger briefing"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "How does the briefing change when the passenger is paying you?",
+  "a": "It becomes part of the service rather than a ritual. Brief before boarding, calmly and without jargon; explain what you will be doing and why; set expectations about weather, timing and your authority to divert or cancel; and make clear the decisions are yours. <b>A customer who hears the no-go criteria before the flight is far easier to turn around mid-trip</b>. Then repeat the operational items, belts and exits, at the airplane.",
+  "dup": "",
+  "topic": "passenger briefing"
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "The examiner says to treat him as your client. What do you brief before takeoff?",
+  "a": "Everything you would brief a paying passenger, out loud and in order: belts and harnesses, door and exits, fire extinguisher location, vents and sick bags, ELT, what the flight will involve, sterile cockpit periods and when I want quiet, and an invitation to <b>speak up immediately about any hazard he sees, such as birds or traffic</b>. Then the departure briefing: runway, expected performance, and what I will do if the engine quits.",
+  "dup": "",
+  "topic": "passenger briefing"
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Give me your departure briefing.",
+  "a": "Runway in use and expected takeoff distance against the runway available; the airspeeds I will use and the initial heading and altitude; the departure route and first frequency. Then the abort and emergency plan: what will make me abort on the ground, and <b>if the engine fails after takeoff with runway remaining I land straight ahead, and above a safe altitude I turn only to a chosen field</b>. Passengers are briefed to stay quiet until I say otherwise.",
+  "dup": "",
+  "topic": "passenger briefing"
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "When do you give the passenger briefing in an emergency descent to a forced landing?",
+  "a": "After the memory items and once the airplane is established, not before. The order is fly the airplane, best glide and a field, memory items for the engine, then <b>brief the passengers while you are set up and before you are busy again on short final</b>, then back to the checklist to confirm nothing was missed. Tell them to tighten belts, show them the door latch, have them unlatch it before touchdown, and say where to meet.",
+  "dup": "",
+  "topic": "passenger briefing"
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "What do you tell a passenger about the controls and the sterile cockpit?",
+  "a": "That the yoke and pedals on their side move with mine and they should keep hands and feet clear unless I ask, and that bags and feet stay away from the control column and flap handle. For quiet: <b>no conversation from taxi through 1,000 feet after takeoff, and from the descent through the landing and taxi clear</b>, except to tell me about a hazard, which I always want to hear immediately.",
+  "dup": "",
+  "topic": "passenger briefing"
+ },
+ {
+  "s": "Human Factors and Aeromedical",
+  "q": "What is the sterile cockpit rule?",
+  "a": "The requirement that no flight crewmember perform any duty during a critical phase of flight other than those required for the safe operation of the aircraft, and no non-essential conversation take place. The rules are <b>14 CFR 121.542, Flight crewmember duties, and 14 CFR 135.100, Flight crewmember duties</b>. Both define critical phases of flight as all ground operations involving taxi, takeoff and landing, and all other operations below 10,000 feet except cruise flight.",
+  "dup": "",
+  "topic": "sterile cockpit"
+ },
+ {
+  "s": "Human Factors and Aeromedical",
+  "q": "Does the sterile cockpit rule bind you on a Part 91 flight?",
+  "a": "No. 121.542 and 135.100 apply to air carriers and commercial operators under Parts 121 and 135; <b>there is no equivalent sterile cockpit regulation in Part 91</b>. You should say that plainly rather than pretend it is binding. Then say that you brief and fly it anyway, because the accident record behind the rule is a single-pilot problem even more than an airline one.",
+  "dup": "",
+  "topic": "sterile cockpit"
+ },
+ {
+  "s": "Human Factors and Aeromedical",
+  "q": "Why brief it anyway if it does not apply to you?",
+  "a": "Because a single pilot has no one to catch the item he drops while answering a question. The workload peaks that the rule was written around are exactly the phases where a light single kills people: <b>taxi, takeoff and initial climb, the pattern, the approach and the landing roll</b>. Briefing it turns a passenger from a distraction into another set of eyes, and tells him when his input is welcome and when it is not.",
+  "dup": "",
+  "topic": "sterile cockpit"
+ },
+ {
+  "s": "Human Factors and Aeromedical",
+  "q": "When are your high-workload periods on a typical flight?",
+  "a": "Taxi, including every runway crossing; the takeoff and initial climb to about 1,000 feet AGL; the departure and frequency changes; arrival into the terminal area and the descent checklist; the traffic pattern, the approach and the landing; and the roll-out and taxi clear. <b>Add any abnormal, which makes whatever phase you are in a critical one</b>. The debrief item from the last candidate's ride was taxi, and that is not an accident.",
+  "dup": "",
+  "topic": "sterile cockpit"
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Your passenger starts chatting on short final. What do you do?",
+  "a": "Say 'standby' once, firmly and without heat, and keep flying the airplane. Do not negotiate and do not look at him. If it continues and it is degrading the approach, <b>go around and sort it out with altitude under you</b>. Then debrief it after landing. Having briefed the sterile period before takeoff is what makes the single word work; if you never briefed it, the fault is yours.",
+  "dup": "",
+  "topic": "sterile cockpit"
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "What is the one thing a passenger should always interrupt you for?",
+  "a": "A hazard. Traffic, birds, smoke, a warning light, an open door, or anything that looks wrong outside. Brief it that way: <b>'if you see something that worries you, say it immediately, even if I am busy'</b>. The risk of an unnecessary call is trivial; the risk of a passenger who saw the other airplane and waited for a quiet moment is not.",
+  "dup": "",
+  "topic": "sterile cockpit"
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "You change a frequency while crossing a runway and drift off the centerline. What went wrong?",
+  "a": "In substance, yes. Changing a frequency while crossing a runway is doing two things at once in a critical phase, and the airplane drifted while the pilot was heads-down. The fix is sequencing: <b>stop the airplane, or finish crossing and stop clear, before you touch a radio</b>. Taxi is a critical phase in both 121.542 and 135.100 for exactly this reason, and runway incursions are overwhelmingly a distraction problem.",
+  "dup": "",
+  "topic": "sterile cockpit"
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why would you ever fly a no-flap landing?",
+  "a": "Because the flaps failed, because the system is jammed or asymmetric, or because you chose to. The handbook itself says that <b>in high wind conditions, particularly strong crosswinds, it may be desirable to approach at higher than normal speeds with partial or no flaps</b>. Other reasons: a known electrical or mechanical problem, an airplane you do not want to slow down in turbulence, and practice so that the first one is not for real.",
+  "dup": "",
+  "topic": "no-flap landing"
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "How does the approach differ without flaps?",
+  "a": "It is flatter and faster. Without flaps the airplane's lift to drag ratio is better, so for the same power the descent path is shallower; you must <b>start down earlier and plan a longer, lower final rather than trying to force the normal picture</b>. Power controls the path and attitude controls the speed exactly as before, but you will carry less power, and you need a longer runway and no obstacle on the approach end.",
+  "dup": "",
+  "topic": "no-flap landing"
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "How does the sight picture change on a no-flap landing?",
+  "a": "The nose sits higher for the same airspeed because the wing needs a higher angle of attack without the flaps, so you see <b>less of the runway over the cowl and the aiming point appears to be further down the glareshield</b>. The approach angle itself is shallower, so the runway looks flatter and further away. Expect both, trust the airspeed and the aiming point, and do not chase the unfamiliar picture with pitch.",
+  "dup": "",
+  "topic": "no-flap landing"
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "What speed do you fly on a no-flap approach?",
+  "a": "A little faster than the full-flap figure, because the <b>clean stall speed is higher than the full-flap stall speed</b>. The handbook publishes 63 knots as the final approach speed with 40 degrees of flap, so without flaps I fly several knots above that, and I add half the gust factor if it is gusty. What I do not do is drag it in slowly; the flaps-up margin above the stall is what I am protecting.",
+  "dup": "",
+  "topic": "no-flap landing"
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Describe the roundout and touchdown without flaps.",
+  "a": "Begin the roundout a little higher and more gradually, because the <b>shallower approach path means less attitude change is needed between the approach and the landing attitude</b>. Then expect to hold it off for a long time: the airplane is faster and cleaner, so it floats. Keep the aiming point and the centerline, let the speed bleed, and touch down on the main wheels with the nose high but short of the full-flap attitude.",
+  "dup": "",
+  "topic": "no-flap landing"
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "How much more runway does a no-flap landing need?",
+  "a": "Materially more, and the handbook does not publish a figure for it. The float is longer because of the extra speed and the better lift to drag ratio, and the touchdown is faster, so the ground roll is longer too. <b>A planning rule of adding at least half again to the book landing distance is reasonable and conservative</b>. Pick a long runway, land on the numbers you can actually make, and go around early if it is not working.",
+  "dup": "",
+  "topic": "no-flap landing"
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "What are the common errors on a no-flap landing?",
+  "a": "Flying the normal flap sight picture and ending up high and fast; chopping the power to make the normal descent angle and arriving low and slow; <b>forcing the airplane onto the runway during the long float, which causes a bounce or a wheelbarrow on the nosewheel</b>; floating past the planned touchdown point and landing long; and failing to brief the passengers or tell the tower that the landing will be a long one.",
+  "dup": "",
+  "topic": "no-flap landing"
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "The flaps will not extend. How do you handle it?",
+  "a": "Fly the airplane first, then diagnose. The flaps here are <b>mechanical, operated by a cable from a handle between the front seats, not electric</b>, so a failure means a jammed handle, a broken or stretched cable or a flap obstruction, and there is no circuit breaker to reset and no motor to fail. Do not force the handle. Plan a no-flap approach to a long runway, brief it, and tell ATC so you get the length you need.",
+  "dup": "",
+  "topic": "no-flap landing"
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "What if only one flap extends?",
+  "a": "Treat it as an asymmetric flap condition and do not touch the handle again. The airplane will roll toward the retracted side and you will need aileron to hold wings level; <b>retract both only if the handle will do it cleanly, otherwise leave the configuration alone and fly it as it is</b>. Approach faster than normal, use a long runway, keep the bank shallow, and expect the roll tendency to change as the speed decays in the flare.",
+  "dup": "",
+  "topic": "no-flap landing"
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Does raising the flaps after landing matter in this airplane?",
+  "a": "Yes, for braking. The handbook says braking is most effective when the <b>flaps are raised and back pressure is applied to the control wheel</b>, because raising the flaps dumps lift onto the wheels. Do it after the airplane is firmly on the ground and only with your eyes outside; this airplane's flap handle is between the seats and cannot be confused with a gear lever, but the habit of waiting until clear is still the safe one.",
+  "dup": "",
+  "topic": "no-flap landing"
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Name the three stages of a stall.",
+  "a": "Approaching the stall, the full stall, and the recovery. The first is the <b>approaching or imminent stall, where the angle of attack is nearing critical and the airplane gives you the warning signs</b>; the second is the full stall, where the critical angle of attack has been exceeded; the third is the recovery back to unstalled, controlled flight. Describe what happens in each rather than fighting over the vocabulary.",
+  "dup": "",
+  "topic": "three stages of a stall"
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Describe the first stage, the approaching stall.",
+  "a": "The angle of attack is approaching critical but has not reached it. You get the cues: the <b>stall warning horn, which on this airplane sounds five to ten knots above the stall</b>, aerodynamic buffet as separated air from the wing root strikes the tail, mushy and ineffective controls, a high nose attitude for the airspeed, and a decaying airspeed with a high sink rate. The wing is still flying and recovery costs almost no altitude.",
+  "dup": "",
+  "topic": "three stages of a stall"
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Describe the full stall.",
+  "a": "The critical angle of attack has been exceeded, airflow over the upper surface has separated, and the <b>wing is producing less lift than it was a moment ago even though the angle of attack has increased</b>. The airplane pitches down as the center of pressure moves aft and the tail download is lost, the sink rate increases sharply, and any yaw at that moment drops a wing and starts a spin. Controls are sloppy and the ailerons are untrustworthy.",
+  "dup": "",
+  "topic": "three stages of a stall"
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Describe the recovery stage.",
+  "a": "The stage where the angle of attack is reduced below critical and the wing starts flying again. <b>Reduce the angle of attack first, by releasing back pressure or pushing, because nothing else recovers a stall</b>. Then level the wings with coordinated aileron and rudder, add power smoothly as needed, and return to the desired flight path with the minimum loss of altitude, retracting flaps and gear on schedule rather than all at once.",
+  "dup": "",
+  "topic": "three stages of a stall"
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Someone answers 'incipient' for the first stage. Is that wrong?",
+  "a": "It is the wrong word in the wrong place rather than a wrong idea. <b>Incipient is the word the FAA uses for the second phase of a spin, between the stall break and a fully developed spin</b>, not for the approach to a stall; the stall itself is normally described as approaching or imminent, then full, then recovery. The examiner is checking that you understand the progression, so describe what the airplane is doing at each point.",
+  "dup": "",
+  "topic": "three stages of a stall"
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "What is a secondary stall, and where does it fit?",
+  "a": "A second stall caused by the recovery itself: the pilot raises the nose again before the wing has regained flying speed, exceeds the critical angle of attack a second time, and stalls. It is not one of the stages; it is <b>a recovery error, and it is the commonest one on a checkride</b>. The fix is patience, letting the airspeed build before you raise the nose, and avoiding an abrupt pull in the pitch-up after adding power.",
+  "dup": "",
+  "topic": "three stages of a stall"
+ },
+ {
+  "s": "Spin Awareness",
+  "q": "Why does coordination matter so much at the stall?",
+  "a": "Because a stall with yaw is a spin entry. If the ball is out at the break, the <b>outside wing is moving faster and the inside wing is at a higher angle of attack and more deeply stalled, so it drops and autorotation begins</b>. A skid is worse than a slip, and the instinctive correction, picking the dropping wing up with aileron, deepens the stall on that wing. Keep the ball centered with rudder through the whole maneuver.",
+  "dup": "",
+  "topic": "three stages of a stall"
+ },
+ {
+  "s": "Spin Awareness",
+  "q": "Describe a stall from entry through recovery, as you would fly it for the examiner.",
+  "a": "Clearing turns, then configure and set power, raise the nose to the stall attitude and hold it, keeping the ball centered with rudder and the wings level with aileron. Call the cues aloud as the <b>horn, the buffet and the mushy controls arrive, and then the break itself</b>. Recover by reducing angle of attack, leveling the wings, adding full power, retracting flaps on schedule, and returning to altitude and heading without a secondary stall.",
+  "dup": "",
+  "topic": "three stages of a stall"
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "You have an engine fire in flight. Give me the memory items for this airplane.",
+  "a": "Fuel selector OFF; throttle closed; mixture to idle cut-off; <b>electric fuel pump checked OFF</b>; heater OFF; defroster OFF; then proceed with the power-off landing procedure. The whole idea is to stop fuel reaching the fire. Note that the electric fuel pump goes off here, which is the opposite of every other fuel emergency, and the heater and defroster go off because their air comes from a shroud on the muffler.",
+  "dup": "",
+  "topic": "engine fire in flight"
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Why do the heater and defroster go off in the engine fire checklist?",
+  "a": "Because on this airplane the cabin heat and the defroster are fed from a <b>shroud around the exhaust muffler, inside the engine compartment and right next to the fire</b>. Leaving them open is an invitation for smoke and fire gases to come into the cabin. The same shroud is why a cracked muffler is a carbon monoxide hazard, and why the first action for suspected carbon monoxide is heat off and vents open.",
+  "dup": "",
+  "topic": "engine fire in flight"
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Why would you descend at VNE with an engine fire?",
+  "a": "Because time is the enemy. An in-flight fire can destroy the airframe in minutes, so you get the airplane down as fast as the structure allows: descend at up to but not exceeding <b>VNE, which is 160 KIAS on this airplane</b>, and the high airflow may also help starve or blow out the fire and keep the flames off the fuselage. Fly it in smooth air and with care, because at VNE there is no margin for a gust.",
+  "dup": "",
+  "topic": "engine fire in flight"
+ },
+ {
+  "s": "Aircraft Systems",
+  "q": "Is a slip useful in an engine fire?",
+  "a": "It can be. A sideslip away from the side the flames are coming from can <b>keep fire and smoke off the cabin and away from the fuel tank in that wing</b> while you descend. It costs you some descent efficiency and it complicates the pattern to the field, so it is a tool rather than a step: use it if the flames are coming at the cabin, and prioritize getting the airplane on the ground either way.",
+  "dup": "",
+  "topic": "engine fire in flight"
+ },
+ {
+  "s": "Emergency Equipment and Survival Gear",
+  "q": "How do you declare an emergency, and what do you say?",
+  "a": "Say mayday three times on the frequency in use, or 121.5 if you have nobody, then <b>who you are, where you are, what is wrong, what you intend to do, souls on board and fuel remaining</b>. Squawk 7700. 14 CFR 91.3, Responsibility and authority of the pilot in command, lets you deviate from any rule to the extent required to meet the emergency, and may require a written report afterwards on request.",
+  "dup": "",
+  "topic": "engine fire in flight"
+ },
+ {
+  "s": "Emergency Equipment and Survival Gear",
+  "q": "Why do controllers want souls on board and fuel remaining?",
+  "a": "Souls on board tells the rescue services how many people to look for and is a number nobody can reconstruct afterwards; fuel remaining, stated in <b>time rather than gallons</b>, tells the controller how long you can stay airborne and how much fire risk there is at the scene. Give both unprompted when you declare, because once the workload rises you may not get the chance.",
+  "dup": "",
+  "topic": "engine fire in flight"
+ },
+ {
+  "s": "Emergency Equipment and Survival Gear",
+  "q": "What do you do about the ELT in an emergency landing?",
+  "a": "Nothing in the air, and then check it on the ground. A modern <b>406 MHz ELT fires automatically on impact through its g-switch</b> and transmits your registration and position to the satellite system. If you have a cockpit remote switch you can turn it on manually before touchdown or after; after a landing, confirm it is transmitting by listening on 121.5, and leave it on. If it was not a real emergency, turn it off and tell Flight Service.",
+  "dup": "",
+  "topic": "engine fire in flight"
+ },
+ {
+  "s": "Emergency Equipment and Survival Gear",
+  "q": "After an in-flight fire you land safely with the airplane scorched. Any reporting obligation?",
+  "a": "Yes. An <b>in-flight fire is on the immediate notification list in 49 CFR 830.5</b> regardless of damage or injuries, so the operator must notify the nearest NTSB office immediately by the most expeditious means available. Whether a written report follows depends: if the fire caused substantial damage it is an accident and the 10-day Form 6120.1 is due; if not, you file only if the Board asks.",
+  "dup": "",
+  "topic": "engine fire in flight"
+ },
+ {
+  "s": "Weather Theory",
+  "q": "Walk me through the types of fog, one at a time.",
+  "a": "Radiation fog, from ground cooling on a clear calm night; advection fog, from warm moist air moving over a colder surface; upslope fog, from moist stable air being lifted and cooled along rising terrain; steam fog, from cold air over much warmer water; <b>precipitation-induced or frontal fog, from warm rain falling through cool air and saturating it</b>; and ice fog in extreme cold. All of them are the same thing in the end: a cloud sitting on the ground.",
+  "dup": "",
+  "topic": "types of fog"
+ },
+ {
+  "s": "Weather Theory",
+  "q": "What is the difference between mist and fog?",
+  "a": "Visibility. Both are suspended water droplets at the surface; the reporting threshold is the line between them. <b>It is coded FG for fog when the visibility is less than 5/8 statute mile, and BR for mist when the visibility is 5/8 mile through 6 miles</b>. Haze, HZ, is dry particles rather than water. So a METAR reading 1/2SM FG and one reading 3SM BR describe the same physical process at different intensities.",
+  "dup": "",
+  "topic": "types of fog"
+ },
+ {
+  "s": "Weather Theory",
+  "q": "What cloud type is a layer of low-lying fog?",
+  "a": "Stratus. Fog is simply <b>a stratus cloud whose base is at the surface</b>, formed by the same cooling-to-saturation process, which is why radiation fog often lifts into a low stratus deck as the morning sun warms the ground rather than burning off cleanly. If the morning TAF shows fog clearing to a 300-foot overcast, that is what has happened, and the field is still well below VFR.",
+  "dup": "",
+  "topic": "types of fog"
+ },
+ {
+  "s": "Weather Theory",
+  "q": "Which fog is the one that ruins a morning departure, and when does it clear?",
+  "a": "Radiation fog. It needs <b>clear skies, light wind and high relative humidity over a land surface overnight</b>, so it forms in the small hours in valleys and low ground and is at its worst around sunrise, exactly when you planned to leave. It burns off with a few hours of sun or lifts as the wind picks up past a few knots, but it can also simply lift into stratus and stay.",
+  "dup": "How does radiation fog form and when does it burn off?",
+  "topic": "types of fog"
+ },
+ {
+  "s": "Weather Theory",
+  "q": "Why is advection fog worse news than radiation fog?",
+  "a": "Because it is brought to you and it does not need night or calm. Warm moist air moving over a cooler surface, classically maritime air over cold coastal land, cools from below and saturates, and <b>wind up to about 15 knots makes it thicker and deeper rather than dispersing it</b>. It can form in daylight, move inland for miles, and persist for days, so a sunrise is no help and the forecast, not the clock, is what you plan on.",
+  "dup": "How does advection fog form, and why is it more persistent?",
+  "topic": "types of fog"
+ },
+ {
+  "s": "Weather Theory",
+  "q": "What is precipitation-induced fog and where do you meet it?",
+  "a": "Warm rain falls through a layer of cooler air beneath it, evaporates into that air and saturates it, so fog forms in the rain. You meet it <b>ahead of a warm front or around a slow-moving stationary front</b>, often over a wide area and with a low ceiling above it. It is dangerous because it comes with precipitation and sometimes with icing, and because it forms where the pilot is already working.",
+  "dup": "",
+  "topic": "types of fog"
+ },
+ {
+  "s": "Weather Theory",
+  "q": "What is steam fog and what else comes with it?",
+  "a": "Cold, dry air moving over much warmer water: the water evaporates into the cold air, saturates it immediately, and the fog appears to rise off the surface like steam. It is common over lakes and rivers in autumn and early winter. It comes with <b>low-level convective turbulence and the risk of icing in the rising, saturated air</b>, so it is more than a visibility problem.",
+  "dup": "How does steam fog form and what hazard comes with it?",
+  "topic": "types of fog"
+ },
+ {
+  "s": "Weather Theory",
+  "q": "What conditions does upslope fog need, and why does it not just blow away?",
+  "a": "Moist, stable air and a wind blowing it up a gradual slope. The air cools adiabatically as it rises and saturates. Unlike radiation fog it <b>requires wind to exist and is maintained by it</b>, so it does not burn off in the morning and can last for days as long as the flow continues, which is why it plagues the high plains east of the Rockies. It clears when the wind shifts or the air dries.",
+  "dup": "How does upslope fog form?",
+  "topic": "types of fog"
+ },
+ {
+  "s": "Human Factors and Aeromedical",
+  "q": "Hypoxia and hyperventilation feel the same. How do you tell them apart in the moment?",
+  "a": "By the context, not the symptom. Ask: how high am I, and what just happened? <b>Hypoxia goes with altitude, so above about 10,000 feet or on supplemental oxygen that may have failed, suspect it first</b>; hyperventilation goes with stress, anxiety or a sudden fright and with visibly rapid breathing, at any altitude. Hypoxia can bring cyanosis and euphoria; hyperventilation brings tingling in the hands and around the mouth, and muscle spasm.",
+  "dup": "How do you distinguish hypoxia from hyperventilation, and why does it matter?",
+  "topic": "hyperventilation vs hypoxia"
+ },
+ {
+  "s": "Human Factors and Aeromedical",
+  "q": "You cannot tell whether it is hypoxia or hyperventilation. What do you actually do?",
+  "a": "Treat it as hypoxia first, because hypoxia is the one that kills you quickly. <b>Put on oxygen at 100 percent flow and descend</b>; if there is no oxygen, descend immediately. If the symptoms do not improve with oxygen, or you are at a low altitude where hypoxia is implausible, switch to the hyperventilation treatment: consciously slow the breathing rate, talk aloud, and breathe into a bag or cupped hands to restore carbon dioxide.",
+  "dup": "",
+  "topic": "hyperventilation vs hypoxia"
+ },
+ {
+  "s": "Human Factors and Aeromedical",
+  "q": "What is physically happening in hyperventilation?",
+  "a": "You are breathing faster or deeper than the body needs, and <b>blowing off carbon dioxide faster than you produce it, which raises blood pH</b>. Oxygen is not the problem; the chemistry is. The result is dizziness, tingling in the fingers, toes and around the mouth, visual disturbance, cool clammy skin, muscle spasm, and eventually unconsciousness, at which point normal breathing resumes on its own.",
+  "dup": "",
+  "topic": "hyperventilation vs hypoxia"
+ },
+ {
+  "s": "Human Factors and Aeromedical",
+  "q": "Your passenger is panicking and breathing fast at 6,000 feet. Walk me through it.",
+  "a": "Fly the airplane, then take charge of him. Get him to <b>slow his breathing and talk to you, counting out loud or reading the checklist aloud</b>, which forces a slower rate better than any instruction to relax; have him breathe into a paper bag or cupped hands if that is not enough. At 6,000 feet with no oxygen equipment in use, hypoxia is unlikely, but descend anyway and land if he does not settle.",
+  "dup": "",
+  "topic": "hyperventilation vs hypoxia"
+ },
+ {
+  "s": "Human Factors and Aeromedical",
+  "q": "Why does stress sit at the root of hyperventilation?",
+  "a": "Because the trigger is almost always emotional rather than physical: fear, anxiety, or the sudden onset of an abnormal situation. That is also why it bites pilots at the worst time, during an emergency, when they are already loaded. <b>The pilot who hyperventilates during an emergency makes the emergency worse by becoming a second problem</b>, which is one more reason to brief, rehearse and slow yourself down deliberately when things go wrong.",
+  "dup": "",
+  "topic": "hyperventilation vs hypoxia"
+ },
+ {
+  "s": "Human Factors and Aeromedical",
+  "q": "What are external pressures, and why are they the dangerous element of PAVE?",
+  "a": "They are the influences outside the flight that push you to go: a customer waiting, a schedule, a paid job, a passenger's event, your own desire to finish the trip. They are dangerous because <b>they do not change anything about the airplane or the weather, only about your willingness to accept them</b>, and they operate on you below the level of conscious decision. Every other PAVE element is a fact; this one is a motive.",
+  "dup": "What are external pressures in PAVE and why are they the most dangerous element?",
+  "topic": "external pressures"
+ },
+ {
+  "s": "Human Factors and Aeromedical",
+  "q": "Your cross country forecast is likely IFR and you are VFR only. What are your options?",
+  "a": "Three, and I would name all three to the customer up front. Go IFR if I am rated, current and the airplane is equipped. <b>Go part way, to the last field that is comfortably VFR, and arrange a car or an airline for the rest</b>. Or do not go, and reschedule. Having the alternatives ready before the weather turns is what stops the pressure from producing a bad decision at the hold short line.",
+  "dup": "",
+  "topic": "external pressures"
+ },
+ {
+  "s": "Human Factors and Aeromedical",
+  "q": "Name an accident that shows external pressure at work.",
+  "a": "The Kobe Bryant helicopter accident in January 2020 is the obvious one: a charter flight continuing into deteriorating visibility toward a destination that a high-profile client expected to reach, ending in <b>spatial disorientation and a loss of control in instrument conditions</b>. The pattern is older than that accident and it is the same every time: a pilot who would have turned back on a personal flight pressing on because someone was waiting.",
+  "dup": "",
+  "topic": "external pressures"
+ },
+ {
+  "s": "Human Factors and Aeromedical",
+  "q": "How do you mitigate external pressure before it reaches you?",
+  "a": "Decide and publish the rules while you are calm. Set personal minimums in writing and tell the customer about them before you accept the job; <b>build the alternatives into the plan so turning back is a plan rather than a failure</b>; refuse to quote an arrival time you cannot guarantee; carry fuel; and agree in advance who pays for a night on the road. Then the hard conversation has already happened.",
+  "dup": "",
+  "topic": "external pressures"
+ },
+ {
+  "s": "Human Factors and Aeromedical",
+  "q": "How is get-there-itis different from external pressure?",
+  "a": "Get-there-itis, or plan continuation bias, is the internal version: the pilot's own fixation on completing the original plan even as the evidence changes. External pressure is the push from outside. <b>They reinforce each other, and the combination is what carries a VFR pilot into instrument conditions</b>. The defense is the same for both: pre-set go/no-go gates tied to observable facts, checked out loud at fixed points in the flight.",
+  "dup": "",
+  "topic": "external pressures"
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "What is an accelerated stall?",
+  "a": "A stall that occurs at a load factor greater than one, and therefore at a <b>higher airspeed than the published one-g stall speed</b>. Stall speed increases with the square root of the load factor, so at 45 degrees of bank, 1.41 g, the stall speed rises about 19 percent, and at 60 degrees, 2 g, about 41 percent. The wing has not changed its mind about the critical angle of attack; only the speed at which you reach it has changed.",
+  "dup": "",
+  "topic": "accelerated stalls"
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "How does an accelerated stall feel different from a normal one?",
+  "a": "It is faster and sharper. The break comes with little warning at a speed that feels perfectly safe, the <b>buffet is more pronounced and the roll-off tendency is stronger</b>, and the airplane can be banked, turning, and at a low pitch attitude when it happens. That is why it is the stall behind the base-to-final accident: nose low, speed apparently adequate, and a tightening skidding turn.",
+  "dup": "",
+  "topic": "accelerated stalls"
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "How is the accelerated stall flown on the commercial checkride?",
+  "a": "Clearing turns, then set up at or below maneuvering speed in the configuration the examiner specifies, roll into a coordinated turn of about <b>45 degrees of bank and increase back pressure smoothly and firmly until the stall warning or buffet</b>, keeping the ball centered. Recover at the first indication by reducing angle of attack, level the wings and add power. Pick the entry altitude so that recovery is complete no lower than 3,000 feet AGL.",
+  "dup": "",
+  "topic": "accelerated stalls"
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why does the ACS set a higher recovery altitude for the accelerated stall?",
+  "a": "Because the break is abrupt and the airplane can roll substantially before you catch it, so you need more room than for a straight-ahead power-off stall. <b>Plan for recovery to be complete no lower than 3,000 feet AGL</b>, against 1,500 feet for the other stalls. It is also the reason you keep the entry speed at or below maneuvering speed: an abrupt pull above Va can overstress the airframe before it stalls.",
+  "dup": "",
+  "topic": "accelerated stalls"
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "What is maneuvering during slow flight meant to demonstrate?",
+  "a": "Control of the airplane at an airspeed where <b>any further increase in angle of attack, increase in load factor or reduction in power would produce a stall warning</b>, while flying it accurately. It shows that you can feel the airplane in the region of reversed command, that you lead with rudder, that you use power for altitude and pitch for speed, and that you are not startled by sloppy controls and a high nose.",
+  "dup": "",
+  "topic": "slow flight"
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Fly me slow flight with a turn and a climb, then the other way with a descent. What are you watching?",
+  "a": "Airspeed first, because everything else follows it. <b>Right rudder increases with power and decreases as the bank reverses, and the stall speed rises with bank angle</b>, so I keep the bank shallow, lead the roll-in with rudder and keep the ball centered. In the climb I watch that the nose does not come up as power goes in, and in the descent that I do not let the speed increase out of the slow flight regime.",
+  "dup": "",
+  "topic": "slow flight"
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "What tolerances does the commercial standard hold you to in slow flight?",
+  "a": "Tighter than private: altitude within <b>50 feet</b>, heading within 10 degrees, bank within 5 degrees, and airspeed plus 5 and minus 0 knots. The minus zero is the one that bites, since it means you may be fast but never slow, so set the speed a touch above the target rather than hunting for it from below. Clearing turns before entry and a positive recovery are part of the task, not optional extras.",
+  "dup": "",
+  "topic": "slow flight"
+ },
+ {
+  "s": "National Airspace System",
+  "q": "What exactly is a MOA, and may you fly through one?",
+  "a": "A military operations area is airspace of defined vertical and lateral limits established outside Class A to <b>separate certain nonhazardous military training activities from IFR traffic</b>. VFR aircraft may fly through one without a clearance or permission at any time, active or not, but should exercise extreme caution and should check with the controlling agency. IFR traffic is cleared through only if ATC can provide separation; otherwise you get rerouted.",
+  "dup": "",
+  "topic": "special use airspace"
+ },
+ {
+  "s": "National Airspace System",
+  "q": "How is a restricted area different, and how do you get through one?",
+  "a": "A restricted area contains unusual and often invisible hazards to aircraft, such as artillery firing, aerial gunnery or guided missiles, and <b>penetration without authorization is prohibited when the area is active</b>. You get in by permission from the using agency, or from the controlling agency when the area has been released. Both MOAs and restricted areas are charted with their times, altitudes and controlling agency in the chart panel.",
+  "dup": "What is a restricted area and how do you enter one?",
+  "topic": "special use airspace"
+ },
+ {
+  "s": "National Airspace System",
+  "q": "What is a prohibited area?",
+  "a": "Airspace of defined dimensions within which the <b>flight of aircraft is prohibited entirely, for reasons of national security or welfare</b>. It is designated under 14 CFR Part 73, Special Use Airspace, charted with a blue hatched boundary and a P number, and unlike a restricted area it has no active and inactive times to check. There is no clearance that gets a civilian light airplane through one on a cross country.",
+  "dup": "What is a prohibited area and what is the rule for entering one?",
+  "topic": "special use airspace"
+ },
+ {
+  "s": "National Airspace System",
+  "q": "The examiner points at a prohibited area on the chart and asks what it is. What do you say?",
+  "a": "That it is a prohibited area, identified by its P number, that flight within it is prohibited under 14 CFR Part 73, and that I would <b>read the special use airspace panel on the chart for the altitudes, times and controlling agency and check NOTAMs</b> rather than rely on memory for what that particular one protects. If I do not know what is under it, I say so; being certain about the rule matters more than naming the site.",
+  "dup": "",
+  "topic": "special use airspace"
+ },
+ {
+  "s": "National Airspace System",
+  "q": "What is a national security area, and is it the same as a prohibited area?",
+  "a": "No. A national security area is airspace of defined vertical and lateral dimensions at a location where there is a requirement for increased security of ground facilities, and <b>pilots are requested to voluntarily avoid flying through it</b>. It is charted with a broken magenta line and a note. When avoidance has to be mandatory, flight is prohibited by a NOTAM issued under 14 CFR 99.7, Special security instructions.",
+  "dup": "What is a national security area?",
+  "topic": "special use airspace"
+ },
+ {
+  "s": "National Airspace System",
+  "q": "Describe a presidential TFR.",
+  "a": "It is issued under 14 CFR 91.141, Flight restrictions in the proximity of the Presidential and other parties, and published by NOTAM. The usual shape is a <b>30 nautical mile outer ring and a 10 nautical mile inner core, from the surface up to but not including 18,000 feet MSL</b>. The inner core is closed to almost everything; the outer ring allows operations on an active flight plan with a discrete code and continuous two-way communications.",
+  "dup": "What does a Presidential TFR look like?",
+  "topic": "special use airspace"
+ },
+ {
+  "s": "National Airspace System",
+  "q": "What is specifically prohibited inside the outer ring of a presidential TFR?",
+  "a": "Flight training, practice instrument approaches, aerobatics, glider and parachute operations, banner towing, sightseeing, model aircraft, and anything else the NOTAM names, even though transit is allowed on a flight plan with a discrete code. <b>Read the NOTAM text itself rather than assuming the standard template</b>, because the dimensions and the exceptions change with the visit and sometimes mid-visit.",
+  "dup": "",
+  "topic": "special use airspace"
+ },
+ {
+  "s": "National Airspace System",
+  "q": "Name the Part 91 rules under which temporary flight restrictions are issued.",
+  "a": "14 CFR 91.137, Temporary flight restrictions in the vicinity of disaster/hazard areas; 91.138, for national disaster areas in Hawaii; 91.139, Emergency air traffic rules; 91.141, for the President and other parties; 91.143, Flight limitation in the proximity of space flight operations; and <b>91.145, Management of aircraft operations in the vicinity of aerial demonstrations and major sporting events</b>. Security restrictions come separately under 14 CFR 99.7.",
+  "dup": "",
+  "topic": "special use airspace"
+ },
+ {
+  "s": "National Airspace System",
+  "q": "Sort these for me: MOA, restricted, prohibited, alert, warning, national security area.",
+  "a": "MOA separates military training from IFR traffic and VFR may enter. Restricted contains invisible hazards and needs permission when active. Prohibited is closed outright. An alert area simply warns of a high volume of training and <b>carries no entry restriction at all, with both pilots responsible for collision avoidance</b>. A warning area is the same kind of hazard as a restricted area but begins 3 nautical miles out over international water. A national security area asks you to stay out voluntarily.",
+  "dup": "",
+  "topic": "special use airspace"
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "How are power transmission lines shown on a sectional, and what good are they?",
+  "a": "As a line with small tower symbols along it, and the individual towers are shown as obstructions with their heights when they are tall enough to matter. They make <b>excellent long-range line features because they run straight for miles and cross open country where nothing else is visible</b>. They are a hazard too: the wires themselves are invisible from the air and are not all charted, so never plan to fly along one at low altitude.",
+  "dup": "",
+  "topic": "linear chart features"
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "How are railroads shown, and what makes them good or bad checkpoints?",
+  "a": "As a line with regular cross ticks, with single and multiple track variants shown differently. They are good because they are straight, long and unmistakable, and the <b>place where a railroad crosses a highway or a river beside a town is a first-class checkpoint</b>. They are bad on their own in country with several parallel lines, and abandoned lines that still show on the ground can mislead you.",
+  "dup": "",
+  "topic": "linear chart features"
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What makes a line feature more useful than a point feature in pilotage?",
+  "a": "You cannot fly past it without noticing. A tower or a small town can slide by unseen a mile off your track, but a <b>highway, railroad, river, coast or ridge that lies across your course has to be crossed</b>, which turns an uncertain position into a line and gives you a reliable timing point. Use point features to confirm position along the line; use the line to catch the error in the first place.",
+  "dup": "",
+  "topic": "linear chart features"
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "You chose I-95 as a reference on your cross country. Defend the choice.",
+  "a": "It is a major interstate running broadly parallel to my route, visible from altitude in any light, unmistakable in width and traffic, and it is drawn on the chart with its number so I can tie my position to exits, interchanges and the towns along it. <b>It gives me a continuous handrail rather than a single checkpoint</b>, so if I lose the plot between waypoints I can always fly to it and refix.",
+  "dup": "",
+  "topic": "linear chart features"
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What are the hazards of navigating low along a linear feature?",
+  "a": "Everyone else is doing the same thing, so traffic concentrates along roads, rivers and valleys; the wires and towers along a power line or a road are at your altitude; and 14 CFR 91.119, Minimum safe altitudes: General, still requires 1,000 feet above the highest obstacle within a 2,000-foot horizontal radius over a congested area, and 500 feet above the surface elsewhere. <b>Fly to the right of the feature, not over it</b>, and keep the altitude legal.",
+  "dup": "",
+  "topic": "linear chart features"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "What is the difference between being current and being proficient?",
+  "a": "Currency is a legal state: you have met the recency requirements in 14 CFR 61.56, Flight review, and 61.57, Recent flight experience: Pilot in command, so the regulations permit the flight. Proficiency is whether you can actually fly it to standard today. <b>Currency is the minimum the FAA will accept; proficiency is the minimum the airplane will accept</b>, and nothing in the regulations measures the second one.",
+  "dup": "How does the FAA define currency, and how is it different from proficiency?",
+  "topic": "currency vs proficiency"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "What is the bare legal minimum to fly passengers by day?",
+  "a": "A pilot certificate, an appropriate medical or BasicMed, a flight review within the preceding 24 calendar months under 14 CFR 61.56, and <b>three takeoffs and landings within the preceding 90 days in the same category, class and type if a type rating is required</b>, under 14 CFR 61.57, Recent flight experience: Pilot in command. That is all. Three circuits in a familiar airplane 89 days ago makes you legal to fly your family anywhere.",
+  "dup": "What must you have done to carry passengers by day?",
+  "topic": "currency vs proficiency"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "How is night passenger currency different?",
+  "a": "The three takeoffs and landings must be <b>to a full stop, and flown between one hour after sunset and one hour before sunrise</b>, within the preceding 90 days, in the same category, class and type. Full-stop is the detail candidates miss. Note the three definitions of night in play: this period for currency, sunset to sunrise for position lights, and the end of evening civil twilight to the beginning of morning civil twilight for logging.",
+  "dup": "What is required to carry passengers at night?",
+  "topic": "currency vs proficiency"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "How do you decide whether you are proficient, not just current?",
+  "a": "By asking specific questions rather than how I feel: when did I last fly this airplane, this maneuver, this approach, in this weather, at this airport, with this load? <b>If the honest answer to any of them is 'not recently', I either go and practice or I do not take that flight</b>. Personal minimums written down beforehand, a recurrent training schedule, and an instructor who will tell me the truth are the tools.",
+  "dup": "How do you decide whether you are proficient, as opposed to merely current?",
+  "topic": "currency vs proficiency"
+ },
+ {
+  "s": "Pilot Qualifications",
+  "q": "Why does the currency and proficiency gap matter more once you fly for hire?",
+  "a": "Because you will be asked to fly airplanes, routes, weather and schedules you did not choose, and the people paying you will assume that legal means competent. <b>A commercial certificate raises the standard the public expects without changing the recency rules at all</b>. The professional response is a personal currency standard tighter than the regulation, plus the willingness to say that you are legal but not proficient for a particular trip.",
+  "dup": "",
+  "topic": "currency vs proficiency"
+ },
+ {
+  "s": "Flagged for Extra Work",
+  "q": "The three stages of a stall. Go.",
+  "a": "Approaching the stall, the full stall, and the recovery. Approaching: angle of attack nearing critical, horn and buffet, mushy controls, high sink rate, wing still flying. Full: <b>critical angle of attack exceeded, airflow separated, lift falling away and the nose dropping</b>. Recovery: reduce angle of attack first, level the wings, add power, return to the flight path without a secondary stall. This is the question the last candidate missed.",
+  "dup": "",
+  "topic": "three stages of a stall"
+ },
+ {
+  "s": "Flagged for Extra Work",
+  "q": "You hit a runway light. Do you have to report it, and where does the rule live?",
+  "a": "The rule is <b>49 CFR Part 830, an NTSB rule, not a Federal Aviation Regulation</b>. Test it: nobody was killed or seriously injured, and damage to gear, wheels, tires, flaps or wingtips is expressly excluded from substantial damage, so on those facts it is an incident and no report is required. It becomes reportable if the airplane takes substantial damage, or if damage to the light and its cabling exceeds $25,000 under 830.5.",
+  "dup": "",
+  "topic": "NTSB Part 830"
+ },
+ {
+  "s": "Flagged for Extra Work",
+  "q": "Which items in 830.5 will never apply to your Warrior?",
+  "a": "The ones written for transport aircraft: in-flight failure of electrical or hydraulic systems, and sustained loss of thrust from two or more engines, which apply only to <b>large multiengine aircraft of more than 12,500 pounds maximum certificated takeoff weight</b>; an evacuation using an emergency egress system; ACAS resolution advisories on an IFR flight plan; helicopter rotor blade damage; and the air carrier wrong-runway and runway incursion items.",
+  "dup": "",
+  "topic": "NTSB Part 830"
+ },
+ {
+  "s": "Flagged for Extra Work",
+  "q": "Is a flap position light required? Show me the whole chain of reasoning.",
+  "a": "There is no MEL, so I start at 14 CFR 91.205 for day VFR and run the list: it requires a landing gear position indicator on a retractable and says nothing about flaps. Then the kinds of operation equipment list in Section 2, which does not list one; then the airplane's equipment list; then any airworthiness directive or STC supplement. <b>Nothing requires it, so it is not required equipment</b>, and if it were fitted and inoperative I would work 91.213(d).",
+  "dup": "",
+  "topic": "flap position indicator"
+ },
+ {
+  "s": "Flagged for Extra Work",
+  "q": "A non-pilot customer hires you to fly his airplane, then rents one when his is grounded. Talk me through both halves.",
+  "a": "First half: he supplies the airplane and keeps operational control, I supply pilot services only, so it is Part 91 and my commercial certificate covers it. Second half turns on the same question. If he rents in his own name and still decides the flight, nothing changes. <b>If I rent the airplane and then carry him for compensation, I am supplying aircraft and crew for hire and that needs a Part 119 certificate</b>. If it is unclear, I decline or call the FSDO.",
+  "dup": "",
+  "topic": "operational control"
+ },
+ {
+  "s": "Flagged for Extra Work",
+  "q": "What documents must the pilot have to fly? Be careful with this one.",
+  "a": "Pilot certificate, an appropriate medical certificate or BasicMed documentation, and government-issued photo identification, per 14 CFR 61.3. <b>The Restricted Radiotelephone Operator Permit is an FCC document required only for international operations and does not belong on this list</b>. Say it that way and you have turned the standard trap into a point in your favor; volunteer the permit only when the question turns to flying outside the country.",
+  "dup": "",
+  "topic": "radiotelephone permit"
+ },
+ {
+  "s": "Flagged for Extra Work",
+  "q": "Your handbook has no kinds of operation equipment list. Now what?",
+  "a": "Then the airplane is one of the many certificated before the GAMA format made the list standard, and I say so rather than inventing one. Required equipment then comes from <b>14 CFR 91.205 and whatever other operating rule applies to the flight</b>, the airplane's own equipment list, the type certificate data sheet, and any airworthiness directive or STC supplement. For an inoperative item, 91.213(d) is the path, with a placard and a hazard determination.",
+  "dup": "",
+  "topic": "KOEL"
+ },
+ {
+  "s": "Flagged for Extra Work",
+  "q": "Simulated engine fire. Memory items and then what?",
+  "a": "Fuel selector OFF, throttle closed, mixture idle cut-off, electric fuel pump checked OFF, heater OFF, defroster OFF, then the power-off landing procedure. Descend fast, up to but not exceeding <b>VNE, 160 KIAS</b>, because an airframe fire is measured in minutes. Declare with mayday on the frequency or 121.5, squawk 7700, give souls and fuel, brief the passengers once established, and check the ELT after landing.",
+  "dup": "",
+  "topic": "engine fire in flight"
+ },
+ {
+  "s": "Flagged for Extra Work",
+  "q": "The CG is inside the envelope but close to the forward limit. What do you do about it?",
+  "a": "Move weight aft or add it aft, and show the arithmetic. The baggage compartment arm is <b>142.8 inches</b>, far behind the rear seats at 118.1 and the aft limit at 93.0, so it is the strongest lever: at 2,000 pounds, 17 pounds of baggage moves the CG half an inch aft. Then recheck gross weight against 2,325 pounds, the 200-pound baggage placard, the aft limit, and the landing case, because burning fuel here moves the CG forward.",
+  "dup": "",
+  "topic": "forward CG correction"
+ },
+ {
+  "s": "Flagged for Extra Work",
+  "q": "Time, fuel and distance to climb. How do you get the number?",
+  "a": "By subtraction, not by one lookup. Enter the chart at the departure field's pressure altitude and temperature, read time, fuel and distance; enter again at cruise altitude and temperature; <b>subtract the first set from the second</b>. Add the start, taxi and run-up allowance, and convert the chart's still air distance into ground distance using the climb groundspeed. Higher temperature and higher altitude increase all three numbers.",
+  "dup": "",
+  "topic": "time fuel distance to climb"
+ },
+ {
+  "s": "Flagged for Extra Work",
+  "q": "What is the significance of the stadium symbol on the chart?",
+  "a": "It marks a large stadium and flags a standing restriction: no flight below <b>3,000 feet AGL within 3 nautical miles</b> of a stadium seating 30,000 or more during an MLB, NFL, NCAA Division One football or major motor speedway event, from one hour before to one hour after. It is a standing FDC NOTAM issued under 14 CFR 99.7, Special security instructions, and it is not drawn on the chart, so NOTAMs are the only way to know.",
+  "dup": "What is a stadium TFR?",
+  "topic": "stadium symbol"
+ },
+ {
+  "s": "Flagged for Extra Work",
+  "q": "What are the two types of stress and how do they show up in a pilot?",
+  "a": "Acute and chronic. Acute is the short-term response to a present demand, such as a warning light or a runway change, and it narrows attention and causes fixation; chronic is the continuing, unresolved load of money, a job or a family problem, and it shows up as fatigue, poor decisions and indifference to risk. <b>Chronic stress consumes the reserve you need for the acute events of a flight</b>, so the two stack. Both are the S in IMSAFE.",
+  "dup": "",
+  "topic": "acute vs chronic stress"
+ },
+ {
+  "s": "Stage Check Questions",
+  "q": "Give me the passenger briefing you would use with a paying client.",
+  "a": "SAFETY, delivered before boarding and again at the airplane. Seat belts and harnesses, how to fasten and unfasten; air vents and sick bags; fire extinguisher location; exits, the single right-side door and its latch, plus the ELT and survival gear; traffic and talking, meaning the sterile cockpit periods and the standing invitation to call out any hazard; and your questions. <b>Only the seat belt item is actually required, by 14 CFR 91.107</b>.",
+  "dup": "",
+  "topic": "passenger briefing"
+ },
+ {
+  "s": "Stage Check Questions",
+  "q": "You are crossing a runway and the controller gives you a frequency change. What do you do?",
+  "a": "Finish crossing, get clear of the hold short line, stop the airplane, and then touch the radio. Acknowledge the instruction but do not start head-down work in a critical phase. <b>Taxi is a critical phase of flight in both 14 CFR 121.542 and 135.100, and runway incursions are overwhelmingly a distraction problem</b>. This is exactly the item the last candidate was debriefed on: too many things at once, a drift off the centerline, then a recovery.",
+  "dup": "",
+  "topic": "sterile cockpit"
+ }
+]

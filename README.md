@@ -9,20 +9,27 @@ Progress is kept in `localStorage` on that device.
 
 ## What's in it
 
-**1,664 questions** across 20 sections, each tagged with where it came from:
+**2,025 questions** across 20 sections, each tagged with where it came from:
 
 | Source | Questions | What it is |
 |---|---|---|
 | CHS | 793 | CHS Flight School commercial rating study guide |
-| Flight Insight | 367 | CPL At A Glance |
 | Gold Seal | 531 | Commercial Certificate — Everything You Need To Know |
+| Flight Insight | 367 | CPL At A Glance |
 | Warrior POH | 297 | PA-28-161 handbook, FAA TCDS 2A13, aircraft registry |
+| Gouge | 227 | Written to close gaps a real ride with this examiner exposed |
+| Maneuver | 168 | The aerodynamics behind each commercial maneuver |
 | Added | 168 | Written in to close a gap in all of the above |
 
 Counts overlap: a question carried by two guides is tagged with both and shows
-while either source chip is on.
+while either source chip is on. 1,016 are additionally marked **CHECKRIDE**,
+meaning a first-hand account of a prior ride with this examiner shows the topic
+was actually asked.
 
-Four tabs:
+See **AUDIT.md** for the full source audit, the time it takes to work through,
+and the list of things that can only be settled by opening the airplane.
+
+Five tabs:
 
 - **Study** — the question deck, searchable, filterable by source, by what's
   still to do, and by the four systems areas the examiner concentrates on.
@@ -31,10 +38,13 @@ Four tabs:
 - **The airplane** — a systems reference mined from the POH page by page, every
   figure carrying its source, its confidence, and whether it applies to this
   serial number.
+- **Run the ride** — the prior checkride in its own order: 63 items across 11
+  stages, from logbooks through to the debrief. Ticks are shared with Study.
 - **Weight & balance** — a live calculator plus ten worked cases.
 
 Twenty-four scanned figures and eight drawn diagrams are embedded as base64 and
-hydrated on first open, so nothing is fetched at runtime.
+hydrated on first open, so nothing is fetched at runtime. Each renders at the
+full width of its answer panel.
 
 ## The serial number problem
 
@@ -70,7 +80,9 @@ build/
   merge_gs.py                 folds the Gold Seal pass into all.json
   merge_poh.py                folds the POH systems pass into all.json
 data/
-  all.json                    the question database, 1,664 items in 20 sections
+  all.json                    the question database, 2,025 items in 20 sections
+  rideplan.json               the run-through: 63 ride items in order
+  gouge/                      the prior-ride account, its mapping and new questions
   acronyms.json               217 ranked terms and mnemonics
   pa28-systems.json           POH systems data, sourced leaf by leaf
   wb-data.json                weight and balance limits, arms and envelope

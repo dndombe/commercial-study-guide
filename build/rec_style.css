@@ -99,10 +99,12 @@ letter-spacing:.08em;text-transform:uppercase;padding:1px 6px;border-radius:4px;
 border:1px solid var(--accent-line);font-size:15px;line-height:1.55;color:var(--ink)}
 .it.open .ans{display:block}
 .fg{margin:12px 0 0;padding:0}
-.fg img{display:block;max-width:100%;max-height:58vh;width:auto;height:auto;border-radius:7px;
+/* Full width of the answer panel by default. A page scan is tall and that is
+   fine — scrolling beats pinching. Tapping still opens it wider for fine print. */
+.fg img{display:block;width:100%;max-width:100%;height:auto;border-radius:7px;
 border:1px solid var(--line);background:#fff;cursor:zoom-in}
 .fg.zoom{overflow-x:auto;-webkit-overflow-scrolling:touch}
-.fg.zoom img{max-width:none;max-height:none;width:1600px;cursor:zoom-out}
+.fg.zoom img{width:1600px;max-width:none;cursor:zoom-out}
 .fg.vec{margin:14px 0 0;overflow-x:auto;-webkit-overflow-scrolling:touch}
 .fg.vec svg{display:block;width:100%;min-width:620px;height:auto;border-radius:7px;
 border:1px solid var(--line);background:var(--panel)}

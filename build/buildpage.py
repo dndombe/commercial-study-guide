@@ -1,13 +1,18 @@
 #!/usr/bin/env python3
 """Build the single-file Commercial Pilot study guide."""
-import base64, html, io, json, os, re, hashlib, datetime
+import base64, collections, html, io, json, os, re, hashlib, datetime
 
-# Run from the repository root: python3 build/buildpage.py
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# Runs from the working tree (flat) or from the repository root
+# (python3 build/buildpage.py). Work out which, rather than assuming.
+HERE = os.path.dirname(os.path.abspath(__file__))
+if os.path.basename(HERE) == 'build':
+    ROOT, BUILD, W = os.path.dirname(HERE), HERE, 'figures'
+    def D(n): return os.path.join('data', n)
+else:
+    ROOT, BUILD, W = HERE, HERE, 'web'
+    _ALT = {'acronyms.json': 'gsp/acronyms.json', 'figs.json': 'gs/figs.json'}
+    def D(n): return _ALT.get(n, n)
 os.chdir(ROOT)
-BUILD = os.path.join(ROOT, 'build')
-W = 'figures'
-def D(name): return os.path.join('data', name)
 def esc(s): return html.escape(s or '', quote=False)
 def key(q): return hashlib.md5(q.encode('utf-8')).hexdigest()[:10]
 
@@ -17,6 +22,7 @@ sysd     = json.load(open(D('pa28-systems.json')))
 wbd      = json.load(open(D('wb-data.json')))
 wbw      = json.load(open(D('wb-worked.json')))
 gsfigs   = json.load(open(D('figs.json')))
+plan     = json.load(open(D('rideplan.json')))
 
 # ---------------------------------------------------------------- figures
 CAP = {
@@ -105,13 +111,23 @@ for fkey, q in GSMAP.items():
     it = byq.get(norm(q))
     if it is None:
         missed.append(q); continue
-    it['img'] = fkey
+    cur = it.get('img')
+    if cur and cur != fkey:
+        # keep both: the scanned page first, then the drawn diagram under it
+        it['img'] = [fkey, cur] if not isinstance(cur, list) else [fkey] + cur
+    else:
+        it['img'] = fkey
     attached += 1
 print('gold seal figures attached: %d  missed: %s' % (attached, missed))
 
 # raster figures that are actually referenced
-used = sorted({it['img'] for s in db for it in s['items']
-               if it.get('img') and os.path.exists(os.path.join(W, it['img'] + '.webp'))})
+def imglist(it):
+    v = it.get('img')
+    if not v: return []
+    return v if isinstance(v, list) else [v]
+
+used = sorted({k for s in db for it in s['items'] for k in imglist(it)
+               if os.path.exists(os.path.join(W, k + '.webp'))})
 FIGB64 = {}
 for k in used:
     with open(os.path.join(W, k + '.webp'), 'rb') as f:
@@ -160,6 +176,8 @@ SRCS = [('chs', 'CHS', 'CHS Flight School study guide'),
         ('fi',  'Flight Insight', 'CPL At A Glance'),
         ('gs',  'Gold Seal', 'Commercial Certificate — Everything You Need To Know'),
         ('poh', 'Warrior POH', 'PA-28-161 handbook, TCDS and registry'),
+        ('aero','Maneuver', 'The aerodynamics behind each maneuver'),
+        ('gouge','Gouge', 'Written to close gaps a real ride with this examiner exposed'),
         ('acs', 'Added', 'Written in to close a gap')]
 SRCN = dict((k, n) for k, n, _ in SRCS)
 
@@ -182,6 +200,39 @@ color:var(--ink3);cursor:pointer;border-bottom:2.5px solid transparent;white-spa
 .fcs{display:inline-block;margin-left:7px;vertical-align:2px;font-family:var(--mono);
 font-size:9.5px;letter-spacing:.07em;text-transform:uppercase;padding:1px 6px;border-radius:4px;
 color:var(--warnc);background:var(--panel);border:1px solid var(--warnc);white-space:nowrap}
+.fcs.aero{color:var(--ok);border-color:var(--ok-line);background:var(--ok-soft)}
+.fcs.ride{color:var(--hook);border-color:var(--hook-line);background:var(--hook-soft)}
+.fcs.fig{color:var(--accent);border-color:var(--accent-line);background:var(--accent-soft)}
+/* ---- run the ride ---- */
+.rstage{border:1px solid var(--line);border-radius:11px;background:var(--panel);margin:0 0 12px;
+overflow:hidden}
+.rstage>summary,.ritem>summary{cursor:pointer;list-style:none;display:flex;align-items:center;
+gap:10px;flex-wrap:wrap;-webkit-tap-highlight-color:transparent}
+.rstage>summary::-webkit-details-marker,.ritem>summary::-webkit-details-marker{display:none}
+.rstage>summary{padding:15px 17px}
+.rstage>summary::before,.ritem>summary::before{content:"\u203A";font-size:18px;line-height:1;
+color:var(--accent);transition:transform .15s;flex:none;width:12px}
+.rstage[open]>summary::before,.ritem[open]>summary::before{transform:rotate(90deg)}
+.rsn{font-family:var(--serif);font-size:19px;flex:1;min-width:0}
+.rsc,.rc{font-family:var(--mono);font-size:12px;color:var(--ink3);flex:none}
+.rsc b,.rc b{color:var(--ok)}
+.ritem{border-top:1px solid var(--hair)}
+.ritem>summary{padding:12px 17px 12px 20px}
+.rq{flex:1;min-width:0;font-size:15px;line-height:1.45;color:var(--ink)}
+.ritem.rdoneall .rq{color:var(--ink3)}
+.cov{font-family:var(--mono);font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;
+padding:1px 6px;border-radius:4px;white-space:nowrap;flex:none}
+.cov.thin{color:var(--hook);background:var(--hook-soft);border:1px solid var(--hook-line)}
+.cov.none{color:var(--warnc);background:var(--panel);border:1px solid var(--warnc)}
+.rnote{margin:0 17px 6px 20px;font-size:13px;color:var(--ink3);font-style:italic;line-height:1.45}
+.rfix{margin:2px 17px 8px 20px;padding:10px 12px;border-radius:8px;font-size:13.5px;line-height:1.5;
+border:1px solid var(--warnc);background:var(--panel);color:var(--ink)}
+.rfix b{color:var(--warnc)}
+.cov.fix{color:var(--warnc);background:var(--panel);border:1px solid var(--warnc)}
+.ritem ul{padding:0 17px 12px 20px}
+.ritem.hide,.rstage.hide{display:none}
+.tg.gouge{color:var(--warnc);background:var(--panel);border:1px solid var(--warnc)}
+.tg.aero{color:var(--ok);background:var(--ok-soft);border:1px solid var(--ok-line)}
 /* ---- callout ---- */
 .note{border:1px solid var(--hook-line);background:var(--hook-soft);border-radius:10px;
 padding:13px 15px;margin:14px 0;font-size:14.5px;line-height:1.55}
@@ -281,37 +332,102 @@ def figure_html(fkey):
                 % (SVG[fkey], esc(SVGCAP.get(fkey, ''))))
     if fkey in FIGB64:
         cap = CAP.get(fkey, '')
-        tail = ' <span style="font-style:normal">tap to enlarge</span>'
+        tail = ' <span style="font-style:normal">tap for a closer look</span>'
         return ('<figure class="fg"><img data-f="%s" alt="%s" loading="lazy">'
                 '<figcaption>%s%s</figcaption></figure>'
                 % (fkey, esc(cap[:90]), esc(cap), tail))
     return ''
+
+def qrow(it, extra_cls=''):
+    docs = it['doc'].split()
+    tags = ''.join('<span class="tg %s">%s</span>' % (d, esc(SRCN[d])) for d in docs)
+    if it.get('g'):
+        tags += '<span class="fcs ride">checkride</span>'
+    if it.get('focus') == 'sys':
+        tags += '<span class="fcs">systems</span>'
+    elif it.get('focus') == 'aero' and 'aero' not in docs:
+        tags += '<span class="fcs aero">maneuver</span>'
+    fg = ''.join(figure_html(k) for k in imglist(it))
+    if it.get('img'):
+        tags += '<span class="fcs fig">figure</span>'
+    return ('<li class="it%s" data-k="%s" data-d="%s"%s%s%s>'
+            '<button class="tick" aria-label="mark done"></button><div class="qc">'
+            '<button class="qb"><span class="qt">%s</span>%s</button>'
+            '<div class="ans">%s%s</div></div></li>'
+            % (extra_cls, key(it['q']), esc(it['doc']),
+               ((' data-f="%s"' % it['focus']) if it.get('focus') else ''),
+               (' data-g="1"' if it.get('g') else ''),
+               (' data-img="1"' if it.get('img') else ''),
+               esc(it['q']), tags, it['a'], fg))
 
 study, nav = [], []
 for s in db:
     items = s['items']
     nav.append('<a href="#s%s"><span>%s</span><span class="nc">%d</span></a>'
                % (key(s['s']), esc(s['s']), len(items)))
-    rows = []
-    for it in items:
-        docs = it['doc'].split()
-        tags = ''.join('<span class="tg %s">%s</span>' % (d, esc(SRCN[d])) for d in docs)
-        if it.get('focus'):
-            tags += '<span class="fcs">oral focus</span>'
-        fg = figure_html(it['img']) if it.get('img') else ''
-        rows.append(
-          '<li class="it" data-k="%s" data-d="%s"%s>'
-          '<button class="tick" aria-label="mark done"></button><div class="qc">'
-          '<button class="qb"><span class="qt">%s</span>%s</button>'
-          '<div class="ans">%s%s</div></div></li>'
-          % (key(it['q']), esc(it['doc']), ' data-f="1"' if it.get('focus') else '',
-             esc(it['q']), tags, it['a'], fg))
+    rows = [qrow(it) for it in items]
     study.append(
       '<details class="sec qsec" id="s%s"><summary><span class="sname">%s</span>'
       '<span class="sprog"><b class="sdone">0</b> / <span>%d</span></span>'
       '<span class="sbar"><i></i></span></summary>%s<ul>%s</ul></details>'
       % (key(s['s']), esc(s['s']), len(items),
          '<p class="sb">%s</p>' % esc(s['b']) if s.get('b') else '', ''.join(rows)))
+
+byk = {}
+for sec in db:
+    for it in sec['items']:
+        byk[key(it['q'])] = it
+
+COVLBL = {'good': '', 'thin': 'was thin \u2014 filled in',
+          'none': 'the deck had nothing \u2014 written from scratch'}
+
+# The headings quote the prior candidate verbatim. Where what he said was wrong,
+# or where his airplane differed from this one, say so at the top of the item so
+# the quote is not absorbed as the lesson.
+CORRECTION = {
+ 7: "That airplane had no KOEL. Yours does \u2014 the Warrior handbook carries a kinds of "
+    "operation equipment list at Section 2.19, and 91.213(d)(2) names it directly, so your "
+    "chain is 91.205, then the KOEL, then the equipment list, then 91.213. The "
+    "ATOMATOFLAMES-only route he took is the fallback for an airplane without one.",
+ 35:"His conclusion is defensible but his reasoning is backwards, and this is worth getting "
+    "right before you repeat it. An airplane weathervanes into the wind: a crosswind from the "
+    "LEFT pushes the tail right and the nose left, which adds to the left-turning tendencies "
+    "you are already holding right rudder against. A RIGHT crosswind is the one that partly "
+    "cancels them. Defend a runway choice on component size, length and the emergency return, "
+    "not on rudder.",
+ 58:"The error here is the one to take away: ground reference maneuvers are entered DOWNWIND, "
+    "with a tailwind, at the fastest groundspeed and so the highest pivotal altitude.",
+ 43:"There is no verbatim numbered list of stall stages in any FAA document. Describe them "
+    "rather than reciting three words, and keep in mind that incipient is the FAA's term for a "
+    "phase of a spin, not of a stall \u2014 which is probably what tripped him.",
+}
+ridehtml = []
+for st in plan:
+    blocks, nq_st = [], 0
+    for item in st['items']:
+        rows = [qrow(byk[k], ' rit') for k in item['k'] if k in byk]
+        nq_st += len(rows)
+        flag = ''
+        if item['c'] != 'good':
+            flag = '<span class="cov %s">%s</span>' % (item['c'], esc(COVLBL[item['c']]))
+        note = ('<p class="rnote">%s</p>' % esc(item['n'])) if item.get('n') else ''
+        gi = item.get('gi')
+        if gi in CORRECTION:
+            note = ('<p class="rfix"><b>Careful here.</b> %s</p>' % esc(CORRECTION[gi])) + note
+        blocks.append(
+          '<details%s><summary>'
+          '<span class="rq">%s</span>%s%s'
+          '<span class="rc"><b class="rdone">0</b>/%d</span>'
+          '</summary>%s<ul>%s</ul></details>'
+          % (' class="ritem fixed"' if item.get('gi') in CORRECTION else ' class="ritem"',
+             esc(item['i']), flag,
+             '<span class="cov fix">read the note</span>' if item.get('gi') in CORRECTION else '',
+             len(rows), note, ''.join(rows)))
+    ridehtml.append(
+      '<details class="rstage" open><summary><span class="rsn">%s</span>'
+      '<span class="rsc"><b class="rsdone">0</b> / %d</span>'
+      '<span class="sbar"><i></i></span></summary>%s</details>'
+      % (esc(st['t']), nq_st, ''.join(blocks)))
 
 # ---------------------------------------------------------------- acronyms pane
 agroups = []
@@ -465,7 +581,8 @@ fuel = wbd['fuel']
 
 # ---------------------------------------------------------------- counts
 nq = sum(len(s['items']) for s in db)
-nfocus = sum(1 for s in db for it in s['items'] if it.get('focus'))
+nfocus = collections.Counter(it.get('focus') for s in db for it in s['items'])
+nride = sum(1 for s in db for it in s['items'] if it.get('g'))
 nacr = sum(len(g['items']) for g in acr['groups'])
 ride = datetime.date(2026, 11, 24)
 today = datetime.date.today()
@@ -499,6 +616,7 @@ Tap a question to see the answer, tick it when you own it. Progress is saved on 
 
 <div id="tabs">
 <button class="tb on" data-p="study">Study</button>
+<button class="tb" data-p="ride">Run the ride</button>
 <button class="tb" data-p="acr">Acronyms</button>
 <button class="tb" data-p="air">The airplane</button>
 <button class="tb" data-p="wb">Weight &amp; balance</button>
@@ -508,7 +626,10 @@ Tap a question to see the answer, tick it when you own it. Progress is saved on 
 <input id="q" type="search" placeholder="Search questions and answers" autocomplete="off">
 <button class="fb on" data-m="all">All</button>
 <button class="fb" data-m="todo">To do</button>
-<button class="fb" data-m="focus">Oral focus</button>
+<button class="fb" data-m="ride">Checkride</button>
+<button class="fb" data-m="fig">Figures</button>
+<button class="fb" data-m="sys">Systems</button>
+<button class="fb" data-m="aero">Maneuver</button>
 <button class="fb" id="expand">Expand all</button>
 <button class="fb" id="theme">Dark</button>
 <button class="fb danger" id="reset">Reset progress</button>
@@ -519,6 +640,21 @@ Tap a question to see the answer, tick it when you own it. Progress is saved on 
 <div id="nores" class="hide"><p class="nrt">Nothing matches <span id="nrq"></span></p>
 <p class="nrs">Try fewer words, or <button class="fb" id="nrclear">clear the search</button></p></div>
 %(study)s
+</section>
+
+<section class="pane" id="p-ride">
+<p class="kicker">The checkride, in the order it happened</p>
+<div class="note"><b>This is a rehearsal, not a filter.</b> Every heading below is something the
+examiner actually did on a prior ride, in sequence \u2014 the oral from logbooks through to the
+accident-reporting question, then the flight, then the debrief. Work down it and you have been
+through his ride once before you fly it. Ticks are shared with the Study tab, so nothing is
+counted twice.</div>
+<div class="brow" style="margin-bottom:14px">
+<button class="fb" id="rhide">Hide what I have ticked</button>
+<button class="fb" id="rexp">Expand all</button>
+<span id="rstat" style="font-family:var(--mono);font-size:12px;color:var(--ink3)"></span>
+</div>
+%(ridehtml)s
 </section>
 
 <section class="pane" id="p-acr">
@@ -591,7 +727,7 @@ style="font-size:16px">Where that assumed figure comes from</span></summary>
 </body></html>""" % dict(
     css=BASECSS, extra=EXTRA, nq='{:,}'.format(nq), ride=ride.strftime('%d %B %Y'), days=days,
     chips=chips, nav=''.join(nav), study=''.join(study), nacr=nacr,
-    agroups=''.join(agroups), acblocks=''.join(acblocks), focusnotes=focusnotes,
+    agroups=''.join(agroups), ridehtml=''.join(ridehtml), acblocks=''.join(acblocks), focusnotes=focusnotes,
     caveats=caveats, unver=unver, aebasis=esc(unshout(ae.get('basis', ''))),
     aew=ae['weight'], aea=ae['arm'], fgal=fuel['gal_usable'],
     wbcases=''.join(wbcases), findings=findings, wbcav=wbcav,
@@ -599,6 +735,6 @@ style="font-size:16px">Where that assumed figure comes from</span></summary>
 
 open('commercial-study-guide.html', 'w', encoding='utf-8').write(doc)
 mb = len(doc.encode('utf-8')) / 1048576.0
-print('questions %d  focus %d  acronyms %d  figures %d raster + %d svg'
-      % (nq, nfocus, nacr, len(used), len(SVG)))
+print('questions %d  systems %d  aero %d  asked-on-ride %d  acronyms %d  figures %d raster + %d svg'
+      % (nq, nfocus['sys'], nfocus['aero'], nride, nacr, len(used), len(SVG)))
 print('wrote commercial-study-guide.html  %.2f MB' % mb)

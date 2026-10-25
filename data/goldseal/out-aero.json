@@ -1,0 +1,1010 @@
+[
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why does the rudder requirement in a lazy eight change continuously and even reverse?",
+  "a": "Because everything that drives it is moving: airspeed falls then rises, angle of attack rises then falls, and the roll direction reverses twice. <b>Right rudder is needed at the apex of both halves</b>, since the left-turning tendencies peak at the slowest, highest-power, highest-angle-of-attack point no matter which way you are turning. Add adverse yaw, which needs rudder with the roll on every roll-in and roll-out, and the pressure you are holding is never the same for two seconds together.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "In the left-turning half of a lazy eight, why do you still need right rudder near the top?",
+  "a": "Because the propeller does not care which way you are turning. At the apex the airplane is slowest with power on and the angle of attack is highest, so P-factor, slipstream and torque are all at their peak and all yaw the nose left. <b>You hold right rudder against your own turn</b>, which is why the left half feels unnatural and why most candidates' two loops are not symmetrical until the footwork is fixed.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Where in a lazy eight is P-factor strongest, and why exactly there?",
+  "a": "Between the 45 and the 90, strongest at the apex. P-factor comes from the propeller disc being inclined to the relative wind: the descending blade on the right side meets the air at a higher angle of attack and takes a bigger bite than the ascending blade. <b>That asymmetry grows as pitch attitude rises and airspeed falls</b>, and at the apex the nose is still high while the airspeed is at its lowest, so the effective thrust line is at its most off-center.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "At the apex, separate torque from slipstream for me. What is each one doing?",
+  "a": "Torque is Newton's third law on the airframe: the engine turns the propeller clockwise, so the airframe is rolled counterclockwise, to the left. It is a rolling moment, not a yaw. Spiraling slipstream is the corkscrew of accelerated air striking the left side of the fin, pushing the tail right and yawing the nose left. At the apex <b>the slipstream helix is at its tightest</b>, because rpm is high while forward speed is at its lowest, so its contribution is at a maximum.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Does torque itself get stronger as you slow down at the top of a lazy eight?",
+  "a": "The torque reaction tracks power and propeller rpm, not airspeed, so at a fixed throttle it barely changes. What changes is your ability to resist it: <b>control effectiveness falls with the square of airspeed</b>, so the same rolling moment takes much more aileron and rudder deflection at the apex than at entry. The effect feels larger because the controls have gone soft, not because the torque has grown.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Does the fixed-pitch propeller change the way the apex of a lazy eight feels?",
+  "a": "Yes. The blade angle cannot change, so as the airplane slows at a fixed throttle the blades meet the air at a larger angle, the propeller loads up, and the <b>rpm falls</b>, taking some power with it. Even so, the slipstream helix tightens, because forward speed falls faster than rpm does, and P-factor grows with the nose-high attitude. The net demand for right rudder still rises all the way into the apex.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "In the climbing half of a lazy eight, which way does the bank want to go, and why?",
+  "a": "Steeper. The outside wing flies the larger circle, so it moves faster through the air, and since lift varies with the <b>square of velocity</b> it makes more lift and rolls the airplane deeper into the turn. The effect grows as the airspeed falls toward the apex. The Airplane Flying Handbook says a slight amount of opposite aileron may be required at the 90 degree point to prevent the wings from overbanking, so expect to carry aileron out of the turn there, not neutral.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "And in the descending half of a lazy eight, what is happening to the bank?",
+  "a": "The outside wing is still the faster one, so the overbanking moment is still there, but it is now partly offset. In a descending turn the inside wing follows the steeper downward path and meets the relative wind at a <b>higher angle of attack</b> than the outside wing, and that extra lift resists the roll. The velocity difference generally still wins at bank, so you carry some aileron out of the turn, but the airplane is less insistent about it than it was climbing.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Walk me through angle of attack, airspeed and load factor at the 45 of a lazy eight.",
+  "a": "Pitch attitude is at its maximum and bank is passing roughly fifteen degrees. Airspeed is below entry and still falling, and angle of attack is high and still rising, because the wing is holding a steep climbing flight path at a reducing speed. Load factor is modest and <b>already coming down from its peak</b>, which occurred in the initial pull-up where the flight path was bent upward hardest. Nothing is steady; every quantity is on its way somewhere.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "What is the load factor doing at the top of a lazy eight?",
+  "a": "It is at the lowest value of the whole maneuver, often <b>below one g</b>. At the apex the airplane is arcing over the top of its flight path, so the curvature of the path is supplying part of what gravity would otherwise demand from the wing, exactly as the top of a wingover feels light. That is also why the wing is not near a stall at the apex despite the minimum airspeed: with a low load factor, the stalling speed there is at or below the one-g figure.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "So where in a lazy eight is the load factor highest?",
+  "a": "In the pull-up just after entry, and again in the recovery just before the 180, where the flight path is being bent back toward the horizon. Those are the moments the wing is making the most lift. It is also why the entry is flown <b>at or below maneuvering speed</b>: at that speed an abrupt pull takes the wing to its critical angle of attack and stalls it before the airframe is overstressed.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why is the airspeed lowest at the 90 degree point rather than at the 45?",
+  "a": "Because the airplane keeps climbing past the 45. Maximum pitch attitude at the 45 is the steepest the flight path gets, but the airplane goes on trading kinetic energy for altitude until the nose comes back down to the horizon, and that is the 90. <b>Minimum airspeed and maximum altitude happen at the same instant</b>, the apex, which is also where the bank is steepest.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Where does the altitude in a lazy eight come from? Work the energy for me.",
+  "a": "Out of the airspeed, almost entirely. Total energy is altitude plus speed, and at a constant power setting the airplane converts one into the other. Taking 105 knots down to 70 knots as an illustration: 105 knots is 177 feet per second, and 177 squared divided by twice 32.2 is 488 feet of energy height, against 217 feet at 70 knots, so the trade is worth <b>about 270 feet</b>. The real altitude gain is less, because drag spends part of it and power puts a little back.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "What does the lazy eight demonstrate that a steep turn cannot?",
+  "a": "Control of the airplane through a continuously varying flight condition. In a steep turn the airspeed, bank, load factor and angle of attack are all held constant, so one set of pressures works throughout. In a lazy eight <b>no two instants share the same combination</b> of airspeed, bank, pitch, angle of attack and load factor, so every control pressure must be led and changed continuously. It tests planning and feel rather than the ability to hold a number.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why does the rudder go soft at the top of a lazy eight just when you need it most?",
+  "a": "Because a control surface's power depends on dynamic pressure, which varies with the <b>square of airspeed</b>. If the apex is thirty-five percent slower than the entry, the tail has only about forty-two percent of the entry dynamic pressure on it, so the same pedal deflection makes far less yawing moment. Meanwhile the left-turning tendencies are at their peak. The apex needs a large, deliberate application of right rudder, not a nudge.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why do the two halves of a lazy eight usually come out unequal?",
+  "a": "Footwork. In the half turning right, the rudder for the roll, the rudder to coordinate the turn and the rudder against the left-turning tendencies are <b>all right rudder</b>, so the pressures add and the half feels natural. In the half turning left, the roll wants left rudder while slipstream and P-factor want right, so the pressure must reverse in the middle of the climb. Most pilots are late on that reversal, which skids the top and flattens that loop.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "What is adverse yaw doing at the lazy eight roll-in, and does it matter there?",
+  "a": "It matters more here than almost anywhere. Rolling into the bank, the down aileron raises that wing's lift and with it its induced drag, while the up aileron reduces both on the other side, so the nose yaws <b>opposite to the direction of roll</b>. The rolls are made at a low and falling airspeed with a high angle of attack, which is exactly when induced drag dominates, and the rolling is continuous, so the yaw is continuous too.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why must the nose be led into the climb rather than pulled?",
+  "a": "Because the maneuver is an energy trade, not a pull. Pulling hard bends the flight path, raises the load factor and <b>spends energy as induced drag</b> rather than converting it to altitude, and at a steep bank it also runs the airspeed down early so the apex arrives before the 90. A smooth, gradual pitch increase keeps the load factor low, keeps induced drag low, and lets the trade from speed into height stay efficient.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "At what point in a lazy eight is the airplane closest to a stall, and are you worried?",
+  "a": "The apex, where the airspeed is lowest, but it is not as close as the airspeed suggests. <b>Load factor at the apex is at or below one g</b>, and stall speed scales with the square root of load factor, so the stalling speed there is at or below the straight-and-level figure. The hazard is not the apex itself but mishandling it: a skid at the top, or a yank to rescue a late nose, raises the angle of attack where the margin is thinnest.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why does the bank keep increasing between the 45 and the 90 when the airspeed is falling?",
+  "a": "Partly by design, because the maneuver calls for maximum bank at the apex, and partly because the geometry rewards it. Rate of turn equals g times the tangent of the bank divided by true airspeed, so <b>as airspeed falls, the same bank produces a faster rate of turn</b>. That is how the airplane sweeps through ninety degrees of heading while the nose is high and the speed is decaying away to its minimum.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why does the airplane finish a lazy eight at the entry altitude and airspeed if everything changed?",
+  "a": "Because the energy is handed back. The first half converts airspeed into altitude; the second half converts it back as the nose falls through the horizon and the airplane accelerates in the descending turn. With the power left where it was, the energy at the 180 is nearly what it was at entry, less what drag consumed, so <b>a consistent power setting</b> is what makes the numbers repeat. Arriving fast and low means you let the nose stay down too long.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why does the elevator pressure change so much between the 45 and the 135?",
+  "a": "Because <b>lift varies with the square of airspeed</b>. At the apex and just past it the airplane is slow, so holding a given pitch attitude takes noticeable back pressure; as the nose falls and the airplane accelerates through the 135, the same elevator deflection produces far more lift, so the pressure comes off progressively. The two pitch attitudes mirror each other but the control forces required at them are nothing alike.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why must the bank be shallow at the 45 and steepest at the 90?",
+  "a": "Because bank is what turns the climb into a turn. Near the 45, most of the lift is being used to raise the nose and trade speed for height, so a steep bank there would kill the climb and use up the heading change too early. By the apex the climb is finished, and <b>the steepest bank buys the fastest rate of turn at the lowest airspeed</b>, which is what carries the nose through the 90 and starts it back down.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "What is the vertical component of lift doing through a lazy eight?",
+  "a": "Shrinking and growing continuously. It is total lift times the cosine of the bank, so at the apex, with the steepest bank and the lowest airspeed, the smallest share of lift is holding the airplane up; that is one reason <b>the nose falls through the horizon at the 90 without you pushing it</b>. Through the second half, as the bank comes off, the cosine climbs back toward one and the recovering vertical component helps arrest the descent by the 180.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why is a lazy eight entered at or below maneuvering speed?",
+  "a": "Because the airplane is taken through large pitch changes at a varying load factor, and below maneuvering speed <b>the wing reaches its critical angle of attack before the limit load factor</b>, so a mistimed or abrupt pull stalls the wing rather than bending the airframe. The handbook names lazy eights in its approved maneuver list with an entry speed beside them, but that printed speed belongs to the heavier serial block, so the figure for this airplane has to come from its own handbook.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Is a lazy eight coordinated if you are holding rudder against the direction of turn?",
+  "a": "Yes. Coordination means the airplane is neither slipping nor skidding, not that the pedals are neutral or symmetric. <b>The ball defines coordination, not the pedal position</b>, and at the apex of a left-turning half the pressure that keeps the ball centered happens to be right rudder, because the propeller effects are yawing the nose left harder than the turn calls for. Judge it by the ball and by the seat of your pants.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "What happens aerodynamically if you let the airplane skid at the apex of a lazy eight?",
+  "a": "The bottom rudder yaws the nose into the turn, the outside wing speeds up and lifts more, and the airplane overbanks. The instinctive fix is opposite aileron, which lowers the aileron on the inside wing and <b>raises the inside wing's angle of attack at the lowest airspeed of the maneuver</b>. That is the classic skidding-stall setup, and at the apex it would roll the airplane over the top. The fix is rudder, not aileron.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "How does flying lighter change the lazy eight?",
+  "a": "Every speed in the maneuver moves down together, because stall speed, best glide and maneuvering speed all vary with the <b>square root of the weight</b>. Lighter, the airplane reaches the apex with a lower stalling speed and a lower permitted entry speed, so entering at the gross-weight number puts you above maneuvering speed for the day. The shape of the maneuver is unchanged; the band of airspeeds it must be flown in moves.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why is right rudder needed on the right-turning half too, if the airplane already wants to go left?",
+  "a": "Two separate jobs. The left-turning tendencies yaw the nose left whenever the airplane is slow with power on, and must be opposed with right rudder. Separately, rolling right produces adverse yaw to the left and needs right rudder to keep the nose tracking the roll. <b>Both call for right rudder in the right-turning half</b>, so the pressures add; that is why it feels easy, and why pilots are caught out when the left half takes one of them away.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "What tells you in the first half of a lazy eight that you will be fast at the 180?",
+  "a": "An apex that was not slow enough. The speed at the 180 is set by how much kinetic energy you converted on the way up and how long you leave the nose down coming back. <b>If the apex airspeed is too high, there is too much energy still in the airplane</b>, and the second half simply gives it all back with what gravity adds. The correction is upstream, in a higher and better-led pitch attitude in the first quarter, not a pull at the end.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Describe the 135 degree point of a lazy eight aerodynamically.",
+  "a": "It mirrors the 45 with the signs changed: pitch attitude at its maximum nose-down, bank back through roughly fifteen degrees, airspeed rising quickly and angle of attack low, because the wing is relatively unloaded in a descending turn. The <b>overbanking tendency now works against you</b> rather than for you, so you hold aileron out of the turn while reducing back pressure, planning the rollout to finish exactly as the nose reaches the horizon.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why does a lazy eight develop rather than being flown to a set of fixed positions?",
+  "a": "Because the aerodynamics set the schedule. Airspeed decays at a rate fixed by pitch attitude and power, and the rate of turn is tied to bank and airspeed, so once you have chosen a pitch and bank, <b>the airplane decides when it arrives at the 90</b>. The skill is choosing an initial pitch attitude and rate of bank that make the geometry come out: slowest, highest and ninety degrees of heading change, all at the same instant.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why does the rate of climb increase through the second 90 of a chandelle while the airspeed decays?",
+  "a": "Because the bank is coming off. As bank reduces, the <b>vertical component of lift increases</b>, so more of the wing's lift points at raising the airplane instead of turning it, and less lift spent turning also means less induced drag. With the pitch attitude held, the airplane goes on converting its remaining airspeed into altitude on a steepening flight path, so the vertical speed peaks near the very end, where the airspeed is lowest.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why is bank held constant for the first 90 of a chandelle and pitch for the second?",
+  "a": "It is the only pair of rules that makes the geometry work out. Rate of turn is g times the tangent of the bank over airspeed, so in the first half a <b>fixed bank with a decaying airspeed gives a steadily increasing rate of turn</b> while you raise the nose. In the second half the airspeed keeps falling, so progressively reducing bank holds the turn rate roughly steady and puts the wings level exactly at 180 degrees, with pitch locked so the energy trade continues undisturbed.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "What controls the airspeed at the completion of a chandelle?",
+  "a": "The pitch attitude you set at the 90 degree point, because from there it is simply held. Too high an attitude and the airplane runs out of airspeed before the heading change is finished and mushes or stalls; too low and it arrives well above the target with the maneuver unfinished. <b>The 90 degree point sets the entire second half</b>, so choose that attitude deliberately, then hold it and manage the rudder.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Where should the airplane be, speed-wise, at the completion of a chandelle, and why?",
+  "a": "At <b>minimum controllable airspeed, just above the stall</b>, wings level, still in the climb attitude, and held there momentarily before recovery. The maneuver is a maximum performance climbing turn, so the grading is on having converted everything the entry speed offered into altitude and heading change. Arriving comfortably fast means you stopped trading early and left performance in the airplane.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why is the right rudder requirement in a chandelle greatest at the very end?",
+  "a": "Because the end combines every factor at its worst: full power, the lowest airspeed of the maneuver and the highest angle of attack. P-factor peaks with the propeller disc most inclined, the slipstream helix is at its tightest, and <b>the rudder itself has the least authority</b>, since control power falls with the square of airspeed. More pedal travel is needed to produce less yawing moment against a larger disturbance.",
+  "dup": "Why does a chandelle need steadily increasing right rudder?"
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why do a left chandelle and a right chandelle feel completely different?",
+  "a": "Because the propeller effects do not swap sides. In a right chandelle the right rudder that opposes the left-turning tendencies is roughly the rudder the turn and the roll also want, so the pressures add and the maneuver feels smooth. In a left chandelle <b>the airplane is trying to turn faster than you want it to</b>, and you hold right rudder against your own turn while rolling left, which is the combination most candidates get wrong.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "In a left chandelle, what happens if you fly it and ignore the ball?",
+  "a": "It will skid, the nose yawing left, because every propeller effect is pushing that way while the airspeed falls. A skid at a high angle of attack puts the <b>inside wing at a higher angle of attack than the outside</b>, and at the completion the airplane is only just above the stall, which is a spin entry. Spins are prohibited in both normal and utility category in this airplane, so the margin you keep is coordination, not recovery technique.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why hold a constant bank in the first half rather than rolling out gradually the whole way?",
+  "a": "Because the first half's job is to establish the turn and start the energy trade, not to finish the heading change. A constant bank with an increasing pitch attitude produces an <b>accelerating rate of turn</b> as the speed decays, which puts the airplane at ninety degrees of heading change just as the pitch attitude reaches its maximum. Rolling out early throws away the turn performance that the rising angle of attack is buying you.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why does a chandelle give more heading change per knot of airspeed as it goes on?",
+  "a": "Rate of turn is g times the tangent of the bank divided by true airspeed, so with the bank fixed, <b>halving the airspeed doubles the rate of turn</b>. Every knot the airplane gives up buys more degrees of heading than the knot before it, which is why so much of the chandelle's 180 degrees is completed in the slow second half, and why it is called a maximum performance climbing turn rather than just a climbing turn.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "What limits how steep the bank may be in a chandelle?",
+  "a": "Lift and the stall. The steeper the bank, the more total lift the wing must make to hold the vertical component against weight, so the load factor and the stall speed both rise and an over-steep chandelle reaches the stall long before 180 degrees of turn. Too shallow and the heading change will not finish before the airspeed is gone. <b>About thirty degrees</b> is the practical compromise, established early and held through the first half.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Does a chandelle load the airplane heavily?",
+  "a": "No, and that surprises people. It is flown at a moderate bank with a gradual pitch change, so the load factor stays close to one g throughout; a level thirty degree bank is only <b>1.15 g</b>, and the unloading of the climbing flight path keeps it lower still. The hazard in a chandelle is the approach to the stall at the completion with full power and a lot of yaw available, not structural load.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "What happens to the bank in a chandelle if you simply hold the ailerons neutral?",
+  "a": "It steepens. The Airplane Flying Handbook is explicit that <b>as airspeed decreases, the overbanking tendency increases</b>, and a chandelle spends its entire second half decelerating at a fixed thirty degrees of bank. The outside wing flies the longer arc, moves faster and lifts more, and the slower you get the more that asymmetry shows. Holding thirty degrees to the rollout therefore takes aileron held out of the turn.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why is a chandelle entered at or below maneuvering speed?",
+  "a": "Because it starts with a pitch-up at a bank, and maneuvering speed is the speed below which <b>the wing reaches its critical angle of attack before the limit load factor</b>, so the airplane stalls rather than breaks. The entry speed is also the fuel for the maneuver: it is the kinetic energy that will be converted to altitude and heading change, so entering well below the correct speed leaves nothing to trade.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Give me the relationship between bank, vertical lift and turn rate in one breath.",
+  "a": "Bank splits one force into two: the <b>cosine of the bank gives the vertical component and the sine gives the horizontal component</b>. The vertical part fights weight and decides whether you climb; the horizontal part is the only force curving the flight path and sets the rate of turn. Steepening the bank buys turn rate at the expense of climb, shallowing it buys climb at the expense of turn rate, and the chandelle deliberately slides from one to the other.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why does a chandelle finish in a climb attitude rather than level?",
+  "a": "Because the maneuver is graded on having converted all the available energy. The airplane should be at the highest altitude the entry speed could buy, which means it is still nose-high and slow at the 180. Leveling off early means you stopped trading. <b>Hold the completion attitude momentarily</b>, verify the wings are level on the reciprocal heading, then lower the nose and resume cruise without letting the airplane stall or settle.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "What happens if you are late with right rudder at the end of a left chandelle?",
+  "a": "The airplane skids left, the nose swings through the target heading, and the ball slides to the outside. At that angle of attack, with the airspeed just above the stall, the <b>skid puts the inside wing closest to stalling</b>, which is the setup for a rapid roll into the turn. You also fail the heading element, because the nose overshoots the 180 before the wings are level.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "As a chandelle slows, what is happening to induced drag?",
+  "a": "It is climbing steeply, which is part of why the speed bleeds faster near the end. Induced drag varies with the square of the lift coefficient and inversely with the square of airspeed, so a high angle of attack at a low speed means <b>induced drag dominates total drag</b>. By the completion the airplane is well into the region of reversed command, which is why pitching up there produces sink rather than climb.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why can't you simply add power to rescue a chandelle that is running out of airspeed?",
+  "a": "Because you are already at the maximum allowable power from the entry; there is nothing left to add. This engine is <b>rated at 160 horsepower at 2,700 rpm</b> and drives a fixed-pitch propeller, so once the throttle is open your only remaining variable is pitch attitude. The real fix belongs on the next attempt, in a lower pitch attitude selected at the 90 degree point, not in a scramble at the end.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Show me why a steep turn costs you altitude if you only bank.",
+  "a": "Banking tilts the lift vector. The part still opposing weight is total lift times the cosine of the bank, so at fifty degrees only <b>64 percent</b> of the lift is holding you up and the airplane starts down at once. To restore the vertical component you must increase total lift, which means a higher angle of attack, and that extra lift is precisely what drives the load factor above one.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Work the load factor at 45 and at 60 degrees of bank for me.",
+  "a": "Load factor is one divided by the cosine of the bank angle. At 45 degrees the cosine is 0.707, so the load factor is <b>1.41 g</b>; at 60 degrees the cosine is exactly 0.5, so it is 2.0 g. In level flight it depends on bank alone, not on airspeed and not on weight, and it climbs very steeply past 60 degrees: at 75 degrees it is 3.86 g.",
+  "dup": "What is the load factor in a level 30, 45 and 60 degree banked turn?"
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "What is the load factor at the commercial steep turn bank of 50 degrees?",
+  "a": "The cosine of 50 degrees is 0.643, and one divided by that is <b>1.56 g</b>. At this airplane's 2,325 pound maximum weight that is about 3,620 pounds carried by the wings, against a normal category limit of 3.8 g. The ACS allows plus or minus five degrees, and at 55 degrees the load factor is already 1.74 g, so loose bank control is also loose load control.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "How much does the stall speed rise in a 50 degree bank, and how do you work it?",
+  "a": "Stall speed rises with the square root of the load factor. At 50 degrees the load factor is 1.56, and the square root of 1.56 is <b>1.25</b>, so the stall speed is twenty-five percent above the wings-level figure for that weight and configuration. The multiplier is 1.19 at 45 degrees, 1.41 at 60, and 1.97 at 75 degrees, where the stalling speed has essentially doubled.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "At what bank angle would this airplane reach its normal category limit load factor in a level turn?",
+  "a": "Where one over the cosine of the bank equals 3.8, which is a cosine of 0.263, or <b>about 75 degrees</b> of bank. In the utility category, with a limit of 4.4 g, it is about 77 degrees. Those are structural numbers only: long before that the airplane runs out of power and angle of attack to hold altitude, so in practice it would be descending rather than turning level.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why does back pressure alone stop working past a certain bank angle?",
+  "a": "Because back pressure buys lift only by increasing angle of attack, and <b>the angle of attack runs into the critical angle</b>. The lift required rises as one over the cosine of the bank, which grows without limit as the bank approaches ninety degrees, while the wing's maximum lift coefficient is fixed. Past the bank where the required lift coefficient exceeds that maximum at your airspeed, more pull gives buffet and stall, not altitude. The answers are more speed or less bank.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why do you need power in a steep turn when the airplane is not climbing?",
+  "a": "Because the extra lift brings extra induced drag. Induced drag varies with the square of the lift being made, so at 1.56 g it is <b>about 2.4 times</b> the level-flight value at the same airspeed; at 60 degrees and 2 g it is four times. Without more thrust the airplane pays for that drag out of its airspeed, the speed decays, the angle of attack has to rise further, and the turn deteriorates.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Where does the overbanking tendency come from, in terms of the two wings?",
+  "a": "From the difference in airspeed across the span. In a turn the outside wing travels a larger circle in the same time, so it moves faster through the air, and lift varies with the <b>square of velocity</b>, so the faster wing makes more lift and rolls the airplane steeper. The effect grows as the turn radius shrinks toward the wingspan, which is why it is negligible in a shallow turn and demands held-out aileron past about thirty degrees of bank.",
+  "dup": "What is the overbanking tendency and how does it show up in a steep turn?"
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Is the overbanking tendency a lift problem or a stability problem?",
+  "a": "It is a lift problem that shows up as a stability problem. Dihedral and the rest of the airplane's lateral stability normally roll it back toward wings level, but in a steep turn the <b>lift asymmetry from the differential velocity overcomes that stability</b>, so the net effect reverses and the airplane diverges into a steeper bank. Let go, and the bank steepens, the nose drops, the speed builds, and you have a spiral.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why does a steep turn tighten into a spiral if you ignore it?",
+  "a": "Each effect feeds the next. The bank steepens from the overbanking tendency, the vertical component of lift falls, the nose drops, the airspeed builds, and the faster outside wing lifts harder still, steepening the bank again. Pulling back at that point <b>tightens the turn and raises the load factor without raising the nose</b>, because the lift vector is pointed sideways rather than up. The recovery is to roll out first, then pull.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "What are you trimming for in a steep turn?",
+  "a": "Ideally nothing. A 360 at the commercial bank takes only half a minute, the back pressure required is large, and trimming it in means a sharp nose-up pitching moment at the rollout as the load factor comes off. Most examiners want to see it <b>flown on control pressure rather than trim</b>, with the rollout led by roughly half the bank angle in degrees of heading so the wings reach level on the entry heading.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why does the airspeed in a steep turn tend to decay even with power added?",
+  "a": "Because the drag rise is steep and nonlinear while the thrust available is not. Induced drag climbs with the square of the load factor, and the airplane has a <b>fixed-pitch propeller and 160 horsepower</b> to answer with, with the propeller less efficient at the reduced speed. Entering at cruise power usually means a noticeable addition rolling in and an equally deliberate reduction rolling out, or you leave the maneuver fast.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Define the vertical and horizontal components of lift precisely.",
+  "a": "Lift always acts perpendicular to the wings. Bank the airplane and that single force splits into two useful parts: the vertical component, equal to lift times the <b>cosine</b> of the bank, which opposes weight, and the horizontal component, equal to lift times the sine of the bank, which supplies the centripetal force curving the flight path. There is no separate turning force; the horizontal component of lift is the whole of it.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "What role does centrifugal force play in a steep turn?",
+  "a": "It is the apparent outward force the occupants feel, equal and opposite to the centripetal force the horizontal component of lift is supplying. It is not an external force acting on the airplane; it is <b>inertia resisting the change of direction</b>. Add it as a vector to weight and you get the resultant the wing must support, and the ratio of that resultant to the airplane's weight is the load factor.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "How do bank and airspeed change the rate and the radius of a turn?",
+  "a": "Rate of turn equals g times the tangent of the bank divided by true airspeed; radius equals true airspeed squared divided by g times the tangent of the bank. So at a given bank, <b>flying slower gives a faster rate and a smaller radius</b>, and at a given airspeed, steepening the bank does the same. Radius is the one that punishes speed hardest, because it goes with the square of it.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Work me a rate and radius of turn at 50 degrees of bank and 95 knots true.",
+  "a": "Ninety-five knots is 160 feet per second and the tangent of 50 degrees is 1.19. Rate of turn is 32.2 times 1.19 divided by 160, which is 0.24 radians per second, or <b>about 14 degrees per second</b>, more than four times standard rate. Radius is 160 squared divided by 32.2 times 1.19, about 670 feet, so a full 360 takes roughly 26 seconds.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Does a steep turn have to be flown in the utility category in this airplane?",
+  "a": "Only if the bank exceeds sixty degrees. The handbook's approved maneuver list names steep turns, lazy eights and chandelles under <b>utility category operation for bank angles exceeding 60 degrees</b>, where the limit load factor is 4.4 g instead of 3.8. The commercial steep turn is flown at fifty, so it sits inside the normal category, but utility also means a reduced weight, no baggage and no rear seat occupants, which is worth knowing before you claim it.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "In a steep turn, does the stall speed change as your airspeed decays?",
+  "a": "No. The stall speed is fixed by weight, configuration and load factor, so at 50 degrees it sits twenty-five percent above the wings-level number regardless of what the airspeed indicator reads; <b>it is the margin that is shrinking, not the stall speed</b>. Letting the airspeed decay walks your actual speed down toward that accelerated stall speed, and the first warning will be the buffet or the horn, not the airspeed needle.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why must the bank vary continuously around a steep spiral?",
+  "a": "Because the maneuver is graded on a <b>constant radius over the ground</b> and the wind makes the groundspeed change continuously around the circle. Radius over the ground depends on groundspeed and bank, so you steepen the bank where the groundspeed is high and shallow it where the groundspeed is low. Hold a constant bank instead and you paint a drifting, egg-shaped track rather than a circle.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Where exactly is the bank steepest in a steep spiral, and why?",
+  "a": "On the downwind side, where the airplane's groundspeed is its airspeed plus the wind. Radius over the ground goes with the <b>square of groundspeed</b>, so the higher groundspeed would open the circle out unless the bank is steepened to tighten it. The shallowest bank is on the upwind side, where groundspeed is lowest, and the transitions between them are continuous rather than stepped.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "What is the relationship between groundspeed and the bank you need?",
+  "a": "Radius over the ground equals groundspeed squared divided by g times the tangent of the bank, so to hold the radius constant the tangent of the bank must rise with the square of the groundspeed. <b>A twenty percent increase in groundspeed needs about a forty-four percent increase in the tangent of the bank</b>, which is why the steepening on the downwind side is far more aggressive than most pilots expect.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "What does the steep spiral being a gliding maneuver do to your options?",
+  "a": "It takes thrust out of the equation. In a powered steep turn you answer the extra induced drag with the throttle; gliding, the only currency is altitude, so <b>every degree of extra bank is paid for in rate of descent</b>. You also cannot recover a decaying airspeed with power, which is why the airspeed tolerance is the hard part of this maneuver and why the nose must come down as the bank goes up.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Work the stall margin at 60 degrees of bank in a glide.",
+  "a": "At 60 degrees the load factor in a steady turn is about one over the cosine, so <b>2.0 g</b>, and stall speed rises with the square root of load factor, a factor of 1.41. If you are gliding at a speed only thirty percent above the wings-level stall, then at 60 degrees of bank the accelerated stall speed has moved above the speed you are flying. That arithmetic is the reason for the 60 degree limit on this maneuver.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Is the load factor in a descending turn exactly one over the cosine of the bank?",
+  "a": "Not exactly; it is slightly less, because in a descent part of the weight acts along the flight path rather than perpendicular to it. The strict relation is the <b>cosine of the glide path angle divided by the cosine of the bank</b>. At the shallow glide angles of a steep spiral the difference is a couple of percent, so one over the cosine is the right figure to quote and a conservative one to plan with.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why is the airspeed tolerance in a steep spiral so easy to bust?",
+  "a": "Because bank and pitch are both changing the whole way round and both affect airspeed. Steepening the bank raises the load factor and the induced drag, which bleeds speed unless the nose comes down; shallowing it does the reverse. With the engine at idle there is no power to split the difference, so <b>the elevator is your only airspeed control</b> and it must move continuously in step with every bank change.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why do you clear the engine during a steep spiral?",
+  "a": "Not for aerodynamic reasons; it is engine management. A long descent at idle lets a carbureted engine cool and encourages carburetor ice and plug fouling, and it may not pick up when you need it at the bottom. <b>Briefly advance the throttle periodically, at least once each turn</b>, and remember that on this airplane carburetor heat is the other half of the same check, since the engine is air cooled with no cowl flaps.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "How is a steep spiral different from a spiral dive aerodynamically?",
+  "a": "A steep spiral is a controlled gliding turn at a constant airspeed on a planned ground track. A spiral dive is the same geometry out of control, with <b>the airspeed increasing continuously</b> because the nose is dropping as the bank steepens and nobody is managing the vertical component of lift. Recovery from a spiral dive is to reduce power, roll the wings level, then ease out of the dive, never to pull first.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "In a steep spiral, do the two overbanking effects reinforce each other or fight each other?",
+  "a": "They fight, and the velocity difference usually wins. The outside wing is faster and makes more lift, rolling you steeper; against that, a descending turn puts the inside wing on the steeper downward path, giving it a <b>higher angle of attack</b> than the outside wing and extra lift that resists the roll. At the banks a spiral uses the velocity effect dominates, so you still hold aileron out of the turn, and you still steepen the bank downwind and shallow it upwind to hold the radius.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "What limits how long you can spend in a steep spiral?",
+  "a": "Altitude and engine temperature. The maneuver is three complete turns, entered high enough to finish above 1,500 feet AGL, and the <b>rate of descent in a steep gliding turn is far higher than in a straight glide</b> at the same airspeed, because the lift required and the induced drag with it rise with the load factor. Plan the entry altitude from what a banked glide actually costs, not from a straight-glide figure.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why does the radius you choose, not just the bank, matter in a steep spiral?",
+  "a": "Because you are graded on holding a constant distance from the reference, and the radius you choose determines the banks you will be forced to use. Pick it too tight and the downwind side will demand a bank beyond the 60 degree limit; too wide and the maneuver loses definition. Choose a radius that keeps the <b>steepest point comfortably inside 60 degrees</b> for the wind you have that day.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "What is the wind actually doing to the airplane in a steep spiral?",
+  "a": "Nothing, as far as the airplane is concerned; it flies a circle through the air mass regardless. The wind carries that circle over the ground, which turns the track into a drifting curve. <b>Your airspeed does not change with heading, only your groundspeed does</b>, and all the bank work you are doing exists only to make a constant air-mass circle paint a constant-radius track on the ground underneath it.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Derive pivotal altitude for me in plain words.",
+  "a": "Holding the wingtip on the pylon, two things must agree. The sight line from your eye through the wingtip is depressed below the horizon by the bank angle, so it meets the ground at a distance equal to the height divided by the tangent of the bank. The pylon must sit at that distance, which is also the turn radius, and radius is speed squared over g times the tangent of the bank. Put them together and <b>the tangent of the bank cancels, leaving height equal to speed squared over g</b>.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why does pivotal altitude depend on groundspeed rather than true airspeed?",
+  "a": "Because the geometry is between the airplane and a fixed point on the ground. What has to match is the airplane's angular rate about the pylon and the rate at which the sight line to the pylon sweeps, and both are set by <b>how fast the airplane is moving over the ground</b>, not through the air. A thirty knot wind changes nothing about the airplane's relationship with the air mass and everything about its relationship with the pylon.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why is it groundspeed squared and not just groundspeed?",
+  "a": "Because two effects stack. A faster airplane needs a larger turn radius for a given bank, and radius goes with the square of speed; a larger radius then needs a greater height to put the depressed sight line on the pylon. Both work in the same direction, so <b>height goes with the square of groundspeed</b>: ten percent more groundspeed is twenty-one percent more pivotal altitude, and fifty percent more than doubles it.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Work pivotal altitude at 80 knots and at 100 knots groundspeed.",
+  "a": "Divide the groundspeed in knots squared by 11.3. At 80 knots, 6,400 over 11.3 is <b>566 feet</b> above the pylon; at 100 knots, 10,000 over 11.3 is 885 feet. That is a 319 foot spread for a twenty knot change, which is exactly why the airplane is climbing and descending continuously around the circuit. Add the pylon's elevation to either figure to get an altimeter reading.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Where does the divisor 11.3 come from?",
+  "a": "From g and a unit conversion. The relation is height equals speed squared divided by g, with speed in feet per second and g at 32.2 feet per second squared. One knot is 1.69 feet per second, and squaring that gives 2.85, so <b>32.2 divided by 2.85 is 11.3</b>. Run the same arithmetic with miles per hour, where one mph is 1.47 feet per second, and the divisor comes out at 15.",
+  "dup": "Where does the divisor 11.3 come from?"
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why is pivotal altitude not a function of bank angle or distance from the pylon?",
+  "a": "Because they cancel in the derivation, and physically because each determines the other. At a given groundspeed, <b>flying closer to the pylon requires a steeper bank</b>, and the steeper bank depresses the wingtip sight line by exactly the amount the shorter distance needs. Change your distance and your bank changes to match, but the altitude at which the pylon appears to stand still does not move an inch.",
+  "dup": "Does a steeper bank or flying closer to the pylon change the pivotal altitude?"
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "The pylon creeps toward the nose. What is the geometry telling you?",
+  "a": "That you are below pivotal altitude. Too low, the depressed wingtip sight line falls short of the pylon, so you shallow the bank to put it back on, which widens the turn and slows your angular rate about the pylon, and the pylon walks forward. The correction is <b>altitude, not rudder</b>: climb, and the sight line lengthens to reach the pylon again. Below pivotal altitude the pylon always appears ahead of the reference line.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "And when the pylon slides back toward the tail?",
+  "a": "You are above pivotal altitude. The depressed sight line now reaches beyond the pylon, so you steepen the bank to bring it back, which tightens the circle and makes the airplane sweep faster than the bearing to the pylon changes, and the pylon falls behind. <b>Descend</b> to fix it. The short version is that you always move toward the pylon: it goes ahead and you climb to it, it goes back and you descend to it.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why must you never hold the pylon with rudder?",
+  "a": "Because rudder yaws the airplane without changing where it is going. You would be sliding the wingtip across the pylon by slipping or skidding, which <b>hides the altitude error instead of correcting it</b> and leaves you uncoordinated at low altitude in a thirty to forty degree bank. A skid there puts the inside wing at a higher angle of attack than the outside one, which is the classic low-level stall-spin geometry.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why must the altitude change continuously around the circuit?",
+  "a": "Because the groundspeed changes continuously and the pivotal altitude follows the square of it. Turning from upwind toward downwind the groundspeed rises and the airplane must <b>climb</b>; coming back toward upwind it must descend. The climbs and descents are gentle, made with pitch, and there is no level segment anywhere in the circuit unless the wind is genuinely calm.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Where around a pylon are you highest and lowest?",
+  "a": "Highest where the groundspeed is greatest, which is where the airplane is heading downwind, and lowest where it is heading upwind. The two points are <b>half a turn apart</b>, so the airplane climbs through one quarter of the circle and descends through the next, passing through the correct pivotal altitude for the instantaneous groundspeed at every point in between.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why are the two pylons flown at different altitudes when there is a wind?",
+  "a": "Because the airplane does not fly the same arc around each one. Each pylon is circled for roughly 270 degrees, and the piece left out is the segment facing the other pylon. If the line joining the pylons is not square to the wind, one pylon's arc includes <b>more of the downwind, high groundspeed side</b> than the other's, so its average pivotal altitude is higher. Choosing pylons on a line perpendicular to the wind is what keeps the two halves symmetrical.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Does the bank angle change around a pylon, and why?",
+  "a": "Yes, continuously, for the same reason as in turns around a point: the groundspeed is changing and the distance from the pylon must stay fixed if the wingtip is to stay on it. <b>Steeper where the groundspeed is high, shallower where it is low</b>. What makes eights on pylons harder than turns around a point is that you are simultaneously flying a precise altitude schedule driven by that same changing groundspeed.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "How do you choose pylons so the bank comes out right?",
+  "a": "By choosing their spacing. The pivotal altitude is fixed by your groundspeed and is not negotiable, so the only variable left is how far from the pylon you fly, and that sets the bank through the relation that the tangent of the bank equals height over distance. <b>Pylons spaced to give a bank between 30 and 40 degrees</b> let you see and hold the pylon without crowding the airplane or eating into the stall margin.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "What does it mean that the wingtip is only a reference and not a point on the wing?",
+  "a": "It means the line matters, not the metal. The reference is a line from <b>your eye</b> through a chosen point out along the wing, established beforehand in level flight at the attitude and airspeed you will fly. It only works if your head stays where it was when you established it; slide down in the seat or lean, and the line moves, the pylon appears to shift, and you will chase an error the airplane is not making.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "What should the airspeed be doing during eights on pylons?",
+  "a": "It should be close to constant, at a maneuvering airspeed chosen before entry, because the whole altitude schedule is built on a predicted groundspeed. The gentle climbs and descents will move it a little and you accept that rather than chasing it with the throttle, because <b>a power change alters the groundspeed and therefore the pivotal altitude</b> you are trying to hold. Pitch is used to hold the pylon; power holds the airspeed roughly steady.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why does the airplane appear to pivot at all? What is actually being held constant?",
+  "a": "The angular rate. At pivotal altitude the <b>airplane's rate of turn exactly equals the rate at which the bearing to the pylon is changing</b>, so the pylon holds a fixed position relative to the airframe and looks nailed to the wingtip. The airplane is not swinging about the pylon on a string; it simply happens to be rotating at the same angular speed as the line of sight.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Is there one pivotal altitude for every airplane, or does the airplane matter?",
+  "a": "It is the same for all of them, because the formula contains nothing but groundspeed and g. A Cub and a jet at <b>the same groundspeed share the same pivotal altitude</b>; the difference is only that the jet's groundspeed puts it thousands of feet up. Weight, wing loading, horsepower, bank angle and distance from the pylon all drop out of the derivation.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Does density altitude change the pivotal altitude?",
+  "a": "Only through groundspeed. The formula has groundspeed and g in it and nothing else, so a high density altitude raises pivotal altitude only because a given indicated airspeed is a <b>higher true airspeed and therefore a higher groundspeed</b>. Work out the true airspeed, apply the wind to get groundspeed, then use the formula, and finally add the elevation of the pylons to convert the result to an altimeter indication.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "What is the governing idea in a power-off 180?",
+  "a": "Energy management. With the throttle closed the airplane has a <b>fixed and strictly decreasing energy budget</b>: the altitude it starts with plus the kinetic energy in its airspeed. You cannot add to it, so every decision is about the rate at which you spend it, through drag and configuration, and where you spend it, through the ground track. Arrive at the right point with the right energy and the landing itself is easy.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why plan to arrive with slightly too much energy rather than slightly too little?",
+  "a": "Because you have many ways to lose energy and none to gain it. Flaps, a slip, a wider pattern and S-turns are all <b>spending</b> tools available at any moment. Stretching a glide is not a tool: pitching up below best glide raises the induced drag, steepens the glide path and loses you ground distance. High and fast is a correctable problem; low and slow is the one that ends in the trees short of the runway.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Best glide or minimum sink on the power-off 180, and when does each matter?",
+  "a": "Best glide, because the problem is reaching a point, not staying up. Best glide is the lift-to-drag maximum speed and gives the most distance per foot of altitude; minimum sink is slower and gives the most <b>time</b> per foot, which only matters when you are already over your field and want seconds for a restart or a radio call. Fly the handbook's best glide figure for the weight you are actually at.",
+  "dup": "What is the difference between best glide speed and minimum sink speed?"
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "What does wind do to your glide, and what do you do about it?",
+  "a": "It changes distance over the ground, not the airplane's performance through the air. Into a headwind the airplane covers less ground per foot, so flying a <b>few knots above best glide</b> cuts the time spent in the wind and improves the ground distance; with a tailwind, a slightly slower speed gives more ground distance. A common rule of thumb is half the headwind component added to best glide, and never less than best glide into a headwind.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why is a steep bank in the power-off pattern so expensive?",
+  "a": "Because the lift required and the induced drag go up together. At 45 degrees of bank the load factor is 1.41, and induced drag varies with the square of the lift, so <b>induced drag doubles</b>; at 60 degrees the load factor is 2 g and induced drag is four times the wings-level value. With no thrust, all of that comes straight out of your altitude as an increased sink rate, so the turn you made to lose height may have cost you the field.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "You are overshooting final. Would a tighter turn get you back faster?",
+  "a": "It changes the geometry a little and the energy a lot. A steeper bank shortens the arc but raises the sink rate sharply, and <b>you are slow and low where the accelerated stall speed is climbing</b>: nineteen percent above the wings-level figure at 45 degrees, forty-one percent at 60. Accept the overshoot and correct with a shallow turn once established, or go around. Do not tighten the turn and feed in bottom rudder.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "What do flaps actually do to the glide?",
+  "a": "They raise the maximum lift coefficient and they raise the drag, with drag winning at the later settings, so the lift-to-drag ratio falls and the glide path steepens. That makes them the most controllable way to spend excess altitude, extended in stages so the effect can be judged. They also <b>lower the stalling speed</b>, which is what allows a slower, shorter touchdown. The price is that the altitude they cost you cannot be bought back.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "How do you judge from inside the airplane whether you will make your point?",
+  "a": "By watching how the point moves in the windscreen while holding a constant glide speed. A point that stays fixed in the window is the point you are gliding to; anything that <b>moves up in the windscreen you are undershooting</b>, and anything that sinks down in it you are overshooting. The airspeed indicator only tells you whether you are achieving the glide ratio you planned on; your eyes tell you where the airplane is going.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "What is a forward slip doing aerodynamically, and why is it a good tool here?",
+  "a": "It presents the fuselage broadside to the airflow and spoils the flow over part of the airframe, which is almost pure <b>parasite drag</b> with no gain in lift, so the glide steepens without the airplane accelerating. It costs nothing structurally and is instantly reversible, which makes it a better way of spending altitude than diving. Watch the airspeed indicator with suspicion, because at a large slip angle the static source can read inaccurately.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "How does weight change your glide in a power-off 180?",
+  "a": "The glide ratio does not change; the speed needed to achieve it does. Lift-to-drag maximum occurs at one angle of attack regardless of weight, so a heavier airplane glides the same distance from the same height, but it must fly <b>faster to hold that angle of attack</b>, by the square root of the weight ratio, and it gets there sooner. Flying the gross-weight glide speed when light means flying above the best angle and falling short.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Where does your energy actually go between the abeam point and the flare?",
+  "a": "Into drag, deliberately. Altitude is converted into the forward distance you need and the airspeed you must have at the roundout, and the surplus is thrown away through flaps, slip and airframe drag. In the roundout the remaining <b>kinetic energy is traded for the lift that arrests the descent</b>, which is why arriving fast makes you float past the point and arriving slow makes you drop in short of it.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why is the touchdown tolerance the hard part of the power-off 180?",
+  "a": "Because you get one attempt at spending the energy correctly with no thrust to repair a miscalculation. The glide ratio is fixed by configuration, the groundspeed varies with the wind, and your only free variables are the ground track and when you deploy drag. <b>The decisions have to be made early</b>, abeam and on base, because by short final the only remaining options are ways to lose altitude, not ways to gain it.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Does the windmilling propeller matter in the power-off glide?",
+  "a": "Yes. A windmilling fixed-pitch propeller is a substantial drag disc, considerably worse than a stopped one, because it is being driven by the air rather than driving it. The handbook's own glide chart is computed with the <b>propeller windmilling</b>, which is the honest condition for a practice approach at idle. It is also why a genuinely seized engine glides better than the practice you have been doing.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "What is ground effect?",
+  "a": "The interference of the surface with the wing's downwash and tip vortices when the wing is within about one wingspan of the ground. With the vortices unable to form fully, the <b>downwash behind the wing is reduced</b>, the air arriving at the wing is deflected downward less, and the lift vector tilts less rearward, which is a large cut in induced drag. It is not a cushion of compressed air, however much it feels like one in the flare.",
+  "dup": "What is ground effect?"
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "What does ground effect do to induced drag, with numbers?",
+  "a": "It cuts it sharply, but only very close in. At a height of one tenth of the wingspan the induced drag is reduced by roughly <b>48 percent</b>, and at a quarter of the span by about 23 percent, while by a full wingspan the benefit has essentially gone. That is why almost all of it lives in the last few feet, and why an airplane that is flying happily at ten feet may be unable to fly at fifty.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "What does ground effect do to the lift curve?",
+  "a": "It steepens it. With the downwash reduced, the <b>effective angle of attack for a given geometric angle of attack is higher</b>, so the wing produces a given lift coefficient at a smaller nose-up attitude and with much less induced drag. The practical consequence is that the airplane will fly in ground effect at an airspeed and attitude that will not sustain it once the wing has climbed out of the effect.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "So why does an airplane lift off in ground effect and then settle back?",
+  "a": "Because the two conditions need different amounts of thrust. In ground effect the induced drag is roughly halved, so the airplane will fly at a speed below what it needs out of the effect. Climb out of it and the <b>induced drag returns in full</b>, the thrust required jumps above the thrust available at that speed, and the airplane sinks back toward the surface. The answer is to stay low and let it accelerate, not to pull.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "What else changes as you leave ground effect besides the drag?",
+  "a": "The downwash over the tail is restored, which increases the tail download and gives a <b>nose-up change in pitching moment</b> that must be held or trimmed off; longitudinal stability changes with it; and the pressure field around the airplane changes, so the static source reads slightly lower and the indicated airspeed ticks up a knot or two. Pilots who are braced only for the drag change are the ones surprised by the pitch change.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why does the soft-field climb-out live in the region of reversed command?",
+  "a": "Because the airplane leaves the surface below the speed for its best lift-to-drag ratio. Below that speed <b>induced drag is rising as the airplane slows</b>, so the total drag curve runs the wrong way: more power is needed to fly slower, and a nose-up correction makes things worse rather than better. Until it has accelerated in ground effect to a proper climb speed, the airplane is on the back of the power curve a few feet above the ground.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "The airplane starts to settle just after a soft-field liftoff. What do you do and why?",
+  "a": "Lower the nose and let it accelerate in ground effect; the power is already fully in. Pitching up in the region of reversed command <b>raises the angle of attack and the induced drag, which costs speed, which costs lift</b>, and the airplane mushes onto the surface or stalls. What it needs is airspeed, and the only available source is the few feet of altitude you have, spent deliberately rather than lost in a stall.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "What does flap 25 buy you on a short-field takeoff in this airplane?",
+  "a": "A higher lift coefficient at a given speed, so the wing reaches flying lift at a <b>lower airspeed and therefore after a shorter ground roll</b>. The handbook calls for 25 degrees, the second notch, for short-field takeoffs over an obstacle and for soft fields. The cost is drag: the flap that shortened the roll flattens the climb angle afterwards, which is why it comes up once a safe altitude and speed are established.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why does a short-field approach carry power rather than being glided?",
+  "a": "Because at the short-field approach speed the airplane is slow enough to be on the back of the power curve, where <b>total drag increases as the speed decreases</b>, so a sink developed close to the ground cannot be arrested with pitch alone. Carrying power puts the airplane in a condition where the throttle controls the descent rate precisely, which is what allows the steep, stable, accurately placed approach the maneuver is graded on.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why can a short-field landing be flown slower than a normal one?",
+  "a": "Because full flaps raise the maximum lift coefficient, so the wing stalls at a lower speed and the approach speed, which is a multiple of the stall speed, comes down with it. A slower touchdown means <b>much less kinetic energy to dissipate</b> in the flare and the brakes, since energy goes with the square of speed: ten percent off the touchdown speed is nineteen percent off the energy the brakes and tires have to absorb.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why is airspeed control more critical on a short field than anywhere else?",
+  "a": "Because the landing distance depends on the square of the touchdown speed and the approach is flown with a thin stall margin. Five knots fast over the fence becomes a <b>float that consumes the runway you were trying to save</b>; five knots slow is a high sink rate in the region of reversed command with no energy left for the flare. There is no comfortable side to err on, which is why the ACS tolerance is tight.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "On a soft field, what is actually happening to lift and rolling friction during the takeoff roll?",
+  "a": "They trade places. At the start nearly all the weight is on the tires and the rolling friction on a soft surface is large; as speed builds, lift grows with the <b>square of airspeed</b> and progressively unloads the tires, so the friction falls away. Holding the elevator full aft gives the wing a high angle of attack from the first few knots, which accelerates that transfer and is the whole point of the technique.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why keep the weight off the nosewheel during a soft-field roll?",
+  "a": "Partly structural, partly drag. A nosewheel pressing into soft ground produces a large retarding force and risks the gear, so the elevator is held aft to generate a <b>tail-down force that transfers weight from the wheels to the wings</b> as the wing starts making lift. The wing takes over the airplane's weight progressively, the rolling friction falls, and the airplane flies off at the lowest possible speed.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why is a soft-field landing flown with power into the touchdown?",
+  "a": "Because the airplane has to be placed on the surface at the lowest possible speed in a flat attitude, which means arresting the descent with the wing nearly out of lift. A trickle of power <b>holds the airplane just above the surface while the speed bleeds away</b> and gives you control of the sink rate at a speed where the elevator alone could not. The power comes off after touchdown, with back pressure held to keep the nosewheel light.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Does this airplane's low wing change the ground effect picture?",
+  "a": "Yes, in degree rather than in kind. A low wing sits closer to the surface in the landing attitude, so it is deeper into ground effect than a high wing at the same airplane height, which means a <b>more pronounced float</b> if you arrive with extra speed. Nothing about the physics changes: it is still the reduction in downwash and induced drag, and it still disappears by about one wingspan above the surface.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why does Vx matter more than Vy after a short-field takeoff over an obstacle?",
+  "a": "Because the two speeds optimize different things. Vx gives the most altitude per unit of <b>horizontal distance</b>, which is exactly what an obstacle asks for, while Vy gives the most altitude per unit of time, which is what you want when the obstacle is behind you. Fly Vx until the obstacle is cleared, then accelerate to Vy for the rest of the climb and get the flaps up on schedule.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Name the four left-turning tendencies and tell me where each one bites in these maneuvers.",
+  "a": "Torque rolls the airplane left and is felt most at the slow, full-power completion of a chandelle. Spiraling slipstream yaws the nose left and is strongest at the apex of a lazy eight, where rpm is high and forward speed low. P-factor yaws left whenever the propeller disc is inclined, so it peaks in the nose-high parts of both. <b>Gyroscopic precession needs a pitch or yaw rate to exist at all</b>, so it appears only briefly, as the nose is pitched down over the top.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why does gyroscopic precession hardly feature in a lazy eight when the others do?",
+  "a": "Because precession responds to a rate, not a state. A force applied to a spinning disc is felt ninety degrees later in the direction of rotation, so with a clockwise propeller a <b>nose-down pitch rate yaws the nose left</b> and a nose-up rate yaws it right. The pitch rates in a lazy eight are deliberately gentle and smooth, so precession is small; it dominates only where rates are abrupt, such as a tailwheel airplane lifting its tail.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why does adverse yaw matter at the roll-in and roll-out of every one of these maneuvers?",
+  "a": "Because every one of them rolls at a low airspeed and a high angle of attack, which is when adverse yaw is at its worst. The down-going aileron adds lift and with it <b>induced drag to the rising wing</b>, yawing the nose away from the roll, and induced drag is the dominant drag at low speed. Steep turns, chandelles, lazy eights and the pylon entries all begin and end with such a roll, so rudder goes in with the aileron and comes off with it.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "How do you tell adverse yaw apart from a left-turning tendency when you feel it?",
+  "a": "By what each one depends on. Adverse yaw exists only while the ailerons are deflected and <b>always opposes the direction of roll</b>, so it reverses when you reverse the roll and vanishes when the ailerons are neutral. The propeller effects are always to the left and depend on power, airspeed and angle of attack, not on aileron position. Rolling left at the apex of a lazy eight you are fighting both at once, in opposite directions.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "You are 400 pounds under gross for the ride. What does that do to your lazy eight entry speed?",
+  "a": "It lowers it. Maneuvering speed falls with the square root of the weight ratio, so at 1,925 pounds against this airplane's 2,325 pound maximum, the ratio is 0.828 and its square root is <b>0.91</b>, meaning the entry should be about nine percent below the gross-weight figure. Entering at the book number when light puts you above maneuvering speed, where an abrupt pull can exceed the limit load factor before the wing stalls.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why is maneuvering speed the right entry speed for these maneuvers rather than a comfortable cruise?",
+  "a": "Because it is the fastest speed at which the airplane is protected from the pilot. These maneuvers involve large, sometimes hurried pitch and bank inputs at a varying load factor, and below maneuvering speed a full deflection of one control in one direction <b>stalls the wing before it overstresses the airframe</b>. It is also fast enough to carry the kinetic energy the maneuver has to trade for altitude and heading change.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "What does the handbook actually approve this airplane to do among these maneuvers?",
+  "a": "It approves steep turns, lazy eights and chandelles, listing them under <b>utility category operation for bank angles exceeding 60 degrees</b>, where the limit load factor is 4.4 g rather than the normal category's 3.8. Utility on this airplane means a reduced weight, no baggage and no rear seat occupants. Spins are prohibited in both categories, so stall margin is something you preserve rather than something you recover from.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why does induced drag matter so much more in these maneuvers than in cruise?",
+  "a": "Because every one of them is flown slow, at a high angle of attack, or at an elevated load factor, and induced drag varies with the <b>square of the lift coefficient and inversely with the square of airspeed</b>. In cruise it is a small part of total drag; at the apex of a lazy eight or the completion of a chandelle it is most of it. That is why these maneuvers bleed speed so fast and why any slip or skid, which only adds more drag, is costly.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "What is the region of reversed command, and which of these maneuvers put you in it?",
+  "a": "It is the band of speeds below the lift-to-drag maximum where <b>total drag rises as the airplane slows</b>, so more power is needed to fly slower. The chandelle completion, the apex of a lazy eight, the soft-field climb-out and the short-field approach all sit in it. The symptom is that pulling back makes the airplane go down, and the fix is always lowering the nose and adding power together, never pitching for altitude.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why can't the airspeed indicator alone tell you how close you are to a stall in these maneuvers?",
+  "a": "Because it knows nothing about load factor. A given indicated airspeed is comfortable at one g and stalled at two, and in a lazy eight the load factor runs from below one g at the apex to well above one in the recovery. <b>Only the angle of attack is the same at every stall</b>, so you judge the margin by the feel of the controls, the buffet, and the horn, which on this airplane sounds between five and ten knots above the stall.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Does the stall warning horn still work properly in a 50 degree bank?",
+  "a": "Yes, and it warns at the right moment, because the detector is an <b>angle of attack sensor rather than an airspeed sensor</b>: a tab in the wing leading edge lifted by the airflow as the stagnation point moves toward the stall position. In the turn it will sound at a much higher indicated airspeed than the published stall speed, which is exactly correct. Remember it is electrical, and it is dead with the master switch off.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "Why is coordination more than a style point in these maneuvers?",
+  "a": "Because an uncoordinated airplane is both a draggy one and a dangerous one. A slip or a skid presents the fuselage to the airflow, adding parasite drag you cannot afford at low speed, and it makes the two wings fly at different angles of attack. Near the stall, that difference decides <b>which wing drops and how violently</b>. The ACS grades coordination throughout for that reason, not because a centered ball looks tidy.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "What is the single thing these commercial maneuvers are testing aerodynamically?",
+  "a": "That you can predict what the airplane is about to do and lead it rather than react to it. Each maneuver puts the airplane at a specific place on the <b>curves of lift, drag and power</b> and asks you to move along them smoothly: energy traded for altitude in a lazy eight, bank traded for climb in a chandelle, altitude traded for distance in the power-off 180. The tolerances exist to prove the prediction, not the reflexes.",
+  "dup": ""
+ },
+ {
+  "s": "Commercial Maneuvers",
+  "q": "How does a high density altitude change the way these maneuvers fly?",
+  "a": "It cuts the density term in the lift equation, so at a given indicated airspeed the <b>true airspeed is higher</b>, which means a larger turn radius and a slower rate of turn at the same bank, and a higher groundspeed and pivotal altitude on the pylons. The engine makes less power and the propeller less thrust, so the chandelle climbs less and the soft field takes longer. Indicated stall speed is unchanged; true stall speed goes up.",
+  "dup": ""
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Give me the lift equation and tell me which terms you control in flight.",
+  "a": "Lift equals the coefficient of lift times one half the air density times velocity squared times wing area. In flight you directly control two of them: the <b>coefficient of lift, through angle of attack and flap setting</b>, and velocity, through pitch and power. Density you choose only by choosing an altitude, and wing area changes only when the flaps move. The square on velocity is why small speed changes have such large effects on lift.",
+  "dup": "What is the lift equation and what does each term tell you?"
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Which term in the lift equation is the pilot's primary, immediate control?",
+  "a": "The coefficient of lift, through angle of attack. Pitch is a <b>direct and instantaneous control over the coefficient of lift</b>, available in every regime; velocity responds more slowly and only through power and gravity; density is the atmosphere's choice on the day; and wing area moves only when the flaps do. It is also why the right answer to almost any question beginning 'why did the airplane do that' starts with angle of attack.",
+  "dup": ""
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Of airspeed and angle of attack, which one actually stalls a wing?",
+  "a": "Angle of attack, and only angle of attack. A wing stalls when the <b>airflow separates at the critical angle of attack</b>, which for a given wing is a fixed number, typically in the region of sixteen to eighteen degrees, regardless of airspeed, weight, bank, attitude, power setting or density altitude. Every stall is the same event; the only thing that varies is the airspeed at which you happen to arrive at that angle.",
+  "dup": ""
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Then why do we talk about stall speed at all?",
+  "a": "Because for one particular set of conditions, airspeed is a convenient stand-in for angle of attack. At a given weight, load factor and configuration there is exactly one speed at which level flight demands the critical angle of attack, and that is the published stall speed. Change the weight, the load factor or the flaps and <b>the speed moves while the angle does not</b>, so a published stall speed is valid only at the conditions printed beside it.",
+  "dup": ""
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Why does stall speed rise with weight, and by how much?",
+  "a": "Because a heavier airplane needs more lift for level flight, and at the critical angle of attack the only way to get more lift is more speed. Stall speed varies with the <b>square root of the weight</b>, so taking a 2,325 pound airplane down to 1,900 pounds, a ratio of 0.817, multiplies the stall speed by 0.90: about ten percent slower. It is also why a published stall speed belongs only to the weight printed with it.",
+  "dup": ""
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Does the critical angle of attack change with weight, altitude, bank or power?",
+  "a": "No. It is a property of the <b>shape of the airfoil</b> and nothing else, so it is the same at 2,325 pounds and at 1,600, at sea level and at ten thousand feet, wings level and in a sixty degree bank, at idle and at full throttle. Extending the flaps changes it, because that changes the shape of the wing. Everything else only changes the airspeed at which you arrive there.",
+  "dup": ""
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Why does stall speed rise in a turn if the wing does not know it is turning?",
+  "a": "Because the wing is being asked for more lift. In a level turn the lift must exceed weight by one over the cosine of the bank, which is the load factor, and making that lift at a given speed requires a higher angle of attack, so the critical angle arrives at a higher speed. Stall speed rises with the <b>square root of the load factor</b>: seven percent at 30 degrees, nineteen at 45, twenty-five at 50 and forty-one at 60.",
+  "dup": ""
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Is the load factor in a 50 degree bank different for a heavy airplane and a light one?",
+  "a": "No. Load factor is a <b>ratio</b>, the lift being made divided by the airplane's weight, so both are at 1.56 g in a level 50 degree bank. What differs is the absolute load: at 2,325 pounds the wings carry about 3,620 pounds, and at 1,800 pounds about 2,800. The lighter airplane also has a lower stall speed, so the same bank angle leaves it a wider margin, which is why the same maneuver feels easier light.",
+  "dup": ""
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "In a steady climb, is lift greater than weight?",
+  "a": "No; it is slightly <b>less</b>. In a steady climb at a constant airspeed the weight vector is no longer perpendicular to the flight path, so lift has to balance only the component of weight perpendicular to the path, which is weight times the cosine of the climb angle, while thrust carries the component along it. What makes an airplane climb is excess thrust, not excess lift, which is the single most useful correction to make to a student's mental model.",
+  "dup": ""
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Where is lift-to-drag maximum, and what is special about that point?",
+  "a": "It is the angle of attack at which <b>induced and parasite drag are equal</b>, so total drag is at its minimum for the lift being made. That one angle of attack gives the best glide ratio and the flattest glide, defines the boundary of the region of reversed command, and is the reference from which best glide speed is published. It is an angle of attack first and a speed second: the speed that corresponds to it moves with weight.",
+  "dup": ""
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What is the difference between thrust required and power required, and why do Vx and Vy follow from it?",
+  "a": "Thrust required is the drag the airplane must overcome; power required is that drag multiplied by the speed at which it is overcome. The greatest excess of thrust gives the best <b>angle</b> of climb, Vx, and the greatest excess of power gives the best rate, Vy. Because power is drag times speed, the power-required curve bottoms out at a higher speed than the drag curve, which is why Vy is always the faster of the two in a propeller airplane.",
+  "dup": ""
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Why do Vx and Vy move toward each other as you climb?",
+  "a": "Because the engine makes less power and the propeller less thrust as the air thins, so both the excess thrust and the excess power shrink. In indicated terms <b>Vx increases slightly while Vy decreases</b>, and at the absolute ceiling they meet at the one speed at which the airplane can just maintain altitude with no excess of either. In true airspeed both of them increase, which is a distinction worth being able to make out loud.",
+  "dup": ""
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Rate of turn and radius of turn: what changes each?",
+  "a": "Both are set by bank angle and true airspeed and by nothing else. Rate of turn equals g times the tangent of the bank divided by the airspeed, so it <b>increases with bank and decreases with speed</b>. Radius equals airspeed squared divided by g times the tangent of the bank, so it decreases with bank and increases with the square of speed. Weight, wing loading and horsepower appear in neither expression.",
+  "dup": ""
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Slip or skid: which one kills you in the base-to-final turn, and exactly why?",
+  "a": "The skid. Too much inside rudder yaws the nose into the turn, the outside wing speeds up and lifts more, the airplane overbanks, and the pilot's instinct is opposite aileron. That lowers the aileron on the inside wing, raising its angle of attack at the moment yaw already has it flying slowest, so <b>the inside wing stalls first and rolls the airplane into the turn</b>, toward inverted, at pattern altitude. A slipping stall tends to roll back toward level.",
+  "dup": "Which is worse at the stall, a skid or a slip, and exactly why?"
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "How do you recognize a skid without looking at the ball?",
+  "a": "By your body. In a coordinated turn the resultant of lift and inertia presses you straight down into the seat; in a skid you are <b>pushed toward the outside of the turn</b>, the way a car slides you across the seat in a fast corner, and in a slip you lean toward the inside, toward the low wing. The ball does exactly the same thing, because it is simply a weight in a curved tube obeying the same resultant that you are.",
+  "dup": ""
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Why does maneuvering speed fall as the airplane gets lighter?",
+  "a": "Because the protection it offers works through the stall. Maneuvering speed is the speed at which the wing reaches its critical angle of attack at exactly the limit load factor, so the wing gives way before the structure does. A lighter airplane reaches that limit load factor with <b>less lift, so it stalls at a lower speed</b>, and the speed at which the stall protects the airframe comes down with it, in proportion to the square root of the weight ratio.",
+  "dup": ""
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Why is this airplane's maneuvering speed not the number printed in the common handbook?",
+  "a": "Because maneuvering speed is quoted at a gross weight, and this airplane's maximum takeoff weight is <b>2,325 pounds</b> from the type certificate data sheet, not the 2,440 pounds in the circulating book. A lower gross weight means a lower maneuvering speed. The right answer on the ride is to read the placard and the handbook that belong to this serial number rather than quoting a figure from a later serial block.",
+  "dup": ""
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What is the resultant that the wing actually has to support in a turn?",
+  "a": "The vector sum of weight, acting straight down, and the inertial reaction to the turn, acting horizontally outward. That resultant is longer than weight alone and tilted outward, and the wing must produce lift equal and opposite to it, which is why <b>total lift in a level turn exceeds weight by one over the cosine of the bank</b>. The ratio of that resultant to the airplane's weight is precisely what load factor means.",
+  "dup": ""
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "How does the airplane's weight affect its glide ratio?",
+  "a": "It does not. The glide ratio is the lift-to-drag ratio, which is a function of angle of attack and configuration alone, so a heavy airplane and a light one glide the same distance from the same height in still air. What changes is the <b>speed at which that angle of attack occurs</b>, which varies with the square root of weight, so the heavy airplane arrives sooner at a higher speed and a higher rate of descent.",
+  "dup": ""
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What does a fixed-pitch propeller do to the power available at low airspeed?",
+  "a": "It reduces it. The blade angle is set for one compromise condition, so at a low forward speed the blades meet the air at too large an angle, the propeller loads up, <b>rpm falls and the engine cannot develop its rated power</b>. That is why full-throttle static rpm on this airplane is specified well below the 2,700 rpm rated speed, and why slow, high-power flight regimes have less thrust available than the horsepower figure suggests.",
+  "dup": ""
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Why does induced drag dominate at low speed and parasite drag at high speed?",
+  "a": "Because they depend on speed in opposite ways. Induced drag is the price of making lift, and at low speed the wing needs a high angle of attack and makes strong tip vortices, so it varies inversely with the square of airspeed. Parasite drag is the cost of pushing the airframe through the air and varies with the <b>square of airspeed</b>. Their sum is a U-shaped curve whose minimum is lift-to-drag maximum, which is where the two are equal.",
+  "dup": ""
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "What is actually happening at the wing when it stalls?",
+  "a": "The boundary layer can no longer follow the increasingly adverse pressure gradient over the upper surface, so the <b>airflow separates and the low pressure region over the wing collapses</b>. Lift falls sharply, drag rises sharply, and the separated wake over the tail produces the buffet that warns you. Nothing about airspeed is involved in the definition; the separation happens at the critical angle of attack whatever the airplane is doing.",
+  "dup": ""
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Why does a wing's maximum lift coefficient put an absolute limit on turn performance?",
+  "a": "Because the lift needed in a level turn goes up as one over the cosine of the bank, without limit, while the lift available at a given speed is capped by the maximum lift coefficient. Where the two meet is the steepest level turn the airplane can make at that speed, and it is set by <b>the stall, not by the structure or the engine</b>. Going steeper from there requires more airspeed, and eventually the structural limit becomes the binding one.",
+  "dup": ""
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "How does extending flaps change the lift curve and the stall?",
+  "a": "Flaps increase the camber of the wing, which raises the lift coefficient at every angle of attack and raises the maximum lift coefficient, so the wing can carry its weight at a lower airspeed. They also <b>reduce the angle of attack at which the stall occurs</b>, measured against the original chord line, which is why the nose attitude at the stall is lower with flaps out. The later settings add far more drag than lift.",
+  "dup": ""
+ },
+ {
+  "s": "Performance and Limitations",
+  "q": "Does the ball tell you anything about the airplane's angle of attack?",
+  "a": "No, and conflating the two is dangerous. The ball reports only whether the lateral forces are in balance, that is whether the airplane is slipping or skidding; it is blind to angle of attack, load factor and how near the wing is to stalling. <b>A perfectly centered ball at the critical angle of attack is still a stall</b>, and an uncoordinated one simply decides which wing will drop when that stall arrives.",
+  "dup": ""
+ }
+]

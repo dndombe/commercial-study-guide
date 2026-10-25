@@ -1,0 +1,129 @@
+COMMERCIAL CHECKRIDE — first-hand account from a prior candidate with this DPE
+
+ORAL — airworthiness and documents
+- Reviewed aircraft logbooks.
+- Asked the required inspections for VFR flight (AV1ATES). Candidate forgot the S, worked it out.
+- Asked to determine whether the aircraft was legal by looking back through the logs from a certain page.
+- Asked what documents were required for the pilot to fly: license, pilot certificate, medical, photo ID,
+  and candidate mentioned Restricted Radiotelephone Operator Permit.
+
+ORAL — go/no-go
+- How do you assess risk for a flight (candidate mentioned PAVE and IMSAFE).
+- The two types of stress (acute and chronic), with examples of each.
+- Required equipment for the aircraft.
+- Is a flap position light required? The plane had no KOEL, so candidate used ATOMATOFLAMES and
+  verified it was not required.
+- Currency versus proficiency.
+- What is necessary to be current to carry passengers, and for normal flight, both day and night.
+
+ORAL — holding out, common and private carriage
+- Extra context on the cross-country scenario: a customer hires the candidate to fly the customer's own
+  airplane; the customer is not a pilot. Can you do this on a commercial certificate? Candidate said yes.
+- Then: you arrive and the owner's airplane is leaking oil and is not airworthy. The owner offers to rent
+  an airplane and still have you fly it. Is that OK? Candidate raised concerns about the terms of the lease
+  and whether the aircraft owner would permit it. DPE pushed on WHO HAS OPERATIONAL CONTROL in that
+  situation, making the point that it can get complex, and that when it is complex the right answer is to
+  decline or seek official guidance from the FSDO.
+- What types of operations can you do with a commercial certificate (banner towing, instructing, local
+  sightseeing flights with a letter of authorization, etc.).
+
+ORAL — chart review
+- Type of airspace around several airports, from the chart markings.
+- Identify services at different airports: fuel available, towered, lighting limitations, runway lengths.
+- Equipment required in certain airspace (transponder and ADS-B).
+- Requirements to enter various airspace, and the cloud clearances.
+- Identify a military training route.
+- MOAs and restricted areas.
+- Asked about P-51 (national security areas and presidential restricted areas).
+- The stadium symbol and its significance (possible TFRs for sporting events).
+- What is the ceiling of Class E airspace above a particular airport where Class E begins at 700 ft AGL?
+  Took the candidate a minute to get to 18,000 — everything above is controlled and nothing else was above it.
+- Power lines, railroad tracks and other chart markings.
+
+ORAL — flight planning
+- NOTAMs: where to find them and what types there are.
+- Pilot reports and how to obtain them.
+- External pressures on the planned trip. Candidate explained the weather was likely IFR, and gave
+  alternatives to lower the risk: go IFR, go part-way to where it is still VFR and arrange a car for the
+  rest, or do not go. Cited the Kobe Bryant accident as an example of pushing weather to reach a destination.
+- Oxygen requirements and how they affected this trip, then the general regulatory requirements. Candidate
+  mentioned using a portable pulse oximeter at altitude and having done FAA portable high-altitude training.
+- Risks and symptoms of hypoxia; risks and symptoms of hyperventilation; corrective actions for both.
+
+ORAL — weather
+- Read a METAR and a TAF; look at several weather charts.
+- Define AIRMETs and SIGMETs, what types there are, and what each is issued for.
+- Types of clouds.
+- Thunderstorms and the risks associated.
+- Types of fog.
+- The difference between mist and fog.
+- What cloud type is low-lying fog (stratus).
+- Given theoretical gusty wind data, pick a departure runway and explain why. Determine the crosswind and
+  tailwind components for that runway. Would you be comfortable departing in those conditions?
+  The wind angle split the two runways evenly. Candidate chose the one with the wind from the LEFT, so as
+  not to need more right rudder on takeoff to hold centerline compared with the other runway where the wind
+  would be from the right. Explained discomfort because the crosswind component was over 15 knots and
+  because of the risk if a return to the airport were needed in an emergency. Explained that the crosswind
+  figure in the flight manual is NOT a limitation.
+
+ORAL — systems
+- Explain the oil system of the airplane.
+- Explain the electrical system.
+- Engine type, cylinder configuration, and possibly the ignition system.
+
+ORAL — performance
+- Determine takeoff distance, runway length, time to climb and fuel burn for the climb, at both the origin
+  and destination airports for the cross-country scenario, given the weather data.
+- Explain the cross-country plan: how waypoints were chosen and why. Few follow-ups.
+- Show the weight and balance calculation. They were within the envelope but barely — no weight issue, but
+  the CG was close to the FORWARD limit. Candidate explained options to correct it, such as putting weight
+  or bags in the baggage compartment.
+- The impact on stability of a forward CG.
+
+ORAL — other
+- The three stages of a stall. CANDIDATE DID NOT KNOW THIS. May have mentioned incipient as the start but
+  did not know the official three. The DPE did not belabor it, but then asked him to describe the stall,
+  the importance of coordination, and the spin recovery process.
+- Reporting an accident, and whether hitting a runway light meets the reporting requirement. Where do you
+  find this? The DPE was looking for NTSB Part 830; the candidate found similar guidance in the AIM.
+
+FLIGHT
+- Partial sky coverage around 3,000 ft, so they started with landings.
+- Briefed the DPE on departure expectations before takeoff, fire extinguisher location, and other items as
+  if he were the client. Discussed sterile cockpit procedures and when the highest workload times would be,
+  when quiet would be needed. Asked him to speak up if he saw a hazard (birds, other aircraft).
+- Short field takeoff, then a short field landing. Candidate was misconfigured (not enough flaps), went
+  around, and completed the short field landing to a full stop.
+- Soft field takeoff in the pattern to a soft field landing to a full stop.
+- Checkride PAUSED for an approaching cell with lightning; resumed about 15 minutes later after it passed.
+- Normal takeoff to a power-off 180.
+- Departed as if on the cross-country, flew to the first checkpoint, noted the time, identified visual
+  references (I-95) and resumed on course using pilotage and heading/bearing.
+- Clearing turns, then slow flight: one direction with a turn and climb to a heading and altitude, then the
+  other direction with a descent to a given heading.
+- Power-on and power-off stalls. Accelerated stall.
+- Lazy eights from an entry heading of the candidate's choice. Because of the early cloud layer the DPE said
+  they would do lazy eights instead of chandelles; the ceiling lifted but they never switched back and the
+  candidate was never asked his preference.
+- Steep turns at an entry point, heading and altitude of the candidate's choosing.
+- Questioned on emergency procedures, then asked to respond to a simulated engine fire: memory items, fuel
+  cut-off, descending at VNE, declaring an emergency, activating the ELT.
+- Emergency descent from about 4,000 ft to a simulated approach to land in an open field of his choosing.
+  Gave the passenger briefing during the descent once the memory items were complete, then double-checked
+  the checklist.
+- Recovered from best glide and set up eights on pylons using pylons of his own choosing: a tall power-line
+  tower as one pylon, an intersection as the midpoint, and another power-line tower on the far side as the
+  other pylon. HE ENTERED INCORRECTLY — into the wind, instead of with a tailwind. Told so on the debrief.
+- Asked to determine position on the map using a nearby VOR. Started toward the VOR, then was told they were
+  over I-95 and asked to point out their position. Explained the difference between TO and FROM radials and
+  used the FROM radial to see where it intercepted I-95.
+- After the lost procedure, returned to the airport for a NO-FLAP LANDING as the final landing. Because the
+  DPE had already seen an unplanned go-around, he did not give a surprise go-around after a simulated engine
+  failure in the pattern.
+
+DEBRIEF
+- Main item: taxiing too fast after one of the full-stop landings, and crossing the runway. Doing too many
+  things at once (changing a frequency after crossing the runway), briefly lost the centerline and drifted
+  left on the taxiway before slowing, recovering and continuing.
+- The incorrect entry for the ground reference maneuver: started one maneuver with a headwind instead of a
+  tailwind.
