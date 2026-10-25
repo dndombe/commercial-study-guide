@@ -185,6 +185,41 @@ SRCN = dict((k, n) for k, n, _ in SRCS)
 # ---------------------------------------------------------------- CSS
 BASECSS = open(os.path.join(BUILD, 'rec_style.css'), encoding='utf-8').read()
 EXTRA = """
+/* ---- one thin toolbar -------------------------------------------------
+   Ten controls will not fit across a phone, so: the search collapses to an
+   icon, the three housekeeping buttons live behind the overflow dot, and the
+   filter strip scrolls sideways rather than wrapping to a second row. */
+#bar .brow{flex-wrap:nowrap;gap:6px;align-items:center}
+#bar .pills{display:flex;gap:6px;overflow-x:auto;flex:1;min-width:0;
+scrollbar-width:none;-webkit-overflow-scrolling:touch;padding:1px 0}
+#bar .pills::-webkit-scrollbar{display:none}
+#bar .fb{font-size:12.5px;padding:6px 11px;flex:none}
+.ico{flex:none;width:32px;height:32px;padding:0;border-radius:999px;cursor:pointer;
+border:1px solid var(--line);background:var(--panel);display:flex;align-items:center;
+justify-content:center;-webkit-tap-highlight-color:transparent}
+.ico svg{width:18px;height:18px;fill:none;stroke:var(--ink2);stroke-width:1.8;
+stroke-linecap:round}
+.ico svg .f{fill:var(--ink2);stroke:none}
+.ico.on{background:var(--accent);border-color:var(--accent)}
+.ico.on svg{stroke:#fff}
+.ico.on svg .f{fill:#fff}
+.srch{display:none;gap:6px;align-items:center}
+#bar.searching .srch{display:flex}
+#bar.searching .brow{display:none}
+.srch input{flex:1;min-width:0;font:inherit;font-size:16px;padding:7px 13px;
+border-radius:999px;border:1px solid var(--line);background:var(--panel);color:var(--ink)}
+.menu{display:none;gap:6px;flex-wrap:wrap;padding-top:8px}
+#bar.menuopen .menu{display:flex}
+#bar{padding:8px 0 9px}
+#prog{height:3px;margin-top:7px}
+#stat{font-size:11px;margin-top:4px}
+/* the run-through and acronym controls stay on one line too */
+.rowctl{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;
+-webkit-overflow-scrolling:touch}
+.rowctl::-webkit-scrollbar{display:none}
+.rowctl .fb{flex:none;font-size:12.5px;padding:6px 11px}
+.rowctl input{flex:1;min-width:120px;font-size:16px;padding:7px 13px;border-radius:999px;
+border:1px solid var(--line);background:var(--panel);color:var(--ink);font-family:inherit}
 /* ---- tabs ---- */
 #tabs{display:flex;gap:4px;border-bottom:1px solid var(--line);margin:18px 0 0;overflow-x:auto;
 -webkit-overflow-scrolling:touch;scrollbar-width:none}
@@ -629,8 +664,10 @@ Tap a question to see the answer, tick it when you own it. Progress is saved on 
 <button class="tb" data-p="wb">Weight &amp; balance</button>
 </div>
 
-<div id="bar"><div class="brow">
-<input id="q" type="search" placeholder="Search questions and answers" autocomplete="off">
+<div id="bar">
+<div class="brow">
+<button class="ico" id="qopen" aria-label="Search"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5"/><path d="M12.8 12.8 17 17"/></svg></button>
+<div class="pills">
 <button class="fb on" data-m="all">All</button>
 <button class="fb" data-m="todo">To do</button>
 <button class="fb" data-m="ride">Checkride</button>
@@ -638,10 +675,19 @@ Tap a question to see the answer, tick it when you own it. Progress is saved on 
 <button class="fb" data-m="fig">Figures</button>
 <button class="fb" data-m="sys">Systems</button>
 <button class="fb" data-m="aero">Maneuver</button>
+</div>
+<button class="ico" id="more" aria-label="More"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="4" cy="10" r="1.6" class="f"/><circle cx="10" cy="10" r="1.6" class="f"/><circle cx="16" cy="10" r="1.6" class="f"/></svg></button>
+</div>
+<div class="srch">
+<input id="q" type="search" placeholder="Search questions and answers" autocomplete="off">
+<button class="ico" id="qclose" aria-label="Close search"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 5 15 15M15 5 5 15"/></svg></button>
+</div>
+<div class="menu">
 <button class="fb" id="expand">Expand all</button>
 <button class="fb" id="theme">Dark</button>
 <button class="fb danger" id="reset">Reset progress</button>
-</div><div id="prog"><i></i></div><div id="stat"></div></div>
+</div>
+<div id="prog"><i></i></div><div id="stat"></div></div>
 
 <section class="pane on" id="p-study">
 <nav>%(nav)s</nav>
@@ -657,7 +703,7 @@ examiner actually did on a prior ride, in sequence \u2014 the oral from logbooks
 accident-reporting question, then the flight, then the debrief. Work down it and you have been
 through his ride once before you fly it. Ticks are shared with the Study tab, so nothing is
 counted twice.</div>
-<div class="brow" style="margin-bottom:14px">
+<div class="brow rowctl" style="margin-bottom:14px">
 <button class="fb" id="rhide">Hide what I have ticked</button>
 <button class="fb" id="rexp">Expand all</button>
 <span id="rstat" style="font-family:var(--mono);font-size:12px;color:var(--ink3)"></span>
@@ -671,7 +717,7 @@ counted twice.</div>
 essentially every commercial ride, or sitting inside this examiner's known focus on oil, fuel,
 electrical and powerplant. Tier 2 is likely, tier 3 possible, tier 4 is there for completeness.
 Work down, not across.</div>
-<div class="brow" style="margin-bottom:14px">
+<div class="brow rowctl" style="margin-bottom:14px">
 <input id="aq" type="search" placeholder="Search terms" autocomplete="off">
 <button class="fb on" data-at="0">All tiers</button>
 <button class="fb" data-at="1">1 only</button>

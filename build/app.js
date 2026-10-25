@@ -180,9 +180,33 @@ function filter(){
   b.addEventListener('click',function(){
     [].slice.call(document.querySelectorAll('.fb[data-m]')).forEach(function(x){ x.classList.remove('on'); });
     b.classList.add('on'); mode=b.dataset.m; filter();
+    barEl.classList.remove('menuopen'); moreBtn.classList.remove('on');
   });
 });
-var qbox=document.getElementById('q');
+/* The search is an icon until it is wanted; opening it takes the whole row so
+   the field is usable, and it stays open while there is a term in it. */
+var barEl=document.getElementById('bar'), qbox=document.getElementById('q');
+function openSearch(){ barEl.classList.add('searching'); barEl.classList.remove('menuopen'); qbox.focus(); }
+function closeSearch(){
+  barEl.classList.remove('searching');
+  if(qbox.value){ qbox.value=''; rawterm=''; toks=[]; filter(); }
+}
+document.getElementById('qopen').addEventListener('click', openSearch);
+document.getElementById('qclose').addEventListener('click', closeSearch);
+qbox.addEventListener('keydown', function(e){ if(e.key==='Escape') closeSearch(); });
+
+var moreBtn=document.getElementById('more');
+moreBtn.addEventListener('click', function(e){
+  e.stopPropagation();
+  barEl.classList.toggle('menuopen');
+  moreBtn.classList.toggle('on', barEl.classList.contains('menuopen'));
+});
+document.addEventListener('click', function(e){
+  if(barEl.classList.contains('menuopen') && !e.target.closest('#bar')){
+    barEl.classList.remove('menuopen'); moreBtn.classList.remove('on');
+  }
+});
+
 qbox.addEventListener('input',function(e){
   rawterm=e.target.value.trim();
   toks=rawterm.toLowerCase().split(/\s+/).filter(function(t){ return t.length>0; });
@@ -259,6 +283,8 @@ function showTab(p){
     s.classList.toggle('on', s.id==='p-'+p);
   });
   toolbar.style.display = (p==='study') ? '' : 'none';
+  toolbar.classList.remove('menuopen');
+  if(moreBtn) moreBtn.classList.remove('on');
   if(p!=='study') hydrate(document.getElementById('p-'+p));
   try{ localStorage.setItem(TBK,p); }catch(e){}
   window.scrollTo(0,0);

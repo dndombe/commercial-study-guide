@@ -227,6 +227,41 @@ footer{margin-top:36px;padding-top:20px;border-top:1px solid var(--line);color:v
 details.sec{break-inside:avoid}details.sec>summary::before{display:none}
 body{background:#fff;color:#000}}
 
+/* ---- one thin toolbar -------------------------------------------------
+   Ten controls will not fit across a phone, so: the search collapses to an
+   icon, the three housekeeping buttons live behind the overflow dot, and the
+   filter strip scrolls sideways rather than wrapping to a second row. */
+#bar .brow{flex-wrap:nowrap;gap:6px;align-items:center}
+#bar .pills{display:flex;gap:6px;overflow-x:auto;flex:1;min-width:0;
+scrollbar-width:none;-webkit-overflow-scrolling:touch;padding:1px 0}
+#bar .pills::-webkit-scrollbar{display:none}
+#bar .fb{font-size:12.5px;padding:6px 11px;flex:none}
+.ico{flex:none;width:32px;height:32px;padding:0;border-radius:999px;cursor:pointer;
+border:1px solid var(--line);background:var(--panel);display:flex;align-items:center;
+justify-content:center;-webkit-tap-highlight-color:transparent}
+.ico svg{width:18px;height:18px;fill:none;stroke:var(--ink2);stroke-width:1.8;
+stroke-linecap:round}
+.ico svg .f{fill:var(--ink2);stroke:none}
+.ico.on{background:var(--accent);border-color:var(--accent)}
+.ico.on svg{stroke:#fff}
+.ico.on svg .f{fill:#fff}
+.srch{display:none;gap:6px;align-items:center}
+#bar.searching .srch{display:flex}
+#bar.searching .brow{display:none}
+.srch input{flex:1;min-width:0;font:inherit;font-size:16px;padding:7px 13px;
+border-radius:999px;border:1px solid var(--line);background:var(--panel);color:var(--ink)}
+.menu{display:none;gap:6px;flex-wrap:wrap;padding-top:8px}
+#bar.menuopen .menu{display:flex}
+#bar{padding:8px 0 9px}
+#prog{height:3px;margin-top:7px}
+#stat{font-size:11px;margin-top:4px}
+/* the run-through and acronym controls stay on one line too */
+.rowctl{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;
+-webkit-overflow-scrolling:touch}
+.rowctl::-webkit-scrollbar{display:none}
+.rowctl .fb{flex:none;font-size:12.5px;padding:6px 11px}
+.rowctl input{flex:1;min-width:120px;font-size:16px;padding:7px 13px;border-radius:999px;
+border:1px solid var(--line);background:var(--panel);color:var(--ink);font-family:inherit}
 /* ---- tabs ---- */
 #tabs{display:flex;gap:4px;border-bottom:1px solid var(--line);margin:18px 0 0;overflow-x:auto;
 -webkit-overflow-scrolling:touch;scrollbar-width:none}
@@ -386,8 +421,10 @@ Tap a question to see the answer, tick it when you own it. Progress is saved on 
 <button class="tb" data-p="wb">Weight &amp; balance</button>
 </div>
 
-<div id="bar"><div class="brow">
-<input id="q" type="search" placeholder="Search questions and answers" autocomplete="off">
+<div id="bar">
+<div class="brow">
+<button class="ico" id="qopen" aria-label="Search"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5"/><path d="M12.8 12.8 17 17"/></svg></button>
+<div class="pills">
 <button class="fb on" data-m="all">All</button>
 <button class="fb" data-m="todo">To do</button>
 <button class="fb" data-m="ride">Checkride</button>
@@ -395,10 +432,19 @@ Tap a question to see the answer, tick it when you own it. Progress is saved on 
 <button class="fb" data-m="fig">Figures</button>
 <button class="fb" data-m="sys">Systems</button>
 <button class="fb" data-m="aero">Maneuver</button>
+</div>
+<button class="ico" id="more" aria-label="More"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="4" cy="10" r="1.6" class="f"/><circle cx="10" cy="10" r="1.6" class="f"/><circle cx="16" cy="10" r="1.6" class="f"/></svg></button>
+</div>
+<div class="srch">
+<input id="q" type="search" placeholder="Search questions and answers" autocomplete="off">
+<button class="ico" id="qclose" aria-label="Close search"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 5 15 15M15 5 5 15"/></svg></button>
+</div>
+<div class="menu">
 <button class="fb" id="expand">Expand all</button>
 <button class="fb" id="theme">Dark</button>
 <button class="fb danger" id="reset">Reset progress</button>
-</div><div id="prog"><i></i></div><div id="stat"></div></div>
+</div>
+<div id="prog"><i></i></div><div id="stat"></div></div>
 
 <section class="pane on" id="p-study">
 <nav><a href="#s4f59d68879"><span>Pilot Qualifications</span><span class="nc">213</span></a><a href="#s98bf1cd3dd"><span>Airworthiness Requirements</span><span class="nc">96</span></a><a href="#s2ddc483369"><span>Weather Theory</span><span class="nc">76</span></a><a href="#s48d8b4d144"><span>Weather Services</span><span class="nc">12</span></a><a href="#s086f43a65e"><span>Weather Reports</span><span class="nc">23</span></a><a href="#s531d2fc8d3"><span>Aviation Forecasts</span><span class="nc">25</span></a><a href="#s5575f7c1ca"><span>Weather Advisories</span><span class="nc">14</span></a><a href="#s4ed8fb9740"><span>Weather Charts</span><span class="nc">17</span></a><a href="#sb2fe06939f"><span>Navigation Equipment</span><span class="nc">106</span></a><a href="#s57b1de2e4c"><span>Aircraft Systems</span><span class="nc">346</span></a><a href="#s4c1f727b17"><span>Cross Country Planning</span><span class="nc">246</span></a><a href="#s0fade7444f"><span>National Airspace System</span><span class="nc">106</span></a><a href="#sdaddef93eb"><span>Performance and Limitations</span><span class="nc">242</span></a><a href="#s203304e138"><span>Commercial Maneuvers</span><span class="nc">299</span></a><a href="#se17c4964b2"><span>Human Factors and Aeromedical</span><span class="nc">91</span></a><a href="#s0a2250c116"><span>Spin Awareness</span><span class="nc">24</span></a><a href="#s8ccfd1abac"><span>Emergency Equipment and Survival Gear</span><span class="nc">22</span></a><a href="#sce82d9a1da"><span>Night Preparation</span><span class="nc">55</span></a><a href="#s8eb4fc82a4"><span>Stage Check Questions</span><span class="nc">127</span></a><a href="#s8b61650530"><span>Flagged for Extra Work</span><span class="nc">54</span></a></nav>
@@ -1716,7 +1762,7 @@ examiner actually did on a prior ride, in sequence — the oral from logbooks th
 accident-reporting question, then the flight, then the debrief. Work down it and you have been
 through his ride once before you fly it. Ticks are shared with the Study tab, so nothing is
 counted twice.</div>
-<div class="brow" style="margin-bottom:14px">
+<div class="brow rowctl" style="margin-bottom:14px">
 <button class="fb" id="rhide">Hide what I have ticked</button>
 <button class="fb" id="rexp">Expand all</button>
 <span id="rstat" style="font-family:var(--mono);font-size:12px;color:var(--ink3)"></span>
@@ -2422,7 +2468,7 @@ counted twice.</div>
 essentially every commercial ride, or sitting inside this examiner's known focus on oil, fuel,
 electrical and powerplant. Tier 2 is likely, tier 3 possible, tier 4 is there for completeness.
 Work down, not across.</div>
-<div class="brow" style="margin-bottom:14px">
+<div class="brow rowctl" style="margin-bottom:14px">
 <input id="aq" type="search" placeholder="Search terms" autocomplete="off">
 <button class="fb on" data-at="0">All tiers</button>
 <button class="fb" data-at="1">1 only</button>
@@ -2713,9 +2759,33 @@ function filter(){
   b.addEventListener('click',function(){
     [].slice.call(document.querySelectorAll('.fb[data-m]')).forEach(function(x){ x.classList.remove('on'); });
     b.classList.add('on'); mode=b.dataset.m; filter();
+    barEl.classList.remove('menuopen'); moreBtn.classList.remove('on');
   });
 });
-var qbox=document.getElementById('q');
+/* The search is an icon until it is wanted; opening it takes the whole row so
+   the field is usable, and it stays open while there is a term in it. */
+var barEl=document.getElementById('bar'), qbox=document.getElementById('q');
+function openSearch(){ barEl.classList.add('searching'); barEl.classList.remove('menuopen'); qbox.focus(); }
+function closeSearch(){
+  barEl.classList.remove('searching');
+  if(qbox.value){ qbox.value=''; rawterm=''; toks=[]; filter(); }
+}
+document.getElementById('qopen').addEventListener('click', openSearch);
+document.getElementById('qclose').addEventListener('click', closeSearch);
+qbox.addEventListener('keydown', function(e){ if(e.key==='Escape') closeSearch(); });
+
+var moreBtn=document.getElementById('more');
+moreBtn.addEventListener('click', function(e){
+  e.stopPropagation();
+  barEl.classList.toggle('menuopen');
+  moreBtn.classList.toggle('on', barEl.classList.contains('menuopen'));
+});
+document.addEventListener('click', function(e){
+  if(barEl.classList.contains('menuopen') && !e.target.closest('#bar')){
+    barEl.classList.remove('menuopen'); moreBtn.classList.remove('on');
+  }
+});
+
 qbox.addEventListener('input',function(e){
   rawterm=e.target.value.trim();
   toks=rawterm.toLowerCase().split(/\s+/).filter(function(t){ return t.length>0; });
@@ -2792,6 +2862,8 @@ function showTab(p){
     s.classList.toggle('on', s.id==='p-'+p);
   });
   toolbar.style.display = (p==='study') ? '' : 'none';
+  toolbar.classList.remove('menuopen');
+  if(moreBtn) moreBtn.classList.remove('on');
   if(p!=='study') hydrate(document.getElementById('p-'+p));
   try{ localStorage.setItem(TBK,p); }catch(e){}
   window.scrollTo(0,0);
