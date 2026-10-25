@@ -5,8 +5,8 @@ function save(){ try{ localStorage.setItem(LS,JSON.stringify(done)); }catch(e){}
 
 /* Which guides are switched on. `doc` is now a space-separated set, so a question
    that came from two guides shows while either of them is on. */
-var SRCK='cpl-guide-src', KEYS=['chs','fi','gs','poh','aero','gouge','acs'];
-var on={chs:true, fi:true, gs:true, poh:true, aero:true, gouge:true, acs:true};
+var SRCK='cpl-guide-src', KEYS=['chs','fi','gs','poh','aero','gouge','xc','acs'];
+var on={chs:true, fi:true, gs:true, poh:true, aero:true, gouge:true, xc:true, acs:true};
 try{
   var st0=JSON.parse(localStorage.getItem(SRCK)||'null');
   if(st0) KEYS.forEach(function(k){ if(k in st0) on[k]=!!st0[k]; });
@@ -146,6 +146,7 @@ function filter(){
     if(ok && (mode==='sys'||mode==='aero') && li.dataset.f!==mode) ok=false;
     if(ok && mode==='ride' && li.dataset.g!=='1') ok=false;
     if(ok && mode==='fig' && li.dataset.img!=='1') ok=false;
+    if(ok && mode==='day' && li.dataset.day!=='1') ok=false;
     if(ok && toks.length){
       for(var i=0;i<toks.length;i++){ if(li._all.indexOf(toks[i])<0){ ok=false; break; } }
     }

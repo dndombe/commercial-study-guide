@@ -1,0 +1,1192 @@
+[
+ {
+  "s": "Cross Country Planning",
+  "q": "Walk me through your cross-country. Where are we going and how far is it?",
+  "a": "<b>Walterboro, Lowcountry Regional (KRBW) to Martin Campbell Field, Copperhill, Tennessee (1A3), 223 nautical miles on a true course of 305 degrees.</b> KRBW is at 101 feet, 1A3 at 1,789 feet, so the destination field sits 1,688 feet higher than the departure field. At 105 knots true in no wind the leg runs about 2 hours 8 minutes. I refigure time and fuel on the navigation log against the actual winds aloft for whatever altitude I pick before I commit to it.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What regulation governs your preflight planning, and what exactly does it require?",
+  "a": "<b>14 CFR 91.103, Preflight action.</b> It requires me to become familiar with all available information concerning the flight. For a flight not in the vicinity of an airport that means weather reports and forecasts, fuel requirements, alternatives available if the flight cannot be completed as planned, and any known traffic delays advised by ATC; and for any flight, runway lengths at airports of intended use and the takeoff and landing distance data in the approved flight manual.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "How much fuel does this leg take, and is the airplane's capacity a limiting factor?",
+  "a": "<b>About 17.9 gallons en route at 8.4 gallons per hour, or 22.1 gallons with a 30 minute day reserve, against 48 gallons usable.</b> Planning a pessimistic 10.0 gallons per hour gives 21.3 gallons en route and 26.3 with the reserve, still a little over half the usable fuel. Capacity is not the limiting factor on this leg; the limiting factors are headwind, a diversion to an alternate, and whether the self-serve pump at 1A3 is actually working when I get there.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What is the legal fuel reserve for this trip, and where is it written?",
+  "a": "<b>14 CFR 91.151, Fuel requirements for flight in VFR conditions: enough to fly to the first point of intended landing and, assuming normal cruising speed, to fly after that for 30 minutes by day or 45 minutes at night.</b> At 8.4 gallons per hour the day reserve is 4.2 gallons, putting the total at 22.1 gallons; at night the 45 minute reserve is 6.3 gallons, so 24.1 gallons. Those are legal minimums. My personal minimum is one hour on board at landing.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Give me a 20-knot headwind the whole way. What does that do to your time and fuel?",
+  "a": "<b>Groundspeed falls to 85 knots, so 223 nautical miles takes about 2 hours 37 minutes instead of 2 hours 8, and fuel at 8.4 gallons per hour goes from about 17.9 to about 22.0 gallons en route.</b> Add the 30 minute day reserve and I am near 26 gallons of the 48 usable. The fuel plan stays comfortable; the time plan does not, and in late November a 29 minute slip is the difference between arriving in daylight and arriving at an unlit mountain field.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "How did you choose your waypoints on this route, and why those?",
+  "a": "<b>I chose them for unmistakable identification from the air, for spacing that gives me a usable groundspeed check, and so that each one also offers an out.</b> I draw the 305 degree course line on the sectional first, then pick features that lie on or just beside it; I prefer a feature that is unique in that area, has vertical relief or contrast, and is backed up by a second feature nearby. Where the course passes near an airport I make that the checkpoint, so the checkpoint and the diversion field are the same place.",
+  "kind": "determine",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "How far apart are your checkpoints, and why that spacing?",
+  "a": "<b>Roughly 10 to 20 nautical miles, which at 105 knots is about 6 to 11 minutes between fixes.</b> Closer than that and I am head down more than I am outside; farther and an error grows too large before I catch it. Over the low country out of Walterboro I can stretch toward the long end because features are visible a long way; approaching the ridges I tighten them up, because a wrong valley identified late is very hard to unwind. I write the leg distance, the leg time and the running total on the log for each one.",
+  "kind": "determine",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What makes a good checkpoint out of Walterboro in the low country?",
+  "a": "<b>Something linear or large enough to be unmistakable from several miles off, and unique in that area.</b> Rivers and major road and rail intersections, a town with a distinctive shape, a large body of water, a bridge, an airport, a power line crossing a river. The trap in the low country is sameness: one small town, one tree line and one farm pond look like the next, and a lone water tower is useless if there are six. I pick features that cross my course at an angle, and I pair each with a backup feature to confirm.",
+  "kind": "determine",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What makes a good checkpoint once you are in the mountains near Copperhill?",
+  "a": "<b>Terrain itself, read as shape: a lake, a dam, a river bend, a gap or a named peak, a highway through a pass, a town in a valley.</b> Mountain checkpoints are chosen by relief and by hydrology, because roads disappear under trees and small towns are hidden in valleys. The trap is that one valley and one ridge look like the next from above, so I identify by the pattern of features rather than one feature, and I confirm with a GPS fix or a VOR radial before I commit to flying down a valley.",
+  "kind": "determine",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Where is your first checkpoint, and what do you do when you get there?",
+  "a": "<b>Far enough out that I am level and settled, typically 8 to 12 nautical miles from Walterboro, which at 105 knots is 5 to 7 minutes.</b> Crossing it I note the time, compare it with the planned time to get my actual groundspeed, revise the estimates for the remaining legs and for fuel, confirm the heading is holding the course line, and check that the fuel burn matches the plan. That first time check is the one the examiner wants to see, because every later estimate on the log depends on it.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Your GPS quits halfway to Copperhill. Show me how you keep navigating.",
+  "a": "<b>I fall back to the heading, the clock and the chart, which is why I filled in the navigation log before departure.</b> I note the time and the last known position, hold the planned magnetic heading for that leg, run the clock against the planned leg time, and look for the next planned checkpoint at the planned minute. I back it up with a VOR cross fix if one is receivable at my altitude, and I accept a diversion to a larger field with better terrain rather than groping along a valley on dead reckoning alone.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What is the difference between pilotage and dead reckoning, and which are you using?",
+  "a": "<b>Pilotage is navigating by reference to visible landmarks; dead reckoning is computing heading, groundspeed and time from a known position using true course, true airspeed, wind and variation.</b> I am using both: dead reckoning gives me the heading to fly and the minute to expect the next feature, pilotage confirms it when the feature shows up. GPS is the third layer and the first to be taken away in the airplane, so the log has to stand on its own without it.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "At a checkpoint you are four miles right of course after thirty miles. How do you fix it?",
+  "a": "<b>Use the sixty to one rule twice.</b> Four miles off in thirty flown is an eight degree track error, so I turn eight degrees left to parallel the course. To rejoin by the next checkpoint thirty miles ahead I double it and turn sixteen degrees left, then take out the extra eight degrees once I am back on the line. The trap is correcting by feel and overshooting; the arithmetic is one division and takes five seconds, and it keeps the remaining leg times on the log honest.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Your true course is 305. How do you get the magnetic course you actually fly?",
+  "a": "<b>Apply the magnetic variation shown by the isogonic line nearest that part of the route: east is least, west is best, so westerly variation is added to the true course.</b> The isogonic lines are the dashed magenta lines on the sectional, labeled with the value and the date. Variation changes along a 223 mile route, so I use the value for each part of the leg rather than one number for the whole trip, and then I apply the compass deviation card in the airplane to get the compass heading.",
+  "kind": "determine",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Where do you get the wind correction angle for this leg?",
+  "a": "<b>From the winds aloft forecast for the altitude I pick, worked on an E6B or a flight computer against the 305 degree true course and the true airspeed from the cruise chart.</b> Winds aloft forecasts are given in true direction, which matches the true course, so I do the wind triangle in true and convert to magnetic afterward. The trap is mixing frames: surface winds in a METAR are true, winds from a tower or an AWOS voice broadcast are magnetic, and runway numbers are magnetic.",
+  "kind": "determine",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Where is your top of climb and top of descent on this leg?",
+  "a": "<b>Top of climb comes out of the time, fuel and distance to climb chart; top of descent I plan with the three to one rule.</b> For descent, take the altitude to lose in thousands, multiply by three for nautical miles, and check the resulting rate against groundspeed. Coming from 8,500 feet down to a 2,789 foot pattern altitude at 1A3 is 5,711 feet, about 17 nautical miles and 11 minutes at 500 feet per minute. Starting the descent late over rising terrain is how people end up diving at a mountain field.",
+  "kind": "determine",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Do you need a fuel stop on this leg, and where would you put one if you wanted one?",
+  "a": "<b>No, 22.1 gallons planned against 48 usable does not require a stop, but I identify a fuel field near the halfway point anyway.</b> The halfway point is about 111 nautical miles out. I look along the course on the sectional and in the Chart Supplement for a field with 100LL, an attendant or a reliable self-serve pump, and a runway long enough for the Warrior, and I write its frequency and field elevation on the log. That field doubles as my weather bail-out before the terrain starts rising.",
+  "kind": "determine",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What true airspeed are you planning, and where did the number come from?",
+  "a": "<b>I used 105 knots for the first cut, which gives 2 hours 8 minutes for the 223 nautical miles, but the planning number has to come from the cruise performance chart in my own handbook.</b> That is Section 5 of Piper Report VB-880 for serial 28-8116257, entered with pressure altitude, temperature and the power setting I intend to use. The Section 5 charts in the VB-1180 book are computed for a 2,440 pound airplane and are not approved for this serial, so I do not plan from them.",
+  "kind": "determine",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Are you filing a flight plan, and what does the regulation say has to be in it?",
+  "a": "<b>Yes, a VFR flight plan, and 14 CFR 91.153, VFR flight plan: Information required, lists what goes in it.</b> Aircraft identification and type, full name and address of the pilot in command, point and proposed time of departure, proposed route, cruising altitude and destination, estimated time en route, amount of fuel on board in time, number of persons aboard and any other information the pilot believes necessary. On a route like this the real value is the search and rescue trigger, since 1A3 has no tower to notice I never arrived.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Who opens and closes the flight plan, and what happens if you forget to close it?",
+  "a": "<b>I open and close it with Flight Service, on the radio, by phone to 1 800 WX BRIEF, or through the app I filed on; there is no tower at 1A3 to close it for me.</b> If I do not close it, Flight Service begins communications search procedures at 30 minutes past my estimated time of arrival, and search and rescue follows. At a field with no tower and no UNICOM, closing on the ground by telephone or cell app is the realistic method, and I brief my passenger that I will do it before we leave the ramp.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What is VFR flight following, and who would be providing it on this route?",
+  "a": "<b>Radar advisories from ATC on a workload permitting basis, which on the Copperhill end means Atlanta Center.</b> The Chart Supplement lists approach and departure service for 1A3 from Atlanta ARTCC on 133.1, with 342.425 as the paired military UHF frequency through the Mount Oglethorpe remote site. It is advisory service, not separation, and radar and radio coverage get thin at low altitude in the mountains, which is one more reason to cruise high rather than scud along the valleys.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What charts and publications do you want in the cockpit for this trip?",
+  "a": "<b>The current sectional charts covering the whole 223 mile course, the current Chart Supplement volume covering both airports, and the airplane's own flight manual.</b> Check the VFR chart index and the edge panels of each sectional to see which charts the route crosses, because a 223 mile leg from South Carolina into Tennessee will not fit on one sheet. Confirm the effective dates on both the sectional and the Chart Supplement; an expired Chart Supplement is where stale fuel and lighting information comes from.",
+  "kind": "determine",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What is in the Chart Supplement for 1A3 that is not on the sectional?",
+  "a": "<b>The detail that decides whether the arrival works: displaced thresholds, runway end elevations, traffic pattern direction, PAPI angles, approach ratios, fuel hours and payment, lighting activation, the airport manager's telephone number and the narrative remarks.</b> The sectional gives me field elevation, longest runway, CTAF and the lighting and fuel symbols only. For a 3,500 foot mountain runway with thresholds displaced 90 and 140 feet and a 4 degree PAPI, the sectional alone would leave me badly briefed.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What cruise altitude are you planning, and what rule drives the choice?",
+  "a": "<b>An even thousand plus 500 feet, so 4,500, 6,500, 8,500 or 10,500, because the magnetic course of roughly 305 degrees falls in the 180 to 359 degree half of 14 CFR 91.159, VFR cruising altitude or flight level.</b> The rule bites only in level cruise more than 3,000 feet above the surface. Between terrain, radio coverage and glide options I would plan 8,500 and treat 6,500 as the fallback if cloud forces me down, not 4,500.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Does the hemispheric rule apply for the whole leg?",
+  "a": "<b>Only where I am in level cruise more than 3,000 feet above the surface.</b> 14 CFR 91.159 begins with that condition, so low over the coastal plain in a climb or during a descent it does not control me. The subtlety on this route is that the ground rises toward Copperhill, so a given indicated altitude is more than 3,000 feet above the surface at Walterboro and may be less than that near the destination; the rule can switch off on me at the end of the flight rather than at the start.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Your course is 305. Is that eastbound or westbound for the cruising altitude rule?",
+  "a": "<b>Westbound, in the 180 through 359 degree bucket, so even thousands plus 500.</b> The rule is written on magnetic course, not true course and not heading, so I convert the 305 degree true course with the local variation first; any plausible variation in the Carolinas, Georgia and Tennessee leaves it comfortably inside the same bucket. The classic error is using the magnetic heading after the wind correction angle, which on a strong crosswind day can cross the 359 to 360 boundary and give the wrong answer.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "How does the 1,688-foot climb to the destination field change your altitude choice?",
+  "a": "<b>It compresses everything at the far end: less height above the ground for the same indicated altitude, a shorter descent, and fewer options under me.</b> At 8,500 feet I am 8,399 feet above Walterboro but only 6,711 feet above the 1,789 foot field at Copperhill, and far less than that above the ridges before it. So I choose the altitude on height above terrain, not on height above sea level, and I plan the descent from the far side of the high ground rather than from overhead the field.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What is a maximum elevation figure, and how do you read one?",
+  "a": "<b>The large bold number in the middle of each quadrangle bounded by ticked lines of latitude and longitude on a sectional, given in thousands and hundreds of feet above mean sea level.</b> A figure printed as a big 5 and a small 3 means 5,300 feet. It represents the highest known feature in that quadrangle, terrain or obstacle, with an allowance added for vertical error and for obstacles not portrayed. Read every MEF box the course line passes through, and the ones either side of it.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Is the MEF a minimum safe altitude? Why or why not?",
+  "a": "<b>No. It is the highest known thing in the box, not an altitude with any clearance built in for you to fly at.</b> It carries a tolerance for charting and survey error and for unsurveyed obstacles, but it is not an obstacle clearance altitude and it is not an IFR minimum. To turn it into something I will fly I add my own margin, commonly 1,000 feet over flat terrain and 2,000 feet over mountainous terrain, and then round up to a legal VFR cruising altitude.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "How do you set a safe minimum altitude for each leg of this route?",
+  "a": "<b>Take the largest MEF in the quadrangles that leg crosses, add a terrain margin, then round up to the next legal VFR cruising altitude and check it against cloud bases and oxygen.</b> Over the low country I use 1,000 feet of margin; from the foothills to Copperhill I use 2,000 feet, because mountain downdrafts can exceed the climb rate of a 160 horsepower Warrior. I write the resulting minimum for each leg on the navigation log so I am not doing the arithmetic in turbulence.",
+  "kind": "determine",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What does 14 CFR 91.119 require, and does it help you over the ridges?",
+  "a": "<b>14 CFR 91.119, Minimum safe altitudes: General, requires an altitude allowing an emergency landing without undue hazard anywhere; over congested areas 1,000 feet above the highest obstacle within a 2,000 foot horizontal radius; over other than congested areas 500 feet above the surface, and 500 feet from any person, vessel, vehicle or structure.</b> It is a floor, not a plan. Over forested ridges the paragraph that actually governs me is the first one, because there is no undue hazard clause you can satisfy at 500 feet over trees.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Where along this course does the terrain start to rise, and how do you find out?",
+  "a": "<b>Read it off the sectional, not off a hunch: follow the course line and watch the MEF boxes, the contour tints and the spot elevations change.</b> The chart changes color band by color band as the ground rises, and the MEF values step up quadrangle by quadrangle. I mark on the chart the point where the MEF first exceeds my planned cruise minus my margin, and I treat that point as the gate: by then I am at cruise, I have current destination weather, and I have decided to continue or turn around.",
+  "kind": "determine",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "How much clearance do you want crossing a ridge, and why that much?",
+  "a": "<b>At least 1,000 feet, and 2,000 feet if the wind across the ridge is 20 knots or more.</b> The reason is downdraft: air sinking on the lee side can descend faster than a 160 horsepower Warrior at gross weight can climb, so the only usable answer is height and an escape turn. Height also buys radio and radar coverage, glide distance, and time to recognize that the valley ahead is rising faster than I am.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "How do you approach a ridge crossing, and at what angle?",
+  "a": "<b>Approach at roughly 45 degrees to the ridge line, with the altitude already made good well before you get there, so a single turn of about 45 degrees takes you back into the valley you came from.</b> Crossing perpendicular commits you to a 180 in a confined space if the downdraft wins. I also cross where the terrain is lowest, climb on the upwind side where the air is rising, and never try to out-climb rising ground that is going up faster than I am.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Do you need supplemental oxygen on this trip?",
+  "a": "<b>Almost certainly not, because the practical cruise choices for this leg are 6,500 or 8,500 feet and the rule does not start until 12,500.</b> That said, the answer depends on the altitude I actually file. If weather or terrain pushed me to 12,500 or above, 14 CFR 91.211, Supplemental oxygen, would start applying. In a normally aspirated Warrior at 2,277 pounds the service ceiling and the climb rate settle the question before the regulation does.",
+  "kind": "determine",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Give me the oxygen regulation, exactly.",
+  "a": "<b>14 CFR 91.211, Supplemental oxygen.</b> For unpressurized aircraft, the required minimum flight crew must use supplemental oxygen for that part of the flight of more than 30 minutes duration at cabin pressure altitudes above 12,500 feet MSL up to and including 14,000 feet MSL; must use it at all times above 14,000 feet MSL; and above 15,000 feet MSL each occupant of the aircraft must be provided with supplemental oxygen.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "At what altitude would you use a pulse oximeter even though the rule does not require it?",
+  "a": "<b>From about 8,000 to 10,000 feet, especially at night, because the regulation is a floor and physiology is individual.</b> Night vision degrades measurably from around 5,000 feet, and a smoker, a cold or dehydration lowers the altitude at which hypoxia bites. I carry a portable oximeter, check saturation at level off and every half hour, and treat anything that trends below the low 90s as a reason to descend, not as a number to argue with.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "How do you find the highest obstacle near your course on the sectional?",
+  "a": "<b>Look for the obstacle symbols along and either side of the course line and read both numbers printed with each one.</b> The upper figure in bold is the height above mean sea level and the figure in parentheses is the height above ground. A symbol with a group of ticks is a group of obstacles. Tall obstacles of 1,000 feet AGL and above get a different symbol, and lighted obstacles carry the light flash marks. Then cross check against the MEF box, which already includes them.",
+  "kind": "determine",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What is the difference between an MEF and a spot elevation with a dot?",
+  "a": "<b>A spot elevation with a dot is the surveyed height of that one point of terrain; the MEF is the highest known feature anywhere in the whole quadrangle, including obstacles, plus an error allowance.</b> The highest spot elevation in a quadrangle is marked with a larger dot and bold type. Do not plan terrain clearance off a spot elevation, because the tower a mile away from it may be higher; plan off the MEF and then add your own margin.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Tell me about the runways at Walterboro.",
+  "a": "<b>Three runways, all asphalt and concrete: 5 and 23 at 6,002 by 100 feet, 17 and 35 at 5,705 by 100 feet, and 9 and 27 at 5,408 by 100 feet, at a field elevation of 101 feet.</b> Three runways at 120 degree spacing means there is almost always a runway within 30 degrees of the wind, and all three are long enough that runway length is never the deciding factor for a Warrior. That makes the runway choice a question about wind, obstacles and the emergency return, not about length.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Give me your takeoff distance out of Walterboro.",
+  "a": "<b>It comes out of the takeoff performance charts in Section 5 of Piper Report VB-880, the handbook for serial 28-8116257, entered with pressure altitude, outside air temperature, takeoff weight, wind and flap setting.</b> I read both the ground roll and the total distance over a 50 foot obstacle, then apply the chart's correction notes for any headwind or tailwind component and for a soft or wet surface. I do not use the Section 5 charts in the VB-1180 book; those are computed for a 2,440 pound airplane and are not approved for this serial.",
+  "kind": "determine",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Runway 5 is 6,002 feet. Is runway length a factor at Walterboro?",
+  "a": "<b>No, not for a Warrior at 2,277 pounds with a field elevation of 101 feet; the examiner is testing whether I can work the chart, not whether I will run off the end.</b> What I do with the number is compare it against the accelerate and stop picture: how much runway remains at rotation, and whether 6,002 feet leaves me room to abort and stop on the pavement. Then I pick a point on the runway by which I must see a specified airspeed or I close the throttle.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What is the pressure altitude at Walterboro today, and how do you get it?",
+  "a": "<b>Set 29.92 in the altimeter and read it, or compute it as field elevation plus 1,000 times the quantity 29.92 minus the altimeter setting.</b> With the altimeter setting at 29.92 the pressure altitude equals the 101 foot field elevation. At 30.12 it is 101 minus 200, about minus 99 feet; at 29.62 it is 101 plus 300, about 401 feet. The trap is reading the field elevation off the chart and calling it pressure altitude without touching the altimeter setting.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Compute the density altitude at Walterboro for me.",
+  "a": "<b>Density altitude is pressure altitude corrected for temperature: approximately pressure altitude plus 120 feet for every degree Celsius the outside air temperature is above the standard temperature for that pressure altitude.</b> Standard temperature is 15 degrees Celsius at sea level, falling about 2 degrees per thousand feet, so at the 101 foot field elevation it is about 14.8 degrees. At 25 degrees on the ramp, density altitude is roughly 101 plus 120 times 10, about 1,300 feet. An E6B or the chart in Section 5 gives the same answer.",
+  "kind": "determine",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Your POH prints Section 5 charts for a 2,440-pound airplane. Can you use them?",
+  "a": "<b>No. Serial 28-8116257 is covered by Piper Report VB-880, not VB-1180; the maximum gross weight is 2,325 pounds per FAA Type Certificate Data Sheet 2A13 item XVI-A, and every Section 5 chart in the VB-1180 revision is computed for the 2,440 pound airframe.</b> Takeoff, climb, cruise, landing, glide and the stall speed chart all fall with it. The right answer is to plan from the VB-880 charts that belong in this airplane, and to say so rather than quote a number from the wrong book.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Work me through time, fuel and distance to climb out of Walterboro.",
+  "a": "<b>It is a two lookup subtraction on the time, fuel and distance to climb chart in Section 5 of VB-880.</b> Enter the chart at the pressure altitude and temperature of the cruise altitude and read time, fuel and distance; enter it again at the pressure altitude and temperature of the departure field; subtract the second set from the first. Add the chart's fuel allowance for start, taxi and takeoff. The trap is reading the cruise value alone and forgetting that the chart is referenced from sea level.",
+  "kind": "determine",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Wind at Walterboro is 130 at 22 gusting 30. Which runway and why?",
+  "a": "<b>The wind splits runway 9 and runway 17 evenly at 40 degrees off each, so the components are identical and the tiebreaker is not arithmetic.</b> Crosswind at the gust is 30 times the sine of 40 degrees, about 19 knots; headwind is 30 times the cosine of 40, about 23 knots. On the steady 22 it is about 14 knots of crosswind and 17 of headwind. I would break the tie on obstacles off each departure end, on which runway puts me closer to the course, and on which gives the better emergency return.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Give me the crosswind and tailwind components for that runway and show the method.",
+  "a": "<b>Crosswind equals wind speed times the sine of the angle between the wind and the runway; headwind or tailwind equals wind speed times the cosine of that angle.</b> At 40 degrees off, the crosswind is about 64 percent of the wind and the headwind about 77 percent, giving 19 and 23 knots on the 30 knot gust. I always compute on the gust, not the steady wind. Runway numbers are magnetic and tower or AWOS winds are magnetic, but METAR and forecast winds are true, so convert before you take the angle.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Is the crosswind figure in the flight manual a limitation?",
+  "a": "<b>No. It is the maximum demonstrated crosswind component, the strongest crosswind in which the airplane was shown to be controllable during certification; it is not an operating limitation and nothing prohibits exceeding it.</b> The VB-1180 revision prints 17 knots, and whether that is the figure in the VB-880 book for this serial has to be confirmed. What is limiting is my own demonstrated skill, and a 19 knot gusting crosswind on a checkride morning is a good reason to pick another runway or wait.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Would you be comfortable departing in 22 gusting 30 at 40 degrees off?",
+  "a": "<b>Not happily, and I would say so out loud. A 19 knot crosswind component at the gust is at or past the demonstrated figure for the airplane and past my personal minimum.</b> The gust spread of 8 knots means an airspeed swing on rotation, and if I had to come straight back the same crosswind would be waiting on the landing. I would wait for the gusts to ease, use a runway with less angle if one existed, or not go. Declining a departure is a decision the examiner wants to hear me able to make.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Crosswind from the left on takeoff: which way does the airplane want to go?",
+  "a": "<b>Into the wind. The vertical fin and rudder are behind the main gear, so the airplane weathervanes toward the wind, and a left crosswind yaws the nose left, calling for right rudder.</b> That right rudder adds to the right rudder already needed for the left turning tendencies of a climbing propeller airplane. A right crosswind yaws the nose right and is held with left rudder, which partly offsets those tendencies. Either way I hold aileron into the wind and rudder to keep the centerline.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Tell me about Martin Campbell Field.",
+  "a": "<b>1A3, Copperhill, Tennessee, field elevation 1,789 feet, one runway 2 and 20 at 3,500 by 75 feet of asphalt in good condition, no tower, no UNICOM, CTAF 122.9.</b> Thresholds are displaced 90 feet on runway 2 and 140 feet on runway 20, the pattern is left for 2 and right for 20, and there is a two light PAPI on the left of each end, 3.00 degrees for runway 2 and 4.00 degrees for runway 20. There is 100LL by 24 hour credit card self service and no weather reporting on the field.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "How long is the runway at 1A3, and how much of it can you actually land on?",
+  "a": "<b>The runway is 3,500 feet, but landing distance available is 3,410 feet on runway 2 and 3,360 feet on runway 20, because the thresholds are displaced 90 and 140 feet.</b> I may not touch down before the threshold, so the usable landing length is the published length minus the displacement. That is the number I compare my POH landing distance against, and on a 75 foot wide mountain runway it is the only honest comparison.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Why isn't the landing distance available 3,500 feet on either end?",
+  "a": "<b>Because both thresholds are displaced: 90 feet on runway 2 and 140 feet on runway 20, which is pavement I may roll on but may not land on.</b> A displaced threshold exists because something on the approach, an obstacle or a road, forces the touchdown point farther down the runway. The arithmetic is simple, 3,500 minus 90 is 3,410 and 3,500 minus 140 is 3,360, and the trap is planning against 3,500 and then discovering 140 feet of it is painted with arrows.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Can you use the pavement before a displaced threshold for takeoff?",
+  "a": "<b>Yes. Pavement behind a displaced threshold is available for takeoff in that direction and for rollout after landing in the opposite direction; it is only the landing touchdown that is prohibited.</b> It is marked with white arrows leading to an arrowhead and a solid bar at the threshold. A blast pad or a stopway, marked with yellow chevrons, is different and is not usable for anything. If the Chart Supplement publishes declared distances for 1A3, I use those rather than inferring from the displacement.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What is the slope of the runway at 1A3, and which way?",
+  "a": "<b>It rises toward the runway 20 end: the runway 2 end is 1,771.7 feet and the runway 20 end is 1,788.7 feet, a rise of 17 feet over 3,500 feet, about one half of one percent.</b> So a takeoff on runway 2 is uphill and a takeoff on runway 20 is downhill; a landing on runway 2 rolls out uphill and a landing on runway 20 rolls out downhill. Half a percent is slight on its own, but combine a downhill landing on 20 with a tailwind and the margin on 3,360 feet disappears quickly.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Which runway are you planning to land on at 1A3, and might you not have a choice?",
+  "a": "<b>Wind decides in principle, but at a one runway mountain field the terrain often decides for me, and a right hand pattern on runway 20 is the clue that something is in the way on the left.</b> Runway 20 gives the downhill rollout and the 4.00 degree PAPI; runway 2 gives the uphill rollout and a 3.00 degree PAPI. I brief both, note that runway 20 has only 3,360 feet of landing distance available, and check the Chart Supplement remarks and any NOTAMs before I decide.",
+  "kind": "determine",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What is the traffic pattern at 1A3?",
+  "a": "<b>Left traffic for runway 2 and right traffic for runway 20.</b> A nonstandard right hand pattern on one end of a single runway almost always means terrain, an obstacle or a noise sensitive area on the left side, and here the Chart Supplement also notes a mountain ridge along the east side of the runway. I would fly the published direction, announce it on CTAF 122.9, and overfly well above pattern altitude first to get the lie of the valley before descending into it.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Why would runway 20 have a right-hand pattern?",
+  "a": "<b>Because something on the left side of runway 20 makes a left pattern unsafe or impractical, and in this terrain that usually means high ground.</b> The Chart Supplement remark about a mountain ridge along the east side of the runway and the mountain ridges on the approach point the same way. The practical consequence is that the pattern is flown away from the rising ground, the downwind may be closer in than I am used to, and a go around from runway 20 has a built in turn direction I must plan before I need it.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Describe the visual glideslope guidance at 1A3.",
+  "a": "<b>A two light PAPI on the left side of each runway end: 3.00 degrees for runway 2 and 4.00 degrees for runway 20.</b> A two box PAPI gives one red and one white on path, two white high and two red low, so it is coarser than the four box version. Note also that each PAPI is sighted to its own threshold, which on runway 20 is 140 feet down the pavement, so flying the PAPI to touchdown already puts me past the displaced threshold rather than at the runway end.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Why would the runway 20 PAPI be set at 4 degrees instead of the usual 3?",
+  "a": "<b>Because something on the approach requires a steeper path to clear it; a 4 degree PAPI is the visual evidence of an obstacle or terrain problem off that end.</b> The airport record also publishes a 19 to 1 approach ratio to the displaced threshold on runway 20. A 19 to 1 slope is about 3.0 degrees, so the 4 degree PAPI is deliberately steeper than the minimum clearance slope. I treat the steeper PAPI as the airport telling me where the obstacles are.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What does flying a 4-degree path do to your rate of descent on final?",
+  "a": "<b>It raises it by about a third over a 3 degree path.</b> Rate of descent in feet per minute is roughly groundspeed in knots times 101.3 times the tangent of the path angle. At 70 knots groundspeed a 3 degree path is about 370 feet per minute and a 4 degree path about 495 feet per minute. That extra 125 feet per minute arrives with the throttle further back, so I watch for carburetor ice, and I resist the instinct to let the airspeed build to make the descent feel normal.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What does a steeper-than-normal visual path do to your landing?",
+  "a": "<b>Less air distance from 50 feet to touchdown, so I touch down nearer the threshold, but a higher sink rate to arrest in the flare and less margin for carrying extra speed.</b> If I fly the 4 degree PAPI at the right speed I land short and stop short, which is what I want on 3,360 feet. If I fly it fast I either float past the arrows and eat the margin, or I check the sink late and arrive hard. The answer is speed discipline on short final, not technique in the flare.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "The airport record gives 19 to 1 on runway 20 and 17 to 1 on runway 2. What are those?",
+  "a": "<b>Approach slope ratios: the horizontal distance per foot of height needed to clear the controlling obstacle on that approach, measured to the threshold.</b> A 19 to 1 ratio is a slope of about 3.0 degrees and 17 to 1 is about 3.4 degrees. The steeper the ratio, the closer or taller the controlling obstacle. Note that the 19 to 1 on runway 20 is measured to the displaced threshold, which is itself 140 feet down the pavement, so the displacement is part of how the clearance was achieved.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Runway 2 has a 3-degree PAPI but a 17 to 1 approach ratio. Does that combination bother you?",
+  "a": "<b>Yes, and it is worth resolving on the ground rather than on short final.</b> A 17 to 1 ratio is about 3.4 degrees, which is steeper than the 3.00 degree PAPI, so on the published figures the PAPI path is shallower than the slope that clears the controlling obstacle. I would read the full Chart Supplement entry for 1A3, look for an obstruction note or a remark on the runway 2 approach, check NOTAMs for the PAPI and the obstacle, and telephone the airport manager if it is still unclear.",
+  "kind": "determine",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Compute the density altitude at 1A3 on a warm afternoon.",
+  "a": "<b>Standard temperature at the 1,789 foot field elevation is about 11.4 degrees Celsius, so every degree above that adds roughly 120 feet.</b> At 25 degrees Celsius the deviation is 13.6 degrees, so density altitude is about 1,789 plus 1,630, roughly 3,400 feet. At 30 degrees it is near 4,000 feet. Pressure altitude first, from the actual altimeter setting, then the temperature correction; an E6B or the Section 5 density altitude chart gives the same number.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What is the standard temperature at 1,789 feet, and why do you care?",
+  "a": "<b>About 11.4 degrees Celsius, from 15 degrees at sea level less 2 degrees per thousand feet.</b> I care because every performance correction on this field starts from the deviation between the actual temperature and that figure. The trap at a mountain field is reading the OAT as cold because the air feels cold, when on a sunny afternoon the field can be well above standard for its elevation, and the airplane behaves as if it were at 3,000 or 4,000 feet rather than 1,789.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What does a 25-degree day do to your takeoff roll out of 1A3?",
+  "a": "<b>It lengthens it substantially, because the airplane is operating at roughly 3,400 feet of density altitude rather than 1,789, with less thrust from the propeller, less power from the engine and more true airspeed needed for the same indicated rotation speed.</b> The number comes from the takeoff distance chart in Section 5 of VB-880 at that pressure altitude and temperature. The trap is entering the chart at field elevation instead of density altitude conditions and getting a comfortable answer that the airplane will not deliver.",
+  "kind": "determine",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Give me your takeoff distance out of 1A3 and tell me if 3,500 feet is enough.",
+  "a": "<b>Read ground roll and total distance over a 50 foot obstacle from the takeoff chart in Section 5 of VB-880, entered at the 1A3 pressure altitude, the actual temperature and the actual takeoff weight, then correct for wind and runway slope.</b> Compare against 3,500 feet of takeoff run, remembering that the pavement behind the displaced threshold is usable for the takeoff roll. The real question is not whether I get airborne but whether I clear what is beyond the end, which is why the 50 foot distance matters more than the ground roll.",
+  "kind": "determine",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Time, fuel and distance to climb out of 1A3 on the way home?",
+  "a": "<b>Same two lookup subtraction, but starting 1,688 feet higher than at Walterboro, so the climb segment takes longer and burns more for the same cruise altitude.</b> Enter the climb chart in Section 5 of VB-880 at cruise pressure altitude and temperature, enter it again at the 1A3 pressure altitude and temperature, and subtract. The trap at a mountain field is that the terrain ahead does not wait for the chart, so I also check that the resulting rate of climb will clear the rising ground on departure.",
+  "kind": "determine",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Give me your landing distance at 1A3 and compare it with what you have.",
+  "a": "<b>Read ground roll and total distance over a 50 foot obstacle from the landing chart in Section 5 of VB-880 at the 1A3 pressure altitude, temperature and landing weight, then compare against 3,410 feet available on runway 2 or 3,360 feet on runway 20.</b> Correct for any tailwind component, which on this short a runway dominates everything else. Then add a personal factor, because the chart figure assumes a new airplane, a dry runway, maximum braking and a touchdown right at the threshold.",
+  "kind": "determine",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What safety factor do you apply to the book landing distance, and why?",
+  "a": "<b>I add at least 50 percent, so I want the available landing distance to be at least one and a half times the book figure, and I use more on a short mountain runway.</b> The chart numbers come from a factory test pilot in a new airframe, flying the exact speed, touching down on the numbers and braking hard, on a dry level surface. None of those describe me arriving at 1A3 after two hours in turbulence. The published figure is a best case, not a planning number.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "The remark reads 8400 FT MTN RIDGES IN APCH; 5000 FT MTN RIDGE ALONG E SIDE OF RWY. What does that mean?",
+  "a": "<b>Read the Chart Supplement entry for 1A3 yourself and work out whether those figures are elevations above mean sea level or distances from the runway, because the entry as published is ambiguous.</b> 8,400 feet would be higher than anything in Tennessee, which argues for distance, but do not take my word for it; compare the figures against the terrain contours, spot elevations and MEF boxes around Copperhill on the sectional, and if they still do not reconcile, telephone the airport manager and ask.",
+  "kind": "determine",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Does it matter which reading of that remark is correct?",
+  "a": "<b>Yes, and it matters either way, which is why you resolve it before you go.</b> Read as elevations, those figures would set the minimum altitude at which I may approach the valley at all and would make the arrival an exercise in terrain clearance. Read as distances, they tell me how close the ridges sit to the final approach and to the east side of the runway, which sets my pattern size, my go around turn direction and whether a right hand pattern on runway 20 is merely published or physically mandatory.",
+  "kind": "determine",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What traffic pattern altitude will you fly at 1A3?",
+  "a": "<b>Check the Chart Supplement entry for a published traffic pattern altitude, because mountain fields often publish something other than 1,000 feet above the field.</b> If none is published, the standard for a light single is 1,000 feet above airport elevation, which at a 1,789 foot field is 2,789 feet mean sea level. Write the mean sea level figure on the log, not the above ground figure, because at 1,789 feet of field elevation the two numbers are far enough apart to cause a real error in the pattern.",
+  "kind": "determine",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What does WILDLIFE INVOF RWY mean for your arrival?",
+  "a": "<b>Wildlife in the vicinity of the runway, which at a mountain field in late November means deer at dusk and dawn more than birds.</b> I plan to arrive in good light, overfly the field above pattern altitude and look at the runway and the grass either side before descending, use the landing light, keep the approach speed honest so I have braking margin, and be ready to go around. On a 3,360 foot runway with a ridge on the east side, a late go around for a deer is not a comfortable maneuver.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What is your go-around decision point landing at 1A3?",
+  "a": "<b>I set two gates and brief them out loud: stable on speed and on the PAPI by 300 feet above the field, and touched down within the first third of the available landing distance.</b> On 3,360 feet the first third is about 1,120 feet past the displaced threshold. If either gate is missed, I go around. At a one runway field in a valley the go around also needs a direction decided in advance, which on runway 20 means following the published right hand pattern away from the ridge.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What is the maximum gross weight of this airplane?",
+  "a": "<b>2,325 pounds in the normal category and 2,020 pounds in utility, from FAA Type Certificate Data Sheet 2A13 item XVI-A, which covers serials 28-7716001 through 28-8216300.</b> Serial 28-8116257 falls in that block. Maximum baggage is 200 pounds in the normal category and zero in utility. I use 2,325 pounds, not the 2,440 pounds printed in later revisions of the Warrior II handbook, because that number belongs to a different serial range.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Why isn't the gross weight 2,440 pounds? The handbook says 2,440.",
+  "a": "<b>Because the handbook in front of me is the wrong revision for this serial number.</b> Piper Report VB-1180 covers serials 28-8316001 and up and prints 2,440 pounds; the airplane is serial 28-8116257, which belongs to Report VB-880 and to Type Certificate Data Sheet 2A13 item XVI-A, where the normal category maximum takeoff weight is 2,325 pounds. The airframe is the same Warrior II, but the weights, anything that scales with weight, and the whole of Section 5 do not carry across.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Run the weight and balance for you, me, 25 pounds of bags and full fuel.",
+  "a": "<b>At 220 pounds for me, 280 for you in the front seats, 25 pounds of baggage and 48 gallons of fuel, the airplane comes out at 2,277 pounds with the center of gravity at 87.45 inches aft of datum.</b> That is 48 pounds under the 2,325 pound maximum and inside the envelope. Front seats are at 80.5 inches, rear seats at 118.1, fuel at 95.0 and baggage at 142.8; full fuel is 48 gallons at 6 pounds per gallon, which is 288 pounds at a moment of 27,360 inch pounds.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What is your forward CG limit at 2,277 pounds, and how did you get it?",
+  "a": "<b>About 86.5 inches, by straight line interpolation between 83.0 inches at 1,950 pounds and below and 87.0 inches at the 2,325 pound maximum.</b> The slope is 4.0 inches over 375 pounds, which is 0.01067 inches per pound; 2,277 less 1,950 is 327 pounds, times 0.01067 is 3.49 inches, added to 83.0 gives 86.49. The aft limit is 93.0 inches and does not vary with weight. Those limits must be confirmed against the envelope in Report VB-880 for this serial.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "How much margin do you have at the forward limit, and is that comfortable?",
+  "a": "<b>0.96 inches, since the loaded center of gravity is 87.45 inches and the forward limit at 2,277 pounds is about 86.49 inches.</b> Legal, but less than an inch, and that is exactly the situation the previous candidate on this ride was asked about. The margin is small because two heavy adults sit at 80.5 inches, well forward, and nothing of consequence is loaded aft. It is a loading problem with a loading answer, not a reason to leave fuel behind.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What happens to the center of gravity as you burn fuel on the way to Copperhill?",
+  "a": "<b>It moves forward, because the fuel arm of 95.0 inches is aft of the loaded center of gravity at 87.45 inches, so removing weight from behind the CG pulls the CG forward.</b> Burning the planned 22.1 gallons, about 133 pounds, takes the airplane from 2,277 pounds at 87.45 inches to roughly 2,144 pounds at about 86.98 inches. So the center of gravity itself travels about half an inch forward over the leg, and it keeps going if I fly longer.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "So does burning fuel take you closer to the forward limit on this flight?",
+  "a": "<b>No, it actually takes you further from it, and this catches people out.</b> The center of gravity moves forward about 0.47 inches, from 87.45 to about 86.98 inches, but because the forward limit slopes it moves forward faster: at 2,144 pounds it is about 85.07 inches rather than 86.49. So the margin grows from 0.96 inches at takeoff to about 1.9 inches at landing. The correct answer is that both the CG and the limit move, and you must plot takeoff and landing conditions, not just one.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What if you leave the 25 pounds of bags behind to save weight?",
+  "a": "<b>It makes the forward CG problem worse, not better.</b> Taking the 25 pounds out of the 142.8 inch baggage compartment removes 3,570 inch pounds of aft moment, leaving 2,252 pounds at about 86.83 inches against a forward limit of about 86.22 inches, so the margin shrinks from 0.96 inches to roughly 0.61. On this loading the baggage is ballast that is helping. The reflex to throw weight off an airplane that is not over gross is the wrong reflex.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "How much baggage could you add before you hit gross, and where does that put the CG?",
+  "a": "<b>48 pounds takes the airplane to the 2,325 pound maximum, and it puts the center of gravity at about 88.6 inches.</b> Each pound at the 142.8 inch baggage arm adds 142.8 inch pounds; 48 pounds adds 6,854 inch pounds to the 199,123 inch pound total, giving 205,977 inch pounds over 2,325 pounds. The forward limit at gross is 87.0 inches, so the margin goes from 0.96 inches to about 1.6, and the aft limit of 93.0 inches is still well away. Baggage limit is 200 pounds, so volume is not the issue; gross weight is.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What does a forward center of gravity do to the airplane?",
+  "a": "<b>It makes it more longitudinally stable and less maneuverable, and it costs performance.</b> The longer arm from the CG to the horizontal tail means a stronger nose down restoring moment, heavier elevator forces, more download on the tail to trim, and therefore more effective weight on the wing: higher stall speed, higher cruise drag, slightly reduced cruise speed and a longer takeoff run. It also makes the flare heavier, which on 3,360 feet of mountain runway matters.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What does forward CG do to your stall speed and your landing at 1A3?",
+  "a": "<b>It raises the stall speed, because the tail download has to be carried by the wing as if it were extra weight, and it makes the flare heavier.</b> Arriving at 1A3 on the 4 degree PAPI with a forward CG, I will need more back pressure and more trim to check the sink rate, and if I am a little fast the airplane will want to land flat or on the nose wheel. The fix is speed discipline and trim, and recognizing before departure that the loading is nose heavy.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Give me the loading arms for this airplane.",
+  "a": "<b>Front seats 80.5 inches, rear seats 118.1 inches, fuel 95.0 inches, baggage 142.8 inches, all aft of datum, with a maximum of 200 pounds in the baggage compartment.</b> The handbook also uses a start, taxi and run up allowance of minus 7 pounds at the 95.0 inch fuel arm, which is minus 665 inch pounds. Those arms are geometry, seat and tank positions, so they are the same across the Warrior II serial range even though the weights and the envelope are not.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Where is the datum on this airplane?",
+  "a": "<b>78.4 inches ahead of the wing leading edge at the inboard intersection of the straight and tapered section of the wing.</b> It is an arbitrary reference point chosen by the manufacturer, placed ahead of the airframe so that every arm is a positive number and nobody has to handle negative moments. Every arm on the loading form, 80.5 for the front seats through 142.8 for the baggage, is measured aft from that point, and so is every center of gravity limit.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What is the aft limit, and are you anywhere near it?",
+  "a": "<b>93.0 inches, constant at all weights, and at 87.45 inches I am 5.55 inches forward of it.</b> With two adults in the front seats, nobody in the rear and only 25 pounds of baggage, this loading cannot get near the aft limit. The aft limit would come into play with rear seat passengers and a loaded baggage compartment, and that is the loading that reduces stability, lightens the elevator and makes stall recovery harder. On this trip the forward end is the one to watch.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Is the center of gravity envelope in the handbook you are carrying the right one?",
+  "a": "<b>Not if it is the VB-1180 book: its Section 6 envelope is captioned for a 2,440 pound maximum gross weight and that is not this airplane.</b> The forward limit at the 2,325 pound maximum has to come from the envelope in Piper Report VB-880 for serial 28-8116257. The 83.0 inch forward limit at 1,950 pounds and below and the 93.0 inch aft limit are probably identical, but probably is not a word I want to use on a checkride; I confirm them in the right book.",
+  "kind": "determine",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Where is the maximum baggage weight placarded, and what is it?",
+  "a": "<b>200 pounds in the normal category, placarded on the baggage door, which reads BAGGAGE MAXIMUM 200 LBS.</b> In the utility category it is zero, and the same placard says UTILITY CATEGORY OPERATION, NO BAGGAGE OR AFT PASSENGERS ALLOWED. The 200 pound figure is a structural and volume limit rather than one derived from gross weight, so unlike the weights it is the same across the Warrior II serial range. On this flight the limit that bites first is gross weight, not the 200 pounds.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "There is no weather reporting at 1A3. How do you get destination weather?",
+  "a": "<b>I build it from the nearest reporting stations and the area forecasts, and I accept that I will never have an observation of the field itself.</b> The Chart Supplement gives the nearest automated station as the AWOS-3PT at Blairsville, Georgia, KDZJ, 20 nautical miles southeast on 119.325. I pair that with the nearest terminal aerodrome forecasts, the Graphical Forecast for Aviation, PIREPs, satellite and radar, and a telephone call to the airport manager or a local operator.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What is an AWOS-3PT, and what does it report?",
+  "a": "<b>An automated weather observing system, type 3, with precipitation type and thunderstorm or lightning sensing added.</b> A basic AWOS-3 gives wind, visibility, sky condition and ceiling, temperature, dew point, altimeter setting and density altitude; the P adds precipitation type and the T adds thunderstorm or lightning reporting. Blairsville broadcasts on 119.325. It is unattended and sensor based, so it reports what is over the sensor and nothing about what is over the ridge.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Blairsville is 20 nautical miles away. Is that good enough for Copperhill?",
+  "a": "<b>No, it is an input, not a substitute.</b> Twenty nautical miles in mountainous terrain can be a different airmass: different valley, different elevation, different exposure to the wind, and ridges in between that generate their own cloud, turbulence and fog. A clear Blairsville observation does not guarantee Copperhill is open, and a poor one does not guarantee it is closed. I use it for altimeter setting and trend and treat the arrival as one I may have to abandon.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What altimeter setting do you use arriving at 1A3, and what does the rule say?",
+  "a": "<b>14 CFR 91.121, Altimeter settings: below 18,000 feet MSL, set to the current reported setting of a station along the route within 100 nautical miles; if none is available, use the setting at the departure airport; and if neither is available, set the elevation of the departure airport.</b> With no reporting at 1A3 the practical source is Blairsville on 119.325, 20 nautical miles away and well inside the 100 nautical mile radius, or an altimeter setting from Atlanta Center.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Where does your destination forecast come from if 1A3 has no TAF?",
+  "a": "<b>From the nearest terminal aerodrome forecast sites around the destination plus the Graphical Forecast for Aviation, read as a picture rather than a point.</b> Identify the reporting and forecast airports on the sectional and in the Chart Supplement within 30 to 40 nautical miles, note their elevations, and adjust mentally for the fact that 1A3 sits higher in a valley. The trap is treating the nearest TAF as if it applied over the ridge; in mountain terrain it is an indication of the airmass, nothing more.",
+  "kind": "determine",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What is the Graphical Forecast for Aviation, and how do you use it on this leg?",
+  "a": "<b>A set of web based graphics that replaced the textual area forecast, showing observations and forecasts of clouds, visibility, precipitation, winds and icing at three hour steps out to eighteen hours.</b> On a 223 mile leg it is how I see the whole route at once and spot where the ceiling slopes down into the terrain. I use it to pick the altitude and the go, no go gate, then confirm the detail with METARs, TAFs, PIREPs and the winds aloft forecast before departure.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Define AIRMET and SIGMET, and tell me the types.",
+  "a": "<b>An AIRMET is an in flight advisory of weather hazardous to light aircraft; a SIGMET is an advisory of weather significant to the safety of all aircraft.</b> AIRMETs come as Sierra for mountain obscuration and instrument flight rules conditions, Tango for moderate turbulence and sustained surface winds of 30 knots or more and low level wind shear, and Zulu for moderate icing and freezing levels. SIGMETs cover severe turbulence, severe icing and widespread dust or sandstorms; convective SIGMETs cover thunderstorms.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Which AIRMET would you be watching most closely on this route?",
+  "a": "<b>Sierra, for mountain obscuration, because it is the one that closes Copperhill without closing anything else.</b> Tango matters because wind across ridges makes the last fifty miles unpleasant and makes the arrival into a one runway valley field marginal, and Zulu matters in late November because the freezing level can sit at or below my cruise altitude. Mountain obscuration is the one that turns a legal VFR flight into a flight with nowhere to go.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What is mountain wave, and what conditions produce it?",
+  "a": "<b>A standing wave pattern set up downwind of a ridge when stable air is forced over it.</b> The ingredients are wind of about 25 knots or more roughly perpendicular to the ridge line, wind speed increasing with height, and a stable layer at or just above the ridge tops. The result is smooth strong lift on the upwind side, strong sink on the lee side, and violent rotor turbulence beneath the wave crests, with the sink and the rotor both capable of exceeding what a 160 horsepower Warrior can climb through.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What would tell you mountain wave is likely before you take off?",
+  "a": "<b>The winds aloft forecast and the cloud forms.</b> Look for 25 knots or more at ridge top level, roughly perpendicular to the ridges, strengthening with altitude; an AIRMET Tango; PIREPs of moderate or greater turbulence in the lee of the mountains; and lenticular, cap and rotor clouds reported or visible. In dry air the wave can be present with no cloud at all, which is the dangerous case, so the winds aloft forecast is the primary clue rather than the satellite picture.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "You hit a strong downdraft crossing a ridge in this Warrior. What do you do?",
+  "a": "<b>Turn toward lower terrain immediately, usually a turn of about 45 degrees back toward the valley I came from, and accept the altitude loss while I fly out of the sinking air.</b> I do not try to out climb it; a 160 horsepower airplane at 2,277 pounds cannot. I hold best angle or best rate speed, apply full power, and if I am in a wave I may find the descent continues until I leave the sinking air laterally. The prevention is crossing at 45 degrees with height already in hand.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Where is the turbulence worst relative to a ridge, and where is the air rising?",
+  "a": "<b>Air rises on the windward side and sinks on the lee side; the worst turbulence is in the rotor beneath and downwind of the ridge, at and below ridge top height.</b> So I climb on the upwind side where the air helps me, cross with height, and expect sink and rough air once I am past the crest. The practical rule for this route is that the last hour into Copperhill is the rough hour, and the time to decide about it is on the ground at Walterboro.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What is a rotor cloud, and what does it tell you?",
+  "a": "<b>A ragged, churning, roll shaped cloud that forms beneath the crest of a mountain wave, downwind of the ridge, in the layer of reversed and violently turbulent flow.</b> It marks the most severe turbulence associated with a wave and should be avoided entirely; encounters have caused structural damage and loss of control. If I can see rotor cloud, lenticular cloud or a cap cloud over the ridges ahead, the correct answer on this trip is to stay out of the mountains, not to pick my way through.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What is valley fog, and when would you expect it at a place like Copperhill?",
+  "a": "<b>Radiation fog that forms and pools in valleys on clear, calm nights when the ground cools, the air in contact with it cools to the dew point, and the cold dense air drains downhill into the low ground.</b> Expect it around dawn, after a clear calm night, with a small temperature and dew point spread, and expect the airport in the valley to be in it while the ridges above are clear. Late November gives long nights and strong radiational cooling, so it is a real planning item on an early departure home.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "It is late November. What is your icing concern in a Warrior on this route?",
+  "a": "<b>Serious, because the airplane has no ice protection of any kind and is not approved for flight into known icing.</b> I check the freezing level in the winds aloft forecast and in AIRMET Zulu, and I plan a cruise altitude with the freezing level well above me or well below me and visible moisture avoided either way. Carburetor ice is the other half of the answer; the Lycoming O-320 is carbureted and will make ice in cruise and especially on a low power descent.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Talk me through carburetor ice on the descent into 1A3.",
+  "a": "<b>Descending at low power into a humid mountain valley is the classic setup, and in a fixed pitch airplane the first symptom is a slow unexplained drop in RPM followed by roughness.</b> I apply full carburetor heat before reducing power, leave it on through the descent, and expect a further RPM drop and possible roughness as the ice melts. Partial heat can be worse than none because it can raise induction air into the icing range. Heat air is unfiltered, so I take it off before taxiing in dust.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What is afternoon convection going to do to this trip?",
+  "a": "<b>Mountain terrain heats faster than the surrounding air and triggers buildups over the ridges in the afternoon, so the same route that is smooth and clear at nine in the morning can be blocked by cells by three.</b> The practical answer on this leg is to go early. If the forecast is for afternoon convection I move the departure, not the arrival; and once airborne, a cell between me and a one runway valley field with no weather reporting is an automatic diversion, not a deviation.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Thunderstorms along this route. What are the hazards and how far do you stay away?",
+  "a": "<b>Severe or extreme turbulence, hail that can be thrown clear of the cloud, lightning, icing, microburst wind shear, heavy rain and a sudden loss of visibility.</b> I stay at least 20 nautical miles from any thunderstorm identified as severe or giving an intense radar echo, I do not fly under an overhanging anvil, and I do not try to pass between two cells. In mountain terrain the cell and the ridge together remove the option of going underneath, which is how a light single ends up boxed in.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "How do you get pilot reports for this route, and how do you file one?",
+  "a": "<b>From Flight Service on 1 800 WX BRIEF or on frequency, from the aviation weather website, from the preflight briefing, and in the air by asking Atlanta Center or Flight Service what they have.</b> I file one by giving Flight Service the location, time, altitude, aircraft type, sky condition, visibility, temperature, wind and the remark. On this route a PIREP of turbulence or mountain obscuration near the ridges is worth more than any forecast, because there are no observing sites up there.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What would make this a no-go for you?",
+  "a": "<b>Mountain obscuration or a ceiling that puts the ridges in cloud; forecast or reported moderate or greater turbulence near the destination; a freezing level at or below cruise with visible moisture; convection along the last fifty miles; or an arrival that lands after dark at an unlit, unattended field with no weather reporting.</b> Any one of those on its own is a no go for this airplane and this leg, and I would rather say so at Walterboro than discover it over the ridges.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What are the external pressures on this trip?",
+  "a": "<b>A paying customer, a destination that only works if the airplane gets there, a limited weather window, the daylight deadline, and the quiet pressure of not wanting to look indecisive on a checkride.</b> External pressure is the E in PAVE and it is the one that makes pilots accept weather they already decided was unacceptable. The countermeasure is to set the limits before the flight, write them down, and give the customer the alternatives early rather than at the last minute.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "The customer has to be in Copperhill tonight and the weather is marginal. What are your options?",
+  "a": "<b>Four, and I offer them in this order: go now and beat the weather; fly as far as the weather stays comfortably visual, land at a suitable field and arrange ground transport for the rest; go tomorrow morning; or do not go at all.</b> If I were instrument rated and current and the airplane were equipped, filing is a fifth option, but that does not help in icing or convection. What I do not do is press on visually toward a valley field with no weather reporting because somebody has an appointment.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "How do you assess risk for this flight?",
+  "a": "<b>With PAVE before the flight and IMSAFE for myself: Pilot, Aircraft, enVironment and External pressures, against Illness, Medication, Stress, Alcohol, Fatigue and Emotion.</b> On this leg the pilot item is mountain experience, the aircraft item is a carbureted 160 horsepower single with no ice protection and a nose heavy loading, the environment item is terrain and a destination with no weather reporting, and the external item is the customer. I also use a written flight risk assessment tool with a score I will not exceed.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What are your personal minimums for this leg?",
+  "a": "<b>Mine are tighter than the regulations and I write them down before I look at the weather: ceilings at least 3,000 feet above the highest terrain on the route, visibility at least 6 statute miles, surface wind and crosswind limits I will not exceed, no flight into forecast moderate turbulence or mountain obscuration, an hour of fuel on board at landing, and wheels down at 1A3 at least an hour before sunset.</b> A personal minimum written after the forecast is not a personal minimum.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "When is sunset on the day of this flight, and why does it matter?",
+  "a": "<b>Look it up for the date and for the destination, not for the departure point: the sunrise and sunset tables in the back of the Chart Supplement, or a flight planning app set to 1A3.</b> It matters because the field has no tower, no attendant, pilot activated lighting described as nonstandard, terrain around a one runway valley and no weather reporting. Late November gives short days, and a 2 hour 8 minute leg that departs late becomes an after dark arrival at a field I have never seen.",
+  "kind": "determine",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "When does night begin, for logging, for currency, and for the lights?",
+  "a": "<b>Three different definitions.</b> For the regulations generally, 14 CFR 1.1, General definitions, says night is the time between the end of evening civil twilight and the beginning of morning civil twilight as published in the Air Almanac. For passenger carrying recency, 14 CFR 61.57(b) uses the period from one hour after sunset to one hour before sunrise. For position lights, 14 CFR 91.209, Aircraft lights, uses sunset to sunrise.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "If you do arrive at 1A3 after dark, what are the issues?",
+  "a": "<b>Pilot activated runway lighting described as nonstandard low intensity, terrain I cannot see, a right hand pattern on runway 20, displaced thresholds, wildlife on the runway, a 4 degree PAPI and no weather reporting to tell me what the valley is doing.</b> Low intensity lights at a mountain field give very little cue to terrain, and the black hole effect on a dark approach causes pilots to fly low. If I cannot be on the ground in daylight, I do not go to 1A3.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What is the specific weather trap at a destination with no reporting in the mountains?",
+  "a": "<b>Believing a nearby observation describes the field.</b> With nothing reporting at 1A3, I can be legally and comfortably visual all the way and arrive to find the valley filled or the ridge obscured, with no way to know until I am there. The answer is to fly the leg with an alternate already chosen that does report, to set a fuel and time point at which I commit or divert, and to treat every arrival at 1A3 as one that may have to be abandoned.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "How do the winds aloft over the ridges differ from the forecast?",
+  "a": "<b>They are stronger and less steady, because the terrain channels and accelerates the flow and because the forecast grid cannot resolve a valley.</b> Expect the wind to speed up through gaps and over crests, to reverse in the lee, to produce shear layers at ridge top height, and to arrive at the surface at Copperhill from a direction the forecast never mentioned. That is why I compute crosswind components for both runway ends at 1A3 before I go, and why I overfly the field before descending.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What density altitude at 1A3 would make you cancel the departure home?",
+  "a": "<b>Whatever density altitude makes the book takeoff distance over a 50 foot obstacle, plus my fifty percent factor, exceed the 3,500 feet available, or makes the climb rate insufficient for the rising ground off the departure end.</b> I compute it rather than guess it: pressure altitude from the actual altimeter setting, then 120 feet per degree Celsius above the 11.4 degree standard temperature for 1,789 feet, then into the Section 5 chart in VB-880. If I have to think hard about it, I offload fuel or wait for the cool of the morning.",
+  "kind": "determine",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What airspace do you expect at Walterboro, and how do you confirm it?",
+  "a": "<b>Read it off the sectional and confirm in the Chart Supplement; the chart symbol tells you everything.</b> A dashed magenta line around the airport means Class E to the surface, a magenta vignette means Class E from 700 feet above ground, a dashed blue line means Class D, segmented magenta on the airport symbol means a non towered field. Check the airport data block on the chart and the Chart Supplement entry for a control tower, and check NOTAMs for any temporary change.",
+  "kind": "determine",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What airspace is over 1A3, and what does its having instrument approaches tell you?",
+  "a": "<b>Read the sectional, but expect the airspace to reflect the fact that 1A3 has RNAV GPS approaches to both runway ends.</b> Published instrument approaches normally come with a Class E transition area lowering the Class E floor over the airport, usually to 700 feet above ground, shown as the inside edge of a magenta vignette. Do not assert the floor from the approaches alone; find the magenta or blue vignette around Copperhill on the chart and read the airspace from the symbol.",
+  "kind": "determine",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Class E starts at 700 AGL over an airport. What is the ceiling of that Class E?",
+  "a": "<b>18,000 feet mean sea level, or more precisely up to but not including 18,000 feet.</b> Class A begins at 18,000 feet MSL, so Class E runs from its 700 foot above ground floor all the way up to the base of Class A. The reason the answer is that simple is that everything above is controlled and nothing else intervenes over that airport. The common error is to answer 1,200 feet or 14,500 feet, which are floors of other Class E areas, not a ceiling.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Why does an airport get a 700-foot Class E floor rather than 1,200?",
+  "a": "<b>Because it has an instrument approach procedure, and the transition area lowers controlled airspace to protect arriving and departing instrument traffic closer to the ground.</b> On the sectional that area is drawn as a magenta vignette whose soft inner edge marks where the Class E floor becomes 700 feet above ground. Outside it, Class E typically begins at 1,200 feet above ground, shown by the blue vignette edge. Below the Class E floor the airspace is Class G.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Give me the VFR cloud clearances in Class E below 10,000 feet.",
+  "a": "<b>14 CFR 91.155, Basic VFR weather minimums: 3 statute miles visibility, 500 feet below, 1,000 feet above and 2,000 feet horizontal from clouds.</b> That applies day and night in Class E at less than 10,000 feet mean sea level. The same figures apply in Class C and Class D, and in Class B the requirement is 3 statute miles and clear of clouds. At and above 10,000 feet MSL in Class E it changes to 5 statute miles with 1,000 feet below, 1,000 above and 1 statute mile horizontal.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What about Class G at 3,000 feet over the mountains on this route?",
+  "a": "<b>It depends on height above the surface, not height above sea level, which is the trap over rising terrain.</b> In Class G at or below 1,200 feet above ground, day, it is 1 statute mile and clear of clouds; at night, 3 statute miles with 500 below, 1,000 above and 2,000 horizontal. Above 1,200 feet above ground but below 10,000 feet MSL, day, it is 1 statute mile with 500, 1,000 and 2,000; at night 3 statute miles with the same clearances.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "You decide to cruise at 10,500. What are your visibility and cloud clearances?",
+  "a": "<b>At and above 10,000 feet mean sea level, in Class E, 5 statute miles visibility with 1,000 feet below, 1,000 feet above and 1 statute mile horizontal from clouds.</b> Note the threshold is 10,000 feet MSL and also more than 1,200 feet above the surface, so climbing through 10,000 changes the requirement. The horizontal clearance jumping from 2,000 feet to a full statute mile is the part people forget, and over mountain terrain a mile of lateral clearance can be hard to find.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What equipment does the airspace on this route require?",
+  "a": "<b>Check it against 14 CFR 91.215, ATC transponder and altitude reporting equipment and use, and 14 CFR 91.225, Automatic Dependent Surveillance-Broadcast (ADS-B) Out equipment and use, after reading which airspace the course actually crosses.</b> In broad terms a Mode C transponder and ADS-B Out are required in Class A, B and C, within the 30 nautical mile Mode C veil around a Class B primary airport, above the Class B or C ceiling to 10,000 feet, and above 10,000 feet MSL excluding airspace at and below 2,500 feet above ground.",
+  "kind": "determine",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Does this route take you anywhere ADS-B Out is required?",
+  "a": "<b>Work it from the chart rather than from memory: look for any Class B or C airspace near the course line and the Mode C veil ring, and decide what cruise altitude you will use.</b> If you plan 10,500 feet, 14 CFR 91.225 applies at and above 10,000 feet MSL except in airspace at and below 2,500 feet above ground. At 6,500 or 8,500 away from Class B and C it generally does not. Either way the airplane's equipment list and the latest ADS-B performance report settle whether it is compliant.",
+  "kind": "determine",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "How do you identify a military training route on the sectional?",
+  "a": "<b>They are drawn as thin gray lines labeled IR or VR with a route number.</b> IR means operations are conducted under instrument flight rules and VR under visual flight rules. I note any that cross my course, check the Chart Supplement for the route description and the scheduling activity, and ask Flight Service or Atlanta Center whether the route is active. Military traffic on these routes can be fast and low, so seeing the line on the chart is only the first step.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What is the difference between IR1206 and IR206?",
+  "a": "<b>The number of digits tells you the altitude band.</b> A four digit number, such as IR1206 or VR1207, identifies a route with no segment flown above 1,500 feet above ground. A three digit number, such as IR206 or VR207, identifies a route that includes one or more segments above 1,500 feet above ground. So a three digit route can reach my cruise altitude while a four digit route lives down where I would be in a descent or a diversion.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Your course crosses a military operations area. Can you fly through it?",
+  "a": "<b>Yes. A MOA is not prohibited to VFR traffic and no clearance is required, but it exists to separate military training from instrument traffic and the activity in it can be aggressive.</b> Before entering I contact the controlling agency or Flight Service to find out whether it is active, I consider flying around or above it, and if I go through I keep a high level of vigilance and lights on. The hours, altitudes and controlling agency are printed on the chart margin panel.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What about a restricted area on your route?",
+  "a": "<b>A restricted area contains hazards to aircraft such as artillery, gunnery or guided missiles, and I may not enter it when it is active without permission from the using or controlling agency.</b> The chart margin panel lists the designator, altitudes, times of use and the controlling agency. If it is cold I may transit, and the controlling agency or Flight Service will tell me. The safe planning answer on a route like this is to draw the course so it misses the area entirely.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What is an alert area and what is a warning area?",
+  "a": "<b>An alert area is airspace containing a high volume of pilot training or an unusual type of aerial activity; no clearance is required and both participating and transiting pilots are equally responsible for collision avoidance.</b> A warning area is airspace from three nautical miles outward from the coast of the United States containing activity hazardous to nonparticipating aircraft; it may be over domestic or international waters, and its purpose is to warn pilots of the hazard.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "How do you find out whether an MOA or a restricted area is hot?",
+  "a": "<b>Read the times of use in the chart margin panel, then confirm on the day.</b> The panel gives the designator, the altitudes, the hours of operation and the controlling agency. For the day of flight I check NOTAMs, including special activity airspace NOTAMs, ask Flight Service during the briefing, and once airborne ask the controlling agency or Atlanta Center directly. Scheduled hours are the plan; the NOTAM and the controller are the fact.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What is the stadium symbol on the chart and why does it matter?",
+  "a": "<b>It marks a stadium that may be subject to a temporary flight restriction during an event.</b> Under 14 CFR 91.145, Management of aircraft operations in the vicinity of aerial demonstrations and major sporting events, and the standing flight data center NOTAM, aircraft are prohibited below 3,000 feet above ground within a 3 nautical mile radius of stadiums seating 30,000 or more people, from one hour before until one hour after the event. The symbol is a reminder to check NOTAMs, since the restriction exists only when the event does.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What is a national security area, and what is a presidential TFR?",
+  "a": "<b>A national security area is airspace where there is a requirement for increased security of ground facilities; pilots are requested to voluntarily avoid flying through it, and it can be made regulatory by NOTAM.</b> A presidential temporary flight restriction is issued under 14 CFR 91.141, Flight restrictions in the proximity of the Presidential and other parties, and it is not voluntary; it moves with the protected person and is published by flight data center NOTAM, so the only way to know is to check NOTAMs on the day.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What services does 1A3 have, and what does it not have?",
+  "a": "<b>It has 100LL by 24 hour credit card self service, a lighted wind indicator, a white and green rotating beacon from sunset to sunrise, pilot activated low intensity runway lights on CTAF 122.9, a two light PAPI at each end and RNAV GPS approaches to both runway ends.</b> It does not have a control tower, a UNICOM, any weather reporting, or approach control on the field; approach and departure service comes from Atlanta Center on 133.1, and an instrument clearance is obtained by telephone.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What does 24-hour credit card self-service fuel mean for your planning?",
+  "a": "<b>It means fuel is theoretically available at any hour and practically available only if the pump and the card reader are working and my card is accepted.</b> There is no attendant to help and no UNICOM to ask. I telephone the airport manager before departure to confirm the pump is serviceable and the price, check NOTAMs for a fuel outage, carry more than one card, and plan the fuel so I could leave again without buying any.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "You land at 1A3 and the card reader is dead. Now what?",
+  "a": "<b>I should never be in a position where that strands me, which is why the leg is planned to arrive with usable fuel rather than reserve only.</b> With 48 gallons usable and about 22 gallons planned for the leg, I land with enough to reach a field that does have fuel. On the day I would telephone the airport manager, whose number is in the Chart Supplement, look for a nearby field with attended fuel, and if nothing works, wait rather than depart on reserves into mountain terrain.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Describe the runway lighting at 1A3 and how you turn it on.",
+  "a": "<b>The Chart Supplement entry reads ACTVT NON STANDARD LIRL RWY 02/20 on CTAF, so the runway edge lights are low intensity, pilot controlled, and activated on 122.9, but the keying sequence is described as nonstandard.</b> The usual pilot controlled lighting sequence is seven, five or three keys of the microphone within five seconds for high, medium or low intensity. Because this one is flagged as nonstandard, read the full Chart Supplement entry for the actual sequence before you depart.",
+  "kind": "determine",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "The lighting remark says NON STANDARD. What should you do about that word?",
+  "a": "<b>Treat it as a direct instruction to go and read the full Chart Supplement entry for 1A3 and the AIM section on pilot control of airport lighting, because the normal three, five and seven click intensities may not apply.</b> Nonstandard can mean a different keying sequence, a different number of clicks, a different on time or lights that do not step through three intensities. Find out on the ground; keying a microphone at a dark mountain field and getting nothing is not the moment to discover the sequence is different.",
+  "kind": "determine",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What does a white and green rotating beacon tell you, and what are the hours here?",
+  "a": "<b>Alternating white and green identifies a lighted land airport, and at 1A3 the beacon operates from sunset to sunrise.</b> A beacon on during daylight hours in Class B, C, D or E surface airspace is a sign that the ground visibility is below 3 statute miles or the ceiling is below 1,000 feet, but at an uncontrolled field like 1A3 with no weather reporting that cue does not exist, because the beacon is simply on a sunset to sunrise schedule.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Who do you talk to at 1A3, and how do you announce yourself?",
+  "a": "<b>Nobody; it is self announce on CTAF 122.9, with no tower and no UNICOM listed.</b> I announce the airport name first and last, give position and intentions ten miles out, entering the pattern, on downwind, base and final, and clear of the runway. In mountain terrain I also overfly the field well above pattern altitude to look for traffic and for the wind indicator, and I keep listening on 122.9 well before I arrive, since other traffic may be on the same shared frequency at nearby fields.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "How would you get an IFR clearance out of 1A3?",
+  "a": "<b>By telephone, which is exactly what the Chart Supplement says: clearance delivery is by telephone and approach and departure service is from Atlanta Center.</b> I would call the clearance delivery number before engine start, get the clearance and a void time, and depart to meet it. The practical point is that there is no clearance delivery frequency on the ground at a valley field, so the plan has to be made on the ramp with the engine shut down, not with the propeller turning.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What is 133.1 at Copperhill, and what is 342.425?",
+  "a": "<b>Approach and departure service from Atlanta Air Route Traffic Control Center through the Mount Oglethorpe remote communications air to ground site: 133.1 is the very high frequency civil frequency and 342.425 is the paired ultra high frequency used by military aircraft.</b> That is my contact for flight following, for an instrument clearance in the air and for an emergency. Coverage depends on altitude, so if I cannot raise Atlanta down in the valley, the answer is to climb.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Where do you find NOTAMs for this trip, and what types are there?",
+  "a": "<b>From the FAA NOTAM search website, from a standard briefing through Flight Service on 1 800 WX BRIEF, or through a flight planning application; AIM, Notice to Air Missions (NOTAM) System, describes the system.</b> The types are NOTAM D, which covers navigation aids, public airports, services and hazards; flight data center NOTAMs, which cover regulatory matters such as temporary flight restrictions and changes to instrument procedures; pointer NOTAMs; special activity airspace NOTAMs; and military NOTAMs.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Which NOTAM would hurt this trip the most?",
+  "a": "<b>One that closes the runway or the fuel at 1A3, or an unlit obstruction or an out of service PAPI at a field with terrain on the approach and no weather reporting.</b> On a route like this I also check for temporary flight restrictions, for special activity airspace, and for GPS interference testing NOTAMs, because the approaches at 1A3 are RNAV GPS and my navigation backup matters more over the mountains. I read them for both airports and along the route, not just the destination.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "How do you confirm fuel and field condition before you go?",
+  "a": "<b>Chart Supplement entry first for the published services, NOTAMs second for what has changed, and then a telephone call to the airport manager, whose number is in the Chart Supplement.</b> At a 24 hour self service field with no attendant and no UNICOM, the phone call is the only way to learn that the pump is down, the runway is being seal coated or the deer fence is broken. The Chart Supplement tells me what is supposed to be there; the phone call tells me what is there today.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What services would you look for at airports along the route, and where?",
+  "a": "<b>Fuel, runway length and surface, lighting, a tower or a common traffic advisory frequency, and whether anybody is on the field; the sectional gives me the quick version and the Chart Supplement gives me the detail.</b> On the chart, the airport data block carries the field elevation, the longest runway, the CTAF and the lighting and fuel symbols, and a star on the symbol means rotating beacon operation. I write two or three such fields on the navigation log as my planned outs.",
+  "kind": "determine",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What do power lines, railroad tracks and a racetrack look like on a sectional?",
+  "a": "<b>Power transmission lines are drawn as a line with small towers along it, railroads as a line with cross ticks, and the various cultural features have their own symbols explained in the chart legend.</b> Read the legend panel on the chart rather than guessing, because the symbols for a dual track railroad, an abandoned railroad, a power line and a pipeline are easy to confuse. Linear features like these make excellent checkpoints in the low country out of Walterboro.",
+  "kind": "determine",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Halfway along, Copperhill is going down. How do you pick a diversion field?",
+  "a": "<b>Fuel, weather, runway and terrain, in that order, and I picked the candidates before I took off.</b> I want a field I can reach with reserve intact, that has reported weather I can actually see, with a runway long enough for the Warrior and terrain I can get into and out of. On this route that usually means a larger field back toward lower ground rather than another small strip deeper in the mountains. I write two or three candidate fields with frequencies on the navigation log.",
+  "kind": "determine",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Show me how you divert in the air with no GPS.",
+  "a": "<b>Fly the airplane, then turn toward the new field before doing anything else.</b> Pick the field off the chart, turn to an approximate heading estimated from the chart, note the time and the fuel, then measure the distance and the course with a plotter or with the finger and the chart scale, compute groundspeed and time from the last known groundspeed, and refine the heading. Then tell ATC, get weather, and brief the arrival. The order matters: heading first, arithmetic second.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "How do you estimate heading, time and fuel to a diversion field quickly?",
+  "a": "<b>Use round numbers.</b> Measure the course against a line of longitude or with a plotter, apply the same wind correction angle you already know works for that general direction, and estimate the distance by eye against the chart scale or the latitude ticks, where one minute of latitude is one nautical mile. At 105 knots I cover 1.75 nautical miles per minute, so divide the distance by 1.75 for minutes, and multiply hours by 8.4 gallons for fuel. Refine once the airplane is pointed the right way.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What do you tell ATC when you divert?",
+  "a": "<b>Who I am, where I am, what I am doing and what I want.</b> On this route that is Atlanta Center on 133.1: call sign, position, altitude, that I am diverting from 1A3 to the new field, and a request for any weather they have and for flight following to it. If I cannot reach them down low I climb, and if the diversion is because of weather closing in, I say so, because that changes the service they will try to give me.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What is your best glide speed, and is the number in your handbook the right one?",
+  "a": "<b>The best glide speed has to come from Piper Report VB-880 for serial 28-8116257, not from the 73 knots printed in the VB-1180 revision.</b> That 73 knot figure and the glide chart it comes from are computed at 2,440 pounds, a weight this airplane cannot reach. Best glide speed decreases with weight, so at 2,277 pounds the correct speed is lower. I read the right book, and in the airplane I fly the speed on the placard and in the emergency checklist for this serial.",
+  "kind": "determine",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Engine failure over the ridges. Where do you go?",
+  "a": "<b>Downhill and downwind toward the valley floor, toward the largest clear area within glide, while I fly best glide and run the restart flow.</b> Over forested ridges the realistic options are a river bank, a field in the valley bottom, a road, a clearcut or a lake shore. I turn toward lower ground immediately rather than spending altitude looking, because altitude over a ridge converts into reach only in the downhill direction, and the valley is where any flat ground will be.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "How does rising terrain affect your glide footprint?",
+  "a": "<b>It cuts it, and it cuts it asymmetrically.</b> The glide range is a ratio of height above the ground, not height above sea level, so flying toward terrain that rises 1,000 feet eats 1,000 feet of glide before I even start. Downhill the footprint stretches; uphill it collapses. That is the practical argument for crossing ridges high and at an angle, and for never routing along a valley at an altitude from which only the valley floor ahead is reachable.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What are your off-airport landing options over unbroken forest?",
+  "a": "<b>Plan for a controlled arrival into the tops rather than a landing, flown at minimum controllable airspeed, wings level, full flaps, fuel and ignition off, doors unlatched and harnesses tight.</b> The aim is to use the canopy to dissipate energy and to protect the cabin. I look for a clearcut, a road, a river or a power line cut first; all of them beat trees. The passenger briefing before departure covers the harness, the doors and the fire extinguisher for exactly this reason.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Lost over the mountains with no GPS. Walk me through it.",
+  "a": "<b>The five Cs: climb, communicate, confess, comply and conserve.</b> Climb for terrain clearance, radio range and radar coverage; communicate with Atlanta Center on 133.1 or Flight Service, or 121.5 if nothing else answers; confess that I am uncertain of my position; comply with the instructions I am given; and conserve fuel by setting an economical power setting and by not wandering. Before any of that, note the time and the heading so the dead reckoning position is not lost too.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Without talking to anyone, how would you fix your position using a VOR?",
+  "a": "<b>Tune and identify a VOR, center the needle with a FROM indication, and that radial is a line of position; where it crosses a road, a river or a ridge I can see on the chart is my position.</b> A second VOR crossed with the first gives a fix without needing ground reference. The trap is the ambiguity between TO and FROM: a centered needle with TO gives the reciprocal radial, and plotting that outbound from the station puts you on exactly the wrong side of it.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "How does terrain affect your radio and radar coverage on this route?",
+  "a": "<b>Both are line of sight, so a ridge between me and the antenna blocks them regardless of how close I am.</b> Low in a valley at Copperhill I may not reach Atlanta Center at all, and radar coverage will be poor or absent. The remedy is altitude: climb before transmitting, and expect to lose both during the descent into 1A3. That is one more reason to tell Center my intentions before I start down rather than after I have lost them.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Who do you call in an emergency on this route, and on what frequency?",
+  "a": "<b>Atlanta Center on 133.1 if I am already in contact or can reach them, otherwise 121.5, the emergency frequency.</b> I squawk 7700 on the transponder, which gets attention even where radio coverage is poor, and I use the word mayday for a distress situation or pan pan for urgency. On the Walterboro end I would use whatever approach control or center frequency I had been working, and near 1A3 I would also broadcast my intentions on CTAF 122.9 so that local traffic knows.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "Would you fly into the valley at Copperhill at dusk with a lowering ceiling?",
+  "a": "<b>No, and I would make that decision long before I was over the valley.</b> A one runway field at 1,789 feet with ridges on the approach and along the east side of the runway, a right hand pattern, no weather reporting, nonstandard pilot activated low intensity lighting and wildlife on the runway is a field to arrive at in good light and good weather. A lowering ceiling at dusk in mountain terrain removes every option at once, which is the definition of a trap.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What is your plan if you simply cannot get into 1A3?",
+  "a": "<b>Divert to the alternate I chose on the ground, with the fuel I planned for that purpose, and tell the customer.</b> I pick an alternate that reports weather, has fuel and has a runway and terrain I can manage, and I set a decision point on the navigation log, defined by both position and fuel, at which I commit to 1A3 or turn. Deciding in advance is what keeps the decision from being made by the weather, the fuel gauge or the customer.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "What do you brief your passenger before this flight?",
+  "a": "<b>Seat belts and harnesses, how the doors and the emergency exit work, the fire extinguisher location, no smoking, the sterile cockpit periods and when I need quiet, what to do if I become incapacitated, and that I would like to be told about any traffic, bird or hazard they see.</b> On this trip I would add the route, the expected two hours and a bit, the turbulence likely near the mountains, and the plain statement that we may divert and that the decision is mine.",
+  "kind": "known",
+  "dup": ""
+ },
+ {
+  "s": "Cross Country Planning",
+  "q": "You clip a runway light landing at 1A3. Is that reportable, and where do you look?",
+  "a": "<b>Look in 49 CFR Part 830, Notification and Reporting of Aircraft Accidents or Incidents and Overdue Aircraft, and Preservation of Aircraft Wreckage, Mail, Cargo, and Records, not in the Federal Aviation Regulations.</b> Part 830 defines an accident by death or serious injury or substantial damage to the aircraft, and 830.5 lists the serious incidents that require immediate notification of the National Transportation Safety Board. Damage to a runway light alone is not on that list; damage to the airplane may change the answer.",
+  "kind": "known",
+  "dup": ""
+ }
+]

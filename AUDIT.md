@@ -208,3 +208,61 @@ All run against the shipped build.
 | External network references in the built file | 0 |
 | JavaScript errors on load, all five tabs | 0 |
 | Horizontal overflow at 390 px, light and dark | none |
+
+---
+
+## 8. Cross-country scenario — KRBW to 1A3
+
+Added after the instructor's call notes indicated the DPE's scenario is
+**Walterboro, SC (KRBW) to Martin Campbell Field, Copperhill, TN (1A3)**.
+169 questions in the Cross Country Planning section, tagged **Cross-country**.
+40 of them are marked **work on the day** and filterable — their real answer
+comes off the chart, the Chart Supplement, the weather or the POH, so the
+question teaches the method and names the trap rather than inventing a value.
+
+*The route is from a record of the call notes, not from the notes themselves —
+they were never saved to a file. Confirm it before relying on it.*
+
+**Verified facts the section is built on**
+
+223 nm, true course 305°, roughly 2 h 08 m at 105 kt, 22–26 gal with reserve
+against 48 usable, so fuel is comfortable. KRBW is 101 ft with three runways,
+longest 6,002 ft. 1A3 is **1,789 ft with one runway, 2/20, 3,500 × 75 ft**,
+displaced thresholds of 90 ft and 140 ft, PAPI 3.00° on runway 2 and **4.00° on
+runway 20**, approach ratios 17:1 and 19:1, non-standard pilot-activated
+lighting on CTAF 122.9, no control tower, **no weather reporting on the field**
+(nearest is Blairsville AWOS 20 nm southeast on 119.325), 100LL by 24-hour card,
+right-hand pattern on runway 20, and a wildlife remark.
+
+**Two things left deliberately unresolved**
+
+- The 1A3 remark reads *"8400 FT MTN RIDGES IN APCH; 5000 FT MTN RIDGE ALONG E
+  SIDE OF RWY."* Those could be elevations or distances. 8,400 ft exceeds any
+  terrain in Tennessee, so distance is the likelier reading, but the guide does
+  not resolve it — it tells him to read the actual Chart Supplement entry.
+- Runway 2 has a 3.00° PAPI against a 17:1 (3.37°) approach ratio, so on the
+  published figures the visual path is *shallower* than the slope clearing the
+  controlling obstacle. Resolve with the Chart Supplement and the airport manager.
+
+### What must still be obtained
+
+**Charts and publications:** current sectional(s) for the whole 223 nm leg (it
+will not be on one sheet); the Chart Supplement entries for both fields, verbatim;
+magnetic variation from the isogonic lines; MEF values for every quadrangle the
+course crosses; where terrain begins to rise; airspace at both ends and en route,
+including Class E floors, MOAs, restricted and alert areas, military training
+routes and any stadium symbols; the legend panel for the cultural symbols he plans
+to use as checkpoints; sunrise, sunset and civil twilight for 24 November.
+
+**From POH VB-880, which is the handbook for this serial:** takeoff and landing
+distance charts for both airports; time, fuel and distance to climb; cruise
+performance (105 kt and 8.4 gph are placeholders); the glide chart and correct
+best glide speed; the CG envelope and forward limit at 2,325 lb; maximum ramp and
+landing weights; Va at his gross; maximum demonstrated crosswind; and Vx, Vy, Vso
+and Vs1 at 2,325 lb with the matching ASI markings.
+
+**By telephone or on the day:** the ridge remark resolved; the non-standard
+light-keying sequence on 122.9; any published traffic pattern altitude at 1A3;
+whether the self-serve pump and card reader are working; winds aloft, freezing
+level, TAFs, GFA, PIREPs and NOTAMs including GPS interference, since 1A3's
+approaches are RNAV only.

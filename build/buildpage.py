@@ -178,6 +178,7 @@ SRCS = [('chs', 'CHS', 'CHS Flight School study guide'),
         ('poh', 'Warrior POH', 'PA-28-161 handbook, TCDS and registry'),
         ('aero','Maneuver', 'The aerodynamics behind each maneuver'),
         ('gouge','Gouge', 'Written to close gaps a real ride with this examiner exposed'),
+        ('xc',  'Cross-country', 'The KRBW to 1A3 planning scenario'),
         ('acs', 'Added', 'Written in to close a gap')]
 SRCN = dict((k, n) for k, n, _ in SRCS)
 
@@ -203,6 +204,8 @@ color:var(--warnc);background:var(--panel);border:1px solid var(--warnc);white-s
 .fcs.aero{color:var(--ok);border-color:var(--ok-line);background:var(--ok-soft)}
 .fcs.ride{color:var(--hook);border-color:var(--hook-line);background:var(--hook-soft)}
 .fcs.fig{color:var(--accent);border-color:var(--accent-line);background:var(--accent-soft)}
+.fcs.day{color:var(--warnc);border-color:var(--warnc);background:var(--panel)}
+.tg.xc{color:var(--ok);background:var(--ok-soft);border:1px solid var(--ok-line)}
 /* ---- run the ride ---- */
 .rstage{border:1px solid var(--line);border-radius:11px;background:var(--panel);margin:0 0 12px;
 overflow:hidden}
@@ -341,6 +344,8 @@ def figure_html(fkey):
 def qrow(it, extra_cls=''):
     docs = it['doc'].split()
     tags = ''.join('<span class="tg %s">%s</span>' % (d, esc(SRCN[d])) for d in docs)
+    if it.get('day'):
+        tags += '<span class="fcs day">work on the day</span>'
     if it.get('g'):
         tags += '<span class="fcs ride">checkride</span>'
     if it.get('focus') == 'sys':
@@ -350,7 +355,7 @@ def qrow(it, extra_cls=''):
     fg = ''.join(figure_html(k) for k in imglist(it))
     if it.get('img'):
         tags += '<span class="fcs fig">figure</span>'
-    return ('<li class="it%s" data-k="%s" data-d="%s"%s%s%s>'
+    return ('<li class="it%s" data-k="%s" data-d="%s"%s%s%s%s>'
             '<button class="tick" aria-label="mark done"></button><div class="qc">'
             '<button class="qb"><span class="qt">%s</span>%s</button>'
             '<div class="ans">%s%s</div></div></li>'
@@ -358,6 +363,7 @@ def qrow(it, extra_cls=''):
                ((' data-f="%s"' % it['focus']) if it.get('focus') else ''),
                (' data-g="1"' if it.get('g') else ''),
                (' data-img="1"' if it.get('img') else ''),
+               (' data-day="1"' if it.get('day') else ''),
                esc(it['q']), tags, it['a'], fg))
 
 study, nav = [], []
@@ -583,6 +589,7 @@ fuel = wbd['fuel']
 nq = sum(len(s['items']) for s in db)
 nfocus = collections.Counter(it.get('focus') for s in db for it in s['items'])
 nride = sum(1 for s in db for it in s['items'] if it.get('g'))
+nday = sum(1 for s in db for it in s['items'] if it.get('day'))
 nacr = sum(len(g['items']) for g in acr['groups'])
 ride = datetime.date(2026, 11, 24)
 today = datetime.date.today()
@@ -627,6 +634,7 @@ Tap a question to see the answer, tick it when you own it. Progress is saved on 
 <button class="fb on" data-m="all">All</button>
 <button class="fb" data-m="todo">To do</button>
 <button class="fb" data-m="ride">Checkride</button>
+<button class="fb" data-m="day">On the day</button>
 <button class="fb" data-m="fig">Figures</button>
 <button class="fb" data-m="sys">Systems</button>
 <button class="fb" data-m="aero">Maneuver</button>
@@ -737,4 +745,5 @@ open('commercial-study-guide.html', 'w', encoding='utf-8').write(doc)
 mb = len(doc.encode('utf-8')) / 1048576.0
 print('questions %d  systems %d  aero %d  asked-on-ride %d  acronyms %d  figures %d raster + %d svg'
       % (nq, nfocus['sys'], nfocus['aero'], nride, nacr, len(used), len(SVG)))
+print('   on-the-day items: %d' % nday)
 print('wrote commercial-study-guide.html  %.2f MB' % mb)
